@@ -22,4 +22,8 @@
     End Sub
     Private Sub Readfilehero()
     End Sub
+
+    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
+        Label14.Text = TextBox2.Text & " Stats"
+    End Sub
 End Class
