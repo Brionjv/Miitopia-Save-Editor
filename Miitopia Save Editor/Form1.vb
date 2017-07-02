@@ -16,9 +16,16 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim open As New OpenFileDialog
-        fdialog.Label1.Text = "Miitopia Save Editor"
-        fdialog.Label2.Text = "Open common.sav file" & vbNewLine & "Backup your save file before use" & vbNewLine & "Miitopia Save Editor"
-        fdialog.ShowDialog()
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            fdialog.Label1.Text = "Miitopia Save Editor"
+            fdialog.Label2.Text = "Open common.sav file" & vbNewLine & "Backup your save file before use" & vbNewLine & "Miitopia Save Editor"
+            fdialog.ShowDialog()
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            fdialog.Label1.Text = "Miitopia Save Editor"
+            fdialog.Label2.Text = "Ouvrir le fichier common.sav" & vbNewLine & "Faites une copie de votre sauvegarde avant d'utiliser" & vbNewLine & "Miitopia Save Editor"
+            fdialog.ShowDialog()
+        End If
         open.Filter = "SAV files|*.sav"
         open.Title = "Open save common.sav"
         open.ShowDialog()
@@ -39,33 +46,36 @@
             NumericUpDown6.Value = Reader.ReadUInt16
             Reader.Position = &H130
             NumericUpDown5.Value = Reader.ReadUInt16
-            Catch ex As Exception
-            fdialog.Label1.Text = "common.sav"
-            fdialog.Label2.Text = "common.sav not load" & vbNewLine & "Save file can be corrupted or not Miitopia 'common.sav'"
-            fdialog.ShowDialog()
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav"
+                fdialog.Label2.Text = "common.sav not load" & vbNewLine & "Save file can be corrupted or not Miitopia 'common.sav'"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav"
+                fdialog.Label2.Text = "L'ouverture de common.sav a échoué" & vbNewLine & "La sauvegarde peut être corrompu ou n'est pas 'common.sav' de Miitopia"
+                fdialog.ShowDialog()
+            End If
             End Try
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim open1 As New OpenFileDialog
-        fdialog.Label1.Text = "Miitopia Save Editor"
-        fdialog.Label2.Text = "hero.sav not load" & vbNewLine & "Save file can be corrupted or not Miitopia 'hero.sav'"
-        fdialog.ShowDialog()
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            fdialog.Label1.Text = "Miitopia Save Editor"
+            fdialog.Label2.Text = "Open hero.sav file" & vbNewLine & "Backup your save file before use" & vbNewLine & "Miitopia Save Editor"
+            fdialog.ShowDialog()
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            fdialog.Label1.Text = "Miitopia Save Editor"
+            fdialog.Label2.Text = "Ouvrir le fichier hero.sav" & vbNewLine & "Faites une copie de votre sauvegarde avant d'utiliser" & vbNewLine & "Miitopia Save Editor"
+            fdialog.ShowDialog()
+        End If
         open1.Filter = "SAV files|*.sav"
         open1.Title = "Open save hero.sav"
         open1.ShowDialog()
         hero = open1.FileName
-        Readfilehero()
-    End Sub
-
-    Private Sub Readfilehero()
-        Try
-
-        Catch ex As Exception
-            fdialog.Label1.Text = "hero.sav"
-            fdialog.Label2.Text = "hero.sav not load"
-            fdialog.ShowDialog()
-        End Try
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
@@ -209,9 +219,16 @@
                 NumericUpDown15.Value = Reader.ReadUInt32
             End If
         Catch ex As Exception
-            fdialog.Label1.Text = "hero.sav : select Mii"
-            fdialog.Label2.Text = "An error has occured, load hero.sav first"
-            fdialog.ShowDialog()
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "hero.sav : select Mii"
+                fdialog.Label2.Text = "An error has occured, load hero.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "hero.sav : sélectionner Mii"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez hero.sav avant"
+                fdialog.ShowDialog()
+            End If
         End Try
     End Sub
 
@@ -222,20 +239,39 @@
                 Writer.Position = &H2C
                 Writer.WriteInt8(NumericUpDown2.Value)
             Next
-            fdialog.Label1.Text = "common.sav : foods"
-            fdialog.Label2.Text = "All foods has been unlocked"
-            fdialog.ShowDialog()
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : foods"
+                fdialog.Label2.Text = "All foods has been unlocked"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : nourritures"
+                fdialog.Label2.Text = "Toutes les nourritures ont été débloquées"
+                fdialog.ShowDialog()
+            End If
         Catch ex As Exception
-            fdialog.Label1.Text = "common.sav : foods"
-            fdialog.Label2.Text = "An error has occured, load common.sav first"
-            fdialog.ShowDialog()
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : foods"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : nourritures"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
         End Try
     End Sub
 
     Private Sub PictureBox3_MouseMove(sender As Object, e As EventArgs) Handles PictureBox3.MouseMove
         PictureBox3.BorderStyle = BorderStyle.FixedSingle
         Label2.Visible = True
-        Label2.Text = "Click to unlock all foods by numbers"
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Click to unlock all foods by numbers"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Cliquez pour débloquer toutes les nourritures par nombres"
+        End If
     End Sub
 
     Private Sub PictureBox3_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox3.MouseLeave
@@ -248,20 +284,39 @@
             Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
             Writer.Position = &H100
             Writer.WriteUInt16(255)
-            fdialog.Label1.Text = "common.sav : salt shakers"
-            fdialog.Label2.Text = "All salt shakers has been unlocked"
-            fdialog.ShowDialog()
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : salt shakers"
+                fdialog.Label2.Text = "All salt shakers has been unlocked"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : salières"
+                fdialog.Label2.Text = "Toutes les salières ont été débloquées"
+                fdialog.ShowDialog()
+            End If
         Catch ex As Exception
-            fdialog.Label1.Text = "common.sav : salt shakers"
-            fdialog.Label2.Text = "An error has occured, load common.sav first"
-            fdialog.ShowDialog()
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : salt shakers"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : salières"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
         End Try
     End Sub
 
     Private Sub PictureBox7_MouseMove(sender As Object, e As EventArgs) Handles PictureBox7.MouseMove
         PictureBox7.BorderStyle = BorderStyle.None
         Label2.Visible = True
-        Label2.Text = "Click to unlock all salt shakers"
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Click to unlock all salt shakers"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Cliquez pour débloquer toutes les salières"
+        End If
     End Sub
 
     Private Sub PictureBox7_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox7.MouseLeave
@@ -282,90 +337,120 @@
             Writer.WriteUInt16(NumericUpDown6.Value)
             Writer.Position = &H130
             Writer.WriteUInt16(NumericUpDown5.Value)
-            fdialog.Label1.Text = "Miitopia Save Editor : common.sav"
-            fdialog.Label2.Text = "File save"
-            fdialog.ShowDialog()
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : common.sav"
+                fdialog.Label2.Text = "File save"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : common.sav"
+                fdialog.Label2.Text = "Fichier sauvegardé"
+                fdialog.ShowDialog()
+            End If
         Catch ex As Exception
-            fdialog.Label1.Text = "Miitopia Save Editor : common.sav"
-            fdialog.Label2.Text = "An error has occured"
-            fdialog.ShowDialog()
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : common.sav"
+                fdialog.Label2.Text = "An error has occured"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : common.sav"
+                fdialog.Label2.Text = "Une erreur est survenue"
+                fdialog.ShowDialog()
+            End If
         End Try
     End Sub
 
     Private Sub NumericUpDown7_ValueChanged(sender As Object, e As EventArgs) Handles NumericUpDown7.ValueChanged
         If NumericUpDown7.Value = 0 Then
-            ComboBox2.SelectedItem = ComboBox2.Items.Item(0)
-        ElseIf NumericUpDown7.Value = 1 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(1)
-        ElseIf NumericUpDown7.Value = 2 Then
+        ElseIf NumericUpDown7.Value = 1 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(2)
-        ElseIf NumericUpDown7.Value = 3 Then
+        ElseIf NumericUpDown7.Value = 2 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(3)
-        ElseIf NumericUpDown7.Value = 4 Then
+        ElseIf NumericUpDown7.Value = 3 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(4)
-        ElseIf NumericUpDown7.Value = 5 Then
+        ElseIf NumericUpDown7.Value = 4 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(5)
-        ElseIf NumericUpDown7.Value = 6 Then
+        ElseIf NumericUpDown7.Value = 5 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(6)
-        ElseIf NumericUpDown7.Value = 7 Then
+        ElseIf NumericUpDown7.Value = 6 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(7)
-        ElseIf NumericUpDown7.Value = 8 Then
+        ElseIf NumericUpDown7.Value = 7 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(8)
-        ElseIf NumericUpDown7.Value = 9 Then
+        ElseIf NumericUpDown7.Value = 8 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(9)
-        ElseIf NumericUpDown7.Value = 10 Then
+        ElseIf NumericUpDown7.Value = 9 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(10)
-        ElseIf NumericUpDown7.Value = 11 Then
+        ElseIf NumericUpDown7.Value = 10 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(11)
-        ElseIf NumericUpDown7.Value = 12 Then
+        ElseIf NumericUpDown7.Value = 11 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(12)
-        ElseIf NumericUpDown7.Value = 13 Then
+        ElseIf NumericUpDown7.Value = 12 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(13)
-        ElseIf NumericUpDown7.Value = 14 Then
+        ElseIf NumericUpDown7.Value = 13 Then
             ComboBox2.SelectedItem = ComboBox2.Items.Item(14)
+        ElseIf NumericUpDown7.Value = 14 Then
+            ComboBox2.SelectedItem = ComboBox2.Items.Item(15)
+        ElseIf NumericUpDown7.Value = 255 Then
+            ComboBox2.SelectedItem = ComboBox2.Items.Item(0)
         End If
     End Sub
 
     Private Sub ComboBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox2.SelectedIndexChanged
-        If ComboBox2.SelectedItem = ComboBox2.Items.Item(0) Then
+        If ComboBox2.SelectedItem = ComboBox2.Items.Item(1) Then
             NumericUpDown7.Value = 0
-        ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(1) Then
-            NumericUpDown7.Value = 1
         ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(2) Then
-            NumericUpDown7.Value = 2
+            NumericUpDown7.Value = 1
         ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(3) Then
-            NumericUpDown7.Value = 3
+            NumericUpDown7.Value = 2
         ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(4) Then
-            NumericUpDown7.Value = 4
+            NumericUpDown7.Value = 3
         ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(5) Then
-            NumericUpDown7.Value = 5
+            NumericUpDown7.Value = 4
         ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(6) Then
-            NumericUpDown7.Value = 6
+            NumericUpDown7.Value = 5
         ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(7) Then
-            NumericUpDown7.Value = 7
+            NumericUpDown7.Value = 6
         ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(8) Then
-            NumericUpDown7.Value = 8
+            NumericUpDown7.Value = 7
         ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(9) Then
-            NumericUpDown7.Value = 9
+            NumericUpDown7.Value = 8
         ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(10) Then
-            NumericUpDown7.Value = 10
+            NumericUpDown7.Value = 9
         ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(11) Then
-            NumericUpDown7.Value = 11
+            NumericUpDown7.Value = 10
         ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(12) Then
-            NumericUpDown7.Value = 12
+            NumericUpDown7.Value = 11
         ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(13) Then
-            NumericUpDown7.Value = 13
+            NumericUpDown7.Value = 12
         ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(14) Then
+            NumericUpDown7.Value = 13
+        ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(15) Then
             NumericUpDown7.Value = 14
+        ElseIf ComboBox2.SelectedItem = ComboBox2.Items.Item(0) Then
+            NumericUpDown7.Value = 255
         End If
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ComboBox2.SelectedItem = ComboBox2.Items.Item(0)
+        ComboBox3.SelectedItem = ComboBox3.Items.Item(0)
+        ComboBox3.SelectedItem = My.Settings.langue
+    End Sub
+
+    Private Sub Form1_FormClosing(sender As Object, e As EventArgs) Handles MyBase.FormClosing
+        My.Settings.langue = ComboBox3.SelectedItem
+        My.Settings.Save()
     End Sub
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
-        Label14.Text = TextBox2.Text & " Stats"
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label14.Text = TextBox2.Text & " Stats"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label14.Text = "Stats de " & TextBox2.Text
+        End If
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
@@ -397,13 +482,90 @@
             Writer.WriteUInt32(NumericUpDown14.Value)
             Writer.Position = Miimoneysp
             Writer.WriteUInt32(NumericUpDown15.Value)
-            fdialog.Label1.Text = "Miitopia Save Editor : hero.sav"
-            fdialog.Label2.Text = "File save"
-            fdialog.ShowDialog()
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : hero.sav"
+                fdialog.Label2.Text = "File save"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : hero.sav"
+                fdialog.Label2.Text = "Fichier sauvegardé"
+                fdialog.ShowDialog()
+            End If
         Catch ex As Exception
-            fdialog.Label1.Text = "Miitopia Save Editor : hero.sav"
-            fdialog.Label2.Text = "An error has occured, load hero.sav first"
-            fdialog.ShowDialog()
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : hero.sav"
+                fdialog.Label2.Text = "An error has occured, load hero.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : hero.sav"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez hero.sav avant"
+                fdialog.ShowDialog()
+            End If
         End Try
+    End Sub
+
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
+        Form3.Show()
+    End Sub
+
+    Private Sub PictureBox8_MouseMove(sender As Object, e As EventArgs) Handles PictureBox8.MouseMove
+        PictureBox8.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Click to see credits"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Cliquez pour voir les crédits"
+        End If
+    End Sub
+
+    Private Sub PictureBox8_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox8.MouseLeave
+        PictureBox8.BorderStyle = BorderStyle.None
+        Label2.Visible = False
+    End Sub
+
+    Private Sub ComboBox3_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox3.SelectedIndexChanged
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            TabPage3.Text = "Mii edit"
+            TabPage4.Text = "Mii stats"
+            Button1.Text = "Open"
+            Button2.Text = "Save"
+            Label16.Text = "Foods"
+            Label15.Text = "Salt shakers"
+            Label3.Text = "Rescued : "
+            Button3.Text = "Open"
+            Button4.Text = "Save"
+            Label4.Text = "War cry :"
+            Label5.Text = "Battles"
+            Label6.Text = "Final blows"
+            Label7.Text = "Defeats"
+            Label8.Text = "Times left out of party"
+            Label9.Text = "HP Bananas gobbled"
+            Label10.Text = "MP Candies gulped"
+            Label11.Text = "Grub grubbed"
+            Label12.Text = "Gold grabbed"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            TabPage3.Text = "Edition Mii"
+            TabPage4.Text = "Stats Mii"
+            Button1.Text = "Ouvrir"
+            Button2.Text = "Enregistrer"
+            Label16.Text = "Nourritures"
+            Label15.Text = "Salières"
+            Label3.Text = "Sauvés : "
+            Button3.Text = "Ouvrir"
+            Button4.Text = "Enregistrer"
+            Label4.Text = "Cri de guerre :"
+            Label5.Text = "Combats"
+            Label6.Text = "Coups de grâce"
+            Label7.Text = "Défaites"
+            Label8.Text = "Fois hors du groupe"
+            Label9.Text = "Bananes PV dévorées"
+            Label10.Text = "Bonbons PM avalés"
+            Label11.Text = "Vivres englouties"
+            Label12.Text = "Argent dépensé"
+        End If
     End Sub
 End Class
