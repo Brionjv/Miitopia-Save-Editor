@@ -196,9 +196,9 @@ Partial Class Form1
         '
         Me.NumericUpDown6.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown6.Location = New System.Drawing.Point(278, 193)
-        Me.NumericUpDown6.Maximum = New Decimal(New Integer() {999, 0, 0, 0})
+        Me.NumericUpDown6.Maximum = New Decimal(New Integer() {9999, 0, 0, 0})
         Me.NumericUpDown6.Name = "NumericUpDown6"
-        Me.NumericUpDown6.Size = New System.Drawing.Size(38, 16)
+        Me.NumericUpDown6.Size = New System.Drawing.Size(40, 16)
         Me.NumericUpDown6.TabIndex = 13
         Me.NumericUpDown6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -214,20 +214,20 @@ Partial Class Form1
         'NumericUpDown4
         '
         Me.NumericUpDown4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown4.Location = New System.Drawing.Point(192, 89)
-        Me.NumericUpDown4.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.NumericUpDown4.Location = New System.Drawing.Point(186, 89)
+        Me.NumericUpDown4.Maximum = New Decimal(New Integer() {999, 0, 0, 0})
         Me.NumericUpDown4.Name = "NumericUpDown4"
-        Me.NumericUpDown4.Size = New System.Drawing.Size(30, 16)
+        Me.NumericUpDown4.Size = New System.Drawing.Size(34, 16)
         Me.NumericUpDown4.TabIndex = 8
         Me.NumericUpDown4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'NumericUpDown3
         '
         Me.NumericUpDown3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown3.Location = New System.Drawing.Point(142, 89)
-        Me.NumericUpDown3.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.NumericUpDown3.Location = New System.Drawing.Point(127, 89)
+        Me.NumericUpDown3.Maximum = New Decimal(New Integer() {999, 0, 0, 0})
         Me.NumericUpDown3.Name = "NumericUpDown3"
-        Me.NumericUpDown3.Size = New System.Drawing.Size(30, 16)
+        Me.NumericUpDown3.Size = New System.Drawing.Size(34, 16)
         Me.NumericUpDown3.TabIndex = 6
         Me.NumericUpDown3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -235,7 +235,7 @@ Partial Class Form1
         '
         Me.NumericUpDown2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown2.Location = New System.Drawing.Point(134, 193)
-        Me.NumericUpDown2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.NumericUpDown2.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
         Me.NumericUpDown2.Name = "NumericUpDown2"
         Me.NumericUpDown2.Size = New System.Drawing.Size(38, 16)
         Me.NumericUpDown2.TabIndex = 5
@@ -256,10 +256,10 @@ Partial Class Form1
         'NumericUpDown1
         '
         Me.NumericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown1.Location = New System.Drawing.Point(257, 89)
-        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
+        Me.NumericUpDown1.Location = New System.Drawing.Point(256, 89)
+        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
         Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(50, 16)
+        Me.NumericUpDown1.Size = New System.Drawing.Size(53, 16)
         Me.NumericUpDown1.TabIndex = 3
         Me.NumericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -299,9 +299,9 @@ Partial Class Form1
         'PictureBox4
         '
         Me.PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(126, 87)
+        Me.PictureBox4.Location = New System.Drawing.Point(109, 87)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(100, 20)
+        Me.PictureBox4.Size = New System.Drawing.Size(118, 20)
         Me.PictureBox4.TabIndex = 7
         Me.PictureBox4.TabStop = False
         '
@@ -318,10 +318,10 @@ Partial Class Form1
         'NumericUpDown5
         '
         Me.NumericUpDown5.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown5.Location = New System.Drawing.Point(70, 2)
-        Me.NumericUpDown5.Maximum = New Decimal(New Integer() {999, 0, 0, 0})
+        Me.NumericUpDown5.Location = New System.Drawing.Point(71, 2)
+        Me.NumericUpDown5.Maximum = New Decimal(New Integer() {9999, 0, 0, 0})
         Me.NumericUpDown5.Name = "NumericUpDown5"
-        Me.NumericUpDown5.Size = New System.Drawing.Size(38, 16)
+        Me.NumericUpDown5.Size = New System.Drawing.Size(43, 16)
         Me.NumericUpDown5.TabIndex = 12
         Me.NumericUpDown5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -332,9 +332,9 @@ Partial Class Form1
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(15, 4)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(44, 13)
+        Me.Label3.Size = New System.Drawing.Size(56, 13)
         Me.Label3.TabIndex = 10
-        Me.Label3.Text = "Saved :"
+        Me.Label3.Text = "Rescued :"
         '
         'TabPage2
         '
@@ -382,7 +382,7 @@ Partial Class Form1
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Mii 1", "Mii 2", "Mii 3", "Mii 4", "Mii 5"})
+        Me.ComboBox1.Items.AddRange(New Object() {"Mii 1", "Mii 2", "Mii 3", "Mii 4", "Mii 5", "Mii 6", "Mii 7", "Mii 8", "Mii 9", "Mii 10"})
         Me.ComboBox1.Location = New System.Drawing.Point(20, 91)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(88, 21)
@@ -469,7 +469,7 @@ Partial Class Form1
         Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"(None)", "Warrior", "Magus", "Priest", "Thief", "Singer", "A singer", "Vampire", "Cook", "Tank", "Imp", "Princess", "Flower", "Scientist", "Feline", "Elf"})
+        Me.ComboBox2.Items.AddRange(New Object() {"(None)", "Warrior", "Mage", "Cleric", "Thief", "Pop Star B.", "Pop Star G.", "Vampire", "Chef", "Tank", "Imp", "Princess", "Flower", "Scientist", "Feline", "Elf"})
         Me.ComboBox2.Location = New System.Drawing.Point(45, 5)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(90, 21)
@@ -539,9 +539,9 @@ Partial Class Form1
         '
         Me.NumericUpDown12.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown12.Location = New System.Drawing.Point(348, 70)
-        Me.NumericUpDown12.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
+        Me.NumericUpDown12.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
         Me.NumericUpDown12.Name = "NumericUpDown12"
-        Me.NumericUpDown12.Size = New System.Drawing.Size(52, 16)
+        Me.NumericUpDown12.Size = New System.Drawing.Size(55, 16)
         Me.NumericUpDown12.TabIndex = 19
         Me.NumericUpDown12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -549,9 +549,9 @@ Partial Class Form1
         '
         Me.NumericUpDown13.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown13.Location = New System.Drawing.Point(350, 107)
-        Me.NumericUpDown13.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
+        Me.NumericUpDown13.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
         Me.NumericUpDown13.Name = "NumericUpDown13"
-        Me.NumericUpDown13.Size = New System.Drawing.Size(52, 16)
+        Me.NumericUpDown13.Size = New System.Drawing.Size(55, 16)
         Me.NumericUpDown13.TabIndex = 21
         Me.NumericUpDown13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -559,9 +559,9 @@ Partial Class Form1
         '
         Me.NumericUpDown14.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown14.Location = New System.Drawing.Point(350, 146)
-        Me.NumericUpDown14.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
+        Me.NumericUpDown14.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
         Me.NumericUpDown14.Name = "NumericUpDown14"
-        Me.NumericUpDown14.Size = New System.Drawing.Size(52, 16)
+        Me.NumericUpDown14.Size = New System.Drawing.Size(55, 16)
         Me.NumericUpDown14.TabIndex = 23
         Me.NumericUpDown14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -569,9 +569,9 @@ Partial Class Form1
         '
         Me.NumericUpDown15.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown15.Location = New System.Drawing.Point(350, 187)
-        Me.NumericUpDown15.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
+        Me.NumericUpDown15.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
         Me.NumericUpDown15.Name = "NumericUpDown15"
-        Me.NumericUpDown15.Size = New System.Drawing.Size(52, 16)
+        Me.NumericUpDown15.Size = New System.Drawing.Size(55, 16)
         Me.NumericUpDown15.TabIndex = 25
         Me.NumericUpDown15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -633,9 +633,9 @@ Partial Class Form1
         '
         Me.NumericUpDown8.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown8.Location = New System.Drawing.Point(149, 70)
-        Me.NumericUpDown8.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
+        Me.NumericUpDown8.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
         Me.NumericUpDown8.Name = "NumericUpDown8"
-        Me.NumericUpDown8.Size = New System.Drawing.Size(52, 16)
+        Me.NumericUpDown8.Size = New System.Drawing.Size(55, 16)
         Me.NumericUpDown8.TabIndex = 11
         Me.NumericUpDown8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -652,9 +652,9 @@ Partial Class Form1
         '
         Me.NumericUpDown9.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown9.Location = New System.Drawing.Point(149, 107)
-        Me.NumericUpDown9.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
+        Me.NumericUpDown9.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
         Me.NumericUpDown9.Name = "NumericUpDown9"
-        Me.NumericUpDown9.Size = New System.Drawing.Size(52, 16)
+        Me.NumericUpDown9.Size = New System.Drawing.Size(55, 16)
         Me.NumericUpDown9.TabIndex = 13
         Me.NumericUpDown9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -662,9 +662,9 @@ Partial Class Form1
         '
         Me.NumericUpDown10.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown10.Location = New System.Drawing.Point(149, 146)
-        Me.NumericUpDown10.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
+        Me.NumericUpDown10.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
         Me.NumericUpDown10.Name = "NumericUpDown10"
-        Me.NumericUpDown10.Size = New System.Drawing.Size(52, 16)
+        Me.NumericUpDown10.Size = New System.Drawing.Size(55, 16)
         Me.NumericUpDown10.TabIndex = 15
         Me.NumericUpDown10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -681,9 +681,9 @@ Partial Class Form1
         '
         Me.NumericUpDown11.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown11.Location = New System.Drawing.Point(149, 187)
-        Me.NumericUpDown11.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
+        Me.NumericUpDown11.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
         Me.NumericUpDown11.Name = "NumericUpDown11"
-        Me.NumericUpDown11.Size = New System.Drawing.Size(52, 16)
+        Me.NumericUpDown11.Size = New System.Drawing.Size(55, 16)
         Me.NumericUpDown11.TabIndex = 17
         Me.NumericUpDown11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
