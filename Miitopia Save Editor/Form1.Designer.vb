@@ -81,6 +81,8 @@ Partial Class Form1
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -114,6 +116,7 @@ Partial Class Form1
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -705,7 +708,7 @@ Partial Class Form1
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(69, 13)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Version 1.0.0"
+        Me.Label1.Text = "Version 1.0.1"
         '
         'Label2
         '
@@ -727,7 +730,7 @@ Partial Class Form1
         Me.PictureBox8.BackgroundImage = CType(resources.GetObject("PictureBox8.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox8.Location = New System.Drawing.Point(31, 19)
+        Me.PictureBox8.Location = New System.Drawing.Point(317, 17)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(42, 24)
         Me.PictureBox8.TabIndex = 4
@@ -738,7 +741,7 @@ Partial Class Form1
         Me.PictureBox9.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox9.BackgroundImage = CType(resources.GetObject("PictureBox9.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox9.Location = New System.Drawing.Point(371, 17)
+        Me.PictureBox9.Location = New System.Drawing.Point(371, 11)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(48, 35)
         Me.PictureBox9.TabIndex = 5
@@ -750,10 +753,32 @@ Partial Class Form1
         Me.ComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"EN", "FR"})
-        Me.ComboBox3.Location = New System.Drawing.Point(393, 41)
+        Me.ComboBox3.Location = New System.Drawing.Point(393, 35)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(51, 21)
         Me.ComboBox3.TabIndex = 6
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.BackColor = System.Drawing.Color.White
+        Me.ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"EUR save file", "USA save file", "JPN save file"})
+        Me.ComboBox4.Location = New System.Drawing.Point(23, 21)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(109, 21)
+        Me.ComboBox4.TabIndex = 7
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox10.Image = CType(resources.GetObject("PictureBox10.Image"), System.Drawing.Image)
+        Me.PictureBox10.Location = New System.Drawing.Point(14, 10)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(20, 25)
+        Me.PictureBox10.TabIndex = 8
+        Me.PictureBox10.TabStop = False
         '
         'Form1
         '
@@ -761,6 +786,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(456, 404)
+        Me.Controls.Add(Me.ComboBox4)
         Me.Controls.Add(Me.ComboBox3)
         Me.Controls.Add(Me.PictureBox9)
         Me.Controls.Add(Me.PictureBox8)
@@ -768,6 +794,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.TabControl1)
+        Me.Controls.Add(Me.PictureBox10)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -808,6 +835,7 @@ Partial Class Form1
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -870,5 +898,7 @@ Partial Class Form1
     Friend WithEvents PictureBox8 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox9 As System.Windows.Forms.PictureBox
     Friend WithEvents ComboBox3 As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox10 As System.Windows.Forms.PictureBox
 
 End Class
