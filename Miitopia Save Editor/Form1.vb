@@ -1138,6 +1138,14 @@
             ComboBox4.Items.Item(0) = "EUR save file"
             ComboBox4.Items.Item(1) = "USA save file"
             ComboBox4.Items.Item(2) = "JPN save file"
+            Label23.Text = "Lv."
+            Label24.Text = "Note : 80 = 1 level"
+            Button5.Text = "Max HP"
+            Button6.Text = "Max MP"
+            Button7.Text = "Max attack"
+            Button8.Text = "Max speed"
+            Button9.Text = "Max defense"
+            Button10.Text = "Max magic"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             TabPage3.Text = "Edition Mii"
@@ -1177,6 +1185,14 @@
             ComboBox4.Items.Item(0) = "Sauvegarde EUR"
             ComboBox4.Items.Item(1) = "Sauvegarde USA"
             ComboBox4.Items.Item(2) = "Sauvegarde JPN"
+            Label23.Text = "Niv."
+            Label24.Text = "Note : 80 = 1 niveau"
+            Button5.Text = "PV max"
+            Button6.Text = "PM max"
+            Button7.Text = "Attaque max"
+            Button8.Text = "Vitesse max"
+            Button9.Text = "Défense max"
+            Button10.Text = "Magie max"
         End If
     End Sub
 
@@ -1187,6 +1203,28 @@
         ElseIf ComboBox4.SelectedItem = ComboBox4.Items.Item(2) Then
             TextBox2.MaxLength = 6
             TextBox1.MaxLength = 10
+        End If
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+        If Label24.Visible = False Then
+            Label24.Visible = True
+            NumericUpDown16.Visible = True
+            NumericUpDown17.Visible = True
+            NumericUpDown18.Visible = True
+            NumericUpDown19.Visible = True
+            NumericUpDown20.Visible = True
+            NumericUpDown21.Visible = True
+            NumericUpDown22.Visible = True
+        ElseIf Label24.Visible = True Then
+            Label24.Visible = False
+            NumericUpDown16.Visible = False
+            NumericUpDown17.Visible = False
+            NumericUpDown18.Visible = False
+            NumericUpDown19.Visible = False
+            NumericUpDown20.Visible = False
+            NumericUpDown21.Visible = False
+            NumericUpDown22.Visible = False
         End If
     End Sub
 End Class

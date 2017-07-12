@@ -49,13 +49,16 @@ Partial Class Form1
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.TabControl2 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.NumericUpDown22 = New System.Windows.Forms.NumericUpDown()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.NumericUpDown7 = New System.Windows.Forms.NumericUpDown()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Label23 = New System.Windows.Forms.Label()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.NumericUpDown7 = New System.Windows.Forms.NumericUpDown()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label14 = New System.Windows.Forms.Label()
@@ -75,6 +78,25 @@ Partial Class Form1
         Me.NumericUpDown10 = New System.Windows.Forms.NumericUpDown()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.NumericUpDown11 = New System.Windows.Forms.NumericUpDown()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.NumericUpDown19 = New System.Windows.Forms.NumericUpDown()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.NumericUpDown20 = New System.Windows.Forms.NumericUpDown()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.NumericUpDown21 = New System.Windows.Forms.NumericUpDown()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.NumericUpDown18 = New System.Windows.Forms.NumericUpDown()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.NumericUpDown17 = New System.Windows.Forms.NumericUpDown()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.NumericUpDown16 = New System.Windows.Forms.NumericUpDown()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Label13 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -83,6 +105,7 @@ Partial Class Form1
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.Label24 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -100,9 +123,10 @@ Partial Class Form1
         Me.TabPage2.SuspendLayout()
         Me.TabControl2.SuspendLayout()
         Me.TabPage3.SuspendLayout()
+        CType(Me.NumericUpDown22, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
-        CType(Me.NumericUpDown7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage4.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.NumericUpDown12, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -113,6 +137,13 @@ Partial Class Form1
         CType(Me.NumericUpDown9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown11, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage5.SuspendLayout()
+        CType(Me.NumericUpDown19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown21, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown16, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -395,6 +426,7 @@ Partial Class Form1
         '
         Me.TabControl2.Controls.Add(Me.TabPage3)
         Me.TabControl2.Controls.Add(Me.TabPage4)
+        Me.TabControl2.Controls.Add(Me.TabPage5)
         Me.TabControl2.Location = New System.Drawing.Point(1, 55)
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedIndex = 0
@@ -405,7 +437,9 @@ Partial Class Form1
         '
         Me.TabPage3.BackgroundImage = CType(resources.GetObject("TabPage3.BackgroundImage"), System.Drawing.Image)
         Me.TabPage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.TabPage3.Controls.Add(Me.NumericUpDown22)
         Me.TabPage3.Controls.Add(Me.TextBox1)
+        Me.TabPage3.Controls.Add(Me.NumericUpDown7)
         Me.TabPage3.Controls.Add(Me.Label4)
         Me.TabPage3.Controls.Add(Me.TextBox2)
         Me.TabPage3.Controls.Add(Me.PictureBox6)
@@ -418,6 +452,15 @@ Partial Class Form1
         Me.TabPage3.Text = "Mii edit"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
+        'NumericUpDown22
+        '
+        Me.NumericUpDown22.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown22.Location = New System.Drawing.Point(302, 90)
+        Me.NumericUpDown22.Name = "NumericUpDown22"
+        Me.NumericUpDown22.Size = New System.Drawing.Size(85, 16)
+        Me.NumericUpDown22.TabIndex = 18
+        Me.NumericUpDown22.Visible = False
+        '
         'TextBox1
         '
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -427,6 +470,16 @@ Partial Class Form1
         Me.TextBox1.Size = New System.Drawing.Size(185, 13)
         Me.TextBox1.TabIndex = 4
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'NumericUpDown7
+        '
+        Me.NumericUpDown7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown7.Location = New System.Drawing.Point(222, 91)
+        Me.NumericUpDown7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.NumericUpDown7.Name = "NumericUpDown7"
+        Me.NumericUpDown7.Size = New System.Drawing.Size(34, 16)
+        Me.NumericUpDown7.TabIndex = 9
+        Me.NumericUpDown7.Visible = False
         '
         'Label4
         '
@@ -459,12 +512,36 @@ Partial Class Form1
         'Panel3
         '
         Me.Panel3.BackgroundImage = CType(resources.GetObject("Panel3.BackgroundImage"), System.Drawing.Image)
+        Me.Panel3.Controls.Add(Me.Button11)
+        Me.Panel3.Controls.Add(Me.Label23)
         Me.Panel3.Controls.Add(Me.ComboBox2)
-        Me.Panel3.Controls.Add(Me.NumericUpDown7)
         Me.Panel3.Location = New System.Drawing.Point(207, 59)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(180, 30)
         Me.Panel3.TabIndex = 10
+        '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.Color.White
+        Me.Button11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button11.Location = New System.Drawing.Point(137, 6)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(40, 19)
+        Me.Button11.TabIndex = 11
+        Me.Button11.Text = "Max"
+        Me.Button11.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button11.UseVisualStyleBackColor = False
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.ForeColor = System.Drawing.Color.White
+        Me.Label23.Location = New System.Drawing.Point(113, 9)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(22, 13)
+        Me.Label23.TabIndex = 11
+        Me.Label23.Text = "Lv."
         '
         'ComboBox2
         '
@@ -473,20 +550,10 @@ Partial Class Form1
         Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"(None)", "Warrior", "Mage", "Cleric", "Thief", "Pop Star B.", "Pop Star G.", "Vampire", "Chef", "Tank", "Imp", "Princess", "Flower", "Scientist", "Feline", "Elf"})
-        Me.ComboBox2.Location = New System.Drawing.Point(45, 5)
+        Me.ComboBox2.Location = New System.Drawing.Point(15, 5)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(90, 21)
         Me.ComboBox2.TabIndex = 8
-        '
-        'NumericUpDown7
-        '
-        Me.NumericUpDown7.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown7.Location = New System.Drawing.Point(141, 9)
-        Me.NumericUpDown7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown7.Name = "NumericUpDown7"
-        Me.NumericUpDown7.Size = New System.Drawing.Size(34, 16)
-        Me.NumericUpDown7.TabIndex = 9
-        Me.NumericUpDown7.Visible = False
         '
         'TabPage4
         '
@@ -690,6 +757,216 @@ Partial Class Form1
         Me.NumericUpDown11.TabIndex = 17
         Me.NumericUpDown11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TabPage5
+        '
+        Me.TabPage5.BackgroundImage = CType(resources.GetObject("TabPage5.BackgroundImage"), System.Drawing.Image)
+        Me.TabPage5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.TabPage5.Controls.Add(Me.Label24)
+        Me.TabPage5.Controls.Add(Me.NumericUpDown19)
+        Me.TabPage5.Controls.Add(Me.Button8)
+        Me.TabPage5.Controls.Add(Me.Label20)
+        Me.TabPage5.Controls.Add(Me.NumericUpDown20)
+        Me.TabPage5.Controls.Add(Me.Button9)
+        Me.TabPage5.Controls.Add(Me.Label21)
+        Me.TabPage5.Controls.Add(Me.NumericUpDown21)
+        Me.TabPage5.Controls.Add(Me.Button10)
+        Me.TabPage5.Controls.Add(Me.Label22)
+        Me.TabPage5.Controls.Add(Me.NumericUpDown18)
+        Me.TabPage5.Controls.Add(Me.Button7)
+        Me.TabPage5.Controls.Add(Me.Label19)
+        Me.TabPage5.Controls.Add(Me.NumericUpDown17)
+        Me.TabPage5.Controls.Add(Me.Button6)
+        Me.TabPage5.Controls.Add(Me.Label18)
+        Me.TabPage5.Controls.Add(Me.NumericUpDown16)
+        Me.TabPage5.Controls.Add(Me.Button5)
+        Me.TabPage5.Controls.Add(Me.Label13)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Size = New System.Drawing.Size(440, 223)
+        Me.TabPage5.TabIndex = 2
+        Me.TabPage5.Text = " Food boost"
+        Me.TabPage5.UseVisualStyleBackColor = True
+        '
+        'NumericUpDown19
+        '
+        Me.NumericUpDown19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown19.Location = New System.Drawing.Point(309, 175)
+        Me.NumericUpDown19.Maximum = New Decimal(New Integer() {8000, 0, 0, 0})
+        Me.NumericUpDown19.Name = "NumericUpDown19"
+        Me.NumericUpDown19.Size = New System.Drawing.Size(79, 16)
+        Me.NumericUpDown19.TabIndex = 17
+        Me.NumericUpDown19.Visible = False
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.White
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button8.Location = New System.Drawing.Point(308, 151)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(80, 23)
+        Me.Button8.TabIndex = 16
+        Me.Button8.Text = "Max speed"
+        Me.Button8.UseVisualStyleBackColor = False
+        '
+        'Label20
+        '
+        Me.Label20.Location = New System.Drawing.Point(308, 136)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(80, 13)
+        Me.Label20.TabIndex = 15
+        Me.Label20.Text = "Speed"
+        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'NumericUpDown20
+        '
+        Me.NumericUpDown20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown20.Location = New System.Drawing.Point(181, 175)
+        Me.NumericUpDown20.Maximum = New Decimal(New Integer() {8000, 0, 0, 0})
+        Me.NumericUpDown20.Name = "NumericUpDown20"
+        Me.NumericUpDown20.Size = New System.Drawing.Size(79, 16)
+        Me.NumericUpDown20.TabIndex = 14
+        Me.NumericUpDown20.Visible = False
+        '
+        'Button9
+        '
+        Me.Button9.BackColor = System.Drawing.Color.White
+        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button9.Location = New System.Drawing.Point(180, 151)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(80, 23)
+        Me.Button9.TabIndex = 13
+        Me.Button9.Text = "Max defense"
+        Me.Button9.UseVisualStyleBackColor = False
+        '
+        'Label21
+        '
+        Me.Label21.Location = New System.Drawing.Point(180, 136)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(80, 13)
+        Me.Label21.TabIndex = 12
+        Me.Label21.Text = "Defense"
+        Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'NumericUpDown21
+        '
+        Me.NumericUpDown21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown21.Location = New System.Drawing.Point(53, 175)
+        Me.NumericUpDown21.Maximum = New Decimal(New Integer() {8000, 0, 0, 0})
+        Me.NumericUpDown21.Name = "NumericUpDown21"
+        Me.NumericUpDown21.Size = New System.Drawing.Size(79, 16)
+        Me.NumericUpDown21.TabIndex = 11
+        Me.NumericUpDown21.Visible = False
+        '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.Color.White
+        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button10.Location = New System.Drawing.Point(52, 151)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(80, 23)
+        Me.Button10.TabIndex = 10
+        Me.Button10.Text = "Max magic"
+        Me.Button10.UseVisualStyleBackColor = False
+        '
+        'Label22
+        '
+        Me.Label22.Location = New System.Drawing.Point(53, 136)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(79, 13)
+        Me.Label22.TabIndex = 9
+        Me.Label22.Text = "Magic"
+        Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'NumericUpDown18
+        '
+        Me.NumericUpDown18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown18.Location = New System.Drawing.Point(309, 91)
+        Me.NumericUpDown18.Maximum = New Decimal(New Integer() {8000, 0, 0, 0})
+        Me.NumericUpDown18.Name = "NumericUpDown18"
+        Me.NumericUpDown18.Size = New System.Drawing.Size(79, 16)
+        Me.NumericUpDown18.TabIndex = 8
+        Me.NumericUpDown18.Visible = False
+        '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.White
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button7.Location = New System.Drawing.Point(308, 67)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(80, 23)
+        Me.Button7.TabIndex = 7
+        Me.Button7.Text = "Max attack"
+        Me.Button7.UseVisualStyleBackColor = False
+        '
+        'Label19
+        '
+        Me.Label19.Location = New System.Drawing.Point(308, 52)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(80, 13)
+        Me.Label19.TabIndex = 6
+        Me.Label19.Text = "Attack"
+        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'NumericUpDown17
+        '
+        Me.NumericUpDown17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown17.Location = New System.Drawing.Point(181, 91)
+        Me.NumericUpDown17.Maximum = New Decimal(New Integer() {8000, 0, 0, 0})
+        Me.NumericUpDown17.Name = "NumericUpDown17"
+        Me.NumericUpDown17.Size = New System.Drawing.Size(79, 16)
+        Me.NumericUpDown17.TabIndex = 5
+        Me.NumericUpDown17.Visible = False
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.White
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button6.Location = New System.Drawing.Point(180, 67)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(80, 23)
+        Me.Button6.TabIndex = 4
+        Me.Button6.Text = "Max MP"
+        Me.Button6.UseVisualStyleBackColor = False
+        '
+        'Label18
+        '
+        Me.Label18.Location = New System.Drawing.Point(181, 52)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(79, 13)
+        Me.Label18.TabIndex = 3
+        Me.Label18.Text = "MP"
+        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'NumericUpDown16
+        '
+        Me.NumericUpDown16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown16.Location = New System.Drawing.Point(53, 91)
+        Me.NumericUpDown16.Maximum = New Decimal(New Integer() {8000, 0, 0, 0})
+        Me.NumericUpDown16.Name = "NumericUpDown16"
+        Me.NumericUpDown16.Size = New System.Drawing.Size(79, 16)
+        Me.NumericUpDown16.TabIndex = 2
+        Me.NumericUpDown16.Visible = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.White
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button5.Location = New System.Drawing.Point(52, 67)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(80, 23)
+        Me.Button5.TabIndex = 1
+        Me.Button5.Text = "Max HP"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Label13
+        '
+        Me.Label13.Location = New System.Drawing.Point(52, 52)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(80, 13)
+        Me.Label13.TabIndex = 0
+        Me.Label13.Text = "HP"
+        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
@@ -704,6 +981,8 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label1.Location = New System.Drawing.Point(1, 389)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(69, 13)
@@ -780,6 +1059,19 @@ Partial Class Form1
         Me.PictureBox10.TabIndex = 8
         Me.PictureBox10.TabStop = False
         '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.ForeColor = System.Drawing.Color.Blue
+        Me.Label24.Location = New System.Drawing.Point(162, 22)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(117, 13)
+        Me.Label24.TabIndex = 18
+        Me.Label24.Text = " Note : 80 = 1 level"
+        Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label24.Visible = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -818,9 +1110,11 @@ Partial Class Form1
         Me.TabControl2.ResumeLayout(False)
         Me.TabPage3.ResumeLayout(False)
         Me.TabPage3.PerformLayout()
+        CType(Me.NumericUpDown22, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
-        CType(Me.NumericUpDown7, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel3.PerformLayout()
         Me.TabPage4.ResumeLayout(False)
         Me.TabPage4.PerformLayout()
         Me.Panel2.ResumeLayout(False)
@@ -832,6 +1126,14 @@ Partial Class Form1
         CType(Me.NumericUpDown9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDown10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDown11, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage5.ResumeLayout(False)
+        Me.TabPage5.PerformLayout()
+        CType(Me.NumericUpDown19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown21, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown16, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
@@ -900,5 +1202,28 @@ Partial Class Form1
     Friend WithEvents ComboBox3 As System.Windows.Forms.ComboBox
     Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox
     Friend WithEvents PictureBox10 As System.Windows.Forms.PictureBox
+    Friend WithEvents TabPage5 As System.Windows.Forms.TabPage
+    Friend WithEvents NumericUpDown16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown22 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Button11 As System.Windows.Forms.Button
+    Friend WithEvents Label23 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown19 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Button8 As System.Windows.Forms.Button
+    Friend WithEvents Label20 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown20 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Button9 As System.Windows.Forms.Button
+    Friend WithEvents Label21 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown21 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Button10 As System.Windows.Forms.Button
+    Friend WithEvents Label22 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown18 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Button7 As System.Windows.Forms.Button
+    Friend WithEvents Label19 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown17 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Button6 As System.Windows.Forms.Button
+    Friend WithEvents Label18 As System.Windows.Forms.Label
+    Friend WithEvents Label24 As System.Windows.Forms.Label
 
 End Class
