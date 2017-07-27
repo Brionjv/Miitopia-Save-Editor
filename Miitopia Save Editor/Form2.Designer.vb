@@ -31,7 +31,7 @@ Partial Class Form2
         '
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("nintendo_NTLG-DB_001", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(19, 33)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(235, 23)
@@ -43,6 +43,7 @@ Partial Class Form2
         '
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Label2.Font = New System.Drawing.Font("nintendo_NTLG-DB_001", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(19, 56)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(235, 107)
