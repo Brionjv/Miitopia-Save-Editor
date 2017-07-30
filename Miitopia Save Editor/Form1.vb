@@ -28,6 +28,11 @@
             fdialog.Label2.Text = "Ouvrir le fichier common.sav" & vbNewLine & "Miitopia Save Editor va faire une copie de votre sauvegarde" & vbNewLine & "Vérifiez le dossier ''bak''"
             fdialog.ShowDialog()
         End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            fdialog.Label1.Text = "Miitopia Save Editor"
+            fdialog.Label2.Text = "Abre el archivo common.sav" & vbNewLine & "Miitopia Save Editor hará una copia de seguridad de su archivo de guardado" & vbNewLine & "Revisa la carpeta ''bak''"
+            fdialog.ShowDialog()
+        End If
         open.Filter = "SAV files|*common.sav"
         open.Title = "Open save common.sav"
         open.ShowDialog()
@@ -60,6 +65,11 @@
                 fdialog.Label2.Text = "L'ouverture de common.sav a échoué" & vbNewLine & "La sauvegarde peut être corrompu ou n'est pas 'common.sav' de Miitopia"
                 fdialog.ShowDialog()
             End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav"
+                fdialog.Label2.Text = "common.sav no ha sido cargado" & vbNewLine & "El archivo de guardado podría estar dañado o no es 'common.sav' de Miitopia"
+                fdialog.ShowDialog()
+            End If
             End Try
     End Sub
 
@@ -70,9 +80,9 @@
             fdialog.Label2.Text = "Open hero.sav file" & vbNewLine & "Miitopia Save Editor will make a backup of your save file" & vbNewLine & "Check ''bak'' folder"
             fdialog.ShowDialog()
         End If
-        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
             fdialog.Label1.Text = "Miitopia Save Editor"
-            fdialog.Label2.Text = "Ouvrir le fichier hero.sav" & vbNewLine & "Miitopia Save Editor va faire une copie de votre sauvegarde" & vbNewLine & "Vérifiez le dossier ''bak''"
+            fdialog.Label2.Text = "Abre el archivo hero.sav" & vbNewLine & "Miitopia Save Editor hará una copia de seguridad de su archivo de guardado" & vbNewLine & "Revisa la carpeta ''bak''"
             fdialog.ShowDialog()
         End If
         open1.Filter = "SAV files|*hero.sav"
@@ -784,6 +794,11 @@
                 fdialog.Label2.Text = "Une erreur est survenue, ouvrez hero.sav avant"
                 fdialog.ShowDialog()
             End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "hero.sav: seleccione Mii"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
             ComboBox4.Enabled = True
         End Try
     End Sub
@@ -805,6 +820,11 @@
                 fdialog.Label2.Text = "Toutes les nourritures ont été débloquées"
                 fdialog.ShowDialog()
             End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : Papeos"
+                fdialog.Label2.Text = "Todos los papeos han sido desbloqueados"
+                fdialog.ShowDialog()
+            End If
         Catch ex As Exception
             If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
                 fdialog.Label1.Text = "common.sav : foods"
@@ -814,6 +834,11 @@
             If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
                 fdialog.Label1.Text = "common.sav : nourritures"
                 fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : Papeos"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
                 fdialog.ShowDialog()
             End If
         End Try
@@ -827,6 +852,9 @@
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Cliquez pour débloquer toutes les nourritures par nombres"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Haz clic para desbloquear todos los Papeos por números"
         End If
     End Sub
 
@@ -850,6 +878,11 @@
                 fdialog.Label2.Text = "Toutes les salières ont été débloquées"
                 fdialog.ShowDialog()
             End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : Saleros"
+                fdialog.Label2.Text = "Todos los Saleros han sido desbloqueados"
+                fdialog.ShowDialog()
+            End If
         Catch ex As Exception
             If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
                 fdialog.Label1.Text = "common.sav : salt shakers"
@@ -859,6 +892,11 @@
             If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
                 fdialog.Label1.Text = "common.sav : salières"
                 fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : Saleros"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
                 fdialog.ShowDialog()
             End If
         End Try
@@ -872,6 +910,9 @@
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Cliquez pour débloquer toutes les salières"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Haz clic para desbloquear todos los Saleros"
         End If
     End Sub
 
@@ -903,6 +944,11 @@
                 fdialog.Label2.Text = "Fichier sauvegardé"
                 fdialog.ShowDialog()
             End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : common.sav"
+                fdialog.Label2.Text = "Archivo guardado"
+                fdialog.ShowDialog()
+            End If
         Catch ex As Exception
             If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
                 fdialog.Label1.Text = "Miitopia Save Editor : common.sav"
@@ -912,6 +958,11 @@
             If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
                 fdialog.Label1.Text = "Miitopia Save Editor : common.sav"
                 fdialog.Label2.Text = "Une erreur est survenue"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : common.sav"
+                fdialog.Label2.Text = "Ha ocurrido un error"
                 fdialog.ShowDialog()
             End If
         End Try
@@ -1011,6 +1062,9 @@
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label14.Text = "Stats de " & TextBox2.Text
         End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label14.Text = "Stats de " & TextBox2.Text
+        End If
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
@@ -1074,6 +1128,11 @@
                 fdialog.Label2.Text = "Fichier sauvegardé"
                 fdialog.ShowDialog()
             End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : hero.sav"
+                fdialog.Label2.Text = "Archivo guardado"
+                fdialog.ShowDialog()
+            End If
         Catch ex As Exception
             If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
                 fdialog.Label1.Text = "Miitopia Save Editor : hero.sav"
@@ -1083,6 +1142,11 @@
             If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
                 fdialog.Label1.Text = "Miitopia Save Editor : hero.sav"
                 fdialog.Label2.Text = "Une erreur est survenue, ouvrez hero.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : hero.sav"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo hero.sav"
                 fdialog.ShowDialog()
             End If
         End Try
@@ -1100,6 +1164,9 @@
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Cliquez pour voir les crédits"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Haz clic para ver los créditos"
         End If
     End Sub
 
@@ -1130,6 +1197,8 @@
             Label10.Text = "MP Candies gulped"
             Label11.Text = "Grub grubbed"
             Label12.Text = "Gold grabbed"
+            Label17.Text = "Tickets"
+            Label14.Text = "Stats"
             ComboBox2.Items.Item(0) = "(None)"
             ComboBox2.Items.Item(1) = "Warrior"
             ComboBox2.Items.Item(2) = "Mage"
@@ -1146,9 +1215,9 @@
             ComboBox2.Items.Item(13) = "Scientist"
             ComboBox2.Items.Item(14) = "Cat"
             ComboBox2.Items.Item(15) = "Elf"
-            ComboBox4.Items.Item(0) = "EUR save file"
-            ComboBox4.Items.Item(1) = "USA save file"
-            ComboBox4.Items.Item(2) = "JPN save file"
+            ComboBox4.Items.Item(0) = "EU save file"
+            ComboBox4.Items.Item(1) = "US save file"
+            ComboBox4.Items.Item(2) = "JP save file"
             Label23.Text = "Lv."
             Label13.Text = "HP"
             Label18.Text = "MP"
@@ -1183,6 +1252,8 @@
             Label10.Text = "Bonbons PM avalés"
             Label11.Text = "Vivres englouties"
             Label12.Text = "Argent dépensé"
+            Label17.Text = "Tickets"
+            Label14.Text = "Stats"
             ComboBox2.Items.Item(0) = "(Aucun)"
             ComboBox2.Items.Item(1) = "Guerrier"
             ComboBox2.Items.Item(2) = "Mage"
@@ -1199,9 +1270,9 @@
             ComboBox2.Items.Item(13) = "Scientifique"
             ComboBox2.Items.Item(14) = "Chat"
             ComboBox2.Items.Item(15) = "Elfe"
-            ComboBox4.Items.Item(0) = "Sauvegarde EUR"
-            ComboBox4.Items.Item(1) = "Sauvegarde USA"
-            ComboBox4.Items.Item(2) = "Sauvegarde JPN"
+            ComboBox4.Items.Item(0) = "Sauvegarde EU"
+            ComboBox4.Items.Item(1) = "Sauvegarde US"
+            ComboBox4.Items.Item(2) = "Sauvegarde JP"
             Label23.Text = "Niv."
             Label13.Text = "PV"
             Label18.Text = "PM"
@@ -1214,6 +1285,59 @@
             CheckBox1.Text = "Définir comme :"
             ComboBox11.Items.Item(0) = "Vide"
             ComboBox11.Items.Item(1) = "Plein"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            TabPage3.Text = "Editar Mii"
+            TabPage4.Text = "Estadísticas Mii"
+            Button1.Text = "Abrir"
+            Button2.Text = "Guardar"
+            Label16.Text = "Papeos"
+            Label15.Text = "Saleros"
+            Label3.Text = "Rescates : "
+            Button3.Text = "Abrir"
+            Button4.Text = "Guardar"
+            Label4.Text = "Grito de gerra :"
+            Label5.Text = "Combates"
+            Label6.Text = "Golpes de gracia"
+            Label7.Text = "Derrotas"
+            Label8.Text = "Veces fuera de la pandi"
+            Label9.Text = "Plátanos PV zampados"
+            Label10.Text = "Caramelos PM jalados"
+            Label11.Text = "Papeo englutido"
+            Label12.Text = "Gracmas recibidos"
+            Label17.Text = "Boletos"
+            Label14.Text = "Estadísticas"
+            ComboBox2.Items.Item(0) = "(Ninguno)"
+            ComboBox2.Items.Item(1) = "Guerrero"
+            ComboBox2.Items.Item(2) = "Hechicero"
+            ComboBox2.Items.Item(3) = "Clérigo"
+            ComboBox2.Items.Item(4) = "Ladrón"
+            ComboBox2.Items.Item(5) = "Cantante Chico"
+            ComboBox2.Items.Item(6) = "Cantante Chica"
+            ComboBox2.Items.Item(8) = "Chef"
+            ComboBox2.Items.Item(9) = "Tanque"
+            ComboBox2.Items.Item(10) = "Diablillo"
+            ComboBox2.Items.Item(11) = "Princesa"
+            ComboBox2.Items.Item(12) = "Flor"
+            ComboBox2.Items.Item(13) = "Científico"
+            ComboBox2.Items.Item(14) = "Gato"
+            ComboBox2.Items.Item(7) = "Vampiro"
+            ComboBox2.Items.Item(15) = "Elfo"
+            ComboBox4.Items.Item(0) = "Archivo de guard. EU"
+            ComboBox4.Items.Item(1) = "Archivo de guard. US"
+            ComboBox4.Items.Item(2) = "Archivo de guard. JP"
+            Label23.Text = "Niv."
+            Label13.Text = "PV"
+            Label18.Text = "PM"
+            Label19.Text = "Ataque"
+            Label22.Text = "Magia"
+            Label21.Text = "Defensa"
+            Label20.Text = "Velocidad"
+            Label24.Text = "Alimentos impulso"
+            Label25.Text = "Vientre"
+            CheckBox1.Text = "Definir como :"
+            ComboBox11.Items.Item(0) = "Vacío"
+            ComboBox11.Items.Item(1) = "Pleno"
         End If
     End Sub
 
