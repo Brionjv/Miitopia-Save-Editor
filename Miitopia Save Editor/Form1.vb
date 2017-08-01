@@ -94,6 +94,7 @@
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
         Try
+            CheckBox1.Checked = False
             Dim Reader As New PackageIO.Reader(hero, PackageIO.Endian.Little)
             If ComboBox4.SelectedItem = ComboBox4.Items.Item(0) Or ComboBox4.SelectedItem = ComboBox4.Items.Item(1) Then
                 If ComboBox1.SelectedItem = ComboBox1.Items.Item(0) Then

@@ -106,6 +106,8 @@ Partial Class Form1
         Me.Label18 = New System.Windows.Forms.Label()
         Me.NumericUpDown16 = New System.Windows.Forms.NumericUpDown()
         Me.Label13 = New System.Windows.Forms.Label()
+        Me.TabPage7 = New System.Windows.Forms.TabPage()
+        Me.TabPage8 = New System.Windows.Forms.TabPage()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -114,6 +116,42 @@ Partial Class Form1
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown25 = New System.Windows.Forms.NumericUpDown()
+        Me.ComboBox13 = New System.Windows.Forms.ComboBox()
+        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.NumericUpDown26 = New System.Windows.Forms.NumericUpDown()
+        Me.ComboBox14 = New System.Windows.Forms.ComboBox()
+        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.NumericUpDown27 = New System.Windows.Forms.NumericUpDown()
+        Me.ComboBox15 = New System.Windows.Forms.ComboBox()
+        Me.PictureBox15 = New System.Windows.Forms.PictureBox()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.NumericUpDown28 = New System.Windows.Forms.NumericUpDown()
+        Me.ComboBox16 = New System.Windows.Forms.ComboBox()
+        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.NumericUpDown29 = New System.Windows.Forms.NumericUpDown()
+        Me.ComboBox17 = New System.Windows.Forms.ComboBox()
+        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.NumericUpDown30 = New System.Windows.Forms.NumericUpDown()
+        Me.ComboBox18 = New System.Windows.Forms.ComboBox()
+        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.NumericUpDown31 = New System.Windows.Forms.NumericUpDown()
+        Me.ComboBox19 = New System.Windows.Forms.ComboBox()
+        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.NumericUpDown32 = New System.Windows.Forms.NumericUpDown()
+        Me.ComboBox20 = New System.Windows.Forms.ComboBox()
+        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.PictureBox21 = New System.Windows.Forms.PictureBox()
+        Me.ComboBox21 = New System.Windows.Forms.ComboBox()
+        Me.NumericUpDown33 = New System.Windows.Forms.NumericUpDown()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabControl3.SuspendLayout()
@@ -157,10 +195,30 @@ Partial Class Form1
         CType(Me.NumericUpDown18, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown17, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown16, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage7.SuspendLayout()
+        Me.TabPage8.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown25, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown26, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown27, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown28, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown29, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown30, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown31, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown32, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown33, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -464,6 +522,8 @@ Partial Class Form1
         Me.TabControl2.Controls.Add(Me.TabPage3)
         Me.TabControl2.Controls.Add(Me.TabPage4)
         Me.TabControl2.Controls.Add(Me.TabPage5)
+        Me.TabControl2.Controls.Add(Me.TabPage7)
+        Me.TabControl2.Controls.Add(Me.TabPage8)
         Me.TabControl2.Location = New System.Drawing.Point(1, 55)
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedIndex = 0
@@ -479,9 +539,7 @@ Partial Class Form1
         Me.TabPage3.Controls.Add(Me.Label25)
         Me.TabPage3.Controls.Add(Me.ComboBox11)
         Me.TabPage3.Controls.Add(Me.PictureBox11)
-        Me.TabPage3.Controls.Add(Me.NumericUpDown22)
         Me.TabPage3.Controls.Add(Me.TextBox1)
-        Me.TabPage3.Controls.Add(Me.NumericUpDown7)
         Me.TabPage3.Controls.Add(Me.Label4)
         Me.TabPage3.Controls.Add(Me.TextBox2)
         Me.TabPage3.Controls.Add(Me.PictureBox6)
@@ -504,7 +562,6 @@ Partial Class Form1
         '
         'CheckBox1
         '
-        Me.CheckBox1.Enabled = False
         Me.CheckBox1.Location = New System.Drawing.Point(11, 175)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(76, 38)
@@ -525,7 +582,6 @@ Partial Class Form1
         'ComboBox11
         '
         Me.ComboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox11.Enabled = False
         Me.ComboBox11.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox11.FormattingEnabled = True
         Me.ComboBox11.Items.AddRange(New Object() {"Empty", "Full"})
@@ -546,7 +602,7 @@ Partial Class Form1
         'NumericUpDown22
         '
         Me.NumericUpDown22.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown22.Location = New System.Drawing.Point(302, 90)
+        Me.NumericUpDown22.Location = New System.Drawing.Point(213, 83)
         Me.NumericUpDown22.Name = "NumericUpDown22"
         Me.NumericUpDown22.Size = New System.Drawing.Size(85, 16)
         Me.NumericUpDown22.TabIndex = 18
@@ -565,7 +621,7 @@ Partial Class Form1
         'NumericUpDown7
         '
         Me.NumericUpDown7.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown7.Location = New System.Drawing.Point(222, 91)
+        Me.NumericUpDown7.Location = New System.Drawing.Point(8, 10)
         Me.NumericUpDown7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.NumericUpDown7.Name = "NumericUpDown7"
         Me.NumericUpDown7.Size = New System.Drawing.Size(34, 16)
@@ -603,9 +659,8 @@ Partial Class Form1
         'Panel3
         '
         Me.Panel3.BackgroundImage = CType(resources.GetObject("Panel3.BackgroundImage"), System.Drawing.Image)
-        Me.Panel3.Controls.Add(Me.Button11)
-        Me.Panel3.Controls.Add(Me.Label23)
         Me.Panel3.Controls.Add(Me.ComboBox2)
+        Me.Panel3.Controls.Add(Me.NumericUpDown7)
         Me.Panel3.Location = New System.Drawing.Point(207, 59)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(180, 30)
@@ -615,9 +670,8 @@ Partial Class Form1
         '
         Me.Button11.BackColor = System.Drawing.Color.White
         Me.Button11.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button11.Enabled = False
         Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button11.Location = New System.Drawing.Point(137, 7)
+        Me.Button11.Location = New System.Drawing.Point(167, 79)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(40, 20)
         Me.Button11.TabIndex = 11
@@ -629,7 +683,7 @@ Partial Class Form1
         '
         Me.Label23.AutoSize = True
         Me.Label23.ForeColor = System.Drawing.Color.White
-        Me.Label23.Location = New System.Drawing.Point(113, 9)
+        Me.Label23.Location = New System.Drawing.Point(142, 83)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(19, 12)
         Me.Label23.TabIndex = 11
@@ -642,7 +696,7 @@ Partial Class Form1
         Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"(None)", "Warrior", "Mage", "Cleric", "Thief", "Pop Star B.", "Pop Star G.", "Vampire", "Chef", "Tank", "Imp", "Princess", "Flower", "Scientist", "Feline", "Elf"})
-        Me.ComboBox2.Location = New System.Drawing.Point(15, 5)
+        Me.ComboBox2.Location = New System.Drawing.Point(48, 6)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(90, 20)
         Me.ComboBox2.TabIndex = 8
@@ -903,7 +957,6 @@ Partial Class Form1
         'ComboBox10
         '
         Me.ComboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox10.Enabled = False
         Me.ComboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox10.FormattingEnabled = True
         Me.ComboBox10.Items.AddRange(New Object() {"+0", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10", "+11", "+12", "+13", "+14", "+15", "+16", "+17", "+18", "+19", "+20", "+21", "+22", "+23", "+24", "+25", "+26", "+27", "+28", "+29", "+30", "+31", "+32", "+33", "+34", "+35", "+36", "+37", "+38", "+39", "+40", "+41", "+42", "+43", "+44", "+45", "+46", "+47", "+48", "+49", "+50", "+51", "+52", "+53", "+54", "+55", "+56", "+57", "+58", "+59", "+60", "+61", "+62", "+63", "+64", "+65", "+66", "+67", "+68", "+69", "+70", "+71", "+72", "+73", "+74", "+75", "+76", "+77", "+78", "+79", "+80", "+81", "+82", "+83", "+84", "+85", "+86", "+87", "+88", "+89", "+90", "+91", "+92", "+93", "+94", "+95", "+96", "+97", "+98", "+99"})
@@ -915,7 +968,6 @@ Partial Class Form1
         'ComboBox9
         '
         Me.ComboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox9.Enabled = False
         Me.ComboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox9.FormattingEnabled = True
         Me.ComboBox9.Items.AddRange(New Object() {"+0", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10", "+11", "+12", "+13", "+14", "+15", "+16", "+17", "+18", "+19", "+20", "+21", "+22", "+23", "+24", "+25", "+26", "+27", "+28", "+29", "+30", "+31", "+32", "+33", "+34", "+35", "+36", "+37", "+38", "+39", "+40", "+41", "+42", "+43", "+44", "+45", "+46", "+47", "+48", "+49", "+50", "+51", "+52", "+53", "+54", "+55", "+56", "+57", "+58", "+59", "+60", "+61", "+62", "+63", "+64", "+65", "+66", "+67", "+68", "+69", "+70", "+71", "+72", "+73", "+74", "+75", "+76", "+77", "+78", "+79", "+80", "+81", "+82", "+83", "+84", "+85", "+86", "+87", "+88", "+89", "+90", "+91", "+92", "+93", "+94", "+95", "+96", "+97", "+98", "+99"})
@@ -927,7 +979,6 @@ Partial Class Form1
         'ComboBox8
         '
         Me.ComboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox8.Enabled = False
         Me.ComboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox8.FormattingEnabled = True
         Me.ComboBox8.Items.AddRange(New Object() {"+0", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10", "+11", "+12", "+13", "+14", "+15", "+16", "+17", "+18", "+19", "+20", "+21", "+22", "+23", "+24", "+25", "+26", "+27", "+28", "+29", "+30", "+31", "+32", "+33", "+34", "+35", "+36", "+37", "+38", "+39", "+40", "+41", "+42", "+43", "+44", "+45", "+46", "+47", "+48", "+49", "+50", "+51", "+52", "+53", "+54", "+55", "+56", "+57", "+58", "+59", "+60", "+61", "+62", "+63", "+64", "+65", "+66", "+67", "+68", "+69", "+70", "+71", "+72", "+73", "+74", "+75", "+76", "+77", "+78", "+79", "+80", "+81", "+82", "+83", "+84", "+85", "+86", "+87", "+88", "+89", "+90", "+91", "+92", "+93", "+94", "+95", "+96", "+97", "+98", "+99"})
@@ -939,7 +990,6 @@ Partial Class Form1
         'ComboBox7
         '
         Me.ComboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox7.Enabled = False
         Me.ComboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox7.FormattingEnabled = True
         Me.ComboBox7.Items.AddRange(New Object() {"+0", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10", "+11", "+12", "+13", "+14", "+15", "+16", "+17", "+18", "+19", "+20", "+21", "+22", "+23", "+24", "+25", "+26", "+27", "+28", "+29", "+30", "+31", "+32", "+33", "+34", "+35", "+36", "+37", "+38", "+39", "+40", "+41", "+42", "+43", "+44", "+45", "+46", "+47", "+48", "+49", "+50", "+51", "+52", "+53", "+54", "+55", "+56", "+57", "+58", "+59", "+60", "+61", "+62", "+63", "+64", "+65", "+66", "+67", "+68", "+69", "+70", "+71", "+72", "+73", "+74", "+75", "+76", "+77", "+78", "+79", "+80", "+81", "+82", "+83", "+84", "+85", "+86", "+87", "+88", "+89", "+90", "+91", "+92", "+93", "+94", "+95", "+96", "+97", "+98", "+99"})
@@ -951,7 +1001,6 @@ Partial Class Form1
         'ComboBox6
         '
         Me.ComboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox6.Enabled = False
         Me.ComboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.Items.AddRange(New Object() {"+0", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10", "+11", "+12", "+13", "+14", "+15", "+16", "+17", "+18", "+19", "+20", "+21", "+22", "+23", "+24", "+25", "+26", "+27", "+28", "+29", "+30", "+31", "+32", "+33", "+34", "+35", "+36", "+37", "+38", "+39", "+40", "+41", "+42", "+43", "+44", "+45", "+46", "+47", "+48", "+49", "+50", "+51", "+52", "+53", "+54", "+55", "+56", "+57", "+58", "+59", "+60", "+61", "+62", "+63", "+64", "+65", "+66", "+67", "+68", "+69", "+70", "+71", "+72", "+73", "+74", "+75", "+76", "+77", "+78", "+79", "+80", "+81", "+82", "+83", "+84", "+85", "+86", "+87", "+88", "+89", "+90", "+91", "+92", "+93", "+94", "+95", "+96", "+97", "+98", "+99"})
@@ -963,7 +1012,6 @@ Partial Class Form1
         'ComboBox5
         '
         Me.ComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox5.Enabled = False
         Me.ComboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Items.AddRange(New Object() {"+0", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10", "+11", "+12", "+13", "+14", "+15", "+16", "+17", "+18", "+19", "+20", "+21", "+22", "+23", "+24", "+25", "+26", "+27", "+28", "+29", "+30", "+31", "+32", "+33", "+34", "+35", "+36", "+37", "+38", "+39", "+40", "+41", "+42", "+43", "+44", "+45", "+46", "+47", "+48", "+49", "+50", "+51", "+52", "+53", "+54", "+55", "+56", "+57", "+58", "+59", "+60", "+61", "+62", "+63", "+64", "+65", "+66", "+67", "+68", "+69", "+70", "+71", "+72", "+73", "+74", "+75", "+76", "+77", "+78", "+79", "+80", "+81", "+82", "+83", "+84", "+85", "+86", "+87", "+88", "+89", "+90", "+91", "+92", "+93", "+94", "+95", "+96", "+97", "+98", "+99"})
@@ -1092,6 +1140,67 @@ Partial Class Form1
         Me.Label13.Text = "HP"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'TabPage7
+        '
+        Me.TabPage7.BackgroundImage = CType(resources.GetObject("TabPage7.BackgroundImage"), System.Drawing.Image)
+        Me.TabPage7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.TabPage7.Controls.Add(Me.Button11)
+        Me.TabPage7.Controls.Add(Me.NumericUpDown22)
+        Me.TabPage7.Controls.Add(Me.Label23)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 21)
+        Me.TabPage7.Name = "TabPage7"
+        Me.TabPage7.Size = New System.Drawing.Size(440, 224)
+        Me.TabPage7.TabIndex = 3
+        Me.TabPage7.Text = "Level by class"
+        Me.TabPage7.UseVisualStyleBackColor = True
+        '
+        'TabPage8
+        '
+        Me.TabPage8.BackgroundImage = CType(resources.GetObject("TabPage8.BackgroundImage"), System.Drawing.Image)
+        Me.TabPage8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.TabPage8.Controls.Add(Me.NumericUpDown33)
+        Me.TabPage8.Controls.Add(Me.ComboBox21)
+        Me.TabPage8.Controls.Add(Me.PictureBox21)
+        Me.TabPage8.Controls.Add(Me.Label35)
+        Me.TabPage8.Controls.Add(Me.NumericUpDown32)
+        Me.TabPage8.Controls.Add(Me.ComboBox20)
+        Me.TabPage8.Controls.Add(Me.PictureBox20)
+        Me.TabPage8.Controls.Add(Me.Label34)
+        Me.TabPage8.Controls.Add(Me.NumericUpDown31)
+        Me.TabPage8.Controls.Add(Me.ComboBox19)
+        Me.TabPage8.Controls.Add(Me.PictureBox19)
+        Me.TabPage8.Controls.Add(Me.Label33)
+        Me.TabPage8.Controls.Add(Me.NumericUpDown30)
+        Me.TabPage8.Controls.Add(Me.ComboBox18)
+        Me.TabPage8.Controls.Add(Me.PictureBox18)
+        Me.TabPage8.Controls.Add(Me.Label32)
+        Me.TabPage8.Controls.Add(Me.NumericUpDown29)
+        Me.TabPage8.Controls.Add(Me.ComboBox17)
+        Me.TabPage8.Controls.Add(Me.PictureBox17)
+        Me.TabPage8.Controls.Add(Me.Label31)
+        Me.TabPage8.Controls.Add(Me.NumericUpDown28)
+        Me.TabPage8.Controls.Add(Me.ComboBox16)
+        Me.TabPage8.Controls.Add(Me.PictureBox16)
+        Me.TabPage8.Controls.Add(Me.Label30)
+        Me.TabPage8.Controls.Add(Me.NumericUpDown27)
+        Me.TabPage8.Controls.Add(Me.ComboBox15)
+        Me.TabPage8.Controls.Add(Me.PictureBox15)
+        Me.TabPage8.Controls.Add(Me.Label29)
+        Me.TabPage8.Controls.Add(Me.NumericUpDown26)
+        Me.TabPage8.Controls.Add(Me.ComboBox14)
+        Me.TabPage8.Controls.Add(Me.PictureBox14)
+        Me.TabPage8.Controls.Add(Me.Label28)
+        Me.TabPage8.Controls.Add(Me.NumericUpDown25)
+        Me.TabPage8.Controls.Add(Me.ComboBox13)
+        Me.TabPage8.Controls.Add(Me.PictureBox13)
+        Me.TabPage8.Controls.Add(Me.Label27)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 21)
+        Me.TabPage8.Name = "TabPage8"
+        Me.TabPage8.Size = New System.Drawing.Size(440, 224)
+        Me.TabPage8.TabIndex = 4
+        Me.TabPage8.Text = "Mii relation"
+        Me.TabPage8.UseVisualStyleBackColor = True
+        '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
@@ -1111,9 +1220,9 @@ Partial Class Form1
         Me.Label1.Font = New System.Drawing.Font("nintendo_NTLG-DB_001", 7.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(1, 389)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(76, 12)
+        Me.Label1.Size = New System.Drawing.Size(72, 12)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Beta ver.1.0.2"
+        Me.Label1.Text = "Version 1.0.2"
         '
         'Label2
         '
@@ -1188,6 +1297,375 @@ Partial Class Form1
         Me.PictureBox10.TabIndex = 8
         Me.PictureBox10.TabStop = False
         '
+        'NumericUpDown25
+        '
+        Me.NumericUpDown25.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown25.Location = New System.Drawing.Point(274, 55)
+        Me.NumericUpDown25.Maximum = New Decimal(New Integer() {490, 0, 0, 0})
+        Me.NumericUpDown25.Name = "NumericUpDown25"
+        Me.NumericUpDown25.Size = New System.Drawing.Size(41, 16)
+        Me.NumericUpDown25.TabIndex = 7
+        Me.NumericUpDown25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ComboBox13
+        '
+        Me.ComboBox13.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.ComboBox13.FormattingEnabled = True
+        Me.ComboBox13.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99"})
+        Me.ComboBox13.Location = New System.Drawing.Point(321, 53)
+        Me.ComboBox13.Name = "ComboBox13"
+        Me.ComboBox13.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ComboBox13.Size = New System.Drawing.Size(39, 20)
+        Me.ComboBox13.TabIndex = 6
+        '
+        'PictureBox13
+        '
+        Me.PictureBox13.BackgroundImage = CType(resources.GetObject("PictureBox13.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox13.Location = New System.Drawing.Point(254, 56)
+        Me.PictureBox13.Name = "PictureBox13"
+        Me.PictureBox13.Size = New System.Drawing.Size(172, 14)
+        Me.PictureBox13.TabIndex = 5
+        Me.PictureBox13.TabStop = False
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("nintendo_NTLG-DB_001", 7.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(235, 57)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(13, 12)
+        Me.Label27.TabIndex = 4
+        Me.Label27.Text = "1"
+        '
+        'NumericUpDown26
+        '
+        Me.NumericUpDown26.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown26.Location = New System.Drawing.Point(53, 86)
+        Me.NumericUpDown26.Maximum = New Decimal(New Integer() {490, 0, 0, 0})
+        Me.NumericUpDown26.Name = "NumericUpDown26"
+        Me.NumericUpDown26.Size = New System.Drawing.Size(41, 16)
+        Me.NumericUpDown26.TabIndex = 11
+        Me.NumericUpDown26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ComboBox14
+        '
+        Me.ComboBox14.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox14.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.ComboBox14.FormattingEnabled = True
+        Me.ComboBox14.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99"})
+        Me.ComboBox14.Location = New System.Drawing.Point(100, 84)
+        Me.ComboBox14.Name = "ComboBox14"
+        Me.ComboBox14.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ComboBox14.Size = New System.Drawing.Size(39, 20)
+        Me.ComboBox14.TabIndex = 10
+        '
+        'PictureBox14
+        '
+        Me.PictureBox14.BackgroundImage = CType(resources.GetObject("PictureBox14.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox14.Location = New System.Drawing.Point(33, 87)
+        Me.PictureBox14.Name = "PictureBox14"
+        Me.PictureBox14.Size = New System.Drawing.Size(172, 14)
+        Me.PictureBox14.TabIndex = 9
+        Me.PictureBox14.TabStop = False
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New System.Drawing.Font("nintendo_NTLG-DB_001", 7.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(14, 88)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(13, 12)
+        Me.Label28.TabIndex = 8
+        Me.Label28.Text = "2"
+        '
+        'NumericUpDown27
+        '
+        Me.NumericUpDown27.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown27.Location = New System.Drawing.Point(274, 87)
+        Me.NumericUpDown27.Maximum = New Decimal(New Integer() {490, 0, 0, 0})
+        Me.NumericUpDown27.Name = "NumericUpDown27"
+        Me.NumericUpDown27.Size = New System.Drawing.Size(41, 16)
+        Me.NumericUpDown27.TabIndex = 15
+        Me.NumericUpDown27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ComboBox15
+        '
+        Me.ComboBox15.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox15.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.ComboBox15.FormattingEnabled = True
+        Me.ComboBox15.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99"})
+        Me.ComboBox15.Location = New System.Drawing.Point(321, 85)
+        Me.ComboBox15.Name = "ComboBox15"
+        Me.ComboBox15.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ComboBox15.Size = New System.Drawing.Size(39, 20)
+        Me.ComboBox15.TabIndex = 14
+        '
+        'PictureBox15
+        '
+        Me.PictureBox15.BackgroundImage = CType(resources.GetObject("PictureBox15.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox15.Location = New System.Drawing.Point(254, 88)
+        Me.PictureBox15.Name = "PictureBox15"
+        Me.PictureBox15.Size = New System.Drawing.Size(172, 14)
+        Me.PictureBox15.TabIndex = 13
+        Me.PictureBox15.TabStop = False
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Font = New System.Drawing.Font("nintendo_NTLG-DB_001", 7.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Location = New System.Drawing.Point(235, 89)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(13, 12)
+        Me.Label29.TabIndex = 12
+        Me.Label29.Text = "3"
+        '
+        'NumericUpDown28
+        '
+        Me.NumericUpDown28.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown28.Location = New System.Drawing.Point(53, 120)
+        Me.NumericUpDown28.Maximum = New Decimal(New Integer() {490, 0, 0, 0})
+        Me.NumericUpDown28.Name = "NumericUpDown28"
+        Me.NumericUpDown28.Size = New System.Drawing.Size(41, 16)
+        Me.NumericUpDown28.TabIndex = 19
+        Me.NumericUpDown28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ComboBox16
+        '
+        Me.ComboBox16.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox16.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.ComboBox16.FormattingEnabled = True
+        Me.ComboBox16.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99"})
+        Me.ComboBox16.Location = New System.Drawing.Point(100, 118)
+        Me.ComboBox16.Name = "ComboBox16"
+        Me.ComboBox16.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ComboBox16.Size = New System.Drawing.Size(39, 20)
+        Me.ComboBox16.TabIndex = 18
+        '
+        'PictureBox16
+        '
+        Me.PictureBox16.BackgroundImage = CType(resources.GetObject("PictureBox16.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox16.Location = New System.Drawing.Point(33, 121)
+        Me.PictureBox16.Name = "PictureBox16"
+        Me.PictureBox16.Size = New System.Drawing.Size(172, 14)
+        Me.PictureBox16.TabIndex = 17
+        Me.PictureBox16.TabStop = False
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New System.Drawing.Font("nintendo_NTLG-DB_001", 7.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Location = New System.Drawing.Point(14, 122)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(13, 12)
+        Me.Label30.TabIndex = 16
+        Me.Label30.Text = "4"
+        '
+        'NumericUpDown29
+        '
+        Me.NumericUpDown29.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown29.Location = New System.Drawing.Point(274, 121)
+        Me.NumericUpDown29.Maximum = New Decimal(New Integer() {490, 0, 0, 0})
+        Me.NumericUpDown29.Name = "NumericUpDown29"
+        Me.NumericUpDown29.Size = New System.Drawing.Size(41, 16)
+        Me.NumericUpDown29.TabIndex = 23
+        Me.NumericUpDown29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ComboBox17
+        '
+        Me.ComboBox17.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox17.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.ComboBox17.FormattingEnabled = True
+        Me.ComboBox17.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99"})
+        Me.ComboBox17.Location = New System.Drawing.Point(321, 119)
+        Me.ComboBox17.Name = "ComboBox17"
+        Me.ComboBox17.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ComboBox17.Size = New System.Drawing.Size(39, 20)
+        Me.ComboBox17.TabIndex = 22
+        '
+        'PictureBox17
+        '
+        Me.PictureBox17.BackgroundImage = CType(resources.GetObject("PictureBox17.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox17.Location = New System.Drawing.Point(254, 122)
+        Me.PictureBox17.Name = "PictureBox17"
+        Me.PictureBox17.Size = New System.Drawing.Size(172, 14)
+        Me.PictureBox17.TabIndex = 21
+        Me.PictureBox17.TabStop = False
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Font = New System.Drawing.Font("nintendo_NTLG-DB_001", 7.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(235, 123)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(13, 12)
+        Me.Label31.TabIndex = 20
+        Me.Label31.Text = "5"
+        '
+        'NumericUpDown30
+        '
+        Me.NumericUpDown30.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown30.Location = New System.Drawing.Point(53, 153)
+        Me.NumericUpDown30.Maximum = New Decimal(New Integer() {490, 0, 0, 0})
+        Me.NumericUpDown30.Name = "NumericUpDown30"
+        Me.NumericUpDown30.Size = New System.Drawing.Size(41, 16)
+        Me.NumericUpDown30.TabIndex = 27
+        Me.NumericUpDown30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ComboBox18
+        '
+        Me.ComboBox18.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox18.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.ComboBox18.FormattingEnabled = True
+        Me.ComboBox18.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99"})
+        Me.ComboBox18.Location = New System.Drawing.Point(100, 151)
+        Me.ComboBox18.Name = "ComboBox18"
+        Me.ComboBox18.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ComboBox18.Size = New System.Drawing.Size(39, 20)
+        Me.ComboBox18.TabIndex = 26
+        '
+        'PictureBox18
+        '
+        Me.PictureBox18.BackgroundImage = CType(resources.GetObject("PictureBox18.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox18.Location = New System.Drawing.Point(33, 154)
+        Me.PictureBox18.Name = "PictureBox18"
+        Me.PictureBox18.Size = New System.Drawing.Size(172, 14)
+        Me.PictureBox18.TabIndex = 25
+        Me.PictureBox18.TabStop = False
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Font = New System.Drawing.Font("nintendo_NTLG-DB_001", 7.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.Location = New System.Drawing.Point(14, 155)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(13, 12)
+        Me.Label32.TabIndex = 24
+        Me.Label32.Text = "6"
+        '
+        'NumericUpDown31
+        '
+        Me.NumericUpDown31.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown31.Location = New System.Drawing.Point(274, 154)
+        Me.NumericUpDown31.Maximum = New Decimal(New Integer() {490, 0, 0, 0})
+        Me.NumericUpDown31.Name = "NumericUpDown31"
+        Me.NumericUpDown31.Size = New System.Drawing.Size(41, 16)
+        Me.NumericUpDown31.TabIndex = 31
+        Me.NumericUpDown31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ComboBox19
+        '
+        Me.ComboBox19.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox19.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.ComboBox19.FormattingEnabled = True
+        Me.ComboBox19.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99"})
+        Me.ComboBox19.Location = New System.Drawing.Point(321, 152)
+        Me.ComboBox19.Name = "ComboBox19"
+        Me.ComboBox19.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ComboBox19.Size = New System.Drawing.Size(39, 20)
+        Me.ComboBox19.TabIndex = 30
+        '
+        'PictureBox19
+        '
+        Me.PictureBox19.BackgroundImage = CType(resources.GetObject("PictureBox19.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox19.Location = New System.Drawing.Point(254, 155)
+        Me.PictureBox19.Name = "PictureBox19"
+        Me.PictureBox19.Size = New System.Drawing.Size(172, 14)
+        Me.PictureBox19.TabIndex = 29
+        Me.PictureBox19.TabStop = False
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Font = New System.Drawing.Font("nintendo_NTLG-DB_001", 7.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Location = New System.Drawing.Point(235, 156)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(13, 12)
+        Me.Label33.TabIndex = 28
+        Me.Label33.Text = "7"
+        '
+        'NumericUpDown32
+        '
+        Me.NumericUpDown32.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown32.Location = New System.Drawing.Point(53, 186)
+        Me.NumericUpDown32.Maximum = New Decimal(New Integer() {490, 0, 0, 0})
+        Me.NumericUpDown32.Name = "NumericUpDown32"
+        Me.NumericUpDown32.Size = New System.Drawing.Size(41, 16)
+        Me.NumericUpDown32.TabIndex = 35
+        Me.NumericUpDown32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ComboBox20
+        '
+        Me.ComboBox20.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox20.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.ComboBox20.FormattingEnabled = True
+        Me.ComboBox20.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99"})
+        Me.ComboBox20.Location = New System.Drawing.Point(100, 184)
+        Me.ComboBox20.Name = "ComboBox20"
+        Me.ComboBox20.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ComboBox20.Size = New System.Drawing.Size(39, 20)
+        Me.ComboBox20.TabIndex = 34
+        '
+        'PictureBox20
+        '
+        Me.PictureBox20.BackgroundImage = CType(resources.GetObject("PictureBox20.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox20.Location = New System.Drawing.Point(33, 187)
+        Me.PictureBox20.Name = "PictureBox20"
+        Me.PictureBox20.Size = New System.Drawing.Size(172, 14)
+        Me.PictureBox20.TabIndex = 33
+        Me.PictureBox20.TabStop = False
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.Font = New System.Drawing.Font("nintendo_NTLG-DB_001", 7.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.Location = New System.Drawing.Point(14, 188)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(13, 12)
+        Me.Label34.TabIndex = 32
+        Me.Label34.Text = "8"
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.Font = New System.Drawing.Font("nintendo_NTLG-DB_001", 7.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.Location = New System.Drawing.Point(235, 189)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(13, 12)
+        Me.Label35.TabIndex = 36
+        Me.Label35.Text = "9"
+        '
+        'PictureBox21
+        '
+        Me.PictureBox21.BackgroundImage = CType(resources.GetObject("PictureBox21.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox21.Location = New System.Drawing.Point(254, 188)
+        Me.PictureBox21.Name = "PictureBox21"
+        Me.PictureBox21.Size = New System.Drawing.Size(172, 14)
+        Me.PictureBox21.TabIndex = 37
+        Me.PictureBox21.TabStop = False
+        '
+        'ComboBox21
+        '
+        Me.ComboBox21.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox21.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.ComboBox21.FormattingEnabled = True
+        Me.ComboBox21.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99"})
+        Me.ComboBox21.Location = New System.Drawing.Point(321, 185)
+        Me.ComboBox21.Name = "ComboBox21"
+        Me.ComboBox21.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ComboBox21.Size = New System.Drawing.Size(39, 20)
+        Me.ComboBox21.TabIndex = 38
+        '
+        'NumericUpDown33
+        '
+        Me.NumericUpDown33.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown33.Location = New System.Drawing.Point(274, 187)
+        Me.NumericUpDown33.Maximum = New Decimal(New Integer() {490, 0, 0, 0})
+        Me.NumericUpDown33.Name = "NumericUpDown33"
+        Me.NumericUpDown33.Size = New System.Drawing.Size(41, 16)
+        Me.NumericUpDown33.TabIndex = 39
+        Me.NumericUpDown33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1236,7 +1714,6 @@ Partial Class Form1
         CType(Me.NumericUpDown7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
-        Me.Panel3.PerformLayout()
         Me.TabPage4.ResumeLayout(False)
         Me.TabPage4.PerformLayout()
         Me.Panel2.ResumeLayout(False)
@@ -1256,10 +1733,32 @@ Partial Class Form1
         CType(Me.NumericUpDown18, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDown17, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDown16, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage7.ResumeLayout(False)
+        Me.TabPage7.PerformLayout()
+        Me.TabPage8.ResumeLayout(False)
+        Me.TabPage8.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown25, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown26, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown27, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown28, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown29, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown30, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown31, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown32, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown33, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1355,5 +1854,43 @@ Partial Class Form1
     Friend WithEvents NumericUpDown23 As System.Windows.Forms.NumericUpDown
     Friend WithEvents TabControl3 As System.Windows.Forms.TabControl
     Friend WithEvents TabPage6 As System.Windows.Forms.TabPage
+    Friend WithEvents TabPage7 As System.Windows.Forms.TabPage
+    Friend WithEvents TabPage8 As System.Windows.Forms.TabPage
+    Friend WithEvents NumericUpDown33 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents ComboBox21 As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox21 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label35 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown32 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents ComboBox20 As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox20 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label34 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown31 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents ComboBox19 As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox19 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label33 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown30 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents ComboBox18 As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox18 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label32 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown29 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents ComboBox17 As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox17 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label31 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown28 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents ComboBox16 As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label30 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown27 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents ComboBox15 As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label29 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown26 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents ComboBox14 As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label28 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown25 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents ComboBox13 As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label27 As System.Windows.Forms.Label
 
 End Class
