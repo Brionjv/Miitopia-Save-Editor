@@ -807,7 +807,7 @@
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
         Try
             Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
-            For i As Integer = 0 To 126
+            For i As Integer = 0 To 195
                 Writer.Position = &H2C + i
                 Writer.WriteInt8(NumericUpDown2.Value)
             Next
@@ -3882,5 +3882,9 @@
         ElseIf CheckBox1.Checked = True And ComboBox11.SelectedItem = ComboBox11.Items.Item(1) Then
             NumericUpDown23.Value = 100
         End If
+    End Sub
+
+    Private Sub PictureBox24_Click(sender As Object, e As EventArgs) Handles PictureBox24.Click
+
     End Sub
 End Class
