@@ -104,8 +104,37 @@ Partial Class Form1
         Me.NumericUpDown16 = New System.Windows.Forms.NumericUpDown()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.TabPage7 = New System.Windows.Forms.TabPage()
+        Me.NumericUpDown42 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox31 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown43 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox32 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown44 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox33 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown45 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox34 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown46 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox35 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown37 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox26 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown38 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox27 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown39 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox28 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown40 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox29 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown41 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox30 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown36 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox25 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown35 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox24 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown34 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox23 = New System.Windows.Forms.PictureBox()
+        Me.NumericUpDown24 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox22 = New System.Windows.Forms.PictureBox()
         Me.NumericUpDown22 = New System.Windows.Forms.NumericUpDown()
         Me.Label23 = New System.Windows.Forms.Label()
+        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
         Me.TabPage8 = New System.Windows.Forms.TabPage()
         Me.NumericUpDown33 = New System.Windows.Forms.NumericUpDown()
         Me.ComboBox21 = New System.Windows.Forms.ComboBox()
@@ -151,35 +180,6 @@ Partial Class Form1
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown24 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox22 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown34 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox23 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown35 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox24 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown36 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox25 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown37 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox26 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown38 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox27 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown39 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox28 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown40 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox29 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown41 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox30 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown43 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox32 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown44 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox33 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown45 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox34 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown46 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox35 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown42 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox31 = New System.Windows.Forms.PictureBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabControl3.SuspendLayout()
@@ -223,7 +223,36 @@ Partial Class Form1
         CType(Me.NumericUpDown17, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown16, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage7.SuspendLayout()
+        CType(Me.NumericUpDown42, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown43, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown44, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown45, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown46, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox35, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown37, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown38, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown39, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown40, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown41, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown36, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown35, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown34, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown24, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown22, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage8.SuspendLayout()
         CType(Me.NumericUpDown33, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -247,35 +276,6 @@ Partial Class Form1
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown24, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown34, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown35, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown36, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown37, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown38, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown39, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown40, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown41, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown43, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown44, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown45, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown46, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox35, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown42, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -1207,6 +1207,300 @@ Partial Class Form1
         Me.TabPage7.Text = "Level by class"
         Me.TabPage7.UseVisualStyleBackColor = True
         '
+        'NumericUpDown42
+        '
+        Me.NumericUpDown42.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown42.Location = New System.Drawing.Point(322, 206)
+        Me.NumericUpDown42.Name = "NumericUpDown42"
+        Me.NumericUpDown42.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown42.TabIndex = 46
+        Me.NumericUpDown42.Visible = False
+        '
+        'PictureBox31
+        '
+        Me.PictureBox31.BackgroundImage = CType(resources.GetObject("PictureBox31.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox31.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox31.Location = New System.Drawing.Point(322, 162)
+        Me.PictureBox31.Name = "PictureBox31"
+        Me.PictureBox31.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox31.TabIndex = 47
+        Me.PictureBox31.TabStop = False
+        '
+        'NumericUpDown43
+        '
+        Me.NumericUpDown43.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown43.Location = New System.Drawing.Point(256, 206)
+        Me.NumericUpDown43.Name = "NumericUpDown43"
+        Me.NumericUpDown43.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown43.TabIndex = 44
+        Me.NumericUpDown43.Visible = False
+        '
+        'PictureBox32
+        '
+        Me.PictureBox32.BackgroundImage = CType(resources.GetObject("PictureBox32.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox32.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox32.Location = New System.Drawing.Point(256, 162)
+        Me.PictureBox32.Name = "PictureBox32"
+        Me.PictureBox32.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox32.TabIndex = 45
+        Me.PictureBox32.TabStop = False
+        '
+        'NumericUpDown44
+        '
+        Me.NumericUpDown44.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown44.Location = New System.Drawing.Point(190, 206)
+        Me.NumericUpDown44.Name = "NumericUpDown44"
+        Me.NumericUpDown44.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown44.TabIndex = 42
+        Me.NumericUpDown44.Visible = False
+        '
+        'PictureBox33
+        '
+        Me.PictureBox33.BackgroundImage = CType(resources.GetObject("PictureBox33.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox33.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox33.Location = New System.Drawing.Point(190, 162)
+        Me.PictureBox33.Name = "PictureBox33"
+        Me.PictureBox33.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox33.TabIndex = 43
+        Me.PictureBox33.TabStop = False
+        '
+        'NumericUpDown45
+        '
+        Me.NumericUpDown45.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown45.Location = New System.Drawing.Point(124, 206)
+        Me.NumericUpDown45.Name = "NumericUpDown45"
+        Me.NumericUpDown45.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown45.TabIndex = 40
+        Me.NumericUpDown45.Visible = False
+        '
+        'PictureBox34
+        '
+        Me.PictureBox34.BackgroundImage = CType(resources.GetObject("PictureBox34.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox34.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox34.Location = New System.Drawing.Point(124, 162)
+        Me.PictureBox34.Name = "PictureBox34"
+        Me.PictureBox34.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox34.TabIndex = 41
+        Me.PictureBox34.TabStop = False
+        '
+        'NumericUpDown46
+        '
+        Me.NumericUpDown46.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown46.Location = New System.Drawing.Point(58, 206)
+        Me.NumericUpDown46.Name = "NumericUpDown46"
+        Me.NumericUpDown46.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown46.TabIndex = 38
+        Me.NumericUpDown46.Visible = False
+        '
+        'PictureBox35
+        '
+        Me.PictureBox35.BackgroundImage = CType(resources.GetObject("PictureBox35.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox35.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox35.Location = New System.Drawing.Point(58, 162)
+        Me.PictureBox35.Name = "PictureBox35"
+        Me.PictureBox35.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox35.TabIndex = 39
+        Me.PictureBox35.TabStop = False
+        '
+        'NumericUpDown37
+        '
+        Me.NumericUpDown37.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown37.Location = New System.Drawing.Point(355, 144)
+        Me.NumericUpDown37.Name = "NumericUpDown37"
+        Me.NumericUpDown37.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown37.TabIndex = 36
+        Me.NumericUpDown37.Visible = False
+        '
+        'PictureBox26
+        '
+        Me.PictureBox26.BackgroundImage = CType(resources.GetObject("PictureBox26.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox26.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox26.Location = New System.Drawing.Point(355, 100)
+        Me.PictureBox26.Name = "PictureBox26"
+        Me.PictureBox26.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox26.TabIndex = 37
+        Me.PictureBox26.TabStop = False
+        '
+        'NumericUpDown38
+        '
+        Me.NumericUpDown38.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown38.Location = New System.Drawing.Point(289, 144)
+        Me.NumericUpDown38.Name = "NumericUpDown38"
+        Me.NumericUpDown38.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown38.TabIndex = 34
+        Me.NumericUpDown38.Visible = False
+        '
+        'PictureBox27
+        '
+        Me.PictureBox27.BackgroundImage = CType(resources.GetObject("PictureBox27.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox27.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox27.Location = New System.Drawing.Point(289, 100)
+        Me.PictureBox27.Name = "PictureBox27"
+        Me.PictureBox27.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox27.TabIndex = 35
+        Me.PictureBox27.TabStop = False
+        '
+        'NumericUpDown39
+        '
+        Me.NumericUpDown39.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown39.Location = New System.Drawing.Point(223, 144)
+        Me.NumericUpDown39.Name = "NumericUpDown39"
+        Me.NumericUpDown39.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown39.TabIndex = 32
+        Me.NumericUpDown39.Visible = False
+        '
+        'PictureBox28
+        '
+        Me.PictureBox28.BackgroundImage = CType(resources.GetObject("PictureBox28.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox28.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox28.Location = New System.Drawing.Point(223, 100)
+        Me.PictureBox28.Name = "PictureBox28"
+        Me.PictureBox28.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox28.TabIndex = 33
+        Me.PictureBox28.TabStop = False
+        '
+        'NumericUpDown40
+        '
+        Me.NumericUpDown40.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown40.Location = New System.Drawing.Point(157, 144)
+        Me.NumericUpDown40.Name = "NumericUpDown40"
+        Me.NumericUpDown40.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown40.TabIndex = 30
+        Me.NumericUpDown40.Visible = False
+        '
+        'PictureBox29
+        '
+        Me.PictureBox29.BackgroundImage = CType(resources.GetObject("PictureBox29.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox29.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox29.Location = New System.Drawing.Point(157, 100)
+        Me.PictureBox29.Name = "PictureBox29"
+        Me.PictureBox29.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox29.TabIndex = 31
+        Me.PictureBox29.TabStop = False
+        '
+        'NumericUpDown41
+        '
+        Me.NumericUpDown41.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown41.Location = New System.Drawing.Point(91, 144)
+        Me.NumericUpDown41.Name = "NumericUpDown41"
+        Me.NumericUpDown41.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown41.TabIndex = 28
+        Me.NumericUpDown41.Visible = False
+        '
+        'PictureBox30
+        '
+        Me.PictureBox30.BackgroundImage = CType(resources.GetObject("PictureBox30.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox30.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox30.Location = New System.Drawing.Point(91, 100)
+        Me.PictureBox30.Name = "PictureBox30"
+        Me.PictureBox30.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox30.TabIndex = 29
+        Me.PictureBox30.TabStop = False
+        '
+        'NumericUpDown36
+        '
+        Me.NumericUpDown36.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown36.Location = New System.Drawing.Point(25, 144)
+        Me.NumericUpDown36.Name = "NumericUpDown36"
+        Me.NumericUpDown36.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown36.TabIndex = 26
+        Me.NumericUpDown36.Visible = False
+        '
+        'PictureBox25
+        '
+        Me.PictureBox25.BackgroundImage = CType(resources.GetObject("PictureBox25.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox25.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox25.Location = New System.Drawing.Point(25, 100)
+        Me.PictureBox25.Name = "PictureBox25"
+        Me.PictureBox25.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox25.TabIndex = 27
+        Me.PictureBox25.TabStop = False
+        '
+        'NumericUpDown35
+        '
+        Me.NumericUpDown35.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown35.Location = New System.Drawing.Point(289, 82)
+        Me.NumericUpDown35.Name = "NumericUpDown35"
+        Me.NumericUpDown35.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown35.TabIndex = 24
+        Me.NumericUpDown35.Visible = False
+        '
+        'PictureBox24
+        '
+        Me.PictureBox24.BackgroundImage = CType(resources.GetObject("PictureBox24.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox24.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox24.Location = New System.Drawing.Point(289, 38)
+        Me.PictureBox24.Name = "PictureBox24"
+        Me.PictureBox24.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox24.TabIndex = 25
+        Me.PictureBox24.TabStop = False
+        '
+        'NumericUpDown34
+        '
+        Me.NumericUpDown34.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown34.Location = New System.Drawing.Point(223, 82)
+        Me.NumericUpDown34.Name = "NumericUpDown34"
+        Me.NumericUpDown34.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown34.TabIndex = 22
+        Me.NumericUpDown34.Visible = False
+        '
+        'PictureBox23
+        '
+        Me.PictureBox23.BackgroundImage = CType(resources.GetObject("PictureBox23.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox23.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox23.Location = New System.Drawing.Point(223, 38)
+        Me.PictureBox23.Name = "PictureBox23"
+        Me.PictureBox23.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox23.TabIndex = 23
+        Me.PictureBox23.TabStop = False
+        '
+        'NumericUpDown24
+        '
+        Me.NumericUpDown24.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown24.Location = New System.Drawing.Point(157, 82)
+        Me.NumericUpDown24.Name = "NumericUpDown24"
+        Me.NumericUpDown24.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown24.TabIndex = 20
+        Me.NumericUpDown24.Visible = False
+        '
+        'PictureBox22
+        '
+        Me.PictureBox22.BackgroundImage = CType(resources.GetObject("PictureBox22.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox22.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox22.Location = New System.Drawing.Point(157, 38)
+        Me.PictureBox22.Name = "PictureBox22"
+        Me.PictureBox22.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox22.TabIndex = 21
+        Me.PictureBox22.TabStop = False
+        '
         'NumericUpDown22
         '
         Me.NumericUpDown22.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1222,9 +1516,21 @@ Partial Class Form1
         Me.Label23.ForeColor = System.Drawing.Color.White
         Me.Label23.Location = New System.Drawing.Point(192, 18)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(19, 12)
+        Me.Label23.Size = New System.Drawing.Size(74, 12)
         Me.Label23.TabIndex = 11
-        Me.Label23.Text = "Lv."
+        Me.Label23.Text = "Level by class"
+        '
+        'PictureBox12
+        '
+        Me.PictureBox12.BackgroundImage = CType(resources.GetObject("PictureBox12.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox12.Location = New System.Drawing.Point(91, 38)
+        Me.PictureBox12.Name = "PictureBox12"
+        Me.PictureBox12.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox12.TabIndex = 19
+        Me.PictureBox12.TabStop = False
         '
         'TabPage8
         '
@@ -1738,312 +2044,6 @@ Partial Class Form1
         Me.PictureBox10.TabIndex = 8
         Me.PictureBox10.TabStop = False
         '
-        'PictureBox12
-        '
-        Me.PictureBox12.BackgroundImage = CType(resources.GetObject("PictureBox12.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox12.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox12.Location = New System.Drawing.Point(91, 38)
-        Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox12.TabIndex = 19
-        Me.PictureBox12.TabStop = False
-        '
-        'NumericUpDown24
-        '
-        Me.NumericUpDown24.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown24.Location = New System.Drawing.Point(157, 82)
-        Me.NumericUpDown24.Name = "NumericUpDown24"
-        Me.NumericUpDown24.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown24.TabIndex = 20
-        Me.NumericUpDown24.Visible = False
-        '
-        'PictureBox22
-        '
-        Me.PictureBox22.BackgroundImage = CType(resources.GetObject("PictureBox22.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox22.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox22.Location = New System.Drawing.Point(157, 38)
-        Me.PictureBox22.Name = "PictureBox22"
-        Me.PictureBox22.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox22.TabIndex = 21
-        Me.PictureBox22.TabStop = False
-        '
-        'NumericUpDown34
-        '
-        Me.NumericUpDown34.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown34.Location = New System.Drawing.Point(223, 82)
-        Me.NumericUpDown34.Name = "NumericUpDown34"
-        Me.NumericUpDown34.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown34.TabIndex = 22
-        Me.NumericUpDown34.Visible = False
-        '
-        'PictureBox23
-        '
-        Me.PictureBox23.BackgroundImage = CType(resources.GetObject("PictureBox23.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox23.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox23.Location = New System.Drawing.Point(223, 38)
-        Me.PictureBox23.Name = "PictureBox23"
-        Me.PictureBox23.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox23.TabIndex = 23
-        Me.PictureBox23.TabStop = False
-        '
-        'NumericUpDown35
-        '
-        Me.NumericUpDown35.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown35.Location = New System.Drawing.Point(289, 82)
-        Me.NumericUpDown35.Name = "NumericUpDown35"
-        Me.NumericUpDown35.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown35.TabIndex = 24
-        Me.NumericUpDown35.Visible = False
-        '
-        'PictureBox24
-        '
-        Me.PictureBox24.BackgroundImage = CType(resources.GetObject("PictureBox24.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox24.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox24.Location = New System.Drawing.Point(289, 38)
-        Me.PictureBox24.Name = "PictureBox24"
-        Me.PictureBox24.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox24.TabIndex = 25
-        Me.PictureBox24.TabStop = False
-        '
-        'NumericUpDown36
-        '
-        Me.NumericUpDown36.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown36.Location = New System.Drawing.Point(25, 144)
-        Me.NumericUpDown36.Name = "NumericUpDown36"
-        Me.NumericUpDown36.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown36.TabIndex = 26
-        Me.NumericUpDown36.Visible = False
-        '
-        'PictureBox25
-        '
-        Me.PictureBox25.BackgroundImage = CType(resources.GetObject("PictureBox25.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox25.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox25.Location = New System.Drawing.Point(25, 100)
-        Me.PictureBox25.Name = "PictureBox25"
-        Me.PictureBox25.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox25.TabIndex = 27
-        Me.PictureBox25.TabStop = False
-        '
-        'NumericUpDown37
-        '
-        Me.NumericUpDown37.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown37.Location = New System.Drawing.Point(355, 144)
-        Me.NumericUpDown37.Name = "NumericUpDown37"
-        Me.NumericUpDown37.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown37.TabIndex = 36
-        Me.NumericUpDown37.Visible = False
-        '
-        'PictureBox26
-        '
-        Me.PictureBox26.BackgroundImage = CType(resources.GetObject("PictureBox26.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox26.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox26.Location = New System.Drawing.Point(355, 100)
-        Me.PictureBox26.Name = "PictureBox26"
-        Me.PictureBox26.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox26.TabIndex = 37
-        Me.PictureBox26.TabStop = False
-        '
-        'NumericUpDown38
-        '
-        Me.NumericUpDown38.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown38.Location = New System.Drawing.Point(289, 144)
-        Me.NumericUpDown38.Name = "NumericUpDown38"
-        Me.NumericUpDown38.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown38.TabIndex = 34
-        Me.NumericUpDown38.Visible = False
-        '
-        'PictureBox27
-        '
-        Me.PictureBox27.BackgroundImage = CType(resources.GetObject("PictureBox27.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox27.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox27.Location = New System.Drawing.Point(289, 100)
-        Me.PictureBox27.Name = "PictureBox27"
-        Me.PictureBox27.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox27.TabIndex = 35
-        Me.PictureBox27.TabStop = False
-        '
-        'NumericUpDown39
-        '
-        Me.NumericUpDown39.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown39.Location = New System.Drawing.Point(223, 144)
-        Me.NumericUpDown39.Name = "NumericUpDown39"
-        Me.NumericUpDown39.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown39.TabIndex = 32
-        Me.NumericUpDown39.Visible = False
-        '
-        'PictureBox28
-        '
-        Me.PictureBox28.BackgroundImage = CType(resources.GetObject("PictureBox28.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox28.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox28.Location = New System.Drawing.Point(223, 100)
-        Me.PictureBox28.Name = "PictureBox28"
-        Me.PictureBox28.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox28.TabIndex = 33
-        Me.PictureBox28.TabStop = False
-        '
-        'NumericUpDown40
-        '
-        Me.NumericUpDown40.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown40.Location = New System.Drawing.Point(157, 144)
-        Me.NumericUpDown40.Name = "NumericUpDown40"
-        Me.NumericUpDown40.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown40.TabIndex = 30
-        Me.NumericUpDown40.Visible = False
-        '
-        'PictureBox29
-        '
-        Me.PictureBox29.BackgroundImage = CType(resources.GetObject("PictureBox29.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox29.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox29.Location = New System.Drawing.Point(157, 100)
-        Me.PictureBox29.Name = "PictureBox29"
-        Me.PictureBox29.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox29.TabIndex = 31
-        Me.PictureBox29.TabStop = False
-        '
-        'NumericUpDown41
-        '
-        Me.NumericUpDown41.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown41.Location = New System.Drawing.Point(91, 144)
-        Me.NumericUpDown41.Name = "NumericUpDown41"
-        Me.NumericUpDown41.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown41.TabIndex = 28
-        Me.NumericUpDown41.Visible = False
-        '
-        'PictureBox30
-        '
-        Me.PictureBox30.BackgroundImage = CType(resources.GetObject("PictureBox30.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox30.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox30.Location = New System.Drawing.Point(91, 100)
-        Me.PictureBox30.Name = "PictureBox30"
-        Me.PictureBox30.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox30.TabIndex = 29
-        Me.PictureBox30.TabStop = False
-        '
-        'NumericUpDown43
-        '
-        Me.NumericUpDown43.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown43.Location = New System.Drawing.Point(256, 206)
-        Me.NumericUpDown43.Name = "NumericUpDown43"
-        Me.NumericUpDown43.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown43.TabIndex = 44
-        Me.NumericUpDown43.Visible = False
-        '
-        'PictureBox32
-        '
-        Me.PictureBox32.BackgroundImage = CType(resources.GetObject("PictureBox32.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox32.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox32.Location = New System.Drawing.Point(256, 162)
-        Me.PictureBox32.Name = "PictureBox32"
-        Me.PictureBox32.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox32.TabIndex = 45
-        Me.PictureBox32.TabStop = False
-        '
-        'NumericUpDown44
-        '
-        Me.NumericUpDown44.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown44.Location = New System.Drawing.Point(190, 206)
-        Me.NumericUpDown44.Name = "NumericUpDown44"
-        Me.NumericUpDown44.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown44.TabIndex = 42
-        Me.NumericUpDown44.Visible = False
-        '
-        'PictureBox33
-        '
-        Me.PictureBox33.BackgroundImage = CType(resources.GetObject("PictureBox33.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox33.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox33.Location = New System.Drawing.Point(190, 162)
-        Me.PictureBox33.Name = "PictureBox33"
-        Me.PictureBox33.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox33.TabIndex = 43
-        Me.PictureBox33.TabStop = False
-        '
-        'NumericUpDown45
-        '
-        Me.NumericUpDown45.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown45.Location = New System.Drawing.Point(124, 206)
-        Me.NumericUpDown45.Name = "NumericUpDown45"
-        Me.NumericUpDown45.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown45.TabIndex = 40
-        Me.NumericUpDown45.Visible = False
-        '
-        'PictureBox34
-        '
-        Me.PictureBox34.BackgroundImage = CType(resources.GetObject("PictureBox34.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox34.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox34.Location = New System.Drawing.Point(124, 162)
-        Me.PictureBox34.Name = "PictureBox34"
-        Me.PictureBox34.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox34.TabIndex = 41
-        Me.PictureBox34.TabStop = False
-        '
-        'NumericUpDown46
-        '
-        Me.NumericUpDown46.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown46.Location = New System.Drawing.Point(58, 206)
-        Me.NumericUpDown46.Name = "NumericUpDown46"
-        Me.NumericUpDown46.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown46.TabIndex = 38
-        Me.NumericUpDown46.Visible = False
-        '
-        'PictureBox35
-        '
-        Me.PictureBox35.BackgroundImage = CType(resources.GetObject("PictureBox35.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox35.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox35.Location = New System.Drawing.Point(58, 162)
-        Me.PictureBox35.Name = "PictureBox35"
-        Me.PictureBox35.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox35.TabIndex = 39
-        Me.PictureBox35.TabStop = False
-        '
-        'NumericUpDown42
-        '
-        Me.NumericUpDown42.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown42.Location = New System.Drawing.Point(322, 206)
-        Me.NumericUpDown42.Name = "NumericUpDown42"
-        Me.NumericUpDown42.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown42.TabIndex = 46
-        Me.NumericUpDown42.Visible = False
-        '
-        'PictureBox31
-        '
-        Me.PictureBox31.BackgroundImage = CType(resources.GetObject("PictureBox31.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox31.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox31.Location = New System.Drawing.Point(322, 162)
-        Me.PictureBox31.Name = "PictureBox31"
-        Me.PictureBox31.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox31.TabIndex = 47
-        Me.PictureBox31.TabStop = False
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2112,7 +2112,36 @@ Partial Class Form1
         CType(Me.NumericUpDown16, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage7.ResumeLayout(False)
         Me.TabPage7.PerformLayout()
+        CType(Me.NumericUpDown42, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown43, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown44, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown45, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown46, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox35, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown37, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown38, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown39, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown40, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown41, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown36, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown35, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown34, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown24, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDown22, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage8.ResumeLayout(False)
         Me.TabPage8.PerformLayout()
         CType(Me.NumericUpDown33, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2137,35 +2166,6 @@ Partial Class Form1
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown24, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown34, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown35, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown36, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown37, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown38, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown39, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown40, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown41, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown43, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown44, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown45, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown46, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox35, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown42, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
