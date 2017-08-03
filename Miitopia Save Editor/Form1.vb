@@ -1474,6 +1474,7 @@
         ComboBox3.SelectedItem = My.Settings.langue
         ComboBox4.SelectedItem = ComboBox4.Items.Item(0)
         ComboBox4.SelectedItem = My.Settings.sauve
+        TabPage8.Enabled = False
     End Sub
 
     Private Sub Form1_FormClosing(sender As Object, e As EventArgs) Handles MyBase.FormClosing
@@ -1620,6 +1621,7 @@
             TabPage4.Text = "Mii stats"
             TabPage5.Text = "Food boost"
             TabPage6.Text = "Main"
+            TabPage7.Text = "Level by class"
             Button1.Text = "Open"
             Button2.Text = "Save"
             Label16.Text = "Foods"
@@ -1657,7 +1659,7 @@
             ComboBox4.Items.Item(0) = "EU save file"
             ComboBox4.Items.Item(1) = "US save file"
             ComboBox4.Items.Item(2) = "JP save file"
-            Label23.Text = "Lv."
+            Label23.Text = "Level by class"
             Label13.Text = "HP"
             Label18.Text = "MP"
             Label19.Text = "Attack"
@@ -1674,7 +1676,8 @@
             TabPage3.Text = "Édition Mii"
             TabPage4.Text = "Stats Mii"
             TabPage5.Text = "Boost nourriture"
-            TabPage6.Text = "Principal"
+            TabPage6.Text = "Principale"
+            TabPage7.Text = "Niveau par classe"
             Button1.Text = "Ouvrir"
             Button2.Text = "Enregistrer"
             Label16.Text = "Nourritures"
@@ -1712,7 +1715,7 @@
             ComboBox4.Items.Item(0) = "Sauvegarde EU"
             ComboBox4.Items.Item(1) = "Sauvegarde US"
             ComboBox4.Items.Item(2) = "Sauvegarde JP"
-            Label23.Text = "Niv."
+            Label23.Text = "Niveau par classe"
             Label13.Text = "PV"
             Label18.Text = "PM"
             Label19.Text = "Attaque"
@@ -1728,6 +1731,9 @@
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
             TabPage3.Text = "Editar Mii"
             TabPage4.Text = "Estadísticas Mii"
+            TabPage5.Text = "Impulso de alimentos"
+            TabPage6.Text = "Principal"
+            TabPage7.Text = "Nivel por clase"
             Button1.Text = "Abrir"
             Button2.Text = "Guardar"
             Label16.Text = "Papeos"
@@ -1765,7 +1771,7 @@
             ComboBox4.Items.Item(0) = "Archivo de guard. EU"
             ComboBox4.Items.Item(1) = "Archivo de guard. US"
             ComboBox4.Items.Item(2) = "Archivo de guard. JP"
-            Label23.Text = "Niv."
+            Label23.Text = "Nivel por clase"
             Label13.Text = "PV"
             Label18.Text = "PM"
             Label19.Text = "Ataque"
@@ -1791,7 +1797,8 @@
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-        If NumericUpDown16.Visible = False Then
+        If Label26.Visible = False Then
+            Label26.Visible = True
             NumericUpDown16.Visible = True
             NumericUpDown17.Visible = True
             NumericUpDown18.Visible = True
@@ -1799,7 +1806,22 @@
             NumericUpDown20.Visible = True
             NumericUpDown21.Visible = True
             NumericUpDown22.Visible = True
-        ElseIf NumericUpDown16.Visible = True Then
+            NumericUpDown24.Visible = True
+            NumericUpDown34.Visible = True
+            NumericUpDown35.Visible = True
+            NumericUpDown36.Visible = True
+            NumericUpDown41.Visible = True
+            NumericUpDown40.Visible = True
+            NumericUpDown39.Visible = True
+            NumericUpDown38.Visible = True
+            NumericUpDown37.Visible = True
+            NumericUpDown46.Visible = True
+            NumericUpDown45.Visible = True
+            NumericUpDown44.Visible = True
+            NumericUpDown43.Visible = True
+            NumericUpDown42.Visible = True
+        ElseIf Label26.Visible = True Then
+            Label26.Visible = False
             NumericUpDown16.Visible = False
             NumericUpDown17.Visible = False
             NumericUpDown18.Visible = False
@@ -1807,6 +1829,20 @@
             NumericUpDown20.Visible = False
             NumericUpDown21.Visible = False
             NumericUpDown22.Visible = False
+            NumericUpDown24.Visible = False
+            NumericUpDown34.Visible = False
+            NumericUpDown35.Visible = False
+            NumericUpDown36.Visible = False
+            NumericUpDown41.Visible = False
+            NumericUpDown40.Visible = False
+            NumericUpDown39.Visible = False
+            NumericUpDown38.Visible = False
+            NumericUpDown37.Visible = False
+            NumericUpDown46.Visible = False
+            NumericUpDown45.Visible = False
+            NumericUpDown44.Visible = False
+            NumericUpDown43.Visible = False
+            NumericUpDown42.Visible = False
         End If
     End Sub
 
@@ -4323,6 +4359,529 @@
     End Sub
 
     Private Sub PictureBox24_Click(sender As Object, e As EventArgs) Handles PictureBox24.Click
+        NumericUpDown35.Value = 15783392
+    End Sub
 
+    Private Sub PictureBox12_Click(sender As Object, e As EventArgs) Handles PictureBox12.Click
+        NumericUpDown22.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox22_Click(sender As Object, e As EventArgs) Handles PictureBox22.Click
+        NumericUpDown24.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox23_Click(sender As Object, e As EventArgs) Handles PictureBox23.Click
+        NumericUpDown34.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox25_Click(sender As Object, e As EventArgs) Handles PictureBox25.Click
+        NumericUpDown36.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox30_Click(sender As Object, e As EventArgs) Handles PictureBox30.Click
+        NumericUpDown41.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox29_Click(sender As Object, e As EventArgs) Handles PictureBox29.Click
+        NumericUpDown40.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox28_Click(sender As Object, e As EventArgs) Handles PictureBox28.Click
+        NumericUpDown39.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox27_Click(sender As Object, e As EventArgs) Handles PictureBox27.Click
+        NumericUpDown38.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox26_Click(sender As Object, e As EventArgs) Handles PictureBox26.Click
+        NumericUpDown37.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox35_Click(sender As Object, e As EventArgs) Handles PictureBox35.Click
+        NumericUpDown46.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox34_Click(sender As Object, e As EventArgs) Handles PictureBox34.Click
+        NumericUpDown45.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox33_Click(sender As Object, e As EventArgs) Handles PictureBox33.Click
+        NumericUpDown44.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox32_Click(sender As Object, e As EventArgs) Handles PictureBox32.Click
+        NumericUpDown43.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox31_Click(sender As Object, e As EventArgs) Handles PictureBox31.Click
+        NumericUpDown42.Value = 15783392
+    End Sub
+
+    Private Sub PictureBox12_MouseMove(sender As Object, e As EventArgs) Handles PictureBox12.MouseMove
+        PictureBox12.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Warrior : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Guerrier : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Guerrero : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox12_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox12.MouseLeave
+        PictureBox12.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox22_MouseMove(sender As Object, e As EventArgs) Handles PictureBox22.MouseMove
+        PictureBox22.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Mage : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Mage : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Hechicero : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox22_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox22.MouseLeave
+        PictureBox22.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox23_MouseMove(sender As Object, e As EventArgs) Handles PictureBox23.MouseMove
+        PictureBox23.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Cleric : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Prêtre : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Clérigo : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox23_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox23.MouseLeave
+        PictureBox23.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox24_MouseMove(sender As Object, e As EventArgs) Handles PictureBox24.MouseMove
+        PictureBox24.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Thief : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Voleur : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Ladrón : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox24_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox24.MouseLeave
+        PictureBox24.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox25_MouseMove(sender As Object, e As EventArgs) Handles PictureBox25.MouseMove
+        PictureBox25.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Pop Star Boy : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Chanteur : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Cancante Chico : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox25_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox25.MouseLeave
+        PictureBox25.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox30_MouseMove(sender As Object, e As EventArgs) Handles PictureBox30.MouseMove
+        PictureBox30.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Pop Star Girl : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Chanteuse : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Cancante Chica : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox30_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox30.MouseLeave
+        PictureBox30.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox29_MouseMove(sender As Object, e As EventArgs) Handles PictureBox29.MouseMove
+        PictureBox29.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Vampire : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Vampire : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Vampiro : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox29_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox29.MouseLeave
+        PictureBox29.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox28_MouseMove(sender As Object, e As EventArgs) Handles PictureBox28.MouseMove
+        PictureBox28.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Chef : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Cuisinier : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Chef : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox28_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox28.MouseLeave
+        PictureBox28.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox27_MouseMove(sender As Object, e As EventArgs) Handles PictureBox27.MouseMove
+        PictureBox27.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Tank : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Tank : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Tanque : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox27_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox27.MouseLeave
+        PictureBox27.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox26_MouseMove(sender As Object, e As EventArgs) Handles PictureBox26.MouseMove
+        PictureBox26.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Imp : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Diablotin : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Diablillo : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox26_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox26.MouseLeave
+        PictureBox26.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox35_MouseMove(sender As Object, e As EventArgs) Handles PictureBox35.MouseMove
+        PictureBox35.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Princess : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Princesse : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Princesa : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox35_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox35.MouseLeave
+        PictureBox35.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox34_MouseMove(sender As Object, e As EventArgs) Handles PictureBox34.MouseMove
+        PictureBox34.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Flower : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Fleur : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Flor : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox34_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox34.MouseLeave
+        PictureBox34.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox33_MouseMove(sender As Object, e As EventArgs) Handles PictureBox33.MouseMove
+        PictureBox33.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Scientist : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Scientifique : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Cientifico : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox33_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox33.MouseLeave
+        PictureBox33.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox32_MouseMove(sender As Object, e As EventArgs) Handles PictureBox32.MouseMove
+        PictureBox32.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Cat : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Chat : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Gato : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox32_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox32.MouseLeave
+        PictureBox32.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox31_MouseMove(sender As Object, e As EventArgs) Handles PictureBox31.MouseMove
+        PictureBox31.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Elf : Click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Elfe : Cliquez pour mettre au max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Elfo : Haz clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub PictureBox31_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox31.MouseLeave
+        PictureBox31.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub Label26_MouseMove(sender As Object, e As EventArgs) Handles Label26.MouseMove
+        Label26.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Hidden things are visible"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Les choses cachées sont visibles"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Las cosas ocultas son visibles"
+        End If
+    End Sub
+
+    Private Sub Label26_MouseLeave(sender As Object, e As EventArgs) Handles Label26.MouseLeave
+        Label26.BorderStyle = BorderStyle.None
+        Label2.Visible = False
+    End Sub
+
+    Private Sub Label1_MouseMove(sender As Object, e As EventArgs) Handles Label1.MouseMove
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Click to show hidden things"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Cliquez pour voir les choses cachées"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Haz clic para ver las cosas ocultas"
+        End If
+    End Sub
+
+    Private Sub Label1_MouseLeave(sender As Object, e As EventArgs) Handles Label1.MouseLeave
+        Label2.Visible = False
+    End Sub
+
+    Private Sub ComboBox4_MouseMove(sender As Object, e As EventArgs) Handles ComboBox4.MouseMove
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Change save file version"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Changer la version de la sauvegarde"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Cambiar la versión de la copia de seguridad"
+        End If
+    End Sub
+
+    Private Sub ComboBox4_MouseLeave(sender As Object, e As EventArgs) Handles ComboBox4.MouseLeave
+        Label2.Visible = False
+    End Sub
+
+    Private Sub ComboBox3_MouseMove(sender As Object, e As EventArgs) Handles ComboBox3.MouseMove
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Change Miitopia Save Editor language"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Changer la langue de Miitopia Save Editor"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Cambiar el idioma de Miitopia Save Editor"
+        End If
+    End Sub
+
+    Private Sub ComboBox3_MouseLeave(sender As Object, e As EventArgs) Handles ComboBox3.MouseLeave
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox36_MouseMove(sender As Object, e As EventArgs) Handles PictureBox36.MouseMove
+        PictureBox36.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "amiibo : Click to unlock all amiibo costumes"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "amiibo : Cliquez pour débloquer tout les costumes amiibo"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "amiibo : Haz clic para desbloquear todos los disfraces amiibo"
+        End If
+    End Sub
+
+    Private Sub PictureBox36_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox36.MouseLeave
+        PictureBox36.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub TabPage8_MouseMove(sender As Object, e As EventArgs) Handles TabPage8.MouseMove
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Coming soon"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Arrive bientôt"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Próximamente"
+        End If
+    End Sub
+
+    Private Sub Button5_MouseMove(sender As Object, e As EventArgs) Handles Button5.MouseMove, Button6.MouseMove, Button7.MouseMove, Button8.MouseMove, Button9.MouseMove, Button10.MouseMove
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Double click to upgrade to max."
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Double cliquez pour mettre au max"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Haga doble clic para actualizar a máx."
+        End If
+    End Sub
+
+    Private Sub Button5_MouseLeave(sender As Object, e As EventArgs) Handles Button5.MouseLeave, Button6.MouseLeave, Button7.MouseLeave, Button8.MouseLeave, Button9.MouseLeave, Button10.MouseLeave
+        Label2.Visible = False
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        NumericUpDown16.Value = 8000
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        NumericUpDown17.Value = 8000
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        NumericUpDown18.Value = 8000
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        NumericUpDown21.Value = 8000
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        NumericUpDown20.Value = 8000
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        NumericUpDown19.Value = 8000
+    End Sub
+
+    Private Sub PictureBox36_Click(sender As Object, e As EventArgs) Handles PictureBox36.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H2A4
+            Writer.WriteUInt32(4294967295)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : amiibo costumes"
+                fdialog.Label2.Text = "All amiibo costumes has been unlocked"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes amiibo"
+                fdialog.Label2.Text = "Tout les costumes amiibo ont été débloquées"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces amiibo"
+                fdialog.Label2.Text = "Todos los disfraces amiibo han sido desbloqueados"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : amiibo costumes"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes amiibo"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces amiibo"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
     End Sub
 End Class
