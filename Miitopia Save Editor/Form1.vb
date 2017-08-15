@@ -5721,7 +5721,7 @@
     End Sub
 
     Private Sub PictureBox64_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox64.MouseLeave
-        PictureBox33.BorderStyle = BorderStyle.None
+        PictureBox64.BorderStyle = BorderStyle.None
         Label2.Visible = False
     End Sub
 
@@ -6069,6 +6069,474 @@
             End If
             If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
                 fdialog.Label1.Text = "common.sav : disfraces ladrón enciclopedia"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox59_Click(sender As Object, e As EventArgs) Handles PictureBox59.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H27C
+            Writer.WriteUInt32(4294967295)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia pop star costumes"
+                fdialog.Label2.Text = "All pop star's costumes has been unlocked in encyclopedia"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes chanteur encyclopédie"
+                fdialog.Label2.Text = "Tout les costumes de chanteur ont été débloquées dans l'encyclopédie"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces cancante enciclopedia"
+                fdialog.Label2.Text = "Todos los disfraces cancante han sido desbloqueados en la enciclopedia"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia pop star costumes"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes chanteur encyclopédie"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces cancante enciclopedia"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox58_Click(sender As Object, e As EventArgs) Handles PictureBox58.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H280
+            Writer.WriteUInt32(4294967295)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia vampire costumes"
+                fdialog.Label2.Text = "All vampire's costumes has been unlocked in encyclopedia"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes vampire encyclopédie"
+                fdialog.Label2.Text = "Tout les costumes de vampire ont été débloquées dans l'encyclopédie"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces vampiro enciclopedia"
+                fdialog.Label2.Text = "Todos los disfraces vampiro han sido desbloqueados en la enciclopedia"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia vampire costumes"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes vampire encyclopédie"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces vampiro enciclopedia"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox57_Click(sender As Object, e As EventArgs) Handles PictureBox57.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H284
+            Writer.WriteUInt32(4294967295)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia chef costumes"
+                fdialog.Label2.Text = "All chef's costumes has been unlocked in encyclopedia"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes cuisinier encyclopédie"
+                fdialog.Label2.Text = "Tout les costumes de cuisinier ont été débloquées dans l'encyclopédie"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces chef enciclopedia"
+                fdialog.Label2.Text = "Todos los disfraces chef han sido desbloqueados en la enciclopedia"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia chef costumes"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes cuisinier encyclopédie"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces chef enciclopedia"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox56_Click(sender As Object, e As EventArgs) Handles PictureBox56.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H288
+            Writer.WriteUInt32(4294967295)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia tank costumes"
+                fdialog.Label2.Text = "All tank's costumes has been unlocked in encyclopedia"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes tank encyclopédie"
+                fdialog.Label2.Text = "Tout les costumes de tank ont été débloquées dans l'encyclopédie"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces tanque enciclopedia"
+                fdialog.Label2.Text = "Todos los disfraces tanque han sido desbloqueados en la enciclopedia"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia tank costumes"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes tank encyclopédie"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces tanque enciclopedia"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox55_Click(sender As Object, e As EventArgs) Handles PictureBox55.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H28C
+            Writer.WriteUInt32(4294967295)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia imp costumes"
+                fdialog.Label2.Text = "All imp's costumes has been unlocked in encyclopedia"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes diablotin encyclopédie"
+                fdialog.Label2.Text = "Tout les costumes de diablotin ont été débloquées dans l'encyclopédie"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces diablillo enciclopedia"
+                fdialog.Label2.Text = "Todos los disfraces diablillo han sido desbloqueados en la enciclopedia"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia imp costumes"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes diablotin encyclopédie"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces diablillo enciclopedia"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox54_Click(sender As Object, e As EventArgs) Handles PictureBox54.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H290
+            Writer.WriteUInt32(4294967295)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia princess costumes"
+                fdialog.Label2.Text = "All princess costumes has been unlocked in encyclopedia"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes princesse encyclopédie"
+                fdialog.Label2.Text = "Tout les costumes de princesse ont été débloquées dans l'encyclopédie"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces princesa enciclopedia"
+                fdialog.Label2.Text = "Todos los disfraces princesa han sido desbloqueados en la enciclopedia"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia princess costumes"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes princesse encyclopédie"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces princesa enciclopedia"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox53_Click(sender As Object, e As EventArgs) Handles PictureBox53.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H294
+            Writer.WriteUInt32(4294967295)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia flower costumes"
+                fdialog.Label2.Text = "All flower's costumes has been unlocked in encyclopedia"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes fleur encyclopédie"
+                fdialog.Label2.Text = "Tout les costumes de fleur ont été débloquées dans l'encyclopédie"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces flor enciclopedia"
+                fdialog.Label2.Text = "Todos los disfraces flor han sido desbloqueados en la enciclopedia"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia flower costumes"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes fleur encyclopédie"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces flor enciclopedia"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox52_Click(sender As Object, e As EventArgs) Handles PictureBox52.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H298
+            Writer.WriteUInt32(4294967295)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia scientist costumes"
+                fdialog.Label2.Text = "All scientist costumes has been unlocked in encyclopedia"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes scientifique encyclopédie"
+                fdialog.Label2.Text = "Tout les costumes de scientifique ont été débloquées dans l'encyclopédie"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces científico enciclopedia"
+                fdialog.Label2.Text = "Todos los disfraces científico han sido desbloqueados en la enciclopedia"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia scientist costumes"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes scientifique encyclopédie"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces científico enciclopedia"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox51_Click(sender As Object, e As EventArgs) Handles PictureBox51.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H29C
+            Writer.WriteUInt32(4294967295)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia cat costumes"
+                fdialog.Label2.Text = "All cat's costumes has been unlocked in encyclopedia"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes chat encyclopédie"
+                fdialog.Label2.Text = "Tout les costumes de chat ont été débloquées dans l'encyclopédie"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces gato enciclopedia"
+                fdialog.Label2.Text = "Todos los disfraces gato han sido desbloqueados en la enciclopedia"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia cat costumes"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes chat encyclopédie"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces gato enciclopedia"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox50_Click(sender As Object, e As EventArgs) Handles PictureBox50.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H2A0
+            Writer.WriteUInt32(4294967295)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia elf costumes"
+                fdialog.Label2.Text = "All elf's costumes has been unlocked in encyclopedia"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes elfe encyclopédie"
+                fdialog.Label2.Text = "Tout les costumes d'elfe ont été débloquées dans l'encyclopédie"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces elfo enciclopedia"
+                fdialog.Label2.Text = "Todos los disfraces elfo han sido desbloqueados en la enciclopedia"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia elf costumes"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : costumes elfe encyclopédie"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : disfraces elfpictureo enciclopedia"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox49_Click(sender As Object, e As EventArgs) Handles PictureBox49.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H234
+            Writer.WriteUInt32(4294967295)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia warrior weapons"
+                fdialog.Label2.Text = "All warrior's weapons has been unlocked in encyclopedia"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : armes guerrier encyclopédie"
+                fdialog.Label2.Text = "Tout les armes de guerrier ont été débloquées dans l'encyclopédie"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : armas guerrero enciclopedia"
+                fdialog.Label2.Text = "Todos las armas guerrero han sido desbloqueados en la enciclopedia"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia warrior weapons"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : armes guerrier encyclopédie"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : armas guerrero enciclopedia"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox48_Click(sender As Object, e As EventArgs) Handles PictureBox48.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H238
+            Writer.WriteUInt32(4294967295)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia mage weapons"
+                fdialog.Label2.Text = "All mage's costumes has been unlocked in encyclopedia"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : armes mage encyclopédie"
+                fdialog.Label2.Text = "Tout les armes de mage ont été débloquées dans l'encyclopédie"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : armas hechicero enciclopedia"
+                fdialog.Label2.Text = "Todos las armas hechicero han sido desbloqueados en la enciclopedia"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : Encyclopedia mage weapons"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : armes mage encyclopédie"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : armas hechicero enciclopedia"
                 fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
                 fdialog.ShowDialog()
             End If
