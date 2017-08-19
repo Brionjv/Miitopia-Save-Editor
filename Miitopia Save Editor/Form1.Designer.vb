@@ -174,6 +174,7 @@ Partial Class Form1
         Me.PictureBox22 = New System.Windows.Forms.PictureBox()
         Me.PictureBox12 = New System.Windows.Forms.PictureBox()
         Me.TabPage8 = New System.Windows.Forms.TabPage()
+        Me.ComboBox12 = New System.Windows.Forms.ComboBox()
         Me.NumericUpDown33 = New System.Windows.Forms.NumericUpDown()
         Me.ComboBox21 = New System.Windows.Forms.ComboBox()
         Me.PictureBox21 = New System.Windows.Forms.PictureBox()
@@ -2122,6 +2123,7 @@ Partial Class Form1
         '
         Me.TabPage8.BackgroundImage = CType(resources.GetObject("TabPage8.BackgroundImage"), System.Drawing.Image)
         Me.TabPage8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.TabPage8.Controls.Add(Me.ComboBox12)
         Me.TabPage8.Controls.Add(Me.NumericUpDown33)
         Me.TabPage8.Controls.Add(Me.ComboBox21)
         Me.TabPage8.Controls.Add(Me.PictureBox21)
@@ -2162,8 +2164,21 @@ Partial Class Form1
         Me.TabPage8.Name = "TabPage8"
         Me.TabPage8.Size = New System.Drawing.Size(440, 223)
         Me.TabPage8.TabIndex = 4
-        Me.TabPage8.Text = "Mii relation"
+        Me.TabPage8.Text = "Mii relationship"
         Me.TabPage8.UseVisualStyleBackColor = True
+        '
+        'ComboBox12
+        '
+        Me.ComboBox12.BackColor = System.Drawing.Color.White
+        Me.ComboBox12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox12.Enabled = False
+        Me.ComboBox12.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.ComboBox12.FormattingEnabled = True
+        Me.ComboBox12.Items.AddRange(New Object() {"Friendship", "Quarrel"})
+        Me.ComboBox12.Location = New System.Drawing.Point(15, 49)
+        Me.ComboBox12.Name = "ComboBox12"
+        Me.ComboBox12.Size = New System.Drawing.Size(99, 21)
+        Me.ComboBox12.TabIndex = 40
         '
         'NumericUpDown33
         '
@@ -2174,6 +2189,7 @@ Partial Class Form1
         Me.NumericUpDown33.Size = New System.Drawing.Size(41, 16)
         Me.NumericUpDown33.TabIndex = 39
         Me.NumericUpDown33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.NumericUpDown33.Visible = False
         '
         'ComboBox21
         '
@@ -2186,10 +2202,12 @@ Partial Class Form1
         Me.ComboBox21.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ComboBox21.Size = New System.Drawing.Size(39, 21)
         Me.ComboBox21.TabIndex = 38
+        Me.ComboBox21.Visible = False
         '
         'PictureBox21
         '
         Me.PictureBox21.BackgroundImage = CType(resources.GetObject("PictureBox21.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox21.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox21.Location = New System.Drawing.Point(254, 188)
         Me.PictureBox21.Name = "PictureBox21"
         Me.PictureBox21.Size = New System.Drawing.Size(172, 14)
@@ -2215,6 +2233,7 @@ Partial Class Form1
         Me.NumericUpDown32.Size = New System.Drawing.Size(41, 16)
         Me.NumericUpDown32.TabIndex = 35
         Me.NumericUpDown32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.NumericUpDown32.Visible = False
         '
         'ComboBox20
         '
@@ -2227,10 +2246,12 @@ Partial Class Form1
         Me.ComboBox20.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ComboBox20.Size = New System.Drawing.Size(39, 21)
         Me.ComboBox20.TabIndex = 34
+        Me.ComboBox20.Visible = False
         '
         'PictureBox20
         '
         Me.PictureBox20.BackgroundImage = CType(resources.GetObject("PictureBox20.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox20.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox20.Location = New System.Drawing.Point(33, 187)
         Me.PictureBox20.Name = "PictureBox20"
         Me.PictureBox20.Size = New System.Drawing.Size(172, 14)
@@ -2256,6 +2277,7 @@ Partial Class Form1
         Me.NumericUpDown31.Size = New System.Drawing.Size(41, 16)
         Me.NumericUpDown31.TabIndex = 31
         Me.NumericUpDown31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.NumericUpDown31.Visible = False
         '
         'ComboBox19
         '
@@ -2268,10 +2290,12 @@ Partial Class Form1
         Me.ComboBox19.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ComboBox19.Size = New System.Drawing.Size(39, 21)
         Me.ComboBox19.TabIndex = 30
+        Me.ComboBox19.Visible = False
         '
         'PictureBox19
         '
         Me.PictureBox19.BackgroundImage = CType(resources.GetObject("PictureBox19.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox19.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox19.Location = New System.Drawing.Point(254, 155)
         Me.PictureBox19.Name = "PictureBox19"
         Me.PictureBox19.Size = New System.Drawing.Size(172, 14)
@@ -2297,6 +2321,7 @@ Partial Class Form1
         Me.NumericUpDown30.Size = New System.Drawing.Size(41, 16)
         Me.NumericUpDown30.TabIndex = 27
         Me.NumericUpDown30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.NumericUpDown30.Visible = False
         '
         'ComboBox18
         '
@@ -2309,10 +2334,12 @@ Partial Class Form1
         Me.ComboBox18.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ComboBox18.Size = New System.Drawing.Size(39, 21)
         Me.ComboBox18.TabIndex = 26
+        Me.ComboBox18.Visible = False
         '
         'PictureBox18
         '
         Me.PictureBox18.BackgroundImage = CType(resources.GetObject("PictureBox18.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox18.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox18.Location = New System.Drawing.Point(33, 154)
         Me.PictureBox18.Name = "PictureBox18"
         Me.PictureBox18.Size = New System.Drawing.Size(172, 14)
@@ -2338,6 +2365,7 @@ Partial Class Form1
         Me.NumericUpDown29.Size = New System.Drawing.Size(41, 16)
         Me.NumericUpDown29.TabIndex = 23
         Me.NumericUpDown29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.NumericUpDown29.Visible = False
         '
         'ComboBox17
         '
@@ -2350,10 +2378,12 @@ Partial Class Form1
         Me.ComboBox17.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ComboBox17.Size = New System.Drawing.Size(39, 21)
         Me.ComboBox17.TabIndex = 22
+        Me.ComboBox17.Visible = False
         '
         'PictureBox17
         '
         Me.PictureBox17.BackgroundImage = CType(resources.GetObject("PictureBox17.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox17.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox17.Location = New System.Drawing.Point(254, 122)
         Me.PictureBox17.Name = "PictureBox17"
         Me.PictureBox17.Size = New System.Drawing.Size(172, 14)
@@ -2379,6 +2409,7 @@ Partial Class Form1
         Me.NumericUpDown28.Size = New System.Drawing.Size(41, 16)
         Me.NumericUpDown28.TabIndex = 19
         Me.NumericUpDown28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.NumericUpDown28.Visible = False
         '
         'ComboBox16
         '
@@ -2391,10 +2422,12 @@ Partial Class Form1
         Me.ComboBox16.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ComboBox16.Size = New System.Drawing.Size(39, 21)
         Me.ComboBox16.TabIndex = 18
+        Me.ComboBox16.Visible = False
         '
         'PictureBox16
         '
         Me.PictureBox16.BackgroundImage = CType(resources.GetObject("PictureBox16.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox16.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox16.Location = New System.Drawing.Point(33, 121)
         Me.PictureBox16.Name = "PictureBox16"
         Me.PictureBox16.Size = New System.Drawing.Size(172, 14)
@@ -2420,6 +2453,7 @@ Partial Class Form1
         Me.NumericUpDown27.Size = New System.Drawing.Size(41, 16)
         Me.NumericUpDown27.TabIndex = 15
         Me.NumericUpDown27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.NumericUpDown27.Visible = False
         '
         'ComboBox15
         '
@@ -2432,10 +2466,12 @@ Partial Class Form1
         Me.ComboBox15.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ComboBox15.Size = New System.Drawing.Size(39, 21)
         Me.ComboBox15.TabIndex = 14
+        Me.ComboBox15.Visible = False
         '
         'PictureBox15
         '
         Me.PictureBox15.BackgroundImage = CType(resources.GetObject("PictureBox15.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox15.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox15.Location = New System.Drawing.Point(254, 88)
         Me.PictureBox15.Name = "PictureBox15"
         Me.PictureBox15.Size = New System.Drawing.Size(172, 14)
@@ -2461,6 +2497,7 @@ Partial Class Form1
         Me.NumericUpDown26.Size = New System.Drawing.Size(41, 16)
         Me.NumericUpDown26.TabIndex = 11
         Me.NumericUpDown26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.NumericUpDown26.Visible = False
         '
         'ComboBox14
         '
@@ -2473,10 +2510,12 @@ Partial Class Form1
         Me.ComboBox14.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ComboBox14.Size = New System.Drawing.Size(39, 21)
         Me.ComboBox14.TabIndex = 10
+        Me.ComboBox14.Visible = False
         '
         'PictureBox14
         '
         Me.PictureBox14.BackgroundImage = CType(resources.GetObject("PictureBox14.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox14.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox14.Location = New System.Drawing.Point(33, 87)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(172, 14)
@@ -2502,6 +2541,7 @@ Partial Class Form1
         Me.NumericUpDown25.Size = New System.Drawing.Size(41, 16)
         Me.NumericUpDown25.TabIndex = 7
         Me.NumericUpDown25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.NumericUpDown25.Visible = False
         '
         'ComboBox13
         '
@@ -2514,10 +2554,12 @@ Partial Class Form1
         Me.ComboBox13.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ComboBox13.Size = New System.Drawing.Size(39, 21)
         Me.ComboBox13.TabIndex = 6
+        Me.ComboBox13.Visible = False
         '
         'PictureBox13
         '
         Me.PictureBox13.BackgroundImage = CType(resources.GetObject("PictureBox13.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox13.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox13.Location = New System.Drawing.Point(254, 56)
         Me.PictureBox13.Name = "PictureBox13"
         Me.PictureBox13.Size = New System.Drawing.Size(172, 14)
@@ -3076,5 +3118,6 @@ Partial Class Form1
     Friend WithEvents PictureBox62 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox63 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox64 As System.Windows.Forms.PictureBox
+    Friend WithEvents ComboBox12 As System.Windows.Forms.ComboBox
 
 End Class

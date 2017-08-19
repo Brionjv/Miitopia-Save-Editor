@@ -36,6 +36,15 @@
     Dim Lvscientifique As String
     Dim Lvfelin As String
     Dim Lvelfe As String
+    Dim Miirelation1 As String
+    Dim Miirelation2 As String
+    Dim Miirelation3 As String
+    Dim Miirelation4 As String
+    Dim Miirelation5 As String
+    Dim Miirelation6 As String
+    Dim Miirelation7 As String
+    Dim Miirelation8 As String
+    Dim Miirelation9 As String
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim open As New OpenFileDialog
@@ -220,6 +229,33 @@
                     Reader.Position = &H10C
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H132
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H134
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H136
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H138
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H13A
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H13C
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H13E
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H140
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H142
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(1) Then
                     Reader.Position = &H70 + &H398
                     Miiname = Reader.Position
@@ -317,6 +353,33 @@
                     Reader.Position = &H10C + &H398
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H132 + &H398
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H134 + &H398
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H136 + &H398
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H138 + &H398
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H13A + &H398
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H13C + &H398
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H13E + &H398
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H140 + &H398
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H142 + &H398
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(2) Then
                     Reader.Position = &H70 + (&H398 * 2)
                     Miiname = Reader.Position
@@ -414,6 +477,34 @@
                     Reader.Position = &H10C + (&H398 * 2)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+
+                    Reader.Position = &H132 + (&H398 * 2)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H134 + (&H398 * 2)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H136 + (&H398 * 2)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H138 + (&H398 * 2)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H13A + (&H398 * 2)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H13C + (&H398 * 2)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H13E + (&H398 * 2)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H140 + (&H398 * 2)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H142 + (&H398 * 2)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(3) Then
                     Reader.Position = &H70 + (&H398 * 3)
                     Miiname = Reader.Position
@@ -511,6 +602,33 @@
                     Reader.Position = &H10C + (&H398 * 3)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H132 + (&H398 * 3)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H134 + (&H398 * 3)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H136 + (&H398 * 3)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H138 + (&H398 * 3)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H13A + (&H398 * 3)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H13C + (&H398 * 3)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H13E + (&H398 * 3)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H140 + (&H398 * 3)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H142 + (&H398 * 3)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(4) Then
                     Reader.Position = &H70 + (&H398 * 4)
                     Miiname = Reader.Position
@@ -608,6 +726,33 @@
                     Reader.Position = &H10C + (&H398 * 4)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H132 + (&H398 * 4)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H134 + (&H398 * 4)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H136 + (&H398 * 4)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H138 + (&H398 * 4)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H13A + (&H398 * 4)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H13C + (&H398 * 4)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H13E + (&H398 * 4)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H140 + (&H398 * 4)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H142 + (&H398 * 4)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(5) Then
                     Reader.Position = &H70 + (&H398 * 5)
                     Miiname = Reader.Position
@@ -705,6 +850,33 @@
                     Reader.Position = &H10C + (&H398 * 5)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H132 + (&H398 * 5)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H134 + (&H398 * 5)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H136 + (&H398 * 5)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H138 + (&H398 * 5)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H13A + (&H398 * 5)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H13C + (&H398 * 5)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H13E + (&H398 * 5)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H140 + (&H398 * 5)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H142 + (&H398 * 5)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(6) Then
                     Reader.Position = &H70 + (&H398 * 6)
                     Miiname = Reader.Position
@@ -802,6 +974,33 @@
                     Reader.Position = &H10C + (&H398 * 6)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H132 + (&H398 * 6)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H134 + (&H398 * 6)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H136 + (&H398 * 6)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H138 + (&H398 * 6)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H13A + (&H398 * 6)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H13C + (&H398 * 6)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H13E + (&H398 * 6)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H140 + (&H398 * 6)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H142 + (&H398 * 6)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(7) Then
                     Reader.Position = &H70 + (&H398 * 7)
                     Miiname = Reader.Position
@@ -899,6 +1098,33 @@
                     Reader.Position = &H10C + (&H398 * 7)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H132 + (&H398 * 7)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H134 + (&H398 * 7)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H136 + (&H398 * 7)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H138 + (&H398 * 7)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H13A + (&H398 * 7)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H13C + (&H398 * 7)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H13E + (&H398 * 7)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H140 + (&H398 * 7)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H142 + (&H398 * 7)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(8) Then
                     Reader.Position = &H70 + (&H398 * 8)
                     Miiname = Reader.Position
@@ -996,6 +1222,33 @@
                     Reader.Position = &H10C + (&H398 * 8)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H132 + (&H398 * 8)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H134 + (&H398 * 8)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H136 + (&H398 * 8)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H138 + (&H398 * 8)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H13A + (&H398 * 8)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H13C + (&H398 * 8)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H13E + (&H398 * 8)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H140 + (&H398 * 8)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H142 + (&H398 * 8)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(9) Then
                     Reader.Position = &H70 + (&H398 * 9)
                     Miiname = Reader.Position
@@ -1093,6 +1346,33 @@
                     Reader.Position = &H10C + (&H398 * 9)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H132 + (&H398 * 9)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H134 + (&H398 * 9)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H136 + (&H398 * 9)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H138 + (&H398 * 9)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H13A + (&H398 * 9)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H13C + (&H398 * 9)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H13E + (&H398 * 9)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H140 + (&H398 * 9)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H142 + (&H398 * 9)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 End If
             End If
 
@@ -1194,6 +1474,33 @@
                     Reader.Position = &HEC
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H112
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H114
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H116
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H118
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H11A
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H11C
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H11E
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H120
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H122
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(1) Then
                     Reader.Position = &H70 + &H378
                     Miiname = Reader.Position
@@ -1291,6 +1598,33 @@
                     Reader.Position = &HEC + &H378
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H112 + &H378
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H114 + &H378
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H116 + &H378
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H118 + &H378
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H11A + &H378
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H11C + &H378
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H11E + &H378
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H120 + &H378
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H122 + &H378
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(2) Then
                     Reader.Position = &H70 + (&H378 * 2)
                     Miiname = Reader.Position
@@ -1388,6 +1722,33 @@
                     Reader.Position = &HEC + (&H378 * 2)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H112 + (&H378 * 2)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H114 + (&H378 * 2)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H116 + (&H378 * 2)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H118 + (&H378 * 2)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H11A + (&H378 * 2)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H11C + (&H378 * 2)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H11E + (&H378 * 2)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H120 + (&H378 * 2)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H122 + (&H378 * 2)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(3) Then
                     Reader.Position = &H70 + (&H378 * 3)
                     Miiname = Reader.Position
@@ -1485,6 +1846,33 @@
                     Reader.Position = &HEC + (&H378 * 3)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H112 + (&H378 * 3)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H114 + (&H378 * 3)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H116 + (&H378 * 3)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H118 + (&H378 * 3)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H11A + (&H378 * 3)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H11C + (&H378 * 3)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H11E + (&H378 * 3)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H120 + (&H378 * 3)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H122 + (&H378 * 3)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(4) Then
                     Reader.Position = &H70 + (&H378 * 4)
                     Miiname = Reader.Position
@@ -1582,6 +1970,33 @@
                     Reader.Position = &HEC + (&H378 * 4)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H112 + (&H378 * 4)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H114 + (&H378 * 4)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H116 + (&H378 * 4)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H118 + (&H378 * 4)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H11A + (&H378 * 4)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H11C + (&H378 * 4)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H11E + (&H378 * 4)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H120 + (&H378 * 4)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H122 + (&H378 * 4)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(5) Then
                     Reader.Position = &H70 + (&H378 * 5)
                     Miiname = Reader.Position
@@ -1679,6 +2094,33 @@
                     Reader.Position = &HEC + (&H378 * 5)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H112 + (&H378 * 5)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H114 + (&H378 * 5)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H116 + (&H378 * 5)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H118 + (&H378 * 5)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H11A + (&H378 * 5)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H11C + (&H378 * 5)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H11E + (&H378 * 5)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H120 + (&H378 * 5)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H122 + (&H378 * 5)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(6) Then
                     Reader.Position = &H70 + (&H378 * 6)
                     Miiname = Reader.Position
@@ -1776,6 +2218,33 @@
                     Reader.Position = &HEC + (&H378 * 6)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H112 + (&H378 * 6)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H114 + (&H378 * 6)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H116 + (&H378 * 6)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H118 + (&H378 * 6)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H11A + (&H378 * 6)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H11C + (&H378 * 6)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H11E + (&H378 * 6)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H120 + (&H378 * 6)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H122 + (&H378 * 6)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(7) Then
                     Reader.Position = &H70 + (&H378 * 7)
                     Miiname = Reader.Position
@@ -1873,6 +2342,33 @@
                     Reader.Position = &HEC + (&H378 * 7)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H112 + (&H378 * 7)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H114 + (&H378 * 7)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H116 + (&H378 * 7)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H118 + (&H378 * 7)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H11A + (&H378 * 7)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H11C + (&H378 * 7)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H11E + (&H378 * 7)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H120 + (&H378 * 7)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H122 + (&H378 * 7)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(8) Then
                     Reader.Position = &H70 + (&H378 * 8)
                     Miiname = Reader.Position
@@ -1970,6 +2466,33 @@
                     Reader.Position = &HEC + (&H378 * 8)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H112 + (&H378 * 8)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H114 + (&H378 * 8)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H116 + (&H378 * 8)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H118 + (&H378 * 8)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H11A + (&H378 * 8)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H11C + (&H378 * 8)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H11E + (&H378 * 8)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H120 + (&H378 * 8)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H122 + (&H378 * 8)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 ElseIf ComboBox1.SelectedItem = ComboBox1.Items.Item(9) Then
                     Reader.Position = &H70 + (&H378 * 9)
                     Miiname = Reader.Position
@@ -2067,6 +2590,33 @@
                     Reader.Position = &HEC + (&H378 * 9)
                     Lvelfe = Reader.Position
                     NumericUpDown42.Value = Reader.ReadUInt32
+                    Reader.Position = &H112 + (&H378 * 9)
+                    Miirelation1 = Reader.Position
+                    NumericUpDown25.Value = Reader.ReadUInt16
+                    Reader.Position = &H114 + (&H378 * 9)
+                    Miirelation2 = Reader.Position
+                    NumericUpDown26.Value = Reader.ReadUInt16
+                    Reader.Position = &H116 + (&H378 * 9)
+                    Miirelation3 = Reader.Position
+                    NumericUpDown27.Value = Reader.ReadUInt16
+                    Reader.Position = &H118 + (&H378 * 9)
+                    Miirelation4 = Reader.Position
+                    NumericUpDown28.Value = Reader.ReadUInt16
+                    Reader.Position = &H11A + (&H378 * 9)
+                    Miirelation5 = Reader.Position
+                    NumericUpDown29.Value = Reader.ReadUInt16
+                    Reader.Position = &H11C + (&H378 * 9)
+                    Miirelation6 = Reader.Position
+                    NumericUpDown30.Value = Reader.ReadUInt16
+                    Reader.Position = &H11E + (&H378 * 9)
+                    Miirelation7 = Reader.Position
+                    NumericUpDown31.Value = Reader.ReadUInt16
+                    Reader.Position = &H120 + (&H378 * 9)
+                    Miirelation8 = Reader.Position
+                    NumericUpDown32.Value = Reader.ReadUInt16
+                    Reader.Position = &H122 + (&H378 * 9)
+                    Miirelation9 = Reader.Position
+                    NumericUpDown33.Value = Reader.ReadUInt16
                 End If
             End If
             ComboBox4.Enabled = False
@@ -2334,7 +2884,6 @@
         ComboBox3.SelectedItem = My.Settings.langue
         ComboBox4.SelectedItem = ComboBox4.Items.Item(0)
         ComboBox4.SelectedItem = My.Settings.sauve
-        TabPage8.Enabled = False
     End Sub
 
     Private Sub Form1_FormClosing(sender As Object, e As EventArgs) Handles MyBase.FormClosing
@@ -2446,6 +2995,24 @@
             Writer.WriteUInt32(NumericUpDown43.Value)
             Writer.Position = Lvelfe
             Writer.WriteUInt32(NumericUpDown42.Value)
+            Writer.Position = Miirelation1
+            Writer.WriteUInt32(NumericUpDown25.Value)
+            Writer.Position = Miirelation2
+            Writer.WriteUInt32(NumericUpDown26.Value)
+            Writer.Position = Miirelation3
+            Writer.WriteUInt32(NumericUpDown27.Value)
+            Writer.Position = Miirelation4
+            Writer.WriteUInt32(NumericUpDown28.Value)
+            Writer.Position = Miirelation5
+            Writer.WriteUInt32(NumericUpDown29.Value)
+            Writer.Position = Miirelation6
+            Writer.WriteUInt32(NumericUpDown30.Value)
+            Writer.Position = Miirelation7
+            Writer.WriteUInt32(NumericUpDown31.Value)
+            Writer.Position = Miirelation8
+            Writer.WriteUInt32(NumericUpDown32.Value)
+            Writer.Position = Miirelation9
+            Writer.WriteUInt32(NumericUpDown33.Value)
             If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
                 fdialog.Label1.Text = "Miitopia Save Editor : hero.sav"
                 fdialog.Label2.Text = "File saved"
@@ -2510,6 +3077,8 @@
             TabPage5.Text = "Food boost"
             TabPage6.Text = "Main"
             TabPage7.Text = "Level by class"
+            TabPage8.Text = "Mii relationship"
+            TabPage12.Text = "Encyclopedia"
             Button1.Text = "Open"
             Button2.Text = "Save"
             Label16.Text = "Foods"
@@ -2566,6 +3135,8 @@
             TabPage5.Text = "Boost nourriture"
             TabPage6.Text = "Principale"
             TabPage7.Text = "Niveau par classe"
+            TabPage8.Text = "Mii relation"
+            TabPage12.Text = "Encyclopédie"
             Button1.Text = "Ouvrir"
             Button2.Text = "Enregistrer"
             Label16.Text = "Nourritures"
@@ -2622,6 +3193,8 @@
             TabPage5.Text = "Impulso de alimentos"
             TabPage6.Text = "Principal"
             TabPage7.Text = "Nivel por clase"
+            TabPage8.Text = "Mii relación"
+            TabPage12.Text = "Enciclopedia"
             Button1.Text = "Abrir"
             Button2.Text = "Guardar"
             Label16.Text = "Papeos"
@@ -2707,6 +3280,15 @@
             NumericUpDown44.Visible = True
             NumericUpDown43.Visible = True
             NumericUpDown42.Visible = True
+            NumericUpDown25.Visible = True
+            NumericUpDown26.Visible = True
+            NumericUpDown27.Visible = True
+            NumericUpDown28.Visible = True
+            NumericUpDown29.Visible = True
+            NumericUpDown30.Visible = True
+            NumericUpDown31.Visible = True
+            NumericUpDown32.Visible = True
+            NumericUpDown33.Visible = True
         ElseIf Label26.Visible = True Then
             Label26.Visible = False
             NumericUpDown16.Visible = False
@@ -2729,6 +3311,15 @@
             NumericUpDown44.Visible = False
             NumericUpDown43.Visible = False
             NumericUpDown42.Visible = False
+            NumericUpDown25.Visible = False
+            NumericUpDown26.Visible = False
+            NumericUpDown27.Visible = False
+            NumericUpDown28.Visible = False
+            NumericUpDown29.Visible = False
+            NumericUpDown30.Visible = False
+            NumericUpDown31.Visible = False
+            NumericUpDown32.Visible = False
+            NumericUpDown33.Visible = False
         End If
     End Sub
 
@@ -5676,19 +6267,6 @@
         Label2.Visible = False
     End Sub
 
-    Private Sub TabPage8_MouseMove(sender As Object, e As EventArgs) Handles TabPage8.MouseMove
-        Label2.Visible = True
-        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Coming soon"
-        End If
-        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
-            Label2.Text = "Arrive bientôt"
-        End If
-        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
-            Label2.Text = "Próximamente"
-        End If
-    End Sub
-
     Private Sub Button5_MouseMove(sender As Object, e As EventArgs) Handles Button5.MouseMove, Button6.MouseMove, Button7.MouseMove, Button8.MouseMove, Button9.MouseMove, Button10.MouseMove
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
@@ -7024,5 +7602,41 @@
                 fdialog.ShowDialog()
             End If
         End Try
+    End Sub
+
+    Private Sub PictureBox13_Click(sender As Object, e As EventArgs) Handles PictureBox13.Click
+        NumericUpDown25.Value = 490
+    End Sub
+
+    Private Sub PictureBox14_Click(sender As Object, e As EventArgs) Handles PictureBox14.Click
+        NumericUpDown26.Value = 490
+    End Sub
+
+    Private Sub PictureBox15_Click(sender As Object, e As EventArgs) Handles PictureBox15.Click
+        NumericUpDown27.Value = 490
+    End Sub
+
+    Private Sub PictureBox16_Click(sender As Object, e As EventArgs) Handles PictureBox16.Click
+        NumericUpDown28.Value = 490
+    End Sub
+
+    Private Sub PictureBox17_Click(sender As Object, e As EventArgs) Handles PictureBox17.Click
+        NumericUpDown29.Value = 490
+    End Sub
+
+    Private Sub PictureBox18_Click(sender As Object, e As EventArgs) Handles PictureBox18.Click
+        NumericUpDown30.Value = 490
+    End Sub
+
+    Private Sub PictureBox19_Click(sender As Object, e As EventArgs) Handles PictureBox19.Click
+        NumericUpDown31.Value = 490
+    End Sub
+
+    Private Sub PictureBox20_Click(sender As Object, e As EventArgs) Handles PictureBox20.Click
+        NumericUpDown32.Value = 490
+    End Sub
+
+    Private Sub PictureBox21_Click(sender As Object, e As EventArgs) Handles PictureBox21.Click
+        NumericUpDown33.Value = 490
     End Sub
 End Class
