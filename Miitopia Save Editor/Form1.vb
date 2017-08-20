@@ -130,6 +130,15 @@
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
         Try
             CheckBox1.Checked = False
+            Label27.ForeColor = Color.Black
+            Label28.ForeColor = Color.Black
+            Label29.ForeColor = Color.Black
+            Label30.ForeColor = Color.Black
+            Label31.ForeColor = Color.Black
+            Label32.ForeColor = Color.Black
+            Label33.ForeColor = Color.Black
+            Label34.ForeColor = Color.Black
+            Label35.ForeColor = Color.Black
             Dim Reader As New PackageIO.Reader(hero, PackageIO.Endian.Little)
             If ComboBox4.SelectedItem = ComboBox4.Items.Item(0) Or ComboBox4.SelectedItem = ComboBox4.Items.Item(1) Then
                 If ComboBox1.SelectedItem = ComboBox1.Items.Item(0) Then
@@ -3079,6 +3088,8 @@
             TabPage7.Text = "Level by class"
             TabPage8.Text = "Mii relationship"
             TabPage12.Text = "Encyclopedia"
+            TabPage13.Text = "Weapons"
+            TabPage14.Text = "Costumes"
             Button1.Text = "Open"
             Button2.Text = "Save"
             Label16.Text = "Foods"
@@ -3137,6 +3148,8 @@
             TabPage7.Text = "Niveau par classe"
             TabPage8.Text = "Mii relation"
             TabPage12.Text = "Encyclopédie"
+            TabPage13.Text = "Armes"
+            TabPage14.Text = "Costumes"
             Button1.Text = "Ouvrir"
             Button2.Text = "Enregistrer"
             Label16.Text = "Nourritures"
@@ -3195,6 +3208,8 @@
             TabPage7.Text = "Nivel por clase"
             TabPage8.Text = "Mii relación"
             TabPage12.Text = "Enciclopedia"
+            TabPage13.Text = "Armas"
+            TabPage14.Text = "Disfraces"
             Button1.Text = "Abrir"
             Button2.Text = "Guardar"
             Label16.Text = "Papeos"
@@ -7606,37 +7621,595 @@
 
     Private Sub PictureBox13_Click(sender As Object, e As EventArgs) Handles PictureBox13.Click
         NumericUpDown25.Value = 490
+        Label27.ForeColor = Color.Tomato
     End Sub
 
     Private Sub PictureBox14_Click(sender As Object, e As EventArgs) Handles PictureBox14.Click
         NumericUpDown26.Value = 490
+        Label28.ForeColor = Color.Tomato
     End Sub
 
     Private Sub PictureBox15_Click(sender As Object, e As EventArgs) Handles PictureBox15.Click
         NumericUpDown27.Value = 490
+        Label29.ForeColor = Color.Tomato
     End Sub
 
     Private Sub PictureBox16_Click(sender As Object, e As EventArgs) Handles PictureBox16.Click
         NumericUpDown28.Value = 490
+        Label30.ForeColor = Color.Tomato
     End Sub
 
     Private Sub PictureBox17_Click(sender As Object, e As EventArgs) Handles PictureBox17.Click
         NumericUpDown29.Value = 490
+        Label31.ForeColor = Color.Tomato
     End Sub
 
     Private Sub PictureBox18_Click(sender As Object, e As EventArgs) Handles PictureBox18.Click
         NumericUpDown30.Value = 490
+        Label32.ForeColor = Color.Tomato
     End Sub
 
     Private Sub PictureBox19_Click(sender As Object, e As EventArgs) Handles PictureBox19.Click
         NumericUpDown31.Value = 490
+        Label33.ForeColor = Color.Tomato
     End Sub
 
     Private Sub PictureBox20_Click(sender As Object, e As EventArgs) Handles PictureBox20.Click
         NumericUpDown32.Value = 490
+        Label34.ForeColor = Color.Tomato
     End Sub
 
     Private Sub PictureBox21_Click(sender As Object, e As EventArgs) Handles PictureBox21.Click
         NumericUpDown33.Value = 490
+        Label35.ForeColor = Color.Tomato
+    End Sub
+
+    Private Sub PictureBox13_MouseMove(sender As Object, e As EventArgs) Handles PictureBox13.MouseMove, PictureBox14.MouseMove, PictureBox15.MouseMove, PictureBox16.MouseMove, PictureBox17.MouseMove, PictureBox18.MouseMove, PictureBox19.MouseMove, PictureBox20.MouseMove, PictureBox21.MouseMove
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Click to max Mii relationship"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Cliquez pour mettre la relation du Mii au max"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Haz clic para establecer la relación de Mii con max"
+        End If
+    End Sub
+
+    Private Sub PictureBox13_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox13.MouseLeave, PictureBox14.MouseLeave, PictureBox15.MouseLeave, PictureBox16.MouseLeave, PictureBox17.MouseLeave, PictureBox18.MouseLeave, PictureBox19.MouseLeave, PictureBox20.MouseLeave, PictureBox21.MouseLeave
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox49_MouseMove(sender As Object, e As EventArgs) Handles PictureBox49.MouseMove
+        PictureBox49.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Warrior : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Guerrier : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Guerrero : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox49_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox49.MouseLeave
+        PictureBox49.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox48_MouseMove(sender As Object, e As EventArgs) Handles PictureBox48.MouseMove
+        PictureBox48.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Mage : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Mage : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Hechicero : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox48_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox48.MouseLeave
+        PictureBox48.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox47_MouseMove(sender As Object, e As EventArgs) Handles PictureBox47.MouseMove
+        PictureBox47.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Cleric : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Prêtre : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Clérigo : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox47_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox47.MouseLeave
+        PictureBox47.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox46_MouseMove(sender As Object, e As EventArgs) Handles PictureBox46.MouseMove
+        PictureBox46.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Thief : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Voleur : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Ladrón : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox46_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox46.MouseLeave
+        PictureBox46.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox45_MouseMove(sender As Object, e As EventArgs) Handles PictureBox45.MouseMove
+        PictureBox45.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Pop Star : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Chanteuse : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Cancante : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox45_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox45.MouseLeave
+        PictureBox45.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox44_MouseMove(sender As Object, e As EventArgs) Handles PictureBox44.MouseMove
+        PictureBox44.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Vampire : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Vampire : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Vampiro : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox44_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox44.MouseLeave
+        PictureBox44.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox43_MouseMove(sender As Object, e As EventArgs) Handles PictureBox43.MouseMove
+        PictureBox43.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Chef : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Cuisinier : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Chef : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox43_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox43.MouseLeave
+        PictureBox43.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox42_MouseMove(sender As Object, e As EventArgs) Handles PictureBox42.MouseMove
+        PictureBox42.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Tank : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Tank : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Tanque : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox42_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox42.MouseLeave
+        PictureBox42.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox41_MouseMove(sender As Object, e As EventArgs) Handles PictureBox41.MouseMove
+        PictureBox41.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Imp : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Diablotin : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Diablillo : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox41_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox41.MouseLeave
+        PictureBox41.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox40_MouseMove(sender As Object, e As EventArgs) Handles PictureBox40.MouseMove
+        PictureBox40.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Princess : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Princesse : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Princesa : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox40_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox40.MouseLeave
+        PictureBox40.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox39_MouseMove(sender As Object, e As EventArgs) Handles PictureBox39.MouseMove
+        PictureBox39.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Flower : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Fleur : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Flor : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox39_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox39.MouseLeave
+        PictureBox39.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox38_MouseMove(sender As Object, e As EventArgs) Handles PictureBox38.MouseMove
+        PictureBox38.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Scientist : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Scientifique : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Cientifico : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox38_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox38.MouseLeave
+        PictureBox38.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox37_MouseMove(sender As Object, e As EventArgs) Handles PictureBox37.MouseMove
+        PictureBox37.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Cat : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Chat : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Gato : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox37_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox37.MouseLeave
+        PictureBox37.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox25_MouseMove(sender As Object, e As EventArgs) Handles PictureBox25.MouseMove
+        PictureBox25.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Elf : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Elfe : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Elfo : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox25_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox25.MouseLeave
+        PictureBox25.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox63_MouseMove(sender As Object, e As EventArgs) Handles PictureBox63.MouseMove
+        PictureBox63.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Warrior : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Guerrier : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Guerrero : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox63_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox63.MouseLeave
+        PictureBox63.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox62_MouseMove(sender As Object, e As EventArgs) Handles PictureBox62.MouseMove
+        PictureBox62.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Mage : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Mage : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Hechicero : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox62_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox62.MouseLeave
+        PictureBox62.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox61_MouseMove(sender As Object, e As EventArgs) Handles PictureBox61.MouseMove
+        PictureBox61.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Cleric : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Prêtre : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Clérigo : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox61_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox61.MouseLeave
+        PictureBox61.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox60_MouseMove(sender As Object, e As EventArgs) Handles PictureBox60.MouseMove
+        PictureBox60.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Thief : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Voleur : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Ladrón : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox60_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox60.MouseLeave
+        PictureBox60.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox59_MouseMove(sender As Object, e As EventArgs) Handles PictureBox59.MouseMove
+        PictureBox59.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Pop Star : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Chanteuse : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Cancante : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox59_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox59.MouseLeave
+        PictureBox59.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox58_MouseMove(sender As Object, e As EventArgs) Handles PictureBox58.MouseMove
+        PictureBox58.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Vampire : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Vampire : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Vampiro : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox58_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox58.MouseLeave
+        PictureBox58.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox57_MouseMove(sender As Object, e As EventArgs) Handles PictureBox57.MouseMove
+        PictureBox57.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Chef : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Cuisinier : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Chef : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox57_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox57.MouseLeave
+        PictureBox57.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox56_MouseMove(sender As Object, e As EventArgs) Handles PictureBox56.MouseMove
+        PictureBox56.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Tank : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Tank : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Tanque : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox56_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox56.MouseLeave
+        PictureBox56.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox55_MouseMove(sender As Object, e As EventArgs) Handles PictureBox55.MouseMove
+        PictureBox55.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Imp : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Diablotin : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Diablillo : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox55_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox55.MouseLeave
+        PictureBox55.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox54_MouseMove(sender As Object, e As EventArgs) Handles PictureBox54.MouseMove
+        PictureBox54.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Princess : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Princesse : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Princesa : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox54_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox54.MouseLeave
+        PictureBox54.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox53_MouseMove(sender As Object, e As EventArgs) Handles PictureBox53.MouseMove
+        PictureBox53.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Flower : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Fleur : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Flor : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox53_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox53.MouseLeave
+        PictureBox53.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox52_MouseMove(sender As Object, e As EventArgs) Handles PictureBox52.MouseMove
+        PictureBox52.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Scientist : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Scientifique : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Cientifico : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox52_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox52.MouseLeave
+        PictureBox52.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox51_MouseMove(sender As Object, e As EventArgs) Handles PictureBox51.MouseMove
+        PictureBox51.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Cat : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Chat : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Gato : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox51_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox51.MouseLeave
+        PictureBox51.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox50_MouseMove(sender As Object, e As EventArgs) Handles PictureBox50.MouseMove
+        PictureBox50.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Elf : Click unlock all"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Elfe : Cliquez pour tout débloquer"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Elfo : Haz clic para desbloquear"
+        End If
+    End Sub
+
+    Private Sub PictureBox50_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox50.MouseLeave
+        PictureBox50.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
     End Sub
 End Class
