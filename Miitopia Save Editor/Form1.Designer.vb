@@ -1794,7 +1794,7 @@ Partial Class Form1
         '
         Me.NumericUpDown42.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown42.Location = New System.Drawing.Point(322, 206)
-        Me.NumericUpDown42.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown42.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown42.Name = "NumericUpDown42"
         Me.NumericUpDown42.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown42.TabIndex = 46
@@ -1804,7 +1804,7 @@ Partial Class Form1
         '
         Me.NumericUpDown43.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown43.Location = New System.Drawing.Point(256, 206)
-        Me.NumericUpDown43.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown43.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown43.Name = "NumericUpDown43"
         Me.NumericUpDown43.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown43.TabIndex = 44
@@ -1814,7 +1814,7 @@ Partial Class Form1
         '
         Me.NumericUpDown44.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown44.Location = New System.Drawing.Point(190, 206)
-        Me.NumericUpDown44.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown44.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown44.Name = "NumericUpDown44"
         Me.NumericUpDown44.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown44.TabIndex = 42
@@ -1824,7 +1824,7 @@ Partial Class Form1
         '
         Me.NumericUpDown45.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown45.Location = New System.Drawing.Point(124, 206)
-        Me.NumericUpDown45.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown45.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown45.Name = "NumericUpDown45"
         Me.NumericUpDown45.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown45.TabIndex = 40
@@ -1834,7 +1834,7 @@ Partial Class Form1
         '
         Me.NumericUpDown46.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown46.Location = New System.Drawing.Point(58, 206)
-        Me.NumericUpDown46.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown46.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown46.Name = "NumericUpDown46"
         Me.NumericUpDown46.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown46.TabIndex = 38
@@ -1844,7 +1844,7 @@ Partial Class Form1
         '
         Me.NumericUpDown37.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown37.Location = New System.Drawing.Point(322, 144)
-        Me.NumericUpDown37.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown37.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown37.Name = "NumericUpDown37"
         Me.NumericUpDown37.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown37.TabIndex = 36
@@ -1854,7 +1854,7 @@ Partial Class Form1
         '
         Me.NumericUpDown38.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown38.Location = New System.Drawing.Point(256, 144)
-        Me.NumericUpDown38.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown38.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown38.Name = "NumericUpDown38"
         Me.NumericUpDown38.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown38.TabIndex = 34
@@ -1864,7 +1864,7 @@ Partial Class Form1
         '
         Me.NumericUpDown39.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown39.Location = New System.Drawing.Point(190, 144)
-        Me.NumericUpDown39.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown39.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown39.Name = "NumericUpDown39"
         Me.NumericUpDown39.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown39.TabIndex = 32
@@ -1874,7 +1874,7 @@ Partial Class Form1
         '
         Me.NumericUpDown40.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown40.Location = New System.Drawing.Point(124, 144)
-        Me.NumericUpDown40.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown40.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown40.Name = "NumericUpDown40"
         Me.NumericUpDown40.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown40.TabIndex = 30
@@ -1884,7 +1884,7 @@ Partial Class Form1
         '
         Me.NumericUpDown41.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown41.Location = New System.Drawing.Point(58, 144)
-        Me.NumericUpDown41.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown41.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown41.Name = "NumericUpDown41"
         Me.NumericUpDown41.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown41.TabIndex = 28
@@ -1894,7 +1894,7 @@ Partial Class Form1
         '
         Me.NumericUpDown35.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown35.Location = New System.Drawing.Point(289, 82)
-        Me.NumericUpDown35.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown35.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown35.Name = "NumericUpDown35"
         Me.NumericUpDown35.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown35.TabIndex = 24
@@ -1904,7 +1904,7 @@ Partial Class Form1
         '
         Me.NumericUpDown34.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown34.Location = New System.Drawing.Point(223, 82)
-        Me.NumericUpDown34.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown34.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown34.Name = "NumericUpDown34"
         Me.NumericUpDown34.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown34.TabIndex = 22
@@ -1914,7 +1914,7 @@ Partial Class Form1
         '
         Me.NumericUpDown24.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown24.Location = New System.Drawing.Point(157, 82)
-        Me.NumericUpDown24.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown24.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown24.Name = "NumericUpDown24"
         Me.NumericUpDown24.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown24.TabIndex = 20
@@ -1924,7 +1924,7 @@ Partial Class Form1
         '
         Me.NumericUpDown22.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown22.Location = New System.Drawing.Point(91, 82)
-        Me.NumericUpDown22.Maximum = New Decimal(New Integer() {15783392, 0, 0, 0})
+        Me.NumericUpDown22.Maximum = New Decimal(New Integer() {16777215, 0, 0, 0})
         Me.NumericUpDown22.Name = "NumericUpDown22"
         Me.NumericUpDown22.Size = New System.Drawing.Size(60, 16)
         Me.NumericUpDown22.TabIndex = 18
