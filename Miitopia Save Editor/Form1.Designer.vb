@@ -29,6 +29,7 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TabControl3 = New System.Windows.Forms.TabControl()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.PictureBox65 = New System.Windows.Forms.PictureBox()
         Me.PictureBox36 = New System.Windows.Forms.PictureBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.Label15 = New System.Windows.Forms.Label()
@@ -214,6 +215,9 @@ Partial Class Form1
         Me.TabPage9 = New System.Windows.Forms.TabPage()
         Me.TabControl4 = New System.Windows.Forms.TabControl()
         Me.TabPage10 = New System.Windows.Forms.TabPage()
+        Me.NumericUpDown47 = New System.Windows.Forms.NumericUpDown()
+        Me.NumericUpDown36 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox66 = New System.Windows.Forms.PictureBox()
         Me.PictureBox64 = New System.Windows.Forms.PictureBox()
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
@@ -230,6 +234,7 @@ Partial Class Form1
         Me.TabPage1.SuspendLayout()
         Me.TabControl3.SuspendLayout()
         Me.TabPage6.SuspendLayout()
+        CType(Me.PictureBox65, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox36, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -353,6 +358,9 @@ Partial Class Form1
         Me.TabPage9.SuspendLayout()
         Me.TabControl4.SuspendLayout()
         Me.TabPage10.SuspendLayout()
+        CType(Me.NumericUpDown47, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown36, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -425,6 +433,7 @@ Partial Class Form1
         '
         Me.TabPage6.BackgroundImage = CType(resources.GetObject("TabPage6.BackgroundImage"), System.Drawing.Image)
         Me.TabPage6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.TabPage6.Controls.Add(Me.PictureBox65)
         Me.TabPage6.Controls.Add(Me.PictureBox36)
         Me.TabPage6.Controls.Add(Me.PictureBox7)
         Me.TabPage6.Controls.Add(Me.Label15)
@@ -448,13 +457,25 @@ Partial Class Form1
         Me.TabPage6.Text = "Main"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
+        'PictureBox65
+        '
+        Me.PictureBox65.BackgroundImage = CType(resources.GetObject("PictureBox65.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox65.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox65.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox65.Location = New System.Drawing.Point(151, 89)
+        Me.PictureBox65.Name = "PictureBox65"
+        Me.PictureBox65.Size = New System.Drawing.Size(60, 60)
+        Me.PictureBox65.TabIndex = 22
+        Me.PictureBox65.TabStop = False
+        '
         'PictureBox36
         '
         Me.PictureBox36.BackgroundImage = CType(resources.GetObject("PictureBox36.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox36.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox36.Location = New System.Drawing.Point(190, 89)
+        Me.PictureBox36.Location = New System.Drawing.Point(228, 89)
         Me.PictureBox36.Name = "PictureBox36"
         Me.PictureBox36.Size = New System.Drawing.Size(60, 60)
         Me.PictureBox36.TabIndex = 21
@@ -562,7 +583,7 @@ Partial Class Form1
         '
         'Label17
         '
-        Me.Label17.Location = New System.Drawing.Point(261, 53)
+        Me.Label17.Location = New System.Drawing.Point(306, 53)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(63, 13)
         Me.Label17.TabIndex = 17
@@ -571,7 +592,7 @@ Partial Class Form1
         '
         'Label16
         '
-        Me.Label16.Location = New System.Drawing.Point(117, 53)
+        Me.Label16.Location = New System.Drawing.Point(71, 53)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(63, 13)
         Me.Label16.TabIndex = 16
@@ -581,7 +602,7 @@ Partial Class Form1
         'NumericUpDown6
         '
         Me.NumericUpDown6.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown6.Location = New System.Drawing.Point(270, 122)
+        Me.NumericUpDown6.Location = New System.Drawing.Point(315, 122)
         Me.NumericUpDown6.Maximum = New Decimal(New Integer() {9999, 0, 0, 0})
         Me.NumericUpDown6.Name = "NumericUpDown6"
         Me.NumericUpDown6.Size = New System.Drawing.Size(45, 16)
@@ -591,7 +612,7 @@ Partial Class Form1
         'PictureBox5
         '
         Me.PictureBox5.BackgroundImage = CType(resources.GetObject("PictureBox5.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(261, 69)
+        Me.PictureBox5.Location = New System.Drawing.Point(305, 69)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(63, 80)
         Me.PictureBox5.TabIndex = 12
@@ -600,7 +621,7 @@ Partial Class Form1
         'NumericUpDown2
         '
         Me.NumericUpDown2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown2.Location = New System.Drawing.Point(129, 122)
+        Me.NumericUpDown2.Location = New System.Drawing.Point(83, 122)
         Me.NumericUpDown2.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
         Me.NumericUpDown2.Name = "NumericUpDown2"
         Me.NumericUpDown2.Size = New System.Drawing.Size(38, 16)
@@ -613,7 +634,7 @@ Partial Class Form1
         Me.PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox3.Location = New System.Drawing.Point(117, 69)
+        Me.PictureBox3.Location = New System.Drawing.Point(71, 69)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(63, 80)
         Me.PictureBox3.TabIndex = 4
@@ -1118,9 +1139,10 @@ Partial Class Form1
         '
         'NumericUpDown23
         '
+        Me.NumericUpDown23.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown23.Location = New System.Drawing.Point(49, 136)
         Me.NumericUpDown23.Name = "NumericUpDown23"
-        Me.NumericUpDown23.Size = New System.Drawing.Size(38, 20)
+        Me.NumericUpDown23.Size = New System.Drawing.Size(38, 16)
         Me.NumericUpDown23.TabIndex = 24
         Me.NumericUpDown23.Visible = False
         '
@@ -2603,7 +2625,10 @@ Partial Class Form1
         '
         Me.TabPage10.BackgroundImage = CType(resources.GetObject("TabPage10.BackgroundImage"), System.Drawing.Image)
         Me.TabPage10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.TabPage10.Controls.Add(Me.NumericUpDown47)
+        Me.TabPage10.Controls.Add(Me.NumericUpDown36)
         Me.TabPage10.Controls.Add(Me.PictureBox64)
+        Me.TabPage10.Controls.Add(Me.PictureBox66)
         Me.TabPage10.Location = New System.Drawing.Point(4, 22)
         Me.TabPage10.Name = "TabPage10"
         Me.TabPage10.Padding = New System.Windows.Forms.Padding(3)
@@ -2612,13 +2637,43 @@ Partial Class Form1
         Me.TabPage10.Text = "Cheats"
         Me.TabPage10.UseVisualStyleBackColor = True
         '
+        'NumericUpDown47
+        '
+        Me.NumericUpDown47.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown47.Location = New System.Drawing.Point(144, 88)
+        Me.NumericUpDown47.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.NumericUpDown47.Name = "NumericUpDown47"
+        Me.NumericUpDown47.Size = New System.Drawing.Size(94, 16)
+        Me.NumericUpDown47.TabIndex = 3
+        Me.NumericUpDown47.Visible = False
+        '
+        'NumericUpDown36
+        '
+        Me.NumericUpDown36.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown36.Location = New System.Drawing.Point(27, 88)
+        Me.NumericUpDown36.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.NumericUpDown36.Name = "NumericUpDown36"
+        Me.NumericUpDown36.Size = New System.Drawing.Size(94, 16)
+        Me.NumericUpDown36.TabIndex = 2
+        Me.NumericUpDown36.Visible = False
+        '
+        'PictureBox66
+        '
+        Me.PictureBox66.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox66.Image = CType(resources.GetObject("PictureBox66.Image"), System.Drawing.Image)
+        Me.PictureBox66.Location = New System.Drawing.Point(144, 28)
+        Me.PictureBox66.Name = "PictureBox66"
+        Me.PictureBox66.Size = New System.Drawing.Size(94, 76)
+        Me.PictureBox66.TabIndex = 1
+        Me.PictureBox66.TabStop = False
+        '
         'PictureBox64
         '
         Me.PictureBox64.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox64.Image = CType(resources.GetObject("PictureBox64.Image"), System.Drawing.Image)
         Me.PictureBox64.Location = New System.Drawing.Point(27, 28)
         Me.PictureBox64.Name = "PictureBox64"
-        Me.PictureBox64.Size = New System.Drawing.Size(62, 55)
+        Me.PictureBox64.Size = New System.Drawing.Size(94, 76)
         Me.PictureBox64.TabIndex = 0
         Me.PictureBox64.TabStop = False
         '
@@ -2633,7 +2688,6 @@ Partial Class Form1
         Me.Button11.TabIndex = 4
         Me.Button11.Text = "Save"
         Me.Button11.UseVisualStyleBackColor = False
-        Me.Button11.Visible = False
         '
         'Button12
         '
@@ -2668,7 +2722,7 @@ Partial Class Form1
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(69, 13)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Version 1.0.3"
+        Me.Label1.Text = "Version 1.0.4"
         '
         'Label2
         '
@@ -2780,6 +2834,7 @@ Partial Class Form1
         Me.TabPage1.ResumeLayout(False)
         Me.TabControl3.ResumeLayout(False)
         Me.TabPage6.ResumeLayout(False)
+        CType(Me.PictureBox65, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox36, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2907,6 +2962,9 @@ Partial Class Form1
         Me.TabPage9.ResumeLayout(False)
         Me.TabControl4.ResumeLayout(False)
         Me.TabPage10.ResumeLayout(False)
+        CType(Me.NumericUpDown47, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown36, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
@@ -3119,5 +3177,9 @@ Partial Class Form1
     Friend WithEvents PictureBox63 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox64 As System.Windows.Forms.PictureBox
     Friend WithEvents ComboBox12 As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox65 As System.Windows.Forms.PictureBox
+    Friend WithEvents NumericUpDown47 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents NumericUpDown36 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox66 As System.Windows.Forms.PictureBox
 
 End Class

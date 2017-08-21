@@ -2713,7 +2713,7 @@
         Try
             Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
             Writer.Position = &H100
-            Writer.WriteUInt16(255)
+            Writer.WriteInt8(31)
             If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
                 fdialog.Label1.Text = "common.sav : salt shakers"
                 fdialog.Label2.Text = "All salt shakers has been unlocked"
@@ -3304,6 +3304,8 @@
             NumericUpDown31.Visible = True
             NumericUpDown32.Visible = True
             NumericUpDown33.Visible = True
+            NumericUpDown36.Visible = True
+            NumericUpDown47.Visible = True
         ElseIf Label26.Visible = True Then
             Label26.Visible = False
             NumericUpDown16.Visible = False
@@ -3335,6 +3337,8 @@
             NumericUpDown31.Visible = False
             NumericUpDown32.Visible = False
             NumericUpDown33.Visible = False
+            NumericUpDown36.Visible = False
+            NumericUpDown47.Visible = False
         End If
     End Sub
 
@@ -6549,21 +6553,48 @@
         open2.ShowDialog()
         quest = open2.FileName
         makebakquest()
-        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            fdialog.Label1.Text = "Miitopia Save Editor"
-            fdialog.Label2.Text = "Some features are dangerous for quest.sav" & vbNewLine & "Be sure to have a copy of your save file in case"
-            fdialog.ShowDialog()
-        End If
-        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
-            fdialog.Label1.Text = "Miitopia Save Editor"
-            fdialog.Label2.Text = "Certaines fonctionnalités sont dangereuses pour quest.sav" & vbNewLine & "Soyez sûr d'avoir une copie de votre sauvegarde au cas où"
-            fdialog.ShowDialog()
-        End If
-        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
-            fdialog.Label1.Text = "Miitopia Save Editor"
-            fdialog.Label2.Text = "Algunas características son peligrosos para quest.sav" & vbNewLine & "asegúrese de tener una copia de la copia de seguridad en caso"
-            fdialog.ShowDialog()
-        End If
+        Readfilequest()
+    End Sub
+
+    Private Sub Readfilequest()
+        Try
+            Dim Reader As New PackageIO.Reader(quest, PackageIO.Endian.Little)
+            Reader.Position = &H4B9C
+            NumericUpDown36.Value = Reader.ReadUInt32
+            Reader.Position = &H4BA4
+            NumericUpDown47.Value = Reader.ReadUInt32
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "Miitopia Save Editor"
+                fdialog.Label2.Text = "Some features are dangerous for quest.sav" & vbNewLine & "Be sure to have a copy of your save file in case"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "Miitopia Save Editor"
+                fdialog.Label2.Text = "Certaines fonctionnalités sont dangereuses pour quest.sav" & vbNewLine & "Soyez sûr d'avoir une copie de votre sauvegarde au cas où"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "Miitopia Save Editor"
+                fdialog.Label2.Text = "Algunas características son peligrosos para quest.sav" & vbNewLine & "asegúrese de tener una copia de la copia de seguridad en caso"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "quest.sav"
+                fdialog.Label2.Text = "quest.sav not load" & vbNewLine & "Save file can be corrupted or not Miitopia 'quest.sav'"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "quest.sav"
+                fdialog.Label2.Text = "L'ouverture de quest.sav a échoué" & vbNewLine & "La sauvegarde peut être corrompu ou n'est pas 'quest.sav' de Miitopia"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "quest.sav"
+                fdialog.Label2.Text = "quest.sav no ha sido cargado" & vbNewLine & "El archivo de guardado podría estar dañado o no es 'quest.sav' de Miitopia"
+                fdialog.ShowDialog()
+            End If
+        End Try
     End Sub
 
     Private Sub PictureBox64_Click(sender As Object, e As EventArgs) Handles PictureBox64.Click
@@ -6586,6 +6617,7 @@
                 fdialog.Label2.Text = "Todos los disfraces amiibo han sido desbloqueados"
                 fdialog.ShowDialog()
             End If
+            NumericUpDown36.Value = 4294967295
         Catch ex As Exception
             If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
                 fdialog.Label1.Text = "quest.sav : unlock dragon / class"
@@ -7685,7 +7717,7 @@
         PictureBox49.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Warrior : Click unlock all"
+            Label2.Text = "Warrior : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Guerrier : Cliquez pour tout débloquer"
@@ -7704,7 +7736,7 @@
         PictureBox48.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Mage : Click unlock all"
+            Label2.Text = "Mage : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Mage : Cliquez pour tout débloquer"
@@ -7723,7 +7755,7 @@
         PictureBox47.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Cleric : Click unlock all"
+            Label2.Text = "Cleric : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Prêtre : Cliquez pour tout débloquer"
@@ -7742,7 +7774,7 @@
         PictureBox46.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Thief : Click unlock all"
+            Label2.Text = "Thief : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Voleur : Cliquez pour tout débloquer"
@@ -7761,7 +7793,7 @@
         PictureBox45.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Pop Star : Click unlock all"
+            Label2.Text = "Pop Star : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Chanteuse : Cliquez pour tout débloquer"
@@ -7780,7 +7812,7 @@
         PictureBox44.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Vampire : Click unlock all"
+            Label2.Text = "Vampire : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Vampire : Cliquez pour tout débloquer"
@@ -7799,7 +7831,7 @@
         PictureBox43.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Chef : Click unlock all"
+            Label2.Text = "Chef : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Cuisinier : Cliquez pour tout débloquer"
@@ -7818,7 +7850,7 @@
         PictureBox42.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Tank : Click unlock all"
+            Label2.Text = "Tank : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Tank : Cliquez pour tout débloquer"
@@ -7837,7 +7869,7 @@
         PictureBox41.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Imp : Click unlock all"
+            Label2.Text = "Imp : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Diablotin : Cliquez pour tout débloquer"
@@ -7856,7 +7888,7 @@
         PictureBox40.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Princess : Click unlock all"
+            Label2.Text = "Princess : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Princesse : Cliquez pour tout débloquer"
@@ -7875,7 +7907,7 @@
         PictureBox39.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Flower : Click unlock all"
+            Label2.Text = "Flower : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Fleur : Cliquez pour tout débloquer"
@@ -7894,7 +7926,7 @@
         PictureBox38.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Scientist : Click unlock all"
+            Label2.Text = "Scientist : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Scientifique : Cliquez pour tout débloquer"
@@ -7913,7 +7945,7 @@
         PictureBox37.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Cat : Click unlock all"
+            Label2.Text = "Cat : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Chat : Cliquez pour tout débloquer"
@@ -7932,7 +7964,7 @@
         PictureBox25.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Elf : Click unlock all"
+            Label2.Text = "Elf : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Elfe : Cliquez pour tout débloquer"
@@ -7951,7 +7983,7 @@
         PictureBox63.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Warrior : Click unlock all"
+            Label2.Text = "Warrior : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Guerrier : Cliquez pour tout débloquer"
@@ -7970,7 +8002,7 @@
         PictureBox62.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Mage : Click unlock all"
+            Label2.Text = "Mage : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Mage : Cliquez pour tout débloquer"
@@ -7989,7 +8021,7 @@
         PictureBox61.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Cleric : Click unlock all"
+            Label2.Text = "Cleric : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Prêtre : Cliquez pour tout débloquer"
@@ -8008,7 +8040,7 @@
         PictureBox60.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Thief : Click unlock all"
+            Label2.Text = "Thief : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Voleur : Cliquez pour tout débloquer"
@@ -8027,7 +8059,7 @@
         PictureBox59.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Pop Star : Click unlock all"
+            Label2.Text = "Pop Star : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Chanteuse : Cliquez pour tout débloquer"
@@ -8046,7 +8078,7 @@
         PictureBox58.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Vampire : Click unlock all"
+            Label2.Text = "Vampire : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Vampire : Cliquez pour tout débloquer"
@@ -8065,7 +8097,7 @@
         PictureBox57.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Chef : Click unlock all"
+            Label2.Text = "Chef : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Cuisinier : Cliquez pour tout débloquer"
@@ -8084,7 +8116,7 @@
         PictureBox56.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Tank : Click unlock all"
+            Label2.Text = "Tank : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Tank : Cliquez pour tout débloquer"
@@ -8103,7 +8135,7 @@
         PictureBox55.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Imp : Click unlock all"
+            Label2.Text = "Imp : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Diablotin : Cliquez pour tout débloquer"
@@ -8122,7 +8154,7 @@
         PictureBox54.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Princess : Click unlock all"
+            Label2.Text = "Princess : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Princesse : Cliquez pour tout débloquer"
@@ -8141,7 +8173,7 @@
         PictureBox53.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Flower : Click unlock all"
+            Label2.Text = "Flower : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Fleur : Cliquez pour tout débloquer"
@@ -8160,7 +8192,7 @@
         PictureBox52.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Scientist : Click unlock all"
+            Label2.Text = "Scientist : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Scientifique : Cliquez pour tout débloquer"
@@ -8179,7 +8211,7 @@
         PictureBox51.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Cat : Click unlock all"
+            Label2.Text = "Cat : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Chat : Cliquez pour tout débloquer"
@@ -8198,7 +8230,7 @@
         PictureBox50.BorderStyle = BorderStyle.None
         Label2.Visible = True
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
-            Label2.Text = "Elf : Click unlock all"
+            Label2.Text = "Elf : Click to unlock all"
         End If
         If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
             Label2.Text = "Elfe : Cliquez pour tout débloquer"
@@ -8211,5 +8243,163 @@
     Private Sub PictureBox50_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox50.MouseLeave
         PictureBox50.BorderStyle = BorderStyle.FixedSingle
         Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox65_Click(sender As Object, e As EventArgs) Handles PictureBox65.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            Writer.Position = &H134
+            Writer.WriteUInt16(65535)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : unlock class"
+                fdialog.Label2.Text = "All class has been unlocked"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : débloquer classes"
+                fdialog.Label2.Text = "Toutes les classes ont été débloquées"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : debloquear clases"
+                fdialog.Label2.Text = "Todos las clases han sido desbloqueados"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "common.sav : unlock class"
+                fdialog.Label2.Text = "An error has occured, load common.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "common.sav : débloquer classes"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez common.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "common.sav : debloquear clases"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo common.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox65_MouseMove(sender As Object, e As EventArgs) Handles PictureBox65.MouseMove
+        PictureBox65.BorderStyle = BorderStyle.None
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Click to unlock all class"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Cliquez pour débloquer toutes les classes"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Haz clic para desbloquear las clases"
+        End If
+    End Sub
+
+    Private Sub PictureBox65_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox65.MouseLeave
+        PictureBox65.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = False
+    End Sub
+
+    Private Sub PictureBox66_Click(sender As Object, e As EventArgs) Handles PictureBox66.Click
+        Try
+            Dim Writer As New PackageIO.Writer(quest, PackageIO.Endian.Little)
+            Writer.Position = &H4BA4
+            Writer.WriteUInt32(1)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "quest.sav : unlock villa"
+                fdialog.Label2.Text = "The villa has been unlocked"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "quest.sav : débloquer villa"
+                fdialog.Label2.Text = "La villa a été débloquée"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "quest.sav : desbloquear villa"
+                fdialog.Label2.Text = "La villa ha sido desbloqueada"
+                fdialog.ShowDialog()
+            End If
+            NumericUpDown47.Value = 1
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "quest.sav : unlock villa"
+                fdialog.Label2.Text = "An error has occured, load quest.sav first"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "quest.sav : débloquer villa"
+                fdialog.Label2.Text = "Une erreur est survenue, ouvrez quest.sav avant"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "quest.sav : desbloquear villa"
+                fdialog.Label2.Text = "Ha ocurrido un error, Abre primero el archivo quest.sav"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub PictureBox66_MouseMove(sender As Object, e As EventArgs) Handles PictureBox66.MouseMove
+        PictureBox66.BorderStyle = BorderStyle.FixedSingle
+        Label2.Visible = True
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+            Label2.Text = "Click to unlock villa"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+            Label2.Text = "Cliquez pour débloquer la villa"
+        End If
+        If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+            Label2.Text = "Haz clic para desbloquear la villa"
+        End If
+    End Sub
+
+    Private Sub PictureBox66_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox66.MouseLeave
+        PictureBox66.BorderStyle = BorderStyle.None
+        Label2.Visible = False
+    End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        Try
+            Dim Writer As New PackageIO.Writer(quest, PackageIO.Endian.Little)
+            Writer.Position = &H4B9C
+            Writer.WriteUInt16(NumericUpDown36.Value)
+            Writer.Position = &H4BA4
+            Writer.WriteUInt16(NumericUpDown47.Value)
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : quest.sav"
+                fdialog.Label2.Text = "File saved"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : quest.sav"
+                fdialog.Label2.Text = "Fichier sauvegardé"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : quest.sav"
+                fdialog.Label2.Text = "Archivo guardado"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : quest.sav"
+                fdialog.Label2.Text = "An error has occured"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : quest.sav"
+                fdialog.Label2.Text = "Une erreur est survenue"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : quest.sav"
+                fdialog.Label2.Text = "Ha ocurrido un error"
+                fdialog.ShowDialog()
+            End If
+        End Try
     End Sub
 End Class
