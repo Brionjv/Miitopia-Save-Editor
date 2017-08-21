@@ -5,7 +5,7 @@ Edit your Miitopia save file
 
 # How to use : 
 - Extract your save with a homebrew (JK's Save Manager or other)
-- Open common.sav, hero.sav or questsav, edit
+- Open common.sav, hero.sav or quest.sav, edit
 - Re-import your save with a homebrew (JK's Save Manager or other)
 
 # Features :
