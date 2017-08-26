@@ -4598,17 +4598,17 @@
             If ComboBox4.SelectedItem = ComboBox4.Items.Item(0) Then
                 My.Computer.FileSystem.CopyFile(
                           hero,
-                        applicationpath & "\bak\hero.sav\EUR\common.sav")
+                        applicationpath & "\bak\hero.sav\EUR\hero.sav")
             End If
             If ComboBox4.SelectedItem = ComboBox4.Items.Item(1) Then
                 My.Computer.FileSystem.CopyFile(
                           hero,
-                        applicationpath & "\bak\hero.sav\USA\common.sav")
+                        applicationpath & "\bak\hero.sav\USA\hero.sav")
             End If
             If ComboBox4.SelectedItem = ComboBox4.Items.Item(2) Then
                 My.Computer.FileSystem.CopyFile(
                           hero,
-                        applicationpath & "\bak\hero.sav\JPN\common.sav")
+                        applicationpath & "\bak\hero.sav\JPN\hero.sav")
             End If
         Catch ex As Exception
         End Try

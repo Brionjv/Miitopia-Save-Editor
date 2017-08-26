@@ -217,8 +217,8 @@ Partial Class Form1
         Me.TabPage10 = New System.Windows.Forms.TabPage()
         Me.NumericUpDown47 = New System.Windows.Forms.NumericUpDown()
         Me.NumericUpDown36 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox66 = New System.Windows.Forms.PictureBox()
         Me.PictureBox64 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox66 = New System.Windows.Forms.PictureBox()
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -360,8 +360,8 @@ Partial Class Form1
         Me.TabPage10.SuspendLayout()
         CType(Me.NumericUpDown47, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown36, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -2657,16 +2657,6 @@ Partial Class Form1
         Me.NumericUpDown36.TabIndex = 2
         Me.NumericUpDown36.Visible = False
         '
-        'PictureBox66
-        '
-        Me.PictureBox66.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox66.Image = CType(resources.GetObject("PictureBox66.Image"), System.Drawing.Image)
-        Me.PictureBox66.Location = New System.Drawing.Point(144, 28)
-        Me.PictureBox66.Name = "PictureBox66"
-        Me.PictureBox66.Size = New System.Drawing.Size(94, 76)
-        Me.PictureBox66.TabIndex = 1
-        Me.PictureBox66.TabStop = False
-        '
         'PictureBox64
         '
         Me.PictureBox64.Cursor = System.Windows.Forms.Cursors.Hand
@@ -2676,6 +2666,16 @@ Partial Class Form1
         Me.PictureBox64.Size = New System.Drawing.Size(94, 76)
         Me.PictureBox64.TabIndex = 0
         Me.PictureBox64.TabStop = False
+        '
+        'PictureBox66
+        '
+        Me.PictureBox66.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox66.Image = CType(resources.GetObject("PictureBox66.Image"), System.Drawing.Image)
+        Me.PictureBox66.Location = New System.Drawing.Point(144, 28)
+        Me.PictureBox66.Name = "PictureBox66"
+        Me.PictureBox66.Size = New System.Drawing.Size(94, 76)
+        Me.PictureBox66.TabIndex = 1
+        Me.PictureBox66.TabStop = False
         '
         'Button11
         '
@@ -2720,9 +2720,9 @@ Partial Class Form1
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(1, 389)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(69, 13)
+        Me.Label1.Size = New System.Drawing.Size(76, 13)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Version 1.0.4"
+        Me.Label1.Text = "Version 1.0.4A"
         '
         'Label2
         '
@@ -2964,8 +2964,8 @@ Partial Class Form1
         Me.TabPage10.ResumeLayout(False)
         CType(Me.NumericUpDown47, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDown36, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
