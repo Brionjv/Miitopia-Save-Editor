@@ -505,7 +505,7 @@ Partial Class Form1
         '
         Me.NumericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.NumericUpDown1.Location = New System.Drawing.Point(257, 24)
-        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {9999999, 0, 0, 0})
         Me.NumericUpDown1.Name = "NumericUpDown1"
         Me.NumericUpDown1.Size = New System.Drawing.Size(58, 16)
         Me.NumericUpDown1.TabIndex = 3
