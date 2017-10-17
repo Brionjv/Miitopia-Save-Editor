@@ -145,6 +145,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\MSE_logo_U.png" />
+    <None Include="Resources\Miitopia SE logo.png" />
     <None Include="Resources\Tumfull.png" />
     <None Include="Resources\Tumempty.png" />
   </ItemGroup>

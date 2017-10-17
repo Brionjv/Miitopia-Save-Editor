@@ -1,4 +1,6 @@
-﻿Public Class Form1
+﻿Imports PackageIO
+Imports System.Net
+Public Class Form1
     Dim common As String
     Dim hero As String
     Dim quest As String
@@ -8401,5 +8403,54 @@
                 fdialog.ShowDialog()
             End If
         End Try
+    End Sub
+
+    Public Sub Checkupdates()
+        Dim MAJ As New WebClient
+        Dim lastupdate As String = MAJ.DownloadString("https://raw.githubusercontent.com/Brionjv/Miitopia-Save-Editor/master/test%20ver.2.0.0/Version.txt")
+        Try
+            If Label7.Text = lastupdate Then
+                PictureBox1.Visible = True
+                PictureBox67.Visible = False
+            Else
+                PictureBox1.Visible = False
+                PictureBox67.Visible = True
+                If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                    fdialog.Label1.Text = "Miitopia Save Editor : Update"
+                    fdialog.Label2.Text = "An update is available, click on Miitopia Save Editor logo to download update"
+                    fdialog.ShowDialog()
+                End If
+                If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                    fdialog.Label1.Text = "Miitopia Save Editor : Mise à jour"
+                    fdialog.Label2.Text = "Une mise à jour est disponible, cliquez sur le logo de Miitopia Save Editor pour télécharger la mise à jour"
+                    fdialog.ShowDialog()
+                End If
+                If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                    fdialog.Label1.Text = "Miitopia Save Editor : actualizar"
+                    fdialog.Label2.Text = "Hay una actualización disponible, haga clic en el logotipo de Miitopia Save Editor para descargar la actualización"
+                    fdialog.ShowDialog()
+                End If
+            End If
+        Catch ex As Exception
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(0) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : Update"
+                fdialog.Label2.Text = "An error has occured"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(1) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : Mise à jour"
+                fdialog.Label2.Text = "Une erreur est survenue"
+                fdialog.ShowDialog()
+            End If
+            If ComboBox3.SelectedItem = ComboBox3.Items.Item(2) Then
+                fdialog.Label1.Text = "Miitopia Save Editor : actualizar"
+                fdialog.Label2.Text = "Ha ocurrido un error"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub Form1_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+        Checkupdates()
     End Sub
 End Class

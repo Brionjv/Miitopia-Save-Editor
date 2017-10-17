@@ -15,6 +15,14 @@ MiitopiaSaveEditor
   Remplace la propriété CurrentUICulture du thread actuel pour toutes
   les recherches de ressources à l'aide de cette classe de ressource fortement typée.
 </summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.Miitopia_SE_logo">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.MSE_logo_U">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.Tumempty">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.

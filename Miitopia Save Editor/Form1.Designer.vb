@@ -230,6 +230,7 @@ Partial Class Form1
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.Label26 = New System.Windows.Forms.Label()
+        Me.PictureBox67 = New System.Windows.Forms.PictureBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabControl3.SuspendLayout()
@@ -366,6 +367,7 @@ Partial Class Form1
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox67, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -2704,7 +2706,7 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox1.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Miitopia_SE_logo
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox1.Location = New System.Drawing.Point(153, 0)
         Me.PictureBox1.Name = "PictureBox1"
@@ -2808,6 +2810,18 @@ Partial Class Form1
         Me.Label26.Text = "D"
         Me.Label26.Visible = False
         '
+        'PictureBox67
+        '
+        Me.PictureBox67.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox67.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.MSE_logo_U
+        Me.PictureBox67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox67.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox67.Location = New System.Drawing.Point(153, 0)
+        Me.PictureBox67.Name = "PictureBox67"
+        Me.PictureBox67.Size = New System.Drawing.Size(151, 52)
+        Me.PictureBox67.TabIndex = 10
+        Me.PictureBox67.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2824,6 +2838,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.PictureBox10)
+        Me.Controls.Add(Me.PictureBox67)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
@@ -2970,6 +2985,7 @@ Partial Class Form1
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox67, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -3181,5 +3197,6 @@ Partial Class Form1
     Friend WithEvents NumericUpDown47 As System.Windows.Forms.NumericUpDown
     Friend WithEvents NumericUpDown36 As System.Windows.Forms.NumericUpDown
     Friend WithEvents PictureBox66 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox67 As System.Windows.Forms.PictureBox
 
 End Class
