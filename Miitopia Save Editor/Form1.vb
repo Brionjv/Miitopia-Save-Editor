@@ -8406,10 +8406,10 @@ Public Class Form1
     End Sub
 
     Public Sub Checkupdates()
-        Dim MAJ As New WebClient
-        Dim lastupdate As String = MAJ.DownloadString("https://raw.githubusercontent.com/Brionjv/Miitopia-Save-Editor/master/test%20ver.2.0.0/Version.txt")
         Try
-            If Label7.Text = lastupdate Then
+            Dim MAJ As New WebClient
+            Dim lastupdate As String = MAJ.DownloadString("https://raw.githubusercontent.com/Brionjv/Miitopia-Save-Editor/master/Version.txt")
+            If Label1.Text = lastupdate Then
                 PictureBox1.Visible = True
                 PictureBox67.Visible = False
             Else
@@ -8452,5 +8452,9 @@ Public Class Form1
 
     Private Sub Form1_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         Checkupdates()
+    End Sub
+
+    Private Sub PictureBox67_Click(sender As Object, e As EventArgs) Handles PictureBox67.Click
+        Process.Start("https://github.com/Brionjv/Miitopia-Save-Editor/releases")
     End Sub
 End Class
