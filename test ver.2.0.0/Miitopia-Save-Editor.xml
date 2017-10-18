@@ -35,6 +35,14 @@ Miitopia-Save-Editor
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bg_fdialog">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bg_feature3">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bg_footer01">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -95,6 +103,22 @@ Miitopia-Save-Editor
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.inn">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.level">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.mapdragon">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.miiicon">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.miirescued">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -112,6 +136,10 @@ Miitopia-Save-Editor
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.music_icon">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.overworld">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
