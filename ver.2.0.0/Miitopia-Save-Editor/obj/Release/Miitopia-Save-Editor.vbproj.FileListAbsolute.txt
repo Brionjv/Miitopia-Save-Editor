@@ -1,0 +1,14 @@
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Release\Miitopia-Save-Editor.exe.config
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Release\Miitopia-Save-Editor.exe
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Release\Miitopia-Save-Editor.pdb
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Release\Miitopia-Save-Editor.xml
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia_Save_Editor.Miitopia_SE.resources
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia_Save_Editor.Resources.resources
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.vbproj.GenerateResource.Cache
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.exe
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.xml
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.pdb
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Release\PackageIO.dll
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.vbprojResolveAssemblyReference.cache
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia_Save_Editor.Form2.resources
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia_Save_Editor.Grub_editor.resources
