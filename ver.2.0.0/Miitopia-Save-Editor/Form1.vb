@@ -1,4 +1,6 @@
 ﻿Imports System.Net
+Imports PackageIO
+Imports System
 Public Class Miitopia_SE
     Private IsFormBeingDragged As Boolean = False
     Private MousedwnX As Integer
@@ -6,6 +8,7 @@ Public Class Miitopia_SE
     Dim applicationpath = Application.StartupPath
     Dim fdialog As New Form2
     Dim common As String
+    Dim AudioMiitopia As System.IO.UnmanagedMemoryStream
 
     Public Sub Hidemenu() ' MSE Functions
         If Menu_panel.Width = 34 Then
@@ -38,6 +41,23 @@ Public Class Miitopia_SE
         End If
     End Sub
 
+    Public Sub startmusic()
+        Panel_music.Visible = True
+        If Select_music.SelectedItem = Select_music.Items.Item(0) Then
+            AudioMiitopia = My.Resources.sound1
+        ElseIf Select_music.SelectedItem = Select_music.Items.Item(1) Then
+            AudioMiitopia = My.Resources.sound2
+        ElseIf Select_music.SelectedItem = Select_music.Items.Item(2) Then
+            AudioMiitopia = My.Resources.sound3
+        End If
+        If Setting_music.Checked = True Then
+            My.Computer.Audio.Play(AudioMiitopia, AudioPlayMode.BackgroundLoop)
+        Else
+            My.Computer.Audio.Stop()
+            Panel_music.Visible = False
+        End If
+    End Sub
+
     Public Sub readfilecommon()
         Try
             Dim Reader As New PackageIO.Reader(common, PackageIO.Endian.Little)
@@ -50,7 +70,7 @@ Public Class Miitopia_SE
             Reader.Position = &H2A
             valu_candies.Value = Reader.ReadUInt16
             Reader.Position = &H100
-            valu_saltshak.Value = Reader.ReadByte
+            valu_sprinkles.Value = Reader.ReadByte
             Reader.Position = &H130
             valu_rescued.Value = Reader.ReadUInt16
             Reader.Position = &H134
@@ -59,10 +79,16 @@ Public Class Miitopia_SE
             valu_costamiibo.Value = Reader.ReadUInt64
             Reader.Position = &H83A
             valu_ticket.Value = Reader.ReadUInt16
+            Reader.Position = &H102
+            valu_safespot.Value = Reader.ReadInt8
+            Button_Open.Visible = False
+            Button_Save.Visible = True
         Catch ex As Exception
             fdialog.Title.Text = "Miitopia Save Editor : Read file"
             fdialog.Msg.Text = "Oops, something goes wrong" & vbNewLine & "opening of common.sav failed, please report this issue"
             fdialog.ShowDialog()
+            Button_Open.Visible = True
+            Button_Save.Visible = False
         End Try
     End Sub
 
@@ -236,11 +262,19 @@ Public Class Miitopia_SE
 
     Private Sub Miitopia_SE_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Select_language.SelectedItem = Select_language.Items.Item(0)
+        Select_music.SelectedItem = Select_music.Items.Item(0)
         Try
             Setting_music.Checked = My.Settings.S_music
             Setting_hidden.Checked = My.Settings.S_hide
             Setting_filepath.Checked = My.Settings.S_fpath
             Select_language.SelectedItem = My.Settings.S_lang
+            Select_music.SelectedItem = My.Settings.S_Smusic
+            Menu_panel.Width = My.Settings.S_menu_t
+            If Menu_panel.Width = 150 Then
+                Menu_width.Location = New Point(116, 0)
+            Else
+                Menu_width.Location = New Point(0, 0)
+            End If
         Catch ex As Exception
 
         End Try
@@ -251,6 +285,8 @@ Public Class Miitopia_SE
         My.Settings.S_hide = Setting_hidden.Checked
         My.Settings.S_fpath = Setting_filepath.Checked
         My.Settings.S_lang = Select_language.SelectedItem
+        My.Settings.S_Smusic = Select_music.SelectedItem
+        My.Settings.S_menu_t = Menu_panel.Width
     End Sub
 
     Private Sub Setting_hidden_CheckedChanged(sender As Object, e As EventArgs) Handles Setting_hidden.CheckedChanged
@@ -260,33 +296,25 @@ Public Class Miitopia_SE
             icon_allweapons.Location = New Point(23, 23)
             Bar_costamiibo.Visible = True
             icon_costamiibo.Location = New Point(23, 23)
-            Bar_saltshak.Visible = True
-            icon_saltshak.Location = New Point(23, 23)
+            Bar_sprinkles.Visible = True
+            icon_sprinkles.Location = New Point(23, 23)
             valu_party.Visible = True
-            Bar_foods.Visible = True
-            icon_foods.Location = New Point(23, 23)
+            valu_safespot.Visible = True
         Else
             Hidden_things.Visible = False
             Bar_allweapons.Visible = False
             icon_allweapons.Location = New Point(23, 14)
             Bar_costamiibo.Visible = False
             icon_costamiibo.Location = New Point(23, 14)
-            Bar_saltshak.Visible = False
-            icon_saltshak.Location = New Point(23, 14)
+            Bar_sprinkles.Visible = False
+            icon_sprinkles.Location = New Point(23, 14)
             valu_party.Visible = False
-            Bar_foods.Visible = False
-            icon_foods.Location = New Point(23, 14)
+            valu_safespot.Visible = False
         End If
     End Sub
 
-    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles Setting_music.CheckedChanged
-        Panel_music.Visible = True
-        If Setting_music.Checked = True Then
-            My.Computer.Audio.Play(My.Resources.sound1, AudioPlayMode.BackgroundLoop)
-        Else
-            My.Computer.Audio.Stop()
-            Panel_music.Visible = False
-        End If
+    Private Sub Setting_music_CheckedChanged(sender As Object, e As EventArgs) Handles Setting_music.CheckedChanged
+        startmusic()
     End Sub
 
     Private Sub Menu_common_Click(sender As Object, e As EventArgs) Handles Menu_common.Click, Label2.Click
@@ -374,11 +402,11 @@ Public Class Miitopia_SE
         valu_ticket.Value = 9999
     End Sub
 
-    Private Sub Fea_saltshak_Click(sender As Object, e As EventArgs) Handles Fea_saltshak.Click
-        valu_saltshak.Value = 31
+    Private Sub Fea_sprinkles_Click(sender As Object, e As EventArgs) Handles Fea_sprinkles.Click
+        valu_sprinkles.Value = 31
     End Sub
 
-    Private Sub party_icon_Click(sender As Object, e As EventArgs) Handles party_icon.Click
+    Private Sub icon_party_Click(sender As Object, e As EventArgs) Handles icon_party.Click
         If valu_party.Value = 0 Then
             valu_party.Value = 1
         ElseIf valu_party.Value = 1 Then
@@ -390,11 +418,11 @@ Public Class Miitopia_SE
 
     Private Sub valu_party_ValueChanged(sender As Object, e As EventArgs) Handles valu_party.ValueChanged
         If valu_party.Value = 0 Then
-            party_icon.Image = My.Resources.inn
+            icon_party.Image = My.Resources.inn
         ElseIf valu_party.Value = 1 Then
-            party_icon.Image = My.Resources.level
+            icon_party.Image = My.Resources.level
         ElseIf valu_party.Value = 2 Then
-            party_icon.Image = My.Resources.overworld
+            icon_party.Image = My.Resources.overworld
         End If
     End Sub
 
@@ -429,8 +457,6 @@ Public Class Miitopia_SE
         open.ShowDialog()
         common = open.FileName
         readfilecommon()
-        Button_Open.Visible = False
-        Button_Save.Visible = True
         TextBox_fpath.Text = common
         makebakcommon()
     End Sub
@@ -449,5 +475,13 @@ Public Class Miitopia_SE
 
     Private Sub Fea_foods_Click(sender As Object, e As EventArgs) Handles Fea_foods.Click
         Grub_editor.ShowDialog()
+    End Sub
+
+    Private Sub Select_music_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Select_music.SelectedIndexChanged
+        startmusic()
+    End Sub
+
+    Private Sub icon_safespot_Click(sender As Object, e As EventArgs) Handles icon_safespot.Click
+        valu_safespot.Value = 1
     End Sub
 End Class

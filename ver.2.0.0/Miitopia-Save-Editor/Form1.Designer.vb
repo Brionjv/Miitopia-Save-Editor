@@ -53,7 +53,7 @@ Partial Class Miitopia_SE
         Me.Hidden_text = New System.Windows.Forms.Label()
         Me.Panel_music = New System.Windows.Forms.Panel()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.Panel_slt_save = New System.Windows.Forms.Panel()
         Me.Filever_text = New System.Windows.Forms.Label()
         Me.File_path = New System.Windows.Forms.Panel()
         Me.TextBox_fpath = New System.Windows.Forms.TextBox()
@@ -70,26 +70,30 @@ Partial Class Miitopia_SE
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Setting_hidden = New System.Windows.Forms.CheckBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Select_music = New System.Windows.Forms.ComboBox()
         Me.Setting_music = New System.Windows.Forms.CheckBox()
         Me.Panel_common = New System.Windows.Forms.Panel()
         Me.Info_dragon_map2 = New System.Windows.Forms.Label()
         Me.Dragon_map2 = New System.Windows.Forms.PictureBox()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Group_safespot = New System.Windows.Forms.GroupBox()
+        Me.valu_safespot = New System.Windows.Forms.NumericUpDown()
+        Me.icon_safespot = New System.Windows.Forms.PictureBox()
         Me.Info_dragon_map = New System.Windows.Forms.Label()
         Me.Dragon_map = New System.Windows.Forms.PictureBox()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.Group_party = New System.Windows.Forms.GroupBox()
         Me.Info_party = New System.Windows.Forms.Label()
         Me.valu_party = New System.Windows.Forms.NumericUpDown()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.party_icon = New System.Windows.Forms.PictureBox()
+        Me.icon_party = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.valu_rescued = New System.Windows.Forms.NumericUpDown()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.Fea_saltshak = New System.Windows.Forms.Panel()
-        Me.icon_saltshak = New System.Windows.Forms.PictureBox()
-        Me.Bar_saltshak = New System.Windows.Forms.Panel()
-        Me.valu_saltshak = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_sprinkles = New System.Windows.Forms.Panel()
+        Me.icon_sprinkles = New System.Windows.Forms.PictureBox()
+        Me.Bar_sprinkles = New System.Windows.Forms.Panel()
+        Me.valu_sprinkles = New System.Windows.Forms.NumericUpDown()
         Me.Fea_ticket = New System.Windows.Forms.Panel()
         Me.icon_ticket = New System.Windows.Forms.PictureBox()
         Me.Bar_ticket = New System.Windows.Forms.Panel()
@@ -104,8 +108,6 @@ Partial Class Miitopia_SE
         Me.valu_allweapons = New System.Windows.Forms.NumericUpDown()
         Me.Fea_foods = New System.Windows.Forms.Panel()
         Me.icon_foods = New System.Windows.Forms.PictureBox()
-        Me.Bar_foods = New System.Windows.Forms.Panel()
-        Me.NumericUpDown4 = New System.Windows.Forms.NumericUpDown()
         Me.Fea_candies = New System.Windows.Forms.Panel()
         Me.icon_candies = New System.Windows.Forms.PictureBox()
         Me.Bar_candies = New System.Windows.Forms.Panel()
@@ -147,7 +149,7 @@ Partial Class Miitopia_SE
         Me.Hidden_things.SuspendLayout()
         Me.Panel_music.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel7.SuspendLayout()
+        Me.Panel_slt_save.SuspendLayout()
         Me.File_path.SuspendLayout()
         Me.Panel_settings.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -160,17 +162,20 @@ Partial Class Miitopia_SE
         CType(Me.Dragon_map2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
+        Me.Group_safespot.SuspendLayout()
+        CType(Me.valu_safespot, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.icon_safespot, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Dragon_map, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox4.SuspendLayout()
+        Me.Group_party.SuspendLayout()
         CType(Me.valu_party, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.party_icon, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.icon_party, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.valu_rescued, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Fea_saltshak.SuspendLayout()
-        CType(Me.icon_saltshak, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Bar_saltshak.SuspendLayout()
-        CType(Me.valu_saltshak, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_sprinkles.SuspendLayout()
+        CType(Me.icon_sprinkles, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_sprinkles.SuspendLayout()
+        CType(Me.valu_sprinkles, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Fea_ticket.SuspendLayout()
         CType(Me.icon_ticket, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Bar_ticket.SuspendLayout()
@@ -185,8 +190,6 @@ Partial Class Miitopia_SE
         CType(Me.valu_allweapons, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Fea_foods.SuspendLayout()
         CType(Me.icon_foods, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Bar_foods.SuspendLayout()
-        CType(Me.NumericUpDown4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Fea_candies.SuspendLayout()
         CType(Me.icon_candies, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Bar_candies.SuspendLayout()
@@ -512,9 +515,9 @@ Partial Class Miitopia_SE
         Me.Hidden_things.BackColor = System.Drawing.Color.Transparent
         Me.Hidden_things.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_menu
         Me.Hidden_things.Controls.Add(Me.Hidden_text)
-        Me.Hidden_things.Location = New System.Drawing.Point(520, 31)
+        Me.Hidden_things.Location = New System.Drawing.Point(519, 31)
         Me.Hidden_things.Name = "Hidden_things"
-        Me.Hidden_things.Size = New System.Drawing.Size(30, 25)
+        Me.Hidden_things.Size = New System.Drawing.Size(31, 25)
         Me.Hidden_things.TabIndex = 9
         Me.Hidden_things.Visible = False
         '
@@ -527,7 +530,7 @@ Partial Class Miitopia_SE
         Me.Hidden_text.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Hidden_text.Location = New System.Drawing.Point(0, 0)
         Me.Hidden_text.Name = "Hidden_text"
-        Me.Hidden_text.Size = New System.Drawing.Size(30, 25)
+        Me.Hidden_text.Size = New System.Drawing.Size(31, 25)
         Me.Hidden_text.TabIndex = 0
         Me.Hidden_text.Text = "D"
         Me.Hidden_text.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -554,16 +557,16 @@ Partial Class Miitopia_SE
         Me.PictureBox4.TabIndex = 0
         Me.PictureBox4.TabStop = False
         '
-        'Panel7
+        'Panel_slt_save
         '
-        Me.Panel7.BackColor = System.Drawing.Color.Transparent
-        Me.Panel7.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_menu
-        Me.Panel7.Controls.Add(Me.Filever_text)
-        Me.Panel7.Location = New System.Drawing.Point(488, 31)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(30, 25)
-        Me.Panel7.TabIndex = 10
-        Me.Panel7.Visible = False
+        Me.Panel_slt_save.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_slt_save.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_menu
+        Me.Panel_slt_save.Controls.Add(Me.Filever_text)
+        Me.Panel_slt_save.Location = New System.Drawing.Point(488, 31)
+        Me.Panel_slt_save.Name = "Panel_slt_save"
+        Me.Panel_slt_save.Size = New System.Drawing.Size(30, 25)
+        Me.Panel_slt_save.TabIndex = 10
+        Me.Panel_slt_save.Visible = False
         '
         'Filever_text
         '
@@ -741,11 +744,24 @@ Partial Class Miitopia_SE
         Me.Panel3.BackColor = System.Drawing.Color.Transparent
         Me.Panel3.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel3.Controls.Add(Me.Select_music)
         Me.Panel3.Controls.Add(Me.Setting_music)
         Me.Panel3.Location = New System.Drawing.Point(5, 13)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(260, 24)
         Me.Panel3.TabIndex = 5
+        '
+        'Select_music
+        '
+        Me.Select_music.BackColor = System.Drawing.Color.White
+        Me.Select_music.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_music.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_music.FormattingEnabled = True
+        Me.Select_music.Items.AddRange(New Object() {"1", "2", "3"})
+        Me.Select_music.Location = New System.Drawing.Point(211, 2)
+        Me.Select_music.Name = "Select_music"
+        Me.Select_music.Size = New System.Drawing.Size(41, 21)
+        Me.Select_music.TabIndex = 1
         '
         'Setting_music
         '
@@ -810,12 +826,13 @@ Partial Class Miitopia_SE
         '
         'TabPage1
         '
-        Me.TabPage1.BackgroundImage = CType(resources.GetObject("TabPage1.BackgroundImage"), System.Drawing.Image)
+        Me.TabPage1.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
+        Me.TabPage1.Controls.Add(Me.Group_safespot)
         Me.TabPage1.Controls.Add(Me.Info_dragon_map)
         Me.TabPage1.Controls.Add(Me.Dragon_map)
-        Me.TabPage1.Controls.Add(Me.GroupBox4)
+        Me.TabPage1.Controls.Add(Me.Group_party)
         Me.TabPage1.Controls.Add(Me.Panel1)
-        Me.TabPage1.Controls.Add(Me.Fea_saltshak)
+        Me.TabPage1.Controls.Add(Me.Fea_sprinkles)
         Me.TabPage1.Controls.Add(Me.Fea_ticket)
         Me.TabPage1.Controls.Add(Me.Fea_costamiibo)
         Me.TabPage1.Controls.Add(Me.Fea_allweapons)
@@ -831,13 +848,48 @@ Partial Class Miitopia_SE
         Me.TabPage1.Text = "Main"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
+        'Group_safespot
+        '
+        Me.Group_safespot.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
+        Me.Group_safespot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_safespot.Controls.Add(Me.valu_safespot)
+        Me.Group_safespot.Controls.Add(Me.icon_safespot)
+        Me.Group_safespot.Location = New System.Drawing.Point(206, 248)
+        Me.Group_safespot.Name = "Group_safespot"
+        Me.Group_safespot.Size = New System.Drawing.Size(72, 60)
+        Me.Group_safespot.TabIndex = 18
+        Me.Group_safespot.TabStop = False
+        Me.Group_safespot.Text = "Safe spot"
+        '
+        'valu_safespot
+        '
+        Me.valu_safespot.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_safespot.Location = New System.Drawing.Point(3, 40)
+        Me.valu_safespot.Maximum = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.valu_safespot.Name = "valu_safespot"
+        Me.valu_safespot.Size = New System.Drawing.Size(39, 16)
+        Me.valu_safespot.TabIndex = 4
+        Me.valu_safespot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_safespot.Visible = False
+        '
+        'icon_safespot
+        '
+        Me.icon_safespot.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.icon_safespot.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.safespot
+        Me.icon_safespot.Location = New System.Drawing.Point(17, 15)
+        Me.icon_safespot.Name = "icon_safespot"
+        Me.icon_safespot.Size = New System.Drawing.Size(39, 39)
+        Me.icon_safespot.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.icon_safespot.TabIndex = 5
+        Me.icon_safespot.TabStop = False
+        '
         'Info_dragon_map
         '
         Me.Info_dragon_map.AutoSize = True
         Me.Info_dragon_map.Cursor = System.Windows.Forms.Cursors.Help
         Me.Info_dragon_map.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Info_dragon_map.ForeColor = System.Drawing.Color.Blue
-        Me.Info_dragon_map.Location = New System.Drawing.Point(292, 287)
+        Me.Info_dragon_map.Location = New System.Drawing.Point(355, 286)
         Me.Info_dragon_map.Name = "Info_dragon_map"
         Me.Info_dragon_map.Size = New System.Drawing.Size(12, 16)
         Me.Info_dragon_map.TabIndex = 16
@@ -847,26 +899,26 @@ Partial Class Miitopia_SE
         '
         Me.Dragon_map.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Dragon_map.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.mapdragon
-        Me.Dragon_map.Location = New System.Drawing.Point(232, 253)
+        Me.Dragon_map.Location = New System.Drawing.Point(295, 252)
         Me.Dragon_map.Name = "Dragon_map"
         Me.Dragon_map.Size = New System.Drawing.Size(60, 50)
         Me.Dragon_map.TabIndex = 15
         Me.Dragon_map.TabStop = False
         '
-        'GroupBox4
+        'Group_party
         '
-        Me.GroupBox4.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
-        Me.GroupBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.GroupBox4.Controls.Add(Me.Info_party)
-        Me.GroupBox4.Controls.Add(Me.valu_party)
-        Me.GroupBox4.Controls.Add(Me.PictureBox5)
-        Me.GroupBox4.Controls.Add(Me.party_icon)
-        Me.GroupBox4.Location = New System.Drawing.Point(44, 248)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(142, 60)
-        Me.GroupBox4.TabIndex = 14
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "The party is in"
+        Me.Group_party.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
+        Me.Group_party.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_party.Controls.Add(Me.Info_party)
+        Me.Group_party.Controls.Add(Me.valu_party)
+        Me.Group_party.Controls.Add(Me.PictureBox5)
+        Me.Group_party.Controls.Add(Me.icon_party)
+        Me.Group_party.Location = New System.Drawing.Point(44, 248)
+        Me.Group_party.Name = "Group_party"
+        Me.Group_party.Size = New System.Drawing.Size(142, 60)
+        Me.Group_party.TabIndex = 14
+        Me.Group_party.TabStop = False
+        Me.Group_party.Text = "The party is in"
         '
         'Info_party
         '
@@ -883,7 +935,8 @@ Partial Class Miitopia_SE
         'valu_party
         '
         Me.valu_party.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_party.Location = New System.Drawing.Point(78, 38)
+        Me.valu_party.Location = New System.Drawing.Point(39, 15)
+        Me.valu_party.Maximum = New Decimal(New Integer() {2, 0, 0, 0})
         Me.valu_party.Name = "valu_party"
         Me.valu_party.Size = New System.Drawing.Size(39, 16)
         Me.valu_party.TabIndex = 3
@@ -899,16 +952,16 @@ Partial Class Miitopia_SE
         Me.PictureBox5.TabIndex = 0
         Me.PictureBox5.TabStop = False
         '
-        'party_icon
+        'icon_party
         '
-        Me.party_icon.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.party_icon.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.inn
-        Me.party_icon.Location = New System.Drawing.Point(78, 15)
-        Me.party_icon.Name = "party_icon"
-        Me.party_icon.Size = New System.Drawing.Size(39, 39)
-        Me.party_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.party_icon.TabIndex = 1
-        Me.party_icon.TabStop = False
+        Me.icon_party.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.icon_party.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.inn
+        Me.icon_party.Location = New System.Drawing.Point(78, 15)
+        Me.icon_party.Name = "icon_party"
+        Me.icon_party.Size = New System.Drawing.Size(39, 39)
+        Me.icon_party.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.icon_party.TabIndex = 1
+        Me.icon_party.TabStop = False
         '
         'Panel1
         '
@@ -941,49 +994,49 @@ Partial Class Miitopia_SE
         Me.Label12.TabIndex = 10
         Me.Label12.Text = "Rescued :"
         '
-        'Fea_saltshak
+        'Fea_sprinkles
         '
-        Me.Fea_saltshak.BackgroundImage = CType(resources.GetObject("Fea_saltshak.BackgroundImage"), System.Drawing.Image)
-        Me.Fea_saltshak.Controls.Add(Me.icon_saltshak)
-        Me.Fea_saltshak.Controls.Add(Me.Bar_saltshak)
-        Me.Fea_saltshak.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_saltshak.Location = New System.Drawing.Point(386, 154)
-        Me.Fea_saltshak.Name = "Fea_saltshak"
-        Me.Fea_saltshak.Size = New System.Drawing.Size(94, 76)
-        Me.Fea_saltshak.TabIndex = 8
+        Me.Fea_sprinkles.BackgroundImage = CType(resources.GetObject("Fea_sprinkles.BackgroundImage"), System.Drawing.Image)
+        Me.Fea_sprinkles.Controls.Add(Me.icon_sprinkles)
+        Me.Fea_sprinkles.Controls.Add(Me.Bar_sprinkles)
+        Me.Fea_sprinkles.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_sprinkles.Location = New System.Drawing.Point(386, 154)
+        Me.Fea_sprinkles.Name = "Fea_sprinkles"
+        Me.Fea_sprinkles.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_sprinkles.TabIndex = 8
         '
-        'icon_saltshak
+        'icon_sprinkles
         '
-        Me.icon_saltshak.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.saltshakers
-        Me.icon_saltshak.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.icon_saltshak.Enabled = False
-        Me.icon_saltshak.Location = New System.Drawing.Point(23, 14)
-        Me.icon_saltshak.Name = "icon_saltshak"
-        Me.icon_saltshak.Size = New System.Drawing.Size(48, 48)
-        Me.icon_saltshak.TabIndex = 1
-        Me.icon_saltshak.TabStop = False
+        Me.icon_sprinkles.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.saltshakers
+        Me.icon_sprinkles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.icon_sprinkles.Enabled = False
+        Me.icon_sprinkles.Location = New System.Drawing.Point(23, 14)
+        Me.icon_sprinkles.Name = "icon_sprinkles"
+        Me.icon_sprinkles.Size = New System.Drawing.Size(48, 48)
+        Me.icon_sprinkles.TabIndex = 1
+        Me.icon_sprinkles.TabStop = False
         '
-        'Bar_saltshak
+        'Bar_sprinkles
         '
-        Me.Bar_saltshak.BackgroundImage = CType(resources.GetObject("Bar_saltshak.BackgroundImage"), System.Drawing.Image)
-        Me.Bar_saltshak.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bar_saltshak.Controls.Add(Me.valu_saltshak)
-        Me.Bar_saltshak.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.Bar_saltshak.Location = New System.Drawing.Point(0, 1)
-        Me.Bar_saltshak.Name = "Bar_saltshak"
-        Me.Bar_saltshak.Size = New System.Drawing.Size(94, 18)
-        Me.Bar_saltshak.TabIndex = 0
-        Me.Bar_saltshak.Visible = False
+        Me.Bar_sprinkles.BackgroundImage = CType(resources.GetObject("Bar_sprinkles.BackgroundImage"), System.Drawing.Image)
+        Me.Bar_sprinkles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_sprinkles.Controls.Add(Me.valu_sprinkles)
+        Me.Bar_sprinkles.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_sprinkles.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_sprinkles.Name = "Bar_sprinkles"
+        Me.Bar_sprinkles.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_sprinkles.TabIndex = 0
+        Me.Bar_sprinkles.Visible = False
         '
-        'valu_saltshak
+        'valu_sprinkles
         '
-        Me.valu_saltshak.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_saltshak.Location = New System.Drawing.Point(16, 1)
-        Me.valu_saltshak.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.valu_saltshak.Name = "valu_saltshak"
-        Me.valu_saltshak.Size = New System.Drawing.Size(62, 16)
-        Me.valu_saltshak.TabIndex = 5
-        Me.valu_saltshak.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_sprinkles.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_sprinkles.Location = New System.Drawing.Point(16, 1)
+        Me.valu_sprinkles.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_sprinkles.Name = "valu_sprinkles"
+        Me.valu_sprinkles.Size = New System.Drawing.Size(62, 16)
+        Me.valu_sprinkles.TabIndex = 5
+        Me.valu_sprinkles.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Fea_ticket
         '
@@ -1120,7 +1173,6 @@ Partial Class Miitopia_SE
         '
         Me.Fea_foods.BackgroundImage = CType(resources.GetObject("Fea_foods.BackgroundImage"), System.Drawing.Image)
         Me.Fea_foods.Controls.Add(Me.icon_foods)
-        Me.Fea_foods.Controls.Add(Me.Bar_foods)
         Me.Fea_foods.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Fea_foods.Location = New System.Drawing.Point(386, 59)
         Me.Fea_foods.Name = "Fea_foods"
@@ -1137,28 +1189,6 @@ Partial Class Miitopia_SE
         Me.icon_foods.Size = New System.Drawing.Size(48, 48)
         Me.icon_foods.TabIndex = 1
         Me.icon_foods.TabStop = False
-        '
-        'Bar_foods
-        '
-        Me.Bar_foods.BackgroundImage = CType(resources.GetObject("Bar_foods.BackgroundImage"), System.Drawing.Image)
-        Me.Bar_foods.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Bar_foods.Controls.Add(Me.NumericUpDown4)
-        Me.Bar_foods.Location = New System.Drawing.Point(0, 1)
-        Me.Bar_foods.Name = "Bar_foods"
-        Me.Bar_foods.Size = New System.Drawing.Size(94, 18)
-        Me.Bar_foods.TabIndex = 0
-        Me.Bar_foods.Visible = False
-        '
-        'NumericUpDown4
-        '
-        Me.NumericUpDown4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown4.Location = New System.Drawing.Point(31, 1)
-        Me.NumericUpDown4.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown4.Name = "NumericUpDown4"
-        Me.NumericUpDown4.Size = New System.Drawing.Size(32, 16)
-        Me.NumericUpDown4.TabIndex = 5
-        Me.NumericUpDown4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown4.Value = New Decimal(New Integer() {99, 0, 0, 0})
         '
         'Fea_candies
         '
@@ -1311,6 +1341,7 @@ Partial Class Miitopia_SE
         '
         'TabPage2
         '
+        Me.TabPage2.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
@@ -1378,7 +1409,7 @@ Partial Class Miitopia_SE
         Me.ControlBox = False
         Me.Controls.Add(Me.Descrip_panel)
         Me.Controls.Add(Me.File_path)
-        Me.Controls.Add(Me.Panel7)
+        Me.Controls.Add(Me.Panel_slt_save)
         Me.Controls.Add(Me.Hidden_things)
         Me.Controls.Add(Me.Panel_music)
         Me.Controls.Add(Me.Menu_buttonH)
@@ -1418,7 +1449,7 @@ Partial Class Miitopia_SE
         Me.Hidden_things.ResumeLayout(False)
         Me.Panel_music.ResumeLayout(False)
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel7.ResumeLayout(False)
+        Me.Panel_slt_save.ResumeLayout(False)
         Me.File_path.ResumeLayout(False)
         Me.File_path.PerformLayout()
         Me.Panel_settings.ResumeLayout(False)
@@ -1439,19 +1470,22 @@ Partial Class Miitopia_SE
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
+        Me.Group_safespot.ResumeLayout(False)
+        CType(Me.valu_safespot, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.icon_safespot, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Dragon_map, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox4.ResumeLayout(False)
-        Me.GroupBox4.PerformLayout()
+        Me.Group_party.ResumeLayout(False)
+        Me.Group_party.PerformLayout()
         CType(Me.valu_party, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.party_icon, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.icon_party, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.valu_rescued, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Fea_saltshak.ResumeLayout(False)
-        CType(Me.icon_saltshak, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Bar_saltshak.ResumeLayout(False)
-        CType(Me.valu_saltshak, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_sprinkles.ResumeLayout(False)
+        CType(Me.icon_sprinkles, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_sprinkles.ResumeLayout(False)
+        CType(Me.valu_sprinkles, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Fea_ticket.ResumeLayout(False)
         CType(Me.icon_ticket, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Bar_ticket.ResumeLayout(False)
@@ -1466,8 +1500,6 @@ Partial Class Miitopia_SE
         CType(Me.valu_allweapons, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Fea_foods.ResumeLayout(False)
         CType(Me.icon_foods, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Bar_foods.ResumeLayout(False)
-        CType(Me.NumericUpDown4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Fea_candies.ResumeLayout(False)
         CType(Me.icon_candies, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Bar_candies.ResumeLayout(False)
@@ -1515,7 +1547,7 @@ Partial Class Miitopia_SE
     Friend WithEvents Hidden_text As System.Windows.Forms.Label
     Friend WithEvents Panel_music As System.Windows.Forms.Panel
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
-    Friend WithEvents Panel7 As System.Windows.Forms.Panel
+    Friend WithEvents Panel_slt_save As System.Windows.Forms.Panel
     Friend WithEvents Filever_text As System.Windows.Forms.Label
     Friend WithEvents File_path As System.Windows.Forms.Panel
     Friend WithEvents TextBox_fpath As System.Windows.Forms.TextBox
@@ -1555,8 +1587,6 @@ Partial Class Miitopia_SE
     Friend WithEvents MSE_iconupdate As System.Windows.Forms.PictureBox
     Friend WithEvents Fea_foods As System.Windows.Forms.Panel
     Friend WithEvents icon_foods As System.Windows.Forms.PictureBox
-    Friend WithEvents Bar_foods As System.Windows.Forms.Panel
-    Friend WithEvents NumericUpDown4 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Fea_allweapons As System.Windows.Forms.Panel
     Friend WithEvents icon_allweapons As System.Windows.Forms.PictureBox
     Friend WithEvents Bar_allweapons As System.Windows.Forms.Panel
@@ -1565,10 +1595,10 @@ Partial Class Miitopia_SE
     Friend WithEvents icon_costamiibo As System.Windows.Forms.PictureBox
     Friend WithEvents Bar_costamiibo As System.Windows.Forms.Panel
     Friend WithEvents valu_costamiibo As System.Windows.Forms.NumericUpDown
-    Friend WithEvents Fea_saltshak As System.Windows.Forms.Panel
-    Friend WithEvents icon_saltshak As System.Windows.Forms.PictureBox
-    Friend WithEvents Bar_saltshak As System.Windows.Forms.Panel
-    Friend WithEvents valu_saltshak As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_sprinkles As System.Windows.Forms.Panel
+    Friend WithEvents icon_sprinkles As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_sprinkles As System.Windows.Forms.Panel
+    Friend WithEvents valu_sprinkles As System.Windows.Forms.NumericUpDown
     Friend WithEvents Fea_ticket As System.Windows.Forms.Panel
     Friend WithEvents icon_ticket As System.Windows.Forms.PictureBox
     Friend WithEvents Bar_ticket As System.Windows.Forms.Panel
@@ -1576,18 +1606,22 @@ Partial Class Miitopia_SE
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents valu_rescued As System.Windows.Forms.NumericUpDown
     Friend WithEvents Label12 As System.Windows.Forms.Label
-    Friend WithEvents party_icon As System.Windows.Forms.PictureBox
+    Friend WithEvents icon_party As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
     Friend WithEvents Panel3 As System.Windows.Forms.Panel
     Friend WithEvents Panel9 As System.Windows.Forms.Panel
     Friend WithEvents Panel8 As System.Windows.Forms.Panel
     Friend WithEvents Panel5 As System.Windows.Forms.Panel
     Friend WithEvents valu_party As System.Windows.Forms.NumericUpDown
-    Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
+    Friend WithEvents Group_party As System.Windows.Forms.GroupBox
     Friend WithEvents Dragon_map As System.Windows.Forms.PictureBox
     Friend WithEvents Info_dragon_map As System.Windows.Forms.Label
     Friend WithEvents Info_dragon_map2 As System.Windows.Forms.Label
     Friend WithEvents Dragon_map2 As System.Windows.Forms.PictureBox
     Friend WithEvents Info_party As System.Windows.Forms.Label
+    Friend WithEvents Select_music As System.Windows.Forms.ComboBox
+    Friend WithEvents Group_safespot As System.Windows.Forms.GroupBox
+    Friend WithEvents icon_safespot As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_safespot As System.Windows.Forms.NumericUpDown
 
 End Class
