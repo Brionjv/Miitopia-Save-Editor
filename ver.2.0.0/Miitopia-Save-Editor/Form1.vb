@@ -1,6 +1,6 @@
 ﻿Imports System.Net
 Imports PackageIO
-Imports System
+Imports System.IO
 Public Class Miitopia_SE
     Private IsFormBeingDragged As Boolean = False
     Private MousedwnX As Integer
@@ -84,11 +84,47 @@ Public Class Miitopia_SE
             Button_Open.Visible = False
             Button_Save.Visible = True
         Catch ex As Exception
-            fdialog.Title.Text = "Miitopia Save Editor : Read file"
+            fdialog.Title.Text = "Miitopia Save Editor : Read common.sav"
             fdialog.Msg.Text = "Oops, something goes wrong" & vbNewLine & "opening of common.sav failed, please report this issue"
             fdialog.ShowDialog()
             Button_Open.Visible = True
             Button_Save.Visible = False
+        End Try
+    End Sub
+
+    Public Sub writecommon()
+        Try
+            Dim writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            writer.Position = &H1C
+            writer.WriteInt8(valu_party.Value)
+            writer.Position = &H24
+            writer.WriteUInt32(valu_gold.Value)
+            writer.Position = &H28
+            writer.WriteUInt16(valu_bananas.Value)
+            writer.Position = &H2A
+            writer.WriteUInt16(valu_candies.Value)
+            writer.Position = &H130
+            writer.WriteUInt16(valu_rescued.Value)
+            writer.Position = &H134
+            writer.WriteUInt16(valu_allweapons.Value)
+            writer.Position = &H2A4
+            writer.WriteUInt64(valu_costamiibo.Value)
+            writer.Position = &H83A
+            writer.WriteUInt16(valu_ticket.Value)
+            writer.Position = &H102
+            writer.WriteInt8(valu_safespot.Value)
+
+            Dim writerx As New System.IO.FileStream(common, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite)
+            writerx.Position = &H100
+            writerx.WriteByte(valu_sprinkles.Value)
+
+            fdialog.Title.Text = "Miitopia Save Editor : write common.sav"
+            fdialog.Msg.Text = "common.sav has been saved"
+            fdialog.ShowDialog()
+        Catch ex As Exception
+            fdialog.Title.Text = "Miitopia Save Editor : write common.sav"
+            fdialog.Msg.Text = "An error has occured" & vbNewLine & "please report this issue"
+            fdialog.ShowDialog()
         End Try
     End Sub
 
@@ -201,7 +237,12 @@ Public Class Miitopia_SE
 
     Private Sub Menu_settings_MouseMove(sender As Object, e As EventArgs) Handles Menu_settings.MouseMove, Label1.MouseMove
         Menu_settings.BorderStyle = BorderStyle.FixedSingle
-        Descrip_text.Text = "Click to access to Miitopia Save Editor settings"
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to access to Miitopia Save Editor settings"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour accéder aux paramètres de Miitopia Save Editor"
+        End If
         Descrip_panel.Visible = True
     End Sub
 
@@ -325,7 +366,12 @@ Public Class Miitopia_SE
 
     Private Sub Menu_common_MouseMove(sender As Object, e As EventArgs) Handles Menu_common.MouseMove, Label2.MouseMove
         Menu_common.BorderStyle = BorderStyle.FixedSingle
-        Descrip_text.Text = "Click to edit common.sav"
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to edit common.sav"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour éditer common.sav"
+        End If
         Descrip_panel.Visible = True
     End Sub
 
@@ -348,7 +394,12 @@ Public Class Miitopia_SE
 
     Private Sub Menu_hero_MouseMove(sender As Object, e As EventArgs) Handles Menu_hero.MouseMove, Label3.MouseMove
         Menu_hero.BorderStyle = BorderStyle.FixedSingle
-        Descrip_text.Text = "Click to edit hero.sav"
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to edit hero.sav"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour éditer hero.sav"
+        End If
         Descrip_panel.Visible = True
     End Sub
 
@@ -359,7 +410,12 @@ Public Class Miitopia_SE
 
     Private Sub Menu_quest_MouseMove(sender As Object, e As EventArgs) Handles Menu_quest.MouseMove, Label4.MouseMove
         Menu_quest.BorderStyle = BorderStyle.FixedSingle
-        Descrip_text.Text = "Click to edit quest.sav"
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to edit quest.sav"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour éditer quest.sav"
+        End If
         Descrip_panel.Visible = True
     End Sub
 
@@ -483,5 +539,9 @@ Public Class Miitopia_SE
 
     Private Sub icon_safespot_Click(sender As Object, e As EventArgs) Handles icon_safespot.Click
         valu_safespot.Value = 1
+    End Sub
+
+    Private Sub text_save_Click(sender As Object, e As EventArgs) Handles text_save.Click
+        writecommon()
     End Sub
 End Class
