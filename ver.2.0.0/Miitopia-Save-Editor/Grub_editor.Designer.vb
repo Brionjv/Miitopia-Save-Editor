@@ -181,7 +181,7 @@ Partial Class Grub_editor
         Me.Fds_close_text = New System.Windows.Forms.Label()
         Me.Panel_setall = New System.Windows.Forms.Panel()
         Me.Text_setall = New System.Windows.Forms.Label()
-        Me.NumericUpDown51 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_allgrubs = New System.Windows.Forms.NumericUpDown()
         Me.Panel_foods_2 = New System.Windows.Forms.Panel()
         Me.Panel52 = New System.Windows.Forms.Panel()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
@@ -337,124 +337,124 @@ Partial Class Grub_editor
         Me.Panel_foods_3 = New System.Windows.Forms.Panel()
         Me.Panel102 = New System.Windows.Forms.Panel()
         Me.PictureBox101 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown102 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_150 = New System.Windows.Forms.NumericUpDown()
         Me.Panel103 = New System.Windows.Forms.Panel()
         Me.PictureBox102 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown103 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_149 = New System.Windows.Forms.NumericUpDown()
         Me.Panel104 = New System.Windows.Forms.Panel()
         Me.PictureBox103 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown104 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_148 = New System.Windows.Forms.NumericUpDown()
         Me.Panel105 = New System.Windows.Forms.Panel()
         Me.PictureBox104 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown105 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_147 = New System.Windows.Forms.NumericUpDown()
         Me.Panel106 = New System.Windows.Forms.Panel()
         Me.PictureBox105 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown106 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_146 = New System.Windows.Forms.NumericUpDown()
         Me.Panel107 = New System.Windows.Forms.Panel()
         Me.PictureBox106 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown107 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_145 = New System.Windows.Forms.NumericUpDown()
         Me.Panel108 = New System.Windows.Forms.Panel()
         Me.PictureBox107 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown108 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_144 = New System.Windows.Forms.NumericUpDown()
         Me.Panel109 = New System.Windows.Forms.Panel()
         Me.PictureBox108 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown109 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_143 = New System.Windows.Forms.NumericUpDown()
         Me.Panel110 = New System.Windows.Forms.Panel()
         Me.PictureBox109 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown110 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_142 = New System.Windows.Forms.NumericUpDown()
         Me.Panel111 = New System.Windows.Forms.Panel()
         Me.PictureBox110 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown111 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_141 = New System.Windows.Forms.NumericUpDown()
         Me.Panel112 = New System.Windows.Forms.Panel()
         Me.PictureBox111 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown112 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_140 = New System.Windows.Forms.NumericUpDown()
         Me.Panel113 = New System.Windows.Forms.Panel()
         Me.PictureBox112 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown113 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_139 = New System.Windows.Forms.NumericUpDown()
         Me.Panel114 = New System.Windows.Forms.Panel()
         Me.PictureBox113 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown114 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_138 = New System.Windows.Forms.NumericUpDown()
         Me.Panel115 = New System.Windows.Forms.Panel()
         Me.PictureBox114 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown115 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_137 = New System.Windows.Forms.NumericUpDown()
         Me.Panel116 = New System.Windows.Forms.Panel()
         Me.PictureBox115 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown116 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_136 = New System.Windows.Forms.NumericUpDown()
         Me.Panel117 = New System.Windows.Forms.Panel()
         Me.PictureBox116 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown117 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_135 = New System.Windows.Forms.NumericUpDown()
         Me.Panel118 = New System.Windows.Forms.Panel()
         Me.PictureBox117 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown118 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_134 = New System.Windows.Forms.NumericUpDown()
         Me.Panel119 = New System.Windows.Forms.Panel()
         Me.PictureBox118 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown119 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_133 = New System.Windows.Forms.NumericUpDown()
         Me.Panel120 = New System.Windows.Forms.Panel()
         Me.PictureBox119 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown120 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_132 = New System.Windows.Forms.NumericUpDown()
         Me.Panel121 = New System.Windows.Forms.Panel()
         Me.PictureBox120 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown121 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_131 = New System.Windows.Forms.NumericUpDown()
         Me.Panel122 = New System.Windows.Forms.Panel()
         Me.PictureBox121 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown122 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_130 = New System.Windows.Forms.NumericUpDown()
         Me.Panel123 = New System.Windows.Forms.Panel()
         Me.PictureBox122 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown123 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_129 = New System.Windows.Forms.NumericUpDown()
         Me.Panel124 = New System.Windows.Forms.Panel()
         Me.PictureBox123 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown124 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_128 = New System.Windows.Forms.NumericUpDown()
         Me.Panel125 = New System.Windows.Forms.Panel()
         Me.PictureBox124 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown125 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_127 = New System.Windows.Forms.NumericUpDown()
         Me.Panel126 = New System.Windows.Forms.Panel()
         Me.PictureBox125 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown126 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_126 = New System.Windows.Forms.NumericUpDown()
         Me.Panel127 = New System.Windows.Forms.Panel()
         Me.PictureBox126 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown127 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_125 = New System.Windows.Forms.NumericUpDown()
         Me.Panel128 = New System.Windows.Forms.Panel()
         Me.PictureBox127 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown128 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_124 = New System.Windows.Forms.NumericUpDown()
         Me.Panel129 = New System.Windows.Forms.Panel()
         Me.PictureBox128 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown129 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_123 = New System.Windows.Forms.NumericUpDown()
         Me.Panel130 = New System.Windows.Forms.Panel()
         Me.PictureBox129 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown130 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_122 = New System.Windows.Forms.NumericUpDown()
         Me.Panel131 = New System.Windows.Forms.Panel()
         Me.PictureBox130 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown131 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_121 = New System.Windows.Forms.NumericUpDown()
         Me.Panel132 = New System.Windows.Forms.Panel()
         Me.PictureBox131 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown132 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_120 = New System.Windows.Forms.NumericUpDown()
         Me.Panel133 = New System.Windows.Forms.Panel()
         Me.PictureBox132 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown133 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_119 = New System.Windows.Forms.NumericUpDown()
         Me.Panel134 = New System.Windows.Forms.Panel()
         Me.PictureBox133 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown134 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_118 = New System.Windows.Forms.NumericUpDown()
         Me.Panel135 = New System.Windows.Forms.Panel()
         Me.PictureBox134 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown135 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_117 = New System.Windows.Forms.NumericUpDown()
         Me.Panel136 = New System.Windows.Forms.Panel()
         Me.PictureBox135 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown136 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_116 = New System.Windows.Forms.NumericUpDown()
         Me.Panel137 = New System.Windows.Forms.Panel()
         Me.PictureBox136 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown137 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_115 = New System.Windows.Forms.NumericUpDown()
         Me.Panel138 = New System.Windows.Forms.Panel()
         Me.PictureBox137 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown138 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_114 = New System.Windows.Forms.NumericUpDown()
         Me.Panel139 = New System.Windows.Forms.Panel()
         Me.PictureBox138 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown139 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_113 = New System.Windows.Forms.NumericUpDown()
         Me.Panel140 = New System.Windows.Forms.Panel()
         Me.PictureBox139 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown140 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_112 = New System.Windows.Forms.NumericUpDown()
         Me.Panel141 = New System.Windows.Forms.Panel()
         Me.PictureBox140 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown141 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_111 = New System.Windows.Forms.NumericUpDown()
         Me.Panel142 = New System.Windows.Forms.Panel()
         Me.PictureBox141 = New System.Windows.Forms.PictureBox()
         Me.valu_grub_110 = New System.Windows.Forms.NumericUpDown()
@@ -490,142 +490,142 @@ Partial Class Grub_editor
         Me.Panel_foods_4 = New System.Windows.Forms.Panel()
         Me.Panel156 = New System.Windows.Forms.Panel()
         Me.PictureBox155 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown156 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_196 = New System.Windows.Forms.NumericUpDown()
         Me.Panel157 = New System.Windows.Forms.Panel()
         Me.PictureBox156 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown157 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_195 = New System.Windows.Forms.NumericUpDown()
         Me.Panel158 = New System.Windows.Forms.Panel()
         Me.PictureBox157 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown158 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_194 = New System.Windows.Forms.NumericUpDown()
         Me.Panel159 = New System.Windows.Forms.Panel()
         Me.PictureBox158 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown159 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_193 = New System.Windows.Forms.NumericUpDown()
         Me.Panel160 = New System.Windows.Forms.Panel()
         Me.PictureBox159 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown160 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_192 = New System.Windows.Forms.NumericUpDown()
         Me.Panel161 = New System.Windows.Forms.Panel()
         Me.PictureBox160 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown161 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_191 = New System.Windows.Forms.NumericUpDown()
         Me.Panel162 = New System.Windows.Forms.Panel()
         Me.PictureBox161 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown162 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_190 = New System.Windows.Forms.NumericUpDown()
         Me.Panel163 = New System.Windows.Forms.Panel()
         Me.PictureBox162 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown163 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_189 = New System.Windows.Forms.NumericUpDown()
         Me.Panel164 = New System.Windows.Forms.Panel()
         Me.PictureBox163 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown164 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_188 = New System.Windows.Forms.NumericUpDown()
         Me.Panel165 = New System.Windows.Forms.Panel()
         Me.PictureBox164 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown165 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_187 = New System.Windows.Forms.NumericUpDown()
         Me.Panel166 = New System.Windows.Forms.Panel()
         Me.PictureBox165 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown166 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_186 = New System.Windows.Forms.NumericUpDown()
         Me.Panel167 = New System.Windows.Forms.Panel()
         Me.PictureBox166 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown167 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_185 = New System.Windows.Forms.NumericUpDown()
         Me.Panel168 = New System.Windows.Forms.Panel()
         Me.PictureBox167 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown168 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_184 = New System.Windows.Forms.NumericUpDown()
         Me.Panel169 = New System.Windows.Forms.Panel()
         Me.PictureBox168 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown169 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_183 = New System.Windows.Forms.NumericUpDown()
         Me.Panel170 = New System.Windows.Forms.Panel()
         Me.PictureBox169 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown170 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_182 = New System.Windows.Forms.NumericUpDown()
         Me.Panel171 = New System.Windows.Forms.Panel()
         Me.PictureBox170 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown171 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_181 = New System.Windows.Forms.NumericUpDown()
         Me.Panel172 = New System.Windows.Forms.Panel()
         Me.PictureBox171 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown172 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_180 = New System.Windows.Forms.NumericUpDown()
         Me.Panel173 = New System.Windows.Forms.Panel()
         Me.PictureBox172 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown173 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_179 = New System.Windows.Forms.NumericUpDown()
         Me.Panel174 = New System.Windows.Forms.Panel()
         Me.PictureBox173 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown174 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_178 = New System.Windows.Forms.NumericUpDown()
         Me.Panel175 = New System.Windows.Forms.Panel()
         Me.PictureBox174 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown175 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_177 = New System.Windows.Forms.NumericUpDown()
         Me.Panel176 = New System.Windows.Forms.Panel()
         Me.PictureBox175 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown176 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_176 = New System.Windows.Forms.NumericUpDown()
         Me.Panel177 = New System.Windows.Forms.Panel()
         Me.PictureBox176 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown177 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_175 = New System.Windows.Forms.NumericUpDown()
         Me.Panel178 = New System.Windows.Forms.Panel()
         Me.PictureBox177 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown178 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_174 = New System.Windows.Forms.NumericUpDown()
         Me.Panel179 = New System.Windows.Forms.Panel()
         Me.PictureBox178 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown179 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_173 = New System.Windows.Forms.NumericUpDown()
         Me.Panel180 = New System.Windows.Forms.Panel()
         Me.PictureBox179 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown180 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_172 = New System.Windows.Forms.NumericUpDown()
         Me.Panel181 = New System.Windows.Forms.Panel()
         Me.PictureBox180 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown181 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_171 = New System.Windows.Forms.NumericUpDown()
         Me.Panel182 = New System.Windows.Forms.Panel()
         Me.PictureBox181 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown182 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_170 = New System.Windows.Forms.NumericUpDown()
         Me.Panel183 = New System.Windows.Forms.Panel()
         Me.PictureBox182 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown183 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_169 = New System.Windows.Forms.NumericUpDown()
         Me.Panel184 = New System.Windows.Forms.Panel()
         Me.PictureBox183 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown184 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_168 = New System.Windows.Forms.NumericUpDown()
         Me.Panel185 = New System.Windows.Forms.Panel()
         Me.PictureBox184 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown185 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_167 = New System.Windows.Forms.NumericUpDown()
         Me.Panel186 = New System.Windows.Forms.Panel()
         Me.PictureBox185 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown186 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_166 = New System.Windows.Forms.NumericUpDown()
         Me.Panel187 = New System.Windows.Forms.Panel()
         Me.PictureBox186 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown187 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_165 = New System.Windows.Forms.NumericUpDown()
         Me.Panel188 = New System.Windows.Forms.Panel()
         Me.PictureBox187 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown188 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_164 = New System.Windows.Forms.NumericUpDown()
         Me.Panel189 = New System.Windows.Forms.Panel()
         Me.PictureBox188 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown189 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_163 = New System.Windows.Forms.NumericUpDown()
         Me.Panel190 = New System.Windows.Forms.Panel()
         Me.PictureBox189 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown190 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_162 = New System.Windows.Forms.NumericUpDown()
         Me.Panel191 = New System.Windows.Forms.Panel()
         Me.PictureBox190 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown191 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_161 = New System.Windows.Forms.NumericUpDown()
         Me.Panel192 = New System.Windows.Forms.Panel()
         Me.PictureBox191 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown192 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_160 = New System.Windows.Forms.NumericUpDown()
         Me.Panel193 = New System.Windows.Forms.Panel()
         Me.PictureBox192 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown193 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_159 = New System.Windows.Forms.NumericUpDown()
         Me.Panel194 = New System.Windows.Forms.Panel()
         Me.PictureBox193 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown194 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_158 = New System.Windows.Forms.NumericUpDown()
         Me.Panel195 = New System.Windows.Forms.Panel()
         Me.PictureBox194 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown195 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_157 = New System.Windows.Forms.NumericUpDown()
         Me.Panel196 = New System.Windows.Forms.Panel()
         Me.PictureBox195 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown196 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_156 = New System.Windows.Forms.NumericUpDown()
         Me.Panel197 = New System.Windows.Forms.Panel()
         Me.PictureBox196 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown197 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_155 = New System.Windows.Forms.NumericUpDown()
         Me.Panel198 = New System.Windows.Forms.Panel()
         Me.PictureBox197 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown198 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_154 = New System.Windows.Forms.NumericUpDown()
         Me.Panel199 = New System.Windows.Forms.Panel()
         Me.PictureBox198 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown199 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_153 = New System.Windows.Forms.NumericUpDown()
         Me.Panel200 = New System.Windows.Forms.Panel()
         Me.PictureBox199 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown200 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_152 = New System.Windows.Forms.NumericUpDown()
         Me.Panel201 = New System.Windows.Forms.Panel()
         Me.PictureBox200 = New System.Windows.Forms.PictureBox()
-        Me.NumericUpDown201 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_grub_151 = New System.Windows.Forms.NumericUpDown()
         Me.Arrow_left_panel3 = New System.Windows.Forms.PictureBox()
         Me.Panel15.SuspendLayout()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -783,7 +783,7 @@ Partial Class Grub_editor
         Me.Fds_button_save.SuspendLayout()
         Me.Fds_button_close.SuspendLayout()
         Me.Panel_setall.SuspendLayout()
-        CType(Me.NumericUpDown51, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_allgrubs, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_foods_2.SuspendLayout()
         Me.Panel52.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -939,124 +939,124 @@ Partial Class Grub_editor
         Me.Panel_foods_3.SuspendLayout()
         Me.Panel102.SuspendLayout()
         CType(Me.PictureBox101, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown102, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_150, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel103.SuspendLayout()
         CType(Me.PictureBox102, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown103, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_149, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel104.SuspendLayout()
         CType(Me.PictureBox103, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown104, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_148, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel105.SuspendLayout()
         CType(Me.PictureBox104, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown105, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_147, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel106.SuspendLayout()
         CType(Me.PictureBox105, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown106, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_146, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel107.SuspendLayout()
         CType(Me.PictureBox106, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown107, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_145, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel108.SuspendLayout()
         CType(Me.PictureBox107, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown108, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_144, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel109.SuspendLayout()
         CType(Me.PictureBox108, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown109, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_143, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel110.SuspendLayout()
         CType(Me.PictureBox109, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown110, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_142, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel111.SuspendLayout()
         CType(Me.PictureBox110, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown111, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_141, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel112.SuspendLayout()
         CType(Me.PictureBox111, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown112, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_140, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel113.SuspendLayout()
         CType(Me.PictureBox112, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown113, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_139, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel114.SuspendLayout()
         CType(Me.PictureBox113, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown114, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_138, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel115.SuspendLayout()
         CType(Me.PictureBox114, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown115, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_137, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel116.SuspendLayout()
         CType(Me.PictureBox115, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown116, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_136, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel117.SuspendLayout()
         CType(Me.PictureBox116, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown117, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_135, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel118.SuspendLayout()
         CType(Me.PictureBox117, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown118, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_134, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel119.SuspendLayout()
         CType(Me.PictureBox118, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown119, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_133, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel120.SuspendLayout()
         CType(Me.PictureBox119, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown120, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_132, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel121.SuspendLayout()
         CType(Me.PictureBox120, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown121, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_131, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel122.SuspendLayout()
         CType(Me.PictureBox121, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown122, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_130, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel123.SuspendLayout()
         CType(Me.PictureBox122, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown123, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_129, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel124.SuspendLayout()
         CType(Me.PictureBox123, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown124, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_128, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel125.SuspendLayout()
         CType(Me.PictureBox124, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown125, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_127, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel126.SuspendLayout()
         CType(Me.PictureBox125, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown126, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_126, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel127.SuspendLayout()
         CType(Me.PictureBox126, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown127, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_125, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel128.SuspendLayout()
         CType(Me.PictureBox127, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown128, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_124, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel129.SuspendLayout()
         CType(Me.PictureBox128, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown129, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_123, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel130.SuspendLayout()
         CType(Me.PictureBox129, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown130, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_122, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel131.SuspendLayout()
         CType(Me.PictureBox130, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown131, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_121, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel132.SuspendLayout()
         CType(Me.PictureBox131, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown132, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_120, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel133.SuspendLayout()
         CType(Me.PictureBox132, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown133, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_119, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel134.SuspendLayout()
         CType(Me.PictureBox133, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown134, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_118, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel135.SuspendLayout()
         CType(Me.PictureBox134, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown135, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_117, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel136.SuspendLayout()
         CType(Me.PictureBox135, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown136, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_116, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel137.SuspendLayout()
         CType(Me.PictureBox136, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown137, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_115, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel138.SuspendLayout()
         CType(Me.PictureBox137, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown138, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_114, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel139.SuspendLayout()
         CType(Me.PictureBox138, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown139, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_113, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel140.SuspendLayout()
         CType(Me.PictureBox139, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown140, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_112, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel141.SuspendLayout()
         CType(Me.PictureBox140, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown141, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_111, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel142.SuspendLayout()
         CType(Me.PictureBox141, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_grub_110, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1092,142 +1092,142 @@ Partial Class Grub_editor
         Me.Panel_foods_4.SuspendLayout()
         Me.Panel156.SuspendLayout()
         CType(Me.PictureBox155, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown156, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_196, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel157.SuspendLayout()
         CType(Me.PictureBox156, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown157, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_195, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel158.SuspendLayout()
         CType(Me.PictureBox157, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown158, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_194, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel159.SuspendLayout()
         CType(Me.PictureBox158, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown159, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_193, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel160.SuspendLayout()
         CType(Me.PictureBox159, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown160, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_192, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel161.SuspendLayout()
         CType(Me.PictureBox160, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown161, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_191, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel162.SuspendLayout()
         CType(Me.PictureBox161, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown162, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_190, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel163.SuspendLayout()
         CType(Me.PictureBox162, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown163, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_189, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel164.SuspendLayout()
         CType(Me.PictureBox163, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown164, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_188, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel165.SuspendLayout()
         CType(Me.PictureBox164, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown165, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_187, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel166.SuspendLayout()
         CType(Me.PictureBox165, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown166, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_186, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel167.SuspendLayout()
         CType(Me.PictureBox166, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown167, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_185, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel168.SuspendLayout()
         CType(Me.PictureBox167, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown168, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_184, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel169.SuspendLayout()
         CType(Me.PictureBox168, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown169, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_183, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel170.SuspendLayout()
         CType(Me.PictureBox169, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown170, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_182, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel171.SuspendLayout()
         CType(Me.PictureBox170, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown171, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_181, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel172.SuspendLayout()
         CType(Me.PictureBox171, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown172, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_180, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel173.SuspendLayout()
         CType(Me.PictureBox172, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown173, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_179, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel174.SuspendLayout()
         CType(Me.PictureBox173, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown174, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_178, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel175.SuspendLayout()
         CType(Me.PictureBox174, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown175, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_177, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel176.SuspendLayout()
         CType(Me.PictureBox175, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown176, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_176, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel177.SuspendLayout()
         CType(Me.PictureBox176, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown177, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_175, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel178.SuspendLayout()
         CType(Me.PictureBox177, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown178, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_174, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel179.SuspendLayout()
         CType(Me.PictureBox178, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown179, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_173, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel180.SuspendLayout()
         CType(Me.PictureBox179, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown180, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_172, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel181.SuspendLayout()
         CType(Me.PictureBox180, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown181, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_171, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel182.SuspendLayout()
         CType(Me.PictureBox181, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown182, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_170, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel183.SuspendLayout()
         CType(Me.PictureBox182, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown183, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_169, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel184.SuspendLayout()
         CType(Me.PictureBox183, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown184, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_168, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel185.SuspendLayout()
         CType(Me.PictureBox184, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown185, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_167, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel186.SuspendLayout()
         CType(Me.PictureBox185, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown186, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_166, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel187.SuspendLayout()
         CType(Me.PictureBox186, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown187, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_165, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel188.SuspendLayout()
         CType(Me.PictureBox187, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown188, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_164, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel189.SuspendLayout()
         CType(Me.PictureBox188, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown189, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_163, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel190.SuspendLayout()
         CType(Me.PictureBox189, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown190, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_162, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel191.SuspendLayout()
         CType(Me.PictureBox190, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown191, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_161, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel192.SuspendLayout()
         CType(Me.PictureBox191, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown192, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_160, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel193.SuspendLayout()
         CType(Me.PictureBox192, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown193, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_159, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel194.SuspendLayout()
         CType(Me.PictureBox193, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown194, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_158, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel195.SuspendLayout()
         CType(Me.PictureBox194, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown195, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_157, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel196.SuspendLayout()
         CType(Me.PictureBox195, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown196, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_156, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel197.SuspendLayout()
         CType(Me.PictureBox196, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown197, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_155, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel198.SuspendLayout()
         CType(Me.PictureBox197, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown198, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_154, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel199.SuspendLayout()
         CType(Me.PictureBox198, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown199, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_153, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel200.SuspendLayout()
         CType(Me.PictureBox199, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown200, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_152, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel201.SuspendLayout()
         CType(Me.PictureBox200, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown201, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_grub_151, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Arrow_left_panel3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -2864,7 +2864,8 @@ Partial Class Grub_editor
         Me.Panel_setall.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel_setall.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel_setall.Controls.Add(Me.Text_setall)
-        Me.Panel_setall.Controls.Add(Me.NumericUpDown51)
+        Me.Panel_setall.Controls.Add(Me.valu_allgrubs)
+        Me.Panel_setall.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Panel_setall.Location = New System.Drawing.Point(314, 398)
         Me.Panel_setall.Name = "Panel_setall"
         Me.Panel_setall.Size = New System.Drawing.Size(177, 39)
@@ -2873,21 +2874,23 @@ Partial Class Grub_editor
         'Text_setall
         '
         Me.Text_setall.AutoSize = True
+        Me.Text_setall.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Text_setall.Location = New System.Drawing.Point(20, 13)
         Me.Text_setall.Name = "Text_setall"
         Me.Text_setall.Size = New System.Drawing.Size(54, 13)
         Me.Text_setall.TabIndex = 1
         Me.Text_setall.Text = "Set all to :"
         '
-        'NumericUpDown51
+        'valu_allgrubs
         '
-        Me.NumericUpDown51.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown51.Location = New System.Drawing.Point(120, 11)
-        Me.NumericUpDown51.Name = "NumericUpDown51"
-        Me.NumericUpDown51.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown51.TabIndex = 0
-        Me.NumericUpDown51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown51.Value = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_allgrubs.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_allgrubs.Location = New System.Drawing.Point(120, 11)
+        Me.valu_allgrubs.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_allgrubs.Name = "valu_allgrubs"
+        Me.valu_allgrubs.Size = New System.Drawing.Size(36, 16)
+        Me.valu_allgrubs.TabIndex = 0
+        Me.valu_allgrubs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_allgrubs.Value = New Decimal(New Integer() {99, 0, 0, 0})
         '
         'Panel_foods_2
         '
@@ -4524,7 +4527,7 @@ Partial Class Grub_editor
         Me.Panel102.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel102.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel102.Controls.Add(Me.PictureBox101)
-        Me.Panel102.Controls.Add(Me.NumericUpDown102)
+        Me.Panel102.Controls.Add(Me.valu_grub_150)
         Me.Panel102.Location = New System.Drawing.Point(603, 295)
         Me.Panel102.Name = "Panel102"
         Me.Panel102.Size = New System.Drawing.Size(60, 65)
@@ -4539,22 +4542,22 @@ Partial Class Grub_editor
         Me.PictureBox101.TabIndex = 1
         Me.PictureBox101.TabStop = False
         '
-        'NumericUpDown102
+        'valu_grub_150
         '
-        Me.NumericUpDown102.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown102.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown102.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown102.Name = "NumericUpDown102"
-        Me.NumericUpDown102.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown102.TabIndex = 0
-        Me.NumericUpDown102.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_150.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_150.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_150.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_150.Name = "valu_grub_150"
+        Me.valu_grub_150.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_150.TabIndex = 0
+        Me.valu_grub_150.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel103
         '
         Me.Panel103.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel103.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel103.Controls.Add(Me.PictureBox102)
-        Me.Panel103.Controls.Add(Me.NumericUpDown103)
+        Me.Panel103.Controls.Add(Me.valu_grub_149)
         Me.Panel103.Location = New System.Drawing.Point(537, 295)
         Me.Panel103.Name = "Panel103"
         Me.Panel103.Size = New System.Drawing.Size(60, 65)
@@ -4569,22 +4572,22 @@ Partial Class Grub_editor
         Me.PictureBox102.TabIndex = 1
         Me.PictureBox102.TabStop = False
         '
-        'NumericUpDown103
+        'valu_grub_149
         '
-        Me.NumericUpDown103.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown103.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown103.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown103.Name = "NumericUpDown103"
-        Me.NumericUpDown103.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown103.TabIndex = 0
-        Me.NumericUpDown103.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_149.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_149.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_149.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_149.Name = "valu_grub_149"
+        Me.valu_grub_149.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_149.TabIndex = 0
+        Me.valu_grub_149.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel104
         '
         Me.Panel104.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel104.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel104.Controls.Add(Me.PictureBox103)
-        Me.Panel104.Controls.Add(Me.NumericUpDown104)
+        Me.Panel104.Controls.Add(Me.valu_grub_148)
         Me.Panel104.Location = New System.Drawing.Point(471, 295)
         Me.Panel104.Name = "Panel104"
         Me.Panel104.Size = New System.Drawing.Size(60, 65)
@@ -4599,22 +4602,22 @@ Partial Class Grub_editor
         Me.PictureBox103.TabIndex = 1
         Me.PictureBox103.TabStop = False
         '
-        'NumericUpDown104
+        'valu_grub_148
         '
-        Me.NumericUpDown104.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown104.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown104.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown104.Name = "NumericUpDown104"
-        Me.NumericUpDown104.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown104.TabIndex = 0
-        Me.NumericUpDown104.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_148.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_148.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_148.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_148.Name = "valu_grub_148"
+        Me.valu_grub_148.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_148.TabIndex = 0
+        Me.valu_grub_148.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel105
         '
         Me.Panel105.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel105.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel105.Controls.Add(Me.PictureBox104)
-        Me.Panel105.Controls.Add(Me.NumericUpDown105)
+        Me.Panel105.Controls.Add(Me.valu_grub_147)
         Me.Panel105.Location = New System.Drawing.Point(405, 295)
         Me.Panel105.Name = "Panel105"
         Me.Panel105.Size = New System.Drawing.Size(60, 65)
@@ -4629,22 +4632,22 @@ Partial Class Grub_editor
         Me.PictureBox104.TabIndex = 1
         Me.PictureBox104.TabStop = False
         '
-        'NumericUpDown105
+        'valu_grub_147
         '
-        Me.NumericUpDown105.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown105.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown105.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown105.Name = "NumericUpDown105"
-        Me.NumericUpDown105.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown105.TabIndex = 0
-        Me.NumericUpDown105.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_147.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_147.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_147.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_147.Name = "valu_grub_147"
+        Me.valu_grub_147.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_147.TabIndex = 0
+        Me.valu_grub_147.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel106
         '
         Me.Panel106.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel106.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel106.Controls.Add(Me.PictureBox105)
-        Me.Panel106.Controls.Add(Me.NumericUpDown106)
+        Me.Panel106.Controls.Add(Me.valu_grub_146)
         Me.Panel106.Location = New System.Drawing.Point(339, 295)
         Me.Panel106.Name = "Panel106"
         Me.Panel106.Size = New System.Drawing.Size(60, 65)
@@ -4659,22 +4662,22 @@ Partial Class Grub_editor
         Me.PictureBox105.TabIndex = 1
         Me.PictureBox105.TabStop = False
         '
-        'NumericUpDown106
+        'valu_grub_146
         '
-        Me.NumericUpDown106.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown106.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown106.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown106.Name = "NumericUpDown106"
-        Me.NumericUpDown106.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown106.TabIndex = 0
-        Me.NumericUpDown106.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_146.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_146.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_146.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_146.Name = "valu_grub_146"
+        Me.valu_grub_146.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_146.TabIndex = 0
+        Me.valu_grub_146.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel107
         '
         Me.Panel107.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel107.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel107.Controls.Add(Me.PictureBox106)
-        Me.Panel107.Controls.Add(Me.NumericUpDown107)
+        Me.Panel107.Controls.Add(Me.valu_grub_145)
         Me.Panel107.Location = New System.Drawing.Point(273, 295)
         Me.Panel107.Name = "Panel107"
         Me.Panel107.Size = New System.Drawing.Size(60, 65)
@@ -4689,22 +4692,22 @@ Partial Class Grub_editor
         Me.PictureBox106.TabIndex = 1
         Me.PictureBox106.TabStop = False
         '
-        'NumericUpDown107
+        'valu_grub_145
         '
-        Me.NumericUpDown107.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown107.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown107.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown107.Name = "NumericUpDown107"
-        Me.NumericUpDown107.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown107.TabIndex = 0
-        Me.NumericUpDown107.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_145.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_145.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_145.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_145.Name = "valu_grub_145"
+        Me.valu_grub_145.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_145.TabIndex = 0
+        Me.valu_grub_145.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel108
         '
         Me.Panel108.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel108.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel108.Controls.Add(Me.PictureBox107)
-        Me.Panel108.Controls.Add(Me.NumericUpDown108)
+        Me.Panel108.Controls.Add(Me.valu_grub_144)
         Me.Panel108.Location = New System.Drawing.Point(207, 295)
         Me.Panel108.Name = "Panel108"
         Me.Panel108.Size = New System.Drawing.Size(60, 65)
@@ -4719,22 +4722,22 @@ Partial Class Grub_editor
         Me.PictureBox107.TabIndex = 1
         Me.PictureBox107.TabStop = False
         '
-        'NumericUpDown108
+        'valu_grub_144
         '
-        Me.NumericUpDown108.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown108.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown108.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown108.Name = "NumericUpDown108"
-        Me.NumericUpDown108.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown108.TabIndex = 0
-        Me.NumericUpDown108.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_144.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_144.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_144.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_144.Name = "valu_grub_144"
+        Me.valu_grub_144.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_144.TabIndex = 0
+        Me.valu_grub_144.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel109
         '
         Me.Panel109.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel109.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel109.Controls.Add(Me.PictureBox108)
-        Me.Panel109.Controls.Add(Me.NumericUpDown109)
+        Me.Panel109.Controls.Add(Me.valu_grub_143)
         Me.Panel109.Location = New System.Drawing.Point(141, 295)
         Me.Panel109.Name = "Panel109"
         Me.Panel109.Size = New System.Drawing.Size(60, 65)
@@ -4749,22 +4752,22 @@ Partial Class Grub_editor
         Me.PictureBox108.TabIndex = 1
         Me.PictureBox108.TabStop = False
         '
-        'NumericUpDown109
+        'valu_grub_143
         '
-        Me.NumericUpDown109.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown109.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown109.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown109.Name = "NumericUpDown109"
-        Me.NumericUpDown109.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown109.TabIndex = 0
-        Me.NumericUpDown109.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_143.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_143.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_143.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_143.Name = "valu_grub_143"
+        Me.valu_grub_143.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_143.TabIndex = 0
+        Me.valu_grub_143.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel110
         '
         Me.Panel110.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel110.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel110.Controls.Add(Me.PictureBox109)
-        Me.Panel110.Controls.Add(Me.NumericUpDown110)
+        Me.Panel110.Controls.Add(Me.valu_grub_142)
         Me.Panel110.Location = New System.Drawing.Point(75, 295)
         Me.Panel110.Name = "Panel110"
         Me.Panel110.Size = New System.Drawing.Size(60, 65)
@@ -4779,22 +4782,22 @@ Partial Class Grub_editor
         Me.PictureBox109.TabIndex = 1
         Me.PictureBox109.TabStop = False
         '
-        'NumericUpDown110
+        'valu_grub_142
         '
-        Me.NumericUpDown110.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown110.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown110.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown110.Name = "NumericUpDown110"
-        Me.NumericUpDown110.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown110.TabIndex = 0
-        Me.NumericUpDown110.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_142.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_142.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_142.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_142.Name = "valu_grub_142"
+        Me.valu_grub_142.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_142.TabIndex = 0
+        Me.valu_grub_142.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel111
         '
         Me.Panel111.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel111.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel111.Controls.Add(Me.PictureBox110)
-        Me.Panel111.Controls.Add(Me.NumericUpDown111)
+        Me.Panel111.Controls.Add(Me.valu_grub_141)
         Me.Panel111.Location = New System.Drawing.Point(9, 295)
         Me.Panel111.Name = "Panel111"
         Me.Panel111.Size = New System.Drawing.Size(60, 65)
@@ -4809,22 +4812,22 @@ Partial Class Grub_editor
         Me.PictureBox110.TabIndex = 1
         Me.PictureBox110.TabStop = False
         '
-        'NumericUpDown111
+        'valu_grub_141
         '
-        Me.NumericUpDown111.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown111.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown111.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown111.Name = "NumericUpDown111"
-        Me.NumericUpDown111.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown111.TabIndex = 0
-        Me.NumericUpDown111.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_141.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_141.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_141.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_141.Name = "valu_grub_141"
+        Me.valu_grub_141.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_141.TabIndex = 0
+        Me.valu_grub_141.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel112
         '
         Me.Panel112.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel112.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel112.Controls.Add(Me.PictureBox111)
-        Me.Panel112.Controls.Add(Me.NumericUpDown112)
+        Me.Panel112.Controls.Add(Me.valu_grub_140)
         Me.Panel112.Location = New System.Drawing.Point(603, 224)
         Me.Panel112.Name = "Panel112"
         Me.Panel112.Size = New System.Drawing.Size(60, 65)
@@ -4839,22 +4842,22 @@ Partial Class Grub_editor
         Me.PictureBox111.TabIndex = 1
         Me.PictureBox111.TabStop = False
         '
-        'NumericUpDown112
+        'valu_grub_140
         '
-        Me.NumericUpDown112.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown112.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown112.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown112.Name = "NumericUpDown112"
-        Me.NumericUpDown112.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown112.TabIndex = 0
-        Me.NumericUpDown112.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_140.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_140.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_140.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_140.Name = "valu_grub_140"
+        Me.valu_grub_140.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_140.TabIndex = 0
+        Me.valu_grub_140.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel113
         '
         Me.Panel113.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel113.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel113.Controls.Add(Me.PictureBox112)
-        Me.Panel113.Controls.Add(Me.NumericUpDown113)
+        Me.Panel113.Controls.Add(Me.valu_grub_139)
         Me.Panel113.Location = New System.Drawing.Point(537, 224)
         Me.Panel113.Name = "Panel113"
         Me.Panel113.Size = New System.Drawing.Size(60, 65)
@@ -4869,22 +4872,22 @@ Partial Class Grub_editor
         Me.PictureBox112.TabIndex = 1
         Me.PictureBox112.TabStop = False
         '
-        'NumericUpDown113
+        'valu_grub_139
         '
-        Me.NumericUpDown113.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown113.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown113.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown113.Name = "NumericUpDown113"
-        Me.NumericUpDown113.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown113.TabIndex = 0
-        Me.NumericUpDown113.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_139.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_139.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_139.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_139.Name = "valu_grub_139"
+        Me.valu_grub_139.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_139.TabIndex = 0
+        Me.valu_grub_139.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel114
         '
         Me.Panel114.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel114.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel114.Controls.Add(Me.PictureBox113)
-        Me.Panel114.Controls.Add(Me.NumericUpDown114)
+        Me.Panel114.Controls.Add(Me.valu_grub_138)
         Me.Panel114.Location = New System.Drawing.Point(471, 224)
         Me.Panel114.Name = "Panel114"
         Me.Panel114.Size = New System.Drawing.Size(60, 65)
@@ -4899,22 +4902,22 @@ Partial Class Grub_editor
         Me.PictureBox113.TabIndex = 1
         Me.PictureBox113.TabStop = False
         '
-        'NumericUpDown114
+        'valu_grub_138
         '
-        Me.NumericUpDown114.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown114.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown114.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown114.Name = "NumericUpDown114"
-        Me.NumericUpDown114.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown114.TabIndex = 0
-        Me.NumericUpDown114.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_138.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_138.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_138.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_138.Name = "valu_grub_138"
+        Me.valu_grub_138.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_138.TabIndex = 0
+        Me.valu_grub_138.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel115
         '
         Me.Panel115.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel115.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel115.Controls.Add(Me.PictureBox114)
-        Me.Panel115.Controls.Add(Me.NumericUpDown115)
+        Me.Panel115.Controls.Add(Me.valu_grub_137)
         Me.Panel115.Location = New System.Drawing.Point(405, 224)
         Me.Panel115.Name = "Panel115"
         Me.Panel115.Size = New System.Drawing.Size(60, 65)
@@ -4929,22 +4932,22 @@ Partial Class Grub_editor
         Me.PictureBox114.TabIndex = 1
         Me.PictureBox114.TabStop = False
         '
-        'NumericUpDown115
+        'valu_grub_137
         '
-        Me.NumericUpDown115.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown115.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown115.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown115.Name = "NumericUpDown115"
-        Me.NumericUpDown115.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown115.TabIndex = 0
-        Me.NumericUpDown115.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_137.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_137.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_137.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_137.Name = "valu_grub_137"
+        Me.valu_grub_137.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_137.TabIndex = 0
+        Me.valu_grub_137.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel116
         '
         Me.Panel116.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel116.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel116.Controls.Add(Me.PictureBox115)
-        Me.Panel116.Controls.Add(Me.NumericUpDown116)
+        Me.Panel116.Controls.Add(Me.valu_grub_136)
         Me.Panel116.Location = New System.Drawing.Point(339, 224)
         Me.Panel116.Name = "Panel116"
         Me.Panel116.Size = New System.Drawing.Size(60, 65)
@@ -4959,22 +4962,22 @@ Partial Class Grub_editor
         Me.PictureBox115.TabIndex = 1
         Me.PictureBox115.TabStop = False
         '
-        'NumericUpDown116
+        'valu_grub_136
         '
-        Me.NumericUpDown116.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown116.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown116.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown116.Name = "NumericUpDown116"
-        Me.NumericUpDown116.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown116.TabIndex = 0
-        Me.NumericUpDown116.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_136.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_136.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_136.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_136.Name = "valu_grub_136"
+        Me.valu_grub_136.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_136.TabIndex = 0
+        Me.valu_grub_136.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel117
         '
         Me.Panel117.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel117.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel117.Controls.Add(Me.PictureBox116)
-        Me.Panel117.Controls.Add(Me.NumericUpDown117)
+        Me.Panel117.Controls.Add(Me.valu_grub_135)
         Me.Panel117.Location = New System.Drawing.Point(273, 224)
         Me.Panel117.Name = "Panel117"
         Me.Panel117.Size = New System.Drawing.Size(60, 65)
@@ -4989,22 +4992,22 @@ Partial Class Grub_editor
         Me.PictureBox116.TabIndex = 1
         Me.PictureBox116.TabStop = False
         '
-        'NumericUpDown117
+        'valu_grub_135
         '
-        Me.NumericUpDown117.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown117.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown117.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown117.Name = "NumericUpDown117"
-        Me.NumericUpDown117.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown117.TabIndex = 0
-        Me.NumericUpDown117.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_135.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_135.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_135.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_135.Name = "valu_grub_135"
+        Me.valu_grub_135.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_135.TabIndex = 0
+        Me.valu_grub_135.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel118
         '
         Me.Panel118.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel118.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel118.Controls.Add(Me.PictureBox117)
-        Me.Panel118.Controls.Add(Me.NumericUpDown118)
+        Me.Panel118.Controls.Add(Me.valu_grub_134)
         Me.Panel118.Location = New System.Drawing.Point(207, 224)
         Me.Panel118.Name = "Panel118"
         Me.Panel118.Size = New System.Drawing.Size(60, 65)
@@ -5019,22 +5022,22 @@ Partial Class Grub_editor
         Me.PictureBox117.TabIndex = 1
         Me.PictureBox117.TabStop = False
         '
-        'NumericUpDown118
+        'valu_grub_134
         '
-        Me.NumericUpDown118.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown118.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown118.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown118.Name = "NumericUpDown118"
-        Me.NumericUpDown118.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown118.TabIndex = 0
-        Me.NumericUpDown118.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_134.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_134.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_134.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_134.Name = "valu_grub_134"
+        Me.valu_grub_134.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_134.TabIndex = 0
+        Me.valu_grub_134.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel119
         '
         Me.Panel119.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel119.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel119.Controls.Add(Me.PictureBox118)
-        Me.Panel119.Controls.Add(Me.NumericUpDown119)
+        Me.Panel119.Controls.Add(Me.valu_grub_133)
         Me.Panel119.Location = New System.Drawing.Point(141, 224)
         Me.Panel119.Name = "Panel119"
         Me.Panel119.Size = New System.Drawing.Size(60, 65)
@@ -5049,22 +5052,22 @@ Partial Class Grub_editor
         Me.PictureBox118.TabIndex = 1
         Me.PictureBox118.TabStop = False
         '
-        'NumericUpDown119
+        'valu_grub_133
         '
-        Me.NumericUpDown119.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown119.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown119.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown119.Name = "NumericUpDown119"
-        Me.NumericUpDown119.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown119.TabIndex = 0
-        Me.NumericUpDown119.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_133.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_133.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_133.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_133.Name = "valu_grub_133"
+        Me.valu_grub_133.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_133.TabIndex = 0
+        Me.valu_grub_133.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel120
         '
         Me.Panel120.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel120.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel120.Controls.Add(Me.PictureBox119)
-        Me.Panel120.Controls.Add(Me.NumericUpDown120)
+        Me.Panel120.Controls.Add(Me.valu_grub_132)
         Me.Panel120.Location = New System.Drawing.Point(75, 224)
         Me.Panel120.Name = "Panel120"
         Me.Panel120.Size = New System.Drawing.Size(60, 65)
@@ -5079,22 +5082,22 @@ Partial Class Grub_editor
         Me.PictureBox119.TabIndex = 1
         Me.PictureBox119.TabStop = False
         '
-        'NumericUpDown120
+        'valu_grub_132
         '
-        Me.NumericUpDown120.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown120.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown120.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown120.Name = "NumericUpDown120"
-        Me.NumericUpDown120.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown120.TabIndex = 0
-        Me.NumericUpDown120.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_132.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_132.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_132.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_132.Name = "valu_grub_132"
+        Me.valu_grub_132.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_132.TabIndex = 0
+        Me.valu_grub_132.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel121
         '
         Me.Panel121.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel121.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel121.Controls.Add(Me.PictureBox120)
-        Me.Panel121.Controls.Add(Me.NumericUpDown121)
+        Me.Panel121.Controls.Add(Me.valu_grub_131)
         Me.Panel121.Location = New System.Drawing.Point(9, 224)
         Me.Panel121.Name = "Panel121"
         Me.Panel121.Size = New System.Drawing.Size(60, 65)
@@ -5109,22 +5112,22 @@ Partial Class Grub_editor
         Me.PictureBox120.TabIndex = 1
         Me.PictureBox120.TabStop = False
         '
-        'NumericUpDown121
+        'valu_grub_131
         '
-        Me.NumericUpDown121.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown121.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown121.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown121.Name = "NumericUpDown121"
-        Me.NumericUpDown121.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown121.TabIndex = 0
-        Me.NumericUpDown121.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_131.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_131.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_131.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_131.Name = "valu_grub_131"
+        Me.valu_grub_131.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_131.TabIndex = 0
+        Me.valu_grub_131.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel122
         '
         Me.Panel122.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel122.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel122.Controls.Add(Me.PictureBox121)
-        Me.Panel122.Controls.Add(Me.NumericUpDown122)
+        Me.Panel122.Controls.Add(Me.valu_grub_130)
         Me.Panel122.Location = New System.Drawing.Point(603, 153)
         Me.Panel122.Name = "Panel122"
         Me.Panel122.Size = New System.Drawing.Size(60, 65)
@@ -5139,22 +5142,22 @@ Partial Class Grub_editor
         Me.PictureBox121.TabIndex = 1
         Me.PictureBox121.TabStop = False
         '
-        'NumericUpDown122
+        'valu_grub_130
         '
-        Me.NumericUpDown122.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown122.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown122.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown122.Name = "NumericUpDown122"
-        Me.NumericUpDown122.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown122.TabIndex = 0
-        Me.NumericUpDown122.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_130.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_130.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_130.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_130.Name = "valu_grub_130"
+        Me.valu_grub_130.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_130.TabIndex = 0
+        Me.valu_grub_130.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel123
         '
         Me.Panel123.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel123.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel123.Controls.Add(Me.PictureBox122)
-        Me.Panel123.Controls.Add(Me.NumericUpDown123)
+        Me.Panel123.Controls.Add(Me.valu_grub_129)
         Me.Panel123.Location = New System.Drawing.Point(537, 153)
         Me.Panel123.Name = "Panel123"
         Me.Panel123.Size = New System.Drawing.Size(60, 65)
@@ -5169,22 +5172,22 @@ Partial Class Grub_editor
         Me.PictureBox122.TabIndex = 1
         Me.PictureBox122.TabStop = False
         '
-        'NumericUpDown123
+        'valu_grub_129
         '
-        Me.NumericUpDown123.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown123.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown123.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown123.Name = "NumericUpDown123"
-        Me.NumericUpDown123.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown123.TabIndex = 0
-        Me.NumericUpDown123.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_129.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_129.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_129.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_129.Name = "valu_grub_129"
+        Me.valu_grub_129.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_129.TabIndex = 0
+        Me.valu_grub_129.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel124
         '
         Me.Panel124.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel124.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel124.Controls.Add(Me.PictureBox123)
-        Me.Panel124.Controls.Add(Me.NumericUpDown124)
+        Me.Panel124.Controls.Add(Me.valu_grub_128)
         Me.Panel124.Location = New System.Drawing.Point(471, 153)
         Me.Panel124.Name = "Panel124"
         Me.Panel124.Size = New System.Drawing.Size(60, 65)
@@ -5199,22 +5202,22 @@ Partial Class Grub_editor
         Me.PictureBox123.TabIndex = 1
         Me.PictureBox123.TabStop = False
         '
-        'NumericUpDown124
+        'valu_grub_128
         '
-        Me.NumericUpDown124.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown124.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown124.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown124.Name = "NumericUpDown124"
-        Me.NumericUpDown124.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown124.TabIndex = 0
-        Me.NumericUpDown124.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_128.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_128.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_128.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_128.Name = "valu_grub_128"
+        Me.valu_grub_128.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_128.TabIndex = 0
+        Me.valu_grub_128.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel125
         '
         Me.Panel125.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel125.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel125.Controls.Add(Me.PictureBox124)
-        Me.Panel125.Controls.Add(Me.NumericUpDown125)
+        Me.Panel125.Controls.Add(Me.valu_grub_127)
         Me.Panel125.Location = New System.Drawing.Point(405, 153)
         Me.Panel125.Name = "Panel125"
         Me.Panel125.Size = New System.Drawing.Size(60, 65)
@@ -5229,22 +5232,22 @@ Partial Class Grub_editor
         Me.PictureBox124.TabIndex = 1
         Me.PictureBox124.TabStop = False
         '
-        'NumericUpDown125
+        'valu_grub_127
         '
-        Me.NumericUpDown125.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown125.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown125.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown125.Name = "NumericUpDown125"
-        Me.NumericUpDown125.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown125.TabIndex = 0
-        Me.NumericUpDown125.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_127.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_127.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_127.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_127.Name = "valu_grub_127"
+        Me.valu_grub_127.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_127.TabIndex = 0
+        Me.valu_grub_127.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel126
         '
         Me.Panel126.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel126.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel126.Controls.Add(Me.PictureBox125)
-        Me.Panel126.Controls.Add(Me.NumericUpDown126)
+        Me.Panel126.Controls.Add(Me.valu_grub_126)
         Me.Panel126.Location = New System.Drawing.Point(339, 153)
         Me.Panel126.Name = "Panel126"
         Me.Panel126.Size = New System.Drawing.Size(60, 65)
@@ -5259,22 +5262,22 @@ Partial Class Grub_editor
         Me.PictureBox125.TabIndex = 1
         Me.PictureBox125.TabStop = False
         '
-        'NumericUpDown126
+        'valu_grub_126
         '
-        Me.NumericUpDown126.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown126.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown126.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown126.Name = "NumericUpDown126"
-        Me.NumericUpDown126.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown126.TabIndex = 0
-        Me.NumericUpDown126.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_126.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_126.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_126.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_126.Name = "valu_grub_126"
+        Me.valu_grub_126.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_126.TabIndex = 0
+        Me.valu_grub_126.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel127
         '
         Me.Panel127.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel127.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel127.Controls.Add(Me.PictureBox126)
-        Me.Panel127.Controls.Add(Me.NumericUpDown127)
+        Me.Panel127.Controls.Add(Me.valu_grub_125)
         Me.Panel127.Location = New System.Drawing.Point(273, 153)
         Me.Panel127.Name = "Panel127"
         Me.Panel127.Size = New System.Drawing.Size(60, 65)
@@ -5289,22 +5292,22 @@ Partial Class Grub_editor
         Me.PictureBox126.TabIndex = 1
         Me.PictureBox126.TabStop = False
         '
-        'NumericUpDown127
+        'valu_grub_125
         '
-        Me.NumericUpDown127.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown127.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown127.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown127.Name = "NumericUpDown127"
-        Me.NumericUpDown127.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown127.TabIndex = 0
-        Me.NumericUpDown127.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_125.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_125.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_125.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_125.Name = "valu_grub_125"
+        Me.valu_grub_125.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_125.TabIndex = 0
+        Me.valu_grub_125.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel128
         '
         Me.Panel128.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel128.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel128.Controls.Add(Me.PictureBox127)
-        Me.Panel128.Controls.Add(Me.NumericUpDown128)
+        Me.Panel128.Controls.Add(Me.valu_grub_124)
         Me.Panel128.Location = New System.Drawing.Point(207, 153)
         Me.Panel128.Name = "Panel128"
         Me.Panel128.Size = New System.Drawing.Size(60, 65)
@@ -5319,22 +5322,22 @@ Partial Class Grub_editor
         Me.PictureBox127.TabIndex = 1
         Me.PictureBox127.TabStop = False
         '
-        'NumericUpDown128
+        'valu_grub_124
         '
-        Me.NumericUpDown128.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown128.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown128.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown128.Name = "NumericUpDown128"
-        Me.NumericUpDown128.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown128.TabIndex = 0
-        Me.NumericUpDown128.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_124.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_124.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_124.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_124.Name = "valu_grub_124"
+        Me.valu_grub_124.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_124.TabIndex = 0
+        Me.valu_grub_124.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel129
         '
         Me.Panel129.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel129.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel129.Controls.Add(Me.PictureBox128)
-        Me.Panel129.Controls.Add(Me.NumericUpDown129)
+        Me.Panel129.Controls.Add(Me.valu_grub_123)
         Me.Panel129.Location = New System.Drawing.Point(141, 153)
         Me.Panel129.Name = "Panel129"
         Me.Panel129.Size = New System.Drawing.Size(60, 65)
@@ -5349,22 +5352,22 @@ Partial Class Grub_editor
         Me.PictureBox128.TabIndex = 1
         Me.PictureBox128.TabStop = False
         '
-        'NumericUpDown129
+        'valu_grub_123
         '
-        Me.NumericUpDown129.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown129.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown129.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown129.Name = "NumericUpDown129"
-        Me.NumericUpDown129.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown129.TabIndex = 0
-        Me.NumericUpDown129.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_123.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_123.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_123.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_123.Name = "valu_grub_123"
+        Me.valu_grub_123.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_123.TabIndex = 0
+        Me.valu_grub_123.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel130
         '
         Me.Panel130.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel130.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel130.Controls.Add(Me.PictureBox129)
-        Me.Panel130.Controls.Add(Me.NumericUpDown130)
+        Me.Panel130.Controls.Add(Me.valu_grub_122)
         Me.Panel130.Location = New System.Drawing.Point(75, 153)
         Me.Panel130.Name = "Panel130"
         Me.Panel130.Size = New System.Drawing.Size(60, 65)
@@ -5379,22 +5382,22 @@ Partial Class Grub_editor
         Me.PictureBox129.TabIndex = 1
         Me.PictureBox129.TabStop = False
         '
-        'NumericUpDown130
+        'valu_grub_122
         '
-        Me.NumericUpDown130.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown130.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown130.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown130.Name = "NumericUpDown130"
-        Me.NumericUpDown130.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown130.TabIndex = 0
-        Me.NumericUpDown130.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_122.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_122.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_122.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_122.Name = "valu_grub_122"
+        Me.valu_grub_122.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_122.TabIndex = 0
+        Me.valu_grub_122.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel131
         '
         Me.Panel131.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel131.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel131.Controls.Add(Me.PictureBox130)
-        Me.Panel131.Controls.Add(Me.NumericUpDown131)
+        Me.Panel131.Controls.Add(Me.valu_grub_121)
         Me.Panel131.Location = New System.Drawing.Point(9, 153)
         Me.Panel131.Name = "Panel131"
         Me.Panel131.Size = New System.Drawing.Size(60, 65)
@@ -5409,22 +5412,22 @@ Partial Class Grub_editor
         Me.PictureBox130.TabIndex = 1
         Me.PictureBox130.TabStop = False
         '
-        'NumericUpDown131
+        'valu_grub_121
         '
-        Me.NumericUpDown131.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown131.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown131.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown131.Name = "NumericUpDown131"
-        Me.NumericUpDown131.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown131.TabIndex = 0
-        Me.NumericUpDown131.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_121.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_121.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_121.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_121.Name = "valu_grub_121"
+        Me.valu_grub_121.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_121.TabIndex = 0
+        Me.valu_grub_121.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel132
         '
         Me.Panel132.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel132.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel132.Controls.Add(Me.PictureBox131)
-        Me.Panel132.Controls.Add(Me.NumericUpDown132)
+        Me.Panel132.Controls.Add(Me.valu_grub_120)
         Me.Panel132.Location = New System.Drawing.Point(603, 82)
         Me.Panel132.Name = "Panel132"
         Me.Panel132.Size = New System.Drawing.Size(60, 65)
@@ -5439,22 +5442,22 @@ Partial Class Grub_editor
         Me.PictureBox131.TabIndex = 1
         Me.PictureBox131.TabStop = False
         '
-        'NumericUpDown132
+        'valu_grub_120
         '
-        Me.NumericUpDown132.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown132.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown132.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown132.Name = "NumericUpDown132"
-        Me.NumericUpDown132.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown132.TabIndex = 0
-        Me.NumericUpDown132.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_120.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_120.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_120.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_120.Name = "valu_grub_120"
+        Me.valu_grub_120.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_120.TabIndex = 0
+        Me.valu_grub_120.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel133
         '
         Me.Panel133.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel133.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel133.Controls.Add(Me.PictureBox132)
-        Me.Panel133.Controls.Add(Me.NumericUpDown133)
+        Me.Panel133.Controls.Add(Me.valu_grub_119)
         Me.Panel133.Location = New System.Drawing.Point(537, 82)
         Me.Panel133.Name = "Panel133"
         Me.Panel133.Size = New System.Drawing.Size(60, 65)
@@ -5469,22 +5472,22 @@ Partial Class Grub_editor
         Me.PictureBox132.TabIndex = 1
         Me.PictureBox132.TabStop = False
         '
-        'NumericUpDown133
+        'valu_grub_119
         '
-        Me.NumericUpDown133.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown133.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown133.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown133.Name = "NumericUpDown133"
-        Me.NumericUpDown133.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown133.TabIndex = 0
-        Me.NumericUpDown133.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_119.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_119.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_119.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_119.Name = "valu_grub_119"
+        Me.valu_grub_119.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_119.TabIndex = 0
+        Me.valu_grub_119.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel134
         '
         Me.Panel134.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel134.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel134.Controls.Add(Me.PictureBox133)
-        Me.Panel134.Controls.Add(Me.NumericUpDown134)
+        Me.Panel134.Controls.Add(Me.valu_grub_118)
         Me.Panel134.Location = New System.Drawing.Point(471, 82)
         Me.Panel134.Name = "Panel134"
         Me.Panel134.Size = New System.Drawing.Size(60, 65)
@@ -5499,22 +5502,22 @@ Partial Class Grub_editor
         Me.PictureBox133.TabIndex = 1
         Me.PictureBox133.TabStop = False
         '
-        'NumericUpDown134
+        'valu_grub_118
         '
-        Me.NumericUpDown134.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown134.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown134.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown134.Name = "NumericUpDown134"
-        Me.NumericUpDown134.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown134.TabIndex = 0
-        Me.NumericUpDown134.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_118.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_118.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_118.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_118.Name = "valu_grub_118"
+        Me.valu_grub_118.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_118.TabIndex = 0
+        Me.valu_grub_118.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel135
         '
         Me.Panel135.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel135.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel135.Controls.Add(Me.PictureBox134)
-        Me.Panel135.Controls.Add(Me.NumericUpDown135)
+        Me.Panel135.Controls.Add(Me.valu_grub_117)
         Me.Panel135.Location = New System.Drawing.Point(405, 82)
         Me.Panel135.Name = "Panel135"
         Me.Panel135.Size = New System.Drawing.Size(60, 65)
@@ -5529,22 +5532,22 @@ Partial Class Grub_editor
         Me.PictureBox134.TabIndex = 1
         Me.PictureBox134.TabStop = False
         '
-        'NumericUpDown135
+        'valu_grub_117
         '
-        Me.NumericUpDown135.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown135.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown135.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown135.Name = "NumericUpDown135"
-        Me.NumericUpDown135.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown135.TabIndex = 0
-        Me.NumericUpDown135.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_117.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_117.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_117.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_117.Name = "valu_grub_117"
+        Me.valu_grub_117.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_117.TabIndex = 0
+        Me.valu_grub_117.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel136
         '
         Me.Panel136.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel136.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel136.Controls.Add(Me.PictureBox135)
-        Me.Panel136.Controls.Add(Me.NumericUpDown136)
+        Me.Panel136.Controls.Add(Me.valu_grub_116)
         Me.Panel136.Location = New System.Drawing.Point(339, 82)
         Me.Panel136.Name = "Panel136"
         Me.Panel136.Size = New System.Drawing.Size(60, 65)
@@ -5559,22 +5562,22 @@ Partial Class Grub_editor
         Me.PictureBox135.TabIndex = 1
         Me.PictureBox135.TabStop = False
         '
-        'NumericUpDown136
+        'valu_grub_116
         '
-        Me.NumericUpDown136.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown136.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown136.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown136.Name = "NumericUpDown136"
-        Me.NumericUpDown136.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown136.TabIndex = 0
-        Me.NumericUpDown136.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_116.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_116.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_116.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_116.Name = "valu_grub_116"
+        Me.valu_grub_116.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_116.TabIndex = 0
+        Me.valu_grub_116.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel137
         '
         Me.Panel137.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel137.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel137.Controls.Add(Me.PictureBox136)
-        Me.Panel137.Controls.Add(Me.NumericUpDown137)
+        Me.Panel137.Controls.Add(Me.valu_grub_115)
         Me.Panel137.Location = New System.Drawing.Point(273, 82)
         Me.Panel137.Name = "Panel137"
         Me.Panel137.Size = New System.Drawing.Size(60, 65)
@@ -5589,22 +5592,22 @@ Partial Class Grub_editor
         Me.PictureBox136.TabIndex = 1
         Me.PictureBox136.TabStop = False
         '
-        'NumericUpDown137
+        'valu_grub_115
         '
-        Me.NumericUpDown137.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown137.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown137.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown137.Name = "NumericUpDown137"
-        Me.NumericUpDown137.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown137.TabIndex = 0
-        Me.NumericUpDown137.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_115.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_115.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_115.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_115.Name = "valu_grub_115"
+        Me.valu_grub_115.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_115.TabIndex = 0
+        Me.valu_grub_115.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel138
         '
         Me.Panel138.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel138.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel138.Controls.Add(Me.PictureBox137)
-        Me.Panel138.Controls.Add(Me.NumericUpDown138)
+        Me.Panel138.Controls.Add(Me.valu_grub_114)
         Me.Panel138.Location = New System.Drawing.Point(207, 82)
         Me.Panel138.Name = "Panel138"
         Me.Panel138.Size = New System.Drawing.Size(60, 65)
@@ -5619,22 +5622,22 @@ Partial Class Grub_editor
         Me.PictureBox137.TabIndex = 1
         Me.PictureBox137.TabStop = False
         '
-        'NumericUpDown138
+        'valu_grub_114
         '
-        Me.NumericUpDown138.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown138.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown138.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown138.Name = "NumericUpDown138"
-        Me.NumericUpDown138.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown138.TabIndex = 0
-        Me.NumericUpDown138.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_114.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_114.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_114.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_114.Name = "valu_grub_114"
+        Me.valu_grub_114.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_114.TabIndex = 0
+        Me.valu_grub_114.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel139
         '
         Me.Panel139.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel139.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel139.Controls.Add(Me.PictureBox138)
-        Me.Panel139.Controls.Add(Me.NumericUpDown139)
+        Me.Panel139.Controls.Add(Me.valu_grub_113)
         Me.Panel139.Location = New System.Drawing.Point(141, 82)
         Me.Panel139.Name = "Panel139"
         Me.Panel139.Size = New System.Drawing.Size(60, 65)
@@ -5649,22 +5652,22 @@ Partial Class Grub_editor
         Me.PictureBox138.TabIndex = 1
         Me.PictureBox138.TabStop = False
         '
-        'NumericUpDown139
+        'valu_grub_113
         '
-        Me.NumericUpDown139.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown139.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown139.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown139.Name = "NumericUpDown139"
-        Me.NumericUpDown139.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown139.TabIndex = 0
-        Me.NumericUpDown139.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_113.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_113.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_113.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_113.Name = "valu_grub_113"
+        Me.valu_grub_113.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_113.TabIndex = 0
+        Me.valu_grub_113.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel140
         '
         Me.Panel140.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel140.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel140.Controls.Add(Me.PictureBox139)
-        Me.Panel140.Controls.Add(Me.NumericUpDown140)
+        Me.Panel140.Controls.Add(Me.valu_grub_112)
         Me.Panel140.Location = New System.Drawing.Point(75, 82)
         Me.Panel140.Name = "Panel140"
         Me.Panel140.Size = New System.Drawing.Size(60, 65)
@@ -5679,22 +5682,22 @@ Partial Class Grub_editor
         Me.PictureBox139.TabIndex = 1
         Me.PictureBox139.TabStop = False
         '
-        'NumericUpDown140
+        'valu_grub_112
         '
-        Me.NumericUpDown140.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown140.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown140.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown140.Name = "NumericUpDown140"
-        Me.NumericUpDown140.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown140.TabIndex = 0
-        Me.NumericUpDown140.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_112.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_112.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_112.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_112.Name = "valu_grub_112"
+        Me.valu_grub_112.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_112.TabIndex = 0
+        Me.valu_grub_112.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel141
         '
         Me.Panel141.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel141.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel141.Controls.Add(Me.PictureBox140)
-        Me.Panel141.Controls.Add(Me.NumericUpDown141)
+        Me.Panel141.Controls.Add(Me.valu_grub_111)
         Me.Panel141.Location = New System.Drawing.Point(9, 82)
         Me.Panel141.Name = "Panel141"
         Me.Panel141.Size = New System.Drawing.Size(60, 65)
@@ -5709,15 +5712,15 @@ Partial Class Grub_editor
         Me.PictureBox140.TabIndex = 1
         Me.PictureBox140.TabStop = False
         '
-        'NumericUpDown141
+        'valu_grub_111
         '
-        Me.NumericUpDown141.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown141.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown141.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown141.Name = "NumericUpDown141"
-        Me.NumericUpDown141.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown141.TabIndex = 0
-        Me.NumericUpDown141.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_111.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_111.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_111.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_111.Name = "valu_grub_111"
+        Me.valu_grub_111.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_111.TabIndex = 0
+        Me.valu_grub_111.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel142
         '
@@ -6103,7 +6106,7 @@ Partial Class Grub_editor
         Me.Panel156.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel156.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel156.Controls.Add(Me.PictureBox155)
-        Me.Panel156.Controls.Add(Me.NumericUpDown156)
+        Me.Panel156.Controls.Add(Me.valu_grub_196)
         Me.Panel156.Location = New System.Drawing.Point(471, 295)
         Me.Panel156.Name = "Panel156"
         Me.Panel156.Size = New System.Drawing.Size(60, 65)
@@ -6118,22 +6121,22 @@ Partial Class Grub_editor
         Me.PictureBox155.TabIndex = 1
         Me.PictureBox155.TabStop = False
         '
-        'NumericUpDown156
+        'valu_grub_196
         '
-        Me.NumericUpDown156.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown156.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown156.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown156.Name = "NumericUpDown156"
-        Me.NumericUpDown156.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown156.TabIndex = 0
-        Me.NumericUpDown156.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_196.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_196.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_196.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_196.Name = "valu_grub_196"
+        Me.valu_grub_196.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_196.TabIndex = 0
+        Me.valu_grub_196.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel157
         '
         Me.Panel157.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel157.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel157.Controls.Add(Me.PictureBox156)
-        Me.Panel157.Controls.Add(Me.NumericUpDown157)
+        Me.Panel157.Controls.Add(Me.valu_grub_195)
         Me.Panel157.Location = New System.Drawing.Point(405, 295)
         Me.Panel157.Name = "Panel157"
         Me.Panel157.Size = New System.Drawing.Size(60, 65)
@@ -6148,22 +6151,22 @@ Partial Class Grub_editor
         Me.PictureBox156.TabIndex = 1
         Me.PictureBox156.TabStop = False
         '
-        'NumericUpDown157
+        'valu_grub_195
         '
-        Me.NumericUpDown157.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown157.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown157.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown157.Name = "NumericUpDown157"
-        Me.NumericUpDown157.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown157.TabIndex = 0
-        Me.NumericUpDown157.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_195.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_195.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_195.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_195.Name = "valu_grub_195"
+        Me.valu_grub_195.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_195.TabIndex = 0
+        Me.valu_grub_195.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel158
         '
         Me.Panel158.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel158.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel158.Controls.Add(Me.PictureBox157)
-        Me.Panel158.Controls.Add(Me.NumericUpDown158)
+        Me.Panel158.Controls.Add(Me.valu_grub_194)
         Me.Panel158.Location = New System.Drawing.Point(339, 295)
         Me.Panel158.Name = "Panel158"
         Me.Panel158.Size = New System.Drawing.Size(60, 65)
@@ -6178,22 +6181,22 @@ Partial Class Grub_editor
         Me.PictureBox157.TabIndex = 1
         Me.PictureBox157.TabStop = False
         '
-        'NumericUpDown158
+        'valu_grub_194
         '
-        Me.NumericUpDown158.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown158.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown158.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown158.Name = "NumericUpDown158"
-        Me.NumericUpDown158.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown158.TabIndex = 0
-        Me.NumericUpDown158.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_194.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_194.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_194.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_194.Name = "valu_grub_194"
+        Me.valu_grub_194.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_194.TabIndex = 0
+        Me.valu_grub_194.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel159
         '
         Me.Panel159.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel159.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel159.Controls.Add(Me.PictureBox158)
-        Me.Panel159.Controls.Add(Me.NumericUpDown159)
+        Me.Panel159.Controls.Add(Me.valu_grub_193)
         Me.Panel159.Location = New System.Drawing.Point(273, 295)
         Me.Panel159.Name = "Panel159"
         Me.Panel159.Size = New System.Drawing.Size(60, 65)
@@ -6208,22 +6211,22 @@ Partial Class Grub_editor
         Me.PictureBox158.TabIndex = 1
         Me.PictureBox158.TabStop = False
         '
-        'NumericUpDown159
+        'valu_grub_193
         '
-        Me.NumericUpDown159.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown159.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown159.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown159.Name = "NumericUpDown159"
-        Me.NumericUpDown159.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown159.TabIndex = 0
-        Me.NumericUpDown159.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_193.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_193.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_193.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_193.Name = "valu_grub_193"
+        Me.valu_grub_193.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_193.TabIndex = 0
+        Me.valu_grub_193.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel160
         '
         Me.Panel160.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel160.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel160.Controls.Add(Me.PictureBox159)
-        Me.Panel160.Controls.Add(Me.NumericUpDown160)
+        Me.Panel160.Controls.Add(Me.valu_grub_192)
         Me.Panel160.Location = New System.Drawing.Point(207, 295)
         Me.Panel160.Name = "Panel160"
         Me.Panel160.Size = New System.Drawing.Size(60, 65)
@@ -6238,22 +6241,22 @@ Partial Class Grub_editor
         Me.PictureBox159.TabIndex = 1
         Me.PictureBox159.TabStop = False
         '
-        'NumericUpDown160
+        'valu_grub_192
         '
-        Me.NumericUpDown160.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown160.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown160.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown160.Name = "NumericUpDown160"
-        Me.NumericUpDown160.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown160.TabIndex = 0
-        Me.NumericUpDown160.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_192.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_192.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_192.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_192.Name = "valu_grub_192"
+        Me.valu_grub_192.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_192.TabIndex = 0
+        Me.valu_grub_192.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel161
         '
         Me.Panel161.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel161.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel161.Controls.Add(Me.PictureBox160)
-        Me.Panel161.Controls.Add(Me.NumericUpDown161)
+        Me.Panel161.Controls.Add(Me.valu_grub_191)
         Me.Panel161.Location = New System.Drawing.Point(141, 295)
         Me.Panel161.Name = "Panel161"
         Me.Panel161.Size = New System.Drawing.Size(60, 65)
@@ -6268,22 +6271,22 @@ Partial Class Grub_editor
         Me.PictureBox160.TabIndex = 1
         Me.PictureBox160.TabStop = False
         '
-        'NumericUpDown161
+        'valu_grub_191
         '
-        Me.NumericUpDown161.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown161.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown161.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown161.Name = "NumericUpDown161"
-        Me.NumericUpDown161.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown161.TabIndex = 0
-        Me.NumericUpDown161.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_191.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_191.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_191.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_191.Name = "valu_grub_191"
+        Me.valu_grub_191.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_191.TabIndex = 0
+        Me.valu_grub_191.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel162
         '
         Me.Panel162.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel162.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel162.Controls.Add(Me.PictureBox161)
-        Me.Panel162.Controls.Add(Me.NumericUpDown162)
+        Me.Panel162.Controls.Add(Me.valu_grub_190)
         Me.Panel162.Location = New System.Drawing.Point(603, 224)
         Me.Panel162.Name = "Panel162"
         Me.Panel162.Size = New System.Drawing.Size(60, 65)
@@ -6298,22 +6301,22 @@ Partial Class Grub_editor
         Me.PictureBox161.TabIndex = 1
         Me.PictureBox161.TabStop = False
         '
-        'NumericUpDown162
+        'valu_grub_190
         '
-        Me.NumericUpDown162.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown162.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown162.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown162.Name = "NumericUpDown162"
-        Me.NumericUpDown162.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown162.TabIndex = 0
-        Me.NumericUpDown162.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_190.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_190.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_190.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_190.Name = "valu_grub_190"
+        Me.valu_grub_190.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_190.TabIndex = 0
+        Me.valu_grub_190.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel163
         '
         Me.Panel163.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel163.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel163.Controls.Add(Me.PictureBox162)
-        Me.Panel163.Controls.Add(Me.NumericUpDown163)
+        Me.Panel163.Controls.Add(Me.valu_grub_189)
         Me.Panel163.Location = New System.Drawing.Point(537, 224)
         Me.Panel163.Name = "Panel163"
         Me.Panel163.Size = New System.Drawing.Size(60, 65)
@@ -6328,22 +6331,22 @@ Partial Class Grub_editor
         Me.PictureBox162.TabIndex = 1
         Me.PictureBox162.TabStop = False
         '
-        'NumericUpDown163
+        'valu_grub_189
         '
-        Me.NumericUpDown163.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown163.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown163.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown163.Name = "NumericUpDown163"
-        Me.NumericUpDown163.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown163.TabIndex = 0
-        Me.NumericUpDown163.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_189.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_189.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_189.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_189.Name = "valu_grub_189"
+        Me.valu_grub_189.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_189.TabIndex = 0
+        Me.valu_grub_189.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel164
         '
         Me.Panel164.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel164.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel164.Controls.Add(Me.PictureBox163)
-        Me.Panel164.Controls.Add(Me.NumericUpDown164)
+        Me.Panel164.Controls.Add(Me.valu_grub_188)
         Me.Panel164.Location = New System.Drawing.Point(471, 224)
         Me.Panel164.Name = "Panel164"
         Me.Panel164.Size = New System.Drawing.Size(60, 65)
@@ -6358,22 +6361,22 @@ Partial Class Grub_editor
         Me.PictureBox163.TabIndex = 1
         Me.PictureBox163.TabStop = False
         '
-        'NumericUpDown164
+        'valu_grub_188
         '
-        Me.NumericUpDown164.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown164.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown164.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown164.Name = "NumericUpDown164"
-        Me.NumericUpDown164.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown164.TabIndex = 0
-        Me.NumericUpDown164.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_188.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_188.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_188.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_188.Name = "valu_grub_188"
+        Me.valu_grub_188.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_188.TabIndex = 0
+        Me.valu_grub_188.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel165
         '
         Me.Panel165.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel165.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel165.Controls.Add(Me.PictureBox164)
-        Me.Panel165.Controls.Add(Me.NumericUpDown165)
+        Me.Panel165.Controls.Add(Me.valu_grub_187)
         Me.Panel165.Location = New System.Drawing.Point(405, 224)
         Me.Panel165.Name = "Panel165"
         Me.Panel165.Size = New System.Drawing.Size(60, 65)
@@ -6388,22 +6391,22 @@ Partial Class Grub_editor
         Me.PictureBox164.TabIndex = 1
         Me.PictureBox164.TabStop = False
         '
-        'NumericUpDown165
+        'valu_grub_187
         '
-        Me.NumericUpDown165.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown165.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown165.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown165.Name = "NumericUpDown165"
-        Me.NumericUpDown165.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown165.TabIndex = 0
-        Me.NumericUpDown165.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_187.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_187.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_187.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_187.Name = "valu_grub_187"
+        Me.valu_grub_187.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_187.TabIndex = 0
+        Me.valu_grub_187.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel166
         '
         Me.Panel166.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel166.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel166.Controls.Add(Me.PictureBox165)
-        Me.Panel166.Controls.Add(Me.NumericUpDown166)
+        Me.Panel166.Controls.Add(Me.valu_grub_186)
         Me.Panel166.Location = New System.Drawing.Point(339, 224)
         Me.Panel166.Name = "Panel166"
         Me.Panel166.Size = New System.Drawing.Size(60, 65)
@@ -6418,22 +6421,22 @@ Partial Class Grub_editor
         Me.PictureBox165.TabIndex = 1
         Me.PictureBox165.TabStop = False
         '
-        'NumericUpDown166
+        'valu_grub_186
         '
-        Me.NumericUpDown166.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown166.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown166.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown166.Name = "NumericUpDown166"
-        Me.NumericUpDown166.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown166.TabIndex = 0
-        Me.NumericUpDown166.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_186.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_186.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_186.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_186.Name = "valu_grub_186"
+        Me.valu_grub_186.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_186.TabIndex = 0
+        Me.valu_grub_186.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel167
         '
         Me.Panel167.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel167.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel167.Controls.Add(Me.PictureBox166)
-        Me.Panel167.Controls.Add(Me.NumericUpDown167)
+        Me.Panel167.Controls.Add(Me.valu_grub_185)
         Me.Panel167.Location = New System.Drawing.Point(273, 224)
         Me.Panel167.Name = "Panel167"
         Me.Panel167.Size = New System.Drawing.Size(60, 65)
@@ -6448,22 +6451,22 @@ Partial Class Grub_editor
         Me.PictureBox166.TabIndex = 1
         Me.PictureBox166.TabStop = False
         '
-        'NumericUpDown167
+        'valu_grub_185
         '
-        Me.NumericUpDown167.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown167.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown167.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown167.Name = "NumericUpDown167"
-        Me.NumericUpDown167.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown167.TabIndex = 0
-        Me.NumericUpDown167.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_185.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_185.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_185.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_185.Name = "valu_grub_185"
+        Me.valu_grub_185.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_185.TabIndex = 0
+        Me.valu_grub_185.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel168
         '
         Me.Panel168.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel168.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel168.Controls.Add(Me.PictureBox167)
-        Me.Panel168.Controls.Add(Me.NumericUpDown168)
+        Me.Panel168.Controls.Add(Me.valu_grub_184)
         Me.Panel168.Location = New System.Drawing.Point(207, 224)
         Me.Panel168.Name = "Panel168"
         Me.Panel168.Size = New System.Drawing.Size(60, 65)
@@ -6478,22 +6481,22 @@ Partial Class Grub_editor
         Me.PictureBox167.TabIndex = 1
         Me.PictureBox167.TabStop = False
         '
-        'NumericUpDown168
+        'valu_grub_184
         '
-        Me.NumericUpDown168.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown168.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown168.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown168.Name = "NumericUpDown168"
-        Me.NumericUpDown168.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown168.TabIndex = 0
-        Me.NumericUpDown168.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_184.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_184.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_184.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_184.Name = "valu_grub_184"
+        Me.valu_grub_184.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_184.TabIndex = 0
+        Me.valu_grub_184.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel169
         '
         Me.Panel169.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel169.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel169.Controls.Add(Me.PictureBox168)
-        Me.Panel169.Controls.Add(Me.NumericUpDown169)
+        Me.Panel169.Controls.Add(Me.valu_grub_183)
         Me.Panel169.Location = New System.Drawing.Point(141, 224)
         Me.Panel169.Name = "Panel169"
         Me.Panel169.Size = New System.Drawing.Size(60, 65)
@@ -6508,22 +6511,22 @@ Partial Class Grub_editor
         Me.PictureBox168.TabIndex = 1
         Me.PictureBox168.TabStop = False
         '
-        'NumericUpDown169
+        'valu_grub_183
         '
-        Me.NumericUpDown169.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown169.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown169.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown169.Name = "NumericUpDown169"
-        Me.NumericUpDown169.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown169.TabIndex = 0
-        Me.NumericUpDown169.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_183.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_183.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_183.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_183.Name = "valu_grub_183"
+        Me.valu_grub_183.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_183.TabIndex = 0
+        Me.valu_grub_183.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel170
         '
         Me.Panel170.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel170.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel170.Controls.Add(Me.PictureBox169)
-        Me.Panel170.Controls.Add(Me.NumericUpDown170)
+        Me.Panel170.Controls.Add(Me.valu_grub_182)
         Me.Panel170.Location = New System.Drawing.Point(75, 224)
         Me.Panel170.Name = "Panel170"
         Me.Panel170.Size = New System.Drawing.Size(60, 65)
@@ -6538,22 +6541,22 @@ Partial Class Grub_editor
         Me.PictureBox169.TabIndex = 1
         Me.PictureBox169.TabStop = False
         '
-        'NumericUpDown170
+        'valu_grub_182
         '
-        Me.NumericUpDown170.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown170.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown170.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown170.Name = "NumericUpDown170"
-        Me.NumericUpDown170.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown170.TabIndex = 0
-        Me.NumericUpDown170.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_182.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_182.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_182.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_182.Name = "valu_grub_182"
+        Me.valu_grub_182.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_182.TabIndex = 0
+        Me.valu_grub_182.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel171
         '
         Me.Panel171.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel171.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel171.Controls.Add(Me.PictureBox170)
-        Me.Panel171.Controls.Add(Me.NumericUpDown171)
+        Me.Panel171.Controls.Add(Me.valu_grub_181)
         Me.Panel171.Location = New System.Drawing.Point(9, 224)
         Me.Panel171.Name = "Panel171"
         Me.Panel171.Size = New System.Drawing.Size(60, 65)
@@ -6568,22 +6571,22 @@ Partial Class Grub_editor
         Me.PictureBox170.TabIndex = 1
         Me.PictureBox170.TabStop = False
         '
-        'NumericUpDown171
+        'valu_grub_181
         '
-        Me.NumericUpDown171.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown171.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown171.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown171.Name = "NumericUpDown171"
-        Me.NumericUpDown171.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown171.TabIndex = 0
-        Me.NumericUpDown171.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_181.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_181.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_181.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_181.Name = "valu_grub_181"
+        Me.valu_grub_181.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_181.TabIndex = 0
+        Me.valu_grub_181.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel172
         '
         Me.Panel172.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel172.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel172.Controls.Add(Me.PictureBox171)
-        Me.Panel172.Controls.Add(Me.NumericUpDown172)
+        Me.Panel172.Controls.Add(Me.valu_grub_180)
         Me.Panel172.Location = New System.Drawing.Point(603, 153)
         Me.Panel172.Name = "Panel172"
         Me.Panel172.Size = New System.Drawing.Size(60, 65)
@@ -6598,22 +6601,22 @@ Partial Class Grub_editor
         Me.PictureBox171.TabIndex = 1
         Me.PictureBox171.TabStop = False
         '
-        'NumericUpDown172
+        'valu_grub_180
         '
-        Me.NumericUpDown172.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown172.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown172.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown172.Name = "NumericUpDown172"
-        Me.NumericUpDown172.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown172.TabIndex = 0
-        Me.NumericUpDown172.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_180.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_180.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_180.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_180.Name = "valu_grub_180"
+        Me.valu_grub_180.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_180.TabIndex = 0
+        Me.valu_grub_180.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel173
         '
         Me.Panel173.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel173.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel173.Controls.Add(Me.PictureBox172)
-        Me.Panel173.Controls.Add(Me.NumericUpDown173)
+        Me.Panel173.Controls.Add(Me.valu_grub_179)
         Me.Panel173.Location = New System.Drawing.Point(537, 153)
         Me.Panel173.Name = "Panel173"
         Me.Panel173.Size = New System.Drawing.Size(60, 65)
@@ -6628,22 +6631,22 @@ Partial Class Grub_editor
         Me.PictureBox172.TabIndex = 1
         Me.PictureBox172.TabStop = False
         '
-        'NumericUpDown173
+        'valu_grub_179
         '
-        Me.NumericUpDown173.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown173.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown173.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown173.Name = "NumericUpDown173"
-        Me.NumericUpDown173.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown173.TabIndex = 0
-        Me.NumericUpDown173.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_179.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_179.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_179.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_179.Name = "valu_grub_179"
+        Me.valu_grub_179.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_179.TabIndex = 0
+        Me.valu_grub_179.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel174
         '
         Me.Panel174.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel174.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel174.Controls.Add(Me.PictureBox173)
-        Me.Panel174.Controls.Add(Me.NumericUpDown174)
+        Me.Panel174.Controls.Add(Me.valu_grub_178)
         Me.Panel174.Location = New System.Drawing.Point(471, 153)
         Me.Panel174.Name = "Panel174"
         Me.Panel174.Size = New System.Drawing.Size(60, 65)
@@ -6658,22 +6661,22 @@ Partial Class Grub_editor
         Me.PictureBox173.TabIndex = 1
         Me.PictureBox173.TabStop = False
         '
-        'NumericUpDown174
+        'valu_grub_178
         '
-        Me.NumericUpDown174.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown174.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown174.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown174.Name = "NumericUpDown174"
-        Me.NumericUpDown174.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown174.TabIndex = 0
-        Me.NumericUpDown174.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_178.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_178.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_178.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_178.Name = "valu_grub_178"
+        Me.valu_grub_178.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_178.TabIndex = 0
+        Me.valu_grub_178.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel175
         '
         Me.Panel175.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel175.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel175.Controls.Add(Me.PictureBox174)
-        Me.Panel175.Controls.Add(Me.NumericUpDown175)
+        Me.Panel175.Controls.Add(Me.valu_grub_177)
         Me.Panel175.Location = New System.Drawing.Point(405, 153)
         Me.Panel175.Name = "Panel175"
         Me.Panel175.Size = New System.Drawing.Size(60, 65)
@@ -6688,22 +6691,22 @@ Partial Class Grub_editor
         Me.PictureBox174.TabIndex = 1
         Me.PictureBox174.TabStop = False
         '
-        'NumericUpDown175
+        'valu_grub_177
         '
-        Me.NumericUpDown175.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown175.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown175.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown175.Name = "NumericUpDown175"
-        Me.NumericUpDown175.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown175.TabIndex = 0
-        Me.NumericUpDown175.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_177.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_177.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_177.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_177.Name = "valu_grub_177"
+        Me.valu_grub_177.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_177.TabIndex = 0
+        Me.valu_grub_177.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel176
         '
         Me.Panel176.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel176.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel176.Controls.Add(Me.PictureBox175)
-        Me.Panel176.Controls.Add(Me.NumericUpDown176)
+        Me.Panel176.Controls.Add(Me.valu_grub_176)
         Me.Panel176.Location = New System.Drawing.Point(339, 153)
         Me.Panel176.Name = "Panel176"
         Me.Panel176.Size = New System.Drawing.Size(60, 65)
@@ -6718,22 +6721,22 @@ Partial Class Grub_editor
         Me.PictureBox175.TabIndex = 1
         Me.PictureBox175.TabStop = False
         '
-        'NumericUpDown176
+        'valu_grub_176
         '
-        Me.NumericUpDown176.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown176.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown176.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown176.Name = "NumericUpDown176"
-        Me.NumericUpDown176.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown176.TabIndex = 0
-        Me.NumericUpDown176.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_176.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_176.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_176.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_176.Name = "valu_grub_176"
+        Me.valu_grub_176.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_176.TabIndex = 0
+        Me.valu_grub_176.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel177
         '
         Me.Panel177.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel177.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel177.Controls.Add(Me.PictureBox176)
-        Me.Panel177.Controls.Add(Me.NumericUpDown177)
+        Me.Panel177.Controls.Add(Me.valu_grub_175)
         Me.Panel177.Location = New System.Drawing.Point(273, 153)
         Me.Panel177.Name = "Panel177"
         Me.Panel177.Size = New System.Drawing.Size(60, 65)
@@ -6748,22 +6751,22 @@ Partial Class Grub_editor
         Me.PictureBox176.TabIndex = 1
         Me.PictureBox176.TabStop = False
         '
-        'NumericUpDown177
+        'valu_grub_175
         '
-        Me.NumericUpDown177.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown177.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown177.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown177.Name = "NumericUpDown177"
-        Me.NumericUpDown177.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown177.TabIndex = 0
-        Me.NumericUpDown177.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_175.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_175.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_175.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_175.Name = "valu_grub_175"
+        Me.valu_grub_175.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_175.TabIndex = 0
+        Me.valu_grub_175.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel178
         '
         Me.Panel178.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel178.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel178.Controls.Add(Me.PictureBox177)
-        Me.Panel178.Controls.Add(Me.NumericUpDown178)
+        Me.Panel178.Controls.Add(Me.valu_grub_174)
         Me.Panel178.Location = New System.Drawing.Point(207, 153)
         Me.Panel178.Name = "Panel178"
         Me.Panel178.Size = New System.Drawing.Size(60, 65)
@@ -6778,22 +6781,22 @@ Partial Class Grub_editor
         Me.PictureBox177.TabIndex = 1
         Me.PictureBox177.TabStop = False
         '
-        'NumericUpDown178
+        'valu_grub_174
         '
-        Me.NumericUpDown178.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown178.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown178.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown178.Name = "NumericUpDown178"
-        Me.NumericUpDown178.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown178.TabIndex = 0
-        Me.NumericUpDown178.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_174.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_174.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_174.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_174.Name = "valu_grub_174"
+        Me.valu_grub_174.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_174.TabIndex = 0
+        Me.valu_grub_174.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel179
         '
         Me.Panel179.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel179.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel179.Controls.Add(Me.PictureBox178)
-        Me.Panel179.Controls.Add(Me.NumericUpDown179)
+        Me.Panel179.Controls.Add(Me.valu_grub_173)
         Me.Panel179.Location = New System.Drawing.Point(141, 153)
         Me.Panel179.Name = "Panel179"
         Me.Panel179.Size = New System.Drawing.Size(60, 65)
@@ -6808,22 +6811,22 @@ Partial Class Grub_editor
         Me.PictureBox178.TabIndex = 1
         Me.PictureBox178.TabStop = False
         '
-        'NumericUpDown179
+        'valu_grub_173
         '
-        Me.NumericUpDown179.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown179.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown179.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown179.Name = "NumericUpDown179"
-        Me.NumericUpDown179.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown179.TabIndex = 0
-        Me.NumericUpDown179.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_173.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_173.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_173.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_173.Name = "valu_grub_173"
+        Me.valu_grub_173.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_173.TabIndex = 0
+        Me.valu_grub_173.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel180
         '
         Me.Panel180.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel180.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel180.Controls.Add(Me.PictureBox179)
-        Me.Panel180.Controls.Add(Me.NumericUpDown180)
+        Me.Panel180.Controls.Add(Me.valu_grub_172)
         Me.Panel180.Location = New System.Drawing.Point(75, 153)
         Me.Panel180.Name = "Panel180"
         Me.Panel180.Size = New System.Drawing.Size(60, 65)
@@ -6838,22 +6841,22 @@ Partial Class Grub_editor
         Me.PictureBox179.TabIndex = 1
         Me.PictureBox179.TabStop = False
         '
-        'NumericUpDown180
+        'valu_grub_172
         '
-        Me.NumericUpDown180.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown180.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown180.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown180.Name = "NumericUpDown180"
-        Me.NumericUpDown180.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown180.TabIndex = 0
-        Me.NumericUpDown180.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_172.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_172.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_172.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_172.Name = "valu_grub_172"
+        Me.valu_grub_172.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_172.TabIndex = 0
+        Me.valu_grub_172.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel181
         '
         Me.Panel181.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel181.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel181.Controls.Add(Me.PictureBox180)
-        Me.Panel181.Controls.Add(Me.NumericUpDown181)
+        Me.Panel181.Controls.Add(Me.valu_grub_171)
         Me.Panel181.Location = New System.Drawing.Point(9, 153)
         Me.Panel181.Name = "Panel181"
         Me.Panel181.Size = New System.Drawing.Size(60, 65)
@@ -6868,22 +6871,22 @@ Partial Class Grub_editor
         Me.PictureBox180.TabIndex = 1
         Me.PictureBox180.TabStop = False
         '
-        'NumericUpDown181
+        'valu_grub_171
         '
-        Me.NumericUpDown181.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown181.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown181.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown181.Name = "NumericUpDown181"
-        Me.NumericUpDown181.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown181.TabIndex = 0
-        Me.NumericUpDown181.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_171.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_171.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_171.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_171.Name = "valu_grub_171"
+        Me.valu_grub_171.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_171.TabIndex = 0
+        Me.valu_grub_171.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel182
         '
         Me.Panel182.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel182.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel182.Controls.Add(Me.PictureBox181)
-        Me.Panel182.Controls.Add(Me.NumericUpDown182)
+        Me.Panel182.Controls.Add(Me.valu_grub_170)
         Me.Panel182.Location = New System.Drawing.Point(603, 82)
         Me.Panel182.Name = "Panel182"
         Me.Panel182.Size = New System.Drawing.Size(60, 65)
@@ -6898,22 +6901,22 @@ Partial Class Grub_editor
         Me.PictureBox181.TabIndex = 1
         Me.PictureBox181.TabStop = False
         '
-        'NumericUpDown182
+        'valu_grub_170
         '
-        Me.NumericUpDown182.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown182.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown182.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown182.Name = "NumericUpDown182"
-        Me.NumericUpDown182.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown182.TabIndex = 0
-        Me.NumericUpDown182.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_170.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_170.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_170.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_170.Name = "valu_grub_170"
+        Me.valu_grub_170.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_170.TabIndex = 0
+        Me.valu_grub_170.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel183
         '
         Me.Panel183.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel183.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel183.Controls.Add(Me.PictureBox182)
-        Me.Panel183.Controls.Add(Me.NumericUpDown183)
+        Me.Panel183.Controls.Add(Me.valu_grub_169)
         Me.Panel183.Location = New System.Drawing.Point(537, 82)
         Me.Panel183.Name = "Panel183"
         Me.Panel183.Size = New System.Drawing.Size(60, 65)
@@ -6928,22 +6931,22 @@ Partial Class Grub_editor
         Me.PictureBox182.TabIndex = 1
         Me.PictureBox182.TabStop = False
         '
-        'NumericUpDown183
+        'valu_grub_169
         '
-        Me.NumericUpDown183.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown183.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown183.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown183.Name = "NumericUpDown183"
-        Me.NumericUpDown183.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown183.TabIndex = 0
-        Me.NumericUpDown183.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_169.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_169.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_169.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_169.Name = "valu_grub_169"
+        Me.valu_grub_169.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_169.TabIndex = 0
+        Me.valu_grub_169.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel184
         '
         Me.Panel184.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel184.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel184.Controls.Add(Me.PictureBox183)
-        Me.Panel184.Controls.Add(Me.NumericUpDown184)
+        Me.Panel184.Controls.Add(Me.valu_grub_168)
         Me.Panel184.Location = New System.Drawing.Point(471, 82)
         Me.Panel184.Name = "Panel184"
         Me.Panel184.Size = New System.Drawing.Size(60, 65)
@@ -6958,22 +6961,22 @@ Partial Class Grub_editor
         Me.PictureBox183.TabIndex = 1
         Me.PictureBox183.TabStop = False
         '
-        'NumericUpDown184
+        'valu_grub_168
         '
-        Me.NumericUpDown184.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown184.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown184.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown184.Name = "NumericUpDown184"
-        Me.NumericUpDown184.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown184.TabIndex = 0
-        Me.NumericUpDown184.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_168.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_168.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_168.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_168.Name = "valu_grub_168"
+        Me.valu_grub_168.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_168.TabIndex = 0
+        Me.valu_grub_168.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel185
         '
         Me.Panel185.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel185.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel185.Controls.Add(Me.PictureBox184)
-        Me.Panel185.Controls.Add(Me.NumericUpDown185)
+        Me.Panel185.Controls.Add(Me.valu_grub_167)
         Me.Panel185.Location = New System.Drawing.Point(405, 82)
         Me.Panel185.Name = "Panel185"
         Me.Panel185.Size = New System.Drawing.Size(60, 65)
@@ -6988,22 +6991,22 @@ Partial Class Grub_editor
         Me.PictureBox184.TabIndex = 1
         Me.PictureBox184.TabStop = False
         '
-        'NumericUpDown185
+        'valu_grub_167
         '
-        Me.NumericUpDown185.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown185.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown185.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown185.Name = "NumericUpDown185"
-        Me.NumericUpDown185.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown185.TabIndex = 0
-        Me.NumericUpDown185.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_167.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_167.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_167.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_167.Name = "valu_grub_167"
+        Me.valu_grub_167.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_167.TabIndex = 0
+        Me.valu_grub_167.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel186
         '
         Me.Panel186.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel186.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel186.Controls.Add(Me.PictureBox185)
-        Me.Panel186.Controls.Add(Me.NumericUpDown186)
+        Me.Panel186.Controls.Add(Me.valu_grub_166)
         Me.Panel186.Location = New System.Drawing.Point(339, 82)
         Me.Panel186.Name = "Panel186"
         Me.Panel186.Size = New System.Drawing.Size(60, 65)
@@ -7018,22 +7021,22 @@ Partial Class Grub_editor
         Me.PictureBox185.TabIndex = 1
         Me.PictureBox185.TabStop = False
         '
-        'NumericUpDown186
+        'valu_grub_166
         '
-        Me.NumericUpDown186.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown186.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown186.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown186.Name = "NumericUpDown186"
-        Me.NumericUpDown186.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown186.TabIndex = 0
-        Me.NumericUpDown186.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_166.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_166.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_166.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_166.Name = "valu_grub_166"
+        Me.valu_grub_166.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_166.TabIndex = 0
+        Me.valu_grub_166.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel187
         '
         Me.Panel187.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel187.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel187.Controls.Add(Me.PictureBox186)
-        Me.Panel187.Controls.Add(Me.NumericUpDown187)
+        Me.Panel187.Controls.Add(Me.valu_grub_165)
         Me.Panel187.Location = New System.Drawing.Point(273, 82)
         Me.Panel187.Name = "Panel187"
         Me.Panel187.Size = New System.Drawing.Size(60, 65)
@@ -7048,22 +7051,22 @@ Partial Class Grub_editor
         Me.PictureBox186.TabIndex = 1
         Me.PictureBox186.TabStop = False
         '
-        'NumericUpDown187
+        'valu_grub_165
         '
-        Me.NumericUpDown187.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown187.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown187.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown187.Name = "NumericUpDown187"
-        Me.NumericUpDown187.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown187.TabIndex = 0
-        Me.NumericUpDown187.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_165.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_165.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_165.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_165.Name = "valu_grub_165"
+        Me.valu_grub_165.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_165.TabIndex = 0
+        Me.valu_grub_165.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel188
         '
         Me.Panel188.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel188.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel188.Controls.Add(Me.PictureBox187)
-        Me.Panel188.Controls.Add(Me.NumericUpDown188)
+        Me.Panel188.Controls.Add(Me.valu_grub_164)
         Me.Panel188.Location = New System.Drawing.Point(207, 82)
         Me.Panel188.Name = "Panel188"
         Me.Panel188.Size = New System.Drawing.Size(60, 65)
@@ -7078,22 +7081,22 @@ Partial Class Grub_editor
         Me.PictureBox187.TabIndex = 1
         Me.PictureBox187.TabStop = False
         '
-        'NumericUpDown188
+        'valu_grub_164
         '
-        Me.NumericUpDown188.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown188.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown188.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown188.Name = "NumericUpDown188"
-        Me.NumericUpDown188.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown188.TabIndex = 0
-        Me.NumericUpDown188.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_164.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_164.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_164.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_164.Name = "valu_grub_164"
+        Me.valu_grub_164.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_164.TabIndex = 0
+        Me.valu_grub_164.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel189
         '
         Me.Panel189.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel189.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel189.Controls.Add(Me.PictureBox188)
-        Me.Panel189.Controls.Add(Me.NumericUpDown189)
+        Me.Panel189.Controls.Add(Me.valu_grub_163)
         Me.Panel189.Location = New System.Drawing.Point(141, 82)
         Me.Panel189.Name = "Panel189"
         Me.Panel189.Size = New System.Drawing.Size(60, 65)
@@ -7108,22 +7111,22 @@ Partial Class Grub_editor
         Me.PictureBox188.TabIndex = 1
         Me.PictureBox188.TabStop = False
         '
-        'NumericUpDown189
+        'valu_grub_163
         '
-        Me.NumericUpDown189.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown189.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown189.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown189.Name = "NumericUpDown189"
-        Me.NumericUpDown189.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown189.TabIndex = 0
-        Me.NumericUpDown189.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_163.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_163.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_163.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_163.Name = "valu_grub_163"
+        Me.valu_grub_163.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_163.TabIndex = 0
+        Me.valu_grub_163.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel190
         '
         Me.Panel190.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel190.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel190.Controls.Add(Me.PictureBox189)
-        Me.Panel190.Controls.Add(Me.NumericUpDown190)
+        Me.Panel190.Controls.Add(Me.valu_grub_162)
         Me.Panel190.Location = New System.Drawing.Point(75, 82)
         Me.Panel190.Name = "Panel190"
         Me.Panel190.Size = New System.Drawing.Size(60, 65)
@@ -7138,22 +7141,22 @@ Partial Class Grub_editor
         Me.PictureBox189.TabIndex = 1
         Me.PictureBox189.TabStop = False
         '
-        'NumericUpDown190
+        'valu_grub_162
         '
-        Me.NumericUpDown190.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown190.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown190.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown190.Name = "NumericUpDown190"
-        Me.NumericUpDown190.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown190.TabIndex = 0
-        Me.NumericUpDown190.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_162.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_162.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_162.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_162.Name = "valu_grub_162"
+        Me.valu_grub_162.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_162.TabIndex = 0
+        Me.valu_grub_162.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel191
         '
         Me.Panel191.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel191.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel191.Controls.Add(Me.PictureBox190)
-        Me.Panel191.Controls.Add(Me.NumericUpDown191)
+        Me.Panel191.Controls.Add(Me.valu_grub_161)
         Me.Panel191.Location = New System.Drawing.Point(9, 82)
         Me.Panel191.Name = "Panel191"
         Me.Panel191.Size = New System.Drawing.Size(60, 65)
@@ -7168,22 +7171,22 @@ Partial Class Grub_editor
         Me.PictureBox190.TabIndex = 1
         Me.PictureBox190.TabStop = False
         '
-        'NumericUpDown191
+        'valu_grub_161
         '
-        Me.NumericUpDown191.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown191.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown191.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown191.Name = "NumericUpDown191"
-        Me.NumericUpDown191.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown191.TabIndex = 0
-        Me.NumericUpDown191.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_161.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_161.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_161.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_161.Name = "valu_grub_161"
+        Me.valu_grub_161.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_161.TabIndex = 0
+        Me.valu_grub_161.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel192
         '
         Me.Panel192.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel192.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel192.Controls.Add(Me.PictureBox191)
-        Me.Panel192.Controls.Add(Me.NumericUpDown192)
+        Me.Panel192.Controls.Add(Me.valu_grub_160)
         Me.Panel192.Location = New System.Drawing.Point(603, 11)
         Me.Panel192.Name = "Panel192"
         Me.Panel192.Size = New System.Drawing.Size(60, 65)
@@ -7198,22 +7201,22 @@ Partial Class Grub_editor
         Me.PictureBox191.TabIndex = 1
         Me.PictureBox191.TabStop = False
         '
-        'NumericUpDown192
+        'valu_grub_160
         '
-        Me.NumericUpDown192.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown192.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown192.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown192.Name = "NumericUpDown192"
-        Me.NumericUpDown192.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown192.TabIndex = 0
-        Me.NumericUpDown192.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_160.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_160.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_160.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_160.Name = "valu_grub_160"
+        Me.valu_grub_160.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_160.TabIndex = 0
+        Me.valu_grub_160.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel193
         '
         Me.Panel193.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel193.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel193.Controls.Add(Me.PictureBox192)
-        Me.Panel193.Controls.Add(Me.NumericUpDown193)
+        Me.Panel193.Controls.Add(Me.valu_grub_159)
         Me.Panel193.Location = New System.Drawing.Point(537, 11)
         Me.Panel193.Name = "Panel193"
         Me.Panel193.Size = New System.Drawing.Size(60, 65)
@@ -7228,22 +7231,22 @@ Partial Class Grub_editor
         Me.PictureBox192.TabIndex = 1
         Me.PictureBox192.TabStop = False
         '
-        'NumericUpDown193
+        'valu_grub_159
         '
-        Me.NumericUpDown193.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown193.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown193.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown193.Name = "NumericUpDown193"
-        Me.NumericUpDown193.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown193.TabIndex = 0
-        Me.NumericUpDown193.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_159.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_159.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_159.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_159.Name = "valu_grub_159"
+        Me.valu_grub_159.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_159.TabIndex = 0
+        Me.valu_grub_159.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel194
         '
         Me.Panel194.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel194.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel194.Controls.Add(Me.PictureBox193)
-        Me.Panel194.Controls.Add(Me.NumericUpDown194)
+        Me.Panel194.Controls.Add(Me.valu_grub_158)
         Me.Panel194.Location = New System.Drawing.Point(471, 11)
         Me.Panel194.Name = "Panel194"
         Me.Panel194.Size = New System.Drawing.Size(60, 65)
@@ -7258,22 +7261,22 @@ Partial Class Grub_editor
         Me.PictureBox193.TabIndex = 1
         Me.PictureBox193.TabStop = False
         '
-        'NumericUpDown194
+        'valu_grub_158
         '
-        Me.NumericUpDown194.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown194.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown194.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown194.Name = "NumericUpDown194"
-        Me.NumericUpDown194.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown194.TabIndex = 0
-        Me.NumericUpDown194.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_158.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_158.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_158.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_158.Name = "valu_grub_158"
+        Me.valu_grub_158.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_158.TabIndex = 0
+        Me.valu_grub_158.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel195
         '
         Me.Panel195.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel195.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel195.Controls.Add(Me.PictureBox194)
-        Me.Panel195.Controls.Add(Me.NumericUpDown195)
+        Me.Panel195.Controls.Add(Me.valu_grub_157)
         Me.Panel195.Location = New System.Drawing.Point(405, 11)
         Me.Panel195.Name = "Panel195"
         Me.Panel195.Size = New System.Drawing.Size(60, 65)
@@ -7288,22 +7291,22 @@ Partial Class Grub_editor
         Me.PictureBox194.TabIndex = 1
         Me.PictureBox194.TabStop = False
         '
-        'NumericUpDown195
+        'valu_grub_157
         '
-        Me.NumericUpDown195.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown195.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown195.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown195.Name = "NumericUpDown195"
-        Me.NumericUpDown195.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown195.TabIndex = 0
-        Me.NumericUpDown195.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_157.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_157.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_157.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_157.Name = "valu_grub_157"
+        Me.valu_grub_157.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_157.TabIndex = 0
+        Me.valu_grub_157.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel196
         '
         Me.Panel196.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel196.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel196.Controls.Add(Me.PictureBox195)
-        Me.Panel196.Controls.Add(Me.NumericUpDown196)
+        Me.Panel196.Controls.Add(Me.valu_grub_156)
         Me.Panel196.Location = New System.Drawing.Point(339, 11)
         Me.Panel196.Name = "Panel196"
         Me.Panel196.Size = New System.Drawing.Size(60, 65)
@@ -7318,22 +7321,22 @@ Partial Class Grub_editor
         Me.PictureBox195.TabIndex = 1
         Me.PictureBox195.TabStop = False
         '
-        'NumericUpDown196
+        'valu_grub_156
         '
-        Me.NumericUpDown196.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown196.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown196.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown196.Name = "NumericUpDown196"
-        Me.NumericUpDown196.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown196.TabIndex = 0
-        Me.NumericUpDown196.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_156.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_156.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_156.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_156.Name = "valu_grub_156"
+        Me.valu_grub_156.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_156.TabIndex = 0
+        Me.valu_grub_156.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel197
         '
         Me.Panel197.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel197.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel197.Controls.Add(Me.PictureBox196)
-        Me.Panel197.Controls.Add(Me.NumericUpDown197)
+        Me.Panel197.Controls.Add(Me.valu_grub_155)
         Me.Panel197.Location = New System.Drawing.Point(273, 11)
         Me.Panel197.Name = "Panel197"
         Me.Panel197.Size = New System.Drawing.Size(60, 65)
@@ -7348,22 +7351,22 @@ Partial Class Grub_editor
         Me.PictureBox196.TabIndex = 1
         Me.PictureBox196.TabStop = False
         '
-        'NumericUpDown197
+        'valu_grub_155
         '
-        Me.NumericUpDown197.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown197.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown197.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown197.Name = "NumericUpDown197"
-        Me.NumericUpDown197.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown197.TabIndex = 0
-        Me.NumericUpDown197.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_155.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_155.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_155.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_155.Name = "valu_grub_155"
+        Me.valu_grub_155.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_155.TabIndex = 0
+        Me.valu_grub_155.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel198
         '
         Me.Panel198.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel198.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel198.Controls.Add(Me.PictureBox197)
-        Me.Panel198.Controls.Add(Me.NumericUpDown198)
+        Me.Panel198.Controls.Add(Me.valu_grub_154)
         Me.Panel198.Location = New System.Drawing.Point(207, 11)
         Me.Panel198.Name = "Panel198"
         Me.Panel198.Size = New System.Drawing.Size(60, 65)
@@ -7378,22 +7381,22 @@ Partial Class Grub_editor
         Me.PictureBox197.TabIndex = 1
         Me.PictureBox197.TabStop = False
         '
-        'NumericUpDown198
+        'valu_grub_154
         '
-        Me.NumericUpDown198.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown198.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown198.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown198.Name = "NumericUpDown198"
-        Me.NumericUpDown198.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown198.TabIndex = 0
-        Me.NumericUpDown198.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_154.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_154.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_154.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_154.Name = "valu_grub_154"
+        Me.valu_grub_154.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_154.TabIndex = 0
+        Me.valu_grub_154.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel199
         '
         Me.Panel199.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel199.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel199.Controls.Add(Me.PictureBox198)
-        Me.Panel199.Controls.Add(Me.NumericUpDown199)
+        Me.Panel199.Controls.Add(Me.valu_grub_153)
         Me.Panel199.Location = New System.Drawing.Point(141, 11)
         Me.Panel199.Name = "Panel199"
         Me.Panel199.Size = New System.Drawing.Size(60, 65)
@@ -7408,22 +7411,22 @@ Partial Class Grub_editor
         Me.PictureBox198.TabIndex = 1
         Me.PictureBox198.TabStop = False
         '
-        'NumericUpDown199
+        'valu_grub_153
         '
-        Me.NumericUpDown199.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown199.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown199.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown199.Name = "NumericUpDown199"
-        Me.NumericUpDown199.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown199.TabIndex = 0
-        Me.NumericUpDown199.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_153.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_153.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_153.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_153.Name = "valu_grub_153"
+        Me.valu_grub_153.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_153.TabIndex = 0
+        Me.valu_grub_153.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel200
         '
         Me.Panel200.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel200.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel200.Controls.Add(Me.PictureBox199)
-        Me.Panel200.Controls.Add(Me.NumericUpDown200)
+        Me.Panel200.Controls.Add(Me.valu_grub_152)
         Me.Panel200.Location = New System.Drawing.Point(75, 11)
         Me.Panel200.Name = "Panel200"
         Me.Panel200.Size = New System.Drawing.Size(60, 65)
@@ -7438,22 +7441,22 @@ Partial Class Grub_editor
         Me.PictureBox199.TabIndex = 1
         Me.PictureBox199.TabStop = False
         '
-        'NumericUpDown200
+        'valu_grub_152
         '
-        Me.NumericUpDown200.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown200.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown200.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown200.Name = "NumericUpDown200"
-        Me.NumericUpDown200.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown200.TabIndex = 0
-        Me.NumericUpDown200.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_152.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_152.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_152.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_152.Name = "valu_grub_152"
+        Me.valu_grub_152.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_152.TabIndex = 0
+        Me.valu_grub_152.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Panel201
         '
         Me.Panel201.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel201.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel201.Controls.Add(Me.PictureBox200)
-        Me.Panel201.Controls.Add(Me.NumericUpDown201)
+        Me.Panel201.Controls.Add(Me.valu_grub_151)
         Me.Panel201.Location = New System.Drawing.Point(9, 11)
         Me.Panel201.Name = "Panel201"
         Me.Panel201.Size = New System.Drawing.Size(60, 65)
@@ -7468,15 +7471,15 @@ Partial Class Grub_editor
         Me.PictureBox200.TabIndex = 1
         Me.PictureBox200.TabStop = False
         '
-        'NumericUpDown201
+        'valu_grub_151
         '
-        Me.NumericUpDown201.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown201.Location = New System.Drawing.Point(11, 46)
-        Me.NumericUpDown201.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
-        Me.NumericUpDown201.Name = "NumericUpDown201"
-        Me.NumericUpDown201.Size = New System.Drawing.Size(39, 16)
-        Me.NumericUpDown201.TabIndex = 0
-        Me.NumericUpDown201.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_grub_151.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_grub_151.Location = New System.Drawing.Point(11, 46)
+        Me.valu_grub_151.Maximum = New Decimal(New Integer() {99, 0, 0, 0})
+        Me.valu_grub_151.Name = "valu_grub_151"
+        Me.valu_grub_151.Size = New System.Drawing.Size(39, 16)
+        Me.valu_grub_151.TabIndex = 0
+        Me.valu_grub_151.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Arrow_left_panel3
         '
@@ -7497,6 +7500,7 @@ Partial Class Grub_editor
         Me.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_foods
         Me.ClientSize = New System.Drawing.Size(805, 462)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Panel_foods_4)
         Me.Controls.Add(Me.Panel_foods_3)
         Me.Controls.Add(Me.Panel_foods_2)
         Me.Controls.Add(Me.Panel_foods_1)
@@ -7509,7 +7513,6 @@ Partial Class Grub_editor
         Me.Controls.Add(Me.Fds_button_save)
         Me.Controls.Add(Me.Arrow_right_panel2)
         Me.Controls.Add(Me.Arrow_left_panel1)
-        Me.Controls.Add(Me.Panel_foods_4)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MaximizeBox = False
         Me.MinimizeBox = False
@@ -7674,7 +7677,7 @@ Partial Class Grub_editor
         Me.Fds_button_close.ResumeLayout(False)
         Me.Panel_setall.ResumeLayout(False)
         Me.Panel_setall.PerformLayout()
-        CType(Me.NumericUpDown51, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_allgrubs, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_foods_2.ResumeLayout(False)
         Me.Panel52.ResumeLayout(False)
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -7830,124 +7833,124 @@ Partial Class Grub_editor
         Me.Panel_foods_3.ResumeLayout(False)
         Me.Panel102.ResumeLayout(False)
         CType(Me.PictureBox101, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown102, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_150, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel103.ResumeLayout(False)
         CType(Me.PictureBox102, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown103, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_149, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel104.ResumeLayout(False)
         CType(Me.PictureBox103, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown104, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_148, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel105.ResumeLayout(False)
         CType(Me.PictureBox104, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown105, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_147, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel106.ResumeLayout(False)
         CType(Me.PictureBox105, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown106, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_146, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel107.ResumeLayout(False)
         CType(Me.PictureBox106, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown107, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_145, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel108.ResumeLayout(False)
         CType(Me.PictureBox107, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown108, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_144, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel109.ResumeLayout(False)
         CType(Me.PictureBox108, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown109, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_143, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel110.ResumeLayout(False)
         CType(Me.PictureBox109, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown110, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_142, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel111.ResumeLayout(False)
         CType(Me.PictureBox110, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown111, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_141, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel112.ResumeLayout(False)
         CType(Me.PictureBox111, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown112, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_140, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel113.ResumeLayout(False)
         CType(Me.PictureBox112, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown113, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_139, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel114.ResumeLayout(False)
         CType(Me.PictureBox113, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown114, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_138, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel115.ResumeLayout(False)
         CType(Me.PictureBox114, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown115, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_137, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel116.ResumeLayout(False)
         CType(Me.PictureBox115, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown116, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_136, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel117.ResumeLayout(False)
         CType(Me.PictureBox116, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown117, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_135, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel118.ResumeLayout(False)
         CType(Me.PictureBox117, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown118, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_134, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel119.ResumeLayout(False)
         CType(Me.PictureBox118, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown119, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_133, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel120.ResumeLayout(False)
         CType(Me.PictureBox119, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown120, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_132, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel121.ResumeLayout(False)
         CType(Me.PictureBox120, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown121, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_131, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel122.ResumeLayout(False)
         CType(Me.PictureBox121, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown122, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_130, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel123.ResumeLayout(False)
         CType(Me.PictureBox122, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown123, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_129, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel124.ResumeLayout(False)
         CType(Me.PictureBox123, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown124, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_128, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel125.ResumeLayout(False)
         CType(Me.PictureBox124, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown125, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_127, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel126.ResumeLayout(False)
         CType(Me.PictureBox125, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown126, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_126, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel127.ResumeLayout(False)
         CType(Me.PictureBox126, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown127, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_125, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel128.ResumeLayout(False)
         CType(Me.PictureBox127, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown128, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_124, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel129.ResumeLayout(False)
         CType(Me.PictureBox128, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown129, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_123, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel130.ResumeLayout(False)
         CType(Me.PictureBox129, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown130, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_122, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel131.ResumeLayout(False)
         CType(Me.PictureBox130, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown131, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_121, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel132.ResumeLayout(False)
         CType(Me.PictureBox131, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown132, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_120, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel133.ResumeLayout(False)
         CType(Me.PictureBox132, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown133, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_119, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel134.ResumeLayout(False)
         CType(Me.PictureBox133, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown134, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_118, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel135.ResumeLayout(False)
         CType(Me.PictureBox134, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown135, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_117, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel136.ResumeLayout(False)
         CType(Me.PictureBox135, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown136, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_116, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel137.ResumeLayout(False)
         CType(Me.PictureBox136, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown137, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_115, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel138.ResumeLayout(False)
         CType(Me.PictureBox137, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown138, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_114, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel139.ResumeLayout(False)
         CType(Me.PictureBox138, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown139, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_113, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel140.ResumeLayout(False)
         CType(Me.PictureBox139, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown140, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_112, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel141.ResumeLayout(False)
         CType(Me.PictureBox140, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown141, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_111, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel142.ResumeLayout(False)
         CType(Me.PictureBox141, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_grub_110, System.ComponentModel.ISupportInitialize).EndInit()
@@ -7983,142 +7986,142 @@ Partial Class Grub_editor
         Me.Panel_foods_4.ResumeLayout(False)
         Me.Panel156.ResumeLayout(False)
         CType(Me.PictureBox155, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown156, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_196, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel157.ResumeLayout(False)
         CType(Me.PictureBox156, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown157, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_195, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel158.ResumeLayout(False)
         CType(Me.PictureBox157, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown158, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_194, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel159.ResumeLayout(False)
         CType(Me.PictureBox158, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown159, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_193, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel160.ResumeLayout(False)
         CType(Me.PictureBox159, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown160, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_192, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel161.ResumeLayout(False)
         CType(Me.PictureBox160, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown161, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_191, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel162.ResumeLayout(False)
         CType(Me.PictureBox161, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown162, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_190, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel163.ResumeLayout(False)
         CType(Me.PictureBox162, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown163, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_189, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel164.ResumeLayout(False)
         CType(Me.PictureBox163, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown164, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_188, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel165.ResumeLayout(False)
         CType(Me.PictureBox164, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown165, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_187, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel166.ResumeLayout(False)
         CType(Me.PictureBox165, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown166, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_186, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel167.ResumeLayout(False)
         CType(Me.PictureBox166, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown167, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_185, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel168.ResumeLayout(False)
         CType(Me.PictureBox167, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown168, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_184, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel169.ResumeLayout(False)
         CType(Me.PictureBox168, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown169, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_183, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel170.ResumeLayout(False)
         CType(Me.PictureBox169, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown170, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_182, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel171.ResumeLayout(False)
         CType(Me.PictureBox170, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown171, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_181, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel172.ResumeLayout(False)
         CType(Me.PictureBox171, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown172, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_180, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel173.ResumeLayout(False)
         CType(Me.PictureBox172, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown173, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_179, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel174.ResumeLayout(False)
         CType(Me.PictureBox173, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown174, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_178, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel175.ResumeLayout(False)
         CType(Me.PictureBox174, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown175, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_177, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel176.ResumeLayout(False)
         CType(Me.PictureBox175, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown176, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_176, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel177.ResumeLayout(False)
         CType(Me.PictureBox176, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown177, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_175, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel178.ResumeLayout(False)
         CType(Me.PictureBox177, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown178, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_174, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel179.ResumeLayout(False)
         CType(Me.PictureBox178, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown179, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_173, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel180.ResumeLayout(False)
         CType(Me.PictureBox179, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown180, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_172, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel181.ResumeLayout(False)
         CType(Me.PictureBox180, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown181, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_171, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel182.ResumeLayout(False)
         CType(Me.PictureBox181, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown182, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_170, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel183.ResumeLayout(False)
         CType(Me.PictureBox182, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown183, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_169, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel184.ResumeLayout(False)
         CType(Me.PictureBox183, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown184, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_168, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel185.ResumeLayout(False)
         CType(Me.PictureBox184, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown185, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_167, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel186.ResumeLayout(False)
         CType(Me.PictureBox185, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown186, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_166, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel187.ResumeLayout(False)
         CType(Me.PictureBox186, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown187, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_165, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel188.ResumeLayout(False)
         CType(Me.PictureBox187, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown188, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_164, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel189.ResumeLayout(False)
         CType(Me.PictureBox188, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown189, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_163, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel190.ResumeLayout(False)
         CType(Me.PictureBox189, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown190, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_162, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel191.ResumeLayout(False)
         CType(Me.PictureBox190, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown191, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_161, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel192.ResumeLayout(False)
         CType(Me.PictureBox191, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown192, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_160, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel193.ResumeLayout(False)
         CType(Me.PictureBox192, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown193, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_159, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel194.ResumeLayout(False)
         CType(Me.PictureBox193, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown194, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_158, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel195.ResumeLayout(False)
         CType(Me.PictureBox194, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown195, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_157, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel196.ResumeLayout(False)
         CType(Me.PictureBox195, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown196, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_156, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel197.ResumeLayout(False)
         CType(Me.PictureBox196, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown197, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_155, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel198.ResumeLayout(False)
         CType(Me.PictureBox197, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown198, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_154, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel199.ResumeLayout(False)
         CType(Me.PictureBox198, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown199, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_153, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel200.ResumeLayout(False)
         CType(Me.PictureBox199, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown200, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_152, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel201.ResumeLayout(False)
         CType(Me.PictureBox200, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown201, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_grub_151, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Arrow_left_panel3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -8282,7 +8285,7 @@ Partial Class Grub_editor
     Friend WithEvents Fds_close_text As System.Windows.Forms.Label
     Friend WithEvents Panel_setall As System.Windows.Forms.Panel
     Friend WithEvents Text_setall As System.Windows.Forms.Label
-    Friend WithEvents NumericUpDown51 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_allgrubs As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel_foods_2 As System.Windows.Forms.Panel
     Friend WithEvents Panel52 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
@@ -8438,124 +8441,124 @@ Partial Class Grub_editor
     Friend WithEvents Panel_foods_3 As System.Windows.Forms.Panel
     Friend WithEvents Panel102 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox101 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown102 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_150 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel103 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox102 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown103 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_149 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel104 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox103 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown104 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_148 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel105 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox104 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown105 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_147 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel106 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox105 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown106 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_146 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel107 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox106 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown107 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_145 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel108 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox107 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown108 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_144 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel109 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox108 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown109 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_143 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel110 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox109 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown110 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_142 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel111 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox110 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown111 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_141 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel112 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox111 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown112 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_140 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel113 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox112 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown113 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_139 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel114 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox113 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown114 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_138 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel115 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox114 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown115 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_137 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel116 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox115 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown116 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_136 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel117 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox116 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown117 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_135 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel118 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox117 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown118 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_134 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel119 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox118 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown119 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_133 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel120 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox119 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown120 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_132 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel121 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox120 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown121 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_131 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel122 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox121 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown122 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_130 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel123 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox122 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown123 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_129 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel124 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox123 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown124 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_128 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel125 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox124 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown125 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_127 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel126 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox125 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown126 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_126 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel127 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox126 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown127 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_125 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel128 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox127 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown128 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_124 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel129 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox128 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown129 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_123 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel130 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox129 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown130 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_122 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel131 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox130 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown131 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_121 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel132 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox131 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown132 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_120 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel133 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox132 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown133 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_119 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel134 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox133 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown134 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_118 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel135 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox134 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown135 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_117 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel136 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox135 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown136 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_116 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel137 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox136 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown137 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_115 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel138 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox137 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown138 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_114 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel139 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox138 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown139 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_113 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel140 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox139 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown140 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_112 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel141 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox140 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown141 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_111 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel142 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox141 As System.Windows.Forms.PictureBox
     Friend WithEvents valu_grub_110 As System.Windows.Forms.NumericUpDown
@@ -8591,141 +8594,141 @@ Partial Class Grub_editor
     Friend WithEvents Panel_foods_4 As System.Windows.Forms.Panel
     Friend WithEvents Panel156 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox155 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown156 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_196 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel157 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox156 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown157 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_195 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel158 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox157 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown158 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_194 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel159 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox158 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown159 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_193 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel160 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox159 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown160 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_192 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel161 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox160 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown161 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_191 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel162 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox161 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown162 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_190 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel163 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox162 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown163 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_189 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel164 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox163 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown164 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_188 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel165 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox164 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown165 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_187 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel166 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox165 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown166 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_186 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel167 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox166 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown167 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_185 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel168 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox167 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown168 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_184 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel169 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox168 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown169 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_183 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel170 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox169 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown170 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_182 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel171 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox170 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown171 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_181 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel172 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox171 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown172 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_180 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel173 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox172 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown173 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_179 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel174 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox173 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown174 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_178 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel175 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox174 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown175 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_177 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel176 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox175 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown176 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_176 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel177 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox176 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown177 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_175 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel178 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox177 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown178 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_174 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel179 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox178 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown179 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_173 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel180 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox179 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown180 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_172 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel181 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox180 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown181 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_171 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel182 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox181 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown182 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_170 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel183 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox182 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown183 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_169 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel184 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox183 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown184 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_168 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel185 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox184 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown185 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_167 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel186 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox185 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown186 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_166 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel187 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox186 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown187 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_165 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel188 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox187 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown188 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_164 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel189 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox188 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown189 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_163 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel190 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox189 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown190 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_162 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel191 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox190 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown191 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_161 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel192 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox191 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown192 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_160 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel193 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox192 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown193 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_159 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel194 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox193 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown194 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_158 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel195 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox194 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown195 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_157 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel196 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox195 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown196 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_156 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel197 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox196 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown197 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_155 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel198 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox197 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown198 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_154 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel199 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox198 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown199 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_153 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel200 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox199 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown200 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_152 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel201 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox200 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown201 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_grub_151 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Arrow_left_panel3 As System.Windows.Forms.PictureBox
 End Class
