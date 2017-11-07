@@ -160,6 +160,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\bg_feature2.png" />
+    <None Include="Resources\bg_fea.png" />
+    <None Include="Resources\Voleur.png" />
+    <None Include="Resources\Vampire.png" />
+    <None Include="Resources\Tank.png" />
+    <None Include="Resources\Scientifique.png" />
+    <None Include="Resources\Princesse.png" />
+    <None Include="Resources\Pretre.png" />
+    <None Include="Resources\Mage.png" />
+    <None Include="Resources\Guerrier.png" />
+    <None Include="Resources\Fleur.png" />
+    <None Include="Resources\Felin.png" />
+    <None Include="Resources\elfe.png" />
+    <None Include="Resources\Diablotin.png" />
+    <None Include="Resources\Cuisinier.png" />
+    <None Include="Resources\Chanteur.png" />
+    <None Include="Resources\Spoiler.png" />
     <None Include="Resources\safespot.png" />
     <None Include="Resources\grub_196.png" />
     <None Include="Resources\grub_195.png" />

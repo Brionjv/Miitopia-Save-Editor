@@ -77,6 +77,13 @@ Partial Class Miitopia_SE
         Me.Dragon_map2 = New System.Windows.Forms.PictureBox()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Panel_partylevel = New System.Windows.Forms.GroupBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.Info_level = New System.Windows.Forms.Label()
+        Me.valu_level = New System.Windows.Forms.NumericUpDown()
+        Me.Panel_partyworld = New System.Windows.Forms.GroupBox()
+        Me.valu_world = New System.Windows.Forms.NumericUpDown()
+        Me.Select_world = New System.Windows.Forms.ComboBox()
         Me.Group_safespot = New System.Windows.Forms.GroupBox()
         Me.valu_safespot = New System.Windows.Forms.NumericUpDown()
         Me.icon_safespot = New System.Windows.Forms.PictureBox()
@@ -123,6 +130,121 @@ Partial Class Miitopia_SE
         Me.Bar_gold = New System.Windows.Forms.Panel()
         Me.valu_gold = New System.Windows.Forms.NumericUpDown()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.TabControl2 = New System.Windows.Forms.TabControl()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.Fea_wp_elf = New System.Windows.Forms.Panel()
+        Me.Icon_wp_elf = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_elf = New System.Windows.Forms.Panel()
+        Me.valu_wp_elf = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_wp_cat = New System.Windows.Forms.Panel()
+        Me.Icon_wp_cat = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_cat = New System.Windows.Forms.Panel()
+        Me.valu_wp_cat = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_wp_scientist = New System.Windows.Forms.Panel()
+        Me.Icon_wp_scientist = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_scientist = New System.Windows.Forms.Panel()
+        Me.valu_wp_scientist = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_wp_flower = New System.Windows.Forms.Panel()
+        Me.Icon_wp_flower = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_flower = New System.Windows.Forms.Panel()
+        Me.valu_wp_flower = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_wp_princess = New System.Windows.Forms.Panel()
+        Me.Icon_wp_princess = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_princess = New System.Windows.Forms.Panel()
+        Me.valu_wp_princess = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_wp_imp = New System.Windows.Forms.Panel()
+        Me.Icon_wp_imp = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_imp = New System.Windows.Forms.Panel()
+        Me.valu_wp_imp = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_wp_tank = New System.Windows.Forms.Panel()
+        Me.Icon_wp_tank = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_tank = New System.Windows.Forms.Panel()
+        Me.valu_wp_tank = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_wp_chef = New System.Windows.Forms.Panel()
+        Me.Icon_wp_chef = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_chef = New System.Windows.Forms.Panel()
+        Me.valu_wp_chef = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_wp_vampire = New System.Windows.Forms.Panel()
+        Me.Icon_wp_vampire = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_vampire = New System.Windows.Forms.Panel()
+        Me.valu_wp_vampire = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_wp_popstar = New System.Windows.Forms.Panel()
+        Me.Icon_wp_popstar = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_popstar = New System.Windows.Forms.Panel()
+        Me.valu_wp_popstar = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_wp_thief = New System.Windows.Forms.Panel()
+        Me.Icon_wp_thief = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_thief = New System.Windows.Forms.Panel()
+        Me.valu_wp_thief = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_wp_cleric = New System.Windows.Forms.Panel()
+        Me.Icon_wp_cleric = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_cleric = New System.Windows.Forms.Panel()
+        Me.valu_wp_cleric = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_wp_mage = New System.Windows.Forms.Panel()
+        Me.Icon_wp_mage = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_mage = New System.Windows.Forms.Panel()
+        Me.valu_wp_mage = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_wp_warrior = New System.Windows.Forms.Panel()
+        Me.Icon_wp_warrior = New System.Windows.Forms.PictureBox()
+        Me.Bar_wp_warrior = New System.Windows.Forms.Panel()
+        Me.valu_wp_warrior = New System.Windows.Forms.NumericUpDown()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.Fea_ct_elf = New System.Windows.Forms.Panel()
+        Me.Icon_ct_elf = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_elf = New System.Windows.Forms.Panel()
+        Me.valu_ct_elf = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_ct_cat = New System.Windows.Forms.Panel()
+        Me.Icon_ct_cat = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_cat = New System.Windows.Forms.Panel()
+        Me.valu_ct_cat = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_ct_scientist = New System.Windows.Forms.Panel()
+        Me.Icon_ct_scientist = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_scientist = New System.Windows.Forms.Panel()
+        Me.valu_ct_scientist = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_ct_flower = New System.Windows.Forms.Panel()
+        Me.Icon_ct_flower = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_flower = New System.Windows.Forms.Panel()
+        Me.valu_ct_flower = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_ct_princess = New System.Windows.Forms.Panel()
+        Me.Icon_ct_princess = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_princess = New System.Windows.Forms.Panel()
+        Me.valu_ct_princess = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_ct_imp = New System.Windows.Forms.Panel()
+        Me.Icon_ct_imp = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_imp = New System.Windows.Forms.Panel()
+        Me.valu_ct_imp = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_ct_tank = New System.Windows.Forms.Panel()
+        Me.Icon_ct_tank = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_tank = New System.Windows.Forms.Panel()
+        Me.valu_ct_tank = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_ct_chef = New System.Windows.Forms.Panel()
+        Me.Icon_ct_chef = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_chef = New System.Windows.Forms.Panel()
+        Me.valu_ct_chef = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_ct_vampire = New System.Windows.Forms.Panel()
+        Me.Icon_ct_vampire = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_vampire = New System.Windows.Forms.Panel()
+        Me.valu_ct_vampire = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_ct_popstar = New System.Windows.Forms.Panel()
+        Me.Icon_ct_popstar = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_popstar = New System.Windows.Forms.Panel()
+        Me.valu_ct_popstar = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_ct_thief = New System.Windows.Forms.Panel()
+        Me.Icon_ct_thief = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_thief = New System.Windows.Forms.Panel()
+        Me.valu_ct_thief = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_ct_cleric = New System.Windows.Forms.Panel()
+        Me.Icon_ct_cleric = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_cleric = New System.Windows.Forms.Panel()
+        Me.valu_ct_cleric = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_ct_mage = New System.Windows.Forms.Panel()
+        Me.Icon_ct_mage = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_mage = New System.Windows.Forms.Panel()
+        Me.valu_ct_mage = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_ct_warrior = New System.Windows.Forms.Panel()
+        Me.Icon_ct_warrior = New System.Windows.Forms.PictureBox()
+        Me.Bar_ct_warrior = New System.Windows.Forms.Panel()
+        Me.valu_ct_warrior = New System.Windows.Forms.NumericUpDown()
         Me.Button_Open = New System.Windows.Forms.Panel()
         Me.text_open = New System.Windows.Forms.Label()
         Me.Button_Save = New System.Windows.Forms.Panel()
@@ -162,6 +284,11 @@ Partial Class Miitopia_SE
         CType(Me.Dragon_map2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
+        Me.Panel_partylevel.SuspendLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_level, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel_partyworld.SuspendLayout()
+        CType(Me.valu_world, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Group_safespot.SuspendLayout()
         CType(Me.valu_safespot, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.icon_safespot, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -204,6 +331,122 @@ Partial Class Miitopia_SE
         CType(Me.icon_gold, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Bar_gold.SuspendLayout()
         CType(Me.valu_gold, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage2.SuspendLayout()
+        Me.TabControl2.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
+        Me.Fea_wp_elf.SuspendLayout()
+        CType(Me.Icon_wp_elf, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_elf.SuspendLayout()
+        CType(Me.valu_wp_elf, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_wp_cat.SuspendLayout()
+        CType(Me.Icon_wp_cat, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_cat.SuspendLayout()
+        CType(Me.valu_wp_cat, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_wp_scientist.SuspendLayout()
+        CType(Me.Icon_wp_scientist, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_scientist.SuspendLayout()
+        CType(Me.valu_wp_scientist, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_wp_flower.SuspendLayout()
+        CType(Me.Icon_wp_flower, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_flower.SuspendLayout()
+        CType(Me.valu_wp_flower, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_wp_princess.SuspendLayout()
+        CType(Me.Icon_wp_princess, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_princess.SuspendLayout()
+        CType(Me.valu_wp_princess, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_wp_imp.SuspendLayout()
+        CType(Me.Icon_wp_imp, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_imp.SuspendLayout()
+        CType(Me.valu_wp_imp, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_wp_tank.SuspendLayout()
+        CType(Me.Icon_wp_tank, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_tank.SuspendLayout()
+        CType(Me.valu_wp_tank, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_wp_chef.SuspendLayout()
+        CType(Me.Icon_wp_chef, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_chef.SuspendLayout()
+        CType(Me.valu_wp_chef, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_wp_vampire.SuspendLayout()
+        CType(Me.Icon_wp_vampire, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_vampire.SuspendLayout()
+        CType(Me.valu_wp_vampire, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_wp_popstar.SuspendLayout()
+        CType(Me.Icon_wp_popstar, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_popstar.SuspendLayout()
+        CType(Me.valu_wp_popstar, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_wp_thief.SuspendLayout()
+        CType(Me.Icon_wp_thief, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_thief.SuspendLayout()
+        CType(Me.valu_wp_thief, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_wp_cleric.SuspendLayout()
+        CType(Me.Icon_wp_cleric, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_cleric.SuspendLayout()
+        CType(Me.valu_wp_cleric, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_wp_mage.SuspendLayout()
+        CType(Me.Icon_wp_mage, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_mage.SuspendLayout()
+        CType(Me.valu_wp_mage, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_wp_warrior.SuspendLayout()
+        CType(Me.Icon_wp_warrior, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_wp_warrior.SuspendLayout()
+        CType(Me.valu_wp_warrior, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage4.SuspendLayout()
+        Me.Fea_ct_elf.SuspendLayout()
+        CType(Me.Icon_ct_elf, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_elf.SuspendLayout()
+        CType(Me.valu_ct_elf, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_ct_cat.SuspendLayout()
+        CType(Me.Icon_ct_cat, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_cat.SuspendLayout()
+        CType(Me.valu_ct_cat, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_ct_scientist.SuspendLayout()
+        CType(Me.Icon_ct_scientist, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_scientist.SuspendLayout()
+        CType(Me.valu_ct_scientist, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_ct_flower.SuspendLayout()
+        CType(Me.Icon_ct_flower, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_flower.SuspendLayout()
+        CType(Me.valu_ct_flower, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_ct_princess.SuspendLayout()
+        CType(Me.Icon_ct_princess, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_princess.SuspendLayout()
+        CType(Me.valu_ct_princess, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_ct_imp.SuspendLayout()
+        CType(Me.Icon_ct_imp, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_imp.SuspendLayout()
+        CType(Me.valu_ct_imp, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_ct_tank.SuspendLayout()
+        CType(Me.Icon_ct_tank, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_tank.SuspendLayout()
+        CType(Me.valu_ct_tank, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_ct_chef.SuspendLayout()
+        CType(Me.Icon_ct_chef, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_chef.SuspendLayout()
+        CType(Me.valu_ct_chef, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_ct_vampire.SuspendLayout()
+        CType(Me.Icon_ct_vampire, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_vampire.SuspendLayout()
+        CType(Me.valu_ct_vampire, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_ct_popstar.SuspendLayout()
+        CType(Me.Icon_ct_popstar, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_popstar.SuspendLayout()
+        CType(Me.valu_ct_popstar, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_ct_thief.SuspendLayout()
+        CType(Me.Icon_ct_thief, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_thief.SuspendLayout()
+        CType(Me.valu_ct_thief, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_ct_cleric.SuspendLayout()
+        CType(Me.Icon_ct_cleric, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_cleric.SuspendLayout()
+        CType(Me.valu_ct_cleric, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_ct_mage.SuspendLayout()
+        CType(Me.Icon_ct_mage, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_mage.SuspendLayout()
+        CType(Me.valu_ct_mage, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_ct_warrior.SuspendLayout()
+        CType(Me.Icon_ct_warrior, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_ct_warrior.SuspendLayout()
+        CType(Me.valu_ct_warrior, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Button_Open.SuspendLayout()
         Me.Button_Save.SuspendLayout()
         Me.SuspendLayout()
@@ -827,6 +1070,8 @@ Partial Class Miitopia_SE
         'TabPage1
         '
         Me.TabPage1.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
+        Me.TabPage1.Controls.Add(Me.Panel_partylevel)
+        Me.TabPage1.Controls.Add(Me.Panel_partyworld)
         Me.TabPage1.Controls.Add(Me.Group_safespot)
         Me.TabPage1.Controls.Add(Me.Info_dragon_map)
         Me.TabPage1.Controls.Add(Me.Dragon_map)
@@ -848,13 +1093,92 @@ Partial Class Miitopia_SE
         Me.TabPage1.Text = "Main"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
+        'Panel_partylevel
+        '
+        Me.Panel_partylevel.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
+        Me.Panel_partylevel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel_partylevel.Controls.Add(Me.PictureBox6)
+        Me.Panel_partylevel.Controls.Add(Me.Info_level)
+        Me.Panel_partylevel.Controls.Add(Me.valu_level)
+        Me.Panel_partylevel.Location = New System.Drawing.Point(273, 18)
+        Me.Panel_partylevel.Name = "Panel_partylevel"
+        Me.Panel_partylevel.Size = New System.Drawing.Size(207, 40)
+        Me.Panel_partylevel.TabIndex = 20
+        Me.Panel_partylevel.TabStop = False
+        Me.Panel_partylevel.Text = "Party is in level"
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.Spoiler
+        Me.PictureBox6.Location = New System.Drawing.Point(32, 14)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(26, 24)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox6.TabIndex = 18
+        Me.PictureBox6.TabStop = False
+        '
+        'Info_level
+        '
+        Me.Info_level.AutoSize = True
+        Me.Info_level.Cursor = System.Windows.Forms.Cursors.Help
+        Me.Info_level.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Info_level.ForeColor = System.Drawing.Color.Blue
+        Me.Info_level.Location = New System.Drawing.Point(189, 16)
+        Me.Info_level.Name = "Info_level"
+        Me.Info_level.Size = New System.Drawing.Size(12, 16)
+        Me.Info_level.TabIndex = 17
+        Me.Info_level.Text = "i"
+        '
+        'valu_level
+        '
+        Me.valu_level.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_level.Location = New System.Drawing.Point(73, 16)
+        Me.valu_level.Name = "valu_level"
+        Me.valu_level.Size = New System.Drawing.Size(90, 16)
+        Me.valu_level.TabIndex = 0
+        Me.valu_level.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Panel_partyworld
+        '
+        Me.Panel_partyworld.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
+        Me.Panel_partyworld.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel_partyworld.Controls.Add(Me.valu_world)
+        Me.Panel_partyworld.Controls.Add(Me.Select_world)
+        Me.Panel_partyworld.Location = New System.Drawing.Point(44, 18)
+        Me.Panel_partyworld.Name = "Panel_partyworld"
+        Me.Panel_partyworld.Size = New System.Drawing.Size(207, 40)
+        Me.Panel_partyworld.TabIndex = 19
+        Me.Panel_partyworld.TabStop = False
+        Me.Panel_partyworld.Text = "Party is in world"
+        '
+        'valu_world
+        '
+        Me.valu_world.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_world.Location = New System.Drawing.Point(3, 16)
+        Me.valu_world.Name = "valu_world"
+        Me.valu_world.Size = New System.Drawing.Size(36, 16)
+        Me.valu_world.TabIndex = 1
+        Me.valu_world.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Select_world
+        '
+        Me.Select_world.BackColor = System.Drawing.Color.White
+        Me.Select_world.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_world.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_world.FormattingEnabled = True
+        Me.Select_world.Items.AddRange(New Object() {"Greenhorne", "Riverdeep Cavern", "Nightmare Tower", "Neksdor", "Underground Maze", "Great Pyramid", "Realm of the Fey", "Citrus Cave", "Lotus Lake", "Karkaton Ascent", "Karkaton", "Dark Lord's Castle", "Armory", "Inner Passage", "Dark Lord's Throne", "Powdered Peaks", "Peculia", "Peculia Warp (Forest)", "Peculia Warp (Desert)", "Peculia Warp (Castle)", "Nimbus", "Sterile Plant", "The Sky Scraper", "Otherworld", "The Sky Scraper (Entrance)", "Travelers' Hub (Overworld Only)", "Galados Isle (Overworld Only)", "New Lumos", "New Lumos (1st District)", "New Lumos (2nd District)", "New Lumos (3rd District)", "New Lumos (4th District)", "New Lumos (5th District)", "New Lumos (6th District)", "New Lumos (7th District)", "New Lumos (8th District)", "Random Quest (Lotus Lake)", "Random Quest (Pyramid)", "Random Quest (No BG)", "Random Quest (Quizmaster)", "Random Quest (No BG) (2)", "Random Quest (No BG, Split Party)", "Random Quest (No BG) (3)", "Random Quest (No BG) (4)"})
+        Me.Select_world.Location = New System.Drawing.Point(35, 14)
+        Me.Select_world.Name = "Select_world"
+        Me.Select_world.Size = New System.Drawing.Size(170, 21)
+        Me.Select_world.TabIndex = 0
+        '
         'Group_safespot
         '
         Me.Group_safespot.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Group_safespot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Group_safespot.Controls.Add(Me.valu_safespot)
         Me.Group_safespot.Controls.Add(Me.icon_safespot)
-        Me.Group_safespot.Location = New System.Drawing.Point(206, 248)
+        Me.Group_safespot.Location = New System.Drawing.Point(206, 263)
         Me.Group_safespot.Name = "Group_safespot"
         Me.Group_safespot.Size = New System.Drawing.Size(72, 60)
         Me.Group_safespot.TabIndex = 18
@@ -889,7 +1213,7 @@ Partial Class Miitopia_SE
         Me.Info_dragon_map.Cursor = System.Windows.Forms.Cursors.Help
         Me.Info_dragon_map.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Info_dragon_map.ForeColor = System.Drawing.Color.Blue
-        Me.Info_dragon_map.Location = New System.Drawing.Point(355, 286)
+        Me.Info_dragon_map.Location = New System.Drawing.Point(355, 301)
         Me.Info_dragon_map.Name = "Info_dragon_map"
         Me.Info_dragon_map.Size = New System.Drawing.Size(12, 16)
         Me.Info_dragon_map.TabIndex = 16
@@ -899,7 +1223,7 @@ Partial Class Miitopia_SE
         '
         Me.Dragon_map.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Dragon_map.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.mapdragon
-        Me.Dragon_map.Location = New System.Drawing.Point(295, 252)
+        Me.Dragon_map.Location = New System.Drawing.Point(295, 267)
         Me.Dragon_map.Name = "Dragon_map"
         Me.Dragon_map.Size = New System.Drawing.Size(60, 50)
         Me.Dragon_map.TabIndex = 15
@@ -913,7 +1237,7 @@ Partial Class Miitopia_SE
         Me.Group_party.Controls.Add(Me.valu_party)
         Me.Group_party.Controls.Add(Me.PictureBox5)
         Me.Group_party.Controls.Add(Me.icon_party)
-        Me.Group_party.Location = New System.Drawing.Point(44, 248)
+        Me.Group_party.Location = New System.Drawing.Point(44, 263)
         Me.Group_party.Name = "Group_party"
         Me.Group_party.Size = New System.Drawing.Size(142, 60)
         Me.Group_party.TabIndex = 14
@@ -968,7 +1292,7 @@ Partial Class Miitopia_SE
         Me.Panel1.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.miirescued
         Me.Panel1.Controls.Add(Me.valu_rescued)
         Me.Panel1.Controls.Add(Me.Label12)
-        Me.Panel1.Location = New System.Drawing.Point(401, 268)
+        Me.Panel1.Location = New System.Drawing.Point(401, 283)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(122, 20)
         Me.Panel1.TabIndex = 12
@@ -996,11 +1320,11 @@ Partial Class Miitopia_SE
         '
         'Fea_sprinkles
         '
-        Me.Fea_sprinkles.BackgroundImage = CType(resources.GetObject("Fea_sprinkles.BackgroundImage"), System.Drawing.Image)
+        Me.Fea_sprinkles.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
         Me.Fea_sprinkles.Controls.Add(Me.icon_sprinkles)
         Me.Fea_sprinkles.Controls.Add(Me.Bar_sprinkles)
         Me.Fea_sprinkles.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_sprinkles.Location = New System.Drawing.Point(386, 154)
+        Me.Fea_sprinkles.Location = New System.Drawing.Point(386, 169)
         Me.Fea_sprinkles.Name = "Fea_sprinkles"
         Me.Fea_sprinkles.Size = New System.Drawing.Size(94, 76)
         Me.Fea_sprinkles.TabIndex = 8
@@ -1018,7 +1342,7 @@ Partial Class Miitopia_SE
         '
         'Bar_sprinkles
         '
-        Me.Bar_sprinkles.BackgroundImage = CType(resources.GetObject("Bar_sprinkles.BackgroundImage"), System.Drawing.Image)
+        Me.Bar_sprinkles.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
         Me.Bar_sprinkles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Bar_sprinkles.Controls.Add(Me.valu_sprinkles)
         Me.Bar_sprinkles.Cursor = System.Windows.Forms.Cursors.Arrow
@@ -1040,11 +1364,11 @@ Partial Class Miitopia_SE
         '
         'Fea_ticket
         '
-        Me.Fea_ticket.BackgroundImage = CType(resources.GetObject("Fea_ticket.BackgroundImage"), System.Drawing.Image)
+        Me.Fea_ticket.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
         Me.Fea_ticket.Controls.Add(Me.icon_ticket)
         Me.Fea_ticket.Controls.Add(Me.Bar_ticket)
         Me.Fea_ticket.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_ticket.Location = New System.Drawing.Point(272, 154)
+        Me.Fea_ticket.Location = New System.Drawing.Point(272, 169)
         Me.Fea_ticket.Name = "Fea_ticket"
         Me.Fea_ticket.Size = New System.Drawing.Size(94, 76)
         Me.Fea_ticket.TabIndex = 7
@@ -1062,7 +1386,7 @@ Partial Class Miitopia_SE
         '
         'Bar_ticket
         '
-        Me.Bar_ticket.BackgroundImage = CType(resources.GetObject("Bar_ticket.BackgroundImage"), System.Drawing.Image)
+        Me.Bar_ticket.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
         Me.Bar_ticket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Bar_ticket.Controls.Add(Me.valu_ticket)
         Me.Bar_ticket.Cursor = System.Windows.Forms.Cursors.Arrow
@@ -1083,11 +1407,11 @@ Partial Class Miitopia_SE
         '
         'Fea_costamiibo
         '
-        Me.Fea_costamiibo.BackgroundImage = CType(resources.GetObject("Fea_costamiibo.BackgroundImage"), System.Drawing.Image)
+        Me.Fea_costamiibo.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
         Me.Fea_costamiibo.Controls.Add(Me.icon_costamiibo)
         Me.Fea_costamiibo.Controls.Add(Me.Bar_costamiibo)
         Me.Fea_costamiibo.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_costamiibo.Location = New System.Drawing.Point(158, 154)
+        Me.Fea_costamiibo.Location = New System.Drawing.Point(158, 169)
         Me.Fea_costamiibo.Name = "Fea_costamiibo"
         Me.Fea_costamiibo.Size = New System.Drawing.Size(94, 76)
         Me.Fea_costamiibo.TabIndex = 6
@@ -1105,7 +1429,7 @@ Partial Class Miitopia_SE
         '
         'Bar_costamiibo
         '
-        Me.Bar_costamiibo.BackgroundImage = CType(resources.GetObject("Bar_costamiibo.BackgroundImage"), System.Drawing.Image)
+        Me.Bar_costamiibo.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
         Me.Bar_costamiibo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Bar_costamiibo.Controls.Add(Me.valu_costamiibo)
         Me.Bar_costamiibo.Cursor = System.Windows.Forms.Cursors.Arrow
@@ -1127,11 +1451,11 @@ Partial Class Miitopia_SE
         '
         'Fea_allweapons
         '
-        Me.Fea_allweapons.BackgroundImage = CType(resources.GetObject("Fea_allweapons.BackgroundImage"), System.Drawing.Image)
+        Me.Fea_allweapons.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
         Me.Fea_allweapons.Controls.Add(Me.icon_allweapons)
         Me.Fea_allweapons.Controls.Add(Me.Bar_allweapons)
         Me.Fea_allweapons.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_allweapons.Location = New System.Drawing.Point(44, 154)
+        Me.Fea_allweapons.Location = New System.Drawing.Point(44, 169)
         Me.Fea_allweapons.Name = "Fea_allweapons"
         Me.Fea_allweapons.Size = New System.Drawing.Size(94, 76)
         Me.Fea_allweapons.TabIndex = 5
@@ -1149,7 +1473,7 @@ Partial Class Miitopia_SE
         '
         'Bar_allweapons
         '
-        Me.Bar_allweapons.BackgroundImage = CType(resources.GetObject("Bar_allweapons.BackgroundImage"), System.Drawing.Image)
+        Me.Bar_allweapons.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
         Me.Bar_allweapons.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Bar_allweapons.Controls.Add(Me.valu_allweapons)
         Me.Bar_allweapons.Cursor = System.Windows.Forms.Cursors.Arrow
@@ -1171,10 +1495,10 @@ Partial Class Miitopia_SE
         '
         'Fea_foods
         '
-        Me.Fea_foods.BackgroundImage = CType(resources.GetObject("Fea_foods.BackgroundImage"), System.Drawing.Image)
+        Me.Fea_foods.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
         Me.Fea_foods.Controls.Add(Me.icon_foods)
         Me.Fea_foods.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_foods.Location = New System.Drawing.Point(386, 59)
+        Me.Fea_foods.Location = New System.Drawing.Point(386, 74)
         Me.Fea_foods.Name = "Fea_foods"
         Me.Fea_foods.Size = New System.Drawing.Size(94, 76)
         Me.Fea_foods.TabIndex = 4
@@ -1192,11 +1516,11 @@ Partial Class Miitopia_SE
         '
         'Fea_candies
         '
-        Me.Fea_candies.BackgroundImage = CType(resources.GetObject("Fea_candies.BackgroundImage"), System.Drawing.Image)
+        Me.Fea_candies.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
         Me.Fea_candies.Controls.Add(Me.icon_candies)
         Me.Fea_candies.Controls.Add(Me.Bar_candies)
         Me.Fea_candies.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_candies.Location = New System.Drawing.Point(272, 59)
+        Me.Fea_candies.Location = New System.Drawing.Point(272, 74)
         Me.Fea_candies.Name = "Fea_candies"
         Me.Fea_candies.Size = New System.Drawing.Size(94, 76)
         Me.Fea_candies.TabIndex = 3
@@ -1214,7 +1538,7 @@ Partial Class Miitopia_SE
         '
         'Bar_candies
         '
-        Me.Bar_candies.BackgroundImage = CType(resources.GetObject("Bar_candies.BackgroundImage"), System.Drawing.Image)
+        Me.Bar_candies.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
         Me.Bar_candies.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Bar_candies.Controls.Add(Me.PictureBox9)
         Me.Bar_candies.Controls.Add(Me.valu_candies)
@@ -1245,11 +1569,11 @@ Partial Class Miitopia_SE
         '
         'Fea_bananas
         '
-        Me.Fea_bananas.BackgroundImage = CType(resources.GetObject("Fea_bananas.BackgroundImage"), System.Drawing.Image)
+        Me.Fea_bananas.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
         Me.Fea_bananas.Controls.Add(Me.icon_bananas)
         Me.Fea_bananas.Controls.Add(Me.Bar_bananas)
         Me.Fea_bananas.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_bananas.Location = New System.Drawing.Point(158, 59)
+        Me.Fea_bananas.Location = New System.Drawing.Point(158, 74)
         Me.Fea_bananas.Name = "Fea_bananas"
         Me.Fea_bananas.Size = New System.Drawing.Size(94, 76)
         Me.Fea_bananas.TabIndex = 2
@@ -1267,7 +1591,7 @@ Partial Class Miitopia_SE
         '
         'Bar_bananas
         '
-        Me.Bar_bananas.BackgroundImage = CType(resources.GetObject("Bar_bananas.BackgroundImage"), System.Drawing.Image)
+        Me.Bar_bananas.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
         Me.Bar_bananas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Bar_bananas.Controls.Add(Me.PictureBox7)
         Me.Bar_bananas.Controls.Add(Me.valu_bananas)
@@ -1298,11 +1622,11 @@ Partial Class Miitopia_SE
         '
         'Fea_gold
         '
-        Me.Fea_gold.BackgroundImage = CType(resources.GetObject("Fea_gold.BackgroundImage"), System.Drawing.Image)
+        Me.Fea_gold.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
         Me.Fea_gold.Controls.Add(Me.icon_gold)
         Me.Fea_gold.Controls.Add(Me.Bar_gold)
         Me.Fea_gold.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_gold.Location = New System.Drawing.Point(44, 59)
+        Me.Fea_gold.Location = New System.Drawing.Point(44, 74)
         Me.Fea_gold.Name = "Fea_gold"
         Me.Fea_gold.Size = New System.Drawing.Size(94, 76)
         Me.Fea_gold.TabIndex = 1
@@ -1342,6 +1666,7 @@ Partial Class Miitopia_SE
         'TabPage2
         '
         Me.TabPage2.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
+        Me.TabPage2.Controls.Add(Me.TabControl2)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
@@ -1349,6 +1674,1299 @@ Partial Class Miitopia_SE
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Encyclopedia"
         Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'TabControl2
+        '
+        Me.TabControl2.Controls.Add(Me.TabPage3)
+        Me.TabControl2.Controls.Add(Me.TabPage4)
+        Me.TabControl2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TabControl2.Location = New System.Drawing.Point(3, 3)
+        Me.TabControl2.Name = "TabControl2"
+        Me.TabControl2.SelectedIndex = 0
+        Me.TabControl2.Size = New System.Drawing.Size(518, 345)
+        Me.TabControl2.TabIndex = 0
+        '
+        'TabPage3
+        '
+        Me.TabPage3.BackgroundImage = CType(resources.GetObject("TabPage3.BackgroundImage"), System.Drawing.Image)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_elf)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_cat)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_scientist)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_flower)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_princess)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_imp)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_tank)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_chef)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_vampire)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_popstar)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_thief)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_cleric)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_mage)
+        Me.TabPage3.Controls.Add(Me.Fea_wp_warrior)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(510, 319)
+        Me.TabPage3.TabIndex = 0
+        Me.TabPage3.Text = "Weapons"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'Fea_wp_elf
+        '
+        Me.Fea_wp_elf.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_elf.Controls.Add(Me.Icon_wp_elf)
+        Me.Fea_wp_elf.Controls.Add(Me.Bar_wp_elf)
+        Me.Fea_wp_elf.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_elf.Location = New System.Drawing.Point(365, 206)
+        Me.Fea_wp_elf.Name = "Fea_wp_elf"
+        Me.Fea_wp_elf.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_elf.TabIndex = 36
+        '
+        'Icon_wp_elf
+        '
+        Me.Icon_wp_elf.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.elfe
+        Me.Icon_wp_elf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_elf.Enabled = False
+        Me.Icon_wp_elf.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_elf.Name = "Icon_wp_elf"
+        Me.Icon_wp_elf.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_elf.TabIndex = 1
+        Me.Icon_wp_elf.TabStop = False
+        '
+        'Bar_wp_elf
+        '
+        Me.Bar_wp_elf.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_elf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_elf.Controls.Add(Me.valu_wp_elf)
+        Me.Bar_wp_elf.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_elf.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_elf.Name = "Bar_wp_elf"
+        Me.Bar_wp_elf.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_elf.TabIndex = 0
+        Me.Bar_wp_elf.Visible = False
+        '
+        'valu_wp_elf
+        '
+        Me.valu_wp_elf.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_elf.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_elf.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_elf.Name = "valu_wp_elf"
+        Me.valu_wp_elf.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_elf.TabIndex = 5
+        Me.valu_wp_elf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_wp_cat
+        '
+        Me.Fea_wp_cat.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_cat.Controls.Add(Me.Icon_wp_cat)
+        Me.Fea_wp_cat.Controls.Add(Me.Bar_wp_cat)
+        Me.Fea_wp_cat.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_cat.Location = New System.Drawing.Point(265, 206)
+        Me.Fea_wp_cat.Name = "Fea_wp_cat"
+        Me.Fea_wp_cat.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_cat.TabIndex = 35
+        '
+        'Icon_wp_cat
+        '
+        Me.Icon_wp_cat.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Felin
+        Me.Icon_wp_cat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_cat.Enabled = False
+        Me.Icon_wp_cat.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_cat.Name = "Icon_wp_cat"
+        Me.Icon_wp_cat.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_cat.TabIndex = 1
+        Me.Icon_wp_cat.TabStop = False
+        '
+        'Bar_wp_cat
+        '
+        Me.Bar_wp_cat.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_cat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_cat.Controls.Add(Me.valu_wp_cat)
+        Me.Bar_wp_cat.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_cat.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_cat.Name = "Bar_wp_cat"
+        Me.Bar_wp_cat.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_cat.TabIndex = 0
+        Me.Bar_wp_cat.Visible = False
+        '
+        'valu_wp_cat
+        '
+        Me.valu_wp_cat.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_cat.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_cat.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_cat.Name = "valu_wp_cat"
+        Me.valu_wp_cat.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_cat.TabIndex = 5
+        Me.valu_wp_cat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_wp_scientist
+        '
+        Me.Fea_wp_scientist.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_scientist.Controls.Add(Me.Icon_wp_scientist)
+        Me.Fea_wp_scientist.Controls.Add(Me.Bar_wp_scientist)
+        Me.Fea_wp_scientist.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_scientist.Location = New System.Drawing.Point(165, 206)
+        Me.Fea_wp_scientist.Name = "Fea_wp_scientist"
+        Me.Fea_wp_scientist.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_scientist.TabIndex = 34
+        '
+        'Icon_wp_scientist
+        '
+        Me.Icon_wp_scientist.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Scientifique
+        Me.Icon_wp_scientist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_scientist.Enabled = False
+        Me.Icon_wp_scientist.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_scientist.Name = "Icon_wp_scientist"
+        Me.Icon_wp_scientist.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_scientist.TabIndex = 1
+        Me.Icon_wp_scientist.TabStop = False
+        '
+        'Bar_wp_scientist
+        '
+        Me.Bar_wp_scientist.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_scientist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_scientist.Controls.Add(Me.valu_wp_scientist)
+        Me.Bar_wp_scientist.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_scientist.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_scientist.Name = "Bar_wp_scientist"
+        Me.Bar_wp_scientist.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_scientist.TabIndex = 0
+        Me.Bar_wp_scientist.Visible = False
+        '
+        'valu_wp_scientist
+        '
+        Me.valu_wp_scientist.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_scientist.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_scientist.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_scientist.Name = "valu_wp_scientist"
+        Me.valu_wp_scientist.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_scientist.TabIndex = 5
+        Me.valu_wp_scientist.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_wp_flower
+        '
+        Me.Fea_wp_flower.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_flower.Controls.Add(Me.Icon_wp_flower)
+        Me.Fea_wp_flower.Controls.Add(Me.Bar_wp_flower)
+        Me.Fea_wp_flower.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_flower.Location = New System.Drawing.Point(65, 206)
+        Me.Fea_wp_flower.Name = "Fea_wp_flower"
+        Me.Fea_wp_flower.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_flower.TabIndex = 33
+        '
+        'Icon_wp_flower
+        '
+        Me.Icon_wp_flower.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Fleur
+        Me.Icon_wp_flower.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_flower.Enabled = False
+        Me.Icon_wp_flower.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_flower.Name = "Icon_wp_flower"
+        Me.Icon_wp_flower.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_flower.TabIndex = 1
+        Me.Icon_wp_flower.TabStop = False
+        '
+        'Bar_wp_flower
+        '
+        Me.Bar_wp_flower.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_flower.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_flower.Controls.Add(Me.valu_wp_flower)
+        Me.Bar_wp_flower.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_flower.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_flower.Name = "Bar_wp_flower"
+        Me.Bar_wp_flower.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_flower.TabIndex = 0
+        Me.Bar_wp_flower.Visible = False
+        '
+        'valu_wp_flower
+        '
+        Me.valu_wp_flower.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_flower.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_flower.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_flower.Name = "valu_wp_flower"
+        Me.valu_wp_flower.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_flower.TabIndex = 5
+        Me.valu_wp_flower.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_wp_princess
+        '
+        Me.Fea_wp_princess.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_princess.Controls.Add(Me.Icon_wp_princess)
+        Me.Fea_wp_princess.Controls.Add(Me.Bar_wp_princess)
+        Me.Fea_wp_princess.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_princess.Location = New System.Drawing.Point(408, 123)
+        Me.Fea_wp_princess.Name = "Fea_wp_princess"
+        Me.Fea_wp_princess.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_princess.TabIndex = 32
+        '
+        'Icon_wp_princess
+        '
+        Me.Icon_wp_princess.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Princesse
+        Me.Icon_wp_princess.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_princess.Enabled = False
+        Me.Icon_wp_princess.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_princess.Name = "Icon_wp_princess"
+        Me.Icon_wp_princess.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_princess.TabIndex = 1
+        Me.Icon_wp_princess.TabStop = False
+        '
+        'Bar_wp_princess
+        '
+        Me.Bar_wp_princess.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_princess.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_princess.Controls.Add(Me.valu_wp_princess)
+        Me.Bar_wp_princess.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_princess.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_princess.Name = "Bar_wp_princess"
+        Me.Bar_wp_princess.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_princess.TabIndex = 0
+        Me.Bar_wp_princess.Visible = False
+        '
+        'valu_wp_princess
+        '
+        Me.valu_wp_princess.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_princess.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_princess.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_princess.Name = "valu_wp_princess"
+        Me.valu_wp_princess.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_princess.TabIndex = 5
+        Me.valu_wp_princess.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_wp_imp
+        '
+        Me.Fea_wp_imp.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_imp.Controls.Add(Me.Icon_wp_imp)
+        Me.Fea_wp_imp.Controls.Add(Me.Bar_wp_imp)
+        Me.Fea_wp_imp.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_imp.Location = New System.Drawing.Point(308, 123)
+        Me.Fea_wp_imp.Name = "Fea_wp_imp"
+        Me.Fea_wp_imp.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_imp.TabIndex = 31
+        '
+        'Icon_wp_imp
+        '
+        Me.Icon_wp_imp.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Diablotin
+        Me.Icon_wp_imp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_imp.Enabled = False
+        Me.Icon_wp_imp.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_imp.Name = "Icon_wp_imp"
+        Me.Icon_wp_imp.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_imp.TabIndex = 1
+        Me.Icon_wp_imp.TabStop = False
+        '
+        'Bar_wp_imp
+        '
+        Me.Bar_wp_imp.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_imp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_imp.Controls.Add(Me.valu_wp_imp)
+        Me.Bar_wp_imp.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_imp.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_imp.Name = "Bar_wp_imp"
+        Me.Bar_wp_imp.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_imp.TabIndex = 0
+        Me.Bar_wp_imp.Visible = False
+        '
+        'valu_wp_imp
+        '
+        Me.valu_wp_imp.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_imp.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_imp.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_imp.Name = "valu_wp_imp"
+        Me.valu_wp_imp.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_imp.TabIndex = 5
+        Me.valu_wp_imp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_wp_tank
+        '
+        Me.Fea_wp_tank.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_tank.Controls.Add(Me.Icon_wp_tank)
+        Me.Fea_wp_tank.Controls.Add(Me.Bar_wp_tank)
+        Me.Fea_wp_tank.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_tank.Location = New System.Drawing.Point(208, 123)
+        Me.Fea_wp_tank.Name = "Fea_wp_tank"
+        Me.Fea_wp_tank.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_tank.TabIndex = 30
+        '
+        'Icon_wp_tank
+        '
+        Me.Icon_wp_tank.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Tank
+        Me.Icon_wp_tank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_tank.Enabled = False
+        Me.Icon_wp_tank.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_tank.Name = "Icon_wp_tank"
+        Me.Icon_wp_tank.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_tank.TabIndex = 1
+        Me.Icon_wp_tank.TabStop = False
+        '
+        'Bar_wp_tank
+        '
+        Me.Bar_wp_tank.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_tank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_tank.Controls.Add(Me.valu_wp_tank)
+        Me.Bar_wp_tank.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_tank.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_tank.Name = "Bar_wp_tank"
+        Me.Bar_wp_tank.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_tank.TabIndex = 0
+        Me.Bar_wp_tank.Visible = False
+        '
+        'valu_wp_tank
+        '
+        Me.valu_wp_tank.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_tank.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_tank.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_tank.Name = "valu_wp_tank"
+        Me.valu_wp_tank.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_tank.TabIndex = 5
+        Me.valu_wp_tank.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_wp_chef
+        '
+        Me.Fea_wp_chef.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_chef.Controls.Add(Me.Icon_wp_chef)
+        Me.Fea_wp_chef.Controls.Add(Me.Bar_wp_chef)
+        Me.Fea_wp_chef.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_chef.Location = New System.Drawing.Point(108, 123)
+        Me.Fea_wp_chef.Name = "Fea_wp_chef"
+        Me.Fea_wp_chef.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_chef.TabIndex = 29
+        '
+        'Icon_wp_chef
+        '
+        Me.Icon_wp_chef.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Cuisinier
+        Me.Icon_wp_chef.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_chef.Enabled = False
+        Me.Icon_wp_chef.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_chef.Name = "Icon_wp_chef"
+        Me.Icon_wp_chef.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_chef.TabIndex = 1
+        Me.Icon_wp_chef.TabStop = False
+        '
+        'Bar_wp_chef
+        '
+        Me.Bar_wp_chef.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_chef.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_chef.Controls.Add(Me.valu_wp_chef)
+        Me.Bar_wp_chef.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_chef.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_chef.Name = "Bar_wp_chef"
+        Me.Bar_wp_chef.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_chef.TabIndex = 0
+        Me.Bar_wp_chef.Visible = False
+        '
+        'valu_wp_chef
+        '
+        Me.valu_wp_chef.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_chef.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_chef.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_chef.Name = "valu_wp_chef"
+        Me.valu_wp_chef.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_chef.TabIndex = 5
+        Me.valu_wp_chef.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_wp_vampire
+        '
+        Me.Fea_wp_vampire.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_vampire.Controls.Add(Me.Icon_wp_vampire)
+        Me.Fea_wp_vampire.Controls.Add(Me.Bar_wp_vampire)
+        Me.Fea_wp_vampire.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_vampire.Location = New System.Drawing.Point(8, 123)
+        Me.Fea_wp_vampire.Name = "Fea_wp_vampire"
+        Me.Fea_wp_vampire.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_vampire.TabIndex = 28
+        '
+        'Icon_wp_vampire
+        '
+        Me.Icon_wp_vampire.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Vampire
+        Me.Icon_wp_vampire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_vampire.Enabled = False
+        Me.Icon_wp_vampire.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_vampire.Name = "Icon_wp_vampire"
+        Me.Icon_wp_vampire.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_vampire.TabIndex = 1
+        Me.Icon_wp_vampire.TabStop = False
+        '
+        'Bar_wp_vampire
+        '
+        Me.Bar_wp_vampire.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_vampire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_vampire.Controls.Add(Me.valu_wp_vampire)
+        Me.Bar_wp_vampire.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_vampire.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_vampire.Name = "Bar_wp_vampire"
+        Me.Bar_wp_vampire.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_vampire.TabIndex = 0
+        Me.Bar_wp_vampire.Visible = False
+        '
+        'valu_wp_vampire
+        '
+        Me.valu_wp_vampire.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_vampire.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_vampire.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_vampire.Name = "valu_wp_vampire"
+        Me.valu_wp_vampire.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_vampire.TabIndex = 5
+        Me.valu_wp_vampire.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_wp_popstar
+        '
+        Me.Fea_wp_popstar.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_popstar.Controls.Add(Me.Icon_wp_popstar)
+        Me.Fea_wp_popstar.Controls.Add(Me.Bar_wp_popstar)
+        Me.Fea_wp_popstar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_popstar.Location = New System.Drawing.Point(408, 38)
+        Me.Fea_wp_popstar.Name = "Fea_wp_popstar"
+        Me.Fea_wp_popstar.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_popstar.TabIndex = 27
+        '
+        'Icon_wp_popstar
+        '
+        Me.Icon_wp_popstar.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Chanteur
+        Me.Icon_wp_popstar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_popstar.Enabled = False
+        Me.Icon_wp_popstar.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_popstar.Name = "Icon_wp_popstar"
+        Me.Icon_wp_popstar.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_popstar.TabIndex = 1
+        Me.Icon_wp_popstar.TabStop = False
+        '
+        'Bar_wp_popstar
+        '
+        Me.Bar_wp_popstar.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_popstar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_popstar.Controls.Add(Me.valu_wp_popstar)
+        Me.Bar_wp_popstar.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_popstar.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_popstar.Name = "Bar_wp_popstar"
+        Me.Bar_wp_popstar.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_popstar.TabIndex = 0
+        Me.Bar_wp_popstar.Visible = False
+        '
+        'valu_wp_popstar
+        '
+        Me.valu_wp_popstar.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_popstar.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_popstar.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_popstar.Name = "valu_wp_popstar"
+        Me.valu_wp_popstar.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_popstar.TabIndex = 5
+        Me.valu_wp_popstar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_wp_thief
+        '
+        Me.Fea_wp_thief.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_thief.Controls.Add(Me.Icon_wp_thief)
+        Me.Fea_wp_thief.Controls.Add(Me.Bar_wp_thief)
+        Me.Fea_wp_thief.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_thief.Location = New System.Drawing.Point(308, 38)
+        Me.Fea_wp_thief.Name = "Fea_wp_thief"
+        Me.Fea_wp_thief.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_thief.TabIndex = 26
+        '
+        'Icon_wp_thief
+        '
+        Me.Icon_wp_thief.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Voleur
+        Me.Icon_wp_thief.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_thief.Enabled = False
+        Me.Icon_wp_thief.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_thief.Name = "Icon_wp_thief"
+        Me.Icon_wp_thief.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_thief.TabIndex = 1
+        Me.Icon_wp_thief.TabStop = False
+        '
+        'Bar_wp_thief
+        '
+        Me.Bar_wp_thief.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_thief.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_thief.Controls.Add(Me.valu_wp_thief)
+        Me.Bar_wp_thief.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_thief.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_thief.Name = "Bar_wp_thief"
+        Me.Bar_wp_thief.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_thief.TabIndex = 0
+        Me.Bar_wp_thief.Visible = False
+        '
+        'valu_wp_thief
+        '
+        Me.valu_wp_thief.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_thief.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_thief.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_thief.Name = "valu_wp_thief"
+        Me.valu_wp_thief.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_thief.TabIndex = 5
+        Me.valu_wp_thief.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_wp_cleric
+        '
+        Me.Fea_wp_cleric.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_cleric.Controls.Add(Me.Icon_wp_cleric)
+        Me.Fea_wp_cleric.Controls.Add(Me.Bar_wp_cleric)
+        Me.Fea_wp_cleric.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_cleric.Location = New System.Drawing.Point(208, 38)
+        Me.Fea_wp_cleric.Name = "Fea_wp_cleric"
+        Me.Fea_wp_cleric.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_cleric.TabIndex = 25
+        '
+        'Icon_wp_cleric
+        '
+        Me.Icon_wp_cleric.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Pretre
+        Me.Icon_wp_cleric.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_cleric.Enabled = False
+        Me.Icon_wp_cleric.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_cleric.Name = "Icon_wp_cleric"
+        Me.Icon_wp_cleric.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_cleric.TabIndex = 1
+        Me.Icon_wp_cleric.TabStop = False
+        '
+        'Bar_wp_cleric
+        '
+        Me.Bar_wp_cleric.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_cleric.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_cleric.Controls.Add(Me.valu_wp_cleric)
+        Me.Bar_wp_cleric.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_cleric.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_cleric.Name = "Bar_wp_cleric"
+        Me.Bar_wp_cleric.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_cleric.TabIndex = 0
+        Me.Bar_wp_cleric.Visible = False
+        '
+        'valu_wp_cleric
+        '
+        Me.valu_wp_cleric.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_cleric.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_cleric.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_cleric.Name = "valu_wp_cleric"
+        Me.valu_wp_cleric.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_cleric.TabIndex = 5
+        Me.valu_wp_cleric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_wp_mage
+        '
+        Me.Fea_wp_mage.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_mage.Controls.Add(Me.Icon_wp_mage)
+        Me.Fea_wp_mage.Controls.Add(Me.Bar_wp_mage)
+        Me.Fea_wp_mage.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_mage.Location = New System.Drawing.Point(108, 38)
+        Me.Fea_wp_mage.Name = "Fea_wp_mage"
+        Me.Fea_wp_mage.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_mage.TabIndex = 24
+        '
+        'Icon_wp_mage
+        '
+        Me.Icon_wp_mage.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Mage
+        Me.Icon_wp_mage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_mage.Enabled = False
+        Me.Icon_wp_mage.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_mage.Name = "Icon_wp_mage"
+        Me.Icon_wp_mage.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_mage.TabIndex = 1
+        Me.Icon_wp_mage.TabStop = False
+        '
+        'Bar_wp_mage
+        '
+        Me.Bar_wp_mage.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_mage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_mage.Controls.Add(Me.valu_wp_mage)
+        Me.Bar_wp_mage.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_mage.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_mage.Name = "Bar_wp_mage"
+        Me.Bar_wp_mage.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_mage.TabIndex = 0
+        Me.Bar_wp_mage.Visible = False
+        '
+        'valu_wp_mage
+        '
+        Me.valu_wp_mage.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_mage.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_mage.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_mage.Name = "valu_wp_mage"
+        Me.valu_wp_mage.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_mage.TabIndex = 5
+        Me.valu_wp_mage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_wp_warrior
+        '
+        Me.Fea_wp_warrior.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_wp_warrior.Controls.Add(Me.Icon_wp_warrior)
+        Me.Fea_wp_warrior.Controls.Add(Me.Bar_wp_warrior)
+        Me.Fea_wp_warrior.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_wp_warrior.Location = New System.Drawing.Point(8, 38)
+        Me.Fea_wp_warrior.Name = "Fea_wp_warrior"
+        Me.Fea_wp_warrior.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_wp_warrior.TabIndex = 23
+        '
+        'Icon_wp_warrior
+        '
+        Me.Icon_wp_warrior.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Guerrier
+        Me.Icon_wp_warrior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_wp_warrior.Enabled = False
+        Me.Icon_wp_warrior.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_wp_warrior.Name = "Icon_wp_warrior"
+        Me.Icon_wp_warrior.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_wp_warrior.TabIndex = 1
+        Me.Icon_wp_warrior.TabStop = False
+        '
+        'Bar_wp_warrior
+        '
+        Me.Bar_wp_warrior.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_wp_warrior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_wp_warrior.Controls.Add(Me.valu_wp_warrior)
+        Me.Bar_wp_warrior.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_wp_warrior.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_wp_warrior.Name = "Bar_wp_warrior"
+        Me.Bar_wp_warrior.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_wp_warrior.TabIndex = 0
+        Me.Bar_wp_warrior.Visible = False
+        '
+        'valu_wp_warrior
+        '
+        Me.valu_wp_warrior.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_wp_warrior.Location = New System.Drawing.Point(8, 1)
+        Me.valu_wp_warrior.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_wp_warrior.Name = "valu_wp_warrior"
+        Me.valu_wp_warrior.Size = New System.Drawing.Size(79, 16)
+        Me.valu_wp_warrior.TabIndex = 5
+        Me.valu_wp_warrior.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TabPage4
+        '
+        Me.TabPage4.BackgroundImage = CType(resources.GetObject("TabPage4.BackgroundImage"), System.Drawing.Image)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_elf)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_cat)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_scientist)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_flower)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_princess)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_imp)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_tank)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_chef)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_vampire)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_popstar)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_thief)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_cleric)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_mage)
+        Me.TabPage4.Controls.Add(Me.Fea_ct_warrior)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage4.Size = New System.Drawing.Size(510, 319)
+        Me.TabPage4.TabIndex = 1
+        Me.TabPage4.Text = "Costumes"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'Fea_ct_elf
+        '
+        Me.Fea_ct_elf.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_elf.Controls.Add(Me.Icon_ct_elf)
+        Me.Fea_ct_elf.Controls.Add(Me.Bar_ct_elf)
+        Me.Fea_ct_elf.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_elf.Location = New System.Drawing.Point(365, 206)
+        Me.Fea_ct_elf.Name = "Fea_ct_elf"
+        Me.Fea_ct_elf.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_elf.TabIndex = 36
+        '
+        'Icon_ct_elf
+        '
+        Me.Icon_ct_elf.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.elfe
+        Me.Icon_ct_elf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_elf.Enabled = False
+        Me.Icon_ct_elf.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_elf.Name = "Icon_ct_elf"
+        Me.Icon_ct_elf.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_elf.TabIndex = 1
+        Me.Icon_ct_elf.TabStop = False
+        '
+        'Bar_ct_elf
+        '
+        Me.Bar_ct_elf.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_elf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_elf.Controls.Add(Me.valu_ct_elf)
+        Me.Bar_ct_elf.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_elf.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_elf.Name = "Bar_ct_elf"
+        Me.Bar_ct_elf.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_elf.TabIndex = 0
+        Me.Bar_ct_elf.Visible = False
+        '
+        'valu_ct_elf
+        '
+        Me.valu_ct_elf.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_elf.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_elf.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_elf.Name = "valu_ct_elf"
+        Me.valu_ct_elf.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_elf.TabIndex = 5
+        Me.valu_ct_elf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_ct_cat
+        '
+        Me.Fea_ct_cat.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_cat.Controls.Add(Me.Icon_ct_cat)
+        Me.Fea_ct_cat.Controls.Add(Me.Bar_ct_cat)
+        Me.Fea_ct_cat.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_cat.Location = New System.Drawing.Point(265, 206)
+        Me.Fea_ct_cat.Name = "Fea_ct_cat"
+        Me.Fea_ct_cat.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_cat.TabIndex = 35
+        '
+        'Icon_ct_cat
+        '
+        Me.Icon_ct_cat.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Felin
+        Me.Icon_ct_cat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_cat.Enabled = False
+        Me.Icon_ct_cat.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_cat.Name = "Icon_ct_cat"
+        Me.Icon_ct_cat.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_cat.TabIndex = 1
+        Me.Icon_ct_cat.TabStop = False
+        '
+        'Bar_ct_cat
+        '
+        Me.Bar_ct_cat.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_cat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_cat.Controls.Add(Me.valu_ct_cat)
+        Me.Bar_ct_cat.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_cat.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_cat.Name = "Bar_ct_cat"
+        Me.Bar_ct_cat.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_cat.TabIndex = 0
+        Me.Bar_ct_cat.Visible = False
+        '
+        'valu_ct_cat
+        '
+        Me.valu_ct_cat.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_cat.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_cat.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_cat.Name = "valu_ct_cat"
+        Me.valu_ct_cat.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_cat.TabIndex = 5
+        Me.valu_ct_cat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_ct_scientist
+        '
+        Me.Fea_ct_scientist.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_scientist.Controls.Add(Me.Icon_ct_scientist)
+        Me.Fea_ct_scientist.Controls.Add(Me.Bar_ct_scientist)
+        Me.Fea_ct_scientist.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_scientist.Location = New System.Drawing.Point(165, 206)
+        Me.Fea_ct_scientist.Name = "Fea_ct_scientist"
+        Me.Fea_ct_scientist.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_scientist.TabIndex = 34
+        '
+        'Icon_ct_scientist
+        '
+        Me.Icon_ct_scientist.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Scientifique
+        Me.Icon_ct_scientist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_scientist.Enabled = False
+        Me.Icon_ct_scientist.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_scientist.Name = "Icon_ct_scientist"
+        Me.Icon_ct_scientist.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_scientist.TabIndex = 1
+        Me.Icon_ct_scientist.TabStop = False
+        '
+        'Bar_ct_scientist
+        '
+        Me.Bar_ct_scientist.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_scientist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_scientist.Controls.Add(Me.valu_ct_scientist)
+        Me.Bar_ct_scientist.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_scientist.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_scientist.Name = "Bar_ct_scientist"
+        Me.Bar_ct_scientist.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_scientist.TabIndex = 0
+        Me.Bar_ct_scientist.Visible = False
+        '
+        'valu_ct_scientist
+        '
+        Me.valu_ct_scientist.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_scientist.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_scientist.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_scientist.Name = "valu_ct_scientist"
+        Me.valu_ct_scientist.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_scientist.TabIndex = 5
+        Me.valu_ct_scientist.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_ct_flower
+        '
+        Me.Fea_ct_flower.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_flower.Controls.Add(Me.Icon_ct_flower)
+        Me.Fea_ct_flower.Controls.Add(Me.Bar_ct_flower)
+        Me.Fea_ct_flower.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_flower.Location = New System.Drawing.Point(65, 206)
+        Me.Fea_ct_flower.Name = "Fea_ct_flower"
+        Me.Fea_ct_flower.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_flower.TabIndex = 33
+        '
+        'Icon_ct_flower
+        '
+        Me.Icon_ct_flower.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Fleur
+        Me.Icon_ct_flower.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_flower.Enabled = False
+        Me.Icon_ct_flower.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_flower.Name = "Icon_ct_flower"
+        Me.Icon_ct_flower.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_flower.TabIndex = 1
+        Me.Icon_ct_flower.TabStop = False
+        '
+        'Bar_ct_flower
+        '
+        Me.Bar_ct_flower.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_flower.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_flower.Controls.Add(Me.valu_ct_flower)
+        Me.Bar_ct_flower.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_flower.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_flower.Name = "Bar_ct_flower"
+        Me.Bar_ct_flower.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_flower.TabIndex = 0
+        Me.Bar_ct_flower.Visible = False
+        '
+        'valu_ct_flower
+        '
+        Me.valu_ct_flower.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_flower.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_flower.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_flower.Name = "valu_ct_flower"
+        Me.valu_ct_flower.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_flower.TabIndex = 5
+        Me.valu_ct_flower.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_ct_princess
+        '
+        Me.Fea_ct_princess.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_princess.Controls.Add(Me.Icon_ct_princess)
+        Me.Fea_ct_princess.Controls.Add(Me.Bar_ct_princess)
+        Me.Fea_ct_princess.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_princess.Location = New System.Drawing.Point(408, 123)
+        Me.Fea_ct_princess.Name = "Fea_ct_princess"
+        Me.Fea_ct_princess.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_princess.TabIndex = 32
+        '
+        'Icon_ct_princess
+        '
+        Me.Icon_ct_princess.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Princesse
+        Me.Icon_ct_princess.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_princess.Enabled = False
+        Me.Icon_ct_princess.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_princess.Name = "Icon_ct_princess"
+        Me.Icon_ct_princess.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_princess.TabIndex = 1
+        Me.Icon_ct_princess.TabStop = False
+        '
+        'Bar_ct_princess
+        '
+        Me.Bar_ct_princess.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_princess.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_princess.Controls.Add(Me.valu_ct_princess)
+        Me.Bar_ct_princess.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_princess.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_princess.Name = "Bar_ct_princess"
+        Me.Bar_ct_princess.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_princess.TabIndex = 0
+        Me.Bar_ct_princess.Visible = False
+        '
+        'valu_ct_princess
+        '
+        Me.valu_ct_princess.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_princess.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_princess.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_princess.Name = "valu_ct_princess"
+        Me.valu_ct_princess.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_princess.TabIndex = 5
+        Me.valu_ct_princess.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_ct_imp
+        '
+        Me.Fea_ct_imp.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_imp.Controls.Add(Me.Icon_ct_imp)
+        Me.Fea_ct_imp.Controls.Add(Me.Bar_ct_imp)
+        Me.Fea_ct_imp.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_imp.Location = New System.Drawing.Point(308, 123)
+        Me.Fea_ct_imp.Name = "Fea_ct_imp"
+        Me.Fea_ct_imp.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_imp.TabIndex = 31
+        '
+        'Icon_ct_imp
+        '
+        Me.Icon_ct_imp.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Diablotin
+        Me.Icon_ct_imp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_imp.Enabled = False
+        Me.Icon_ct_imp.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_imp.Name = "Icon_ct_imp"
+        Me.Icon_ct_imp.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_imp.TabIndex = 1
+        Me.Icon_ct_imp.TabStop = False
+        '
+        'Bar_ct_imp
+        '
+        Me.Bar_ct_imp.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_imp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_imp.Controls.Add(Me.valu_ct_imp)
+        Me.Bar_ct_imp.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_imp.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_imp.Name = "Bar_ct_imp"
+        Me.Bar_ct_imp.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_imp.TabIndex = 0
+        Me.Bar_ct_imp.Visible = False
+        '
+        'valu_ct_imp
+        '
+        Me.valu_ct_imp.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_imp.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_imp.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_imp.Name = "valu_ct_imp"
+        Me.valu_ct_imp.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_imp.TabIndex = 5
+        Me.valu_ct_imp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_ct_tank
+        '
+        Me.Fea_ct_tank.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_tank.Controls.Add(Me.Icon_ct_tank)
+        Me.Fea_ct_tank.Controls.Add(Me.Bar_ct_tank)
+        Me.Fea_ct_tank.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_tank.Location = New System.Drawing.Point(208, 123)
+        Me.Fea_ct_tank.Name = "Fea_ct_tank"
+        Me.Fea_ct_tank.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_tank.TabIndex = 30
+        '
+        'Icon_ct_tank
+        '
+        Me.Icon_ct_tank.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Tank
+        Me.Icon_ct_tank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_tank.Enabled = False
+        Me.Icon_ct_tank.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_tank.Name = "Icon_ct_tank"
+        Me.Icon_ct_tank.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_tank.TabIndex = 1
+        Me.Icon_ct_tank.TabStop = False
+        '
+        'Bar_ct_tank
+        '
+        Me.Bar_ct_tank.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_tank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_tank.Controls.Add(Me.valu_ct_tank)
+        Me.Bar_ct_tank.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_tank.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_tank.Name = "Bar_ct_tank"
+        Me.Bar_ct_tank.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_tank.TabIndex = 0
+        Me.Bar_ct_tank.Visible = False
+        '
+        'valu_ct_tank
+        '
+        Me.valu_ct_tank.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_tank.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_tank.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_tank.Name = "valu_ct_tank"
+        Me.valu_ct_tank.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_tank.TabIndex = 5
+        Me.valu_ct_tank.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_ct_chef
+        '
+        Me.Fea_ct_chef.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_chef.Controls.Add(Me.Icon_ct_chef)
+        Me.Fea_ct_chef.Controls.Add(Me.Bar_ct_chef)
+        Me.Fea_ct_chef.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_chef.Location = New System.Drawing.Point(108, 123)
+        Me.Fea_ct_chef.Name = "Fea_ct_chef"
+        Me.Fea_ct_chef.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_chef.TabIndex = 29
+        '
+        'Icon_ct_chef
+        '
+        Me.Icon_ct_chef.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Cuisinier
+        Me.Icon_ct_chef.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_chef.Enabled = False
+        Me.Icon_ct_chef.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_chef.Name = "Icon_ct_chef"
+        Me.Icon_ct_chef.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_chef.TabIndex = 1
+        Me.Icon_ct_chef.TabStop = False
+        '
+        'Bar_ct_chef
+        '
+        Me.Bar_ct_chef.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_chef.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_chef.Controls.Add(Me.valu_ct_chef)
+        Me.Bar_ct_chef.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_chef.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_chef.Name = "Bar_ct_chef"
+        Me.Bar_ct_chef.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_chef.TabIndex = 0
+        Me.Bar_ct_chef.Visible = False
+        '
+        'valu_ct_chef
+        '
+        Me.valu_ct_chef.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_chef.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_chef.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_chef.Name = "valu_ct_chef"
+        Me.valu_ct_chef.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_chef.TabIndex = 5
+        Me.valu_ct_chef.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_ct_vampire
+        '
+        Me.Fea_ct_vampire.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_vampire.Controls.Add(Me.Icon_ct_vampire)
+        Me.Fea_ct_vampire.Controls.Add(Me.Bar_ct_vampire)
+        Me.Fea_ct_vampire.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_vampire.Location = New System.Drawing.Point(8, 123)
+        Me.Fea_ct_vampire.Name = "Fea_ct_vampire"
+        Me.Fea_ct_vampire.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_vampire.TabIndex = 28
+        '
+        'Icon_ct_vampire
+        '
+        Me.Icon_ct_vampire.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Vampire
+        Me.Icon_ct_vampire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_vampire.Enabled = False
+        Me.Icon_ct_vampire.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_vampire.Name = "Icon_ct_vampire"
+        Me.Icon_ct_vampire.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_vampire.TabIndex = 1
+        Me.Icon_ct_vampire.TabStop = False
+        '
+        'Bar_ct_vampire
+        '
+        Me.Bar_ct_vampire.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_vampire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_vampire.Controls.Add(Me.valu_ct_vampire)
+        Me.Bar_ct_vampire.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_vampire.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_vampire.Name = "Bar_ct_vampire"
+        Me.Bar_ct_vampire.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_vampire.TabIndex = 0
+        Me.Bar_ct_vampire.Visible = False
+        '
+        'valu_ct_vampire
+        '
+        Me.valu_ct_vampire.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_vampire.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_vampire.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_vampire.Name = "valu_ct_vampire"
+        Me.valu_ct_vampire.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_vampire.TabIndex = 5
+        Me.valu_ct_vampire.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_ct_popstar
+        '
+        Me.Fea_ct_popstar.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_popstar.Controls.Add(Me.Icon_ct_popstar)
+        Me.Fea_ct_popstar.Controls.Add(Me.Bar_ct_popstar)
+        Me.Fea_ct_popstar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_popstar.Location = New System.Drawing.Point(408, 38)
+        Me.Fea_ct_popstar.Name = "Fea_ct_popstar"
+        Me.Fea_ct_popstar.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_popstar.TabIndex = 27
+        '
+        'Icon_ct_popstar
+        '
+        Me.Icon_ct_popstar.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Chanteur
+        Me.Icon_ct_popstar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_popstar.Enabled = False
+        Me.Icon_ct_popstar.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_popstar.Name = "Icon_ct_popstar"
+        Me.Icon_ct_popstar.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_popstar.TabIndex = 1
+        Me.Icon_ct_popstar.TabStop = False
+        '
+        'Bar_ct_popstar
+        '
+        Me.Bar_ct_popstar.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_popstar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_popstar.Controls.Add(Me.valu_ct_popstar)
+        Me.Bar_ct_popstar.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_popstar.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_popstar.Name = "Bar_ct_popstar"
+        Me.Bar_ct_popstar.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_popstar.TabIndex = 0
+        Me.Bar_ct_popstar.Visible = False
+        '
+        'valu_ct_popstar
+        '
+        Me.valu_ct_popstar.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_popstar.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_popstar.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_popstar.Name = "valu_ct_popstar"
+        Me.valu_ct_popstar.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_popstar.TabIndex = 5
+        Me.valu_ct_popstar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_ct_thief
+        '
+        Me.Fea_ct_thief.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_thief.Controls.Add(Me.Icon_ct_thief)
+        Me.Fea_ct_thief.Controls.Add(Me.Bar_ct_thief)
+        Me.Fea_ct_thief.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_thief.Location = New System.Drawing.Point(308, 38)
+        Me.Fea_ct_thief.Name = "Fea_ct_thief"
+        Me.Fea_ct_thief.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_thief.TabIndex = 26
+        '
+        'Icon_ct_thief
+        '
+        Me.Icon_ct_thief.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Voleur
+        Me.Icon_ct_thief.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_thief.Enabled = False
+        Me.Icon_ct_thief.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_thief.Name = "Icon_ct_thief"
+        Me.Icon_ct_thief.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_thief.TabIndex = 1
+        Me.Icon_ct_thief.TabStop = False
+        '
+        'Bar_ct_thief
+        '
+        Me.Bar_ct_thief.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_thief.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_thief.Controls.Add(Me.valu_ct_thief)
+        Me.Bar_ct_thief.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_thief.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_thief.Name = "Bar_ct_thief"
+        Me.Bar_ct_thief.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_thief.TabIndex = 0
+        Me.Bar_ct_thief.Visible = False
+        '
+        'valu_ct_thief
+        '
+        Me.valu_ct_thief.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_thief.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_thief.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_thief.Name = "valu_ct_thief"
+        Me.valu_ct_thief.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_thief.TabIndex = 5
+        Me.valu_ct_thief.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_ct_cleric
+        '
+        Me.Fea_ct_cleric.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_cleric.Controls.Add(Me.Icon_ct_cleric)
+        Me.Fea_ct_cleric.Controls.Add(Me.Bar_ct_cleric)
+        Me.Fea_ct_cleric.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_cleric.Location = New System.Drawing.Point(208, 38)
+        Me.Fea_ct_cleric.Name = "Fea_ct_cleric"
+        Me.Fea_ct_cleric.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_cleric.TabIndex = 25
+        '
+        'Icon_ct_cleric
+        '
+        Me.Icon_ct_cleric.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Pretre
+        Me.Icon_ct_cleric.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_cleric.Enabled = False
+        Me.Icon_ct_cleric.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_cleric.Name = "Icon_ct_cleric"
+        Me.Icon_ct_cleric.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_cleric.TabIndex = 1
+        Me.Icon_ct_cleric.TabStop = False
+        '
+        'Bar_ct_cleric
+        '
+        Me.Bar_ct_cleric.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_cleric.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_cleric.Controls.Add(Me.valu_ct_cleric)
+        Me.Bar_ct_cleric.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_cleric.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_cleric.Name = "Bar_ct_cleric"
+        Me.Bar_ct_cleric.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_cleric.TabIndex = 0
+        Me.Bar_ct_cleric.Visible = False
+        '
+        'valu_ct_cleric
+        '
+        Me.valu_ct_cleric.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_cleric.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_cleric.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_cleric.Name = "valu_ct_cleric"
+        Me.valu_ct_cleric.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_cleric.TabIndex = 5
+        Me.valu_ct_cleric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_ct_mage
+        '
+        Me.Fea_ct_mage.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_mage.Controls.Add(Me.Icon_ct_mage)
+        Me.Fea_ct_mage.Controls.Add(Me.Bar_ct_mage)
+        Me.Fea_ct_mage.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_mage.Location = New System.Drawing.Point(108, 38)
+        Me.Fea_ct_mage.Name = "Fea_ct_mage"
+        Me.Fea_ct_mage.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_mage.TabIndex = 24
+        '
+        'Icon_ct_mage
+        '
+        Me.Icon_ct_mage.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Mage
+        Me.Icon_ct_mage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_mage.Enabled = False
+        Me.Icon_ct_mage.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_mage.Name = "Icon_ct_mage"
+        Me.Icon_ct_mage.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_mage.TabIndex = 1
+        Me.Icon_ct_mage.TabStop = False
+        '
+        'Bar_ct_mage
+        '
+        Me.Bar_ct_mage.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_mage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_mage.Controls.Add(Me.valu_ct_mage)
+        Me.Bar_ct_mage.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_mage.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_mage.Name = "Bar_ct_mage"
+        Me.Bar_ct_mage.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_mage.TabIndex = 0
+        Me.Bar_ct_mage.Visible = False
+        '
+        'valu_ct_mage
+        '
+        Me.valu_ct_mage.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_mage.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_mage.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_mage.Name = "valu_ct_mage"
+        Me.valu_ct_mage.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_mage.TabIndex = 5
+        Me.valu_ct_mage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_ct_warrior
+        '
+        Me.Fea_ct_warrior.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ct_warrior.Controls.Add(Me.Icon_ct_warrior)
+        Me.Fea_ct_warrior.Controls.Add(Me.Bar_ct_warrior)
+        Me.Fea_ct_warrior.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ct_warrior.Location = New System.Drawing.Point(8, 38)
+        Me.Fea_ct_warrior.Name = "Fea_ct_warrior"
+        Me.Fea_ct_warrior.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_ct_warrior.TabIndex = 23
+        '
+        'Icon_ct_warrior
+        '
+        Me.Icon_ct_warrior.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Guerrier
+        Me.Icon_ct_warrior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_ct_warrior.Enabled = False
+        Me.Icon_ct_warrior.Location = New System.Drawing.Point(21, 21)
+        Me.Icon_ct_warrior.Name = "Icon_ct_warrior"
+        Me.Icon_ct_warrior.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ct_warrior.TabIndex = 1
+        Me.Icon_ct_warrior.TabStop = False
+        '
+        'Bar_ct_warrior
+        '
+        Me.Bar_ct_warrior.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_ct_warrior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_ct_warrior.Controls.Add(Me.valu_ct_warrior)
+        Me.Bar_ct_warrior.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_ct_warrior.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_ct_warrior.Name = "Bar_ct_warrior"
+        Me.Bar_ct_warrior.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_ct_warrior.TabIndex = 0
+        Me.Bar_ct_warrior.Visible = False
+        '
+        'valu_ct_warrior
+        '
+        Me.valu_ct_warrior.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ct_warrior.Location = New System.Drawing.Point(8, 1)
+        Me.valu_ct_warrior.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_ct_warrior.Name = "valu_ct_warrior"
+        Me.valu_ct_warrior.Size = New System.Drawing.Size(79, 16)
+        Me.valu_ct_warrior.TabIndex = 5
+        Me.valu_ct_warrior.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Button_Open
         '
@@ -1470,6 +3088,12 @@ Partial Class Miitopia_SE
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
+        Me.Panel_partylevel.ResumeLayout(False)
+        Me.Panel_partylevel.PerformLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_level, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_partyworld.ResumeLayout(False)
+        CType(Me.valu_world, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Group_safespot.ResumeLayout(False)
         CType(Me.valu_safespot, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.icon_safespot, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1514,6 +3138,122 @@ Partial Class Miitopia_SE
         CType(Me.icon_gold, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Bar_gold.ResumeLayout(False)
         CType(Me.valu_gold, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabControl2.ResumeLayout(False)
+        Me.TabPage3.ResumeLayout(False)
+        Me.Fea_wp_elf.ResumeLayout(False)
+        CType(Me.Icon_wp_elf, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_elf.ResumeLayout(False)
+        CType(Me.valu_wp_elf, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_cat.ResumeLayout(False)
+        CType(Me.Icon_wp_cat, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_cat.ResumeLayout(False)
+        CType(Me.valu_wp_cat, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_scientist.ResumeLayout(False)
+        CType(Me.Icon_wp_scientist, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_scientist.ResumeLayout(False)
+        CType(Me.valu_wp_scientist, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_flower.ResumeLayout(False)
+        CType(Me.Icon_wp_flower, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_flower.ResumeLayout(False)
+        CType(Me.valu_wp_flower, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_princess.ResumeLayout(False)
+        CType(Me.Icon_wp_princess, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_princess.ResumeLayout(False)
+        CType(Me.valu_wp_princess, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_imp.ResumeLayout(False)
+        CType(Me.Icon_wp_imp, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_imp.ResumeLayout(False)
+        CType(Me.valu_wp_imp, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_tank.ResumeLayout(False)
+        CType(Me.Icon_wp_tank, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_tank.ResumeLayout(False)
+        CType(Me.valu_wp_tank, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_chef.ResumeLayout(False)
+        CType(Me.Icon_wp_chef, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_chef.ResumeLayout(False)
+        CType(Me.valu_wp_chef, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_vampire.ResumeLayout(False)
+        CType(Me.Icon_wp_vampire, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_vampire.ResumeLayout(False)
+        CType(Me.valu_wp_vampire, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_popstar.ResumeLayout(False)
+        CType(Me.Icon_wp_popstar, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_popstar.ResumeLayout(False)
+        CType(Me.valu_wp_popstar, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_thief.ResumeLayout(False)
+        CType(Me.Icon_wp_thief, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_thief.ResumeLayout(False)
+        CType(Me.valu_wp_thief, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_cleric.ResumeLayout(False)
+        CType(Me.Icon_wp_cleric, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_cleric.ResumeLayout(False)
+        CType(Me.valu_wp_cleric, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_mage.ResumeLayout(False)
+        CType(Me.Icon_wp_mage, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_mage.ResumeLayout(False)
+        CType(Me.valu_wp_mage, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_warrior.ResumeLayout(False)
+        CType(Me.Icon_wp_warrior, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_warrior.ResumeLayout(False)
+        CType(Me.valu_wp_warrior, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage4.ResumeLayout(False)
+        Me.Fea_ct_elf.ResumeLayout(False)
+        CType(Me.Icon_ct_elf, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_elf.ResumeLayout(False)
+        CType(Me.valu_ct_elf, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_cat.ResumeLayout(False)
+        CType(Me.Icon_ct_cat, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_cat.ResumeLayout(False)
+        CType(Me.valu_ct_cat, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_scientist.ResumeLayout(False)
+        CType(Me.Icon_ct_scientist, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_scientist.ResumeLayout(False)
+        CType(Me.valu_ct_scientist, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_flower.ResumeLayout(False)
+        CType(Me.Icon_ct_flower, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_flower.ResumeLayout(False)
+        CType(Me.valu_ct_flower, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_princess.ResumeLayout(False)
+        CType(Me.Icon_ct_princess, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_princess.ResumeLayout(False)
+        CType(Me.valu_ct_princess, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_imp.ResumeLayout(False)
+        CType(Me.Icon_ct_imp, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_imp.ResumeLayout(False)
+        CType(Me.valu_ct_imp, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_tank.ResumeLayout(False)
+        CType(Me.Icon_ct_tank, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_tank.ResumeLayout(False)
+        CType(Me.valu_ct_tank, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_chef.ResumeLayout(False)
+        CType(Me.Icon_ct_chef, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_chef.ResumeLayout(False)
+        CType(Me.valu_ct_chef, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_vampire.ResumeLayout(False)
+        CType(Me.Icon_ct_vampire, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_vampire.ResumeLayout(False)
+        CType(Me.valu_ct_vampire, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_popstar.ResumeLayout(False)
+        CType(Me.Icon_ct_popstar, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_popstar.ResumeLayout(False)
+        CType(Me.valu_ct_popstar, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_thief.ResumeLayout(False)
+        CType(Me.Icon_ct_thief, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_thief.ResumeLayout(False)
+        CType(Me.valu_ct_thief, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_cleric.ResumeLayout(False)
+        CType(Me.Icon_ct_cleric, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_cleric.ResumeLayout(False)
+        CType(Me.valu_ct_cleric, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_mage.ResumeLayout(False)
+        CType(Me.Icon_ct_mage, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_mage.ResumeLayout(False)
+        CType(Me.valu_ct_mage, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_warrior.ResumeLayout(False)
+        CType(Me.Icon_ct_warrior, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_warrior.ResumeLayout(False)
+        CType(Me.valu_ct_warrior, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Button_Open.ResumeLayout(False)
         Me.Button_Save.ResumeLayout(False)
         Me.ResumeLayout(False)
@@ -1623,5 +3363,127 @@ Partial Class Miitopia_SE
     Friend WithEvents Group_safespot As System.Windows.Forms.GroupBox
     Friend WithEvents icon_safespot As System.Windows.Forms.PictureBox
     Friend WithEvents valu_safespot As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel_partylevel As System.Windows.Forms.GroupBox
+    Friend WithEvents Panel_partyworld As System.Windows.Forms.GroupBox
+    Friend WithEvents Select_world As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Info_level As System.Windows.Forms.Label
+    Friend WithEvents valu_level As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_world As System.Windows.Forms.NumericUpDown
+    Friend WithEvents TabControl2 As System.Windows.Forms.TabControl
+    Friend WithEvents TabPage3 As System.Windows.Forms.TabPage
+    Friend WithEvents Fea_wp_elf As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_elf As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_elf As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_elf As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_wp_cat As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_cat As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_cat As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_cat As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_wp_scientist As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_scientist As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_scientist As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_scientist As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_wp_flower As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_flower As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_flower As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_flower As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_wp_princess As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_princess As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_princess As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_princess As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_wp_imp As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_imp As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_imp As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_imp As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_wp_tank As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_tank As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_tank As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_tank As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_wp_chef As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_chef As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_chef As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_chef As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_wp_vampire As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_vampire As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_vampire As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_vampire As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_wp_popstar As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_popstar As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_popstar As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_popstar As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_wp_thief As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_thief As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_thief As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_thief As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_wp_cleric As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_cleric As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_cleric As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_cleric As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_wp_mage As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_mage As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_mage As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_mage As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_wp_warrior As System.Windows.Forms.Panel
+    Friend WithEvents Icon_wp_warrior As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_wp_warrior As System.Windows.Forms.Panel
+    Friend WithEvents valu_wp_warrior As System.Windows.Forms.NumericUpDown
+    Friend WithEvents TabPage4 As System.Windows.Forms.TabPage
+    Friend WithEvents Fea_ct_elf As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_elf As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_elf As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_elf As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_ct_cat As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_cat As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_cat As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_cat As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_ct_scientist As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_scientist As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_scientist As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_scientist As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_ct_flower As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_flower As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_flower As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_flower As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_ct_princess As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_princess As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_princess As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_princess As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_ct_imp As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_imp As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_imp As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_imp As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_ct_tank As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_tank As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_tank As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_tank As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_ct_chef As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_chef As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_chef As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_chef As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_ct_vampire As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_vampire As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_vampire As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_vampire As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_ct_popstar As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_popstar As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_popstar As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_popstar As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_ct_thief As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_thief As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_thief As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_thief As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_ct_cleric As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_cleric As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_cleric As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_cleric As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_ct_mage As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_mage As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_mage As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_mage As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_ct_warrior As System.Windows.Forms.Panel
+    Friend WithEvents Icon_ct_warrior As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_ct_warrior As System.Windows.Forms.Panel
+    Friend WithEvents valu_ct_warrior As System.Windows.Forms.NumericUpDown
 
 End Class

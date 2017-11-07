@@ -63,6 +63,10 @@ Public Class Miitopia_SE
             Dim Reader As New PackageIO.Reader(common, PackageIO.Endian.Little)
             Reader.Position = &H1C
             valu_party.Value = Reader.ReadInt8
+            Reader.Position = &H1D
+            valu_world.Value = Reader.ReadInt8
+            Reader.Position = &H1E
+            valu_level.Value = Reader.ReadInt8
             Reader.Position = &H24
             valu_gold.Value = Reader.ReadUInt32
             Reader.Position = &H28
@@ -81,6 +85,62 @@ Public Class Miitopia_SE
             valu_ticket.Value = Reader.ReadUInt16
             Reader.Position = &H102
             valu_safespot.Value = Reader.ReadInt8
+            Reader.Position = &H234
+            valu_wp_warrior.Value = Reader.ReadUInt32
+            Reader.Position = &H238
+            valu_wp_mage.Value = Reader.ReadUInt32
+            Reader.Position = &H23C
+            valu_wp_cleric.Value = Reader.ReadUInt32
+            Reader.Position = &H240
+            valu_wp_thief.Value = Reader.ReadUInt32
+            Reader.Position = &H244
+            valu_wp_popstar.Value = Reader.ReadUInt32
+            Reader.Position = &H248
+            valu_wp_vampire.Value = Reader.ReadUInt32
+            Reader.Position = &H24C
+            valu_wp_chef.Value = Reader.ReadUInt32
+            Reader.Position = &H250
+            valu_wp_tank.Value = Reader.ReadUInt32
+            Reader.Position = &H254
+            valu_wp_imp.Value = Reader.ReadUInt32
+            Reader.Position = &H258
+            valu_wp_princess.Value = Reader.ReadUInt32
+            Reader.Position = &H25C
+            valu_wp_flower.Value = Reader.ReadUInt32
+            Reader.Position = &H260
+            valu_wp_scientist.Value = Reader.ReadUInt32
+            Reader.Position = &H264
+            valu_wp_cat.Value = Reader.ReadUInt32
+            Reader.Position = &H268
+            valu_wp_elf.Value = Reader.ReadUInt32
+            Reader.Position = &H26C
+            valu_ct_warrior.Value = Reader.ReadUInt32
+            Reader.Position = &H270
+            valu_ct_mage.Value = Reader.ReadUInt32
+            Reader.Position = &H274
+            valu_ct_cleric.Value = Reader.ReadUInt32
+            Reader.Position = &H278
+            valu_ct_thief.Value = Reader.ReadUInt32
+            Reader.Position = &H27C
+            valu_ct_popstar.Value = Reader.ReadUInt32
+            Reader.Position = &H280
+            valu_ct_vampire.Value = Reader.ReadUInt32
+            Reader.Position = &H284
+            valu_ct_chef.Value = Reader.ReadUInt32
+            Reader.Position = &H288
+            valu_ct_tank.Value = Reader.ReadUInt32
+            Reader.Position = &H28C
+            valu_ct_imp.Value = Reader.ReadUInt32
+            Reader.Position = &H290
+            valu_ct_princess.Value = Reader.ReadUInt32
+            Reader.Position = &H294
+            valu_ct_flower.Value = Reader.ReadUInt32
+            Reader.Position = &H298
+            valu_ct_scientist.Value = Reader.ReadUInt32
+            Reader.Position = &H29C
+            valu_ct_cat.Value = Reader.ReadUInt32
+            Reader.Position = &H2A0
+            valu_ct_elf.Value = Reader.ReadUInt32
             Button_Open.Visible = False
             Button_Save.Visible = True
         Catch ex As Exception
@@ -97,6 +157,10 @@ Public Class Miitopia_SE
             Dim writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
             writer.Position = &H1C
             writer.WriteInt8(valu_party.Value)
+            writer.Position = &H1D
+            writer.WriteInt8(valu_world.Value)
+            writer.Position = &H1E
+            writer.WriteInt8(valu_level.Value)
             writer.Position = &H24
             writer.WriteUInt32(valu_gold.Value)
             writer.Position = &H28
@@ -113,6 +177,62 @@ Public Class Miitopia_SE
             writer.WriteUInt16(valu_ticket.Value)
             writer.Position = &H102
             writer.WriteInt8(valu_safespot.Value)
+            writer.Position = &H234
+            writer.WriteUInt32(valu_wp_warrior.Value)
+            writer.Position = &H238
+            writer.WriteUInt32(valu_wp_mage.Value)
+            writer.Position = &H23C
+            writer.WriteUInt32(valu_wp_cleric.Value)
+            writer.Position = &H240
+            writer.WriteUInt32(valu_wp_thief.Value)
+            writer.Position = &H244
+            writer.WriteUInt32(valu_wp_popstar.Value)
+            writer.Position = &H248
+            writer.WriteUInt32(valu_wp_vampire.Value)
+            writer.Position = &H24C
+            writer.WriteUInt32(valu_wp_chef.Value)
+            writer.Position = &H250
+            writer.WriteUInt32(valu_wp_tank.Value)
+            writer.Position = &H254
+            writer.WriteUInt32(valu_wp_imp.Value)
+            writer.Position = &H258
+            writer.WriteUInt32(valu_wp_princess.Value)
+            writer.Position = &H25C
+            writer.WriteUInt32(valu_wp_flower.Value)
+            writer.Position = &H260
+            writer.WriteUInt32(valu_wp_scientist.Value)
+            writer.Position = &H264
+            writer.WriteUInt32(valu_wp_cat.Value)
+            writer.Position = &H268
+            writer.WriteUInt32(valu_wp_elf.Value)
+            writer.Position = &H26C
+            writer.WriteUInt32(valu_ct_warrior.Value)
+            writer.Position = &H270
+            writer.WriteUInt32(valu_ct_mage.Value)
+            writer.Position = &H274
+            writer.WriteUInt32(valu_ct_cleric.Value)
+            writer.Position = &H278
+            writer.WriteUInt32(valu_ct_thief.Value)
+            writer.Position = &H27C
+            writer.WriteUInt32(valu_ct_popstar.Value)
+            writer.Position = &H280
+            writer.WriteUInt32(valu_ct_vampire.Value)
+            writer.Position = &H284
+            writer.WriteUInt32(valu_ct_chef.Value)
+            writer.Position = &H288
+            writer.WriteUInt32(valu_ct_tank.Value)
+            writer.Position = &H28C
+            writer.WriteUInt32(valu_ct_imp.Value)
+            writer.Position = &H290
+            writer.WriteUInt32(valu_ct_princess.Value)
+            writer.Position = &H294
+            writer.WriteUInt32(valu_ct_flower.Value)
+            writer.Position = &H298
+            writer.WriteUInt32(valu_ct_scientist.Value)
+            writer.Position = &H29C
+            writer.WriteUInt32(valu_ct_cat.Value)
+            writer.Position = &H2A0
+            writer.WriteUInt32(valu_ct_elf.Value)
 
             Dim writerx As New System.IO.FileStream(common, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite)
             writerx.Position = &H100
@@ -341,6 +461,36 @@ Public Class Miitopia_SE
             icon_sprinkles.Location = New Point(23, 23)
             valu_party.Visible = True
             valu_safespot.Visible = True
+            valu_world.Visible = True
+            Select_world.Location = New Point(35, 14)
+            Bar_wp_warrior.Visible = True
+            Bar_wp_mage.Visible = True
+            Bar_wp_cleric.Visible = True
+            Bar_wp_thief.Visible = True
+            Bar_wp_popstar.Visible = True
+            Bar_wp_vampire.Visible = True
+            Bar_wp_chef.Visible = True
+            Bar_wp_tank.Visible = True
+            Bar_wp_imp.Visible = True
+            Bar_wp_princess.Visible = True
+            Bar_wp_flower.Visible = True
+            Bar_wp_scientist.Visible = True
+            Bar_wp_cat.Visible = True
+            Bar_wp_elf.Visible = True
+            Bar_ct_warrior.Visible = True
+            Bar_ct_mage.Visible = True
+            Bar_ct_cleric.Visible = True
+            Bar_ct_thief.Visible = True
+            Bar_ct_popstar.Visible = True
+            Bar_ct_vampire.Visible = True
+            Bar_ct_chef.Visible = True
+            Bar_ct_tank.Visible = True
+            Bar_ct_imp.Visible = True
+            Bar_ct_princess.Visible = True
+            Bar_ct_flower.Visible = True
+            Bar_ct_scientist.Visible = True
+            Bar_ct_cat.Visible = True
+            Bar_ct_elf.Visible = True
         Else
             Hidden_things.Visible = False
             Bar_allweapons.Visible = False
@@ -351,6 +501,36 @@ Public Class Miitopia_SE
             icon_sprinkles.Location = New Point(23, 14)
             valu_party.Visible = False
             valu_safespot.Visible = False
+            valu_world.Visible = False
+            Select_world.Location = New Point(18, 14)
+            Bar_wp_warrior.Visible = False
+            Bar_wp_mage.Visible = False
+            Bar_wp_cleric.Visible = False
+            Bar_wp_thief.Visible = False
+            Bar_wp_popstar.Visible = False
+            Bar_wp_vampire.Visible = False
+            Bar_wp_chef.Visible = False
+            Bar_wp_tank.Visible = False
+            Bar_wp_imp.Visible = False
+            Bar_wp_princess.Visible = False
+            Bar_wp_flower.Visible = False
+            Bar_wp_scientist.Visible = False
+            Bar_wp_cat.Visible = False
+            Bar_wp_elf.Visible = False
+            Bar_ct_warrior.Visible = False
+            Bar_ct_mage.Visible = False
+            Bar_ct_cleric.Visible = False
+            Bar_ct_thief.Visible = False
+            Bar_ct_popstar.Visible = False
+            Bar_ct_vampire.Visible = False
+            Bar_ct_chef.Visible = False
+            Bar_ct_tank.Visible = False
+            Bar_ct_imp.Visible = False
+            Bar_ct_princess.Visible = False
+            Bar_ct_flower.Visible = False
+            Bar_ct_scientist.Visible = False
+            Bar_ct_cat.Visible = False
+            Bar_ct_elf.Visible = False
         End If
     End Sub
 
@@ -543,5 +723,307 @@ Public Class Miitopia_SE
 
     Private Sub text_save_Click(sender As Object, e As EventArgs) Handles text_save.Click
         writecommon()
+    End Sub
+
+    Private Sub valu_world_ValueChanged(sender As Object, e As EventArgs) Handles valu_world.ValueChanged
+        If valu_world.Value = 0 Then
+            Select_world.SelectedItem = Select_world.Items.Item(0)
+        ElseIf valu_world.Value = 1 Then
+            Select_world.SelectedItem = Select_world.Items.Item(1)
+        ElseIf valu_world.Value = 2 Then
+            Select_world.SelectedItem = Select_world.Items.Item(2)
+        ElseIf valu_world.Value = 3 Then
+            Select_world.SelectedItem = Select_world.Items.Item(3)
+        ElseIf valu_world.Value = 4 Then
+            Select_world.SelectedItem = Select_world.Items.Item(4)
+        ElseIf valu_world.Value = 5 Then
+            Select_world.SelectedItem = Select_world.Items.Item(5)
+        ElseIf valu_world.Value = 6 Then
+            Select_world.SelectedItem = Select_world.Items.Item(6)
+        ElseIf valu_world.Value = 7 Then
+            Select_world.SelectedItem = Select_world.Items.Item(7)
+        ElseIf valu_world.Value = 8 Then
+            Select_world.SelectedItem = Select_world.Items.Item(8)
+        ElseIf valu_world.Value = 9 Then
+            Select_world.SelectedItem = Select_world.Items.Item(9)
+        ElseIf valu_world.Value = 10 Then
+            Select_world.SelectedItem = Select_world.Items.Item(10)
+        ElseIf valu_world.Value = 11 Then
+            Select_world.SelectedItem = Select_world.Items.Item(11)
+        ElseIf valu_world.Value = 12 Then
+            Select_world.SelectedItem = Select_world.Items.Item(12)
+        ElseIf valu_world.Value = 13 Then
+            Select_world.SelectedItem = Select_world.Items.Item(13)
+        ElseIf valu_world.Value = 14 Then
+            Select_world.SelectedItem = Select_world.Items.Item(14)
+        ElseIf valu_world.Value = 15 Then
+            Select_world.SelectedItem = Select_world.Items.Item(15)
+        ElseIf valu_world.Value = 16 Then
+            Select_world.SelectedItem = Select_world.Items.Item(16)
+        ElseIf valu_world.Value = 17 Then
+            Select_world.SelectedItem = Select_world.Items.Item(17)
+        ElseIf valu_world.Value = 18 Then
+            Select_world.SelectedItem = Select_world.Items.Item(18)
+        ElseIf valu_world.Value = 19 Then
+            Select_world.SelectedItem = Select_world.Items.Item(19)
+        ElseIf valu_world.Value = 20 Then
+            Select_world.SelectedItem = Select_world.Items.Item(20)
+        ElseIf valu_world.Value = 21 Then
+            Select_world.SelectedItem = Select_world.Items.Item(21)
+        ElseIf valu_world.Value = 22 Then
+            Select_world.SelectedItem = Select_world.Items.Item(22)
+        ElseIf valu_world.Value = 23 Then
+            Select_world.SelectedItem = Select_world.Items.Item(23)
+        ElseIf valu_world.Value = 24 Then
+            Select_world.SelectedItem = Select_world.Items.Item(24)
+        ElseIf valu_world.Value = 25 Then
+            Select_world.SelectedItem = Select_world.Items.Item(25)
+        ElseIf valu_world.Value = 26 Then
+            Select_world.SelectedItem = Select_world.Items.Item(26)
+        ElseIf valu_world.Value = 27 Then
+            Select_world.SelectedItem = Select_world.Items.Item(27)
+        ElseIf valu_world.Value = 28 Then
+            Select_world.SelectedItem = Select_world.Items.Item(28)
+        ElseIf valu_world.Value = 29 Then
+            Select_world.SelectedItem = Select_world.Items.Item(29)
+        ElseIf valu_world.Value = 30 Then
+            Select_world.SelectedItem = Select_world.Items.Item(30)
+        ElseIf valu_world.Value = 31 Then
+            Select_world.SelectedItem = Select_world.Items.Item(31)
+        ElseIf valu_world.Value = 32 Then
+            Select_world.SelectedItem = Select_world.Items.Item(32)
+        ElseIf valu_world.Value = 33 Then
+            Select_world.SelectedItem = Select_world.Items.Item(33)
+        ElseIf valu_world.Value = 34 Then
+            Select_world.SelectedItem = Select_world.Items.Item(34)
+        ElseIf valu_world.Value = 35 Then
+            Select_world.SelectedItem = Select_world.Items.Item(35)
+        ElseIf valu_world.Value = 36 Then
+            Select_world.SelectedItem = Select_world.Items.Item(36)
+        ElseIf valu_world.Value = 37 Then
+            Select_world.SelectedItem = Select_world.Items.Item(37)
+        ElseIf valu_world.Value = 38 Then
+            Select_world.SelectedItem = Select_world.Items.Item(38)
+        ElseIf valu_world.Value = 39 Then
+            Select_world.SelectedItem = Select_world.Items.Item(39)
+        ElseIf valu_world.Value = 40 Then
+            Select_world.SelectedItem = Select_world.Items.Item(40)
+        ElseIf valu_world.Value = 41 Then
+            Select_world.SelectedItem = Select_world.Items.Item(41)
+        ElseIf valu_world.Value = 42 Then
+            Select_world.SelectedItem = Select_world.Items.Item(42)
+        ElseIf valu_world.Value = 43 Then
+            Select_world.SelectedItem = Select_world.Items.Item(43)
+        End If
+    End Sub
+
+    Private Sub Select_world_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Select_world.SelectedIndexChanged
+        If Select_world.SelectedItem = Select_world.Items.Item(0) Then
+            valu_world.Value = 0
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(1) Then
+            valu_world.Value = 1
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(2) Then
+            valu_world.Value = 2
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(3) Then
+            valu_world.Value = 3
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(4) Then
+            valu_world.Value = 4
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(5) Then
+            valu_world.Value = 5
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(6) Then
+            valu_world.Value = 6
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(7) Then
+            valu_world.Value = 7
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(8) Then
+            valu_world.Value = 8
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(9) Then
+            valu_world.Value = 9
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(10) Then
+            valu_world.Value = 10
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(11) Then
+            valu_world.Value = 11
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(12) Then
+            valu_world.Value = 12
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(13) Then
+            valu_world.Value = 13
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(14) Then
+            valu_world.Value = 14
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(15) Then
+            valu_world.Value = 15
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(16) Then
+            valu_world.Value = 16
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(17) Then
+            valu_world.Value = 17
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(18) Then
+            valu_world.Value = 18
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(19) Then
+            valu_world.Value = 19
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(20) Then
+            valu_world.Value = 20
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(21) Then
+            valu_world.Value = 21
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(22) Then
+            valu_world.Value = 22
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(23) Then
+            valu_world.Value = 23
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(24) Then
+            valu_world.Value = 24
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(25) Then
+            valu_world.Value = 25
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(26) Then
+            valu_world.Value = 26
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(27) Then
+            valu_world.Value = 27
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(28) Then
+            valu_world.Value = 28
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(29) Then
+            valu_world.Value = 29
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(30) Then
+            valu_world.Value = 30
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(31) Then
+            valu_world.Value = 31
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(32) Then
+            valu_world.Value = 32
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(33) Then
+            valu_world.Value = 33
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(34) Then
+            valu_world.Value = 34
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(35) Then
+            valu_world.Value = 35
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(36) Then
+            valu_world.Value = 36
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(37) Then
+            valu_world.Value = 37
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(38) Then
+            valu_world.Value = 38
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(39) Then
+            valu_world.Value = 39
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(40) Then
+            valu_world.Value = 40
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(41) Then
+            valu_world.Value = 41
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(42) Then
+            valu_world.Value = 42
+        ElseIf Select_world.SelectedItem = Select_world.Items.Item(43) Then
+            valu_world.Value = 43
+        End If
+    End Sub
+
+    Private Sub Info_level_Click(sender As Object, e As EventArgs) Handles Info_level.Click
+        fdialog.Title.Text = "Miitopia Save Editor : select level info"
+        fdialog.Msg.Text = "Be careful by editing level, common.sav can be corrupt if a wrong value is used, if common.sav is corrupted set a lower value"
+        fdialog.ShowDialog()
+    End Sub
+
+    Private Sub Fea_wp_warrior_Click(sender As Object, e As EventArgs) Handles Fea_wp_warrior.Click, Icon_wp_warrior.Click
+        valu_wp_warrior.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_wp_mage_Click(sender As Object, e As EventArgs) Handles Fea_wp_mage.Click, Icon_wp_mage.Click
+        valu_wp_mage.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_wp_cleric_Click(sender As Object, e As EventArgs) Handles Fea_wp_cleric.Click, Icon_wp_cleric.Click
+        valu_wp_cleric.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_wp_thief_Click(sender As Object, e As EventArgs) Handles Fea_wp_thief.Click, Icon_wp_thief.Click
+        valu_wp_thief.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_wp_popstar_Click(sender As Object, e As EventArgs) Handles Fea_wp_popstar.Click, Icon_wp_popstar.Click
+        valu_wp_popstar.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_wp_vampire_Click(sender As Object, e As EventArgs) Handles Fea_wp_vampire.Click, Icon_wp_vampire.Click
+        valu_wp_vampire.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_wp_chef_Click(sender As Object, e As EventArgs) Handles Fea_wp_chef.Click, Icon_wp_chef.Click
+        valu_wp_chef.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_wp_tank_Click(sender As Object, e As EventArgs) Handles Fea_wp_tank.Click, Icon_wp_tank.Click
+        valu_wp_tank.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_wp_imp_Click(sender As Object, e As EventArgs) Handles Fea_wp_imp.Click, Icon_wp_imp.Click
+        valu_wp_imp.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_wp_princess_Click(sender As Object, e As EventArgs) Handles Fea_wp_princess.Click, Icon_wp_princess.Click
+        valu_wp_princess.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_wp_flower_Click(sender As Object, e As EventArgs) Handles Fea_wp_flower.Click, Icon_wp_flower.Click
+        valu_wp_flower.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_wp_scientist_Click(sender As Object, e As EventArgs) Handles Fea_wp_scientist.Click, Icon_wp_scientist.Click
+        valu_wp_scientist.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_wp_cat_Click(sender As Object, e As EventArgs) Handles Fea_wp_cat.Click, Icon_wp_cat.Click
+        valu_wp_cat.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_wp_elf_Click(sender As Object, e As EventArgs) Handles Fea_wp_elf.Click, Icon_wp_elf.Click
+        valu_wp_elf.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_warrior_Click(sender As Object, e As EventArgs) Handles Fea_ct_warrior.Click, Icon_ct_warrior.Click
+        valu_ct_warrior.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_mage_Click(sender As Object, e As EventArgs) Handles Fea_ct_mage.Click, Icon_ct_mage.Click
+        valu_ct_mage.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_cleric_Click(sender As Object, e As EventArgs) Handles Fea_ct_cleric.Click, Icon_ct_cleric.Click
+        valu_ct_cleric.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_thief_Click(sender As Object, e As EventArgs) Handles Fea_ct_thief.Click, Icon_ct_thief.Click
+        valu_ct_thief.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_popstar_Click(sender As Object, e As EventArgs) Handles Fea_ct_popstar.Click, Icon_ct_popstar.Click
+        valu_ct_popstar.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_vampire_Click(sender As Object, e As EventArgs) Handles Fea_ct_vampire.Click, Icon_ct_vampire.Click
+        valu_ct_vampire.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_chef_Click(sender As Object, e As EventArgs) Handles Fea_ct_chef.Click, Icon_ct_chef.Click
+        valu_ct_chef.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_tank_Click(sender As Object, e As EventArgs) Handles Fea_ct_tank.Click, Icon_ct_tank.Click
+        valu_ct_tank.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_imp_Click(sender As Object, e As EventArgs) Handles Fea_ct_imp.Click, Icon_ct_imp.Click
+        valu_ct_imp.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_princess_Click(sender As Object, e As EventArgs) Handles Fea_ct_princess.Click, Icon_ct_princess.Click
+        valu_ct_princess.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_flower_Click(sender As Object, e As EventArgs) Handles Fea_ct_flower.Click, Icon_ct_flower.Click
+        valu_ct_flower.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_scientist_Click(sender As Object, e As EventArgs) Handles Fea_ct_scientist.Click, Icon_ct_scientist.Click
+        valu_ct_scientist.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_cat_Click(sender As Object, e As EventArgs) Handles Fea_ct_cat.Click, Icon_ct_cat.Click
+        valu_ct_cat.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_ct_elf_Click(sender As Object, e As EventArgs) Handles Fea_ct_elf.Click, Icon_ct_elf.Click
+        valu_ct_elf.Value = 4294967295
     End Sub
 End Class

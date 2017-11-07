@@ -22,28 +22,13 @@ Partial Class Form2
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Msg = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Title = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Msg = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'Msg
-        '
-        Me.Msg.BackColor = System.Drawing.Color.Transparent
-        Me.Msg.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Msg.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Msg.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Msg.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Msg.ForeColor = System.Drawing.Color.Black
-        Me.Msg.Location = New System.Drawing.Point(0, 0)
-        Me.Msg.Name = "Msg"
-        Me.Msg.Size = New System.Drawing.Size(370, 156)
-        Me.Msg.TabIndex = 0
-        Me.Msg.Text = "Label1"
-        Me.Msg.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Panel1
         '
@@ -77,6 +62,21 @@ Partial Class Form2
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(370, 156)
         Me.Panel2.TabIndex = 2
+        '
+        'Msg
+        '
+        Me.Msg.BackColor = System.Drawing.Color.Transparent
+        Me.Msg.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Msg.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Msg.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Msg.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Msg.ForeColor = System.Drawing.Color.Black
+        Me.Msg.Location = New System.Drawing.Point(0, 0)
+        Me.Msg.Name = "Msg"
+        Me.Msg.Size = New System.Drawing.Size(370, 156)
+        Me.Msg.TabIndex = 0
+        Me.Msg.Text = "Label1"
+        Me.Msg.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form2
         '
