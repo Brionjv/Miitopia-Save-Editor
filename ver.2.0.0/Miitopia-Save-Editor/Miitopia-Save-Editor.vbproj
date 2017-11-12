@@ -160,6 +160,36 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\job_popstarg.png" />
+    <None Include="Resources\bar_rightarrow.png" />
+    <None Include="Resources\bar_right.png" />
+    <None Include="Resources\bar_mid.png" />
+    <None Include="Resources\bar_leftarrow.png" />
+    <None Include="Resources\bar_left.png" />
+    <None Include="Resources\job_warrior.png" />
+    <None Include="Resources\job_vampire.png" />
+    <None Include="Resources\job_thief.png" />
+    <None Include="Resources\job_tank.png" />
+    <None Include="Resources\job_scientist.png" />
+    <None Include="Resources\job_princess.png" />
+    <None Include="Resources\job_popstar.png" />
+    <None Include="Resources\job_mage.png" />
+    <None Include="Resources\job_imp.png" />
+    <None Include="Resources\job_flower.png" />
+    <None Include="Resources\job_elf.png" />
+    <None Include="Resources\job_cleric.png" />
+    <None Include="Resources\job_chef.png" />
+    <None Include="Resources\job_cat.png" />
+    <None Include="Resources\bg_fdialog_title.png" />
+    <None Include="Resources\bg_fdialog_text.png" />
+    <None Include="Resources\bg_panel_hero.png" />
+    <None Include="Resources\villa.png" />
+    <None Include="Resources\dragonclass.png" />
+    <None Include="Resources\bg_panel_quest.png" />
+    <None Include="Resources\questsicon.png" />
+    <None Include="Resources\chestsopen.png" />
+    <None Include="Resources\candyeat.png" />
+    <None Include="Resources\bananaeat.png" />
     <None Include="Resources\bg_feature2.png" />
     <None Include="Resources\bg_fea.png" />
     <None Include="Resources\Voleur.png" />
@@ -382,8 +412,6 @@
     <None Include="Resources\grub_2.png" />
     <None Include="Resources\grub_1.png" />
     <None Include="Resources\bg_foods.jpg" />
-    <None Include="Resources\title_fdialog.png" />
-    <None Include="Resources\bg_fdialog.png" />
     <None Include="Resources\mapdragon.png" />
     <None Include="Resources\overworld.png" />
     <None Include="Resources\level.png" />

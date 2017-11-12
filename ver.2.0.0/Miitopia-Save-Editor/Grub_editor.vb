@@ -875,7 +875,7 @@
     End Sub
 
     Private Sub Grub_editor_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        common = Miitopia_SE.TextBox_fpath.Text
+        common = Miitopia_SE.TextBox_fpath_common.Text
         readgrub()
     End Sub
 

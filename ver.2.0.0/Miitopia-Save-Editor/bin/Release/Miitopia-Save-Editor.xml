@@ -31,7 +31,31 @@ Miitopia-Save-Editor
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bananaeat">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bananas">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bar_left">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bar_leftarrow">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bar_mid">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bar_right">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bar_rightarrow">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
@@ -43,7 +67,11 @@ Miitopia-Save-Editor
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bg_fdialog">
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bg_fdialog_text">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bg_fdialog_title">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
@@ -79,6 +107,14 @@ Miitopia-Save-Editor
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bg_panel_hero">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bg_panel_quest">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bg_settings">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -107,7 +143,15 @@ Miitopia-Save-Editor
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.candyeat">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.Chanteur">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.chestsopen">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
@@ -124,6 +168,10 @@ Miitopia-Save-Editor
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.Diablotin">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.dragonclass">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
@@ -951,6 +999,66 @@ Miitopia-Save-Editor
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_cat">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_chef">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_cleric">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_elf">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_flower">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_imp">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_mage">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_popstar">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_popstarg">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_princess">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_scientist">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_tank">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_thief">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_vampire">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.job_warrior">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.level">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -999,6 +1107,10 @@ Miitopia-Save-Editor
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.questsicon">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.safespot">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -1035,11 +1147,11 @@ Miitopia-Save-Editor
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.title_fdialog">
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.Vampire">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.Vampire">
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.villa">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>

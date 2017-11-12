@@ -8,6 +8,8 @@ Public Class Miitopia_SE
     Dim applicationpath = Application.StartupPath
     Dim fdialog As New Form2
     Dim common As String
+    Dim hero As String
+    Dim quest As String
     Dim AudioMiitopia As System.IO.UnmanagedMemoryStream
 
     Public Sub Hidemenu() ' MSE Functions
@@ -24,21 +26,35 @@ Public Class Miitopia_SE
     Public Sub Hidepanels()
         Panel_common.Visible = False
         Panel_settings.Visible = False
+        Panel_quest.Visible = False
+        Panel_hero.Visible = False
+    End Sub
+
+    Public Sub Hidefilepath()
+        File_path_common.Visible = False
+        File_path_quest.Visible = False
+        File_path_hero.Visible = False
     End Sub
 
     Public Sub Checkupdates()
-        Dim MAJ As New WebClient
-        Dim lastupdate As String = MAJ.DownloadString("https://raw.githubusercontent.com/Brionjv/Miitopia-Save-Editor/master/Version.txt")
-        If Label7.Text = lastupdate Then
-            MSE_icon.Visible = True
-            MSE_iconupdate.Visible = False
-        Else
-            MSE_icon.Visible = False
-            MSE_iconupdate.Visible = True
+        Try
+            Dim MAJ As New WebClient
+            Dim lastupdate As String = MAJ.DownloadString("https://raw.githubusercontent.com/Brionjv/Miitopia-Save-Editor/master/Version.txt")
+            If Label7.Text = lastupdate Then
+                MSE_icon.Visible = True
+                MSE_iconupdate.Visible = False
+            Else
+                MSE_icon.Visible = False
+                MSE_iconupdate.Visible = True
+                fdialog.Title.Text = "Miitopia Save Editor : Update"
+                fdialog.Msg.Text = "An update is avalible click on Miitopia Save Editor icon to download new version"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
             fdialog.Title.Text = "Miitopia Save Editor : Update"
-            fdialog.Msg.Text = "An update is avalible click on Miitopia Save Editor icon to download new version"
+            fdialog.Msg.Text = "An error has occured"
             fdialog.ShowDialog()
-        End If
+        End Try
     End Sub
 
     Public Sub startmusic()
@@ -141,11 +157,19 @@ Public Class Miitopia_SE
             valu_ct_cat.Value = Reader.ReadUInt32
             Reader.Position = &H2A0
             valu_ct_elf.Value = Reader.ReadUInt32
+            Reader.Position = &H170
+            valu_bananaeat.Value = Reader.ReadUInt32
+            Reader.Position = &H174
+            valu_candyeat.Value = Reader.ReadUInt32
+            Reader.Position = &H178
+            valu_chestsopen.Value = Reader.ReadUInt32
+            Reader.Position = &H17C
+            valu_questsucc.Value = Reader.ReadUInt32
             Button_Open.Visible = False
             Button_Save.Visible = True
         Catch ex As Exception
             fdialog.Title.Text = "Miitopia Save Editor : Read common.sav"
-            fdialog.Msg.Text = "Oops, something goes wrong" & vbNewLine & "opening of common.sav failed, please report this issue"
+            fdialog.Msg.Text = "Oops, something goes wrong" & vbNewLine & "opening of common.sav failed, please report this issue or try again"
             fdialog.ShowDialog()
             Button_Open.Visible = True
             Button_Save.Visible = False
@@ -233,6 +257,14 @@ Public Class Miitopia_SE
             writer.WriteUInt32(valu_ct_cat.Value)
             writer.Position = &H2A0
             writer.WriteUInt32(valu_ct_elf.Value)
+            writer.Position = &H170
+            writer.WriteUInt32(valu_bananaeat.Value)
+            writer.Position = &H174
+            writer.WriteUInt32(valu_candyeat.Value)
+            writer.Position = &H178
+            writer.WriteUInt32(valu_chestsopen.Value)
+            writer.Position = &H17C
+            writer.WriteUInt32(valu_questsucc.Value)
 
             Dim writerx As New System.IO.FileStream(common, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite)
             writerx.Position = &H100
@@ -253,17 +285,72 @@ Public Class Miitopia_SE
             If Filever_text.Text = "EU" Then
                 My.Computer.FileSystem.CopyFile(
                           common,
-                        applicationpath & "\bak\common.sav\EUR\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "_" & TimeOfDay.Minute & "\common.sav")
+                        applicationpath & "\bak\common.sav\EUR\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\common.sav")
             End If
             If Filever_text.Text = "US" Then
                 My.Computer.FileSystem.CopyFile(
                           common,
-                        applicationpath & "\bak\common.sav\USA\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "_" & TimeOfDay.Minute & "\common.sav")
+                        applicationpath & "\bak\common.sav\USA\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\common.sav")
             End If
             If Filever_text.Text = "JP" Then
                 My.Computer.FileSystem.CopyFile(
                           common,
-                        applicationpath & "\bak\common.sav\JPN\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "_" & TimeOfDay.Minute & "\common.sav")
+                        applicationpath & "\bak\common.sav\JPN\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\common.sav")
+            End If
+        Catch ex As Exception
+        End Try
+    End Sub
+
+    Public Sub readfilequest()
+        Try
+            Dim Reader As New PackageIO.Reader(quest, PackageIO.Endian.Little)
+            Reader.Position = &H4B9C
+            valu_dragonclass.Value = Reader.ReadUInt32
+            Reader.Position = &H4BA4
+            valu_villa.Value = Reader.ReadUInt32
+            Button_open_quest.Visible = False
+            Button_save_quest.Visible = True
+        Catch ex As Exception
+            fdialog.Title.Text = "Miitopia Save Editor : Read quest.sav"
+            fdialog.Msg.Text = "Oops, something goes wrong" & vbNewLine & "opening of quest.sav failed, please report this issue or try again"
+            fdialog.ShowDialog()
+            Button_open_quest.Visible = True
+            Button_save_quest.Visible = False
+        End Try
+    End Sub
+    Public Sub writequest()
+        Try
+            Dim writer As New PackageIO.Writer(quest, PackageIO.Endian.Little)
+            writer.Position = &H4B9C
+            writer.WriteUInt32(valu_dragonclass.Value)
+            writer.Position = &H4BA4
+            writer.WriteUInt32(valu_villa.Value)
+            fdialog.Title.Text = "Miitopia Save Editor : write quest.sav"
+            fdialog.Msg.Text = "quest.sav has been saved"
+            fdialog.ShowDialog()
+        Catch ex As Exception
+            fdialog.Title.Text = "Miitopia Save Editor : write quest.sav"
+            fdialog.Msg.Text = "An error has occured" & vbNewLine & "please report this issue"
+            fdialog.ShowDialog()
+        End Try
+    End Sub
+
+    Public Sub makebakquest()
+        Try
+            If Filever_text.Text = "EU" Then
+                My.Computer.FileSystem.CopyFile(
+                          common,
+                        applicationpath & "\bak\quest.sav\EUR\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\quest.sav")
+            End If
+            If Filever_text.Text = "US" Then
+                My.Computer.FileSystem.CopyFile(
+                          common,
+                        applicationpath & "\bak\quest.sav\USA\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\quest.sav")
+            End If
+            If Filever_text.Text = "JP" Then
+                My.Computer.FileSystem.CopyFile(
+                          common,
+                        applicationpath & "\bak\quest.sav\JPN\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\quest.sav")
             End If
         Catch ex As Exception
         End Try
@@ -355,7 +442,7 @@ Public Class Miitopia_SE
         Menu_buttonS.Visible = True
     End Sub
 
-    Private Sub Menu_settings_MouseMove(sender As Object, e As EventArgs) Handles Menu_settings.MouseMove, Label1.MouseMove
+    Private Sub Menu_settings_MouseMove(sender As Object, e As EventArgs) Handles Menu_settings.MouseMove, Menu_text_settings.MouseMove
         Menu_settings.BorderStyle = BorderStyle.FixedSingle
         If Select_language.SelectedItem = Select_language.Items.Item(0) Then
             Descrip_text.Text = "Click to access to Miitopia Save Editor settings"
@@ -371,7 +458,7 @@ Public Class Miitopia_SE
         Descrip_panel.Visible = False
     End Sub
 
-    Private Sub Menu_settings_Click(sender As Object, e As EventArgs) Handles Menu_settings.Click, Label1.Click
+    Private Sub Menu_settings_Click(sender As Object, e As EventArgs) Handles Menu_settings.Click, Menu_text_settings.Click
         Hidepanels()
         Panel_settings.Visible = True
         Hidemenu()
@@ -415,9 +502,10 @@ Public Class Miitopia_SE
 
     Private Sub Setting_filepath_CheckedChanged(sender As Object, e As EventArgs) Handles Setting_filepath.CheckedChanged
         If Setting_filepath.Checked = True Then
-            File_path.Visible = True
-        Else
-            File_path.Visible = False
+            File_path_common.Visible = True
+        End If
+        If Setting_filepath.Checked = False Then
+            Hidefilepath()
         End If
     End Sub
 
@@ -491,6 +579,10 @@ Public Class Miitopia_SE
             Bar_ct_scientist.Visible = True
             Bar_ct_cat.Visible = True
             Bar_ct_elf.Visible = True
+            Bar_dragonclass.Visible = True
+            Icon_dragonclass.Location = New Point(21, 21)
+            Bar_villa.Visible = True
+            Icon_villa.Location = New Point(21, 21)
         Else
             Hidden_things.Visible = False
             Bar_allweapons.Visible = False
@@ -531,6 +623,10 @@ Public Class Miitopia_SE
             Bar_ct_scientist.Visible = False
             Bar_ct_cat.Visible = False
             Bar_ct_elf.Visible = False
+            Bar_dragonclass.Visible = False
+            Icon_dragonclass.Location = New Point(21, 12)
+            Bar_villa.Visible = False
+            Icon_villa.Location = New Point(21, 12)
         End If
     End Sub
 
@@ -538,13 +634,17 @@ Public Class Miitopia_SE
         startmusic()
     End Sub
 
-    Private Sub Menu_common_Click(sender As Object, e As EventArgs) Handles Menu_common.Click, Label2.Click
+    Private Sub Menu_common_Click(sender As Object, e As EventArgs) Handles Menu_common.Click, Menu_text_common.Click
         Hidepanels()
+        If Setting_filepath.Checked = True Then
+            Hidefilepath()
+            File_path_common.Visible = True
+        End If
         Panel_common.Visible = True
         Hidemenu()
     End Sub
 
-    Private Sub Menu_common_MouseMove(sender As Object, e As EventArgs) Handles Menu_common.MouseMove, Label2.MouseMove
+    Private Sub Menu_common_MouseMove(sender As Object, e As EventArgs) Handles Menu_common.MouseMove, Menu_text_common.MouseMove
         Menu_common.BorderStyle = BorderStyle.FixedSingle
         If Select_language.SelectedItem = Select_language.Items.Item(0) Then
             Descrip_text.Text = "Click to edit common.sav"
@@ -564,15 +664,17 @@ Public Class Miitopia_SE
         valu_gold.Value = 9999999
     End Sub
 
-    Private Sub Label10_MouseMove(sender As Object, e As EventArgs) Handles text_open.MouseMove, Button_Save.MouseMove
-        Button_Open.BackgroundImage = My.Resources.button_save
+    Private Sub Menu_hero_Click(sender As Object, e As EventArgs) Handles Menu_hero.Click
+        Hidepanels()
+        If Setting_filepath.Checked = True Then
+            Hidefilepath()
+            File_path_hero.Visible = True
+        End If
+        Panel_hero.Visible = True
+        Hidemenu()
     End Sub
 
-    Private Sub Label10_MouseLeave(sender As Object, e As EventArgs) Handles text_open.MouseLeave, Button_Save.MouseLeave
-        Button_Open.BackgroundImage = My.Resources.button_open
-    End Sub
-
-    Private Sub Menu_hero_MouseMove(sender As Object, e As EventArgs) Handles Menu_hero.MouseMove, Label3.MouseMove
+    Private Sub Menu_hero_MouseMove(sender As Object, e As EventArgs) Handles Menu_hero.MouseMove, Menu_text_hero.MouseMove
         Menu_hero.BorderStyle = BorderStyle.FixedSingle
         If Select_language.SelectedItem = Select_language.Items.Item(0) Then
             Descrip_text.Text = "Click to edit hero.sav"
@@ -588,7 +690,17 @@ Public Class Miitopia_SE
         Descrip_panel.Visible = False
     End Sub
 
-    Private Sub Menu_quest_MouseMove(sender As Object, e As EventArgs) Handles Menu_quest.MouseMove, Label4.MouseMove
+    Private Sub Menu_quest_Click(sender As Object, e As EventArgs) Handles Menu_quest.Click, Menu_text_quest.Click
+        Hidepanels()
+        If Setting_filepath.Checked = True Then
+            Hidefilepath()
+            File_path_quest.Visible = True
+        End If
+        Panel_quest.Visible = True
+        Hidemenu()
+    End Sub
+
+    Private Sub Menu_quest_MouseMove(sender As Object, e As EventArgs) Handles Menu_quest.MouseMove, Menu_text_quest.MouseMove
         Menu_quest.BorderStyle = BorderStyle.FixedSingle
         If Select_language.SelectedItem = Select_language.Items.Item(0) Then
             Descrip_text.Text = "Click to edit quest.sav"
@@ -686,15 +798,23 @@ Public Class Miitopia_SE
     Private Sub text_Open_Click(sender As Object, e As EventArgs) Handles text_open.Click
         Dim open As New OpenFileDialog
         fdialog.Title.Text = "Miitopia Save Editor"
-        fdialog.Msg.Text = "Open common.sav file" & vbNewLine & "Miitopia Save Editor will make a backup of your save file" & vbNewLine & "Check ''bak'' folder"
+        fdialog.Msg.Text = "Open common.sav file" & vbNewLine & "Miitopia Save Editor will make a backup of your save file, check ''bak'' folder" & vbNewLine & "Make a backup of your entire save file folder in case"
         fdialog.ShowDialog()
         open.Filter = "SAV files|*common.sav"
         open.Title = "Open save common.sav"
         open.ShowDialog()
         common = open.FileName
         readfilecommon()
-        TextBox_fpath.Text = common
+        TextBox_fpath_common.Text = common
         makebakcommon()
+    End Sub
+
+    Private Sub text_open_MouseMove(sender As Object, e As EventArgs) Handles text_open.MouseMove, Button_Open.MouseMove
+        Button_Open.BackgroundImage = My.Resources.button_save
+    End Sub
+
+    Private Sub text_open_MouseLeave(sender As Object, e As EventArgs) Handles text_open.MouseLeave, Button_Open.MouseLeave
+        Button_Open.BackgroundImage = My.Resources.button_open
     End Sub
 
     Private Sub Info_party_Click(sender As Object, e As EventArgs) Handles Info_party.Click
@@ -723,6 +843,14 @@ Public Class Miitopia_SE
 
     Private Sub text_save_Click(sender As Object, e As EventArgs) Handles text_save.Click
         writecommon()
+    End Sub
+
+    Private Sub text_save_MouseMove(sender As Object, e As EventArgs) Handles text_save.MouseMove, Button_Save.MouseMove
+        Button_Save.BackgroundImage = My.Resources.button_open
+    End Sub
+
+    Private Sub text_save_MouseLeave(sender As Object, e As EventArgs) Handles text_save.MouseLeave, Button_Save.MouseLeave
+        Button_Save.BackgroundImage = My.Resources.button_save
     End Sub
 
     Private Sub valu_world_ValueChanged(sender As Object, e As EventArgs) Handles valu_world.ValueChanged
@@ -1025,5 +1153,156 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_elf_Click(sender As Object, e As EventArgs) Handles Fea_ct_elf.Click, Icon_ct_elf.Click
         valu_ct_elf.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_bananaeat_Click(sender As Object, e As EventArgs) Handles Fea_bananaeat.Click, Icon_bananaeat.Click
+        valu_bananaeat.Value = 9999
+    End Sub
+
+    Private Sub Fea_candyeat_Click(sender As Object, e As EventArgs) Handles Fea_candyeat.Click, Icon_candyeat.Click
+        valu_candyeat.Value = 9999
+    End Sub
+
+    Private Sub Fea_chestsopen_Click(sender As Object, e As EventArgs) Handles Fea_chestsopen.Click, Icon_chestsopen.Click
+        valu_chestsopen.Value = 9999
+    End Sub
+
+    Private Sub Fea_questsucc_Click(sender As Object, e As EventArgs) Handles Fea_questsucc.Click, Icon_questsucc.Click
+        valu_questsucc.Value = 9999
+    End Sub
+
+    Private Sub Fea_dragonclass_Click(sender As Object, e As EventArgs) Handles Fea_dragonclass.Click, Icon_dragonclass.Click
+        valu_dragonclass.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_villa_Click(sender As Object, e As EventArgs) Handles Fea_villa.Click, Icon_villa.Click
+        valu_villa.Value = 1
+    End Sub
+
+    Private Sub Text_open_quest_Click(sender As Object, e As EventArgs) Handles Text_open_quest.Click
+        Dim open As New OpenFileDialog
+        fdialog.Title.Text = "Miitopia Save Editor"
+        fdialog.Msg.Text = "Open quest.sav file" & vbNewLine & "Miitopia Save Editor will make a backup of your save file, check ''bak'' folder" & vbNewLine & "Make a backup of your entire save file folder in case"
+        fdialog.ShowDialog()
+        open.Filter = "SAV files|*quest.sav"
+        open.Title = "Open save quest.sav"
+        open.ShowDialog()
+        quest = open.FileName
+        readfilequest()
+        TextBox_fpath_quest.Text = quest
+        makebakquest()
+    End Sub
+
+    Private Sub text_open_quest_MouseMove(sender As Object, e As EventArgs) Handles Text_open_quest.MouseMove, Button_save_quest.MouseMove
+        Button_open_quest.BackgroundImage = My.Resources.button_save
+    End Sub
+
+    Private Sub text_open_quest_MouseLeave(sender As Object, e As EventArgs) Handles Text_open_quest.MouseLeave, Button_save_quest.MouseLeave
+        Button_open_quest.BackgroundImage = My.Resources.button_open
+    End Sub
+
+    Private Sub Text_save_quest_Click(sender As Object, e As EventArgs) Handles Text_save_quest.Click
+        writequest()
+    End Sub
+
+    Private Sub text_save_quest_MouseMove(sender As Object, e As EventArgs) Handles Text_save_quest.MouseMove, Button_save_quest.MouseMove
+        Button_save_quest.BackgroundImage = My.Resources.button_open
+    End Sub
+
+    Private Sub text_save_quest_MouseLeave(sender As Object, e As EventArgs) Handles Text_save_quest.MouseLeave, Button_save_quest.MouseLeave
+        Button_save_quest.BackgroundImage = My.Resources.button_save
+    End Sub
+
+    Private Sub text_open_hero_MouseMove(sender As Object, e As EventArgs) Handles Text_open_hero.MouseMove, Button_save_hero.MouseMove
+        Button_open_hero.BackgroundImage = My.Resources.button_save
+    End Sub
+
+    Private Sub text_open_hero_MouseLeave(sender As Object, e As EventArgs) Handles Text_open_hero.MouseLeave, Button_save_hero.MouseLeave
+        Button_open_hero.BackgroundImage = My.Resources.button_open
+    End Sub
+
+    Private Sub text_save_hero_MouseMove(sender As Object, e As EventArgs) Handles Text_save_hero.MouseMove, Button_save_hero.MouseMove
+        Button_save_hero.BackgroundImage = My.Resources.button_open
+    End Sub
+
+    Private Sub text_save_hero_MouseLeave(sender As Object, e As EventArgs) Handles Text_save_hero.MouseLeave, Button_save_hero.MouseLeave
+        Button_save_hero.BackgroundImage = My.Resources.button_save
+    End Sub
+
+    Private Sub valu_job_ValueChanged(sender As Object, e As EventArgs) Handles valu_job.ValueChanged
+        If valu_job.Value = 0 Then
+            Icon_job.Image = My.Resources.job_warrior
+        ElseIf valu_job.Value = 1 Then
+            Icon_job.Image = My.Resources.job_mage
+        ElseIf valu_job.Value = 2 Then
+            Icon_job.Image = My.Resources.job_cleric
+        ElseIf valu_job.Value = 3 Then
+            Icon_job.Image = My.Resources.job_thief
+        ElseIf valu_job.Value = 4 Then
+            Icon_job.Image = My.Resources.job_popstar
+        ElseIf valu_job.Value = 5 Then
+            Icon_job.Image = My.Resources.job_popstarg
+        ElseIf valu_job.Value = 6 Then
+            Icon_job.Image = My.Resources.job_vampire
+        ElseIf valu_job.Value = 7 Then
+            Icon_job.Image = My.Resources.job_chef
+        ElseIf valu_job.Value = 8 Then
+            Icon_job.Image = My.Resources.job_tank
+        ElseIf valu_job.Value = 9 Then
+            Icon_job.Image = My.Resources.job_imp
+        ElseIf valu_job.Value = 10 Then
+            Icon_job.Image = My.Resources.job_princess
+        ElseIf valu_job.Value = 11 Then
+            Icon_job.Image = My.Resources.job_flower
+        ElseIf valu_job.Value = 12 Then
+            Icon_job.Image = My.Resources.job_scientist
+        ElseIf valu_job.Value = 13 Then
+            Icon_job.Image = My.Resources.job_cat
+        ElseIf valu_job.Value = 14 Then
+            Icon_job.Image = My.Resources.job_elf
+        End If
+    End Sub
+
+    Private Sub Icon_job_Click(sender As Object, e As EventArgs) Handles Icon_job.Click
+        valu_job.Value = valu_job.Value + 1
+        If valu_job.Value > 14 Then
+            valu_job.Value = 0
+        End If
+    End Sub
+
+    Private Sub valu_personnality_ValueChanged(sender As Object, e As EventArgs) Handles valu_personnality.ValueChanged
+        If valu_personnality.Value = 0 Then
+            Select_personnality.SelectedItem = Select_personnality.Items.Item(0)
+        ElseIf valu_personnality.Value = 1 Then
+            Select_personnality.SelectedItem = Select_personnality.Items.Item(1)
+        ElseIf valu_personnality.Value = 2 Then
+            Select_personnality.SelectedItem = Select_personnality.Items.Item(2)
+        ElseIf valu_personnality.Value = 3 Then
+            Select_personnality.SelectedItem = Select_personnality.Items.Item(3)
+        ElseIf valu_personnality.Value = 4 Then
+            Select_personnality.SelectedItem = Select_personnality.Items.Item(4)
+        ElseIf valu_personnality.Value = 5 Then
+            Select_personnality.SelectedItem = Select_personnality.Items.Item(5)
+        ElseIf valu_personnality.Value = 6 Then
+            Select_personnality.SelectedItem = Select_personnality.Items.Item(6)
+        End If
+    End Sub
+
+    Private Sub Select_personnality_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Select_personnality.SelectedIndexChanged
+        If Select_personnality.SelectedItem = Select_personnality.Items.Item(0) Then
+            valu_personnality.Value = 0
+        ElseIf Select_personnality.SelectedItem = Select_personnality.Items.Item(1) Then
+            valu_personnality.Value = 1
+        ElseIf Select_personnality.SelectedItem = Select_personnality.Items.Item(2) Then
+            valu_personnality.Value = 2
+        ElseIf Select_personnality.SelectedItem = Select_personnality.Items.Item(3) Then
+            valu_personnality.Value = 3
+        ElseIf Select_personnality.SelectedItem = Select_personnality.Items.Item(4) Then
+            valu_personnality.Value = 4
+        ElseIf Select_personnality.SelectedItem = Select_personnality.Items.Item(5) Then
+            valu_personnality.Value = 5
+        ElseIf Select_personnality.SelectedItem = Select_personnality.Items.Item(6) Then
+            valu_personnality.Value = 6
+        End If
     End Sub
 End Class
