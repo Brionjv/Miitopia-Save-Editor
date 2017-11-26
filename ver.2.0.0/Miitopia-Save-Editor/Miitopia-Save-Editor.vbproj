@@ -160,6 +160,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\in_inn.png" />
+    <None Include="Resources\bg_panel_settings.png" />
+    <None Include="Resources\job_traveler.png" />
+    <None Include="Resources\Tumfull.png" />
+    <None Include="Resources\Tumempty.png" />
+    <None Include="Resources\bg_white.png" />
     <None Include="Resources\job_popstarg.png" />
     <None Include="Resources\bar_rightarrow.png" />
     <None Include="Resources\bar_right.png" />

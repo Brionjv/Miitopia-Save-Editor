@@ -46,9 +46,9 @@ Partial Class Miitopia_SE
         Me.Menu_icon_settings = New System.Windows.Forms.PictureBox()
         Me.Menu_width = New System.Windows.Forms.PictureBox()
         Me.Menu_buttonS = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Text_menu_buttonS = New System.Windows.Forms.Label()
         Me.Menu_buttonH = New System.Windows.Forms.Panel()
-        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Text_menu_buttonH = New System.Windows.Forms.Label()
         Me.Hidden_things = New System.Windows.Forms.Panel()
         Me.Hidden_text = New System.Windows.Forms.Label()
         Me.Panel_music = New System.Windows.Forms.Panel()
@@ -285,29 +285,73 @@ Partial Class Miitopia_SE
         Me.File_path_quest = New System.Windows.Forms.Panel()
         Me.TextBox_fpath_quest = New System.Windows.Forms.TextBox()
         Me.Panel_hero = New System.Windows.Forms.Panel()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Select_Mii = New System.Windows.Forms.ComboBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TabControl4 = New System.Windows.Forms.TabControl()
         Me.Tab_hero_Miiedit = New System.Windows.Forms.TabPage()
-        Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.Text_showstats = New System.Windows.Forms.Label()
+        Me.Panel13 = New System.Windows.Forms.Panel()
+        Me.Panel_hero_sw1 = New System.Windows.Forms.Panel()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.Text_warcry = New System.Windows.Forms.TextBox()
+        Me.valu_tummy = New System.Windows.Forms.NumericUpDown()
         Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.NumericUpDown3 = New System.Windows.Forms.NumericUpDown()
+        Me.Select_pose = New System.Windows.Forms.ComboBox()
+        Me.valu_pose = New System.Windows.Forms.NumericUpDown()
         Me.valu_personnality = New System.Windows.Forms.NumericUpDown()
         Me.Select_personnality = New System.Windows.Forms.ComboBox()
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tummy = New System.Windows.Forms.PictureBox()
         Me.Panel10 = New System.Windows.Forms.Panel()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Text_Mii_name = New System.Windows.Forms.TextBox()
         Me.valu_job = New System.Windows.Forms.NumericUpDown()
         Me.Icon_job = New System.Windows.Forms.PictureBox()
+        Me.Panel_hero_sw2 = New System.Windows.Forms.Panel()
+        Me.NumericUpDown12 = New System.Windows.Forms.NumericUpDown()
+        Me.NumericUpDown13 = New System.Windows.Forms.NumericUpDown()
+        Me.NumericUpDown14 = New System.Windows.Forms.NumericUpDown()
+        Me.NumericUpDown15 = New System.Windows.Forms.NumericUpDown()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.NumericUpDown8 = New System.Windows.Forms.NumericUpDown()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.NumericUpDown9 = New System.Windows.Forms.NumericUpDown()
+        Me.NumericUpDown10 = New System.Windows.Forms.NumericUpDown()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.NumericUpDown11 = New System.Windows.Forms.NumericUpDown()
         Me.Tab_hero_Miistats = New System.Windows.Forms.TabPage()
+        Me.Panel_inn = New System.Windows.Forms.Panel()
+        Me.Info_inn = New System.Windows.Forms.Label()
+        Me.Icon_inn_room_no = New System.Windows.Forms.PictureBox()
+        Me.valu_inn_roomposition = New System.Windows.Forms.NumericUpDown()
+        Me.valu_inn_room = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_inn = New System.Windows.Forms.Panel()
+        Me.Icon_inn_room_topright_right = New System.Windows.Forms.PictureBox()
+        Me.Icon_inn_room_topright_left = New System.Windows.Forms.PictureBox()
+        Me.Icon_inn_room_botright_right = New System.Windows.Forms.PictureBox()
+        Me.Icon_inn_room_botright_left = New System.Windows.Forms.PictureBox()
+        Me.Icon_inn_room_botleft_right = New System.Windows.Forms.PictureBox()
+        Me.Icon_inn_room_botleft_left = New System.Windows.Forms.PictureBox()
+        Me.Icon_inn_room_center_right = New System.Windows.Forms.PictureBox()
+        Me.Icon_inn_room_center_left = New System.Windows.Forms.PictureBox()
+        Me.Icon_inn_room_topleft_right = New System.Windows.Forms.PictureBox()
+        Me.Icon_inn_room_topleft_left = New System.Windows.Forms.PictureBox()
+        Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.valu_daysick = New System.Windows.Forms.NumericUpDown()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.valu_sick = New System.Windows.Forms.NumericUpDown()
+        Me.Select_sick = New System.Windows.Forms.ComboBox()
         Me.Button_open_hero = New System.Windows.Forms.Panel()
         Me.Text_open_hero = New System.Windows.Forms.Label()
         Me.Button_save_hero = New System.Windows.Forms.Panel()
@@ -548,16 +592,46 @@ Partial Class Miitopia_SE
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl4.SuspendLayout()
         Me.Tab_hero_Miiedit.SuspendLayout()
-        Me.Panel12.SuspendLayout()
+        Me.Panel14.SuspendLayout()
+        Me.Panel_hero_sw1.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_tummy, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel11.SuspendLayout()
-        CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_pose, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_personnality, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_tummy, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         CType(Me.valu_job, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_job, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel_hero_sw2.SuspendLayout()
+        CType(Me.NumericUpDown12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown11, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Tab_hero_Miistats.SuspendLayout()
+        Me.Panel_inn.SuspendLayout()
+        CType(Me.Icon_inn_room_no, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_inn_roomposition, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_inn_room, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_inn.SuspendLayout()
+        CType(Me.Icon_inn_room_topright_right, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_inn_room_topright_left, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_inn_room_botright_right, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_inn_room_botright_left, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_inn_room_botleft_right, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_inn_room_botleft_left, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_inn_room_center_right, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_inn_room_center_left, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_inn_room_topleft_right, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_inn_room_topleft_left, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel16.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        CType(Me.valu_daysick, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_sick, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Button_open_hero.SuspendLayout()
         Me.Button_save_hero.SuspendLayout()
         Me.File_path_hero.SuspendLayout()
@@ -820,50 +894,50 @@ Partial Class Miitopia_SE
         '
         Me.Menu_buttonS.BackColor = System.Drawing.Color.Transparent
         Me.Menu_buttonS.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_menu
-        Me.Menu_buttonS.Controls.Add(Me.Label5)
+        Me.Menu_buttonS.Controls.Add(Me.Text_menu_buttonS)
         Me.Menu_buttonS.Location = New System.Drawing.Point(0, 31)
         Me.Menu_buttonS.Name = "Menu_buttonS"
         Me.Menu_buttonS.Size = New System.Drawing.Size(68, 25)
         Me.Menu_buttonS.TabIndex = 6
         Me.Menu_buttonS.Visible = False
         '
-        'Label5
+        'Text_menu_buttonS
         '
-        Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label5.Location = New System.Drawing.Point(0, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(68, 25)
-        Me.Label5.TabIndex = 0
-        Me.Label5.Text = "Menu"
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Text_menu_buttonS.BackColor = System.Drawing.Color.Transparent
+        Me.Text_menu_buttonS.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_menu_buttonS.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_menu_buttonS.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Text_menu_buttonS.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Text_menu_buttonS.Location = New System.Drawing.Point(0, 0)
+        Me.Text_menu_buttonS.Name = "Text_menu_buttonS"
+        Me.Text_menu_buttonS.Size = New System.Drawing.Size(68, 25)
+        Me.Text_menu_buttonS.TabIndex = 0
+        Me.Text_menu_buttonS.Text = "Menu"
+        Me.Text_menu_buttonS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Menu_buttonH
         '
         Me.Menu_buttonH.BackColor = System.Drawing.Color.Transparent
         Me.Menu_buttonH.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_menu
-        Me.Menu_buttonH.Controls.Add(Me.Label6)
+        Me.Menu_buttonH.Controls.Add(Me.Text_menu_buttonH)
         Me.Menu_buttonH.Location = New System.Drawing.Point(0, 31)
         Me.Menu_buttonH.Name = "Menu_buttonH"
         Me.Menu_buttonH.Size = New System.Drawing.Size(68, 25)
         Me.Menu_buttonH.TabIndex = 7
         '
-        'Label6
+        'Text_menu_buttonH
         '
-        Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label6.Location = New System.Drawing.Point(0, 0)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(68, 25)
-        Me.Label6.TabIndex = 0
-        Me.Label6.Text = "Menu"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Text_menu_buttonH.BackColor = System.Drawing.Color.Transparent
+        Me.Text_menu_buttonH.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_menu_buttonH.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_menu_buttonH.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Text_menu_buttonH.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Text_menu_buttonH.Location = New System.Drawing.Point(0, 0)
+        Me.Text_menu_buttonH.Name = "Text_menu_buttonH"
+        Me.Text_menu_buttonH.Size = New System.Drawing.Size(68, 25)
+        Me.Text_menu_buttonH.TabIndex = 0
+        Me.Text_menu_buttonH.Text = "Menu"
+        Me.Text_menu_buttonH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Hidden_things
         '
@@ -971,7 +1045,7 @@ Partial Class Miitopia_SE
         '
         'GroupBox3
         '
-        Me.GroupBox3.BackgroundImage = CType(resources.GetObject("GroupBox3.BackgroundImage"), System.Drawing.Image)
+        Me.GroupBox3.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_settings
         Me.GroupBox3.Location = New System.Drawing.Point(277, 4)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(270, 434)
@@ -981,7 +1055,7 @@ Partial Class Miitopia_SE
         '
         'GroupBox2
         '
-        Me.GroupBox2.BackgroundImage = CType(resources.GetObject("GroupBox2.BackgroundImage"), System.Drawing.Image)
+        Me.GroupBox2.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_settings
         Me.GroupBox2.Controls.Add(Me.Label7)
         Me.GroupBox2.Location = New System.Drawing.Point(3, 141)
         Me.GroupBox2.Name = "GroupBox2"
@@ -1002,7 +1076,7 @@ Partial Class Miitopia_SE
         '
         'GroupBox1
         '
-        Me.GroupBox1.BackgroundImage = CType(resources.GetObject("GroupBox1.BackgroundImage"), System.Drawing.Image)
+        Me.GroupBox1.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_settings
         Me.GroupBox1.Controls.Add(Me.Panel9)
         Me.GroupBox1.Controls.Add(Me.Panel8)
         Me.GroupBox1.Controls.Add(Me.Panel5)
@@ -3514,7 +3588,7 @@ Partial Class Miitopia_SE
         'Panel_hero
         '
         Me.Panel_hero.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_hero
-        Me.Panel_hero.Controls.Add(Me.ComboBox1)
+        Me.Panel_hero.Controls.Add(Me.Select_Mii)
         Me.Panel_hero.Controls.Add(Me.PictureBox1)
         Me.Panel_hero.Controls.Add(Me.TabControl4)
         Me.Panel_hero.Controls.Add(Me.Button_open_hero)
@@ -3525,17 +3599,17 @@ Partial Class Miitopia_SE
         Me.Panel_hero.TabIndex = 16
         Me.Panel_hero.Visible = False
         '
-        'ComboBox1
+        'Select_Mii
         '
-        Me.ComboBox1.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Mii 1", "Mii 2", "Mii 3", "Mii 4", "Mii 5", "Mii 6", "Mii 7", "Mii 8", "Mii 9", "Mii 10"})
-        Me.ComboBox1.Location = New System.Drawing.Point(62, 24)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(70, 21)
-        Me.ComboBox1.TabIndex = 0
+        Me.Select_Mii.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Select_Mii.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_Mii.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_Mii.FormattingEnabled = True
+        Me.Select_Mii.Items.AddRange(New Object() {"Mii 1", "Mii 2", "Mii 3", "Mii 4", "Mii 5", "Mii 6", "Mii 7", "Mii 8", "Mii 9", "Mii 10"})
+        Me.Select_Mii.Location = New System.Drawing.Point(62, 24)
+        Me.Select_Mii.Name = "Select_Mii"
+        Me.Select_Mii.Size = New System.Drawing.Size(70, 21)
+        Me.Select_Mii.TabIndex = 0
         '
         'PictureBox1
         '
@@ -3561,10 +3635,12 @@ Partial Class Miitopia_SE
         'Tab_hero_Miiedit
         '
         Me.Tab_hero_Miiedit.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
-        Me.Tab_hero_Miiedit.Controls.Add(Me.Panel12)
-        Me.Tab_hero_Miiedit.Controls.Add(Me.NumericUpDown1)
+        Me.Tab_hero_Miiedit.Controls.Add(Me.Panel14)
+        Me.Tab_hero_Miiedit.Controls.Add(Me.Panel13)
+        Me.Tab_hero_Miiedit.Controls.Add(Me.Panel_hero_sw1)
+        Me.Tab_hero_Miiedit.Controls.Add(Me.valu_tummy)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel11)
-        Me.Tab_hero_Miiedit.Controls.Add(Me.PictureBox11)
+        Me.Tab_hero_Miiedit.Controls.Add(Me.Icon_tummy)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel10)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel7)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel6)
@@ -3572,58 +3648,90 @@ Partial Class Miitopia_SE
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel2)
         Me.Tab_hero_Miiedit.Controls.Add(Me.valu_job)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Icon_job)
+        Me.Tab_hero_Miiedit.Controls.Add(Me.Panel_hero_sw2)
         Me.Tab_hero_Miiedit.Location = New System.Drawing.Point(4, 22)
         Me.Tab_hero_Miiedit.Name = "Tab_hero_Miiedit"
         Me.Tab_hero_Miiedit.Padding = New System.Windows.Forms.Padding(3)
         Me.Tab_hero_Miiedit.Size = New System.Drawing.Size(524, 351)
         Me.Tab_hero_Miiedit.TabIndex = 0
-        Me.Tab_hero_Miiedit.Text = "Mii edit"
+        Me.Tab_hero_Miiedit.Text = "Mii edition"
         Me.Tab_hero_Miiedit.UseVisualStyleBackColor = True
         '
-        'Panel12
+        'Panel14
         '
-        Me.Panel12.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_hero
-        Me.Panel12.Controls.Add(Me.GroupBox5)
-        Me.Panel12.Location = New System.Drawing.Point(201, 78)
-        Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(299, 167)
-        Me.Panel12.TabIndex = 34
+        Me.Panel14.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_mid
+        Me.Panel14.Controls.Add(Me.Text_showstats)
+        Me.Panel14.Location = New System.Drawing.Point(0, 318)
+        Me.Panel14.Name = "Panel14"
+        Me.Panel14.Size = New System.Drawing.Size(79, 30)
+        Me.Panel14.TabIndex = 36
+        '
+        'Text_showstats
+        '
+        Me.Text_showstats.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_showstats.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_showstats.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Text_showstats.Location = New System.Drawing.Point(0, 0)
+        Me.Text_showstats.Name = "Text_showstats"
+        Me.Text_showstats.Size = New System.Drawing.Size(79, 30)
+        Me.Text_showstats.TabIndex = 0
+        Me.Text_showstats.Text = "Show stats"
+        Me.Text_showstats.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel13
+        '
+        Me.Panel13.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_rightarrow
+        Me.Panel13.Location = New System.Drawing.Point(69, 318)
+        Me.Panel13.Name = "Panel13"
+        Me.Panel13.Size = New System.Drawing.Size(29, 30)
+        Me.Panel13.TabIndex = 35
+        '
+        'Panel_hero_sw1
+        '
+        Me.Panel_hero_sw1.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_white
+        Me.Panel_hero_sw1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel_hero_sw1.Controls.Add(Me.GroupBox5)
+        Me.Panel_hero_sw1.Location = New System.Drawing.Point(201, 69)
+        Me.Panel_hero_sw1.Name = "Panel_hero_sw1"
+        Me.Panel_hero_sw1.Size = New System.Drawing.Size(299, 167)
+        Me.Panel_hero_sw1.TabIndex = 34
         '
         'GroupBox5
         '
-        Me.GroupBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.GroupBox5.Controls.Add(Me.TextBox2)
+        Me.GroupBox5.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox5.Controls.Add(Me.Text_warcry)
         Me.GroupBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBox5.Location = New System.Drawing.Point(31, 24)
+        Me.GroupBox5.Location = New System.Drawing.Point(31, 23)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Size = New System.Drawing.Size(250, 37)
         Me.GroupBox5.TabIndex = 2
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "War cry"
         '
-        'TextBox2
+        'Text_warcry
         '
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.Location = New System.Drawing.Point(8, 16)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(234, 13)
-        Me.TextBox2.TabIndex = 0
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Text_warcry.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Text_warcry.Location = New System.Drawing.Point(8, 16)
+        Me.Text_warcry.Name = "Text_warcry"
+        Me.Text_warcry.Size = New System.Drawing.Size(234, 13)
+        Me.Text_warcry.TabIndex = 0
+        Me.Text_warcry.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'NumericUpDown1
+        'valu_tummy
         '
-        Me.NumericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown1.Location = New System.Drawing.Point(28, 253)
-        Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(43, 16)
-        Me.NumericUpDown1.TabIndex = 23
-        Me.NumericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tummy.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tummy.Location = New System.Drawing.Point(14, 255)
+        Me.valu_tummy.Name = "valu_tummy"
+        Me.valu_tummy.Size = New System.Drawing.Size(43, 16)
+        Me.valu_tummy.TabIndex = 23
+        Me.valu_tummy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tummy.Visible = False
         '
         'Panel11
         '
         Me.Panel11.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_mid
-        Me.Panel11.Controls.Add(Me.ComboBox4)
-        Me.Panel11.Controls.Add(Me.NumericUpDown3)
+        Me.Panel11.Controls.Add(Me.Select_pose)
+        Me.Panel11.Controls.Add(Me.valu_pose)
         Me.Panel11.Controls.Add(Me.valu_personnality)
         Me.Panel11.Controls.Add(Me.Select_personnality)
         Me.Panel11.Location = New System.Drawing.Point(200, 22)
@@ -3631,26 +3739,27 @@ Partial Class Miitopia_SE
         Me.Panel11.Size = New System.Drawing.Size(323, 30)
         Me.Panel11.TabIndex = 33
         '
-        'ComboBox4
+        'Select_pose
         '
-        Me.ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"Pose 1", "Pose 2", "Pose 3", "Pose 4", "Pose 5", "Pose 6", "Pose 7", "Pose 8", "Pose 9", "Pose 10", "Pose 11", "Pose 12"})
-        Me.ComboBox4.Location = New System.Drawing.Point(166, 5)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(123, 21)
-        Me.ComboBox4.TabIndex = 37
+        Me.Select_pose.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_pose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_pose.FormattingEnabled = True
+        Me.Select_pose.Items.AddRange(New Object() {"Pose 1", "Pose 2", "Pose 3", "Pose 4", "Pose 5", "Pose 6", "Pose 7", "Pose 8", "Pose 9", "Pose 10", "Pose 11", "Pose 12", "???"})
+        Me.Select_pose.Location = New System.Drawing.Point(166, 5)
+        Me.Select_pose.Name = "Select_pose"
+        Me.Select_pose.Size = New System.Drawing.Size(123, 21)
+        Me.Select_pose.TabIndex = 37
         '
-        'NumericUpDown3
+        'valu_pose
         '
-        Me.NumericUpDown3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown3.Location = New System.Drawing.Point(290, 7)
-        Me.NumericUpDown3.Maximum = New Decimal(New Integer() {12, 0, 0, 0})
-        Me.NumericUpDown3.Name = "NumericUpDown3"
-        Me.NumericUpDown3.Size = New System.Drawing.Size(30, 16)
-        Me.NumericUpDown3.TabIndex = 36
-        Me.NumericUpDown3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_pose.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_pose.Location = New System.Drawing.Point(290, 7)
+        Me.valu_pose.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_pose.Name = "valu_pose"
+        Me.valu_pose.Size = New System.Drawing.Size(34, 16)
+        Me.valu_pose.TabIndex = 36
+        Me.valu_pose.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_pose.Visible = False
         '
         'valu_personnality
         '
@@ -3661,6 +3770,7 @@ Partial Class Miitopia_SE
         Me.valu_personnality.Size = New System.Drawing.Size(30, 16)
         Me.valu_personnality.TabIndex = 35
         Me.valu_personnality.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_personnality.Visible = False
         '
         'Select_personnality
         '
@@ -3673,13 +3783,14 @@ Partial Class Miitopia_SE
         Me.Select_personnality.Size = New System.Drawing.Size(123, 21)
         Me.Select_personnality.TabIndex = 34
         '
-        'PictureBox11
+        'Icon_tummy
         '
-        Me.PictureBox11.Location = New System.Drawing.Point(27, 198)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(82, 74)
-        Me.PictureBox11.TabIndex = 22
-        Me.PictureBox11.TabStop = False
+        Me.Icon_tummy.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.Tumempty
+        Me.Icon_tummy.Location = New System.Drawing.Point(13, 198)
+        Me.Icon_tummy.Name = "Icon_tummy"
+        Me.Icon_tummy.Size = New System.Drawing.Size(82, 74)
+        Me.Icon_tummy.TabIndex = 22
+        Me.Icon_tummy.TabStop = False
         '
         'Panel10
         '
@@ -3692,7 +3803,7 @@ Partial Class Miitopia_SE
         'Panel7
         '
         Me.Panel7.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_rightarrow
-        Me.Panel7.Location = New System.Drawing.Point(1, 22)
+        Me.Panel7.Location = New System.Drawing.Point(0, 22)
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(29, 30)
         Me.Panel7.TabIndex = 31
@@ -3710,7 +3821,7 @@ Partial Class Miitopia_SE
         '
         Me.Panel4.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_left
         Me.Panel4.Enabled = False
-        Me.Panel4.Location = New System.Drawing.Point(30, 22)
+        Me.Panel4.Location = New System.Drawing.Point(29, 22)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(13, 30)
         Me.Panel4.TabIndex = 29
@@ -3718,26 +3829,26 @@ Partial Class Miitopia_SE
         'Panel2
         '
         Me.Panel2.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_mid
-        Me.Panel2.Controls.Add(Me.TextBox3)
+        Me.Panel2.Controls.Add(Me.Text_Mii_name)
         Me.Panel2.Location = New System.Drawing.Point(30, 22)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(148, 30)
         Me.Panel2.TabIndex = 28
         '
-        'TextBox3
+        'Text_Mii_name
         '
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox3.Location = New System.Drawing.Point(25, 9)
-        Me.TextBox3.MaxLength = 10
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(99, 13)
-        Me.TextBox3.TabIndex = 0
+        Me.Text_Mii_name.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Text_Mii_name.Location = New System.Drawing.Point(25, 9)
+        Me.Text_Mii_name.MaxLength = 10
+        Me.Text_Mii_name.Name = "Text_Mii_name"
+        Me.Text_Mii_name.Size = New System.Drawing.Size(99, 13)
+        Me.Text_Mii_name.TabIndex = 0
         '
         'valu_job
         '
         Me.valu_job.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_job.Location = New System.Drawing.Point(28, 144)
-        Me.valu_job.Maximum = New Decimal(New Integer() {15, 0, 0, 0})
+        Me.valu_job.Location = New System.Drawing.Point(14, 144)
+        Me.valu_job.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_job.Name = "valu_job"
         Me.valu_job.Size = New System.Drawing.Size(34, 16)
         Me.valu_job.TabIndex = 25
@@ -3748,21 +3859,467 @@ Partial Class Miitopia_SE
         '
         Me.Icon_job.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_job.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.job_warrior
-        Me.Icon_job.Location = New System.Drawing.Point(28, 69)
+        Me.Icon_job.Location = New System.Drawing.Point(14, 69)
         Me.Icon_job.Name = "Icon_job"
         Me.Icon_job.Size = New System.Drawing.Size(78, 91)
         Me.Icon_job.TabIndex = 27
         Me.Icon_job.TabStop = False
         '
+        'Panel_hero_sw2
+        '
+        Me.Panel_hero_sw2.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_white
+        Me.Panel_hero_sw2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown12)
+        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown13)
+        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown14)
+        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown15)
+        Me.Panel_hero_sw2.Controls.Add(Me.Label2)
+        Me.Panel_hero_sw2.Controls.Add(Me.Label3)
+        Me.Panel_hero_sw2.Controls.Add(Me.Label4)
+        Me.Panel_hero_sw2.Controls.Add(Me.Label8)
+        Me.Panel_hero_sw2.Controls.Add(Me.Label11)
+        Me.Panel_hero_sw2.Controls.Add(Me.Label10)
+        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown8)
+        Me.Panel_hero_sw2.Controls.Add(Me.Label13)
+        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown9)
+        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown10)
+        Me.Panel_hero_sw2.Controls.Add(Me.Label14)
+        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown11)
+        Me.Panel_hero_sw2.Location = New System.Drawing.Point(112, 69)
+        Me.Panel_hero_sw2.Name = "Panel_hero_sw2"
+        Me.Panel_hero_sw2.Size = New System.Drawing.Size(405, 183)
+        Me.Panel_hero_sw2.TabIndex = 37
+        Me.Panel_hero_sw2.Visible = False
+        '
+        'NumericUpDown12
+        '
+        Me.NumericUpDown12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown12.Location = New System.Drawing.Point(337, 25)
+        Me.NumericUpDown12.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.NumericUpDown12.Name = "NumericUpDown12"
+        Me.NumericUpDown12.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown12.TabIndex = 35
+        Me.NumericUpDown12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'NumericUpDown13
+        '
+        Me.NumericUpDown13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown13.Location = New System.Drawing.Point(339, 62)
+        Me.NumericUpDown13.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.NumericUpDown13.Name = "NumericUpDown13"
+        Me.NumericUpDown13.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown13.TabIndex = 37
+        Me.NumericUpDown13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'NumericUpDown14
+        '
+        Me.NumericUpDown14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown14.Location = New System.Drawing.Point(339, 101)
+        Me.NumericUpDown14.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.NumericUpDown14.Name = "NumericUpDown14"
+        Me.NumericUpDown14.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown14.TabIndex = 39
+        Me.NumericUpDown14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'NumericUpDown15
+        '
+        Me.NumericUpDown15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown15.Location = New System.Drawing.Point(339, 142)
+        Me.NumericUpDown15.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.NumericUpDown15.Name = "NumericUpDown15"
+        Me.NumericUpDown15.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown15.TabIndex = 41
+        Me.NumericUpDown15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(6, 24)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.TabIndex = 26
+        Me.Label2.Text = "Battles"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(204, 139)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(71, 13)
+        Me.Label3.TabIndex = 40
+        Me.Label3.Text = "Gold grabbed"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(6, 61)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(59, 13)
+        Me.Label4.TabIndex = 28
+        Me.Label4.Text = "Final blows"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(6, 100)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(44, 13)
+        Me.Label8.TabIndex = 30
+        Me.Label8.Text = "Defeats"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(204, 100)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(72, 13)
+        Me.Label11.TabIndex = 38
+        Me.Label11.Text = "Grub grubbed"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(6, 141)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(108, 13)
+        Me.Label10.TabIndex = 32
+        Me.Label10.Text = "Times left out of party"
+        '
+        'NumericUpDown8
+        '
+        Me.NumericUpDown8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown8.Location = New System.Drawing.Point(128, 25)
+        Me.NumericUpDown8.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.NumericUpDown8.Name = "NumericUpDown8"
+        Me.NumericUpDown8.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown8.TabIndex = 27
+        Me.NumericUpDown8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(204, 61)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(99, 13)
+        Me.Label13.TabIndex = 36
+        Me.Label13.Text = "MP Candies gulped"
+        '
+        'NumericUpDown9
+        '
+        Me.NumericUpDown9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown9.Location = New System.Drawing.Point(128, 62)
+        Me.NumericUpDown9.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.NumericUpDown9.Name = "NumericUpDown9"
+        Me.NumericUpDown9.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown9.TabIndex = 29
+        Me.NumericUpDown9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'NumericUpDown10
+        '
+        Me.NumericUpDown10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown10.Location = New System.Drawing.Point(128, 101)
+        Me.NumericUpDown10.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.NumericUpDown10.Name = "NumericUpDown10"
+        Me.NumericUpDown10.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown10.TabIndex = 31
+        Me.NumericUpDown10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(204, 24)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(108, 13)
+        Me.Label14.TabIndex = 34
+        Me.Label14.Text = "HP Bananas gobbled"
+        '
+        'NumericUpDown11
+        '
+        Me.NumericUpDown11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown11.Location = New System.Drawing.Point(128, 142)
+        Me.NumericUpDown11.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.NumericUpDown11.Name = "NumericUpDown11"
+        Me.NumericUpDown11.Size = New System.Drawing.Size(60, 16)
+        Me.NumericUpDown11.TabIndex = 33
+        Me.NumericUpDown11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'Tab_hero_Miistats
         '
         Me.Tab_hero_Miistats.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
+        Me.Tab_hero_Miistats.Controls.Add(Me.Panel_inn)
+        Me.Tab_hero_Miistats.Controls.Add(Me.Panel16)
         Me.Tab_hero_Miistats.Location = New System.Drawing.Point(4, 22)
         Me.Tab_hero_Miistats.Name = "Tab_hero_Miistats"
         Me.Tab_hero_Miistats.Size = New System.Drawing.Size(524, 351)
         Me.Tab_hero_Miistats.TabIndex = 1
-        Me.Tab_hero_Miistats.Text = "Mii stats"
+        Me.Tab_hero_Miistats.Text = "Inn"
         Me.Tab_hero_Miistats.UseVisualStyleBackColor = True
+        '
+        'Panel_inn
+        '
+        Me.Panel_inn.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_settings
+        Me.Panel_inn.Controls.Add(Me.Info_inn)
+        Me.Panel_inn.Controls.Add(Me.Icon_inn_room_no)
+        Me.Panel_inn.Controls.Add(Me.valu_inn_roomposition)
+        Me.Panel_inn.Controls.Add(Me.valu_inn_room)
+        Me.Panel_inn.Controls.Add(Me.Fea_inn)
+        Me.Panel_inn.Location = New System.Drawing.Point(75, 0)
+        Me.Panel_inn.Name = "Panel_inn"
+        Me.Panel_inn.Size = New System.Drawing.Size(448, 286)
+        Me.Panel_inn.TabIndex = 1
+        '
+        'Info_inn
+        '
+        Me.Info_inn.AutoSize = True
+        Me.Info_inn.Cursor = System.Windows.Forms.Cursors.Help
+        Me.Info_inn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Info_inn.ForeColor = System.Drawing.Color.Blue
+        Me.Info_inn.Location = New System.Drawing.Point(428, 263)
+        Me.Info_inn.Name = "Info_inn"
+        Me.Info_inn.Size = New System.Drawing.Size(12, 16)
+        Me.Info_inn.TabIndex = 18
+        Me.Info_inn.Text = "i"
+        '
+        'Icon_inn_room_no
+        '
+        Me.Icon_inn_room_no.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Icon_inn_room_no.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_inn_room_no.Location = New System.Drawing.Point(206, 232)
+        Me.Icon_inn_room_no.Name = "Icon_inn_room_no"
+        Me.Icon_inn_room_no.Size = New System.Drawing.Size(40, 50)
+        Me.Icon_inn_room_no.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_inn_room_no.TabIndex = 3
+        Me.Icon_inn_room_no.TabStop = False
+        '
+        'valu_inn_roomposition
+        '
+        Me.valu_inn_roomposition.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_inn_roomposition.Location = New System.Drawing.Point(329, 257)
+        Me.valu_inn_roomposition.Maximum = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.valu_inn_roomposition.Name = "valu_inn_roomposition"
+        Me.valu_inn_roomposition.Size = New System.Drawing.Size(52, 16)
+        Me.valu_inn_roomposition.TabIndex = 2
+        Me.valu_inn_roomposition.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_inn_roomposition.Visible = False
+        '
+        'valu_inn_room
+        '
+        Me.valu_inn_room.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_inn_room.Location = New System.Drawing.Point(68, 257)
+        Me.valu_inn_room.Maximum = New Decimal(New Integer() {5, 0, 0, 0})
+        Me.valu_inn_room.Name = "valu_inn_room"
+        Me.valu_inn_room.Size = New System.Drawing.Size(52, 16)
+        Me.valu_inn_room.TabIndex = 1
+        Me.valu_inn_room.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_inn_room.Visible = False
+        '
+        'Fea_inn
+        '
+        Me.Fea_inn.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.in_inn
+        Me.Fea_inn.Controls.Add(Me.Icon_inn_room_topright_right)
+        Me.Fea_inn.Controls.Add(Me.Icon_inn_room_topright_left)
+        Me.Fea_inn.Controls.Add(Me.Icon_inn_room_botright_right)
+        Me.Fea_inn.Controls.Add(Me.Icon_inn_room_botright_left)
+        Me.Fea_inn.Controls.Add(Me.Icon_inn_room_botleft_right)
+        Me.Fea_inn.Controls.Add(Me.Icon_inn_room_botleft_left)
+        Me.Fea_inn.Controls.Add(Me.Icon_inn_room_center_right)
+        Me.Fea_inn.Controls.Add(Me.Icon_inn_room_center_left)
+        Me.Fea_inn.Controls.Add(Me.Icon_inn_room_topleft_right)
+        Me.Fea_inn.Controls.Add(Me.Icon_inn_room_topleft_left)
+        Me.Fea_inn.Location = New System.Drawing.Point(62, 30)
+        Me.Fea_inn.Name = "Fea_inn"
+        Me.Fea_inn.Size = New System.Drawing.Size(324, 199)
+        Me.Fea_inn.TabIndex = 0
+        '
+        'Icon_inn_room_topright_right
+        '
+        Me.Icon_inn_room_topright_right.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Icon_inn_room_topright_right.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_inn_room_topright_right.Location = New System.Drawing.Point(271, 56)
+        Me.Icon_inn_room_topright_right.Name = "Icon_inn_room_topright_right"
+        Me.Icon_inn_room_topright_right.Size = New System.Drawing.Size(40, 50)
+        Me.Icon_inn_room_topright_right.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_inn_room_topright_right.TabIndex = 9
+        Me.Icon_inn_room_topright_right.TabStop = False
+        '
+        'Icon_inn_room_topright_left
+        '
+        Me.Icon_inn_room_topright_left.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Icon_inn_room_topright_left.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_inn_room_topright_left.Location = New System.Drawing.Point(224, 56)
+        Me.Icon_inn_room_topright_left.Name = "Icon_inn_room_topright_left"
+        Me.Icon_inn_room_topright_left.Size = New System.Drawing.Size(40, 50)
+        Me.Icon_inn_room_topright_left.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_inn_room_topright_left.TabIndex = 8
+        Me.Icon_inn_room_topright_left.TabStop = False
+        '
+        'Icon_inn_room_botright_right
+        '
+        Me.Icon_inn_room_botright_right.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Icon_inn_room_botright_right.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_inn_room_botright_right.Location = New System.Drawing.Point(271, 139)
+        Me.Icon_inn_room_botright_right.Name = "Icon_inn_room_botright_right"
+        Me.Icon_inn_room_botright_right.Size = New System.Drawing.Size(40, 50)
+        Me.Icon_inn_room_botright_right.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_inn_room_botright_right.TabIndex = 7
+        Me.Icon_inn_room_botright_right.TabStop = False
+        '
+        'Icon_inn_room_botright_left
+        '
+        Me.Icon_inn_room_botright_left.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Icon_inn_room_botright_left.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_inn_room_botright_left.Location = New System.Drawing.Point(224, 139)
+        Me.Icon_inn_room_botright_left.Name = "Icon_inn_room_botright_left"
+        Me.Icon_inn_room_botright_left.Size = New System.Drawing.Size(40, 50)
+        Me.Icon_inn_room_botright_left.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_inn_room_botright_left.TabIndex = 6
+        Me.Icon_inn_room_botright_left.TabStop = False
+        '
+        'Icon_inn_room_botleft_right
+        '
+        Me.Icon_inn_room_botleft_right.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Icon_inn_room_botleft_right.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_inn_room_botleft_right.Location = New System.Drawing.Point(63, 139)
+        Me.Icon_inn_room_botleft_right.Name = "Icon_inn_room_botleft_right"
+        Me.Icon_inn_room_botleft_right.Size = New System.Drawing.Size(40, 50)
+        Me.Icon_inn_room_botleft_right.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_inn_room_botleft_right.TabIndex = 5
+        Me.Icon_inn_room_botleft_right.TabStop = False
+        '
+        'Icon_inn_room_botleft_left
+        '
+        Me.Icon_inn_room_botleft_left.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Icon_inn_room_botleft_left.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_inn_room_botleft_left.Location = New System.Drawing.Point(16, 139)
+        Me.Icon_inn_room_botleft_left.Name = "Icon_inn_room_botleft_left"
+        Me.Icon_inn_room_botleft_left.Size = New System.Drawing.Size(40, 50)
+        Me.Icon_inn_room_botleft_left.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_inn_room_botleft_left.TabIndex = 4
+        Me.Icon_inn_room_botleft_left.TabStop = False
+        '
+        'Icon_inn_room_center_right
+        '
+        Me.Icon_inn_room_center_right.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Icon_inn_room_center_right.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_inn_room_center_right.Location = New System.Drawing.Point(169, 139)
+        Me.Icon_inn_room_center_right.Name = "Icon_inn_room_center_right"
+        Me.Icon_inn_room_center_right.Size = New System.Drawing.Size(40, 50)
+        Me.Icon_inn_room_center_right.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_inn_room_center_right.TabIndex = 3
+        Me.Icon_inn_room_center_right.TabStop = False
+        '
+        'Icon_inn_room_center_left
+        '
+        Me.Icon_inn_room_center_left.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Icon_inn_room_center_left.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_inn_room_center_left.Location = New System.Drawing.Point(122, 139)
+        Me.Icon_inn_room_center_left.Name = "Icon_inn_room_center_left"
+        Me.Icon_inn_room_center_left.Size = New System.Drawing.Size(40, 50)
+        Me.Icon_inn_room_center_left.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_inn_room_center_left.TabIndex = 2
+        Me.Icon_inn_room_center_left.TabStop = False
+        '
+        'Icon_inn_room_topleft_right
+        '
+        Me.Icon_inn_room_topleft_right.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Icon_inn_room_topleft_right.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_inn_room_topleft_right.Location = New System.Drawing.Point(63, 56)
+        Me.Icon_inn_room_topleft_right.Name = "Icon_inn_room_topleft_right"
+        Me.Icon_inn_room_topleft_right.Size = New System.Drawing.Size(40, 50)
+        Me.Icon_inn_room_topleft_right.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_inn_room_topleft_right.TabIndex = 1
+        Me.Icon_inn_room_topleft_right.TabStop = False
+        '
+        'Icon_inn_room_topleft_left
+        '
+        Me.Icon_inn_room_topleft_left.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Icon_inn_room_topleft_left.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_inn_room_topleft_left.Location = New System.Drawing.Point(16, 56)
+        Me.Icon_inn_room_topleft_left.Name = "Icon_inn_room_topleft_left"
+        Me.Icon_inn_room_topleft_left.Size = New System.Drawing.Size(40, 50)
+        Me.Icon_inn_room_topleft_left.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_inn_room_topleft_left.TabIndex = 0
+        Me.Icon_inn_room_topleft_left.TabStop = False
+        '
+        'Panel16
+        '
+        Me.Panel16.Controls.Add(Me.GroupBox6)
+        Me.Panel16.Controls.Add(Me.GroupBox4)
+        Me.Panel16.Location = New System.Drawing.Point(0, 0)
+        Me.Panel16.Name = "Panel16"
+        Me.Panel16.Size = New System.Drawing.Size(524, 351)
+        Me.Panel16.TabIndex = 0
+        '
+        'GroupBox6
+        '
+        Me.GroupBox6.Location = New System.Drawing.Point(1, 206)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(73, 73)
+        Me.GroupBox6.TabIndex = 1
+        Me.GroupBox6.TabStop = False
+        Me.GroupBox6.Text = "???"
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.Label15)
+        Me.GroupBox4.Controls.Add(Me.valu_daysick)
+        Me.GroupBox4.Controls.Add(Me.Label1)
+        Me.GroupBox4.Controls.Add(Me.valu_sick)
+        Me.GroupBox4.Controls.Add(Me.Select_sick)
+        Me.GroupBox4.Location = New System.Drawing.Point(1, 2)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(73, 139)
+        Me.GroupBox4.TabIndex = 0
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "Health"
+        '
+        'Label15
+        '
+        Me.Label15.Location = New System.Drawing.Point(2, 108)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(68, 23)
+        Me.Label15.TabIndex = 3
+        Me.Label15.Text = "days"
+        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_daysick
+        '
+        Me.valu_daysick.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_daysick.Location = New System.Drawing.Point(13, 89)
+        Me.valu_daysick.Name = "valu_daysick"
+        Me.valu_daysick.Size = New System.Drawing.Size(47, 16)
+        Me.valu_daysick.TabIndex = 1
+        Me.valu_daysick.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label1
+        '
+        Me.Label1.Location = New System.Drawing.Point(2, 63)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(68, 23)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "for"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_sick
+        '
+        Me.valu_sick.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_sick.Location = New System.Drawing.Point(19, 43)
+        Me.valu_sick.Name = "valu_sick"
+        Me.valu_sick.Size = New System.Drawing.Size(35, 16)
+        Me.valu_sick.TabIndex = 1
+        Me.valu_sick.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_sick.Visible = False
+        '
+        'Select_sick
+        '
+        Me.Select_sick.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_sick.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_sick.FormattingEnabled = True
+        Me.Select_sick.Items.AddRange(New Object() {"Not sick", "Sick"})
+        Me.Select_sick.Location = New System.Drawing.Point(2, 20)
+        Me.Select_sick.Name = "Select_sick"
+        Me.Select_sick.Size = New System.Drawing.Size(68, 21)
+        Me.Select_sick.TabIndex = 0
         '
         'Button_open_hero
         '
@@ -3849,10 +4406,10 @@ Partial Class Miitopia_SE
         Me.Controls.Add(Me.Menu_buttonS)
         Me.Controls.Add(Me.Menu_panel)
         Me.Controls.Add(Me.MSE_header)
+        Me.Controls.Add(Me.Panel_hero)
         Me.Controls.Add(Me.Panel_quest)
         Me.Controls.Add(Me.Panel_settings)
         Me.Controls.Add(Me.Panel_common)
-        Me.Controls.Add(Me.Panel_hero)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -4110,18 +4667,50 @@ Partial Class Miitopia_SE
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabControl4.ResumeLayout(False)
         Me.Tab_hero_Miiedit.ResumeLayout(False)
-        Me.Panel12.ResumeLayout(False)
+        Me.Panel14.ResumeLayout(False)
+        Me.Panel_hero_sw1.ResumeLayout(False)
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_tummy, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel11.ResumeLayout(False)
-        CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_pose, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_personnality, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_tummy, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         CType(Me.valu_job, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_job, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_hero_sw2.ResumeLayout(False)
+        Me.Panel_hero_sw2.PerformLayout()
+        CType(Me.NumericUpDown12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown11, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Tab_hero_Miistats.ResumeLayout(False)
+        Me.Panel_inn.ResumeLayout(False)
+        Me.Panel_inn.PerformLayout()
+        CType(Me.Icon_inn_room_no, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_inn_roomposition, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_inn_room, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_inn.ResumeLayout(False)
+        CType(Me.Icon_inn_room_topright_right, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_inn_room_topright_left, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_inn_room_botright_right, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_inn_room_botright_left, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_inn_room_botleft_right, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_inn_room_botleft_left, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_inn_room_center_right, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_inn_room_center_left, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_inn_room_topleft_right, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_inn_room_topleft_left, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel16.ResumeLayout(False)
+        Me.GroupBox4.ResumeLayout(False)
+        CType(Me.valu_daysick, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_sick, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Button_open_hero.ResumeLayout(False)
         Me.Button_save_hero.ResumeLayout(False)
         Me.File_path_hero.ResumeLayout(False)
@@ -4150,9 +4739,9 @@ Partial Class Miitopia_SE
     Friend WithEvents Menu_text_common As System.Windows.Forms.Label
     Friend WithEvents Menu_icon_common As System.Windows.Forms.PictureBox
     Friend WithEvents Menu_buttonS As System.Windows.Forms.Panel
-    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Text_menu_buttonS As System.Windows.Forms.Label
     Friend WithEvents Menu_buttonH As System.Windows.Forms.Panel
-    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Text_menu_buttonH As System.Windows.Forms.Label
     Friend WithEvents Hidden_things As System.Windows.Forms.Panel
     Friend WithEvents Hidden_text As System.Windows.Forms.Label
     Friend WithEvents Panel_music As System.Windows.Forms.Panel
@@ -4399,25 +4988,69 @@ Partial Class Miitopia_SE
     Friend WithEvents File_path_hero As System.Windows.Forms.Panel
     Friend WithEvents TextBox_fpath_hero As System.Windows.Forms.TextBox
     Friend WithEvents Tab_hero_Miistats As System.Windows.Forms.TabPage
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents Select_Mii As System.Windows.Forms.ComboBox
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents valu_job As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown1 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents PictureBox11 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_tummy As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_tummy As System.Windows.Forms.PictureBox
     Friend WithEvents GroupBox5 As System.Windows.Forms.GroupBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents Text_warcry As System.Windows.Forms.TextBox
     Friend WithEvents Icon_job As System.Windows.Forms.PictureBox
     Friend WithEvents Panel6 As System.Windows.Forms.Panel
     Friend WithEvents Panel4 As System.Windows.Forms.Panel
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents Panel7 As System.Windows.Forms.Panel
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents Text_Mii_name As System.Windows.Forms.TextBox
     Friend WithEvents Panel10 As System.Windows.Forms.Panel
     Friend WithEvents Panel11 As System.Windows.Forms.Panel
-    Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox
-    Friend WithEvents NumericUpDown3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Select_pose As System.Windows.Forms.ComboBox
+    Friend WithEvents valu_pose As System.Windows.Forms.NumericUpDown
     Friend WithEvents valu_personnality As System.Windows.Forms.NumericUpDown
     Friend WithEvents Select_personnality As System.Windows.Forms.ComboBox
-    Friend WithEvents Panel12 As System.Windows.Forms.Panel
+    Friend WithEvents Panel_hero_sw1 As System.Windows.Forms.Panel
+    Friend WithEvents Panel14 As System.Windows.Forms.Panel
+    Friend WithEvents Text_showstats As System.Windows.Forms.Label
+    Friend WithEvents Panel13 As System.Windows.Forms.Panel
+    Friend WithEvents Panel_hero_sw2 As System.Windows.Forms.Panel
+    Friend WithEvents NumericUpDown12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents NumericUpDown13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents NumericUpDown14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents NumericUpDown15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents NumericUpDown10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents NumericUpDown11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel_inn As System.Windows.Forms.Panel
+    Friend WithEvents Panel16 As System.Windows.Forms.Panel
+    Friend WithEvents Fea_inn As System.Windows.Forms.Panel
+    Friend WithEvents valu_inn_roomposition As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_inn_room As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_inn_room_topright_right As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_inn_room_topright_left As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_inn_room_botright_right As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_inn_room_botright_left As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_inn_room_botleft_right As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_inn_room_botleft_left As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_inn_room_center_right As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_inn_room_center_left As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_inn_room_topleft_right As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_inn_room_topleft_left As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_inn_room_no As System.Windows.Forms.PictureBox
+    Friend WithEvents Info_inn As System.Windows.Forms.Label
+    Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_sick As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Select_sick As System.Windows.Forms.ComboBox
+    Friend WithEvents GroupBox6 As System.Windows.Forms.GroupBox
+    Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents valu_daysick As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 
 End Class

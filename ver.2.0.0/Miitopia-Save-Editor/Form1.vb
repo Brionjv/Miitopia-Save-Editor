@@ -11,6 +11,16 @@ Public Class Miitopia_SE
     Dim hero As String
     Dim quest As String
     Dim AudioMiitopia As System.IO.UnmanagedMemoryStream
+    Dim innmii As Image
+    Dim Miiname As String
+    Dim Warcry As String
+    Dim Personality As String
+    Dim Job As String
+    Dim Pose As String
+    Dim Tummy As String
+    Dim Innroom As String
+    Dim Innroomposition As String
+    Dim Sick As String
 
     Public Sub Hidemenu() ' MSE Functions
         If Menu_panel.Width = 34 Then
@@ -34,6 +44,20 @@ Public Class Miitopia_SE
         File_path_common.Visible = False
         File_path_quest.Visible = False
         File_path_hero.Visible = False
+    End Sub
+
+    Public Sub Resetinnicon()
+        Icon_inn_room_no.Image = Nothing
+        Icon_inn_room_botleft_left.Image = Nothing
+        Icon_inn_room_botleft_right.Image = Nothing
+        Icon_inn_room_botright_left.Image = Nothing
+        Icon_inn_room_botright_right.Image = Nothing
+        Icon_inn_room_topleft_left.Image = Nothing
+        Icon_inn_room_topleft_right.Image = Nothing
+        Icon_inn_room_topright_left.Image = Nothing
+        Icon_inn_room_topright_right.Image = Nothing
+        Icon_inn_room_center_left.Image = Nothing
+        Icon_inn_room_center_right.Image = Nothing
     End Sub
 
     Public Sub Checkupdates()
@@ -356,6 +380,55 @@ Public Class Miitopia_SE
         End Try
     End Sub
 
+    Public Sub readfilehero()
+        Try
+            Dim Reader As New PackageIO.Reader(hero, PackageIO.Endian.Little)
+            
+            Button_open_hero.Visible = False
+            Button_save_hero.Visible = True
+        Catch ex As Exception
+            fdialog.Title.Text = "Miitopia Save Editor : Read hero.sav"
+            fdialog.Msg.Text = "Oops, something goes wrong" & vbNewLine & "opening of hero.sav failed, please report this issue or try again"
+            fdialog.ShowDialog()
+            Button_open_hero.Visible = True
+            Button_save_hero.Visible = False
+        End Try
+    End Sub
+    Public Sub writehero()
+        Try
+            Dim writer As New PackageIO.Writer(hero, PackageIO.Endian.Little)
+            
+            fdialog.Title.Text = "Miitopia Save Editor : write hero.sav"
+            fdialog.Msg.Text = "hero.sav has been saved"
+            fdialog.ShowDialog()
+        Catch ex As Exception
+            fdialog.Title.Text = "Miitopia Save Editor : write hero.sav"
+            fdialog.Msg.Text = "An error has occured" & vbNewLine & "please report this issue"
+            fdialog.ShowDialog()
+        End Try
+    End Sub
+
+    Public Sub makebakhero()
+        Try
+            If Filever_text.Text = "EU" Then
+                My.Computer.FileSystem.CopyFile(
+                          hero,
+                        applicationpath & "\bak\hero.sav\EUR\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\hero.sav")
+            End If
+            If Filever_text.Text = "US" Then
+                My.Computer.FileSystem.CopyFile(
+                          hero,
+                        applicationpath & "\bak\hero.sav\USA\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\hero.sav")
+            End If
+            If Filever_text.Text = "JP" Then
+                My.Computer.FileSystem.CopyFile(
+                          hero,
+                        applicationpath & "\bak\hero.sav\JPN\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\hero.sav")
+            End If
+        Catch ex As Exception
+        End Try
+    End Sub
+
     'MSE Features
     Private Sub ClosebuttonMouseMove(sender As Object, e As EventArgs) Handles Closebutton.MouseMove
         Closebutton.Image = My.Resources.closebuttonred
@@ -404,7 +477,7 @@ Public Class Miitopia_SE
         End If
     End Sub
 
-    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+    Private Sub Text_menu_buttonS_Click(sender As Object, e As EventArgs) Handles Text_menu_buttonS.Click
         If Menu_panel.Width = 34 Then
             Menu_panel.Location = New Point(-35, 57)
             Do Until Menu_panel.Location.X = -10
@@ -431,7 +504,7 @@ Public Class Miitopia_SE
         Menu_buttonH.Visible = True
     End Sub
 
-    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+    Private Sub Text_menu_buttonH_Click(sender As Object, e As EventArgs) Handles Text_menu_buttonH.Click
         If Menu_panel.Width = 34 Then
             Menu_panel.Location = New Point(-35, 57)
         End If
@@ -512,6 +585,10 @@ Public Class Miitopia_SE
     Private Sub Miitopia_SE_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Select_language.SelectedItem = Select_language.Items.Item(0)
         Select_music.SelectedItem = Select_music.Items.Item(0)
+        Select_sick.SelectedItem = Select_sick.Items.Item(0)
+        Select_world.SelectedItem = Select_world.Items.Item(0)
+        Select_pose.SelectedItem = Select_pose.Items.Item(0)
+        Select_personnality.SelectedItem = Select_personnality.Items.Item(0)
         Try
             Setting_music.Checked = My.Settings.S_music
             Setting_hidden.Checked = My.Settings.S_hide
@@ -583,6 +660,13 @@ Public Class Miitopia_SE
             Icon_dragonclass.Location = New Point(21, 21)
             Bar_villa.Visible = True
             Icon_villa.Location = New Point(21, 21)
+            valu_personnality.Visible = True
+            valu_pose.Visible = True
+            valu_job.Visible = True
+            valu_tummy.Visible = True
+            valu_inn_room.Visible = True
+            valu_inn_roomposition.Visible = True
+            valu_sick.Visible = True
         Else
             Hidden_things.Visible = False
             Bar_allweapons.Visible = False
@@ -627,6 +711,13 @@ Public Class Miitopia_SE
             Icon_dragonclass.Location = New Point(21, 12)
             Bar_villa.Visible = False
             Icon_villa.Location = New Point(21, 12)
+            valu_personnality.Visible = False
+            valu_pose.Visible = False
+            valu_job.Visible = False
+            valu_tummy.Visible = False
+            valu_inn_room.Visible = False
+            valu_inn_roomposition.Visible = False
+            valu_sick.Visible = False
         End If
     End Sub
 
@@ -1213,12 +1304,30 @@ Public Class Miitopia_SE
         Button_save_quest.BackgroundImage = My.Resources.button_save
     End Sub
 
+    Private Sub Text_open_hero_Click(sender As Object, e As EventArgs) Handles Text_open_hero.Click
+        Dim open As New OpenFileDialog
+        fdialog.Title.Text = "Miitopia Save Editor"
+        fdialog.Msg.Text = "Open hero.sav file" & vbNewLine & "Miitopia Save Editor will make a backup of your save file, check ''bak'' folder" & vbNewLine & "Make a backup of your entire save file folder in case"
+        fdialog.ShowDialog()
+        open.Filter = "SAV files|*hero.sav"
+        open.Title = "Open save hero.sav"
+        open.ShowDialog()
+        hero = open.FileName
+        readfilehero()
+        TextBox_fpath_hero.Text = hero
+        makebakhero()
+    End Sub
+
     Private Sub text_open_hero_MouseMove(sender As Object, e As EventArgs) Handles Text_open_hero.MouseMove, Button_save_hero.MouseMove
         Button_open_hero.BackgroundImage = My.Resources.button_save
     End Sub
 
     Private Sub text_open_hero_MouseLeave(sender As Object, e As EventArgs) Handles Text_open_hero.MouseLeave, Button_save_hero.MouseLeave
         Button_open_hero.BackgroundImage = My.Resources.button_open
+    End Sub
+
+    Private Sub Text_save_hero_Click(sender As Object, e As EventArgs) Handles Text_save_hero.Click
+        writehero()
     End Sub
 
     Private Sub text_save_hero_MouseMove(sender As Object, e As EventArgs) Handles Text_save_hero.MouseMove, Button_save_hero.MouseMove
@@ -1260,13 +1369,19 @@ Public Class Miitopia_SE
             Icon_job.Image = My.Resources.job_cat
         ElseIf valu_job.Value = 14 Then
             Icon_job.Image = My.Resources.job_elf
+        ElseIf valu_job.Value = 255 Then
+            Icon_job.Image = My.Resources.job_traveler
         End If
     End Sub
 
     Private Sub Icon_job_Click(sender As Object, e As EventArgs) Handles Icon_job.Click
-        valu_job.Value = valu_job.Value + 1
-        If valu_job.Value > 14 Then
+        If valu_job.Value < 255 Then
+            valu_job.Value = valu_job.Value + 1
+        ElseIf valu_job.Value = 255 Then
             valu_job.Value = 0
+        End If
+        If valu_job.Value > 14 Then
+            valu_job.Value = 255
         End If
     End Sub
 
@@ -1304,5 +1419,250 @@ Public Class Miitopia_SE
         ElseIf Select_personnality.SelectedItem = Select_personnality.Items.Item(6) Then
             valu_personnality.Value = 6
         End If
+    End Sub
+
+    Private Sub valu_pose_ValueChanged(sender As Object, e As EventArgs) Handles valu_pose.ValueChanged
+        If valu_pose.Value = 0 Then
+            Select_pose.SelectedItem = Select_pose.Items.Item(0)
+        ElseIf valu_pose.Value = 1 Then
+            Select_pose.SelectedItem = Select_pose.Items.Item(1)
+        ElseIf valu_pose.Value = 2 Then
+            Select_pose.SelectedItem = Select_pose.Items.Item(2)
+        ElseIf valu_pose.Value = 3 Then
+            Select_pose.SelectedItem = Select_pose.Items.Item(3)
+        ElseIf valu_pose.Value = 4 Then
+            Select_pose.SelectedItem = Select_pose.Items.Item(4)
+        ElseIf valu_pose.Value = 5 Then
+            Select_pose.SelectedItem = Select_pose.Items.Item(5)
+        ElseIf valu_pose.Value = 6 Then
+            Select_pose.SelectedItem = Select_pose.Items.Item(6)
+        ElseIf valu_pose.Value = 7 Then
+            Select_pose.SelectedItem = Select_pose.Items.Item(7)
+        ElseIf valu_pose.Value = 8 Then
+            Select_pose.SelectedItem = Select_pose.Items.Item(8)
+        ElseIf valu_pose.Value = 9 Then
+            Select_pose.SelectedItem = Select_pose.Items.Item(9)
+        ElseIf valu_pose.Value = 10 Then
+            Select_pose.SelectedItem = Select_pose.Items.Item(10)
+        ElseIf valu_pose.Value = 11 Then
+            Select_pose.SelectedItem = Select_pose.Items.Item(11)
+        ElseIf valu_pose.Value >= 12 Then
+            Select_pose.SelectedItem = Select_pose.Items.Item(12)
+        End If
+    End Sub
+
+    Private Sub Select_pose_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Select_pose.SelectedIndexChanged
+        If Select_pose.SelectedItem = Select_pose.Items.Item(0) Then
+            valu_pose.Value = 0
+        ElseIf Select_pose.SelectedItem = Select_pose.Items.Item(1) Then
+            valu_pose.Value = 1
+        ElseIf Select_pose.SelectedItem = Select_pose.Items.Item(2) Then
+            valu_pose.Value = 2
+        ElseIf Select_pose.SelectedItem = Select_pose.Items.Item(3) Then
+            valu_pose.Value = 3
+        ElseIf Select_pose.SelectedItem = Select_pose.Items.Item(4) Then
+            valu_pose.Value = 4
+        ElseIf Select_pose.SelectedItem = Select_pose.Items.Item(5) Then
+            valu_pose.Value = 5
+        ElseIf Select_pose.SelectedItem = Select_pose.Items.Item(6) Then
+            valu_pose.Value = 6
+        ElseIf Select_pose.SelectedItem = Select_pose.Items.Item(7) Then
+            valu_pose.Value = 7
+        ElseIf Select_pose.SelectedItem = Select_pose.Items.Item(8) Then
+            valu_pose.Value = 8
+        ElseIf Select_pose.SelectedItem = Select_pose.Items.Item(9) Then
+            valu_pose.Value = 9
+        ElseIf Select_pose.SelectedItem = Select_pose.Items.Item(10) Then
+            valu_pose.Value = 10
+        ElseIf Select_pose.SelectedItem = Select_pose.Items.Item(11) Then
+            valu_pose.Value = 11
+        ElseIf Select_pose.SelectedItem = Select_pose.Items.Item(12) Then
+            valu_pose.Value = 12
+        End If
+    End Sub
+
+    Private Sub Text_showstats_Click(sender As Object, e As EventArgs) Handles Text_showstats.Click
+        If Panel_hero_sw1.Visible = True Then
+            Panel_hero_sw2.Visible = True
+            Panel_hero_sw1.Visible = False
+            Text_showstats.Text = "Hide stats"
+        ElseIf Panel_hero_sw2.Visible = True Then
+            Panel_hero_sw1.Visible = True
+            Panel_hero_sw2.Visible = False
+            Text_showstats.Text = "Show stats"
+        End If
+    End Sub
+
+    Private Sub valu_inn_room_ValueChanged(sender As Object, e As EventArgs) Handles valu_inn_room.ValueChanged
+        innmii = My.Resources.job_warrior
+        Resetinnicon()
+        If valu_inn_room.Value = 0 And valu_inn_roomposition.Value = 0 Then
+            Icon_inn_room_no.Image = innmii
+        ElseIf valu_inn_room.Value = 0 And valu_inn_roomposition.Value = 1 Then
+            Icon_inn_room_no.Image = innmii
+        ElseIf valu_inn_room.Value = 1 And valu_inn_roomposition.Value = 0 Then
+            Icon_inn_room_center_left.Image = innmii
+        ElseIf valu_inn_room.Value = 1 And valu_inn_roomposition.Value = 1 Then
+            Icon_inn_room_center_right.Image = innmii
+        ElseIf valu_inn_room.Value = 2 And valu_inn_roomposition.Value = 0 Then
+            Icon_inn_room_topleft_left.Image = innmii
+        ElseIf valu_inn_room.Value = 2 And valu_inn_roomposition.Value = 1 Then
+            Icon_inn_room_topleft_right.Image = innmii
+        ElseIf valu_inn_room.Value = 3 And valu_inn_roomposition.Value = 0 Then
+            Icon_inn_room_topright_left.Image = innmii
+        ElseIf valu_inn_room.Value = 3 And valu_inn_roomposition.Value = 1 Then
+            Icon_inn_room_topright_right.Image = innmii
+        ElseIf valu_inn_room.Value = 4 And valu_inn_roomposition.Value = 0 Then
+            Icon_inn_room_botleft_left.Image = innmii
+        ElseIf valu_inn_room.Value = 4 And valu_inn_roomposition.Value = 1 Then
+            Icon_inn_room_botleft_right.Image = innmii
+        ElseIf valu_inn_room.Value = 5 And valu_inn_roomposition.Value = 0 Then
+            Icon_inn_room_botright_left.Image = innmii
+        ElseIf valu_inn_room.Value = 5 And valu_inn_roomposition.Value = 1 Then
+            Icon_inn_room_botright_right.Image = innmii
+        End If
+    End Sub
+
+    Private Sub valu_inn_roomposition_ValueChanged(sender As Object, e As EventArgs) Handles valu_inn_roomposition.ValueChanged
+        innmii = My.Resources.job_warrior
+        Resetinnicon()
+        If valu_inn_room.Value = 0 And valu_inn_roomposition.Value = 0 Then
+            Icon_inn_room_no.Image = innmii
+        ElseIf valu_inn_room.Value = 0 And valu_inn_roomposition.Value = 1 Then
+            Icon_inn_room_no.Image = innmii
+        ElseIf valu_inn_room.Value = 1 And valu_inn_roomposition.Value = 0 Then
+            Icon_inn_room_center_left.Image = innmii
+        ElseIf valu_inn_room.Value = 1 And valu_inn_roomposition.Value = 1 Then
+            Icon_inn_room_center_right.Image = innmii
+        ElseIf valu_inn_room.Value = 2 And valu_inn_roomposition.Value = 0 Then
+            Icon_inn_room_topleft_left.Image = innmii
+        ElseIf valu_inn_room.Value = 2 And valu_inn_roomposition.Value = 1 Then
+            Icon_inn_room_topleft_right.Image = innmii
+        ElseIf valu_inn_room.Value = 3 And valu_inn_roomposition.Value = 0 Then
+            Icon_inn_room_topright_left.Image = innmii
+        ElseIf valu_inn_room.Value = 3 And valu_inn_roomposition.Value = 1 Then
+            Icon_inn_room_topright_right.Image = innmii
+        ElseIf valu_inn_room.Value = 4 And valu_inn_roomposition.Value = 0 Then
+            Icon_inn_room_botleft_left.Image = innmii
+        ElseIf valu_inn_room.Value = 4 And valu_inn_roomposition.Value = 1 Then
+            Icon_inn_room_botleft_right.Image = innmii
+        ElseIf valu_inn_room.Value = 5 And valu_inn_roomposition.Value = 0 Then
+            Icon_inn_room_botright_left.Image = innmii
+        ElseIf valu_inn_room.Value = 5 And valu_inn_roomposition.Value = 1 Then
+            Icon_inn_room_botright_right.Image = innmii
+        End If
+    End Sub
+
+    Private Sub Icon_inn_room_no_Click(sender As Object, e As EventArgs) Handles Icon_inn_room_no.Click
+        valu_inn_room.Value = 0
+        valu_inn_roomposition.Value = 0
+    End Sub
+
+    Private Sub Icon_inn_room_center_left_Click(sender As Object, e As EventArgs) Handles Icon_inn_room_center_left.Click
+        valu_inn_room.Value = 1
+        valu_inn_roomposition.Value = 0
+    End Sub
+
+    Private Sub Icon_inn_room_center_right_Click(sender As Object, e As EventArgs) Handles Icon_inn_room_center_right.Click
+        valu_inn_room.Value = 1
+        valu_inn_roomposition.Value = 1
+    End Sub
+
+    Private Sub Icon_inn_room_topleft_left_Click(sender As Object, e As EventArgs) Handles Icon_inn_room_topleft_left.Click
+        valu_inn_room.Value = 2
+        valu_inn_roomposition.Value = 0
+    End Sub
+
+    Private Sub Icon_inn_room_topleft_right_Click(sender As Object, e As EventArgs) Handles Icon_inn_room_topleft_right.Click
+        valu_inn_room.Value = 2
+        valu_inn_roomposition.Value = 1
+    End Sub
+
+    Private Sub Icon_inn_room_topright_left_Click(sender As Object, e As EventArgs) Handles Icon_inn_room_topright_left.Click
+        valu_inn_room.Value = 3
+        valu_inn_roomposition.Value = 0
+    End Sub
+
+    Private Sub Icon_inn_room_topright_right_Click(sender As Object, e As EventArgs) Handles Icon_inn_room_topright_right.Click
+        valu_inn_room.Value = 3
+        valu_inn_roomposition.Value = 1
+    End Sub
+
+    Private Sub Icon_inn_room_botleft_left_Click(sender As Object, e As EventArgs) Handles Icon_inn_room_botleft_left.Click
+        valu_inn_room.Value = 4
+        valu_inn_roomposition.Value = 0
+    End Sub
+
+    Private Sub Icon_inn_room_botleft_right_Click(sender As Object, e As EventArgs) Handles Icon_inn_room_botleft_right.Click
+        valu_inn_room.Value = 4
+        valu_inn_roomposition.Value = 1
+    End Sub
+
+    Private Sub Icon_inn_room_botright_left_Click(sender As Object, e As EventArgs) Handles Icon_inn_room_botright_left.Click
+        valu_inn_room.Value = 5
+        valu_inn_roomposition.Value = 0
+    End Sub
+
+    Private Sub Icon_inn_room_botright_right_Click(sender As Object, e As EventArgs) Handles Icon_inn_room_botright_right.Click
+        valu_inn_room.Value = 5
+        valu_inn_roomposition.Value = 1
+    End Sub
+
+    Private Sub valu_sick_ValueChanged(sender As Object, e As EventArgs) Handles valu_sick.ValueChanged
+        If valu_sick.Value = 0 Then
+            Select_sick.SelectedItem = Select_sick.Items.Item(0)
+        ElseIf valu_sick.Value = 1 Then
+            Select_sick.SelectedItem = Select_sick.Items.Item(1)
+        End If
+    End Sub
+
+    Private Sub Select_sick_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Select_sick.SelectedIndexChanged
+        If Select_sick.SelectedItem = Select_sick.Items.Item(0) Then
+            valu_sick.Value = 0
+        ElseIf Select_sick.SelectedItem = Select_sick.Items.Item(1) Then
+            valu_sick.Value = 1
+        End If
+    End Sub
+
+    Private Sub Select_Mii_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Select_Mii.SelectedIndexChanged
+        Try
+            Dim Reader As New PackageIO.Reader(hero, PackageIO.Endian.Little)
+            If Filever_text.Text = "US" Or Filever_text.Text = "EU" Then
+                If Select_Mii.SelectedItem = Select_Mii.Items.Item(0) Then
+                    Reader.Position = &H70
+                    Miiname = Reader.Position
+                    Text_Mii_name.Text = Reader.ReadUnicodeString(10)
+                    Reader.Position = &H86
+                    Warcry = Reader.Position
+                    Text_warcry.Text = Reader.ReadUnicodeString(26)
+                    Reader.Position = &HC5
+                    Personality = Reader.Position
+                    valu_personnality.Value = Reader.ReadInt8
+                    Reader.Position = &HC6
+                    Job = Reader.Position
+                    valu_job.Value = Reader.ReadInt8
+                    Reader.Position = &HC7
+                    Pose = Reader.Position
+                    valu_pose.Value = Reader.ReadByte
+                    Reader.Position = &HC8
+                    Tummy = Reader.Position
+                    valu_tummy.Value = Reader.ReadInt8
+                    Reader.Position = &HC9
+                    Innroom = Reader.Position
+                    valu_inn_room.Value = Reader.ReadInt8
+                    Reader.Position = &HCA
+                    Innroomposition = Reader.Position
+                    valu_inn_roomposition.Value = Reader.ReadInt8
+                    Reader.Position = &HCB
+                    Sick = Reader.Position
+                    valu_sick.Value = Reader.ReadInt8
+                End If
+            End If
+        Catch ex As Exception
+            Select_Mii.SelectedItem = Nothing
+            fdialog.Title.Text = "Miitopia Save Editor : select Mii"
+            fdialog.Msg.Text = "An error has occured, load a save file first"
+            fdialog.ShowDialog()
+        End Try
     End Sub
 End Class
