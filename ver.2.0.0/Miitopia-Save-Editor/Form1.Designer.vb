@@ -4492,7 +4492,7 @@ Partial Class Miitopia_SE
         Me.Select_interac_Mii.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_interac_Mii.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Select_interac_Mii.FormattingEnabled = True
-        Me.Select_interac_Mii.Items.AddRange(New Object() {"Mii 1", "Mii 2", "Mii 3", "Mii 4", "Mii 5", "Mii 6", "Mii 7", "Mii 8", "Mii 9", "Mii 10"})
+        Me.Select_interac_Mii.Items.AddRange(New Object() {"(None)", "Mii 1", "Mii 2", "Mii 3", "Mii 4", "Mii 5", "Mii 6", "Mii 7", "Mii 8", "Mii 9", "Mii 10"})
         Me.Select_interac_Mii.Location = New System.Drawing.Point(14, 94)
         Me.Select_interac_Mii.Name = "Select_interac_Mii"
         Me.Select_interac_Mii.Size = New System.Drawing.Size(68, 21)
@@ -6375,7 +6375,6 @@ Partial Class Miitopia_SE
     Friend WithEvents Panel51 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox25 As System.Windows.Forms.PictureBox
     Friend WithEvents Bar_exp_warrior As System.Windows.Forms.Panel
-    Friend WithEvents valu_exp_warrior As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel47 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox23 As System.Windows.Forms.PictureBox
     Friend WithEvents Bar_exp_princess As System.Windows.Forms.Panel
@@ -6435,5 +6434,6 @@ Partial Class Miitopia_SE
     Friend WithEvents Select_exp_tank As System.Windows.Forms.ComboBox
     Friend WithEvents Select_exp_chef As System.Windows.Forms.ComboBox
     Friend WithEvents Select_exp_warrior As System.Windows.Forms.ComboBox
+    Friend WithEvents valu_exp_warrior As System.Windows.Forms.NumericUpDown
 
 End Class
