@@ -160,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\tumunknow.png" />
+    <None Include="Resources\mse_stub.gif" />
+    <None Include="Resources\mse_nostub.png" />
     <None Include="Resources\in_inn.png" />
     <None Include="Resources\bg_panel_settings.png" />
     <None Include="Resources\job_traveler.png" />

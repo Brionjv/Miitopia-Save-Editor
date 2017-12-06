@@ -124,20 +124,17 @@
   <data name="grub_92" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_92.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_125" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_125.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="job_elf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\job_elf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Princesse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Princesse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_118.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="job_cleric" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\job_cleric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_137.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_99" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,8 +142,8 @@
   <data name="grub_89" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_89.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_panel_common" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_panel_common.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="arrow_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrow_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -165,6 +162,9 @@
   </data>
   <data name="bar_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bar_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grub_98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_98.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_68" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_68.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -189,9 +189,6 @@
   </data>
   <data name="grub_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="grub_60" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_75" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,17 +223,20 @@
   <data name="grub_165" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_165.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mse_stub" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mse_stub.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_166" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_166.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Felin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Felin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="job_warrior" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\job_warrior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Princesse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princesse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scientifique" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Scientifique.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_82" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,20 +244,20 @@
   <data name="grub_101" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_118" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_118.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mapdragon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapdragon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grub_147" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_147.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grub_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_150" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_150.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="candies" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\candies.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Felin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Felin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="grub_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Tumfull" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tumfull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -274,20 +274,23 @@
   <data name="grub_93" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_93.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="grub_152" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_152.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bar_rightarrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bar_rightarrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="grub_109" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_109.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_171" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_171.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="grub_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_142" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,6 +313,9 @@
   <data name="grub_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="grub_132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_132.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="grub_108" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_108.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -318,12 +324,6 @@
   </data>
   <data name="grub_169" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_169.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Scientifique" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Scientifique.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="grub_181" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_181.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -346,6 +346,9 @@
   <data name="grub_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="grub_164" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_164.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="allweapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\allweapons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -361,8 +364,8 @@
   <data name="bananaeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bananaeat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_147" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_147.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="in_inn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in_inn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -376,8 +379,11 @@
   <data name="grub_69" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_69.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_175" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_175.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="job_warrior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\job_warrior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="job_tank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\job_tank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_panel_hero" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_panel_hero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -397,14 +403,14 @@
   <data name="grub_143" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_143.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_85" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_85.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="closebuttonred" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\closebuttonred.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Guerrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Guerrier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mse_nostub" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mse_nostub.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="job_cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\job_cat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -417,6 +423,9 @@
   </data>
   <data name="job_scientist" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\job_scientist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grub_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_74" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -457,8 +466,8 @@
   <data name="grub_94" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_94.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -472,8 +481,8 @@
   <data name="grub_97" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_97.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_76" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Spoiler" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Spoiler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -481,8 +490,8 @@
   <data name="candyeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\candyeat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tank" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_175" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_175.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_133" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_133.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -517,17 +526,14 @@
   <data name="grub_103" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_103.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="job_tank" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\job_tank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="grub_130" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_130.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_72" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="grub_191" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_191.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grub_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="job_chef" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\job_chef.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -595,8 +601,8 @@
   <data name="bg_fdialog_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_fdialog_title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_132" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_132.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="job_cleric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\job_cleric.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="job_popstar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\job_popstar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -612,6 +618,9 @@
   </data>
   <data name="grub_178" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_178.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grub_138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_138.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -682,8 +691,8 @@
   <data name="grub_105" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_105.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_fea" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_fea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -709,8 +718,8 @@
   <data name="grub_122" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_84" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_184" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_184.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -730,8 +739,8 @@
   <data name="grub_195" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_195.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_138" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_138.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_140.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_57" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -739,11 +748,8 @@
   <data name="grub_182" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_182.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fleur" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fleur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="level" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\level.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_181.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -763,14 +769,11 @@
   <data name="grub_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_113" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_113.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Mpcandy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mpcandy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_86" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -799,9 +802,6 @@
   <data name="job_mage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\job_mage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_140.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="grub_70" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -814,8 +814,8 @@
   <data name="grub_156" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_156.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="inn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\inn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -826,8 +826,8 @@
   <data name="grub_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="job_princess" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\job_princess.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -847,8 +847,8 @@
   <data name="grub_107" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_107.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_125.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sound2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sound2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -858,6 +858,9 @@
   </data>
   <data name="grub_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_161.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_111" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -871,8 +874,8 @@
   <data name="miirescued" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\miirescued.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mapdragon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mapdragon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="miiicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miiicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="job_imp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\job_imp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -892,14 +895,14 @@
   <data name="grub_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_98" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_98.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Fleur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fleur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_163" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_163.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_85.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Vampire" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vampire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -937,8 +940,8 @@
   <data name="grub_158" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_158.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_152" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_152.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_81" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -952,6 +955,12 @@
   <data name="grub_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Voleur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voleur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grub_86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="questsicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\questsicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -961,14 +970,14 @@
   <data name="grub_179" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_179.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="miiicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\miiicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="level" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\level.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Voleur" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Voleur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_113.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_166" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_166.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grub_71" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -979,8 +988,8 @@
   <data name="grub_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_137" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_137.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_panel_common" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_panel_common.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="chestsopen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chestsopen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -988,10 +997,10 @@
   <data name="grub_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grub_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grub_164" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grub_164.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grub_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grub_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="in_inn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\in_inn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tumunknow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tumunknow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

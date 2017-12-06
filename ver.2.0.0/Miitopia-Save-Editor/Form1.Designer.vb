@@ -311,22 +311,22 @@ Partial Class Miitopia_SE
         Me.valu_job = New System.Windows.Forms.NumericUpDown()
         Me.Icon_job = New System.Windows.Forms.PictureBox()
         Me.Panel_hero_sw2 = New System.Windows.Forms.Panel()
-        Me.NumericUpDown12 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown13 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown14 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown15 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_hbgobbled = New System.Windows.Forms.NumericUpDown()
+        Me.valu_mcgulped = New System.Windows.Forms.NumericUpDown()
+        Me.valu_ggrubbed = New System.Windows.Forms.NumericUpDown()
+        Me.valu_ggrabbed = New System.Windows.Forms.NumericUpDown()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.NumericUpDown8 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_battles = New System.Windows.Forms.NumericUpDown()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.NumericUpDown9 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown10 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_fblows = New System.Windows.Forms.NumericUpDown()
+        Me.valu_defeats = New System.Windows.Forms.NumericUpDown()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.NumericUpDown11 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tlooparty = New System.Windows.Forms.NumericUpDown()
         Me.Tab_hero_Miistats = New System.Windows.Forms.TabPage()
         Me.Panel_inn = New System.Windows.Forms.Panel()
         Me.Info_inn = New System.Windows.Forms.Label()
@@ -345,13 +345,104 @@ Partial Class Miitopia_SE
         Me.Icon_inn_room_topleft_right = New System.Windows.Forms.PictureBox()
         Me.Icon_inn_room_topleft_left = New System.Windows.Forms.PictureBox()
         Me.Panel16 = New System.Windows.Forms.Panel()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.Select_interac_activity = New System.Windows.Forms.ComboBox()
+        Me.Group_interaction = New System.Windows.Forms.GroupBox()
+        Me.valu_interac_activity = New System.Windows.Forms.NumericUpDown()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.valu_interaction = New System.Windows.Forms.NumericUpDown()
+        Me.valu_interac_Mii = New System.Windows.Forms.NumericUpDown()
+        Me.Select_interac_Mii = New System.Windows.Forms.ComboBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Icon_interaction = New System.Windows.Forms.PictureBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.valu_daysick = New System.Windows.Forms.NumericUpDown()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.valu_sick = New System.Windows.Forms.NumericUpDown()
         Me.Select_sick = New System.Windows.Forms.ComboBox()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.valu_foodexp_speed = New System.Windows.Forms.NumericUpDown()
+        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
+        Me.valu_foodexp_magic = New System.Windows.Forms.NumericUpDown()
+        Me.GroupBox12 = New System.Windows.Forms.GroupBox()
+        Me.valu_foodexp_defense = New System.Windows.Forms.NumericUpDown()
+        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.valu_foodexp_attack = New System.Windows.Forms.NumericUpDown()
+        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.valu_foodexp_MP = New System.Windows.Forms.NumericUpDown()
+        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.valu_foodexp_HP = New System.Windows.Forms.NumericUpDown()
+        Me.Panel23 = New System.Windows.Forms.Panel()
+        Me.Select_exp_elf = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_elf = New System.Windows.Forms.Panel()
+        Me.valu_exp_elf = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.Panel25 = New System.Windows.Forms.Panel()
+        Me.Select_exp_cat = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_cat = New System.Windows.Forms.Panel()
+        Me.valu_exp_cat = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
+        Me.Panel27 = New System.Windows.Forms.Panel()
+        Me.Select_exp_scientist = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_scientist = New System.Windows.Forms.Panel()
+        Me.valu_exp_scientist = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
+        Me.Panel29 = New System.Windows.Forms.Panel()
+        Me.Select_exp_flower = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_flower = New System.Windows.Forms.Panel()
+        Me.valu_exp_flower = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
+        Me.Panel33 = New System.Windows.Forms.Panel()
+        Me.Select_exp_popstar = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_popstar = New System.Windows.Forms.Panel()
+        Me.valu_exp_popstar = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
+        Me.Panel35 = New System.Windows.Forms.Panel()
+        Me.Select_exp_thief = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_thief = New System.Windows.Forms.Panel()
+        Me.valu_exp_thief = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
+        Me.Panel37 = New System.Windows.Forms.Panel()
+        Me.Select_exp_cleric = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_cleric = New System.Windows.Forms.Panel()
+        Me.valu_exp_cleric = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
+        Me.Panel49 = New System.Windows.Forms.Panel()
+        Me.Select_exp_mage = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_mage = New System.Windows.Forms.Panel()
+        Me.valu_exp_mage = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox24 = New System.Windows.Forms.PictureBox()
+        Me.Panel51 = New System.Windows.Forms.Panel()
+        Me.Select_exp_warrior = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_warrior = New System.Windows.Forms.Panel()
+        Me.valu_exp_warrior = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox25 = New System.Windows.Forms.PictureBox()
+        Me.Panel47 = New System.Windows.Forms.Panel()
+        Me.Select_exp_princess = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_princess = New System.Windows.Forms.Panel()
+        Me.valu_exp_princess = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox23 = New System.Windows.Forms.PictureBox()
+        Me.Panel45 = New System.Windows.Forms.Panel()
+        Me.Select_exp_imp = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_imp = New System.Windows.Forms.Panel()
+        Me.valu_exp_imp = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox22 = New System.Windows.Forms.PictureBox()
+        Me.Panel43 = New System.Windows.Forms.Panel()
+        Me.Select_exp_tank = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_tank = New System.Windows.Forms.Panel()
+        Me.valu_exp_tank = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox21 = New System.Windows.Forms.PictureBox()
+        Me.Panel39 = New System.Windows.Forms.Panel()
+        Me.Select_exp_chef = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_chef = New System.Windows.Forms.Panel()
+        Me.valu_exp_chef = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
+        Me.Panel41 = New System.Windows.Forms.Panel()
+        Me.Select_exp_vampire = New System.Windows.Forms.ComboBox()
+        Me.Bar_exp_vampire = New System.Windows.Forms.Panel()
+        Me.valu_exp_vampire = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
         Me.Button_open_hero = New System.Windows.Forms.Panel()
         Me.Text_open_hero = New System.Windows.Forms.Label()
         Me.Button_save_hero = New System.Windows.Forms.Panel()
@@ -604,14 +695,14 @@ Partial Class Miitopia_SE
         CType(Me.valu_job, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_job, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_hero_sw2.SuspendLayout()
-        CType(Me.NumericUpDown12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_hbgobbled, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_mcgulped, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_ggrubbed, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_ggrabbed, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_battles, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_fblows, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_defeats, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_tlooparty, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Tab_hero_Miistats.SuspendLayout()
         Me.Panel_inn.SuspendLayout()
         CType(Me.Icon_inn_room_no, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -629,9 +720,83 @@ Partial Class Miitopia_SE
         CType(Me.Icon_inn_room_topleft_right, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_inn_room_topleft_left, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel16.SuspendLayout()
+        Me.Group_interaction.SuspendLayout()
+        CType(Me.valu_interac_activity, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_interaction, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_interac_Mii, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_interaction, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox4.SuspendLayout()
         CType(Me.valu_daysick, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_sick, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage1.SuspendLayout()
+        Me.GroupBox10.SuspendLayout()
+        CType(Me.valu_foodexp_speed, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox11.SuspendLayout()
+        CType(Me.valu_foodexp_magic, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox12.SuspendLayout()
+        CType(Me.valu_foodexp_defense, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox9.SuspendLayout()
+        CType(Me.valu_foodexp_attack, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox8.SuspendLayout()
+        CType(Me.valu_foodexp_MP, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox7.SuspendLayout()
+        CType(Me.valu_foodexp_HP, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel23.SuspendLayout()
+        Me.Bar_exp_elf.SuspendLayout()
+        CType(Me.valu_exp_elf, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel25.SuspendLayout()
+        Me.Bar_exp_cat.SuspendLayout()
+        CType(Me.valu_exp_cat, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel27.SuspendLayout()
+        Me.Bar_exp_scientist.SuspendLayout()
+        CType(Me.valu_exp_scientist, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel29.SuspendLayout()
+        Me.Bar_exp_flower.SuspendLayout()
+        CType(Me.valu_exp_flower, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel33.SuspendLayout()
+        Me.Bar_exp_popstar.SuspendLayout()
+        CType(Me.valu_exp_popstar, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel35.SuspendLayout()
+        Me.Bar_exp_thief.SuspendLayout()
+        CType(Me.valu_exp_thief, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel37.SuspendLayout()
+        Me.Bar_exp_cleric.SuspendLayout()
+        CType(Me.valu_exp_cleric, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel49.SuspendLayout()
+        Me.Bar_exp_mage.SuspendLayout()
+        CType(Me.valu_exp_mage, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel51.SuspendLayout()
+        Me.Bar_exp_warrior.SuspendLayout()
+        CType(Me.valu_exp_warrior, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel47.SuspendLayout()
+        Me.Bar_exp_princess.SuspendLayout()
+        CType(Me.valu_exp_princess, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel45.SuspendLayout()
+        Me.Bar_exp_imp.SuspendLayout()
+        CType(Me.valu_exp_imp, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel43.SuspendLayout()
+        Me.Bar_exp_tank.SuspendLayout()
+        CType(Me.valu_exp_tank, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel39.SuspendLayout()
+        Me.Bar_exp_chef.SuspendLayout()
+        CType(Me.valu_exp_chef, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel41.SuspendLayout()
+        Me.Bar_exp_vampire.SuspendLayout()
+        CType(Me.valu_exp_vampire, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Button_open_hero.SuspendLayout()
         Me.Button_save_hero.SuspendLayout()
         Me.File_path_hero.SuspendLayout()
@@ -3626,6 +3791,7 @@ Partial Class Miitopia_SE
         '
         Me.TabControl4.Controls.Add(Me.Tab_hero_Miiedit)
         Me.TabControl4.Controls.Add(Me.Tab_hero_Miistats)
+        Me.TabControl4.Controls.Add(Me.TabPage1)
         Me.TabControl4.Location = New System.Drawing.Point(9, 55)
         Me.TabControl4.Name = "TabControl4"
         Me.TabControl4.SelectedIndex = 0
@@ -3785,6 +3951,7 @@ Partial Class Miitopia_SE
         '
         'Icon_tummy
         '
+        Me.Icon_tummy.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_tummy.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.Tumempty
         Me.Icon_tummy.Location = New System.Drawing.Point(13, 198)
         Me.Icon_tummy.Name = "Icon_tummy"
@@ -3869,67 +4036,67 @@ Partial Class Miitopia_SE
         '
         Me.Panel_hero_sw2.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_white
         Me.Panel_hero_sw2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown12)
-        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown13)
-        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown14)
-        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown15)
+        Me.Panel_hero_sw2.Controls.Add(Me.valu_hbgobbled)
+        Me.Panel_hero_sw2.Controls.Add(Me.valu_mcgulped)
+        Me.Panel_hero_sw2.Controls.Add(Me.valu_ggrubbed)
+        Me.Panel_hero_sw2.Controls.Add(Me.valu_ggrabbed)
         Me.Panel_hero_sw2.Controls.Add(Me.Label2)
         Me.Panel_hero_sw2.Controls.Add(Me.Label3)
         Me.Panel_hero_sw2.Controls.Add(Me.Label4)
         Me.Panel_hero_sw2.Controls.Add(Me.Label8)
         Me.Panel_hero_sw2.Controls.Add(Me.Label11)
         Me.Panel_hero_sw2.Controls.Add(Me.Label10)
-        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown8)
+        Me.Panel_hero_sw2.Controls.Add(Me.valu_battles)
         Me.Panel_hero_sw2.Controls.Add(Me.Label13)
-        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown9)
-        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown10)
+        Me.Panel_hero_sw2.Controls.Add(Me.valu_fblows)
+        Me.Panel_hero_sw2.Controls.Add(Me.valu_defeats)
         Me.Panel_hero_sw2.Controls.Add(Me.Label14)
-        Me.Panel_hero_sw2.Controls.Add(Me.NumericUpDown11)
+        Me.Panel_hero_sw2.Controls.Add(Me.valu_tlooparty)
         Me.Panel_hero_sw2.Location = New System.Drawing.Point(112, 69)
         Me.Panel_hero_sw2.Name = "Panel_hero_sw2"
         Me.Panel_hero_sw2.Size = New System.Drawing.Size(405, 183)
         Me.Panel_hero_sw2.TabIndex = 37
         Me.Panel_hero_sw2.Visible = False
         '
-        'NumericUpDown12
+        'valu_hbgobbled
         '
-        Me.NumericUpDown12.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown12.Location = New System.Drawing.Point(337, 25)
-        Me.NumericUpDown12.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
-        Me.NumericUpDown12.Name = "NumericUpDown12"
-        Me.NumericUpDown12.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown12.TabIndex = 35
-        Me.NumericUpDown12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_hbgobbled.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_hbgobbled.Location = New System.Drawing.Point(337, 25)
+        Me.valu_hbgobbled.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_hbgobbled.Name = "valu_hbgobbled"
+        Me.valu_hbgobbled.Size = New System.Drawing.Size(60, 16)
+        Me.valu_hbgobbled.TabIndex = 35
+        Me.valu_hbgobbled.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'NumericUpDown13
+        'valu_mcgulped
         '
-        Me.NumericUpDown13.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown13.Location = New System.Drawing.Point(339, 62)
-        Me.NumericUpDown13.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
-        Me.NumericUpDown13.Name = "NumericUpDown13"
-        Me.NumericUpDown13.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown13.TabIndex = 37
-        Me.NumericUpDown13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_mcgulped.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_mcgulped.Location = New System.Drawing.Point(339, 62)
+        Me.valu_mcgulped.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_mcgulped.Name = "valu_mcgulped"
+        Me.valu_mcgulped.Size = New System.Drawing.Size(60, 16)
+        Me.valu_mcgulped.TabIndex = 37
+        Me.valu_mcgulped.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'NumericUpDown14
+        'valu_ggrubbed
         '
-        Me.NumericUpDown14.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown14.Location = New System.Drawing.Point(339, 101)
-        Me.NumericUpDown14.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
-        Me.NumericUpDown14.Name = "NumericUpDown14"
-        Me.NumericUpDown14.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown14.TabIndex = 39
-        Me.NumericUpDown14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_ggrubbed.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ggrubbed.Location = New System.Drawing.Point(339, 101)
+        Me.valu_ggrubbed.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_ggrubbed.Name = "valu_ggrubbed"
+        Me.valu_ggrubbed.Size = New System.Drawing.Size(60, 16)
+        Me.valu_ggrubbed.TabIndex = 39
+        Me.valu_ggrubbed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'NumericUpDown15
+        'valu_ggrabbed
         '
-        Me.NumericUpDown15.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown15.Location = New System.Drawing.Point(339, 142)
-        Me.NumericUpDown15.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
-        Me.NumericUpDown15.Name = "NumericUpDown15"
-        Me.NumericUpDown15.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown15.TabIndex = 41
-        Me.NumericUpDown15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_ggrabbed.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ggrabbed.Location = New System.Drawing.Point(339, 142)
+        Me.valu_ggrabbed.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_ggrabbed.Name = "valu_ggrabbed"
+        Me.valu_ggrabbed.Size = New System.Drawing.Size(60, 16)
+        Me.valu_ggrabbed.TabIndex = 41
+        Me.valu_ggrabbed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
@@ -3985,15 +4152,15 @@ Partial Class Miitopia_SE
         Me.Label10.TabIndex = 32
         Me.Label10.Text = "Times left out of party"
         '
-        'NumericUpDown8
+        'valu_battles
         '
-        Me.NumericUpDown8.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown8.Location = New System.Drawing.Point(128, 25)
-        Me.NumericUpDown8.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
-        Me.NumericUpDown8.Name = "NumericUpDown8"
-        Me.NumericUpDown8.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown8.TabIndex = 27
-        Me.NumericUpDown8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_battles.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_battles.Location = New System.Drawing.Point(128, 25)
+        Me.valu_battles.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_battles.Name = "valu_battles"
+        Me.valu_battles.Size = New System.Drawing.Size(60, 16)
+        Me.valu_battles.TabIndex = 27
+        Me.valu_battles.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label13
         '
@@ -4004,25 +4171,25 @@ Partial Class Miitopia_SE
         Me.Label13.TabIndex = 36
         Me.Label13.Text = "MP Candies gulped"
         '
-        'NumericUpDown9
+        'valu_fblows
         '
-        Me.NumericUpDown9.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown9.Location = New System.Drawing.Point(128, 62)
-        Me.NumericUpDown9.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
-        Me.NumericUpDown9.Name = "NumericUpDown9"
-        Me.NumericUpDown9.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown9.TabIndex = 29
-        Me.NumericUpDown9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_fblows.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_fblows.Location = New System.Drawing.Point(128, 62)
+        Me.valu_fblows.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_fblows.Name = "valu_fblows"
+        Me.valu_fblows.Size = New System.Drawing.Size(60, 16)
+        Me.valu_fblows.TabIndex = 29
+        Me.valu_fblows.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'NumericUpDown10
+        'valu_defeats
         '
-        Me.NumericUpDown10.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown10.Location = New System.Drawing.Point(128, 101)
-        Me.NumericUpDown10.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
-        Me.NumericUpDown10.Name = "NumericUpDown10"
-        Me.NumericUpDown10.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown10.TabIndex = 31
-        Me.NumericUpDown10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_defeats.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_defeats.Location = New System.Drawing.Point(128, 101)
+        Me.valu_defeats.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_defeats.Name = "valu_defeats"
+        Me.valu_defeats.Size = New System.Drawing.Size(60, 16)
+        Me.valu_defeats.TabIndex = 31
+        Me.valu_defeats.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label14
         '
@@ -4033,15 +4200,15 @@ Partial Class Miitopia_SE
         Me.Label14.TabIndex = 34
         Me.Label14.Text = "HP Bananas gobbled"
         '
-        'NumericUpDown11
+        'valu_tlooparty
         '
-        Me.NumericUpDown11.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown11.Location = New System.Drawing.Point(128, 142)
-        Me.NumericUpDown11.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
-        Me.NumericUpDown11.Name = "NumericUpDown11"
-        Me.NumericUpDown11.Size = New System.Drawing.Size(60, 16)
-        Me.NumericUpDown11.TabIndex = 33
-        Me.NumericUpDown11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tlooparty.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tlooparty.Location = New System.Drawing.Point(128, 142)
+        Me.valu_tlooparty.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_tlooparty.Name = "valu_tlooparty"
+        Me.valu_tlooparty.Size = New System.Drawing.Size(60, 16)
+        Me.valu_tlooparty.TabIndex = 33
+        Me.valu_tlooparty.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Tab_hero_Miistats
         '
@@ -4063,9 +4230,9 @@ Partial Class Miitopia_SE
         Me.Panel_inn.Controls.Add(Me.valu_inn_roomposition)
         Me.Panel_inn.Controls.Add(Me.valu_inn_room)
         Me.Panel_inn.Controls.Add(Me.Fea_inn)
-        Me.Panel_inn.Location = New System.Drawing.Point(75, 0)
+        Me.Panel_inn.Location = New System.Drawing.Point(99, 0)
         Me.Panel_inn.Name = "Panel_inn"
-        Me.Panel_inn.Size = New System.Drawing.Size(448, 286)
+        Me.Panel_inn.Size = New System.Drawing.Size(424, 286)
         Me.Panel_inn.TabIndex = 1
         '
         'Info_inn
@@ -4084,7 +4251,7 @@ Partial Class Miitopia_SE
         '
         Me.Icon_inn_room_no.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Icon_inn_room_no.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_inn_room_no.Location = New System.Drawing.Point(206, 232)
+        Me.Icon_inn_room_no.Location = New System.Drawing.Point(194, 232)
         Me.Icon_inn_room_no.Name = "Icon_inn_room_no"
         Me.Icon_inn_room_no.Size = New System.Drawing.Size(40, 50)
         Me.Icon_inn_room_no.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -4094,7 +4261,7 @@ Partial Class Miitopia_SE
         'valu_inn_roomposition
         '
         Me.valu_inn_roomposition.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_inn_roomposition.Location = New System.Drawing.Point(329, 257)
+        Me.valu_inn_roomposition.Location = New System.Drawing.Point(317, 257)
         Me.valu_inn_roomposition.Maximum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.valu_inn_roomposition.Name = "valu_inn_roomposition"
         Me.valu_inn_roomposition.Size = New System.Drawing.Size(52, 16)
@@ -4105,7 +4272,7 @@ Partial Class Miitopia_SE
         'valu_inn_room
         '
         Me.valu_inn_room.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_inn_room.Location = New System.Drawing.Point(68, 257)
+        Me.valu_inn_room.Location = New System.Drawing.Point(56, 257)
         Me.valu_inn_room.Maximum = New Decimal(New Integer() {5, 0, 0, 0})
         Me.valu_inn_room.Name = "valu_inn_room"
         Me.valu_inn_room.Size = New System.Drawing.Size(52, 16)
@@ -4126,7 +4293,7 @@ Partial Class Miitopia_SE
         Me.Fea_inn.Controls.Add(Me.Icon_inn_room_center_left)
         Me.Fea_inn.Controls.Add(Me.Icon_inn_room_topleft_right)
         Me.Fea_inn.Controls.Add(Me.Icon_inn_room_topleft_left)
-        Me.Fea_inn.Location = New System.Drawing.Point(62, 30)
+        Me.Fea_inn.Location = New System.Drawing.Point(50, 30)
         Me.Fea_inn.Name = "Fea_inn"
         Me.Fea_inn.Size = New System.Drawing.Size(324, 199)
         Me.Fea_inn.TabIndex = 0
@@ -4243,21 +4410,112 @@ Partial Class Miitopia_SE
         '
         'Panel16
         '
-        Me.Panel16.Controls.Add(Me.GroupBox6)
+        Me.Panel16.Controls.Add(Me.Select_interac_activity)
+        Me.Panel16.Controls.Add(Me.Group_interaction)
         Me.Panel16.Controls.Add(Me.GroupBox4)
         Me.Panel16.Location = New System.Drawing.Point(0, 0)
         Me.Panel16.Name = "Panel16"
         Me.Panel16.Size = New System.Drawing.Size(524, 351)
         Me.Panel16.TabIndex = 0
         '
-        'GroupBox6
+        'Select_interac_activity
         '
-        Me.GroupBox6.Location = New System.Drawing.Point(1, 206)
-        Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(73, 73)
-        Me.GroupBox6.TabIndex = 1
-        Me.GroupBox6.TabStop = False
-        Me.GroupBox6.Text = "???"
+        Me.Select_interac_activity.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_interac_activity.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_interac_activity.FormattingEnabled = True
+        Me.Select_interac_activity.Items.AddRange(New Object() {"You talk in your sleep!", "There was a bug on your face!", "Sit-ups", "Push-ups", "Sidestepping", "Who do you like?", "So do you like anyone?", "You should tell me who you like.", "Who do you like? Tell me!", "Tell me the name of the person you like.", "Rules: Keep the world clean", "Rules: No painting", "Rules: Ignore the whispers", "Get well soon!", "Rest as long as you need.", "How are you feeling?", "Dual Quarrel: I'm sorry.", "Dual Quarrel: I think we should be friends again.", "Quarrel: I'm sorry for being so mean.", "??? (Change00)", "??? (ChangeCold)", "??? (ChangeRepair)", "Rumor", "??? (GameEnd00)", "??? (GameEnd01)", "Fond memory", "Singing (Greenhorne)", "Singing (???)", "Cleaning (Thank you!)", "Cleaning (I can help!)", "Cleaning (Cheering)", "Time for a new look!", "Impressions"})
+        Me.Select_interac_activity.Location = New System.Drawing.Point(3, 308)
+        Me.Select_interac_activity.Name = "Select_interac_activity"
+        Me.Select_interac_activity.Size = New System.Drawing.Size(157, 21)
+        Me.Select_interac_activity.TabIndex = 9
+        '
+        'Group_interaction
+        '
+        Me.Group_interaction.Controls.Add(Me.valu_interac_activity)
+        Me.Group_interaction.Controls.Add(Me.Label6)
+        Me.Group_interaction.Controls.Add(Me.valu_interaction)
+        Me.Group_interaction.Controls.Add(Me.valu_interac_Mii)
+        Me.Group_interaction.Controls.Add(Me.Select_interac_Mii)
+        Me.Group_interaction.Controls.Add(Me.Label5)
+        Me.Group_interaction.Controls.Add(Me.Icon_interaction)
+        Me.Group_interaction.Location = New System.Drawing.Point(1, 146)
+        Me.Group_interaction.Name = "Group_interaction"
+        Me.Group_interaction.Size = New System.Drawing.Size(97, 205)
+        Me.Group_interaction.TabIndex = 1
+        Me.Group_interaction.TabStop = False
+        Me.Group_interaction.Text = "Interaction"
+        '
+        'valu_interac_activity
+        '
+        Me.valu_interac_activity.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_interac_activity.Location = New System.Drawing.Point(31, 185)
+        Me.valu_interac_activity.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_interac_activity.Name = "valu_interac_activity"
+        Me.valu_interac_activity.Size = New System.Drawing.Size(35, 16)
+        Me.valu_interac_activity.TabIndex = 10
+        Me.valu_interac_activity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_interac_activity.Visible = False
+        '
+        'Label6
+        '
+        Me.Label6.Location = New System.Drawing.Point(3, 136)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(91, 23)
+        Me.Label6.TabIndex = 8
+        Me.Label6.Text = "for"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_interaction
+        '
+        Me.valu_interaction.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_interaction.Location = New System.Drawing.Point(2, 49)
+        Me.valu_interaction.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_interaction.Name = "valu_interaction"
+        Me.valu_interaction.Size = New System.Drawing.Size(52, 16)
+        Me.valu_interaction.TabIndex = 7
+        Me.valu_interaction.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_interaction.Visible = False
+        '
+        'valu_interac_Mii
+        '
+        Me.valu_interac_Mii.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_interac_Mii.Location = New System.Drawing.Point(31, 117)
+        Me.valu_interac_Mii.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_interac_Mii.Name = "valu_interac_Mii"
+        Me.valu_interac_Mii.Size = New System.Drawing.Size(35, 16)
+        Me.valu_interac_Mii.TabIndex = 6
+        Me.valu_interac_Mii.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_interac_Mii.Visible = False
+        '
+        'Select_interac_Mii
+        '
+        Me.Select_interac_Mii.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_interac_Mii.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_interac_Mii.FormattingEnabled = True
+        Me.Select_interac_Mii.Items.AddRange(New Object() {"Mii 1", "Mii 2", "Mii 3", "Mii 4", "Mii 5", "Mii 6", "Mii 7", "Mii 8", "Mii 9", "Mii 10"})
+        Me.Select_interac_Mii.Location = New System.Drawing.Point(14, 94)
+        Me.Select_interac_Mii.Name = "Select_interac_Mii"
+        Me.Select_interac_Mii.Size = New System.Drawing.Size(68, 21)
+        Me.Select_interac_Mii.TabIndex = 5
+        '
+        'Label5
+        '
+        Me.Label5.Location = New System.Drawing.Point(3, 68)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(91, 23)
+        Me.Label5.TabIndex = 4
+        Me.Label5.Text = "with"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Icon_interaction
+        '
+        Me.Icon_interaction.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_interaction.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.mse_nostub
+        Me.Icon_interaction.Location = New System.Drawing.Point(23, 24)
+        Me.Icon_interaction.Name = "Icon_interaction"
+        Me.Icon_interaction.Size = New System.Drawing.Size(51, 41)
+        Me.Icon_interaction.TabIndex = 0
+        Me.Icon_interaction.TabStop = False
         '
         'GroupBox4
         '
@@ -4268,16 +4526,16 @@ Partial Class Miitopia_SE
         Me.GroupBox4.Controls.Add(Me.Select_sick)
         Me.GroupBox4.Location = New System.Drawing.Point(1, 2)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(73, 139)
+        Me.GroupBox4.Size = New System.Drawing.Size(97, 139)
         Me.GroupBox4.TabIndex = 0
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Health"
         '
         'Label15
         '
-        Me.Label15.Location = New System.Drawing.Point(2, 108)
+        Me.Label15.Location = New System.Drawing.Point(3, 108)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(68, 23)
+        Me.Label15.Size = New System.Drawing.Size(91, 23)
         Me.Label15.TabIndex = 3
         Me.Label15.Text = "days"
         Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -4287,15 +4545,15 @@ Partial Class Miitopia_SE
         Me.valu_daysick.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_daysick.Location = New System.Drawing.Point(13, 89)
         Me.valu_daysick.Name = "valu_daysick"
-        Me.valu_daysick.Size = New System.Drawing.Size(47, 16)
+        Me.valu_daysick.Size = New System.Drawing.Size(71, 16)
         Me.valu_daysick.TabIndex = 1
         Me.valu_daysick.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label1
         '
-        Me.Label1.Location = New System.Drawing.Point(2, 63)
+        Me.Label1.Location = New System.Drawing.Point(3, 63)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(68, 23)
+        Me.Label1.Size = New System.Drawing.Size(91, 23)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "for"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -4303,7 +4561,7 @@ Partial Class Miitopia_SE
         'valu_sick
         '
         Me.valu_sick.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_sick.Location = New System.Drawing.Point(19, 43)
+        Me.valu_sick.Location = New System.Drawing.Point(31, 43)
         Me.valu_sick.Name = "valu_sick"
         Me.valu_sick.Size = New System.Drawing.Size(35, 16)
         Me.valu_sick.TabIndex = 1
@@ -4316,10 +4574,970 @@ Partial Class Miitopia_SE
         Me.Select_sick.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Select_sick.FormattingEnabled = True
         Me.Select_sick.Items.AddRange(New Object() {"Not sick", "Sick"})
-        Me.Select_sick.Location = New System.Drawing.Point(2, 20)
+        Me.Select_sick.Location = New System.Drawing.Point(14, 20)
         Me.Select_sick.Name = "Select_sick"
         Me.Select_sick.Size = New System.Drawing.Size(68, 21)
         Me.Select_sick.TabIndex = 0
+        '
+        'TabPage1
+        '
+        Me.TabPage1.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
+        Me.TabPage1.Controls.Add(Me.GroupBox10)
+        Me.TabPage1.Controls.Add(Me.GroupBox11)
+        Me.TabPage1.Controls.Add(Me.GroupBox12)
+        Me.TabPage1.Controls.Add(Me.GroupBox9)
+        Me.TabPage1.Controls.Add(Me.GroupBox8)
+        Me.TabPage1.Controls.Add(Me.GroupBox7)
+        Me.TabPage1.Controls.Add(Me.Panel23)
+        Me.TabPage1.Controls.Add(Me.Panel25)
+        Me.TabPage1.Controls.Add(Me.Panel27)
+        Me.TabPage1.Controls.Add(Me.Panel29)
+        Me.TabPage1.Controls.Add(Me.Panel33)
+        Me.TabPage1.Controls.Add(Me.Panel35)
+        Me.TabPage1.Controls.Add(Me.Panel37)
+        Me.TabPage1.Controls.Add(Me.Panel49)
+        Me.TabPage1.Controls.Add(Me.Panel51)
+        Me.TabPage1.Controls.Add(Me.Panel47)
+        Me.TabPage1.Controls.Add(Me.Panel45)
+        Me.TabPage1.Controls.Add(Me.Panel43)
+        Me.TabPage1.Controls.Add(Me.Panel39)
+        Me.TabPage1.Controls.Add(Me.Panel41)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Size = New System.Drawing.Size(524, 351)
+        Me.TabPage1.TabIndex = 2
+        Me.TabPage1.Text = "Level / Boost"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'GroupBox10
+        '
+        Me.GroupBox10.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
+        Me.GroupBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GroupBox10.Controls.Add(Me.valu_foodexp_speed)
+        Me.GroupBox10.Location = New System.Drawing.Point(351, 295)
+        Me.GroupBox10.Name = "GroupBox10"
+        Me.GroupBox10.Size = New System.Drawing.Size(127, 48)
+        Me.GroupBox10.TabIndex = 70
+        Me.GroupBox10.TabStop = False
+        Me.GroupBox10.Text = "Speed"
+        '
+        'valu_foodexp_speed
+        '
+        Me.valu_foodexp_speed.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_foodexp_speed.Location = New System.Drawing.Point(14, 16)
+        Me.valu_foodexp_speed.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_foodexp_speed.Name = "valu_foodexp_speed"
+        Me.valu_foodexp_speed.Size = New System.Drawing.Size(99, 16)
+        Me.valu_foodexp_speed.TabIndex = 1
+        Me.valu_foodexp_speed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GroupBox11
+        '
+        Me.GroupBox11.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
+        Me.GroupBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GroupBox11.Controls.Add(Me.valu_foodexp_magic)
+        Me.GroupBox11.Location = New System.Drawing.Point(199, 295)
+        Me.GroupBox11.Name = "GroupBox11"
+        Me.GroupBox11.Size = New System.Drawing.Size(127, 48)
+        Me.GroupBox11.TabIndex = 69
+        Me.GroupBox11.TabStop = False
+        Me.GroupBox11.Text = "Magic"
+        '
+        'valu_foodexp_magic
+        '
+        Me.valu_foodexp_magic.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_foodexp_magic.Location = New System.Drawing.Point(14, 16)
+        Me.valu_foodexp_magic.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_foodexp_magic.Name = "valu_foodexp_magic"
+        Me.valu_foodexp_magic.Size = New System.Drawing.Size(99, 16)
+        Me.valu_foodexp_magic.TabIndex = 1
+        Me.valu_foodexp_magic.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GroupBox12
+        '
+        Me.GroupBox12.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
+        Me.GroupBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GroupBox12.Controls.Add(Me.valu_foodexp_defense)
+        Me.GroupBox12.Location = New System.Drawing.Point(47, 295)
+        Me.GroupBox12.Name = "GroupBox12"
+        Me.GroupBox12.Size = New System.Drawing.Size(127, 48)
+        Me.GroupBox12.TabIndex = 68
+        Me.GroupBox12.TabStop = False
+        Me.GroupBox12.Text = "Defense"
+        '
+        'valu_foodexp_defense
+        '
+        Me.valu_foodexp_defense.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_foodexp_defense.Location = New System.Drawing.Point(14, 16)
+        Me.valu_foodexp_defense.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_foodexp_defense.Name = "valu_foodexp_defense"
+        Me.valu_foodexp_defense.Size = New System.Drawing.Size(99, 16)
+        Me.valu_foodexp_defense.TabIndex = 1
+        Me.valu_foodexp_defense.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GroupBox9
+        '
+        Me.GroupBox9.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
+        Me.GroupBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GroupBox9.Controls.Add(Me.valu_foodexp_attack)
+        Me.GroupBox9.Location = New System.Drawing.Point(351, 232)
+        Me.GroupBox9.Name = "GroupBox9"
+        Me.GroupBox9.Size = New System.Drawing.Size(127, 48)
+        Me.GroupBox9.TabIndex = 67
+        Me.GroupBox9.TabStop = False
+        Me.GroupBox9.Text = "Attack"
+        '
+        'valu_foodexp_attack
+        '
+        Me.valu_foodexp_attack.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_foodexp_attack.Location = New System.Drawing.Point(14, 16)
+        Me.valu_foodexp_attack.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_foodexp_attack.Name = "valu_foodexp_attack"
+        Me.valu_foodexp_attack.Size = New System.Drawing.Size(99, 16)
+        Me.valu_foodexp_attack.TabIndex = 1
+        Me.valu_foodexp_attack.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GroupBox8
+        '
+        Me.GroupBox8.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
+        Me.GroupBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GroupBox8.Controls.Add(Me.valu_foodexp_MP)
+        Me.GroupBox8.Location = New System.Drawing.Point(199, 232)
+        Me.GroupBox8.Name = "GroupBox8"
+        Me.GroupBox8.Size = New System.Drawing.Size(127, 48)
+        Me.GroupBox8.TabIndex = 66
+        Me.GroupBox8.TabStop = False
+        Me.GroupBox8.Text = "MP"
+        '
+        'valu_foodexp_MP
+        '
+        Me.valu_foodexp_MP.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_foodexp_MP.Location = New System.Drawing.Point(14, 16)
+        Me.valu_foodexp_MP.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_foodexp_MP.Name = "valu_foodexp_MP"
+        Me.valu_foodexp_MP.Size = New System.Drawing.Size(99, 16)
+        Me.valu_foodexp_MP.TabIndex = 1
+        Me.valu_foodexp_MP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GroupBox7
+        '
+        Me.GroupBox7.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
+        Me.GroupBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GroupBox7.Controls.Add(Me.valu_foodexp_HP)
+        Me.GroupBox7.Location = New System.Drawing.Point(47, 232)
+        Me.GroupBox7.Name = "GroupBox7"
+        Me.GroupBox7.Size = New System.Drawing.Size(127, 48)
+        Me.GroupBox7.TabIndex = 65
+        Me.GroupBox7.TabStop = False
+        Me.GroupBox7.Text = "HP"
+        '
+        'valu_foodexp_HP
+        '
+        Me.valu_foodexp_HP.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_foodexp_HP.Location = New System.Drawing.Point(14, 16)
+        Me.valu_foodexp_HP.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_foodexp_HP.Name = "valu_foodexp_HP"
+        Me.valu_foodexp_HP.Size = New System.Drawing.Size(99, 16)
+        Me.valu_foodexp_HP.TabIndex = 1
+        Me.valu_foodexp_HP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Panel23
+        '
+        Me.Panel23.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel23.Controls.Add(Me.Select_exp_elf)
+        Me.Panel23.Controls.Add(Me.Bar_exp_elf)
+        Me.Panel23.Controls.Add(Me.PictureBox11)
+        Me.Panel23.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel23.Location = New System.Drawing.Point(365, 157)
+        Me.Panel23.Name = "Panel23"
+        Me.Panel23.Size = New System.Drawing.Size(94, 65)
+        Me.Panel23.TabIndex = 64
+        '
+        'Select_exp_elf
+        '
+        Me.Select_exp_elf.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_elf.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_elf.FormattingEnabled = True
+        Me.Select_exp_elf.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_elf.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_elf.Name = "Select_exp_elf"
+        Me.Select_exp_elf.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_elf.TabIndex = 2
+        '
+        'Bar_exp_elf
+        '
+        Me.Bar_exp_elf.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_elf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_elf.Controls.Add(Me.valu_exp_elf)
+        Me.Bar_exp_elf.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_elf.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_elf.Name = "Bar_exp_elf"
+        Me.Bar_exp_elf.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_elf.TabIndex = 0
+        Me.Bar_exp_elf.Visible = False
+        '
+        'valu_exp_elf
+        '
+        Me.valu_exp_elf.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_elf.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_elf.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_elf.Name = "valu_exp_elf"
+        Me.valu_exp_elf.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_elf.TabIndex = 5
+        Me.valu_exp_elf.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.elfe
+        Me.PictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox11.Enabled = False
+        Me.PictureBox11.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox11.TabIndex = 1
+        Me.PictureBox11.TabStop = False
+        '
+        'Panel25
+        '
+        Me.Panel25.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel25.Controls.Add(Me.Select_exp_cat)
+        Me.Panel25.Controls.Add(Me.Bar_exp_cat)
+        Me.Panel25.Controls.Add(Me.PictureBox12)
+        Me.Panel25.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel25.Location = New System.Drawing.Point(265, 157)
+        Me.Panel25.Name = "Panel25"
+        Me.Panel25.Size = New System.Drawing.Size(94, 65)
+        Me.Panel25.TabIndex = 63
+        '
+        'Select_exp_cat
+        '
+        Me.Select_exp_cat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_cat.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_cat.FormattingEnabled = True
+        Me.Select_exp_cat.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_cat.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_cat.Name = "Select_exp_cat"
+        Me.Select_exp_cat.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_cat.TabIndex = 2
+        '
+        'Bar_exp_cat
+        '
+        Me.Bar_exp_cat.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_cat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_cat.Controls.Add(Me.valu_exp_cat)
+        Me.Bar_exp_cat.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_cat.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_cat.Name = "Bar_exp_cat"
+        Me.Bar_exp_cat.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_cat.TabIndex = 0
+        Me.Bar_exp_cat.Visible = False
+        '
+        'valu_exp_cat
+        '
+        Me.valu_exp_cat.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_cat.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_cat.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_cat.Name = "valu_exp_cat"
+        Me.valu_exp_cat.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_cat.TabIndex = 5
+        Me.valu_exp_cat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox12
+        '
+        Me.PictureBox12.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Felin
+        Me.PictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox12.Enabled = False
+        Me.PictureBox12.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox12.Name = "PictureBox12"
+        Me.PictureBox12.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox12.TabIndex = 1
+        Me.PictureBox12.TabStop = False
+        '
+        'Panel27
+        '
+        Me.Panel27.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel27.Controls.Add(Me.Select_exp_scientist)
+        Me.Panel27.Controls.Add(Me.Bar_exp_scientist)
+        Me.Panel27.Controls.Add(Me.PictureBox13)
+        Me.Panel27.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel27.Location = New System.Drawing.Point(165, 157)
+        Me.Panel27.Name = "Panel27"
+        Me.Panel27.Size = New System.Drawing.Size(94, 65)
+        Me.Panel27.TabIndex = 62
+        '
+        'Select_exp_scientist
+        '
+        Me.Select_exp_scientist.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_scientist.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_scientist.FormattingEnabled = True
+        Me.Select_exp_scientist.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_scientist.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_scientist.Name = "Select_exp_scientist"
+        Me.Select_exp_scientist.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_scientist.TabIndex = 2
+        '
+        'Bar_exp_scientist
+        '
+        Me.Bar_exp_scientist.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_scientist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_scientist.Controls.Add(Me.valu_exp_scientist)
+        Me.Bar_exp_scientist.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_scientist.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_scientist.Name = "Bar_exp_scientist"
+        Me.Bar_exp_scientist.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_scientist.TabIndex = 0
+        Me.Bar_exp_scientist.Visible = False
+        '
+        'valu_exp_scientist
+        '
+        Me.valu_exp_scientist.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_scientist.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_scientist.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_scientist.Name = "valu_exp_scientist"
+        Me.valu_exp_scientist.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_scientist.TabIndex = 5
+        Me.valu_exp_scientist.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox13
+        '
+        Me.PictureBox13.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Scientifique
+        Me.PictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox13.Enabled = False
+        Me.PictureBox13.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox13.Name = "PictureBox13"
+        Me.PictureBox13.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox13.TabIndex = 1
+        Me.PictureBox13.TabStop = False
+        '
+        'Panel29
+        '
+        Me.Panel29.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel29.Controls.Add(Me.Select_exp_flower)
+        Me.Panel29.Controls.Add(Me.Bar_exp_flower)
+        Me.Panel29.Controls.Add(Me.PictureBox14)
+        Me.Panel29.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel29.Location = New System.Drawing.Point(65, 157)
+        Me.Panel29.Name = "Panel29"
+        Me.Panel29.Size = New System.Drawing.Size(94, 65)
+        Me.Panel29.TabIndex = 61
+        '
+        'Select_exp_flower
+        '
+        Me.Select_exp_flower.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_flower.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_flower.FormattingEnabled = True
+        Me.Select_exp_flower.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_flower.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_flower.Name = "Select_exp_flower"
+        Me.Select_exp_flower.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_flower.TabIndex = 2
+        '
+        'Bar_exp_flower
+        '
+        Me.Bar_exp_flower.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_flower.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_flower.Controls.Add(Me.valu_exp_flower)
+        Me.Bar_exp_flower.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_flower.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_flower.Name = "Bar_exp_flower"
+        Me.Bar_exp_flower.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_flower.TabIndex = 0
+        Me.Bar_exp_flower.Visible = False
+        '
+        'valu_exp_flower
+        '
+        Me.valu_exp_flower.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_flower.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_flower.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_flower.Name = "valu_exp_flower"
+        Me.valu_exp_flower.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_flower.TabIndex = 5
+        Me.valu_exp_flower.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox14
+        '
+        Me.PictureBox14.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Fleur
+        Me.PictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox14.Enabled = False
+        Me.PictureBox14.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox14.Name = "PictureBox14"
+        Me.PictureBox14.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox14.TabIndex = 1
+        Me.PictureBox14.TabStop = False
+        '
+        'Panel33
+        '
+        Me.Panel33.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel33.Controls.Add(Me.Select_exp_popstar)
+        Me.Panel33.Controls.Add(Me.Bar_exp_popstar)
+        Me.Panel33.Controls.Add(Me.PictureBox16)
+        Me.Panel33.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel33.Location = New System.Drawing.Point(415, 15)
+        Me.Panel33.Name = "Panel33"
+        Me.Panel33.Size = New System.Drawing.Size(94, 65)
+        Me.Panel33.TabIndex = 60
+        '
+        'Select_exp_popstar
+        '
+        Me.Select_exp_popstar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_popstar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_popstar.FormattingEnabled = True
+        Me.Select_exp_popstar.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_popstar.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_popstar.Name = "Select_exp_popstar"
+        Me.Select_exp_popstar.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_popstar.TabIndex = 2
+        '
+        'Bar_exp_popstar
+        '
+        Me.Bar_exp_popstar.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_popstar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_popstar.Controls.Add(Me.valu_exp_popstar)
+        Me.Bar_exp_popstar.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_popstar.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_popstar.Name = "Bar_exp_popstar"
+        Me.Bar_exp_popstar.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_popstar.TabIndex = 0
+        Me.Bar_exp_popstar.Visible = False
+        '
+        'valu_exp_popstar
+        '
+        Me.valu_exp_popstar.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_popstar.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_popstar.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_popstar.Name = "valu_exp_popstar"
+        Me.valu_exp_popstar.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_popstar.TabIndex = 5
+        Me.valu_exp_popstar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox16
+        '
+        Me.PictureBox16.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Chanteur
+        Me.PictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox16.Enabled = False
+        Me.PictureBox16.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox16.Name = "PictureBox16"
+        Me.PictureBox16.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox16.TabIndex = 1
+        Me.PictureBox16.TabStop = False
+        '
+        'Panel35
+        '
+        Me.Panel35.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel35.Controls.Add(Me.Select_exp_thief)
+        Me.Panel35.Controls.Add(Me.Bar_exp_thief)
+        Me.Panel35.Controls.Add(Me.PictureBox17)
+        Me.Panel35.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel35.Location = New System.Drawing.Point(315, 15)
+        Me.Panel35.Name = "Panel35"
+        Me.Panel35.Size = New System.Drawing.Size(94, 65)
+        Me.Panel35.TabIndex = 59
+        '
+        'Select_exp_thief
+        '
+        Me.Select_exp_thief.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_thief.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_thief.FormattingEnabled = True
+        Me.Select_exp_thief.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_thief.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_thief.Name = "Select_exp_thief"
+        Me.Select_exp_thief.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_thief.TabIndex = 2
+        '
+        'Bar_exp_thief
+        '
+        Me.Bar_exp_thief.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_thief.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_thief.Controls.Add(Me.valu_exp_thief)
+        Me.Bar_exp_thief.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_thief.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_thief.Name = "Bar_exp_thief"
+        Me.Bar_exp_thief.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_thief.TabIndex = 0
+        Me.Bar_exp_thief.Visible = False
+        '
+        'valu_exp_thief
+        '
+        Me.valu_exp_thief.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_thief.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_thief.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_thief.Name = "valu_exp_thief"
+        Me.valu_exp_thief.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_thief.TabIndex = 5
+        Me.valu_exp_thief.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox17
+        '
+        Me.PictureBox17.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Voleur
+        Me.PictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox17.Enabled = False
+        Me.PictureBox17.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox17.Name = "PictureBox17"
+        Me.PictureBox17.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox17.TabIndex = 1
+        Me.PictureBox17.TabStop = False
+        '
+        'Panel37
+        '
+        Me.Panel37.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel37.Controls.Add(Me.Select_exp_cleric)
+        Me.Panel37.Controls.Add(Me.Bar_exp_cleric)
+        Me.Panel37.Controls.Add(Me.PictureBox18)
+        Me.Panel37.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel37.Location = New System.Drawing.Point(215, 15)
+        Me.Panel37.Name = "Panel37"
+        Me.Panel37.Size = New System.Drawing.Size(94, 65)
+        Me.Panel37.TabIndex = 58
+        '
+        'Select_exp_cleric
+        '
+        Me.Select_exp_cleric.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_cleric.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_cleric.FormattingEnabled = True
+        Me.Select_exp_cleric.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_cleric.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_cleric.Name = "Select_exp_cleric"
+        Me.Select_exp_cleric.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_cleric.TabIndex = 2
+        '
+        'Bar_exp_cleric
+        '
+        Me.Bar_exp_cleric.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_cleric.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_cleric.Controls.Add(Me.valu_exp_cleric)
+        Me.Bar_exp_cleric.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_cleric.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_cleric.Name = "Bar_exp_cleric"
+        Me.Bar_exp_cleric.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_cleric.TabIndex = 0
+        Me.Bar_exp_cleric.Visible = False
+        '
+        'valu_exp_cleric
+        '
+        Me.valu_exp_cleric.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_cleric.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_cleric.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_cleric.Name = "valu_exp_cleric"
+        Me.valu_exp_cleric.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_cleric.TabIndex = 5
+        Me.valu_exp_cleric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox18
+        '
+        Me.PictureBox18.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Pretre
+        Me.PictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox18.Enabled = False
+        Me.PictureBox18.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox18.Name = "PictureBox18"
+        Me.PictureBox18.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox18.TabIndex = 1
+        Me.PictureBox18.TabStop = False
+        '
+        'Panel49
+        '
+        Me.Panel49.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel49.Controls.Add(Me.Select_exp_mage)
+        Me.Panel49.Controls.Add(Me.Bar_exp_mage)
+        Me.Panel49.Controls.Add(Me.PictureBox24)
+        Me.Panel49.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel49.Location = New System.Drawing.Point(115, 15)
+        Me.Panel49.Name = "Panel49"
+        Me.Panel49.Size = New System.Drawing.Size(94, 65)
+        Me.Panel49.TabIndex = 57
+        '
+        'Select_exp_mage
+        '
+        Me.Select_exp_mage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_mage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_mage.FormattingEnabled = True
+        Me.Select_exp_mage.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_mage.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_mage.Name = "Select_exp_mage"
+        Me.Select_exp_mage.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_mage.TabIndex = 2
+        '
+        'Bar_exp_mage
+        '
+        Me.Bar_exp_mage.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_mage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_mage.Controls.Add(Me.valu_exp_mage)
+        Me.Bar_exp_mage.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_mage.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_mage.Name = "Bar_exp_mage"
+        Me.Bar_exp_mage.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_mage.TabIndex = 0
+        Me.Bar_exp_mage.Visible = False
+        '
+        'valu_exp_mage
+        '
+        Me.valu_exp_mage.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_mage.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_mage.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_mage.Name = "valu_exp_mage"
+        Me.valu_exp_mage.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_mage.TabIndex = 5
+        Me.valu_exp_mage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox24
+        '
+        Me.PictureBox24.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Mage
+        Me.PictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox24.Enabled = False
+        Me.PictureBox24.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox24.Name = "PictureBox24"
+        Me.PictureBox24.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox24.TabIndex = 1
+        Me.PictureBox24.TabStop = False
+        '
+        'Panel51
+        '
+        Me.Panel51.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel51.Controls.Add(Me.Select_exp_warrior)
+        Me.Panel51.Controls.Add(Me.Bar_exp_warrior)
+        Me.Panel51.Controls.Add(Me.PictureBox25)
+        Me.Panel51.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel51.Location = New System.Drawing.Point(15, 15)
+        Me.Panel51.Name = "Panel51"
+        Me.Panel51.Size = New System.Drawing.Size(94, 65)
+        Me.Panel51.TabIndex = 56
+        '
+        'Select_exp_warrior
+        '
+        Me.Select_exp_warrior.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_warrior.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_warrior.FormattingEnabled = True
+        Me.Select_exp_warrior.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_warrior.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_warrior.Name = "Select_exp_warrior"
+        Me.Select_exp_warrior.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_warrior.TabIndex = 2
+        '
+        'Bar_exp_warrior
+        '
+        Me.Bar_exp_warrior.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_warrior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_warrior.Controls.Add(Me.valu_exp_warrior)
+        Me.Bar_exp_warrior.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_warrior.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_warrior.Name = "Bar_exp_warrior"
+        Me.Bar_exp_warrior.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_warrior.TabIndex = 0
+        Me.Bar_exp_warrior.Visible = False
+        '
+        'valu_exp_warrior
+        '
+        Me.valu_exp_warrior.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_warrior.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_warrior.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_warrior.Name = "valu_exp_warrior"
+        Me.valu_exp_warrior.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_warrior.TabIndex = 5
+        Me.valu_exp_warrior.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox25
+        '
+        Me.PictureBox25.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Guerrier
+        Me.PictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox25.Enabled = False
+        Me.PictureBox25.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox25.Name = "PictureBox25"
+        Me.PictureBox25.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox25.TabIndex = 1
+        Me.PictureBox25.TabStop = False
+        '
+        'Panel47
+        '
+        Me.Panel47.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel47.Controls.Add(Me.Select_exp_princess)
+        Me.Panel47.Controls.Add(Me.Bar_exp_princess)
+        Me.Panel47.Controls.Add(Me.PictureBox23)
+        Me.Panel47.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel47.Location = New System.Drawing.Point(415, 86)
+        Me.Panel47.Name = "Panel47"
+        Me.Panel47.Size = New System.Drawing.Size(94, 65)
+        Me.Panel47.TabIndex = 55
+        '
+        'Select_exp_princess
+        '
+        Me.Select_exp_princess.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_princess.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_princess.FormattingEnabled = True
+        Me.Select_exp_princess.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_princess.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_princess.Name = "Select_exp_princess"
+        Me.Select_exp_princess.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_princess.TabIndex = 2
+        '
+        'Bar_exp_princess
+        '
+        Me.Bar_exp_princess.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_princess.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_princess.Controls.Add(Me.valu_exp_princess)
+        Me.Bar_exp_princess.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_princess.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_princess.Name = "Bar_exp_princess"
+        Me.Bar_exp_princess.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_princess.TabIndex = 0
+        Me.Bar_exp_princess.Visible = False
+        '
+        'valu_exp_princess
+        '
+        Me.valu_exp_princess.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_princess.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_princess.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_princess.Name = "valu_exp_princess"
+        Me.valu_exp_princess.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_princess.TabIndex = 5
+        Me.valu_exp_princess.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox23
+        '
+        Me.PictureBox23.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Princesse
+        Me.PictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox23.Enabled = False
+        Me.PictureBox23.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox23.Name = "PictureBox23"
+        Me.PictureBox23.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox23.TabIndex = 1
+        Me.PictureBox23.TabStop = False
+        '
+        'Panel45
+        '
+        Me.Panel45.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel45.Controls.Add(Me.Select_exp_imp)
+        Me.Panel45.Controls.Add(Me.Bar_exp_imp)
+        Me.Panel45.Controls.Add(Me.PictureBox22)
+        Me.Panel45.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel45.Location = New System.Drawing.Point(315, 86)
+        Me.Panel45.Name = "Panel45"
+        Me.Panel45.Size = New System.Drawing.Size(94, 65)
+        Me.Panel45.TabIndex = 54
+        '
+        'Select_exp_imp
+        '
+        Me.Select_exp_imp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_imp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_imp.FormattingEnabled = True
+        Me.Select_exp_imp.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_imp.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_imp.Name = "Select_exp_imp"
+        Me.Select_exp_imp.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_imp.TabIndex = 2
+        '
+        'Bar_exp_imp
+        '
+        Me.Bar_exp_imp.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_imp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_imp.Controls.Add(Me.valu_exp_imp)
+        Me.Bar_exp_imp.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_imp.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_imp.Name = "Bar_exp_imp"
+        Me.Bar_exp_imp.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_imp.TabIndex = 0
+        Me.Bar_exp_imp.Visible = False
+        '
+        'valu_exp_imp
+        '
+        Me.valu_exp_imp.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_imp.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_imp.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_imp.Name = "valu_exp_imp"
+        Me.valu_exp_imp.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_imp.TabIndex = 5
+        Me.valu_exp_imp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox22
+        '
+        Me.PictureBox22.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Diablotin
+        Me.PictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox22.Enabled = False
+        Me.PictureBox22.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox22.Name = "PictureBox22"
+        Me.PictureBox22.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox22.TabIndex = 1
+        Me.PictureBox22.TabStop = False
+        '
+        'Panel43
+        '
+        Me.Panel43.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel43.Controls.Add(Me.Select_exp_tank)
+        Me.Panel43.Controls.Add(Me.Bar_exp_tank)
+        Me.Panel43.Controls.Add(Me.PictureBox21)
+        Me.Panel43.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel43.Location = New System.Drawing.Point(215, 86)
+        Me.Panel43.Name = "Panel43"
+        Me.Panel43.Size = New System.Drawing.Size(94, 65)
+        Me.Panel43.TabIndex = 53
+        '
+        'Select_exp_tank
+        '
+        Me.Select_exp_tank.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_tank.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_tank.FormattingEnabled = True
+        Me.Select_exp_tank.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_tank.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_tank.Name = "Select_exp_tank"
+        Me.Select_exp_tank.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_tank.TabIndex = 2
+        '
+        'Bar_exp_tank
+        '
+        Me.Bar_exp_tank.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_tank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_tank.Controls.Add(Me.valu_exp_tank)
+        Me.Bar_exp_tank.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_tank.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_tank.Name = "Bar_exp_tank"
+        Me.Bar_exp_tank.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_tank.TabIndex = 0
+        Me.Bar_exp_tank.Visible = False
+        '
+        'valu_exp_tank
+        '
+        Me.valu_exp_tank.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_tank.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_tank.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_tank.Name = "valu_exp_tank"
+        Me.valu_exp_tank.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_tank.TabIndex = 5
+        Me.valu_exp_tank.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox21
+        '
+        Me.PictureBox21.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Tank
+        Me.PictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox21.Enabled = False
+        Me.PictureBox21.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox21.Name = "PictureBox21"
+        Me.PictureBox21.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox21.TabIndex = 1
+        Me.PictureBox21.TabStop = False
+        '
+        'Panel39
+        '
+        Me.Panel39.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel39.Controls.Add(Me.Select_exp_chef)
+        Me.Panel39.Controls.Add(Me.Bar_exp_chef)
+        Me.Panel39.Controls.Add(Me.PictureBox19)
+        Me.Panel39.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel39.Location = New System.Drawing.Point(115, 86)
+        Me.Panel39.Name = "Panel39"
+        Me.Panel39.Size = New System.Drawing.Size(94, 65)
+        Me.Panel39.TabIndex = 52
+        '
+        'Select_exp_chef
+        '
+        Me.Select_exp_chef.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_chef.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_chef.FormattingEnabled = True
+        Me.Select_exp_chef.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_chef.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_chef.Name = "Select_exp_chef"
+        Me.Select_exp_chef.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_chef.TabIndex = 2
+        '
+        'Bar_exp_chef
+        '
+        Me.Bar_exp_chef.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_chef.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_chef.Controls.Add(Me.valu_exp_chef)
+        Me.Bar_exp_chef.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_chef.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_chef.Name = "Bar_exp_chef"
+        Me.Bar_exp_chef.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_chef.TabIndex = 0
+        Me.Bar_exp_chef.Visible = False
+        '
+        'valu_exp_chef
+        '
+        Me.valu_exp_chef.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_chef.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_chef.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_chef.Name = "valu_exp_chef"
+        Me.valu_exp_chef.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_chef.TabIndex = 5
+        Me.valu_exp_chef.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox19
+        '
+        Me.PictureBox19.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Cuisinier
+        Me.PictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox19.Enabled = False
+        Me.PictureBox19.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox19.Name = "PictureBox19"
+        Me.PictureBox19.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox19.TabIndex = 1
+        Me.PictureBox19.TabStop = False
+        '
+        'Panel41
+        '
+        Me.Panel41.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Panel41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel41.Controls.Add(Me.Select_exp_vampire)
+        Me.Panel41.Controls.Add(Me.Bar_exp_vampire)
+        Me.Panel41.Controls.Add(Me.PictureBox20)
+        Me.Panel41.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel41.Location = New System.Drawing.Point(15, 86)
+        Me.Panel41.Name = "Panel41"
+        Me.Panel41.Size = New System.Drawing.Size(94, 65)
+        Me.Panel41.TabIndex = 37
+        '
+        'Select_exp_vampire
+        '
+        Me.Select_exp_vampire.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_exp_vampire.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_exp_vampire.FormattingEnabled = True
+        Me.Select_exp_vampire.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
+        Me.Select_exp_vampire.Location = New System.Drawing.Point(4, 41)
+        Me.Select_exp_vampire.Name = "Select_exp_vampire"
+        Me.Select_exp_vampire.Size = New System.Drawing.Size(86, 21)
+        Me.Select_exp_vampire.TabIndex = 2
+        '
+        'Bar_exp_vampire
+        '
+        Me.Bar_exp_vampire.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_exp_vampire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_exp_vampire.Controls.Add(Me.valu_exp_vampire)
+        Me.Bar_exp_vampire.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_exp_vampire.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_exp_vampire.Name = "Bar_exp_vampire"
+        Me.Bar_exp_vampire.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_exp_vampire.TabIndex = 0
+        Me.Bar_exp_vampire.Visible = False
+        '
+        'valu_exp_vampire
+        '
+        Me.valu_exp_vampire.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_exp_vampire.Location = New System.Drawing.Point(8, 1)
+        Me.valu_exp_vampire.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_exp_vampire.Name = "valu_exp_vampire"
+        Me.valu_exp_vampire.Size = New System.Drawing.Size(79, 16)
+        Me.valu_exp_vampire.TabIndex = 5
+        Me.valu_exp_vampire.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox20
+        '
+        Me.PictureBox20.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Vampire
+        Me.PictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox20.Enabled = False
+        Me.PictureBox20.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox20.Name = "PictureBox20"
+        Me.PictureBox20.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox20.TabIndex = 1
+        Me.PictureBox20.TabStop = False
         '
         'Button_open_hero
         '
@@ -4682,14 +5900,14 @@ Partial Class Miitopia_SE
         CType(Me.Icon_job, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_hero_sw2.ResumeLayout(False)
         Me.Panel_hero_sw2.PerformLayout()
-        CType(Me.NumericUpDown12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_hbgobbled, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_mcgulped, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_ggrubbed, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_ggrabbed, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_battles, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_fblows, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_defeats, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_tlooparty, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Tab_hero_Miistats.ResumeLayout(False)
         Me.Panel_inn.ResumeLayout(False)
         Me.Panel_inn.PerformLayout()
@@ -4708,9 +5926,83 @@ Partial Class Miitopia_SE
         CType(Me.Icon_inn_room_topleft_right, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_inn_room_topleft_left, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel16.ResumeLayout(False)
+        Me.Group_interaction.ResumeLayout(False)
+        CType(Me.valu_interac_activity, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_interaction, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_interac_Mii, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_interaction, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox4.ResumeLayout(False)
         CType(Me.valu_daysick, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_sick, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage1.ResumeLayout(False)
+        Me.GroupBox10.ResumeLayout(False)
+        CType(Me.valu_foodexp_speed, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox11.ResumeLayout(False)
+        CType(Me.valu_foodexp_magic, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox12.ResumeLayout(False)
+        CType(Me.valu_foodexp_defense, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox9.ResumeLayout(False)
+        CType(Me.valu_foodexp_attack, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox8.ResumeLayout(False)
+        CType(Me.valu_foodexp_MP, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox7.ResumeLayout(False)
+        CType(Me.valu_foodexp_HP, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel23.ResumeLayout(False)
+        Me.Bar_exp_elf.ResumeLayout(False)
+        CType(Me.valu_exp_elf, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel25.ResumeLayout(False)
+        Me.Bar_exp_cat.ResumeLayout(False)
+        CType(Me.valu_exp_cat, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel27.ResumeLayout(False)
+        Me.Bar_exp_scientist.ResumeLayout(False)
+        CType(Me.valu_exp_scientist, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel29.ResumeLayout(False)
+        Me.Bar_exp_flower.ResumeLayout(False)
+        CType(Me.valu_exp_flower, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel33.ResumeLayout(False)
+        Me.Bar_exp_popstar.ResumeLayout(False)
+        CType(Me.valu_exp_popstar, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel35.ResumeLayout(False)
+        Me.Bar_exp_thief.ResumeLayout(False)
+        CType(Me.valu_exp_thief, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel37.ResumeLayout(False)
+        Me.Bar_exp_cleric.ResumeLayout(False)
+        CType(Me.valu_exp_cleric, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel49.ResumeLayout(False)
+        Me.Bar_exp_mage.ResumeLayout(False)
+        CType(Me.valu_exp_mage, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel51.ResumeLayout(False)
+        Me.Bar_exp_warrior.ResumeLayout(False)
+        CType(Me.valu_exp_warrior, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel47.ResumeLayout(False)
+        Me.Bar_exp_princess.ResumeLayout(False)
+        CType(Me.valu_exp_princess, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel45.ResumeLayout(False)
+        Me.Bar_exp_imp.ResumeLayout(False)
+        CType(Me.valu_exp_imp, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel43.ResumeLayout(False)
+        Me.Bar_exp_tank.ResumeLayout(False)
+        CType(Me.valu_exp_tank, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel39.ResumeLayout(False)
+        Me.Bar_exp_chef.ResumeLayout(False)
+        CType(Me.valu_exp_chef, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel41.ResumeLayout(False)
+        Me.Bar_exp_vampire.ResumeLayout(False)
+        CType(Me.valu_exp_vampire, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Button_open_hero.ResumeLayout(False)
         Me.Button_save_hero.ResumeLayout(False)
         Me.File_path_hero.ResumeLayout(False)
@@ -4978,7 +6270,6 @@ Partial Class Miitopia_SE
     Friend WithEvents Tab_quest_main As System.Windows.Forms.TabPage
     Friend WithEvents File_path_quest As System.Windows.Forms.Panel
     Friend WithEvents TextBox_fpath_quest As System.Windows.Forms.TextBox
-    Friend WithEvents Panel_hero As System.Windows.Forms.Panel
     Friend WithEvents TabControl4 As System.Windows.Forms.TabControl
     Friend WithEvents Tab_hero_Miiedit As System.Windows.Forms.TabPage
     Friend WithEvents Button_open_hero As System.Windows.Forms.Panel
@@ -4990,11 +6281,9 @@ Partial Class Miitopia_SE
     Friend WithEvents Tab_hero_Miistats As System.Windows.Forms.TabPage
     Friend WithEvents Select_Mii As System.Windows.Forms.ComboBox
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents valu_job As System.Windows.Forms.NumericUpDown
     Friend WithEvents valu_tummy As System.Windows.Forms.NumericUpDown
     Friend WithEvents Icon_tummy As System.Windows.Forms.PictureBox
     Friend WithEvents GroupBox5 As System.Windows.Forms.GroupBox
-    Friend WithEvents Text_warcry As System.Windows.Forms.TextBox
     Friend WithEvents Icon_job As System.Windows.Forms.PictureBox
     Friend WithEvents Panel6 As System.Windows.Forms.Panel
     Friend WithEvents Panel4 As System.Windows.Forms.Panel
@@ -5004,7 +6293,6 @@ Partial Class Miitopia_SE
     Friend WithEvents Panel10 As System.Windows.Forms.Panel
     Friend WithEvents Panel11 As System.Windows.Forms.Panel
     Friend WithEvents Select_pose As System.Windows.Forms.ComboBox
-    Friend WithEvents valu_pose As System.Windows.Forms.NumericUpDown
     Friend WithEvents valu_personnality As System.Windows.Forms.NumericUpDown
     Friend WithEvents Select_personnality As System.Windows.Forms.ComboBox
     Friend WithEvents Panel_hero_sw1 As System.Windows.Forms.Panel
@@ -5012,22 +6300,22 @@ Partial Class Miitopia_SE
     Friend WithEvents Text_showstats As System.Windows.Forms.Label
     Friend WithEvents Panel13 As System.Windows.Forms.Panel
     Friend WithEvents Panel_hero_sw2 As System.Windows.Forms.Panel
-    Friend WithEvents NumericUpDown12 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown13 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown14 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_hbgobbled As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_mcgulped As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_ggrubbed As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_ggrabbed As System.Windows.Forms.NumericUpDown
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
-    Friend WithEvents NumericUpDown8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_battles As System.Windows.Forms.NumericUpDown
     Friend WithEvents Label13 As System.Windows.Forms.Label
-    Friend WithEvents NumericUpDown9 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_fblows As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_defeats As System.Windows.Forms.NumericUpDown
     Friend WithEvents Label14 As System.Windows.Forms.Label
-    Friend WithEvents NumericUpDown11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tlooparty As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel_inn As System.Windows.Forms.Panel
     Friend WithEvents Panel16 As System.Windows.Forms.Panel
     Friend WithEvents Fea_inn As System.Windows.Forms.Panel
@@ -5048,9 +6336,104 @@ Partial Class Miitopia_SE
     Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
     Friend WithEvents valu_sick As System.Windows.Forms.NumericUpDown
     Friend WithEvents Select_sick As System.Windows.Forms.ComboBox
-    Friend WithEvents GroupBox6 As System.Windows.Forms.GroupBox
+    Friend WithEvents Group_interaction As System.Windows.Forms.GroupBox
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents valu_daysick As System.Windows.Forms.NumericUpDown
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Panel23 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_elf As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_elf As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel25 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox12 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_cat As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_cat As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel27 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_scientist As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_scientist As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel29 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_flower As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_flower As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel33 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_popstar As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_popstar As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel35 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox17 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_thief As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_thief As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel37 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox18 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_cleric As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_cleric As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel49 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox24 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_mage As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_mage As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel51 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox25 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_warrior As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_warrior As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel47 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox23 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_princess As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_princess As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel45 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox22 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_imp As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_imp As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel43 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox21 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_tank As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_tank As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel39 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox19 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_chef As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_chef As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel41 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox20 As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_exp_vampire As System.Windows.Forms.Panel
+    Friend WithEvents valu_exp_vampire As System.Windows.Forms.NumericUpDown
+    Friend WithEvents GroupBox10 As System.Windows.Forms.GroupBox
+    Friend WithEvents GroupBox11 As System.Windows.Forms.GroupBox
+    Friend WithEvents GroupBox12 As System.Windows.Forms.GroupBox
+    Friend WithEvents GroupBox9 As System.Windows.Forms.GroupBox
+    Friend WithEvents GroupBox8 As System.Windows.Forms.GroupBox
+    Friend WithEvents GroupBox7 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_interac_Mii As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Select_interac_Mii As System.Windows.Forms.ComboBox
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Icon_interaction As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_interaction As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_interac_activity As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Select_interac_activity As System.Windows.Forms.ComboBox
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents valu_foodexp_speed As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_foodexp_magic As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_foodexp_defense As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_foodexp_attack As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_foodexp_MP As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_foodexp_HP As System.Windows.Forms.NumericUpDown
+    Public WithEvents Select_exp_popstar As System.Windows.Forms.ComboBox
+    Public WithEvents Select_exp_thief As System.Windows.Forms.ComboBox
+    Public WithEvents Select_exp_cleric As System.Windows.Forms.ComboBox
+    Public WithEvents Select_exp_mage As System.Windows.Forms.ComboBox
+    Public WithEvents Select_exp_vampire As System.Windows.Forms.ComboBox
+    Friend WithEvents Panel_hero As System.Windows.Forms.Panel
+    Friend WithEvents valu_job As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_warcry As System.Windows.Forms.TextBox
+    Friend WithEvents valu_pose As System.Windows.Forms.NumericUpDown
+    Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
+    Friend WithEvents Select_exp_elf As System.Windows.Forms.ComboBox
+    Friend WithEvents Select_exp_cat As System.Windows.Forms.ComboBox
+    Friend WithEvents Select_exp_scientist As System.Windows.Forms.ComboBox
+    Friend WithEvents Select_exp_flower As System.Windows.Forms.ComboBox
+    Friend WithEvents Select_exp_princess As System.Windows.Forms.ComboBox
+    Friend WithEvents Select_exp_imp As System.Windows.Forms.ComboBox
+    Friend WithEvents Select_exp_tank As System.Windows.Forms.ComboBox
+    Friend WithEvents Select_exp_chef As System.Windows.Forms.ComboBox
+    Friend WithEvents Select_exp_warrior As System.Windows.Forms.ComboBox
 
 End Class

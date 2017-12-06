@@ -2793,6 +2793,26 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property mse_nostub() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("mse_nostub", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property mse_stub() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("mse_stub", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property music_icon() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("music_icon", resourceCulture)
@@ -2943,6 +2963,16 @@ Namespace My.Resources
         Friend ReadOnly Property Tumfull() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Tumfull", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property tumunknow() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("tumunknow", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
