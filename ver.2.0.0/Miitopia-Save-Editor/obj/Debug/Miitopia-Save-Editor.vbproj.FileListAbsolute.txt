@@ -11,3 +11,4 @@ C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitop
 C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Debug\PackageIO.dll
 C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Debug\Miitopia_Save_Editor.Form2.resources
 C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Debug\Miitopia_Save_Editor.Grub_editor.resources
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Debug\Miitopia-Save-Editor.vbprojResolveAssemblyReference.cache

@@ -289,6 +289,43 @@ Partial Class Miitopia_SE
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TabControl4 = New System.Windows.Forms.TabControl()
         Me.Tab_hero_Miiedit = New System.Windows.Forms.TabPage()
+        Me.Panel_hero_equipments = New System.Windows.Forms.Panel()
+        Me.GroupBox13 = New System.Windows.Forms.GroupBox()
+        Me.Panel15 = New System.Windows.Forms.Panel()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Panel17 = New System.Windows.Forms.Panel()
+        Me.valu_appea_weapon = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Panel18 = New System.Windows.Forms.Panel()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.Panel19 = New System.Windows.Forms.Panel()
+        Me.valu_appea_hat = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.Panel20 = New System.Windows.Forms.Panel()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.Panel21 = New System.Windows.Forms.Panel()
+        Me.valu_appea_clothe = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.Fea_equip_weapon = New System.Windows.Forms.Panel()
+        Me.Select_equip_weapon = New System.Windows.Forms.ComboBox()
+        Me.Bar_equip_weapon = New System.Windows.Forms.Panel()
+        Me.valu_equip_weapon = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_equip_weapon = New System.Windows.Forms.PictureBox()
+        Me.Fea_equip_hat = New System.Windows.Forms.Panel()
+        Me.Select_equip_hat = New System.Windows.Forms.ComboBox()
+        Me.Bar_equip_hat = New System.Windows.Forms.Panel()
+        Me.valu_equip_hat = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_equip_hat = New System.Windows.Forms.PictureBox()
+        Me.Fea_equip_clothe = New System.Windows.Forms.Panel()
+        Me.Select_equip_clothe = New System.Windows.Forms.ComboBox()
+        Me.Bar_equip_clothe = New System.Windows.Forms.Panel()
+        Me.valu_equip_clothe = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_equip_clothe = New System.Windows.Forms.PictureBox()
+        Me.Panel22 = New System.Windows.Forms.Panel()
+        Me.Text_showequipments = New System.Windows.Forms.Label()
+        Me.Panel24 = New System.Windows.Forms.Panel()
+        Me.Panel12 = New System.Windows.Forms.Panel()
         Me.Panel14 = New System.Windows.Forms.Panel()
         Me.Text_showstats = New System.Windows.Forms.Label()
         Me.Panel13 = New System.Windows.Forms.Panel()
@@ -449,6 +486,10 @@ Partial Class Miitopia_SE
         Me.Text_save_hero = New System.Windows.Forms.Label()
         Me.File_path_hero = New System.Windows.Forms.Panel()
         Me.TextBox_fpath_hero = New System.Windows.Forms.TextBox()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         Me.MSE_header.SuspendLayout()
         CType(Me.MSE_icon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -473,6 +514,7 @@ Partial Class Miitopia_SE
         Me.Panel_slt_save.SuspendLayout()
         Me.File_path_common.SuspendLayout()
         Me.Panel_settings.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.Panel9.SuspendLayout()
@@ -683,6 +725,34 @@ Partial Class Miitopia_SE
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl4.SuspendLayout()
         Me.Tab_hero_Miiedit.SuspendLayout()
+        Me.Panel_hero_equipments.SuspendLayout()
+        Me.GroupBox13.SuspendLayout()
+        Me.Panel15.SuspendLayout()
+        Me.Panel17.SuspendLayout()
+        CType(Me.valu_appea_weapon, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel18.SuspendLayout()
+        Me.Panel19.SuspendLayout()
+        CType(Me.valu_appea_hat, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel20.SuspendLayout()
+        Me.Panel21.SuspendLayout()
+        CType(Me.valu_appea_clothe, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox6.SuspendLayout()
+        Me.Fea_equip_weapon.SuspendLayout()
+        Me.Bar_equip_weapon.SuspendLayout()
+        CType(Me.valu_equip_weapon, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_equip_weapon, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_equip_hat.SuspendLayout()
+        Me.Bar_equip_hat.SuspendLayout()
+        CType(Me.valu_equip_hat, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_equip_hat, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_equip_clothe.SuspendLayout()
+        Me.Bar_equip_clothe.SuspendLayout()
+        CType(Me.valu_equip_clothe, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_equip_clothe, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel22.SuspendLayout()
         Me.Panel14.SuspendLayout()
         Me.Panel_hero_sw1.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
@@ -1211,6 +1281,9 @@ Partial Class Miitopia_SE
         'GroupBox3
         '
         Me.GroupBox3.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_settings
+        Me.GroupBox3.Controls.Add(Me.LinkLabel2)
+        Me.GroupBox3.Controls.Add(Me.LinkLabel1)
+        Me.GroupBox3.Controls.Add(Me.Label16)
         Me.GroupBox3.Location = New System.Drawing.Point(277, 4)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(270, 434)
@@ -1221,6 +1294,7 @@ Partial Class Miitopia_SE
         'GroupBox2
         '
         Me.GroupBox2.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_settings
+        Me.GroupBox2.Controls.Add(Me.Label17)
         Me.GroupBox2.Controls.Add(Me.Label7)
         Me.GroupBox2.Location = New System.Drawing.Point(3, 141)
         Me.GroupBox2.Name = "GroupBox2"
@@ -1231,13 +1305,13 @@ Partial Class Miitopia_SE
         '
         'Label7
         '
-        Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Location = New System.Drawing.Point(101, 16)
+        Me.Label7.Location = New System.Drawing.Point(6, 16)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(69, 13)
+        Me.Label7.Size = New System.Drawing.Size(259, 13)
         Me.Label7.TabIndex = 0
-        Me.Label7.Text = "Version 2.0.0"
+        Me.Label7.Text = "Pre-release ver. 2.0.0"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'GroupBox1
         '
@@ -1280,6 +1354,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_language.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Select_language.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_language.Enabled = False
         Me.Select_language.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Select_language.FormattingEnabled = True
         Me.Select_language.Items.AddRange(New Object() {"ENG", "FRA", "ESP"})
@@ -1510,6 +1585,7 @@ Partial Class Miitopia_SE
         Me.valu_world.Size = New System.Drawing.Size(36, 16)
         Me.valu_world.TabIndex = 1
         Me.valu_world.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_world.Visible = False
         '
         'Select_world
         '
@@ -1518,7 +1594,7 @@ Partial Class Miitopia_SE
         Me.Select_world.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Select_world.FormattingEnabled = True
         Me.Select_world.Items.AddRange(New Object() {"Greenhorne", "Riverdeep Cavern", "Nightmare Tower", "Neksdor", "Underground Maze", "Great Pyramid", "Realm of the Fey", "Citrus Cave", "Lotus Lake", "Karkaton Ascent", "Karkaton", "Dark Lord's Castle", "Armory", "Inner Passage", "Dark Lord's Throne", "Powdered Peaks", "Peculia", "Peculia Warp (Forest)", "Peculia Warp (Desert)", "Peculia Warp (Castle)", "Nimbus", "Sterile Plant", "The Sky Scraper", "Otherworld", "The Sky Scraper (Entrance)", "Travelers' Hub (Overworld Only)", "Galados Isle (Overworld Only)", "New Lumos", "New Lumos (1st District)", "New Lumos (2nd District)", "New Lumos (3rd District)", "New Lumos (4th District)", "New Lumos (5th District)", "New Lumos (6th District)", "New Lumos (7th District)", "New Lumos (8th District)", "Random Quest (Lotus Lake)", "Random Quest (Pyramid)", "Random Quest (No BG)", "Random Quest (Quizmaster)", "Random Quest (No BG) (2)", "Random Quest (No BG, Split Party)", "Random Quest (No BG) (3)", "Random Quest (No BG) (4)"})
-        Me.Select_world.Location = New System.Drawing.Point(35, 14)
+        Me.Select_world.Location = New System.Drawing.Point(18, 14)
         Me.Select_world.Name = "Select_world"
         Me.Select_world.Size = New System.Drawing.Size(170, 21)
         Me.Select_world.TabIndex = 0
@@ -3801,6 +3877,10 @@ Partial Class Miitopia_SE
         'Tab_hero_Miiedit
         '
         Me.Tab_hero_Miiedit.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
+        Me.Tab_hero_Miiedit.Controls.Add(Me.Panel_hero_equipments)
+        Me.Tab_hero_Miiedit.Controls.Add(Me.Panel22)
+        Me.Tab_hero_Miiedit.Controls.Add(Me.Panel24)
+        Me.Tab_hero_Miiedit.Controls.Add(Me.Panel12)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel14)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel13)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel_hero_sw1)
@@ -3822,6 +3902,422 @@ Partial Class Miitopia_SE
         Me.Tab_hero_Miiedit.TabIndex = 0
         Me.Tab_hero_Miiedit.Text = "Mii edition"
         Me.Tab_hero_Miiedit.UseVisualStyleBackColor = True
+        '
+        'Panel_hero_equipments
+        '
+        Me.Panel_hero_equipments.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_white
+        Me.Panel_hero_equipments.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel_hero_equipments.Controls.Add(Me.GroupBox13)
+        Me.Panel_hero_equipments.Controls.Add(Me.GroupBox6)
+        Me.Panel_hero_equipments.Location = New System.Drawing.Point(98, 58)
+        Me.Panel_hero_equipments.Name = "Panel_hero_equipments"
+        Me.Panel_hero_equipments.Size = New System.Drawing.Size(423, 254)
+        Me.Panel_hero_equipments.TabIndex = 62
+        Me.Panel_hero_equipments.Visible = False
+        '
+        'GroupBox13
+        '
+        Me.GroupBox13.Controls.Add(Me.Panel15)
+        Me.GroupBox13.Controls.Add(Me.Panel18)
+        Me.GroupBox13.Controls.Add(Me.Panel20)
+        Me.GroupBox13.Location = New System.Drawing.Point(31, 128)
+        Me.GroupBox13.Name = "GroupBox13"
+        Me.GroupBox13.Size = New System.Drawing.Size(361, 95)
+        Me.GroupBox13.TabIndex = 63
+        Me.GroupBox13.TabStop = False
+        Me.GroupBox13.Text = "Appearance equipments"
+        '
+        'Panel15
+        '
+        Me.Panel15.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_banner
+        Me.Panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel15.Controls.Add(Me.ComboBox1)
+        Me.Panel15.Controls.Add(Me.Panel17)
+        Me.Panel15.Controls.Add(Me.PictureBox2)
+        Me.Panel15.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Panel15.Location = New System.Drawing.Point(33, 19)
+        Me.Panel15.Name = "Panel15"
+        Me.Panel15.Size = New System.Drawing.Size(94, 65)
+        Me.Panel15.TabIndex = 59
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox1.Enabled = False
+        Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(4, 41)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(86, 21)
+        Me.ComboBox1.TabIndex = 2
+        '
+        'Panel17
+        '
+        Me.Panel17.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel17.Controls.Add(Me.valu_appea_weapon)
+        Me.Panel17.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Panel17.Location = New System.Drawing.Point(0, 1)
+        Me.Panel17.Name = "Panel17"
+        Me.Panel17.Size = New System.Drawing.Size(94, 18)
+        Me.Panel17.TabIndex = 0
+        '
+        'valu_appea_weapon
+        '
+        Me.valu_appea_weapon.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_appea_weapon.Location = New System.Drawing.Point(8, 1)
+        Me.valu_appea_weapon.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_appea_weapon.Name = "valu_appea_weapon"
+        Me.valu_appea_weapon.Size = New System.Drawing.Size(79, 16)
+        Me.valu_appea_weapon.TabIndex = 5
+        Me.valu_appea_weapon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox2.Enabled = False
+        Me.PictureBox2.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_weapons
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(35, 25)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox2.TabIndex = 1
+        Me.PictureBox2.TabStop = False
+        '
+        'Panel18
+        '
+        Me.Panel18.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_banner
+        Me.Panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel18.Controls.Add(Me.ComboBox2)
+        Me.Panel18.Controls.Add(Me.Panel19)
+        Me.Panel18.Controls.Add(Me.PictureBox3)
+        Me.Panel18.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Panel18.Location = New System.Drawing.Point(133, 19)
+        Me.Panel18.Name = "Panel18"
+        Me.Panel18.Size = New System.Drawing.Size(94, 65)
+        Me.Panel18.TabIndex = 60
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox2.Enabled = False
+        Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Location = New System.Drawing.Point(4, 41)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(86, 21)
+        Me.ComboBox2.TabIndex = 2
+        '
+        'Panel19
+        '
+        Me.Panel19.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Panel19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel19.Controls.Add(Me.valu_appea_hat)
+        Me.Panel19.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Panel19.Location = New System.Drawing.Point(0, 1)
+        Me.Panel19.Name = "Panel19"
+        Me.Panel19.Size = New System.Drawing.Size(94, 18)
+        Me.Panel19.TabIndex = 0
+        '
+        'valu_appea_hat
+        '
+        Me.valu_appea_hat.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_appea_hat.Location = New System.Drawing.Point(8, 1)
+        Me.valu_appea_hat.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_appea_hat.Name = "valu_appea_hat"
+        Me.valu_appea_hat.Size = New System.Drawing.Size(79, 16)
+        Me.valu_appea_hat.TabIndex = 5
+        Me.valu_appea_hat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox3.Enabled = False
+        Me.PictureBox3.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_hats
+        Me.PictureBox3.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(32, 22)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox3.TabIndex = 1
+        Me.PictureBox3.TabStop = False
+        '
+        'Panel20
+        '
+        Me.Panel20.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_banner
+        Me.Panel20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel20.Controls.Add(Me.ComboBox3)
+        Me.Panel20.Controls.Add(Me.Panel21)
+        Me.Panel20.Controls.Add(Me.PictureBox8)
+        Me.Panel20.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Panel20.Location = New System.Drawing.Point(233, 19)
+        Me.Panel20.Name = "Panel20"
+        Me.Panel20.Size = New System.Drawing.Size(94, 65)
+        Me.Panel20.TabIndex = 61
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox3.Enabled = False
+        Me.ComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Location = New System.Drawing.Point(4, 41)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(86, 21)
+        Me.ComboBox3.TabIndex = 2
+        '
+        'Panel21
+        '
+        Me.Panel21.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Panel21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel21.Controls.Add(Me.valu_appea_clothe)
+        Me.Panel21.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Panel21.Location = New System.Drawing.Point(0, 1)
+        Me.Panel21.Name = "Panel21"
+        Me.Panel21.Size = New System.Drawing.Size(94, 18)
+        Me.Panel21.TabIndex = 0
+        '
+        'valu_appea_clothe
+        '
+        Me.valu_appea_clothe.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_appea_clothe.Location = New System.Drawing.Point(8, 1)
+        Me.valu_appea_clothe.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_appea_clothe.Name = "valu_appea_clothe"
+        Me.valu_appea_clothe.Size = New System.Drawing.Size(79, 16)
+        Me.valu_appea_clothe.TabIndex = 5
+        Me.valu_appea_clothe.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox8.Enabled = False
+        Me.PictureBox8.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_clothes
+        Me.PictureBox8.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(35, 25)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox8.TabIndex = 1
+        Me.PictureBox8.TabStop = False
+        '
+        'GroupBox6
+        '
+        Me.GroupBox6.Controls.Add(Me.Fea_equip_weapon)
+        Me.GroupBox6.Controls.Add(Me.Fea_equip_hat)
+        Me.GroupBox6.Controls.Add(Me.Fea_equip_clothe)
+        Me.GroupBox6.Location = New System.Drawing.Point(31, 31)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(361, 95)
+        Me.GroupBox6.TabIndex = 62
+        Me.GroupBox6.TabStop = False
+        Me.GroupBox6.Text = "Equiped equipments"
+        '
+        'Fea_equip_weapon
+        '
+        Me.Fea_equip_weapon.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_banner
+        Me.Fea_equip_weapon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Fea_equip_weapon.Controls.Add(Me.Select_equip_weapon)
+        Me.Fea_equip_weapon.Controls.Add(Me.Bar_equip_weapon)
+        Me.Fea_equip_weapon.Controls.Add(Me.Icon_equip_weapon)
+        Me.Fea_equip_weapon.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Fea_equip_weapon.Location = New System.Drawing.Point(33, 19)
+        Me.Fea_equip_weapon.Name = "Fea_equip_weapon"
+        Me.Fea_equip_weapon.Size = New System.Drawing.Size(94, 65)
+        Me.Fea_equip_weapon.TabIndex = 59
+        '
+        'Select_equip_weapon
+        '
+        Me.Select_equip_weapon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_equip_weapon.Enabled = False
+        Me.Select_equip_weapon.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_equip_weapon.FormattingEnabled = True
+        Me.Select_equip_weapon.Location = New System.Drawing.Point(4, 41)
+        Me.Select_equip_weapon.Name = "Select_equip_weapon"
+        Me.Select_equip_weapon.Size = New System.Drawing.Size(86, 21)
+        Me.Select_equip_weapon.TabIndex = 2
+        '
+        'Bar_equip_weapon
+        '
+        Me.Bar_equip_weapon.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_equip_weapon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_equip_weapon.Controls.Add(Me.valu_equip_weapon)
+        Me.Bar_equip_weapon.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_equip_weapon.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_equip_weapon.Name = "Bar_equip_weapon"
+        Me.Bar_equip_weapon.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_equip_weapon.TabIndex = 0
+        '
+        'valu_equip_weapon
+        '
+        Me.valu_equip_weapon.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_equip_weapon.Location = New System.Drawing.Point(8, 1)
+        Me.valu_equip_weapon.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_equip_weapon.Name = "valu_equip_weapon"
+        Me.valu_equip_weapon.Size = New System.Drawing.Size(79, 16)
+        Me.valu_equip_weapon.TabIndex = 5
+        Me.valu_equip_weapon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Icon_equip_weapon
+        '
+        Me.Icon_equip_weapon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_equip_weapon.Enabled = False
+        Me.Icon_equip_weapon.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_weapons
+        Me.Icon_equip_weapon.Location = New System.Drawing.Point(0, 18)
+        Me.Icon_equip_weapon.Name = "Icon_equip_weapon"
+        Me.Icon_equip_weapon.Size = New System.Drawing.Size(35, 25)
+        Me.Icon_equip_weapon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_equip_weapon.TabIndex = 1
+        Me.Icon_equip_weapon.TabStop = False
+        '
+        'Fea_equip_hat
+        '
+        Me.Fea_equip_hat.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_banner
+        Me.Fea_equip_hat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Fea_equip_hat.Controls.Add(Me.Select_equip_hat)
+        Me.Fea_equip_hat.Controls.Add(Me.Bar_equip_hat)
+        Me.Fea_equip_hat.Controls.Add(Me.Icon_equip_hat)
+        Me.Fea_equip_hat.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Fea_equip_hat.Location = New System.Drawing.Point(133, 19)
+        Me.Fea_equip_hat.Name = "Fea_equip_hat"
+        Me.Fea_equip_hat.Size = New System.Drawing.Size(94, 65)
+        Me.Fea_equip_hat.TabIndex = 60
+        '
+        'Select_equip_hat
+        '
+        Me.Select_equip_hat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_equip_hat.Enabled = False
+        Me.Select_equip_hat.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_equip_hat.FormattingEnabled = True
+        Me.Select_equip_hat.Location = New System.Drawing.Point(4, 41)
+        Me.Select_equip_hat.Name = "Select_equip_hat"
+        Me.Select_equip_hat.Size = New System.Drawing.Size(86, 21)
+        Me.Select_equip_hat.TabIndex = 2
+        '
+        'Bar_equip_hat
+        '
+        Me.Bar_equip_hat.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_equip_hat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_equip_hat.Controls.Add(Me.valu_equip_hat)
+        Me.Bar_equip_hat.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_equip_hat.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_equip_hat.Name = "Bar_equip_hat"
+        Me.Bar_equip_hat.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_equip_hat.TabIndex = 0
+        '
+        'valu_equip_hat
+        '
+        Me.valu_equip_hat.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_equip_hat.Location = New System.Drawing.Point(8, 1)
+        Me.valu_equip_hat.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_equip_hat.Name = "valu_equip_hat"
+        Me.valu_equip_hat.Size = New System.Drawing.Size(79, 16)
+        Me.valu_equip_hat.TabIndex = 5
+        Me.valu_equip_hat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Icon_equip_hat
+        '
+        Me.Icon_equip_hat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_equip_hat.Enabled = False
+        Me.Icon_equip_hat.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_hats
+        Me.Icon_equip_hat.Location = New System.Drawing.Point(0, 18)
+        Me.Icon_equip_hat.Name = "Icon_equip_hat"
+        Me.Icon_equip_hat.Size = New System.Drawing.Size(32, 22)
+        Me.Icon_equip_hat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_equip_hat.TabIndex = 1
+        Me.Icon_equip_hat.TabStop = False
+        '
+        'Fea_equip_clothe
+        '
+        Me.Fea_equip_clothe.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_banner
+        Me.Fea_equip_clothe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Fea_equip_clothe.Controls.Add(Me.Select_equip_clothe)
+        Me.Fea_equip_clothe.Controls.Add(Me.Bar_equip_clothe)
+        Me.Fea_equip_clothe.Controls.Add(Me.Icon_equip_clothe)
+        Me.Fea_equip_clothe.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Fea_equip_clothe.Location = New System.Drawing.Point(233, 19)
+        Me.Fea_equip_clothe.Name = "Fea_equip_clothe"
+        Me.Fea_equip_clothe.Size = New System.Drawing.Size(94, 65)
+        Me.Fea_equip_clothe.TabIndex = 61
+        '
+        'Select_equip_clothe
+        '
+        Me.Select_equip_clothe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_equip_clothe.Enabled = False
+        Me.Select_equip_clothe.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_equip_clothe.FormattingEnabled = True
+        Me.Select_equip_clothe.Location = New System.Drawing.Point(4, 41)
+        Me.Select_equip_clothe.Name = "Select_equip_clothe"
+        Me.Select_equip_clothe.Size = New System.Drawing.Size(86, 21)
+        Me.Select_equip_clothe.TabIndex = 2
+        '
+        'Bar_equip_clothe
+        '
+        Me.Bar_equip_clothe.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_equip_clothe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_equip_clothe.Controls.Add(Me.valu_equip_clothe)
+        Me.Bar_equip_clothe.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_equip_clothe.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_equip_clothe.Name = "Bar_equip_clothe"
+        Me.Bar_equip_clothe.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_equip_clothe.TabIndex = 0
+        '
+        'valu_equip_clothe
+        '
+        Me.valu_equip_clothe.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_equip_clothe.Location = New System.Drawing.Point(8, 1)
+        Me.valu_equip_clothe.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_equip_clothe.Name = "valu_equip_clothe"
+        Me.valu_equip_clothe.Size = New System.Drawing.Size(79, 16)
+        Me.valu_equip_clothe.TabIndex = 5
+        Me.valu_equip_clothe.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Icon_equip_clothe
+        '
+        Me.Icon_equip_clothe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_equip_clothe.Enabled = False
+        Me.Icon_equip_clothe.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_clothes
+        Me.Icon_equip_clothe.Location = New System.Drawing.Point(0, 18)
+        Me.Icon_equip_clothe.Name = "Icon_equip_clothe"
+        Me.Icon_equip_clothe.Size = New System.Drawing.Size(35, 25)
+        Me.Icon_equip_clothe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_equip_clothe.TabIndex = 1
+        Me.Icon_equip_clothe.TabStop = False
+        '
+        'Panel22
+        '
+        Me.Panel22.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_mid
+        Me.Panel22.Controls.Add(Me.Text_showequipments)
+        Me.Panel22.Location = New System.Drawing.Point(111, 318)
+        Me.Panel22.Name = "Panel22"
+        Me.Panel22.Size = New System.Drawing.Size(79, 30)
+        Me.Panel22.TabIndex = 65
+        '
+        'Text_showequipments
+        '
+        Me.Text_showequipments.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_showequipments.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_showequipments.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Text_showequipments.Location = New System.Drawing.Point(0, 0)
+        Me.Text_showequipments.Name = "Text_showequipments"
+        Me.Text_showequipments.Size = New System.Drawing.Size(79, 30)
+        Me.Text_showequipments.TabIndex = 0
+        Me.Text_showequipments.Text = "Show equipments"
+        Me.Text_showequipments.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel24
+        '
+        Me.Panel24.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_rightarrow
+        Me.Panel24.Location = New System.Drawing.Point(180, 318)
+        Me.Panel24.Name = "Panel24"
+        Me.Panel24.Size = New System.Drawing.Size(29, 30)
+        Me.Panel24.TabIndex = 64
+        '
+        'Panel12
+        '
+        Me.Panel12.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_left
+        Me.Panel12.Enabled = False
+        Me.Panel12.Location = New System.Drawing.Point(98, 318)
+        Me.Panel12.Name = "Panel12"
+        Me.Panel12.Size = New System.Drawing.Size(13, 30)
+        Me.Panel12.TabIndex = 63
         '
         'Panel14
         '
@@ -3857,7 +4353,7 @@ Partial Class Miitopia_SE
         Me.Panel_hero_sw1.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_white
         Me.Panel_hero_sw1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel_hero_sw1.Controls.Add(Me.GroupBox5)
-        Me.Panel_hero_sw1.Location = New System.Drawing.Point(201, 69)
+        Me.Panel_hero_sw1.Location = New System.Drawing.Point(169, 69)
         Me.Panel_hero_sw1.Name = "Panel_hero_sw1"
         Me.Panel_hero_sw1.Size = New System.Drawing.Size(299, 167)
         Me.Panel_hero_sw1.TabIndex = 34
@@ -3878,6 +4374,7 @@ Partial Class Miitopia_SE
         '
         Me.Text_warcry.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.Text_warcry.Location = New System.Drawing.Point(8, 16)
+        Me.Text_warcry.MaxLength = 26
         Me.Text_warcry.Name = "Text_warcry"
         Me.Text_warcry.Size = New System.Drawing.Size(234, 13)
         Me.Text_warcry.TabIndex = 0
@@ -4748,7 +5245,7 @@ Partial Class Miitopia_SE
         Me.Panel23.Controls.Add(Me.Select_exp_elf)
         Me.Panel23.Controls.Add(Me.Bar_exp_elf)
         Me.Panel23.Controls.Add(Me.PictureBox11)
-        Me.Panel23.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel23.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel23.Location = New System.Drawing.Point(365, 157)
         Me.Panel23.Name = "Panel23"
         Me.Panel23.Size = New System.Drawing.Size(94, 65)
@@ -4805,7 +5302,7 @@ Partial Class Miitopia_SE
         Me.Panel25.Controls.Add(Me.Select_exp_cat)
         Me.Panel25.Controls.Add(Me.Bar_exp_cat)
         Me.Panel25.Controls.Add(Me.PictureBox12)
-        Me.Panel25.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel25.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel25.Location = New System.Drawing.Point(265, 157)
         Me.Panel25.Name = "Panel25"
         Me.Panel25.Size = New System.Drawing.Size(94, 65)
@@ -4862,7 +5359,7 @@ Partial Class Miitopia_SE
         Me.Panel27.Controls.Add(Me.Select_exp_scientist)
         Me.Panel27.Controls.Add(Me.Bar_exp_scientist)
         Me.Panel27.Controls.Add(Me.PictureBox13)
-        Me.Panel27.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel27.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel27.Location = New System.Drawing.Point(165, 157)
         Me.Panel27.Name = "Panel27"
         Me.Panel27.Size = New System.Drawing.Size(94, 65)
@@ -4919,7 +5416,7 @@ Partial Class Miitopia_SE
         Me.Panel29.Controls.Add(Me.Select_exp_flower)
         Me.Panel29.Controls.Add(Me.Bar_exp_flower)
         Me.Panel29.Controls.Add(Me.PictureBox14)
-        Me.Panel29.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel29.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel29.Location = New System.Drawing.Point(65, 157)
         Me.Panel29.Name = "Panel29"
         Me.Panel29.Size = New System.Drawing.Size(94, 65)
@@ -4976,7 +5473,7 @@ Partial Class Miitopia_SE
         Me.Panel33.Controls.Add(Me.Select_exp_popstar)
         Me.Panel33.Controls.Add(Me.Bar_exp_popstar)
         Me.Panel33.Controls.Add(Me.PictureBox16)
-        Me.Panel33.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel33.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel33.Location = New System.Drawing.Point(415, 15)
         Me.Panel33.Name = "Panel33"
         Me.Panel33.Size = New System.Drawing.Size(94, 65)
@@ -5033,7 +5530,7 @@ Partial Class Miitopia_SE
         Me.Panel35.Controls.Add(Me.Select_exp_thief)
         Me.Panel35.Controls.Add(Me.Bar_exp_thief)
         Me.Panel35.Controls.Add(Me.PictureBox17)
-        Me.Panel35.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel35.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel35.Location = New System.Drawing.Point(315, 15)
         Me.Panel35.Name = "Panel35"
         Me.Panel35.Size = New System.Drawing.Size(94, 65)
@@ -5090,7 +5587,7 @@ Partial Class Miitopia_SE
         Me.Panel37.Controls.Add(Me.Select_exp_cleric)
         Me.Panel37.Controls.Add(Me.Bar_exp_cleric)
         Me.Panel37.Controls.Add(Me.PictureBox18)
-        Me.Panel37.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel37.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel37.Location = New System.Drawing.Point(215, 15)
         Me.Panel37.Name = "Panel37"
         Me.Panel37.Size = New System.Drawing.Size(94, 65)
@@ -5147,7 +5644,7 @@ Partial Class Miitopia_SE
         Me.Panel49.Controls.Add(Me.Select_exp_mage)
         Me.Panel49.Controls.Add(Me.Bar_exp_mage)
         Me.Panel49.Controls.Add(Me.PictureBox24)
-        Me.Panel49.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel49.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel49.Location = New System.Drawing.Point(115, 15)
         Me.Panel49.Name = "Panel49"
         Me.Panel49.Size = New System.Drawing.Size(94, 65)
@@ -5204,7 +5701,7 @@ Partial Class Miitopia_SE
         Me.Panel51.Controls.Add(Me.Select_exp_warrior)
         Me.Panel51.Controls.Add(Me.Bar_exp_warrior)
         Me.Panel51.Controls.Add(Me.PictureBox25)
-        Me.Panel51.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel51.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel51.Location = New System.Drawing.Point(15, 15)
         Me.Panel51.Name = "Panel51"
         Me.Panel51.Size = New System.Drawing.Size(94, 65)
@@ -5261,7 +5758,7 @@ Partial Class Miitopia_SE
         Me.Panel47.Controls.Add(Me.Select_exp_princess)
         Me.Panel47.Controls.Add(Me.Bar_exp_princess)
         Me.Panel47.Controls.Add(Me.PictureBox23)
-        Me.Panel47.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel47.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel47.Location = New System.Drawing.Point(415, 86)
         Me.Panel47.Name = "Panel47"
         Me.Panel47.Size = New System.Drawing.Size(94, 65)
@@ -5318,7 +5815,7 @@ Partial Class Miitopia_SE
         Me.Panel45.Controls.Add(Me.Select_exp_imp)
         Me.Panel45.Controls.Add(Me.Bar_exp_imp)
         Me.Panel45.Controls.Add(Me.PictureBox22)
-        Me.Panel45.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel45.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel45.Location = New System.Drawing.Point(315, 86)
         Me.Panel45.Name = "Panel45"
         Me.Panel45.Size = New System.Drawing.Size(94, 65)
@@ -5375,7 +5872,7 @@ Partial Class Miitopia_SE
         Me.Panel43.Controls.Add(Me.Select_exp_tank)
         Me.Panel43.Controls.Add(Me.Bar_exp_tank)
         Me.Panel43.Controls.Add(Me.PictureBox21)
-        Me.Panel43.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel43.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel43.Location = New System.Drawing.Point(215, 86)
         Me.Panel43.Name = "Panel43"
         Me.Panel43.Size = New System.Drawing.Size(94, 65)
@@ -5432,7 +5929,7 @@ Partial Class Miitopia_SE
         Me.Panel39.Controls.Add(Me.Select_exp_chef)
         Me.Panel39.Controls.Add(Me.Bar_exp_chef)
         Me.Panel39.Controls.Add(Me.PictureBox19)
-        Me.Panel39.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel39.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel39.Location = New System.Drawing.Point(115, 86)
         Me.Panel39.Name = "Panel39"
         Me.Panel39.Size = New System.Drawing.Size(94, 65)
@@ -5489,7 +5986,7 @@ Partial Class Miitopia_SE
         Me.Panel41.Controls.Add(Me.Select_exp_vampire)
         Me.Panel41.Controls.Add(Me.Bar_exp_vampire)
         Me.Panel41.Controls.Add(Me.PictureBox20)
-        Me.Panel41.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel41.Cursor = System.Windows.Forms.Cursors.Default
         Me.Panel41.Location = New System.Drawing.Point(15, 86)
         Me.Panel41.Name = "Panel41"
         Me.Panel41.Size = New System.Drawing.Size(94, 65)
@@ -5606,6 +6103,50 @@ Partial Class Miitopia_SE
         Me.TextBox_fpath_hero.Size = New System.Drawing.Size(364, 13)
         Me.TextBox_fpath_hero.TabIndex = 0
         '
+        'Label16
+        '
+        Me.Label16.BackColor = System.Drawing.Color.Transparent
+        Me.Label16.Location = New System.Drawing.Point(21, 30)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(233, 95)
+        Me.Label16.TabIndex = 0
+        Me.Label16.Text = "Author : Brion"
+        Me.Label16.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Label17
+        '
+        Me.Label17.BackColor = System.Drawing.Color.Transparent
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(9, 44)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(251, 242)
+        Me.Label17.TabIndex = 1
+        Me.Label17.Text = "This is a pre-release version" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "some things are missing" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "for more information see " & _
+    "Github page or Gbatemp.net page"
+        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.LinkLabel1.Location = New System.Drawing.Point(102, 215)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(66, 13)
+        Me.LinkLabel1.TabIndex = 1
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "Github Page"
+        '
+        'LinkLabel2
+        '
+        Me.LinkLabel2.AutoSize = True
+        Me.LinkLabel2.BackColor = System.Drawing.Color.Transparent
+        Me.LinkLabel2.Location = New System.Drawing.Point(87, 268)
+        Me.LinkLabel2.Name = "LinkLabel2"
+        Me.LinkLabel2.Size = New System.Drawing.Size(96, 13)
+        Me.LinkLabel2.TabIndex = 2
+        Me.LinkLabel2.TabStop = True
+        Me.LinkLabel2.Text = "Gbatemp.net Page"
+        '
         'Miitopia_SE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -5624,10 +6165,10 @@ Partial Class Miitopia_SE
         Me.Controls.Add(Me.Menu_buttonS)
         Me.Controls.Add(Me.Menu_panel)
         Me.Controls.Add(Me.MSE_header)
+        Me.Controls.Add(Me.Panel_common)
         Me.Controls.Add(Me.Panel_hero)
         Me.Controls.Add(Me.Panel_quest)
         Me.Controls.Add(Me.Panel_settings)
-        Me.Controls.Add(Me.Panel_common)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -5664,8 +6205,9 @@ Partial Class Miitopia_SE
         Me.File_path_common.ResumeLayout(False)
         Me.File_path_common.PerformLayout()
         Me.Panel_settings.ResumeLayout(False)
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.Panel9.ResumeLayout(False)
         Me.Panel9.PerformLayout()
@@ -5885,6 +6427,34 @@ Partial Class Miitopia_SE
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabControl4.ResumeLayout(False)
         Me.Tab_hero_Miiedit.ResumeLayout(False)
+        Me.Panel_hero_equipments.ResumeLayout(False)
+        Me.GroupBox13.ResumeLayout(False)
+        Me.Panel15.ResumeLayout(False)
+        Me.Panel17.ResumeLayout(False)
+        CType(Me.valu_appea_weapon, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel18.ResumeLayout(False)
+        Me.Panel19.ResumeLayout(False)
+        CType(Me.valu_appea_hat, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel20.ResumeLayout(False)
+        Me.Panel21.ResumeLayout(False)
+        CType(Me.valu_appea_clothe, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox6.ResumeLayout(False)
+        Me.Fea_equip_weapon.ResumeLayout(False)
+        Me.Bar_equip_weapon.ResumeLayout(False)
+        CType(Me.valu_equip_weapon, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_equip_weapon, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_equip_hat.ResumeLayout(False)
+        Me.Bar_equip_hat.ResumeLayout(False)
+        CType(Me.valu_equip_hat, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_equip_hat, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_equip_clothe.ResumeLayout(False)
+        Me.Bar_equip_clothe.ResumeLayout(False)
+        CType(Me.valu_equip_clothe, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_equip_clothe, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel22.ResumeLayout(False)
         Me.Panel14.ResumeLayout(False)
         Me.Panel_hero_sw1.ResumeLayout(False)
         Me.GroupBox5.ResumeLayout(False)
@@ -6435,5 +7005,46 @@ Partial Class Miitopia_SE
     Friend WithEvents Select_exp_chef As System.Windows.Forms.ComboBox
     Friend WithEvents Select_exp_warrior As System.Windows.Forms.ComboBox
     Friend WithEvents valu_exp_warrior As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_equip_clothe As System.Windows.Forms.Panel
+    Public WithEvents Select_equip_clothe As System.Windows.Forms.ComboBox
+    Friend WithEvents Bar_equip_clothe As System.Windows.Forms.Panel
+    Friend WithEvents valu_equip_clothe As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_equip_clothe As System.Windows.Forms.PictureBox
+    Friend WithEvents Fea_equip_hat As System.Windows.Forms.Panel
+    Public WithEvents Select_equip_hat As System.Windows.Forms.ComboBox
+    Friend WithEvents Bar_equip_hat As System.Windows.Forms.Panel
+    Friend WithEvents valu_equip_hat As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_equip_hat As System.Windows.Forms.PictureBox
+    Friend WithEvents Fea_equip_weapon As System.Windows.Forms.Panel
+    Friend WithEvents Select_equip_weapon As System.Windows.Forms.ComboBox
+    Friend WithEvents Bar_equip_weapon As System.Windows.Forms.Panel
+    Friend WithEvents valu_equip_weapon As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_equip_weapon As System.Windows.Forms.PictureBox
+    Friend WithEvents Panel22 As System.Windows.Forms.Panel
+    Friend WithEvents Text_showequipments As System.Windows.Forms.Label
+    Friend WithEvents Panel24 As System.Windows.Forms.Panel
+    Friend WithEvents Panel12 As System.Windows.Forms.Panel
+    Friend WithEvents Panel_hero_equipments As System.Windows.Forms.Panel
+    Friend WithEvents GroupBox13 As System.Windows.Forms.GroupBox
+    Friend WithEvents Panel15 As System.Windows.Forms.Panel
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents Panel17 As System.Windows.Forms.Panel
+    Friend WithEvents valu_appea_weapon As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Panel18 As System.Windows.Forms.Panel
+    Public WithEvents ComboBox2 As System.Windows.Forms.ComboBox
+    Friend WithEvents Panel19 As System.Windows.Forms.Panel
+    Friend WithEvents valu_appea_hat As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Panel20 As System.Windows.Forms.Panel
+    Public WithEvents ComboBox3 As System.Windows.Forms.ComboBox
+    Friend WithEvents Panel21 As System.Windows.Forms.Panel
+    Friend WithEvents valu_appea_clothe As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox8 As System.Windows.Forms.PictureBox
+    Friend WithEvents GroupBox6 As System.Windows.Forms.GroupBox
+    Friend WithEvents LinkLabel2 As System.Windows.Forms.LinkLabel
+    Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents Label17 As System.Windows.Forms.Label
 
 End Class

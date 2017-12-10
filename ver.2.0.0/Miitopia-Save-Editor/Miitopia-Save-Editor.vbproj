@@ -160,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\icon_weapons.png" />
+    <None Include="Resources\icon_hats.png" />
+    <None Include="Resources\icon_clothes.png" />
     <None Include="Resources\tumunknow.png" />
     <None Include="Resources\mse_stub.gif" />
     <None Include="Resources\mse_nostub.png" />
