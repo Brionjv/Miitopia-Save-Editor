@@ -7119,6 +7119,20 @@ Public Class Miitopia_SE
         valu_gold.Value = 9999999
     End Sub
 
+    Private Sub Fea_gold_MouseMove(sender As Object, e As EventArgs) Handles Fea_gold.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to max gold"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour mettre l'argent au maximum"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_gold_MouseLeave(sender As Object, e As EventArgs) Handles Fea_gold.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
     Private Sub Menu_hero_Click(sender As Object, e As EventArgs) Handles Menu_hero.Click, Menu_text_hero.Click
         Hidepanels()
         If Setting_filepath.Checked = True Then
@@ -7189,24 +7203,108 @@ Public Class Miitopia_SE
         valu_bananas.Value = 999
     End Sub
 
+    Private Sub Fea_bananas_MouseMove(sender As Object, e As EventArgs) Handles Fea_bananas.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to max HP bananas"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour mettre les Bananes PV au maximum"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_bananas_MouseLeave(sender As Object, e As EventArgs) Handles Fea_bananas.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
     Private Sub Fea_candies_Click(sender As Object, e As EventArgs) Handles Fea_candies.Click
         valu_candies.Value = 999
+    End Sub
+
+    Private Sub Fea_candies_MouseMove(sender As Object, e As EventArgs) Handles Fea_candies.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to max MP candies"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour mettre les Bonbons PM au maximum"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_candies_MouseLeave(sender As Object, e As EventArgs) Handles Fea_candies.MouseLeave
+        Descrip_panel.Visible = False
     End Sub
 
     Private Sub Fea_allweapons_Click(sender As Object, e As EventArgs) Handles Fea_allweapons.Click
         valu_allweapons.Value = 65535
     End Sub
 
-    Private Sub Fea_costamiibos_Click(sender As Object, e As EventArgs) Handles Fea_costamiibo.Click
+    Private Sub Fea_allweapons_MouseMove(sender As Object, e As EventArgs) Handles Fea_allweapons.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to unlock all classes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour débloquer toutes les classes"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_allweapons_MouseLeave(sender As Object, e As EventArgs) Handles Fea_allweapons.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_costamiibo_Click(sender As Object, e As EventArgs) Handles Fea_costamiibo.Click
         valu_costamiibo.Value = 4294967295
+    End Sub
+
+    Private Sub Fea_costamiibo_MouseMove(sender As Object, e As EventArgs) Handles Fea_costamiibo.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to unlock all amiibo costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour débloquer tous les costumes amiibo"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_costamiibo_MouseLeave(sender As Object, e As EventArgs) Handles Fea_costamiibo.MouseLeave
+        Descrip_panel.Visible = False
     End Sub
 
     Private Sub Fea_ticket_Click(sender As Object, e As EventArgs) Handles Fea_ticket.Click
         valu_ticket.Value = 9999
     End Sub
 
+    Private Sub Fea_ticket_MouseMove(sender As Object, e As EventArgs) Handles Fea_ticket.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to max tickets"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour mettre les tickets au maximum"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_ticket_MouseLeave(sender As Object, e As EventArgs) Handles Fea_ticket.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
     Private Sub Fea_sprinkles_Click(sender As Object, e As EventArgs) Handles Fea_sprinkles.Click
         valu_sprinkles.Value = 31
+    End Sub
+
+    Private Sub Fea_sprinkles_MouseMove(sender As Object, e As EventArgs) Handles Fea_sprinkles.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to unlock all sprinkles"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour débloquer toutes les salières"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_sprinkles_MouseLeave(sender As Object, e As EventArgs) Handles Fea_sprinkles.MouseLeave
+        Descrip_panel.Visible = False
     End Sub
 
     Private Sub icon_party_Click(sender As Object, e As EventArgs) Handles icon_party.Click
@@ -7250,6 +7348,20 @@ Public Class Miitopia_SE
 
     End Sub
 
+    Private Sub Dragon_map_MouseMove(sender As Object, e As EventArgs) Handles Dragon_map.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to ride on the dragon"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour monter sur le dragon"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Dragon_map_MouseLeave(sender As Object, e As EventArgs) Handles Dragon_map.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
     Private Sub text_Open_Click(sender As Object, e As EventArgs) Handles text_open.Click
         Dim open As New OpenFileDialog
         fdialog.Title.Text = "Miitopia Save Editor"
@@ -7266,10 +7378,18 @@ Public Class Miitopia_SE
 
     Private Sub text_open_MouseMove(sender As Object, e As EventArgs) Handles text_open.MouseMove, Button_Open.MouseMove
         Button_Open.BackgroundImage = My.Resources.button_save
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to open common.sav"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour ouvrir common.sav"
+        End If
+        Descrip_panel.Visible = True
     End Sub
 
     Private Sub text_open_MouseLeave(sender As Object, e As EventArgs) Handles text_open.MouseLeave, Button_Open.MouseLeave
         Button_Open.BackgroundImage = My.Resources.button_open
+        Descrip_panel.Visible = False
     End Sub
 
     Private Sub Info_party_Click(sender As Object, e As EventArgs) Handles Info_party.Click
@@ -7288,6 +7408,20 @@ Public Class Miitopia_SE
         Grub_editor.ShowDialog()
     End Sub
 
+    Private Sub Fea_foods_MouseMove(sender As Object, e As EventArgs) Handles Fea_foods.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to edit grubs"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour éditer la nourriture"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_foods_MouseLeave(sender As Object, e As EventArgs) Handles Fea_foods.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
     Private Sub Select_music_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Select_music.SelectedIndexChanged
         startmusic()
     End Sub
@@ -7296,16 +7430,38 @@ Public Class Miitopia_SE
         valu_safespot.Value = 1
     End Sub
 
+    Private Sub Group_safespot_MouseMove(sender As Object, e As EventArgs) Handles Group_safespot.MouseMove, icon_safespot.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to unlock safe spot"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour débloquer l'abri"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Group_safespot_MouseLeave(sender As Object, e As EventArgs) Handles Group_safespot.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
     Private Sub text_save_Click(sender As Object, e As EventArgs) Handles text_save.Click
         writecommon()
     End Sub
 
     Private Sub text_save_MouseMove(sender As Object, e As EventArgs) Handles text_save.MouseMove, Button_Save.MouseMove
         Button_Save.BackgroundImage = My.Resources.button_open
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to save common.sav"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour sauvegarder common.sav"
+        End If
+        Descrip_panel.Visible = True
     End Sub
 
     Private Sub text_save_MouseLeave(sender As Object, e As EventArgs) Handles text_save.MouseLeave, Button_Save.MouseLeave
         Button_Save.BackgroundImage = My.Resources.button_save
+        Descrip_panel.Visible = False
     End Sub
 
     Private Sub valu_world_ValueChanged(sender As Object, e As EventArgs) Handles valu_world.ValueChanged
@@ -7614,24 +7770,98 @@ Public Class Miitopia_SE
         valu_bananaeat.Value = 9999
     End Sub
 
+    Private Sub Fea_bananaeat_MouseMove(sender As Object, e As EventArgs) Handles Fea_bananaeat.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to max HP bananas ate"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour mettre les Bananes PV mangés au maximum"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_bananaeat_MouseLeave(sender As Object, e As EventArgs) Handles Fea_bananaeat.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
     Private Sub Fea_candyeat_Click(sender As Object, e As EventArgs) Handles Fea_candyeat.Click, Icon_candyeat.Click
         valu_candyeat.Value = 9999
+    End Sub
+
+    Private Sub Fea_candyeat_MouseMove(sender As Object, e As EventArgs) Handles Fea_candyeat.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to max MP candies ate"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour mettre les Bonbons PM mangés au maximum"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_candyeat_MouseLeave(sender As Object, e As EventArgs) Handles Fea_candyeat.MouseLeave
+        Descrip_panel.Visible = False
     End Sub
 
     Private Sub Fea_chestsopen_Click(sender As Object, e As EventArgs) Handles Fea_chestsopen.Click, Icon_chestsopen.Click
         valu_chestsopen.Value = 9999
     End Sub
 
+    Private Sub Fea_chestsopen_MouseMove(sender As Object, e As EventArgs) Handles Fea_chestsopen.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to max chests opened"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour mettre les coffres ouverts au maximum"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_chestsopen_MouseLeave(sender As Object, e As EventArgs) Handles Fea_chestsopen.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
     Private Sub Fea_questsucc_Click(sender As Object, e As EventArgs) Handles Fea_questsucc.Click, Icon_questsucc.Click
         valu_questsucc.Value = 9999
+    End Sub
+
+    Private Sub Fea_questsucc_MouseMove(sender As Object, e As EventArgs) Handles Fea_questsucc.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to max quests succeed"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour mettre les quêtes réussi au maximum"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_questsucc_MouseLeave(sender As Object, e As EventArgs) Handles Fea_questsucc.MouseLeave
+        Descrip_panel.Visible = False
     End Sub
 
     Private Sub Fea_dragonclass_Click(sender As Object, e As EventArgs) Handles Fea_dragonclass.Click, Icon_dragonclass.Click
         valu_dragonclass.Value = 4294967295
     End Sub
 
+    Private Sub Fea_dragonclass_MouseMove(sender As Object, e As EventArgs) Handles Fea_dragonclass.MouseMove, Icon_dragonclass.MouseMove
+        Descrip_text.Text = "Click to unlock the dragon and ability to switch classes"
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_dragonclass_MouseLeave(sender As Object, e As EventArgs) Handles Fea_dragonclass.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
     Private Sub Fea_villa_Click(sender As Object, e As EventArgs) Handles Fea_villa.Click, Icon_villa.Click
         valu_villa.Value = 1
+    End Sub
+
+    Private Sub Fea_villa_MouseMove(sender As Object, e As EventArgs) Handles Fea_villa.MouseMove, Icon_villa.MouseMove
+        Descrip_text.Text = "Click to unlock the villa"
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_villa_MouseLeave(sender As Object, e As EventArgs) Handles Fea_villa.MouseLeave
+        Descrip_panel.Visible = False
     End Sub
 
     Private Sub Text_open_quest_Click(sender As Object, e As EventArgs) Handles Text_open_quest.Click
@@ -7650,10 +7880,13 @@ Public Class Miitopia_SE
 
     Private Sub text_open_quest_MouseMove(sender As Object, e As EventArgs) Handles Text_open_quest.MouseMove, Button_save_quest.MouseMove
         Button_open_quest.BackgroundImage = My.Resources.button_save
+        Descrip_text.Text = "Click to open quest.sav"
+        Descrip_panel.Visible = True
     End Sub
 
     Private Sub text_open_quest_MouseLeave(sender As Object, e As EventArgs) Handles Text_open_quest.MouseLeave, Button_save_quest.MouseLeave
         Button_open_quest.BackgroundImage = My.Resources.button_open
+        Descrip_panel.Visible = False
     End Sub
 
     Private Sub Text_save_quest_Click(sender As Object, e As EventArgs) Handles Text_save_quest.Click
@@ -7662,10 +7895,13 @@ Public Class Miitopia_SE
 
     Private Sub text_save_quest_MouseMove(sender As Object, e As EventArgs) Handles Text_save_quest.MouseMove, Button_save_quest.MouseMove
         Button_save_quest.BackgroundImage = My.Resources.button_open
+        Descrip_text.Text = "Click to save quest.sav"
+        Descrip_panel.Visible = True
     End Sub
 
     Private Sub text_save_quest_MouseLeave(sender As Object, e As EventArgs) Handles Text_save_quest.MouseLeave, Button_save_quest.MouseLeave
         Button_save_quest.BackgroundImage = My.Resources.button_save
+        Descrip_panel.Visible = False
     End Sub
 
     Private Sub Text_open_hero_Click(sender As Object, e As EventArgs) Handles Text_open_hero.Click
@@ -7684,10 +7920,13 @@ Public Class Miitopia_SE
 
     Private Sub text_open_hero_MouseMove(sender As Object, e As EventArgs) Handles Text_open_hero.MouseMove, Button_save_hero.MouseMove
         Button_open_hero.BackgroundImage = My.Resources.button_save
+        Descrip_text.Text = "Click to open hero.sav"
+        Descrip_panel.Visible = True
     End Sub
 
     Private Sub text_open_hero_MouseLeave(sender As Object, e As EventArgs) Handles Text_open_hero.MouseLeave, Button_save_hero.MouseLeave
         Button_open_hero.BackgroundImage = My.Resources.button_open
+        Descrip_panel.Visible = False
     End Sub
 
     Private Sub Text_save_hero_Click(sender As Object, e As EventArgs) Handles Text_save_hero.Click
@@ -7698,10 +7937,13 @@ Public Class Miitopia_SE
 
     Private Sub text_save_hero_MouseMove(sender As Object, e As EventArgs) Handles Text_save_hero.MouseMove, Button_save_hero.MouseMove
         Button_save_hero.BackgroundImage = My.Resources.button_open
+        Descrip_text.Text = "Click to save hero.sav"
+        Descrip_panel.Visible = True
     End Sub
 
     Private Sub text_save_hero_MouseLeave(sender As Object, e As EventArgs) Handles Text_save_hero.MouseLeave, Button_save_hero.MouseLeave
         Button_save_hero.BackgroundImage = My.Resources.button_save
+        Descrip_panel.Visible = False
     End Sub
 
     Private Sub valu_job_ValueChanged(sender As Object, e As EventArgs) Handles valu_job.ValueChanged
@@ -7763,6 +8005,15 @@ Public Class Miitopia_SE
         If valu_job.Value > 14 Then
             valu_job.Value = 255
         End If
+    End Sub
+
+    Private Sub Icon_job_MouseMove(sender As Object, e As EventArgs) Handles Icon_job.MouseMove
+        Descrip_text.Text = "Click to change class"
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Icon_job_MouseLeave(sender As Object, e As EventArgs) Handles Icon_job.MouseLeave
+        Descrip_panel.Visible = False
     End Sub
 
     Private Sub valu_personnality_ValueChanged(sender As Object, e As EventArgs) Handles valu_personnality.ValueChanged
@@ -13602,5 +13853,145 @@ Public Class Miitopia_SE
 
     Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
         Process.Start("https://gbatemp.net/threads/release-miitopia-save-editor.476376/")
+    End Sub
+
+    Private Sub Select_interac_activity_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Select_interac_activity.SelectedIndexChanged
+        If Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(0) Then
+            valu_interac_activity.Value = 0
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(1) Then
+            valu_interac_activity.Value = 1
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(2) Then
+            valu_interac_activity.Value = 2
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(3) Then
+            valu_interac_activity.Value = 3
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(4) Then
+            valu_interac_activity.Value = 4
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(5) Then
+            valu_interac_activity.Value = 5
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(6) Then
+            valu_interac_activity.Value = 6
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(7) Then
+            valu_interac_activity.Value = 7
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(8) Then
+            valu_interac_activity.Value = 8
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(9) Then
+            valu_interac_activity.Value = 9
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(10) Then
+            valu_interac_activity.Value = 10
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(11) Then
+            valu_interac_activity.Value = 11
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(12) Then
+            valu_interac_activity.Value = 12
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(13) Then
+            valu_interac_activity.Value = 13
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(14) Then
+            valu_interac_activity.Value = 14
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(15) Then
+            valu_interac_activity.Value = 15
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(16) Then
+            valu_interac_activity.Value = 16
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(17) Then
+            valu_interac_activity.Value = 17
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(18) Then
+            valu_interac_activity.Value = 18
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(19) Then
+            valu_interac_activity.Value = 19
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(20) Then
+            valu_interac_activity.Value = 20
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(21) Then
+            valu_interac_activity.Value = 21
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(22) Then
+            valu_interac_activity.Value = 22
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(23) Then
+            valu_interac_activity.Value = 23
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(24) Then
+            valu_interac_activity.Value = 24
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(25) Then
+            valu_interac_activity.Value = 25
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(26) Then
+            valu_interac_activity.Value = 26
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(27) Then
+            valu_interac_activity.Value = 27
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(28) Then
+            valu_interac_activity.Value = 28
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(29) Then
+            valu_interac_activity.Value = 29
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(30) Then
+            valu_interac_activity.Value = 30
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(31) Then
+            valu_interac_activity.Value = 31
+        ElseIf Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(32) Then
+            valu_interac_activity.Value = 32
+        End If
+    End Sub
+
+    Private Sub valu_interac_activity_ValueChanged(sender As Object, e As EventArgs) Handles valu_interac_activity.ValueChanged
+        If valu_interac_activity.Value = 0 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(0)
+        ElseIf valu_interac_activity.Value = 1 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(1)
+        ElseIf valu_interac_activity.Value = 2 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(2)
+        ElseIf valu_interac_activity.Value = 3 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(3)
+        ElseIf valu_interac_activity.Value = 4 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(4)
+        ElseIf valu_interac_activity.Value = 5 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(5)
+        ElseIf valu_interac_activity.Value = 6 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(6)
+        ElseIf valu_interac_activity.Value = 7 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(7)
+        ElseIf valu_interac_activity.Value = 8 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(8)
+        ElseIf valu_interac_activity.Value = 9 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(9)
+        ElseIf valu_interac_activity.Value = 10 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(10)
+        ElseIf valu_interac_activity.Value = 11 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(11)
+        ElseIf valu_interac_activity.Value = 12 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(12)
+        ElseIf valu_interac_activity.Value = 13 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(13)
+        ElseIf valu_interac_activity.Value = 14 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(14)
+        ElseIf valu_interac_activity.Value = 15 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(15)
+        ElseIf valu_interac_activity.Value = 16 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(16)
+        ElseIf valu_interac_activity.Value = 17 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(17)
+        ElseIf valu_interac_activity.Value = 18 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(18)
+        ElseIf valu_interac_activity.Value = 19 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(19)
+        ElseIf valu_interac_activity.Value = 20 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(20)
+        ElseIf valu_interac_activity.Value = 21 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(21)
+        ElseIf valu_interac_activity.Value = 22 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(22)
+        ElseIf valu_interac_activity.Value = 23 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(23)
+        ElseIf valu_interac_activity.Value = 24 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(24)
+        ElseIf valu_interac_activity.Value = 25 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(25)
+        ElseIf valu_interac_activity.Value = 26 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(26)
+        ElseIf valu_interac_activity.Value = 27 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(27)
+        ElseIf valu_interac_activity.Value = 28 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(28)
+        ElseIf valu_interac_activity.Value = 29 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(29)
+        ElseIf valu_interac_activity.Value = 30 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(30)
+        ElseIf valu_interac_activity.Value = 31 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(31)
+        ElseIf valu_interac_activity.Value = 32 Then
+            Select_interac_activity.SelectedItem = Select_interac_activity.Items.Item(32)
+        End If
     End Sub
 End Class

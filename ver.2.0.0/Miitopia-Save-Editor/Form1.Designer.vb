@@ -59,7 +59,11 @@ Partial Class Miitopia_SE
         Me.TextBox_fpath_common = New System.Windows.Forms.TextBox()
         Me.Panel_settings = New System.Windows.Forms.Panel()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Label17 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Panel9 = New System.Windows.Forms.Panel()
@@ -486,10 +490,6 @@ Partial Class Miitopia_SE
         Me.Text_save_hero = New System.Windows.Forms.Label()
         Me.File_path_hero = New System.Windows.Forms.Panel()
         Me.TextBox_fpath_hero = New System.Windows.Forms.TextBox()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         Me.MSE_header.SuspendLayout()
         CType(Me.MSE_icon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1291,6 +1291,38 @@ Partial Class Miitopia_SE
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Credits"
         '
+        'LinkLabel2
+        '
+        Me.LinkLabel2.AutoSize = True
+        Me.LinkLabel2.BackColor = System.Drawing.Color.Transparent
+        Me.LinkLabel2.Location = New System.Drawing.Point(87, 268)
+        Me.LinkLabel2.Name = "LinkLabel2"
+        Me.LinkLabel2.Size = New System.Drawing.Size(96, 13)
+        Me.LinkLabel2.TabIndex = 2
+        Me.LinkLabel2.TabStop = True
+        Me.LinkLabel2.Text = "Gbatemp.net Page"
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.LinkLabel1.Location = New System.Drawing.Point(102, 215)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(66, 13)
+        Me.LinkLabel1.TabIndex = 1
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "Github Page"
+        '
+        'Label16
+        '
+        Me.Label16.BackColor = System.Drawing.Color.Transparent
+        Me.Label16.Location = New System.Drawing.Point(21, 30)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(233, 95)
+        Me.Label16.TabIndex = 0
+        Me.Label16.Text = "Author : Brion"
+        Me.Label16.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
         'GroupBox2
         '
         Me.GroupBox2.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_settings
@@ -1302,6 +1334,18 @@ Partial Class Miitopia_SE
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Changelog"
+        '
+        'Label17
+        '
+        Me.Label17.BackColor = System.Drawing.Color.Transparent
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(9, 44)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(251, 242)
+        Me.Label17.TabIndex = 1
+        Me.Label17.Text = "This is a pre-release version" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "some things are missing" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "for more information see " & _
+    "Github page or Gbatemp.net page"
+        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label7
         '
@@ -6102,50 +6146,6 @@ Partial Class Miitopia_SE
         Me.TextBox_fpath_hero.ReadOnly = True
         Me.TextBox_fpath_hero.Size = New System.Drawing.Size(364, 13)
         Me.TextBox_fpath_hero.TabIndex = 0
-        '
-        'Label16
-        '
-        Me.Label16.BackColor = System.Drawing.Color.Transparent
-        Me.Label16.Location = New System.Drawing.Point(21, 30)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(233, 95)
-        Me.Label16.TabIndex = 0
-        Me.Label16.Text = "Author : Brion"
-        Me.Label16.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'Label17
-        '
-        Me.Label17.BackColor = System.Drawing.Color.Transparent
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(9, 44)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(251, 242)
-        Me.Label17.TabIndex = 1
-        Me.Label17.Text = "This is a pre-release version" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "some things are missing" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "for more information see " & _
-    "Github page or Gbatemp.net page"
-        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'LinkLabel1
-        '
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.LinkLabel1.Location = New System.Drawing.Point(102, 215)
-        Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(66, 13)
-        Me.LinkLabel1.TabIndex = 1
-        Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "Github Page"
-        '
-        'LinkLabel2
-        '
-        Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.BackColor = System.Drawing.Color.Transparent
-        Me.LinkLabel2.Location = New System.Drawing.Point(87, 268)
-        Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(96, 13)
-        Me.LinkLabel2.TabIndex = 2
-        Me.LinkLabel2.TabStop = True
-        Me.LinkLabel2.Text = "Gbatemp.net Page"
         '
         'Miitopia_SE
         '
