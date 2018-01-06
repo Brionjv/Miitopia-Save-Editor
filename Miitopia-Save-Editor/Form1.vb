@@ -168,6 +168,53 @@ Public Class Miitopia_SE
             Group_hero_bdef.Text = "Boost defense"
             Group_hero_bmgc.Text = "Boost magic"
             Group_hero_bspd.Text = "Boost speed"
+            Tab_quest_main.Text = "Main"
+            Setting_music.Text = "Active background music"
+            Setting_ckupdate.Text = "Unactive check updates"
+            Setting_filepath.Text = "Show file path"
+            Setting_hidden.Text = "Show hidden things"
+            Group_settings.Text = "Settings"
+            Text_language.Text = "Language"
+            Tab_settings.Text = "Settings"
+            Tab_changelog.Text = "Changelog"
+            Tab_credits.Text = "Credits"
+            Group_changelog.Text = "Changelog"
+            Group_credits.Text = "Credits"
+            Text_open_quest.Text = "Open"
+            Text_save_quest.Text = "Save"
+            Select_interac_activity.Items.Item(0) = "You talk in your sleep!"
+            Select_interac_activity.Items.Item(1) = "There was a bug on your face!"
+            Select_interac_activity.Items.Item(2) = "Sit-ups"
+            Select_interac_activity.Items.Item(3) = "Push-ups"
+            Select_interac_activity.Items.Item(4) = "Sidestepping"
+            Select_interac_activity.Items.Item(5) = "Who do you like?"
+            Select_interac_activity.Items.Item(6) = "So do you like anyone?"
+            Select_interac_activity.Items.Item(7) = "You should tell me who you like."
+            Select_interac_activity.Items.Item(8) = "Who do you like? Tell me!"
+            Select_interac_activity.Items.Item(9) = "Tell me the name of the person you like."
+            Select_interac_activity.Items.Item(10) = "Rules: Keep the world clean"
+            Select_interac_activity.Items.Item(11) = "Rules: No painting"
+            Select_interac_activity.Items.Item(12) = "Rules: Ignore the whispers"
+            Select_interac_activity.Items.Item(13) = "Get well soon!"
+            Select_interac_activity.Items.Item(14) = "Rest as long as you need."
+            Select_interac_activity.Items.Item(15) = "How are you feeling?"
+            Select_interac_activity.Items.Item(16) = "Dual Quarrel: I'm sorry."
+            Select_interac_activity.Items.Item(17) = "Dual Quarrel: I think we should be friends again."
+            Select_interac_activity.Items.Item(18) = "Quarrel: I'm sorry for being so mean."
+            Select_interac_activity.Items.Item(19) = "??? (Change00)"
+            Select_interac_activity.Items.Item(20) = "??? (ChangeCold)"
+            Select_interac_activity.Items.Item(21) = "??? (ChangeRepair)"
+            Select_interac_activity.Items.Item(22) = "Rumor"
+            Select_interac_activity.Items.Item(23) = "??? (GameEnd00)"
+            Select_interac_activity.Items.Item(24) = "??? (GameEnd01)"
+            Select_interac_activity.Items.Item(25) = "Fond memory"
+            Select_interac_activity.Items.Item(26) = "Singing (Greenhorne)"
+            Select_interac_activity.Items.Item(27) = "Singing (???)"
+            Select_interac_activity.Items.Item(28) = "Cleaning (Thank you!)"
+            Select_interac_activity.Items.Item(29) = "Cleaning (I can help!)"
+            Select_interac_activity.Items.Item(30) = "Cleaning (Cheering)"
+            Select_interac_activity.Items.Item(31) = "Time for a new look!"
+            Select_interac_activity.Items.Item(32) = "Impressions"
         ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
             text_open.Text = "Ouvrir"
             text_save.Text = "Enregistrer"
@@ -237,6 +284,53 @@ Public Class Miitopia_SE
             Group_hero_bdef.Text = "Boost défense"
             Group_hero_bmgc.Text = "Boost magie"
             Group_hero_bspd.Text = "Boost vitesse"
+            Tab_quest_main.Text = "Principal"
+            Setting_music.Text = "Activer la musique de fond"
+            Setting_ckupdate.Text = "Désactiver la vérification des mises à jour"
+            Setting_filepath.Text = "Afficher le chemin du fichier"
+            Setting_hidden.Text = "Afficher les éléments cachés"
+            Group_settings.Text = "Paramètres"
+            Text_language.Text = "Langage"
+            Tab_settings.Text = "Paramètres"
+            Tab_changelog.Text = "Changelog"
+            Tab_credits.Text = "Crédits"
+            Group_changelog.Text = "Changelog"
+            Group_credits.Text = "Crédits"
+            Text_open_quest.Text = "Ouvrir"
+            Text_save_quest.Text = "Enregistrer"
+            Select_interac_activity.Items.Item(0) = "Tu parles dans ton sommeil !"
+            Select_interac_activity.Items.Item(1) = "Il y avait un insecte sur ton visage !"
+            Select_interac_activity.Items.Item(2) = "Place à l’entraînement ! (Abdos)"
+            Select_interac_activity.Items.Item(3) = "Place à l’entraînement ! (Pompes)"
+            Select_interac_activity.Items.Item(4) = "Place à l’entraînement ! (Danse)"
+            Select_interac_activity.Items.Item(5) = "Qui aimes-tu ?"
+            Select_interac_activity.Items.Item(6) = "Alors tu aimes quelqu'un ?"
+            Select_interac_activity.Items.Item(7) = "Tu devrais me dire qui tu aimes."
+            Select_interac_activity.Items.Item(8) = "Qui aimes-tu ? Dit-moi !"
+            Select_interac_activity.Items.Item(9) = "Dit-moi le nom de la personne que tu aimes."
+            Select_interac_activity.Items.Item(10) = "Règles: Gardez le monde propre"
+            Select_interac_activity.Items.Item(11) = "Règles: Tout ranger"
+            Select_interac_activity.Items.Item(12) = "Règles: Pas faire de bruit"
+            Select_interac_activity.Items.Item(13) = "J’espère que tu seras vite sur pieds"
+            Select_interac_activity.Items.Item(14) = "Repose toi aussi longtemps que tu as besoin."
+            Select_interac_activity.Items.Item(15) = "Comment  tu te sens ?"
+            Select_interac_activity.Items.Item(16) = "Double Querelle: Je suis désolé."
+            Select_interac_activity.Items.Item(17) = "Double Querelle: Je pense que nous devrions être amis à nouveau."
+            Select_interac_activity.Items.Item(18) = "Querelle: Je suis désolé d'avoir été si méchant."
+            Select_interac_activity.Items.Item(19) = "??? (Changer00)"
+            Select_interac_activity.Items.Item(20) = "??? (ChangeFroid)"
+            Select_interac_activity.Items.Item(21) = "??? (ChangeRéparer)"
+            Select_interac_activity.Items.Item(22) = "Rumeur"
+            Select_interac_activity.Items.Item(23) = "??? (FindeJeu00)"
+            Select_interac_activity.Items.Item(24) = "??? (FindeJeu01)"
+            Select_interac_activity.Items.Item(25) = "Mémoire de fond"
+            Select_interac_activity.Items.Item(26) = "Chant (Plaine d'Udébu)"
+            Select_interac_activity.Items.Item(27) = "Chant (???)"
+            Select_interac_activity.Items.Item(28) = "Nettoyage (merci!)"
+            Select_interac_activity.Items.Item(29) = "Nettoyage (je peux aider!)"
+            Select_interac_activity.Items.Item(30) = "Nettoyage (Acclamations)"
+            Select_interac_activity.Items.Item(31) = "Il est temps pour un nouveau look!"
+            Select_interac_activity.Items.Item(32) = "Impressions"
         End If
     End Sub
 
@@ -6824,9 +6918,15 @@ Public Class Miitopia_SE
             Button_open_hero.Visible = False
             Button_save_hero.Visible = True
         Catch ex As Exception
-            fdialog.Title.Text = "Miitopia Save Editor : Read hero.sav"
-            fdialog.Msg.Text = "Oops, something goes wrong" & vbNewLine & "opening of hero.sav failed, please report this issue or try again"
-            fdialog.ShowDialog()
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Read hero.sav"
+                fdialog.Msg.Text = "Oops, something goes wrong" & vbNewLine & "opening of hero.sav failed, please report this issue or try again"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Lecture hero.sav"
+                fdialog.Msg.Text = "Oups, quelque chose ne va pas" & vbNewLine & "l'ouverture de hero.sav a échoué, veuillez signaler cet erreur s'il vous plait"
+                fdialog.ShowDialog()
+            End If
             Button_open_hero.Visible = True
             Button_save_hero.Visible = False
         End Try
@@ -6942,14 +7042,25 @@ Public Class Miitopia_SE
             fs.WriteByte(valu_interac_Mii.Value)
             fs.Position = Interac_activity
             fs.WriteByte(valu_interac_activity.Value)
-
-            fdialog.Title.Text = "Miitopia Save Editor : write hero.sav"
-            fdialog.Msg.Text = "hero.sav has been saved"
-            fdialog.ShowDialog()
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : write hero.sav"
+                fdialog.Msg.Text = "hero.sav has been saved"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : écriture hero.sav"
+                fdialog.Msg.Text = "hero.sav a été enregistré"
+                fdialog.ShowDialog()
+            End If
         Catch ex As Exception
-            fdialog.Title.Text = "Miitopia Save Editor : write hero.sav"
-            fdialog.Msg.Text = "An error has occured" & vbNewLine & "please report this issue"
-            fdialog.ShowDialog()
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : write hero.sav"
+                fdialog.Msg.Text = "An error has occured" & vbNewLine & "please report this issue"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : écriture hero.sav"
+                fdialog.Msg.Text = "Une erreur est survenue" & vbNewLine & "veuillez signaler cet erreur s'il vous plait"
+                fdialog.ShowDialog()
+            End If
         End Try
     End Sub
 
@@ -7404,6 +7515,28 @@ Public Class Miitopia_SE
         Descrip_panel.Visible = False
     End Sub
 
+    Private Sub Menu_Repair_Click(sender As Object, e As EventArgs) Handles Menu_Repair.Click, Menu_text_repair.Click
+        Hidemenu()
+        Me.Hide()
+        Repair_save.Show()
+    End Sub
+
+    Private Sub Menu_Repair_MouseMove(sender As Object, e As EventArgs) Handles Menu_Repair.MouseMove, Menu_text_repair.MouseMove
+        Menu_Repair.BorderStyle = BorderStyle.FixedSingle
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to try to repair save files"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour tenter de réparer les sauvegardes"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Menu_Repair_MouseLeave(sender As Object, e As EventArgs) Handles Menu_Repair.MouseLeave
+        Menu_Repair.BorderStyle = BorderStyle.None
+        Descrip_panel.Visible = False
+    End Sub
+
     Private Sub MSE_iconupdate_Click(sender As Object, e As EventArgs) Handles MSE_iconupdate.Click
         Process.Start("https://github.com/Brionjv/Miitopia-Save-Editor/releases")
     End Sub
@@ -7556,9 +7689,15 @@ Public Class Miitopia_SE
             Dragon_map2.Visible = True
             Info_dragon_map2.Visible = True
         Catch ex As Exception
-            fdialog.Title.Text = "Miitopia Save Editor : ride on the dragon"
-            fdialog.Msg.Text = "An error has occured, load a save file first"
-            fdialog.ShowDialog()
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : ride on the dragon"
+                fdialog.Msg.Text = "An error has occured, load a save file first"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : monter sur le dragon"
+                fdialog.Msg.Text = "Une erreur est survenue, ouvrez une sauvegarde avant"
+                fdialog.ShowDialog()
+            End If
             Dragon_map.Visible = True
             Info_dragon_map.Visible = True
             Dragon_map2.Visible = False
@@ -7583,9 +7722,15 @@ Public Class Miitopia_SE
 
     Private Sub text_Open_Click(sender As Object, e As EventArgs) Handles text_open.Click
         Dim open As New OpenFileDialog
-        fdialog.Title.Text = "Miitopia Save Editor"
-        fdialog.Msg.Text = "Open common.sav file" & vbNewLine & "Miitopia Save Editor will make a backup of your save file, check ''bak'' folder" & vbNewLine & "Make a backup of your entire save file folder in case"
-        fdialog.ShowDialog()
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            fdialog.Title.Text = "Miitopia Save Editor"
+            fdialog.Msg.Text = "Open common.sav file" & vbNewLine & "Miitopia Save Editor will make a backup of your save file, check ''bak'' folder" & vbNewLine & "Make a backup of your entire save file folder in case"
+            fdialog.ShowDialog()
+        ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            fdialog.Title.Text = "Miitopia Save Editor"
+            fdialog.Msg.Text = "Ouvrez le fichier common.sav" & vbNewLine & "Miitopia Save Editor va faire une copie de votre sauvegarde, vérifiez le dossier ''bak''" & vbNewLine & "Faites une copie du dossier entier de sauvegarde au cas où"
+            fdialog.ShowDialog()
+        End If
         open.Filter = "SAV files|*common.sav"
         open.Title = "Open save common.sav"
         open.ShowDialog()
@@ -7612,15 +7757,27 @@ Public Class Miitopia_SE
     End Sub
 
     Private Sub Info_party_Click(sender As Object, e As EventArgs) Handles Info_party.Click
-        fdialog.Title.Text = "Miitopia Save Editor : Party is in"
-        fdialog.Msg.Text = "To set party in Overworld you need to defeat Dark Lord"
-        fdialog.ShowDialog()
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            fdialog.Title.Text = "Miitopia Save Editor : Party is in"
+            fdialog.Msg.Text = "To set party in Overworld you need to defeat Dark Lord"
+            fdialog.ShowDialog()
+        ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            fdialog.Title.Text = "Miitopia Save Editor : L'équipe est dans"
+            fdialog.Msg.Text = "Pour mettre l'équipe au dessus de l'île, vous devez combattre l'Avatar du Mal"
+            fdialog.ShowDialog()
+        End If
     End Sub
 
     Private Sub Info_dragon_map_Click(sender As Object, e As EventArgs) Handles Info_dragon_map.Click, Info_dragon_map2.Click
-        fdialog.Title.Text = "Miitopia Save Editor : ride on the dragon"
-        fdialog.Msg.Text = "When your save file will be load, you will be on the dragon, visit Travelers Hub to unlock the Dragon"
-        fdialog.ShowDialog()
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            fdialog.Title.Text = "Miitopia Save Editor : ride on the dragon"
+            fdialog.Msg.Text = "When your save file will be load, you will be on the dragon, visit Travelers Hub to unlock the Dragon"
+            fdialog.ShowDialog()
+        ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            fdialog.Title.Text = "Miitopia Save Editor : monter sur le dragon"
+            fdialog.Msg.Text = "Lorsque votre sauvegarde sera chargé, vous serez sur le dragon, visitez la cité des voyageurs pour débloquez le Dragon"
+            fdialog.ShowDialog()
+        End If
     End Sub
 
     Private Sub Fea_foods_Click(sender As Object, e As EventArgs) Handles Fea_foods.Click
@@ -7868,9 +8025,15 @@ Public Class Miitopia_SE
     End Sub
 
     Private Sub Info_level_Click(sender As Object, e As EventArgs) Handles Info_level.Click
-        fdialog.Title.Text = "Miitopia Save Editor : select level info"
-        fdialog.Msg.Text = "Be careful by editing level, common.sav can be corrupt if a wrong value is used, if common.sav is corrupted set a lower value"
-        fdialog.ShowDialog()
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            fdialog.Title.Text = "Miitopia Save Editor : select level info"
+            fdialog.Msg.Text = "Be careful by editing level, common.sav can be corrupt if a wrong value is used, if common.sav is corrupted set a lower value"
+            fdialog.ShowDialog()
+        ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            fdialog.Title.Text = "Miitopia Save Editor : info sélection niveau"
+            fdialog.Msg.Text = "Soyez prudent en éditant le niveau, common.sav peut être corrompu si une mauvaise valeur est utilisé, si common.sav est corrompu utilisez une valeur inférieur"
+            fdialog.ShowDialog()
+        End If
     End Sub
 
     Private Sub Fea_wp_warrior_Click(sender As Object, e As EventArgs) Handles Fea_wp_warrior.Click, Icon_wp_warrior.Click
@@ -8485,9 +8648,15 @@ Public Class Miitopia_SE
 
     Private Sub Text_open_quest_Click(sender As Object, e As EventArgs) Handles Text_open_quest.Click
         Dim open As New OpenFileDialog
-        fdialog.Title.Text = "Miitopia Save Editor"
-        fdialog.Msg.Text = "Open quest.sav file" & vbNewLine & "Miitopia Save Editor will make a backup of your save file, check ''bak'' folder" & vbNewLine & "Make a backup of your entire save file folder in case"
-        fdialog.ShowDialog()
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            fdialog.Title.Text = "Miitopia Save Editor"
+            fdialog.Msg.Text = "Open quest.sav file" & vbNewLine & "Miitopia Save Editor will make a backup of your save file, check ''bak'' folder" & vbNewLine & "Make a backup of your entire save file folder in case"
+            fdialog.ShowDialog()
+        ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            fdialog.Title.Text = "Miitopia Save Editor"
+            fdialog.Msg.Text = "Ouvrez le fichier quest.sav" & vbNewLine & "Miitopia Save Editor va faire une copie de votre sauvegarde, vérifiez le dossier ''bak''" & vbNewLine & "Faites une copie du dossier entier de sauvegarde au cas où"
+            fdialog.ShowDialog()
+        End If
         open.Filter = "SAV files|*quest.sav"
         open.Title = "Open save quest.sav"
         open.ShowDialog()
@@ -8533,9 +8702,15 @@ Public Class Miitopia_SE
 
     Private Sub Text_open_hero_Click(sender As Object, e As EventArgs) Handles Text_open_hero.Click
         Dim open As New OpenFileDialog
-        fdialog.Title.Text = "Miitopia Save Editor"
-        fdialog.Msg.Text = "Open hero.sav file" & vbNewLine & "Miitopia Save Editor will make a backup of your save file, check ''bak'' folder" & vbNewLine & "Make a backup of your entire save file folder in case"
-        fdialog.ShowDialog()
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            fdialog.Title.Text = "Miitopia Save Editor"
+            fdialog.Msg.Text = "Open hero.sav file" & vbNewLine & "Miitopia Save Editor will make a backup of your save file, check ''bak'' folder" & vbNewLine & "Make a backup of your entire save file folder in case"
+            fdialog.ShowDialog()
+        ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            fdialog.Title.Text = "Miitopia Save Editor"
+            fdialog.Msg.Text = "Ouvrez le fichier hero.sav" & vbNewLine & "Miitopia Save Editor va faire une copie de votre sauvegarde, vérifiez le dossier ''bak''" & vbNewLine & "Faites une copie du dossier entier de sauvegarde au cas où"
+            fdialog.ShowDialog()
+        End If
         open.Filter = "SAV files|*hero.sav"
         open.Title = "Open save hero.sav"
         open.ShowDialog()
@@ -11451,9 +11626,15 @@ Public Class Miitopia_SE
             readequipappearance()
         Catch ex As Exception
             Select_Mii.SelectedItem = Nothing
-            fdialog.Title.Text = "Miitopia Save Editor : select Mii"
-            fdialog.Msg.Text = "An error has occured, load a save file first"
-            fdialog.ShowDialog()
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : select Mii"
+                fdialog.Msg.Text = "An error has occured, load a save file first"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : selection Mii"
+                fdialog.Msg.Text = "Une erreur est survenue, ouvrez une sauvegarde avant"
+                fdialog.ShowDialog()
+            End If
         End Try
     End Sub
 
@@ -14443,27 +14624,27 @@ Public Class Miitopia_SE
     End Sub
 
     Private Sub valu_interac_Mii_ValueChanged(sender As Object, e As EventArgs) Handles valu_interac_Mii.ValueChanged
-        If valu_interac_Mii.Value = 0 Or valu_interac_Mii.Value > 100 Then
+        If valu_interac_Mii.Value > 100 Then
             Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(0)
-        ElseIf valu_interac_Mii.Value = 1 Then
+        ElseIf valu_interac_Mii.Value = 0 Then
             Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(1)
-        ElseIf valu_interac_Mii.Value = 2 Then
+        ElseIf valu_interac_Mii.Value = 1 Then
             Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(2)
-        ElseIf valu_interac_Mii.Value = 3 Then
+        ElseIf valu_interac_Mii.Value = 2 Then
             Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(3)
-        ElseIf valu_interac_Mii.Value = 4 Then
+        ElseIf valu_interac_Mii.Value = 3 Then
             Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(4)
-        ElseIf valu_interac_Mii.Value = 5 Then
+        ElseIf valu_interac_Mii.Value = 4 Then
             Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(5)
-        ElseIf valu_interac_Mii.Value = 6 Then
+        ElseIf valu_interac_Mii.Value = 5 Then
             Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(6)
-        ElseIf valu_interac_Mii.Value = 7 Then
+        ElseIf valu_interac_Mii.Value = 6 Then
             Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(7)
-        ElseIf valu_interac_Mii.Value = 8 Then
+        ElseIf valu_interac_Mii.Value = 7 Then
             Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(8)
-        ElseIf valu_interac_Mii.Value = 9 Then
+        ElseIf valu_interac_Mii.Value = 8 Then
             Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(9)
-        ElseIf valu_interac_Mii.Value = 10 Then
+        ElseIf valu_interac_Mii.Value = 9 Then
             Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(10)
         End If
     End Sub
@@ -14472,25 +14653,25 @@ Public Class Miitopia_SE
         If Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(0) Then
             valu_interac_Mii.Value = 255
         ElseIf Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(1) Then
-            valu_interac_Mii.Value = 1
+            valu_interac_Mii.Value = 0
         ElseIf Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(2) Then
-            valu_interac_Mii.Value = 2
+            valu_interac_Mii.Value = 1
         ElseIf Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(3) Then
-            valu_interac_Mii.Value = 3
+            valu_interac_Mii.Value = 2
         ElseIf Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(4) Then
-            valu_interac_Mii.Value = 4
+            valu_interac_Mii.Value = 3
         ElseIf Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(5) Then
-            valu_interac_Mii.Value = 5
+            valu_interac_Mii.Value = 4
         ElseIf Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(6) Then
-            valu_interac_Mii.Value = 6
+            valu_interac_Mii.Value = 5
         ElseIf Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(7) Then
-            valu_interac_Mii.Value = 7
+            valu_interac_Mii.Value = 6
         ElseIf Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(8) Then
-            valu_interac_Mii.Value = 8
+            valu_interac_Mii.Value = 7
         ElseIf Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(9) Then
-            valu_interac_Mii.Value = 9
+            valu_interac_Mii.Value = 8
         ElseIf Select_interac_Mii.SelectedItem = Select_interac_Mii.Items.Item(10) Then
-            valu_interac_Mii.Value = 10
+            valu_interac_Mii.Value = 9
         End If
     End Sub
 

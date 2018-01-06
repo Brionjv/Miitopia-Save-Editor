@@ -32,9 +32,9 @@ Partial Class Miitopia_SE
         Me.Descrip_text = New System.Windows.Forms.Label()
         Me.Descrip_panel = New System.Windows.Forms.Panel()
         Me.Menu_panel = New System.Windows.Forms.Panel()
-        Me.Panel28 = New System.Windows.Forms.Panel()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.PictureBox15 = New System.Windows.Forms.PictureBox()
+        Me.Menu_Repair = New System.Windows.Forms.Panel()
+        Me.Menu_text_repair = New System.Windows.Forms.Label()
+        Me.Menu_icon_repair = New System.Windows.Forms.PictureBox()
         Me.Panel26 = New System.Windows.Forms.Panel()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
@@ -71,7 +71,7 @@ Partial Class Miitopia_SE
         Me.Panel30 = New System.Windows.Forms.Panel()
         Me.Setting_ckupdate = New System.Windows.Forms.CheckBox()
         Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Text_language = New System.Windows.Forms.Label()
         Me.Select_language = New System.Windows.Forms.ComboBox()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.Setting_filepath = New System.Windows.Forms.CheckBox()
@@ -81,12 +81,12 @@ Partial Class Miitopia_SE
         Me.Select_music = New System.Windows.Forms.ComboBox()
         Me.Setting_music = New System.Windows.Forms.CheckBox()
         Me.Tab_changelog = New System.Windows.Forms.TabPage()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Group_changelog = New System.Windows.Forms.GroupBox()
         Me.PictureBox27 = New System.Windows.Forms.PictureBox()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Tab_credits = New System.Windows.Forms.TabPage()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Group_credits = New System.Windows.Forms.GroupBox()
         Me.Button_dona = New System.Windows.Forms.Button()
         Me.Credits = New System.Windows.Forms.TextBox()
         Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
@@ -514,8 +514,8 @@ Partial Class Miitopia_SE
         CType(Me.MSE_iconupdate, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Descrip_panel.SuspendLayout()
         Me.Menu_panel.SuspendLayout()
-        Me.Panel28.SuspendLayout()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Menu_Repair.SuspendLayout()
+        CType(Me.Menu_icon_repair, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel26.SuspendLayout()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Menu_quest.SuspendLayout()
@@ -545,10 +545,10 @@ Partial Class Miitopia_SE
         Me.Panel5.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Tab_changelog.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
+        Me.Group_changelog.SuspendLayout()
         CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Tab_credits.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
+        Me.Group_credits.SuspendLayout()
         CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_common.SuspendLayout()
         CType(Me.Dragon_map2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -996,7 +996,7 @@ Partial Class Miitopia_SE
         '
         Me.Menu_panel.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_menu
         Me.Menu_panel.CausesValidation = False
-        Me.Menu_panel.Controls.Add(Me.Panel28)
+        Me.Menu_panel.Controls.Add(Me.Menu_Repair)
         Me.Menu_panel.Controls.Add(Me.Panel26)
         Me.Menu_panel.Controls.Add(Me.Menu_quest)
         Me.Menu_panel.Controls.Add(Me.Menu_hero)
@@ -1009,40 +1009,39 @@ Partial Class Miitopia_SE
         Me.Menu_panel.Size = New System.Drawing.Size(34, 443)
         Me.Menu_panel.TabIndex = 4
         '
-        'Panel28
+        'Menu_Repair
         '
-        Me.Panel28.BackColor = System.Drawing.Color.Transparent
-        Me.Panel28.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_menu
-        Me.Panel28.Controls.Add(Me.Label19)
-        Me.Panel28.Controls.Add(Me.PictureBox15)
-        Me.Panel28.Location = New System.Drawing.Point(0, 325)
-        Me.Panel28.Name = "Panel28"
-        Me.Panel28.Size = New System.Drawing.Size(150, 34)
-        Me.Panel28.TabIndex = 7
-        Me.Panel28.Visible = False
+        Me.Menu_Repair.BackColor = System.Drawing.Color.Transparent
+        Me.Menu_Repair.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_menu
+        Me.Menu_Repair.Controls.Add(Me.Menu_text_repair)
+        Me.Menu_Repair.Controls.Add(Me.Menu_icon_repair)
+        Me.Menu_Repair.Location = New System.Drawing.Point(0, 325)
+        Me.Menu_Repair.Name = "Menu_Repair"
+        Me.Menu_Repair.Size = New System.Drawing.Size(150, 34)
+        Me.Menu_Repair.TabIndex = 7
         '
-        'Label19
+        'Menu_text_repair
         '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label19.Location = New System.Drawing.Point(40, 11)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(96, 13)
-        Me.Label19.TabIndex = 2
-        Me.Label19.Text = "Repair save file"
+        Me.Menu_text_repair.AutoSize = True
+        Me.Menu_text_repair.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Menu_text_repair.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Menu_text_repair.Location = New System.Drawing.Point(40, 11)
+        Me.Menu_text_repair.Name = "Menu_text_repair"
+        Me.Menu_text_repair.Size = New System.Drawing.Size(96, 13)
+        Me.Menu_text_repair.TabIndex = 2
+        Me.Menu_text_repair.Text = "Repair save file"
         '
-        'PictureBox15
+        'Menu_icon_repair
         '
-        Me.PictureBox15.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox15.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.file_repair
-        Me.PictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox15.Enabled = False
-        Me.PictureBox15.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox15.Name = "PictureBox15"
-        Me.PictureBox15.Size = New System.Drawing.Size(34, 34)
-        Me.PictureBox15.TabIndex = 1
-        Me.PictureBox15.TabStop = False
+        Me.Menu_icon_repair.BackColor = System.Drawing.Color.Transparent
+        Me.Menu_icon_repair.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.file_repair
+        Me.Menu_icon_repair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Menu_icon_repair.Enabled = False
+        Me.Menu_icon_repair.Location = New System.Drawing.Point(0, 0)
+        Me.Menu_icon_repair.Name = "Menu_icon_repair"
+        Me.Menu_icon_repair.Size = New System.Drawing.Size(34, 34)
+        Me.Menu_icon_repair.TabIndex = 1
+        Me.Menu_icon_repair.TabStop = False
         '
         'Panel26
         '
@@ -1458,22 +1457,22 @@ Partial Class Miitopia_SE
         Me.Panel9.BackColor = System.Drawing.Color.Transparent
         Me.Panel9.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
         Me.Panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel9.Controls.Add(Me.Label9)
+        Me.Panel9.Controls.Add(Me.Text_language)
         Me.Panel9.Controls.Add(Me.Select_language)
         Me.Panel9.Location = New System.Drawing.Point(111, 260)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(260, 24)
         Me.Panel9.TabIndex = 8
         '
-        'Label9
+        'Text_language
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.Location = New System.Drawing.Point(10, 5)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(61, 13)
-        Me.Label9.TabIndex = 3
-        Me.Label9.Text = "Language :"
+        Me.Text_language.AutoSize = True
+        Me.Text_language.BackColor = System.Drawing.Color.Transparent
+        Me.Text_language.Location = New System.Drawing.Point(10, 5)
+        Me.Text_language.Name = "Text_language"
+        Me.Text_language.Size = New System.Drawing.Size(61, 13)
+        Me.Text_language.TabIndex = 3
+        Me.Text_language.Text = "Language :"
         '
         'Select_language
         '
@@ -1481,7 +1480,7 @@ Partial Class Miitopia_SE
         Me.Select_language.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_language.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Select_language.FormattingEnabled = True
-        Me.Select_language.Items.AddRange(New Object() {"ENG", "FRA", "ESP"})
+        Me.Select_language.Items.AddRange(New Object() {"ENG", "FRA"})
         Me.Select_language.Location = New System.Drawing.Point(97, 2)
         Me.Select_language.Name = "Select_language"
         Me.Select_language.Size = New System.Drawing.Size(51, 21)
@@ -1569,7 +1568,7 @@ Partial Class Miitopia_SE
         'Tab_changelog
         '
         Me.Tab_changelog.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_settings
-        Me.Tab_changelog.Controls.Add(Me.GroupBox2)
+        Me.Tab_changelog.Controls.Add(Me.Group_changelog)
         Me.Tab_changelog.Location = New System.Drawing.Point(4, 4)
         Me.Tab_changelog.Name = "Tab_changelog"
         Me.Tab_changelog.Padding = New System.Windows.Forms.Padding(3)
@@ -1578,18 +1577,18 @@ Partial Class Miitopia_SE
         Me.Tab_changelog.Text = "Changelog"
         Me.Tab_changelog.UseVisualStyleBackColor = True
         '
-        'GroupBox2
+        'Group_changelog
         '
-        Me.GroupBox2.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_settings
-        Me.GroupBox2.Controls.Add(Me.PictureBox27)
-        Me.GroupBox2.Controls.Add(Me.Label17)
-        Me.GroupBox2.Controls.Add(Me.Label7)
-        Me.GroupBox2.Location = New System.Drawing.Point(30, 12)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(483, 393)
-        Me.GroupBox2.TabIndex = 1
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Changelog"
+        Me.Group_changelog.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_settings
+        Me.Group_changelog.Controls.Add(Me.PictureBox27)
+        Me.Group_changelog.Controls.Add(Me.Label17)
+        Me.Group_changelog.Controls.Add(Me.Label7)
+        Me.Group_changelog.Location = New System.Drawing.Point(30, 12)
+        Me.Group_changelog.Name = "Group_changelog"
+        Me.Group_changelog.Size = New System.Drawing.Size(483, 393)
+        Me.Group_changelog.TabIndex = 1
+        Me.Group_changelog.TabStop = False
+        Me.Group_changelog.Text = "Changelog"
         '
         'PictureBox27
         '
@@ -1608,7 +1607,8 @@ Partial Class Miitopia_SE
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(468, 342)
         Me.Label17.TabIndex = 1
-        Me.Label17.Text = resources.GetString("Label17.Text")
+        Me.Label17.Text = "Add unactivate check update in settings" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Fix bug in select Mii for interaction" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "F" & _
+    "ix bug in select interaction activity" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Add French language"
         Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label7
@@ -1624,7 +1624,7 @@ Partial Class Miitopia_SE
         'Tab_credits
         '
         Me.Tab_credits.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_settings
-        Me.Tab_credits.Controls.Add(Me.GroupBox3)
+        Me.Tab_credits.Controls.Add(Me.Group_credits)
         Me.Tab_credits.Location = New System.Drawing.Point(4, 4)
         Me.Tab_credits.Name = "Tab_credits"
         Me.Tab_credits.Size = New System.Drawing.Size(542, 417)
@@ -1632,20 +1632,20 @@ Partial Class Miitopia_SE
         Me.Tab_credits.Text = "Credits"
         Me.Tab_credits.UseVisualStyleBackColor = True
         '
-        'GroupBox3
+        'Group_credits
         '
-        Me.GroupBox3.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_settings
-        Me.GroupBox3.Controls.Add(Me.Button_dona)
-        Me.GroupBox3.Controls.Add(Me.Credits)
-        Me.GroupBox3.Controls.Add(Me.LinkLabel2)
-        Me.GroupBox3.Controls.Add(Me.LinkLabel1)
-        Me.GroupBox3.Controls.Add(Me.PictureBox28)
-        Me.GroupBox3.Location = New System.Drawing.Point(30, 12)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(483, 393)
-        Me.GroupBox3.TabIndex = 2
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Credits"
+        Me.Group_credits.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_settings
+        Me.Group_credits.Controls.Add(Me.Button_dona)
+        Me.Group_credits.Controls.Add(Me.Credits)
+        Me.Group_credits.Controls.Add(Me.LinkLabel2)
+        Me.Group_credits.Controls.Add(Me.LinkLabel1)
+        Me.Group_credits.Controls.Add(Me.PictureBox28)
+        Me.Group_credits.Location = New System.Drawing.Point(30, 12)
+        Me.Group_credits.Name = "Group_credits"
+        Me.Group_credits.Size = New System.Drawing.Size(483, 393)
+        Me.Group_credits.TabIndex = 2
+        Me.Group_credits.TabStop = False
+        Me.Group_credits.Text = "Credits"
         '
         'Button_dona
         '
@@ -6395,10 +6395,10 @@ Partial Class Miitopia_SE
         Me.Controls.Add(Me.Menu_buttonS)
         Me.Controls.Add(Me.Menu_panel)
         Me.Controls.Add(Me.MSE_header)
-        Me.Controls.Add(Me.Panel_hero)
-        Me.Controls.Add(Me.Panel_quest)
         Me.Controls.Add(Me.Panel_settings)
         Me.Controls.Add(Me.Panel_common)
+        Me.Controls.Add(Me.Panel_hero)
+        Me.Controls.Add(Me.Panel_quest)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -6413,9 +6413,9 @@ Partial Class Miitopia_SE
         CType(Me.MSE_iconupdate, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Descrip_panel.ResumeLayout(False)
         Me.Menu_panel.ResumeLayout(False)
-        Me.Panel28.ResumeLayout(False)
-        Me.Panel28.PerformLayout()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Menu_Repair.ResumeLayout(False)
+        Me.Menu_Repair.PerformLayout()
+        CType(Me.Menu_icon_repair, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel26.ResumeLayout(False)
         Me.Panel26.PerformLayout()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
@@ -6456,11 +6456,11 @@ Partial Class Miitopia_SE
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.Tab_changelog.ResumeLayout(False)
-        Me.GroupBox2.ResumeLayout(False)
+        Me.Group_changelog.ResumeLayout(False)
         CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Tab_credits.ResumeLayout(False)
-        Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout()
+        Me.Group_credits.ResumeLayout(False)
+        Me.Group_credits.PerformLayout()
         CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_common.ResumeLayout(False)
         Me.Panel_common.PerformLayout()
@@ -6860,14 +6860,14 @@ Partial Class Miitopia_SE
     Friend WithEvents TextBox_fpath_common As System.Windows.Forms.TextBox
     Friend WithEvents Panel_settings As System.Windows.Forms.Panel
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
-    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
-    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents Group_credits As System.Windows.Forms.GroupBox
+    Friend WithEvents Group_changelog As System.Windows.Forms.GroupBox
     Friend WithEvents Group_settings As System.Windows.Forms.GroupBox
     Friend WithEvents Setting_filepath As System.Windows.Forms.CheckBox
     Friend WithEvents Setting_hidden As System.Windows.Forms.CheckBox
     Friend WithEvents Setting_music As System.Windows.Forms.CheckBox
     Friend WithEvents Select_language As System.Windows.Forms.ComboBox
-    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents Text_language As System.Windows.Forms.Label
     Friend WithEvents Panel_common As System.Windows.Forms.Panel
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
@@ -7294,9 +7294,9 @@ Partial Class Miitopia_SE
     Friend WithEvents Panel26 As System.Windows.Forms.Panel
     Friend WithEvents Label18 As System.Windows.Forms.Label
     Friend WithEvents PictureBox10 As System.Windows.Forms.PictureBox
-    Friend WithEvents Panel28 As System.Windows.Forms.Panel
-    Friend WithEvents Label19 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Menu_Repair As System.Windows.Forms.Panel
+    Friend WithEvents Menu_text_repair As System.Windows.Forms.Label
+    Friend WithEvents Menu_icon_repair As System.Windows.Forms.PictureBox
     Friend WithEvents TabControl5 As System.Windows.Forms.TabControl
     Friend WithEvents Tab_settings As System.Windows.Forms.TabPage
     Friend WithEvents Tab_changelog As System.Windows.Forms.TabPage

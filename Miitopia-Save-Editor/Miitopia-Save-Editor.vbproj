@@ -110,6 +110,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Repair_save.Designer.vb">
+      <DependentUpon>Repair_save.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Repair_save.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -126,6 +132,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repair_save.resx">
+      <DependentUpon>Repair_save.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
