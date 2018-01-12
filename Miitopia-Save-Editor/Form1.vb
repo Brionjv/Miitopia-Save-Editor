@@ -84,6 +84,13 @@ Public Class Miitopia_SE
         File_path_hero.Visible = False
     End Sub
 
+    Public Sub notification()
+        If Setting_hidden.Checked = False Then
+            Panel_notification.Visible = True
+            Timer_notification.Start()
+        End If
+    End Sub
+
     Public Sub Resetinnicon()
         Icon_inn_room_no.Image = Nothing
         Icon_inn_room_botleft_left.Image = Nothing
@@ -215,6 +222,9 @@ Public Class Miitopia_SE
             Select_interac_activity.Items.Item(30) = "Cleaning (Cheering)"
             Select_interac_activity.Items.Item(31) = "Time for a new look!"
             Select_interac_activity.Items.Item(32) = "Impressions"
+            Text_notification.Text = "Done"
+            Check_medal_unlock.Text = "Unlock"
+            Check_medal_reset.Text = "Reset"
         ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
             text_open.Text = "Ouvrir"
             text_save.Text = "Enregistrer"
@@ -331,6 +341,9 @@ Public Class Miitopia_SE
             Select_interac_activity.Items.Item(30) = "Nettoyage (Acclamations)"
             Select_interac_activity.Items.Item(31) = "Il est temps pour un nouveau look!"
             Select_interac_activity.Items.Item(32) = "Impressions"
+            Text_notification.Text = "Terminé"
+            Check_medal_unlock.Text = "Débloquer"
+            Check_medal_reset.Text = "Réinitialiser"
         End If
     End Sub
 
@@ -7589,6 +7602,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_allweapons_Click(sender As Object, e As EventArgs) Handles Fea_allweapons.Click
         valu_allweapons.Value = 65535
+        notification()
     End Sub
 
     Private Sub Fea_allweapons_MouseMove(sender As Object, e As EventArgs) Handles Fea_allweapons.MouseMove
@@ -7607,6 +7621,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_costamiibo_Click(sender As Object, e As EventArgs) Handles Fea_costamiibo.Click
         valu_costamiibo.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_costamiibo_MouseMove(sender As Object, e As EventArgs) Handles Fea_costamiibo.MouseMove
@@ -7643,6 +7658,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_sprinkles_Click(sender As Object, e As EventArgs) Handles Fea_sprinkles.Click
         valu_sprinkles.Value = 31
+        notification()
     End Sub
 
     Private Sub Fea_sprinkles_MouseMove(sender As Object, e As EventArgs) Handles Fea_sprinkles.MouseMove
@@ -7804,6 +7820,7 @@ Public Class Miitopia_SE
 
     Private Sub icon_safespot_Click(sender As Object, e As EventArgs) Handles icon_safespot.Click
         valu_safespot.Value = 1
+        notification()
     End Sub
 
     Private Sub Group_safespot_MouseMove(sender As Object, e As EventArgs) Handles Group_safespot.MouseMove, icon_safespot.MouseMove
@@ -8038,6 +8055,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_warrior_Click(sender As Object, e As EventArgs) Handles Fea_wp_warrior.Click, Icon_wp_warrior.Click
         valu_wp_warrior.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_warrior_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_warrior.MouseMove
@@ -8056,6 +8074,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_mage_Click(sender As Object, e As EventArgs) Handles Fea_wp_mage.Click, Icon_wp_mage.Click
         valu_wp_mage.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_mage_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_mage.MouseMove
@@ -8074,6 +8093,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_cleric_Click(sender As Object, e As EventArgs) Handles Fea_wp_cleric.Click, Icon_wp_cleric.Click
         valu_wp_cleric.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_cleric_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_cleric.MouseMove
@@ -8092,6 +8112,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_thief_Click(sender As Object, e As EventArgs) Handles Fea_wp_thief.Click, Icon_wp_thief.Click
         valu_wp_thief.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_thief_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_thief.MouseMove
@@ -8110,6 +8131,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_popstar_Click(sender As Object, e As EventArgs) Handles Fea_wp_popstar.Click, Icon_wp_popstar.Click
         valu_wp_popstar.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_popstar_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_popstar.MouseMove
@@ -8128,6 +8150,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_vampire_Click(sender As Object, e As EventArgs) Handles Fea_wp_vampire.Click, Icon_wp_vampire.Click
         valu_wp_vampire.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_vampire_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_vampire.MouseMove
@@ -8146,6 +8169,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_chef_Click(sender As Object, e As EventArgs) Handles Fea_wp_chef.Click, Icon_wp_chef.Click
         valu_wp_chef.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_chef_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_chef.MouseMove
@@ -8164,6 +8188,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_tank_Click(sender As Object, e As EventArgs) Handles Fea_wp_tank.Click, Icon_wp_tank.Click
         valu_wp_tank.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_tank_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_tank.MouseMove
@@ -8182,6 +8207,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_imp_Click(sender As Object, e As EventArgs) Handles Fea_wp_imp.Click, Icon_wp_imp.Click
         valu_wp_imp.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_imp_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_imp.MouseMove
@@ -8200,6 +8226,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_princess_Click(sender As Object, e As EventArgs) Handles Fea_wp_princess.Click, Icon_wp_princess.Click
         valu_wp_princess.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_princess_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_princess.MouseMove
@@ -8218,6 +8245,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_flower_Click(sender As Object, e As EventArgs) Handles Fea_wp_flower.Click, Icon_wp_flower.Click
         valu_wp_flower.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_flower_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_flower.MouseMove
@@ -8236,6 +8264,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_scientist_Click(sender As Object, e As EventArgs) Handles Fea_wp_scientist.Click, Icon_wp_scientist.Click
         valu_wp_scientist.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_scientist_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_scientist.MouseMove
@@ -8254,6 +8283,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_cat_Click(sender As Object, e As EventArgs) Handles Fea_wp_cat.Click, Icon_wp_cat.Click
         valu_wp_cat.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_cat_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_cat.MouseMove
@@ -8272,6 +8302,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_wp_elf_Click(sender As Object, e As EventArgs) Handles Fea_wp_elf.Click, Icon_wp_elf.Click
         valu_wp_elf.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_wp_elf_MouseMove(sender As Object, e As EventArgs) Handles Fea_wp_elf.MouseMove
@@ -8290,6 +8321,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_warrior_Click(sender As Object, e As EventArgs) Handles Fea_ct_warrior.Click, Icon_ct_warrior.Click
         valu_ct_warrior.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_warrior_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_warrior.MouseMove
@@ -8308,6 +8340,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_mage_Click(sender As Object, e As EventArgs) Handles Fea_ct_mage.Click, Icon_ct_mage.Click
         valu_ct_mage.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_mage_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_mage.MouseMove
@@ -8326,6 +8359,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_cleric_Click(sender As Object, e As EventArgs) Handles Fea_ct_cleric.Click, Icon_ct_cleric.Click
         valu_ct_cleric.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_cleric_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_cleric.MouseMove
@@ -8344,6 +8378,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_thief_Click(sender As Object, e As EventArgs) Handles Fea_ct_thief.Click, Icon_ct_thief.Click
         valu_ct_thief.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_thief_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_thief.MouseMove
@@ -8362,6 +8397,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_popstar_Click(sender As Object, e As EventArgs) Handles Fea_ct_popstar.Click, Icon_ct_popstar.Click
         valu_ct_popstar.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_popstar_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_popstar.MouseMove
@@ -8380,6 +8416,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_vampire_Click(sender As Object, e As EventArgs) Handles Fea_ct_vampire.Click, Icon_ct_vampire.Click
         valu_ct_vampire.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_vampire_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_vampire.MouseMove
@@ -8398,6 +8435,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_chef_Click(sender As Object, e As EventArgs) Handles Fea_ct_chef.Click, Icon_ct_chef.Click
         valu_ct_chef.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_chef_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_chef.MouseMove
@@ -8416,6 +8454,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_tank_Click(sender As Object, e As EventArgs) Handles Fea_ct_tank.Click, Icon_ct_tank.Click
         valu_ct_tank.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_tank_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_tank.MouseMove
@@ -8434,6 +8473,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_imp_Click(sender As Object, e As EventArgs) Handles Fea_ct_imp.Click, Icon_ct_imp.Click
         valu_ct_imp.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_imp_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_imp.MouseMove
@@ -8452,6 +8492,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_princess_Click(sender As Object, e As EventArgs) Handles Fea_ct_princess.Click, Icon_ct_princess.Click
         valu_ct_princess.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_princess_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_princess.MouseMove
@@ -8470,6 +8511,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_flower_Click(sender As Object, e As EventArgs) Handles Fea_ct_flower.Click, Icon_ct_flower.Click
         valu_ct_flower.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_flower_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_flower.MouseMove
@@ -8488,6 +8530,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_scientist_Click(sender As Object, e As EventArgs) Handles Fea_ct_scientist.Click, Icon_ct_scientist.Click
         valu_ct_scientist.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_scientist_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_scientist.MouseMove
@@ -8506,6 +8549,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_cat_Click(sender As Object, e As EventArgs) Handles Fea_ct_cat.Click, Icon_ct_cat.Click
         valu_ct_cat.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_cat_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_cat.MouseMove
@@ -8524,6 +8568,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ct_elf_Click(sender As Object, e As EventArgs) Handles Fea_ct_elf.Click, Icon_ct_elf.Click
         valu_ct_elf.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_ct_elf_MouseMove(sender As Object, e As EventArgs) Handles Fea_ct_elf.MouseMove
@@ -8614,6 +8659,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_dragonclass_Click(sender As Object, e As EventArgs) Handles Fea_dragonclass.Click, Icon_dragonclass.Click
         valu_dragonclass.Value = 4294967295
+        notification()
     End Sub
 
     Private Sub Fea_dragonclass_MouseMove(sender As Object, e As EventArgs) Handles Fea_dragonclass.MouseMove, Icon_dragonclass.MouseMove
@@ -8631,6 +8677,7 @@ Public Class Miitopia_SE
 
     Private Sub Fea_villa_Click(sender As Object, e As EventArgs) Handles Fea_villa.Click, Icon_villa.Click
         valu_villa.Value = 1
+        notification()
     End Sub
 
     Private Sub Fea_villa_MouseMove(sender As Object, e As EventArgs) Handles Fea_villa.MouseMove, Icon_villa.MouseMove
@@ -14851,5 +14898,102 @@ Public Class Miitopia_SE
 
     Private Sub Select_language_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Select_language.SelectedIndexChanged
         selectlanguage()
+    End Sub
+
+    Private Sub Timer_notification_Tick(sender As Object, e As EventArgs) Handles Timer_notification.Tick
+        Timer_notification.Stop()
+        Panel_notification.Visible = False
+    End Sub
+
+    Private Sub Fea_medal_Click(sender As Object, e As EventArgs) Handles Fea_medal.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, Endian.Little)
+            If Check_medal_unlock.Checked = True Then
+                Writer.Position = &H2DD0
+                Writer.WriteHexString("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF07000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF07000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF07")
+            ElseIf Check_medal_reset.Checked = True Then
+                Writer.Position = &H2DD0
+                Writer.WriteHexString("000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+            End If
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : unlock / reset medals"
+                fdialog.Msg.Text = "All medals has been unlocked / reset"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : débloquer / réinitialiser médailles"
+                fdialog.Msg.Text = "Toutes les médailles ont été débloqué / réinitialisé"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : unlock / reset medals"
+                fdialog.Msg.Text = "An error has occured" & vbNewLine & "please report this issue"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : débloquer / réinitialiser médailles"
+                fdialog.Msg.Text = "Une erreur est survenue" & vbNewLine & "veuillez signaler cet erreur s'il vous plait"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub Fea_medal_MouseMove(sender As Object, e As EventArgs) Handles Fea_medal.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to unlock or reset all medals"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour débloquer ou réinitialiser les médailles"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_medal_MouseLeave(sender As Object, e As EventArgs) Handles Fea_medal.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_ency_music_Click(sender As Object, e As EventArgs) Handles Fea_ency_music.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, Endian.Little)
+            If Check_music_unlock.Checked = True Then
+                Writer.Position = &H7E0
+                Writer.WriteHexString("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F")
+            ElseIf Check_medal_reset.Checked = True Then
+                Writer.Position = &H7E0
+                Writer.WriteHexString("0000000000000000000000000000000000000000000000000000")
+            End If
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : unlock / reset musics"
+                fdialog.Msg.Text = "All musics in encyclopedia has been unlocked / reset"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : débloquer / réinitialiser musiques"
+                fdialog.Msg.Text = "Toutes les musiques dans l'encyclopédie ont été débloqué / réinitialisé"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : unlock / reset musics"
+                fdialog.Msg.Text = "An error has occured" & vbNewLine & "please report this issue"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : débloquer / réinitialiser musiques"
+                fdialog.Msg.Text = "Une erreur est survenue" & vbNewLine & "veuillez signaler cet erreur s'il vous plait"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub Fea_ency_music_MouseMove(sender As Object, e As EventArgs) Handles Fea_ency_music.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to unlock or reset all musics in encyclopedia"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour débloquer ou réinitialiser les musiques dans l'encyclopédie"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_ency_music_MouseLeave(sender As Object, e As EventArgs) Handles Fea_ency_music.MouseLeave
+        Descrip_panel.Visible = False
     End Sub
 End Class

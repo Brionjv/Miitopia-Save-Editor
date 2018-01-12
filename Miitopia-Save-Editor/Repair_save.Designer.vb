@@ -23,8 +23,9 @@ Partial Class Repair_save
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Repair_save))
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Group_common = New System.Windows.Forms.GroupBox()
+        Me.Text_common = New System.Windows.Forms.Label()
+        Me.Icon_common = New System.Windows.Forms.PictureBox()
         Me.TextBox_fpath_quest = New System.Windows.Forms.TextBox()
         Me.File_path_quest = New System.Windows.Forms.Panel()
         Me.TextBox_fpath_hero = New System.Windows.Forms.TextBox()
@@ -40,25 +41,38 @@ Partial Class Repair_save
         Me.Filever_text = New System.Windows.Forms.Label()
         Me.Panel_slt_save = New System.Windows.Forms.Panel()
         Me.File_path_hero = New System.Windows.Forms.Panel()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Group_hero = New System.Windows.Forms.GroupBox()
+        Me.Text_hero = New System.Windows.Forms.Label()
+        Me.Icon_hero = New System.Windows.Forms.PictureBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.Group_quest = New System.Windows.Forms.GroupBox()
+        Me.Text_quest = New System.Windows.Forms.Label()
+        Me.Icon_quest = New System.Windows.Forms.PictureBox()
+        Me.Panel_common = New System.Windows.Forms.Panel()
+        Me.Group_header = New System.Windows.Forms.GroupBox()
+        Me.valu_header = New System.Windows.Forms.TextBox()
         Me.Button_Open = New System.Windows.Forms.Panel()
         Me.text_open = New System.Windows.Forms.Label()
         Me.Button_Save = New System.Windows.Forms.Panel()
         Me.text_save = New System.Windows.Forms.Label()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.GroupBox1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel_hero = New System.Windows.Forms.Panel()
+        Me.Group_header_hero = New System.Windows.Forms.GroupBox()
+        Me.valu_header_hero = New System.Windows.Forms.TextBox()
+        Me.Button_open_hero = New System.Windows.Forms.Panel()
+        Me.Text_open_hero = New System.Windows.Forms.Label()
+        Me.Button_save_hero = New System.Windows.Forms.Panel()
+        Me.Text_save_hero = New System.Windows.Forms.Label()
+        Me.Panel_quest = New System.Windows.Forms.Panel()
+        Me.Group_header_quest = New System.Windows.Forms.GroupBox()
+        Me.valu_header_quest = New System.Windows.Forms.TextBox()
+        Me.Button_open_quest = New System.Windows.Forms.Panel()
+        Me.Text_open_quest = New System.Windows.Forms.Label()
+        Me.Button_save_quest = New System.Windows.Forms.Panel()
+        Me.Text_save_quest = New System.Windows.Forms.Label()
+        Me.Group_common.SuspendLayout()
+        CType(Me.Icon_common, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.File_path_quest.SuspendLayout()
         Me.Descrip_panel.SuspendLayout()
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -69,39 +83,62 @@ Partial Class Repair_save
         Me.File_path_common.SuspendLayout()
         Me.Panel_slt_save.SuspendLayout()
         Me.File_path_hero.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_hero.SuspendLayout()
+        CType(Me.Icon_hero, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox3.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox4.SuspendLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel1.SuspendLayout()
+        Me.Group_quest.SuspendLayout()
+        CType(Me.Icon_quest, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel_common.SuspendLayout()
+        Me.Group_header.SuspendLayout()
         Me.Button_Open.SuspendLayout()
         Me.Button_Save.SuspendLayout()
-        Me.GroupBox5.SuspendLayout()
+        Me.Panel_hero.SuspendLayout()
+        Me.Group_header_hero.SuspendLayout()
+        Me.Button_open_hero.SuspendLayout()
+        Me.Button_save_hero.SuspendLayout()
+        Me.Panel_quest.SuspendLayout()
+        Me.Group_header_quest.SuspendLayout()
+        Me.Button_open_quest.SuspendLayout()
+        Me.Button_save_quest.SuspendLayout()
         Me.SuspendLayout()
         '
-        'GroupBox1
+        'Group_common
         '
-        Me.GroupBox1.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_common
-        Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Controls.Add(Me.PictureBox1)
-        Me.GroupBox1.Location = New System.Drawing.Point(9, 58)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(150, 100)
-        Me.GroupBox1.TabIndex = 0
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Repair common.sav"
+        Me.Group_common.BackColor = System.Drawing.SystemColors.Control
+        Me.Group_common.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_common
+        Me.Group_common.Controls.Add(Me.Text_common)
+        Me.Group_common.Controls.Add(Me.Icon_common)
+        Me.Group_common.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Group_common.Location = New System.Drawing.Point(9, 58)
+        Me.Group_common.Name = "Group_common"
+        Me.Group_common.Size = New System.Drawing.Size(150, 100)
+        Me.Group_common.TabIndex = 0
+        Me.Group_common.TabStop = False
+        Me.Group_common.Text = "Repair common.sav"
         '
-        'PictureBox1
+        'Text_common
         '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.file_repair
-        Me.PictureBox1.Location = New System.Drawing.Point(46, 35)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(59, 59)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.Text_common.AutoSize = True
+        Me.Text_common.BackColor = System.Drawing.Color.Transparent
+        Me.Text_common.ForeColor = System.Drawing.Color.Black
+        Me.Text_common.Location = New System.Drawing.Point(94, 81)
+        Me.Text_common.Name = "Text_common"
+        Me.Text_common.Size = New System.Drawing.Size(15, 17)
+        Me.Text_common.TabIndex = 1
+        Me.Text_common.Text = "C."
+        Me.Text_common.UseCompatibleTextRendering = True
+        '
+        'Icon_common
+        '
+        Me.Icon_common.BackColor = System.Drawing.Color.Transparent
+        Me.Icon_common.Enabled = False
+        Me.Icon_common.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.file_repair
+        Me.Icon_common.Location = New System.Drawing.Point(46, 35)
+        Me.Icon_common.Name = "Icon_common"
+        Me.Icon_common.Size = New System.Drawing.Size(59, 59)
+        Me.Icon_common.TabIndex = 0
+        Me.Icon_common.TabStop = False
         '
         'TextBox_fpath_quest
         '
@@ -268,6 +305,7 @@ Partial Class Repair_save
         Me.Panel_slt_save.Name = "Panel_slt_save"
         Me.Panel_slt_save.Size = New System.Drawing.Size(30, 25)
         Me.Panel_slt_save.TabIndex = 25
+        Me.Panel_slt_save.Visible = False
         '
         'File_path_hero
         '
@@ -280,27 +318,39 @@ Partial Class Repair_save
         Me.File_path_hero.TabIndex = 32
         Me.File_path_hero.Visible = False
         '
-        'GroupBox2
+        'Group_hero
         '
-        Me.GroupBox2.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_hero
-        Me.GroupBox2.Controls.Add(Me.Label2)
-        Me.GroupBox2.Controls.Add(Me.PictureBox2)
-        Me.GroupBox2.Location = New System.Drawing.Point(9, 161)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(150, 100)
-        Me.GroupBox2.TabIndex = 33
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Repair hero.sav"
+        Me.Group_hero.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_hero
+        Me.Group_hero.Controls.Add(Me.Text_hero)
+        Me.Group_hero.Controls.Add(Me.Icon_hero)
+        Me.Group_hero.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Group_hero.Location = New System.Drawing.Point(9, 161)
+        Me.Group_hero.Name = "Group_hero"
+        Me.Group_hero.Size = New System.Drawing.Size(150, 100)
+        Me.Group_hero.TabIndex = 33
+        Me.Group_hero.TabStop = False
+        Me.Group_hero.Text = "Repair hero.sav"
         '
-        'PictureBox2
+        'Text_hero
         '
-        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.file_repair
-        Me.PictureBox2.Location = New System.Drawing.Point(46, 35)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(59, 59)
-        Me.PictureBox2.TabIndex = 0
-        Me.PictureBox2.TabStop = False
+        Me.Text_hero.AutoSize = True
+        Me.Text_hero.BackColor = System.Drawing.Color.Transparent
+        Me.Text_hero.Location = New System.Drawing.Point(94, 81)
+        Me.Text_hero.Name = "Text_hero"
+        Me.Text_hero.Size = New System.Drawing.Size(18, 13)
+        Me.Text_hero.TabIndex = 2
+        Me.Text_hero.Text = "H."
+        '
+        'Icon_hero
+        '
+        Me.Icon_hero.BackColor = System.Drawing.Color.Transparent
+        Me.Icon_hero.Enabled = False
+        Me.Icon_hero.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.file_repair
+        Me.Icon_hero.Location = New System.Drawing.Point(46, 35)
+        Me.Icon_hero.Name = "Icon_hero"
+        Me.Icon_hero.Size = New System.Drawing.Size(59, 59)
+        Me.Icon_hero.TabIndex = 0
+        Me.Icon_hero.TabStop = False
         '
         'GroupBox3
         '
@@ -313,79 +363,7 @@ Partial Class Repair_save
         Me.GroupBox3.TabIndex = 35
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Repair cottage.sav"
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.file_repair
-        Me.PictureBox3.Location = New System.Drawing.Point(46, 35)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(59, 59)
-        Me.PictureBox3.TabIndex = 0
-        Me.PictureBox3.TabStop = False
-        '
-        'GroupBox4
-        '
-        Me.GroupBox4.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_quest
-        Me.GroupBox4.Controls.Add(Me.Label3)
-        Me.GroupBox4.Controls.Add(Me.PictureBox4)
-        Me.GroupBox4.Location = New System.Drawing.Point(9, 264)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(150, 100)
-        Me.GroupBox4.TabIndex = 34
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Repair quest.sav"
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox4.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.file_repair
-        Me.PictureBox4.Location = New System.Drawing.Point(46, 35)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(59, 59)
-        Me.PictureBox4.TabIndex = 0
-        Me.PictureBox4.TabStop = False
-        '
-        'Panel1
-        '
-        Me.Panel1.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
-        Me.Panel1.Controls.Add(Me.GroupBox5)
-        Me.Panel1.Controls.Add(Me.Button_Open)
-        Me.Panel1.Controls.Add(Me.Button_Save)
-        Me.Panel1.Location = New System.Drawing.Point(163, 59)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(380, 407)
-        Me.Panel1.TabIndex = 36
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Location = New System.Drawing.Point(94, 81)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(17, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "C."
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Location = New System.Drawing.Point(94, 81)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(18, 13)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "H."
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Location = New System.Drawing.Point(94, 81)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(18, 13)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Q."
+        Me.GroupBox3.Visible = False
         '
         'Label4
         '
@@ -396,6 +374,86 @@ Partial Class Repair_save
         Me.Label4.Size = New System.Drawing.Size(20, 13)
         Me.Label4.TabIndex = 2
         Me.Label4.Text = "Ct."
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox3.Enabled = False
+        Me.PictureBox3.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.file_repair
+        Me.PictureBox3.Location = New System.Drawing.Point(46, 35)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(59, 59)
+        Me.PictureBox3.TabIndex = 0
+        Me.PictureBox3.TabStop = False
+        '
+        'Group_quest
+        '
+        Me.Group_quest.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_quest
+        Me.Group_quest.Controls.Add(Me.Text_quest)
+        Me.Group_quest.Controls.Add(Me.Icon_quest)
+        Me.Group_quest.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Group_quest.Location = New System.Drawing.Point(9, 264)
+        Me.Group_quest.Name = "Group_quest"
+        Me.Group_quest.Size = New System.Drawing.Size(150, 100)
+        Me.Group_quest.TabIndex = 34
+        Me.Group_quest.TabStop = False
+        Me.Group_quest.Text = "Repair quest.sav"
+        '
+        'Text_quest
+        '
+        Me.Text_quest.AutoSize = True
+        Me.Text_quest.BackColor = System.Drawing.Color.Transparent
+        Me.Text_quest.Location = New System.Drawing.Point(94, 81)
+        Me.Text_quest.Name = "Text_quest"
+        Me.Text_quest.Size = New System.Drawing.Size(18, 13)
+        Me.Text_quest.TabIndex = 2
+        Me.Text_quest.Text = "Q."
+        '
+        'Icon_quest
+        '
+        Me.Icon_quest.BackColor = System.Drawing.Color.Transparent
+        Me.Icon_quest.Enabled = False
+        Me.Icon_quest.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.file_repair
+        Me.Icon_quest.Location = New System.Drawing.Point(46, 35)
+        Me.Icon_quest.Name = "Icon_quest"
+        Me.Icon_quest.Size = New System.Drawing.Size(59, 59)
+        Me.Icon_quest.TabIndex = 0
+        Me.Icon_quest.TabStop = False
+        '
+        'Panel_common
+        '
+        Me.Panel_common.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_common
+        Me.Panel_common.Controls.Add(Me.Group_header)
+        Me.Panel_common.Controls.Add(Me.Button_Open)
+        Me.Panel_common.Controls.Add(Me.Button_Save)
+        Me.Panel_common.Location = New System.Drawing.Point(163, 59)
+        Me.Panel_common.Name = "Panel_common"
+        Me.Panel_common.Size = New System.Drawing.Size(380, 407)
+        Me.Panel_common.TabIndex = 36
+        Me.Panel_common.Visible = False
+        '
+        'Group_header
+        '
+        Me.Group_header.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_banner
+        Me.Group_header.Controls.Add(Me.valu_header)
+        Me.Group_header.Location = New System.Drawing.Point(43, 93)
+        Me.Group_header.Name = "Group_header"
+        Me.Group_header.Size = New System.Drawing.Size(287, 36)
+        Me.Group_header.TabIndex = 5
+        Me.Group_header.TabStop = False
+        Me.Group_header.Text = "Header"
+        '
+        'valu_header
+        '
+        Me.valu_header.BackColor = System.Drawing.SystemColors.Menu
+        Me.valu_header.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_header.Enabled = False
+        Me.valu_header.Location = New System.Drawing.Point(40, 17)
+        Me.valu_header.Name = "valu_header"
+        Me.valu_header.ReadOnly = True
+        Me.valu_header.Size = New System.Drawing.Size(206, 13)
+        Me.valu_header.TabIndex = 0
+        Me.valu_header.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Button_Open
         '
@@ -440,29 +498,170 @@ Partial Class Repair_save
         Me.text_save.Name = "text_save"
         Me.text_save.Size = New System.Drawing.Size(115, 47)
         Me.text_save.TabIndex = 0
-        Me.text_save.Text = "Save"
+        Me.text_save.Text = "Repair"
         Me.text_save.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'GroupBox5
+        'Panel_hero
         '
-        Me.GroupBox5.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_banner
-        Me.GroupBox5.Controls.Add(Me.TextBox1)
-        Me.GroupBox5.Location = New System.Drawing.Point(43, 93)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(287, 36)
-        Me.GroupBox5.TabIndex = 5
-        Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "Header"
+        Me.Panel_hero.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_hero
+        Me.Panel_hero.Controls.Add(Me.Group_header_hero)
+        Me.Panel_hero.Controls.Add(Me.Button_open_hero)
+        Me.Panel_hero.Controls.Add(Me.Button_save_hero)
+        Me.Panel_hero.Location = New System.Drawing.Point(163, 59)
+        Me.Panel_hero.Name = "Panel_hero"
+        Me.Panel_hero.Size = New System.Drawing.Size(380, 407)
+        Me.Panel_hero.TabIndex = 37
+        Me.Panel_hero.Visible = False
         '
-        'TextBox1
+        'Group_header_hero
         '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.Menu
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Location = New System.Drawing.Point(17, 16)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(253, 13)
-        Me.TextBox1.TabIndex = 0
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Group_header_hero.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_banner
+        Me.Group_header_hero.Controls.Add(Me.valu_header_hero)
+        Me.Group_header_hero.Location = New System.Drawing.Point(43, 93)
+        Me.Group_header_hero.Name = "Group_header_hero"
+        Me.Group_header_hero.Size = New System.Drawing.Size(287, 36)
+        Me.Group_header_hero.TabIndex = 5
+        Me.Group_header_hero.TabStop = False
+        Me.Group_header_hero.Text = "Header"
+        '
+        'valu_header_hero
+        '
+        Me.valu_header_hero.BackColor = System.Drawing.SystemColors.Menu
+        Me.valu_header_hero.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_header_hero.Enabled = False
+        Me.valu_header_hero.Location = New System.Drawing.Point(40, 17)
+        Me.valu_header_hero.Name = "valu_header_hero"
+        Me.valu_header_hero.ReadOnly = True
+        Me.valu_header_hero.Size = New System.Drawing.Size(206, 13)
+        Me.valu_header_hero.TabIndex = 0
+        Me.valu_header_hero.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Button_open_hero
+        '
+        Me.Button_open_hero.BackColor = System.Drawing.Color.Transparent
+        Me.Button_open_hero.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.button_open
+        Me.Button_open_hero.Controls.Add(Me.Text_open_hero)
+        Me.Button_open_hero.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button_open_hero.Location = New System.Drawing.Point(254, 9)
+        Me.Button_open_hero.Name = "Button_open_hero"
+        Me.Button_open_hero.Size = New System.Drawing.Size(115, 47)
+        Me.Button_open_hero.TabIndex = 3
+        '
+        'Text_open_hero
+        '
+        Me.Text_open_hero.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_open_hero.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Text_open_hero.ForeColor = System.Drawing.SystemColors.Info
+        Me.Text_open_hero.Location = New System.Drawing.Point(0, 0)
+        Me.Text_open_hero.Name = "Text_open_hero"
+        Me.Text_open_hero.Size = New System.Drawing.Size(115, 47)
+        Me.Text_open_hero.TabIndex = 0
+        Me.Text_open_hero.Text = "Open"
+        Me.Text_open_hero.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Button_save_hero
+        '
+        Me.Button_save_hero.BackColor = System.Drawing.Color.Transparent
+        Me.Button_save_hero.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.button_save
+        Me.Button_save_hero.Controls.Add(Me.Text_save_hero)
+        Me.Button_save_hero.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button_save_hero.Location = New System.Drawing.Point(254, 9)
+        Me.Button_save_hero.Name = "Button_save_hero"
+        Me.Button_save_hero.Size = New System.Drawing.Size(115, 47)
+        Me.Button_save_hero.TabIndex = 4
+        '
+        'Text_save_hero
+        '
+        Me.Text_save_hero.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_save_hero.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Text_save_hero.ForeColor = System.Drawing.SystemColors.Info
+        Me.Text_save_hero.Location = New System.Drawing.Point(0, 0)
+        Me.Text_save_hero.Name = "Text_save_hero"
+        Me.Text_save_hero.Size = New System.Drawing.Size(115, 47)
+        Me.Text_save_hero.TabIndex = 0
+        Me.Text_save_hero.Text = "Repair"
+        Me.Text_save_hero.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel_quest
+        '
+        Me.Panel_quest.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_panel_quest
+        Me.Panel_quest.Controls.Add(Me.Group_header_quest)
+        Me.Panel_quest.Controls.Add(Me.Button_open_quest)
+        Me.Panel_quest.Controls.Add(Me.Button_save_quest)
+        Me.Panel_quest.Location = New System.Drawing.Point(163, 59)
+        Me.Panel_quest.Name = "Panel_quest"
+        Me.Panel_quest.Size = New System.Drawing.Size(380, 407)
+        Me.Panel_quest.TabIndex = 38
+        Me.Panel_quest.Visible = False
+        '
+        'Group_header_quest
+        '
+        Me.Group_header_quest.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_banner
+        Me.Group_header_quest.Controls.Add(Me.valu_header_quest)
+        Me.Group_header_quest.Location = New System.Drawing.Point(43, 93)
+        Me.Group_header_quest.Name = "Group_header_quest"
+        Me.Group_header_quest.Size = New System.Drawing.Size(287, 36)
+        Me.Group_header_quest.TabIndex = 5
+        Me.Group_header_quest.TabStop = False
+        Me.Group_header_quest.Text = "Header"
+        '
+        'valu_header_quest
+        '
+        Me.valu_header_quest.BackColor = System.Drawing.SystemColors.Menu
+        Me.valu_header_quest.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_header_quest.Enabled = False
+        Me.valu_header_quest.Location = New System.Drawing.Point(40, 17)
+        Me.valu_header_quest.Name = "valu_header_quest"
+        Me.valu_header_quest.ReadOnly = True
+        Me.valu_header_quest.Size = New System.Drawing.Size(206, 13)
+        Me.valu_header_quest.TabIndex = 0
+        Me.valu_header_quest.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Button_open_quest
+        '
+        Me.Button_open_quest.BackColor = System.Drawing.Color.Transparent
+        Me.Button_open_quest.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.button_open
+        Me.Button_open_quest.Controls.Add(Me.Text_open_quest)
+        Me.Button_open_quest.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button_open_quest.Location = New System.Drawing.Point(254, 9)
+        Me.Button_open_quest.Name = "Button_open_quest"
+        Me.Button_open_quest.Size = New System.Drawing.Size(115, 47)
+        Me.Button_open_quest.TabIndex = 3
+        '
+        'Text_open_quest
+        '
+        Me.Text_open_quest.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_open_quest.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Text_open_quest.ForeColor = System.Drawing.SystemColors.Info
+        Me.Text_open_quest.Location = New System.Drawing.Point(0, 0)
+        Me.Text_open_quest.Name = "Text_open_quest"
+        Me.Text_open_quest.Size = New System.Drawing.Size(115, 47)
+        Me.Text_open_quest.TabIndex = 0
+        Me.Text_open_quest.Text = "Open"
+        Me.Text_open_quest.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Button_save_quest
+        '
+        Me.Button_save_quest.BackColor = System.Drawing.Color.Transparent
+        Me.Button_save_quest.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.button_save
+        Me.Button_save_quest.Controls.Add(Me.Text_save_quest)
+        Me.Button_save_quest.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button_save_quest.Location = New System.Drawing.Point(254, 9)
+        Me.Button_save_quest.Name = "Button_save_quest"
+        Me.Button_save_quest.Size = New System.Drawing.Size(115, 47)
+        Me.Button_save_quest.TabIndex = 4
+        '
+        'Text_save_quest
+        '
+        Me.Text_save_quest.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_save_quest.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Text_save_quest.ForeColor = System.Drawing.SystemColors.Info
+        Me.Text_save_quest.Location = New System.Drawing.Point(0, 0)
+        Me.Text_save_quest.Name = "Text_save_quest"
+        Me.Text_save_quest.Size = New System.Drawing.Size(115, 47)
+        Me.Text_save_quest.TabIndex = 0
+        Me.Text_save_quest.Text = "Repair"
+        Me.Text_save_quest.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Repair_save
         '
@@ -471,24 +670,27 @@ Partial Class Repair_save
         Me.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_footer01
         Me.ClientSize = New System.Drawing.Size(550, 500)
         Me.ControlBox = False
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.Panel_quest)
         Me.Controls.Add(Me.GroupBox3)
-        Me.Controls.Add(Me.GroupBox4)
-        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.Group_quest)
+        Me.Controls.Add(Me.Group_hero)
         Me.Controls.Add(Me.File_path_quest)
         Me.Controls.Add(Me.Descrip_panel)
         Me.Controls.Add(Me.MSE_header)
         Me.Controls.Add(Me.File_path_common)
         Me.Controls.Add(Me.Panel_slt_save)
         Me.Controls.Add(Me.File_path_hero)
-        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.Group_common)
+        Me.Controls.Add(Me.Panel_hero)
+        Me.Controls.Add(Me.Panel_common)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Repair_save"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Repair_save"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_common.ResumeLayout(False)
+        Me.Group_common.PerformLayout()
+        CType(Me.Icon_common, System.ComponentModel.ISupportInitialize).EndInit()
         Me.File_path_quest.ResumeLayout(False)
         Me.File_path_quest.PerformLayout()
         Me.Descrip_panel.ResumeLayout(False)
@@ -502,25 +704,35 @@ Partial Class Repair_save
         Me.Panel_slt_save.ResumeLayout(False)
         Me.File_path_hero.ResumeLayout(False)
         Me.File_path_hero.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_hero.ResumeLayout(False)
+        Me.Group_hero.PerformLayout()
+        CType(Me.Icon_hero, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox4.ResumeLayout(False)
-        Me.GroupBox4.PerformLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel1.ResumeLayout(False)
+        Me.Group_quest.ResumeLayout(False)
+        Me.Group_quest.PerformLayout()
+        CType(Me.Icon_quest, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_common.ResumeLayout(False)
+        Me.Group_header.ResumeLayout(False)
+        Me.Group_header.PerformLayout()
         Me.Button_Open.ResumeLayout(False)
         Me.Button_Save.ResumeLayout(False)
-        Me.GroupBox5.ResumeLayout(False)
-        Me.GroupBox5.PerformLayout()
+        Me.Panel_hero.ResumeLayout(False)
+        Me.Group_header_hero.ResumeLayout(False)
+        Me.Group_header_hero.PerformLayout()
+        Me.Button_open_hero.ResumeLayout(False)
+        Me.Button_save_hero.ResumeLayout(False)
+        Me.Panel_quest.ResumeLayout(False)
+        Me.Group_header_quest.ResumeLayout(False)
+        Me.Group_header_quest.PerformLayout()
+        Me.Button_open_quest.ResumeLayout(False)
+        Me.Button_save_quest.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Group_common As System.Windows.Forms.GroupBox
+    Friend WithEvents Icon_common As System.Windows.Forms.PictureBox
     Friend WithEvents TextBox_fpath_quest As System.Windows.Forms.TextBox
     Friend WithEvents File_path_quest As System.Windows.Forms.Panel
     Friend WithEvents TextBox_fpath_hero As System.Windows.Forms.TextBox
@@ -536,21 +748,35 @@ Partial Class Repair_save
     Friend WithEvents Filever_text As System.Windows.Forms.Label
     Friend WithEvents Panel_slt_save As System.Windows.Forms.Panel
     Friend WithEvents File_path_hero As System.Windows.Forms.Panel
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Text_common As System.Windows.Forms.Label
+    Friend WithEvents Group_hero As System.Windows.Forms.GroupBox
+    Friend WithEvents Text_hero As System.Windows.Forms.Label
+    Friend WithEvents Icon_hero As System.Windows.Forms.PictureBox
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
-    Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
-    Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents Group_quest As System.Windows.Forms.GroupBox
+    Friend WithEvents Icon_quest As System.Windows.Forms.PictureBox
+    Friend WithEvents Panel_common As System.Windows.Forms.Panel
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents GroupBox5 As System.Windows.Forms.GroupBox
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Text_quest As System.Windows.Forms.Label
+    Friend WithEvents Group_header As System.Windows.Forms.GroupBox
     Friend WithEvents Button_Open As System.Windows.Forms.Panel
     Friend WithEvents text_open As System.Windows.Forms.Label
     Friend WithEvents Button_Save As System.Windows.Forms.Panel
     Friend WithEvents text_save As System.Windows.Forms.Label
+    Friend WithEvents valu_header As System.Windows.Forms.TextBox
+    Friend WithEvents Panel_hero As System.Windows.Forms.Panel
+    Friend WithEvents Group_header_hero As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_header_hero As System.Windows.Forms.TextBox
+    Friend WithEvents Button_open_hero As System.Windows.Forms.Panel
+    Friend WithEvents Text_open_hero As System.Windows.Forms.Label
+    Friend WithEvents Button_save_hero As System.Windows.Forms.Panel
+    Friend WithEvents Text_save_hero As System.Windows.Forms.Label
+    Friend WithEvents Panel_quest As System.Windows.Forms.Panel
+    Friend WithEvents Group_header_quest As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_header_quest As System.Windows.Forms.TextBox
+    Friend WithEvents Button_open_quest As System.Windows.Forms.Panel
+    Friend WithEvents Text_open_quest As System.Windows.Forms.Label
+    Friend WithEvents Button_save_quest As System.Windows.Forms.Panel
+    Friend WithEvents Text_save_quest As System.Windows.Forms.Label
 End Class

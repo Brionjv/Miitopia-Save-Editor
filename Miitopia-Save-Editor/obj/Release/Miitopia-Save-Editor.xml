@@ -71,6 +71,10 @@ Miitopia-Save-Editor
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bg_ency_extra">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bg_fdialog_text">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -1043,7 +1047,15 @@ Miitopia-Save-Editor
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.icon_ency_musique">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.icon_hats">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.icon_medals">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>

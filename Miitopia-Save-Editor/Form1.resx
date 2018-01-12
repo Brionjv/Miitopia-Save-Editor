@@ -202,6 +202,16 @@
         bmK4iR8bLU+oMwyjkgl1puHT8/5CPTvNbqgzDKOSCXWec35/n8sFCa/zdtQAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="Changelog.Text" xml:space="preserve">
+    <value>Add unactivate check update in settings
+Fix bug in select Mii for interaction
+Fix bug in select interaction activity
+Add French language
+Add repair save files
+Add notification if users click on certain features when show hidden things is disable
+Add unlock or reset all medals
+Add unlock or reset all musics in encyclopedia</value>
+  </data>
   <data name="Credits.Text" xml:space="preserve">
     <value>
 Author : Brion
@@ -227,7 +237,7 @@ Brion
 French language : 
 Brion
 
-Spanish language :
+Spanish language (older version) :
 Brion
 MiqellDestroyer (gbatemp.net)
 valentinvanelslande (gbatemp.net)
@@ -326,6 +336,9 @@ Visual Studio 2012 - Visual Studio 2015
         YII=
 </value>
   </data>
+  <metadata name="Timer_notification.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>106, 17</value>
+  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>50</value>
   </metadata>
