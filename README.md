@@ -1,7 +1,7 @@
 # Miitopia-Save-Editor
 Edit your Miitopia save file
 
-![main](https://i11.servimg.com/u/f11/19/11/94/79/miitop13.png)
+![main](https://i62.servimg.com/u/f62/19/11/94/79/prerel10.png)
 
 # How to use : 
 - Extract your save with a homebrew (JK's Save Manager or other)
@@ -15,7 +15,8 @@ Edit your Miitopia save file
 - Edit Mii : name, war cry, class and his stats, mii relationships
 - Unlock all class
 - Unlock things in encyclopedia
-- Unlock villa, dragon and class (with some risks)
+- Unlock villa, dragon and class
+and some other things
 
 # Releases :
 https://github.com/Brionjv/Miitopia-Save-Editor/releases
