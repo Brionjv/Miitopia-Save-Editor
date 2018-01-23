@@ -510,6 +510,62 @@ Partial Class Miitopia_SE
         Me.Bar_exp_vampire = New System.Windows.Forms.Panel()
         Me.valu_exp_vampire = New System.Windows.Forms.NumericUpDown()
         Me.PictureBox20 = New System.Windows.Forms.PictureBox()
+        Me.Tab_hero_relationship = New System.Windows.Forms.TabPage()
+        Me.PictureBox15 = New System.Windows.Forms.PictureBox()
+        Me.Panel_hero_setall = New System.Windows.Forms.Panel()
+        Me.Text_hero_setall = New System.Windows.Forms.Label()
+        Me.valu_hero_setall = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_25 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_25 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_24 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_24 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_23 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_23 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_22 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_22 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_21 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_21 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_20 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_20 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_19 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_19 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_18 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_18 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_17 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_17 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_16 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_16 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_15 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_15 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_14 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_14 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_13 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_13 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_12 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_12 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_11 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_11 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_10 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_10 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_9 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_9 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_8 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_8 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_7 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_7 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_6 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_6 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_5 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_5 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_4 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_4 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_3 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_3 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_2 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_2 = New System.Windows.Forms.NumericUpDown()
+        Me.Group_relation_1 = New System.Windows.Forms.GroupBox()
+        Me.valu_relation_1 = New System.Windows.Forms.NumericUpDown()
+        Me.Select_rela_gMii = New System.Windows.Forms.ComboBox()
         Me.Button_open_hero = New System.Windows.Forms.Panel()
         Me.Text_open_hero = New System.Windows.Forms.Label()
         Me.Button_save_hero = New System.Windows.Forms.Panel()
@@ -519,6 +575,7 @@ Partial Class Miitopia_SE
         Me.Timer_notification = New System.Windows.Forms.Timer(Me.components)
         Me.Panel_notification = New System.Windows.Forms.Panel()
         Me.Text_notification = New System.Windows.Forms.Label()
+        Me.PictureBox30 = New System.Windows.Forms.PictureBox()
         Me.MSE_header.SuspendLayout()
         CType(Me.MSE_icon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -914,10 +971,65 @@ Partial Class Miitopia_SE
         Me.Bar_exp_vampire.SuspendLayout()
         CType(Me.valu_exp_vampire, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Tab_hero_relationship.SuspendLayout()
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel_hero_setall.SuspendLayout()
+        CType(Me.valu_hero_setall, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_25.SuspendLayout()
+        CType(Me.valu_relation_25, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_24.SuspendLayout()
+        CType(Me.valu_relation_24, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_23.SuspendLayout()
+        CType(Me.valu_relation_23, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_22.SuspendLayout()
+        CType(Me.valu_relation_22, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_21.SuspendLayout()
+        CType(Me.valu_relation_21, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_20.SuspendLayout()
+        CType(Me.valu_relation_20, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_19.SuspendLayout()
+        CType(Me.valu_relation_19, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_18.SuspendLayout()
+        CType(Me.valu_relation_18, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_17.SuspendLayout()
+        CType(Me.valu_relation_17, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_16.SuspendLayout()
+        CType(Me.valu_relation_16, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_15.SuspendLayout()
+        CType(Me.valu_relation_15, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_14.SuspendLayout()
+        CType(Me.valu_relation_14, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_13.SuspendLayout()
+        CType(Me.valu_relation_13, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_12.SuspendLayout()
+        CType(Me.valu_relation_12, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_11.SuspendLayout()
+        CType(Me.valu_relation_11, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_10.SuspendLayout()
+        CType(Me.valu_relation_10, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_9.SuspendLayout()
+        CType(Me.valu_relation_9, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_8.SuspendLayout()
+        CType(Me.valu_relation_8, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_7.SuspendLayout()
+        CType(Me.valu_relation_7, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_6.SuspendLayout()
+        CType(Me.valu_relation_6, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_5.SuspendLayout()
+        CType(Me.valu_relation_5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_4.SuspendLayout()
+        CType(Me.valu_relation_4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_3.SuspendLayout()
+        CType(Me.valu_relation_3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_2.SuspendLayout()
+        CType(Me.valu_relation_2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Group_relation_1.SuspendLayout()
+        CType(Me.valu_relation_1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Button_open_hero.SuspendLayout()
         Me.Button_save_hero.SuspendLayout()
         Me.File_path_hero.SuspendLayout()
         Me.Panel_notification.SuspendLayout()
+        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MSE_header
@@ -1625,7 +1737,7 @@ Partial Class Miitopia_SE
         Me.Changelog.Name = "Changelog"
         Me.Changelog.Size = New System.Drawing.Size(468, 342)
         Me.Changelog.TabIndex = 1
-        Me.Changelog.Text = resources.GetString("Changelog.Text")
+        Me.Changelog.Text = "Restore and update Miis relationship from previous versions"
         Me.Changelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label7
@@ -1635,7 +1747,7 @@ Partial Class Miitopia_SE
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(471, 13)
         Me.Label7.TabIndex = 0
-        Me.Label7.Text = "Version 2.0.0"
+        Me.Label7.Text = "Version 2.0.1"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Tab_credits
@@ -4255,6 +4367,7 @@ Partial Class Miitopia_SE
         Me.TabControl4.Controls.Add(Me.Tab_hero_Miiedit)
         Me.TabControl4.Controls.Add(Me.Tab_hero_Inn)
         Me.TabControl4.Controls.Add(Me.Tab_hero_Levboost)
+        Me.TabControl4.Controls.Add(Me.Tab_hero_relationship)
         Me.TabControl4.Location = New System.Drawing.Point(9, 55)
         Me.TabControl4.Name = "TabControl4"
         Me.TabControl4.SelectedIndex = 0
@@ -5321,7 +5434,7 @@ Partial Class Miitopia_SE
         Me.Select_interac_activity.Items.AddRange(New Object() {"You talk in your sleep!", "There was a bug on your face!", "Sit-ups", "Push-ups", "Sidestepping", "Who do you like?", "So do you like anyone?", "You should tell me who you like.", "Who do you like? Tell me!", "Tell me the name of the person you like.", "Rules: Keep the world clean", "Rules: No painting", "Rules: Ignore the whispers", "Get well soon!", "Rest as long as you need.", "How are you feeling?", "Dual Quarrel: I'm sorry.", "Dual Quarrel: I think we should be friends again.", "Quarrel: I'm sorry for being so mean.", "??? (Change00)", "??? (ChangeCold)", "??? (ChangeRepair)", "Rumor", "??? (GameEnd00)", "??? (GameEnd01)", "Fond memory", "Singing (Greenhorne)", "Singing (???)", "Cleaning (Thank you!)", "Cleaning (I can help!)", "Cleaning (Cheering)", "Time for a new look!", "Impressions"})
         Me.Select_interac_activity.Location = New System.Drawing.Point(3, 308)
         Me.Select_interac_activity.Name = "Select_interac_activity"
-        Me.Select_interac_activity.Size = New System.Drawing.Size(157, 21)
+        Me.Select_interac_activity.Size = New System.Drawing.Size(182, 21)
         Me.Select_interac_activity.TabIndex = 9
         '
         'Group_interaction
@@ -6434,6 +6547,649 @@ Partial Class Miitopia_SE
         Me.PictureBox20.TabIndex = 1
         Me.PictureBox20.TabStop = False
         '
+        'Tab_hero_relationship
+        '
+        Me.Tab_hero_relationship.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
+        Me.Tab_hero_relationship.Controls.Add(Me.PictureBox30)
+        Me.Tab_hero_relationship.Controls.Add(Me.PictureBox15)
+        Me.Tab_hero_relationship.Controls.Add(Me.Panel_hero_setall)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_25)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_24)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_23)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_22)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_21)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_20)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_19)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_18)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_17)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_16)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_15)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_14)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_13)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_12)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_11)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_10)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_9)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_8)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_7)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_6)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_5)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_4)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_3)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_2)
+        Me.Tab_hero_relationship.Controls.Add(Me.Group_relation_1)
+        Me.Tab_hero_relationship.Controls.Add(Me.Select_rela_gMii)
+        Me.Tab_hero_relationship.Location = New System.Drawing.Point(4, 22)
+        Me.Tab_hero_relationship.Name = "Tab_hero_relationship"
+        Me.Tab_hero_relationship.Size = New System.Drawing.Size(524, 351)
+        Me.Tab_hero_relationship.TabIndex = 3
+        Me.Tab_hero_relationship.Text = "Relationship"
+        Me.Tab_hero_relationship.UseVisualStyleBackColor = True
+        '
+        'PictureBox15
+        '
+        Me.PictureBox15.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_mii_love
+        Me.PictureBox15.Location = New System.Drawing.Point(6, 160)
+        Me.PictureBox15.Name = "PictureBox15"
+        Me.PictureBox15.Size = New System.Drawing.Size(41, 30)
+        Me.PictureBox15.TabIndex = 31
+        Me.PictureBox15.TabStop = False
+        '
+        'Panel_hero_setall
+        '
+        Me.Panel_hero_setall.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_hero_setall.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature3
+        Me.Panel_hero_setall.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel_hero_setall.Controls.Add(Me.Text_hero_setall)
+        Me.Panel_hero_setall.Controls.Add(Me.valu_hero_setall)
+        Me.Panel_hero_setall.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel_hero_setall.Location = New System.Drawing.Point(6, 306)
+        Me.Panel_hero_setall.Name = "Panel_hero_setall"
+        Me.Panel_hero_setall.Size = New System.Drawing.Size(177, 39)
+        Me.Panel_hero_setall.TabIndex = 30
+        '
+        'Text_hero_setall
+        '
+        Me.Text_hero_setall.AutoSize = True
+        Me.Text_hero_setall.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_hero_setall.Location = New System.Drawing.Point(20, 13)
+        Me.Text_hero_setall.Name = "Text_hero_setall"
+        Me.Text_hero_setall.Size = New System.Drawing.Size(54, 13)
+        Me.Text_hero_setall.TabIndex = 1
+        Me.Text_hero_setall.Text = "Set all to :"
+        '
+        'valu_hero_setall
+        '
+        Me.valu_hero_setall.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_hero_setall.Location = New System.Drawing.Point(111, 11)
+        Me.valu_hero_setall.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_hero_setall.Name = "valu_hero_setall"
+        Me.valu_hero_setall.Size = New System.Drawing.Size(54, 16)
+        Me.valu_hero_setall.TabIndex = 0
+        Me.valu_hero_setall.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_hero_setall.Value = New Decimal(New Integer() {490, 0, 0, 0})
+        '
+        'Group_relation_25
+        '
+        Me.Group_relation_25.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_25.Controls.Add(Me.valu_relation_25)
+        Me.Group_relation_25.Location = New System.Drawing.Point(392, 251)
+        Me.Group_relation_25.Name = "Group_relation_25"
+        Me.Group_relation_25.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_25.TabIndex = 29
+        Me.Group_relation_25.TabStop = False
+        Me.Group_relation_25.Text = "Mii"
+        '
+        'valu_relation_25
+        '
+        Me.valu_relation_25.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_25.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_25.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_25.Name = "valu_relation_25"
+        Me.valu_relation_25.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_25.TabIndex = 0
+        Me.valu_relation_25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_24
+        '
+        Me.Group_relation_24.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_24.Controls.Add(Me.valu_relation_24)
+        Me.Group_relation_24.Location = New System.Drawing.Point(307, 251)
+        Me.Group_relation_24.Name = "Group_relation_24"
+        Me.Group_relation_24.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_24.TabIndex = 28
+        Me.Group_relation_24.TabStop = False
+        Me.Group_relation_24.Text = "Mii"
+        '
+        'valu_relation_24
+        '
+        Me.valu_relation_24.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_24.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_24.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_24.Name = "valu_relation_24"
+        Me.valu_relation_24.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_24.TabIndex = 0
+        Me.valu_relation_24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_23
+        '
+        Me.Group_relation_23.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_23.Controls.Add(Me.valu_relation_23)
+        Me.Group_relation_23.Location = New System.Drawing.Point(222, 251)
+        Me.Group_relation_23.Name = "Group_relation_23"
+        Me.Group_relation_23.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_23.TabIndex = 27
+        Me.Group_relation_23.TabStop = False
+        Me.Group_relation_23.Text = "Mii"
+        '
+        'valu_relation_23
+        '
+        Me.valu_relation_23.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_23.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_23.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_23.Name = "valu_relation_23"
+        Me.valu_relation_23.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_23.TabIndex = 0
+        Me.valu_relation_23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_22
+        '
+        Me.Group_relation_22.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_22.Controls.Add(Me.valu_relation_22)
+        Me.Group_relation_22.Location = New System.Drawing.Point(137, 251)
+        Me.Group_relation_22.Name = "Group_relation_22"
+        Me.Group_relation_22.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_22.TabIndex = 26
+        Me.Group_relation_22.TabStop = False
+        Me.Group_relation_22.Text = "Mii"
+        '
+        'valu_relation_22
+        '
+        Me.valu_relation_22.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_22.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_22.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_22.Name = "valu_relation_22"
+        Me.valu_relation_22.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_22.TabIndex = 0
+        Me.valu_relation_22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_21
+        '
+        Me.Group_relation_21.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_21.Controls.Add(Me.valu_relation_21)
+        Me.Group_relation_21.Location = New System.Drawing.Point(52, 251)
+        Me.Group_relation_21.Name = "Group_relation_21"
+        Me.Group_relation_21.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_21.TabIndex = 25
+        Me.Group_relation_21.TabStop = False
+        Me.Group_relation_21.Text = "Mii"
+        '
+        'valu_relation_21
+        '
+        Me.valu_relation_21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_21.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_21.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_21.Name = "valu_relation_21"
+        Me.valu_relation_21.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_21.TabIndex = 0
+        Me.valu_relation_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_20
+        '
+        Me.Group_relation_20.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_20.Controls.Add(Me.valu_relation_20)
+        Me.Group_relation_20.Location = New System.Drawing.Point(392, 197)
+        Me.Group_relation_20.Name = "Group_relation_20"
+        Me.Group_relation_20.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_20.TabIndex = 24
+        Me.Group_relation_20.TabStop = False
+        Me.Group_relation_20.Text = "Mii"
+        '
+        'valu_relation_20
+        '
+        Me.valu_relation_20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_20.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_20.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_20.Name = "valu_relation_20"
+        Me.valu_relation_20.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_20.TabIndex = 0
+        Me.valu_relation_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_19
+        '
+        Me.Group_relation_19.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_19.Controls.Add(Me.valu_relation_19)
+        Me.Group_relation_19.Location = New System.Drawing.Point(307, 197)
+        Me.Group_relation_19.Name = "Group_relation_19"
+        Me.Group_relation_19.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_19.TabIndex = 23
+        Me.Group_relation_19.TabStop = False
+        Me.Group_relation_19.Text = "Mii"
+        '
+        'valu_relation_19
+        '
+        Me.valu_relation_19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_19.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_19.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_19.Name = "valu_relation_19"
+        Me.valu_relation_19.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_19.TabIndex = 0
+        Me.valu_relation_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_18
+        '
+        Me.Group_relation_18.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_18.Controls.Add(Me.valu_relation_18)
+        Me.Group_relation_18.Location = New System.Drawing.Point(222, 197)
+        Me.Group_relation_18.Name = "Group_relation_18"
+        Me.Group_relation_18.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_18.TabIndex = 22
+        Me.Group_relation_18.TabStop = False
+        Me.Group_relation_18.Text = "Mii"
+        '
+        'valu_relation_18
+        '
+        Me.valu_relation_18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_18.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_18.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_18.Name = "valu_relation_18"
+        Me.valu_relation_18.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_18.TabIndex = 0
+        Me.valu_relation_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_17
+        '
+        Me.Group_relation_17.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_17.Controls.Add(Me.valu_relation_17)
+        Me.Group_relation_17.Location = New System.Drawing.Point(137, 197)
+        Me.Group_relation_17.Name = "Group_relation_17"
+        Me.Group_relation_17.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_17.TabIndex = 21
+        Me.Group_relation_17.TabStop = False
+        Me.Group_relation_17.Text = "Mii"
+        '
+        'valu_relation_17
+        '
+        Me.valu_relation_17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_17.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_17.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_17.Name = "valu_relation_17"
+        Me.valu_relation_17.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_17.TabIndex = 0
+        Me.valu_relation_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_16
+        '
+        Me.Group_relation_16.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_16.Controls.Add(Me.valu_relation_16)
+        Me.Group_relation_16.Location = New System.Drawing.Point(52, 197)
+        Me.Group_relation_16.Name = "Group_relation_16"
+        Me.Group_relation_16.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_16.TabIndex = 20
+        Me.Group_relation_16.TabStop = False
+        Me.Group_relation_16.Text = "Mii"
+        '
+        'valu_relation_16
+        '
+        Me.valu_relation_16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_16.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_16.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_16.Name = "valu_relation_16"
+        Me.valu_relation_16.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_16.TabIndex = 0
+        Me.valu_relation_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_15
+        '
+        Me.Group_relation_15.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_15.Controls.Add(Me.valu_relation_15)
+        Me.Group_relation_15.Location = New System.Drawing.Point(392, 143)
+        Me.Group_relation_15.Name = "Group_relation_15"
+        Me.Group_relation_15.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_15.TabIndex = 18
+        Me.Group_relation_15.TabStop = False
+        Me.Group_relation_15.Text = "Mii"
+        '
+        'valu_relation_15
+        '
+        Me.valu_relation_15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_15.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_15.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_15.Name = "valu_relation_15"
+        Me.valu_relation_15.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_15.TabIndex = 0
+        Me.valu_relation_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_14
+        '
+        Me.Group_relation_14.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_14.Controls.Add(Me.valu_relation_14)
+        Me.Group_relation_14.Location = New System.Drawing.Point(307, 143)
+        Me.Group_relation_14.Name = "Group_relation_14"
+        Me.Group_relation_14.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_14.TabIndex = 17
+        Me.Group_relation_14.TabStop = False
+        Me.Group_relation_14.Text = "Mii"
+        '
+        'valu_relation_14
+        '
+        Me.valu_relation_14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_14.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_14.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_14.Name = "valu_relation_14"
+        Me.valu_relation_14.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_14.TabIndex = 0
+        Me.valu_relation_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_13
+        '
+        Me.Group_relation_13.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_13.Controls.Add(Me.valu_relation_13)
+        Me.Group_relation_13.Location = New System.Drawing.Point(222, 143)
+        Me.Group_relation_13.Name = "Group_relation_13"
+        Me.Group_relation_13.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_13.TabIndex = 16
+        Me.Group_relation_13.TabStop = False
+        Me.Group_relation_13.Text = "Mii"
+        '
+        'valu_relation_13
+        '
+        Me.valu_relation_13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_13.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_13.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_13.Name = "valu_relation_13"
+        Me.valu_relation_13.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_13.TabIndex = 0
+        Me.valu_relation_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_12
+        '
+        Me.Group_relation_12.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_12.Controls.Add(Me.valu_relation_12)
+        Me.Group_relation_12.Location = New System.Drawing.Point(137, 143)
+        Me.Group_relation_12.Name = "Group_relation_12"
+        Me.Group_relation_12.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_12.TabIndex = 15
+        Me.Group_relation_12.TabStop = False
+        Me.Group_relation_12.Text = "Mii"
+        '
+        'valu_relation_12
+        '
+        Me.valu_relation_12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_12.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_12.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_12.Name = "valu_relation_12"
+        Me.valu_relation_12.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_12.TabIndex = 0
+        Me.valu_relation_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_11
+        '
+        Me.Group_relation_11.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_11.Controls.Add(Me.valu_relation_11)
+        Me.Group_relation_11.Location = New System.Drawing.Point(52, 143)
+        Me.Group_relation_11.Name = "Group_relation_11"
+        Me.Group_relation_11.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_11.TabIndex = 14
+        Me.Group_relation_11.TabStop = False
+        Me.Group_relation_11.Text = "Mii"
+        '
+        'valu_relation_11
+        '
+        Me.valu_relation_11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_11.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_11.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_11.Name = "valu_relation_11"
+        Me.valu_relation_11.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_11.TabIndex = 0
+        Me.valu_relation_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_10
+        '
+        Me.Group_relation_10.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_10.Controls.Add(Me.valu_relation_10)
+        Me.Group_relation_10.Location = New System.Drawing.Point(392, 89)
+        Me.Group_relation_10.Name = "Group_relation_10"
+        Me.Group_relation_10.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_10.TabIndex = 12
+        Me.Group_relation_10.TabStop = False
+        Me.Group_relation_10.Text = "Mii"
+        '
+        'valu_relation_10
+        '
+        Me.valu_relation_10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_10.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_10.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_10.Name = "valu_relation_10"
+        Me.valu_relation_10.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_10.TabIndex = 0
+        Me.valu_relation_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_9
+        '
+        Me.Group_relation_9.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_9.Controls.Add(Me.valu_relation_9)
+        Me.Group_relation_9.Location = New System.Drawing.Point(307, 89)
+        Me.Group_relation_9.Name = "Group_relation_9"
+        Me.Group_relation_9.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_9.TabIndex = 11
+        Me.Group_relation_9.TabStop = False
+        Me.Group_relation_9.Text = "Mii"
+        '
+        'valu_relation_9
+        '
+        Me.valu_relation_9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_9.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_9.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_9.Name = "valu_relation_9"
+        Me.valu_relation_9.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_9.TabIndex = 0
+        Me.valu_relation_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_8
+        '
+        Me.Group_relation_8.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_8.Controls.Add(Me.valu_relation_8)
+        Me.Group_relation_8.Location = New System.Drawing.Point(222, 89)
+        Me.Group_relation_8.Name = "Group_relation_8"
+        Me.Group_relation_8.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_8.TabIndex = 10
+        Me.Group_relation_8.TabStop = False
+        Me.Group_relation_8.Text = "Mii"
+        '
+        'valu_relation_8
+        '
+        Me.valu_relation_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_8.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_8.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_8.Name = "valu_relation_8"
+        Me.valu_relation_8.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_8.TabIndex = 0
+        Me.valu_relation_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_7
+        '
+        Me.Group_relation_7.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_7.Controls.Add(Me.valu_relation_7)
+        Me.Group_relation_7.Location = New System.Drawing.Point(137, 89)
+        Me.Group_relation_7.Name = "Group_relation_7"
+        Me.Group_relation_7.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_7.TabIndex = 9
+        Me.Group_relation_7.TabStop = False
+        Me.Group_relation_7.Text = "Mii"
+        '
+        'valu_relation_7
+        '
+        Me.valu_relation_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_7.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_7.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_7.Name = "valu_relation_7"
+        Me.valu_relation_7.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_7.TabIndex = 0
+        Me.valu_relation_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_6
+        '
+        Me.Group_relation_6.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_6.Controls.Add(Me.valu_relation_6)
+        Me.Group_relation_6.Location = New System.Drawing.Point(52, 89)
+        Me.Group_relation_6.Name = "Group_relation_6"
+        Me.Group_relation_6.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_6.TabIndex = 8
+        Me.Group_relation_6.TabStop = False
+        Me.Group_relation_6.Text = "Mii"
+        '
+        'valu_relation_6
+        '
+        Me.valu_relation_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_6.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_6.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_6.Name = "valu_relation_6"
+        Me.valu_relation_6.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_6.TabIndex = 0
+        Me.valu_relation_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_5
+        '
+        Me.Group_relation_5.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_5.Controls.Add(Me.valu_relation_5)
+        Me.Group_relation_5.Location = New System.Drawing.Point(392, 35)
+        Me.Group_relation_5.Name = "Group_relation_5"
+        Me.Group_relation_5.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_5.TabIndex = 6
+        Me.Group_relation_5.TabStop = False
+        Me.Group_relation_5.Text = "Mii"
+        '
+        'valu_relation_5
+        '
+        Me.valu_relation_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_5.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_5.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_5.Name = "valu_relation_5"
+        Me.valu_relation_5.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_5.TabIndex = 0
+        Me.valu_relation_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_4
+        '
+        Me.Group_relation_4.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_4.Controls.Add(Me.valu_relation_4)
+        Me.Group_relation_4.Location = New System.Drawing.Point(307, 35)
+        Me.Group_relation_4.Name = "Group_relation_4"
+        Me.Group_relation_4.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_4.TabIndex = 5
+        Me.Group_relation_4.TabStop = False
+        Me.Group_relation_4.Text = "Mii"
+        '
+        'valu_relation_4
+        '
+        Me.valu_relation_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_4.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_4.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_4.Name = "valu_relation_4"
+        Me.valu_relation_4.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_4.TabIndex = 0
+        Me.valu_relation_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_3
+        '
+        Me.Group_relation_3.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_3.Controls.Add(Me.valu_relation_3)
+        Me.Group_relation_3.Location = New System.Drawing.Point(222, 35)
+        Me.Group_relation_3.Name = "Group_relation_3"
+        Me.Group_relation_3.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_3.TabIndex = 4
+        Me.Group_relation_3.TabStop = False
+        Me.Group_relation_3.Text = "Mii"
+        '
+        'valu_relation_3
+        '
+        Me.valu_relation_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_3.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_3.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_3.Name = "valu_relation_3"
+        Me.valu_relation_3.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_3.TabIndex = 0
+        Me.valu_relation_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_2
+        '
+        Me.Group_relation_2.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_2.Controls.Add(Me.valu_relation_2)
+        Me.Group_relation_2.Location = New System.Drawing.Point(137, 35)
+        Me.Group_relation_2.Name = "Group_relation_2"
+        Me.Group_relation_2.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_2.TabIndex = 3
+        Me.Group_relation_2.TabStop = False
+        Me.Group_relation_2.Text = "Mii"
+        '
+        'valu_relation_2
+        '
+        Me.valu_relation_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_2.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_2.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_2.Name = "valu_relation_2"
+        Me.valu_relation_2.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_2.TabIndex = 0
+        Me.valu_relation_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Group_relation_1
+        '
+        Me.Group_relation_1.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Group_relation_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Group_relation_1.Controls.Add(Me.valu_relation_1)
+        Me.Group_relation_1.Location = New System.Drawing.Point(52, 35)
+        Me.Group_relation_1.Name = "Group_relation_1"
+        Me.Group_relation_1.Size = New System.Drawing.Size(80, 48)
+        Me.Group_relation_1.TabIndex = 2
+        Me.Group_relation_1.TabStop = False
+        Me.Group_relation_1.Text = "Mii"
+        '
+        'valu_relation_1
+        '
+        Me.valu_relation_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_relation_1.Location = New System.Drawing.Point(6, 18)
+        Me.valu_relation_1.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_relation_1.Name = "valu_relation_1"
+        Me.valu_relation_1.Size = New System.Drawing.Size(68, 16)
+        Me.valu_relation_1.TabIndex = 0
+        Me.valu_relation_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Select_rela_gMii
+        '
+        Me.Select_rela_gMii.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_rela_gMii.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_rela_gMii.FormattingEnabled = True
+        Me.Select_rela_gMii.Items.AddRange(New Object() {"Mii 1 to 25", "Mii 26 to 50", "Mii 51 to 75", "Mii 76 to 100"})
+        Me.Select_rela_gMii.Location = New System.Drawing.Point(6, 6)
+        Me.Select_rela_gMii.Name = "Select_rela_gMii"
+        Me.Select_rela_gMii.Size = New System.Drawing.Size(121, 21)
+        Me.Select_rela_gMii.TabIndex = 0
+        '
         'Button_open_hero
         '
         Me.Button_open_hero.BackColor = System.Drawing.Color.Transparent
@@ -6528,6 +7284,15 @@ Partial Class Miitopia_SE
         Me.Text_notification.TabIndex = 2
         Me.Text_notification.Text = "Done"
         Me.Text_notification.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox30
+        '
+        Me.PictureBox30.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_mii_love2
+        Me.PictureBox30.Location = New System.Drawing.Point(346, 309)
+        Me.PictureBox30.Name = "PictureBox30"
+        Me.PictureBox30.Size = New System.Drawing.Size(91, 30)
+        Me.PictureBox30.TabIndex = 32
+        Me.PictureBox30.TabStop = False
         '
         'Miitopia_SE
         '
@@ -6977,11 +7742,67 @@ Partial Class Miitopia_SE
         Me.Bar_exp_vampire.ResumeLayout(False)
         CType(Me.valu_exp_vampire, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Tab_hero_relationship.ResumeLayout(False)
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_hero_setall.ResumeLayout(False)
+        Me.Panel_hero_setall.PerformLayout()
+        CType(Me.valu_hero_setall, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_25.ResumeLayout(False)
+        CType(Me.valu_relation_25, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_24.ResumeLayout(False)
+        CType(Me.valu_relation_24, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_23.ResumeLayout(False)
+        CType(Me.valu_relation_23, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_22.ResumeLayout(False)
+        CType(Me.valu_relation_22, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_21.ResumeLayout(False)
+        CType(Me.valu_relation_21, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_20.ResumeLayout(False)
+        CType(Me.valu_relation_20, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_19.ResumeLayout(False)
+        CType(Me.valu_relation_19, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_18.ResumeLayout(False)
+        CType(Me.valu_relation_18, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_17.ResumeLayout(False)
+        CType(Me.valu_relation_17, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_16.ResumeLayout(False)
+        CType(Me.valu_relation_16, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_15.ResumeLayout(False)
+        CType(Me.valu_relation_15, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_14.ResumeLayout(False)
+        CType(Me.valu_relation_14, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_13.ResumeLayout(False)
+        CType(Me.valu_relation_13, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_12.ResumeLayout(False)
+        CType(Me.valu_relation_12, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_11.ResumeLayout(False)
+        CType(Me.valu_relation_11, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_10.ResumeLayout(False)
+        CType(Me.valu_relation_10, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_9.ResumeLayout(False)
+        CType(Me.valu_relation_9, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_8.ResumeLayout(False)
+        CType(Me.valu_relation_8, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_7.ResumeLayout(False)
+        CType(Me.valu_relation_7, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_6.ResumeLayout(False)
+        CType(Me.valu_relation_6, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_5.ResumeLayout(False)
+        CType(Me.valu_relation_5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_4.ResumeLayout(False)
+        CType(Me.valu_relation_4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_3.ResumeLayout(False)
+        CType(Me.valu_relation_3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_2.ResumeLayout(False)
+        CType(Me.valu_relation_2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_relation_1.ResumeLayout(False)
+        CType(Me.valu_relation_1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Button_open_hero.ResumeLayout(False)
         Me.Button_save_hero.ResumeLayout(False)
         Me.File_path_hero.ResumeLayout(False)
         Me.File_path_hero.PerformLayout()
         Me.Panel_notification.ResumeLayout(False)
+        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -7480,5 +8301,62 @@ Partial Class Miitopia_SE
     Friend WithEvents Check_music_reset As System.Windows.Forms.RadioButton
     Friend WithEvents Check_music_unlock As System.Windows.Forms.RadioButton
     Friend WithEvents Icon_ency_music As System.Windows.Forms.PictureBox
+    Friend WithEvents Tab_hero_relationship As System.Windows.Forms.TabPage
+    Friend WithEvents Group_relation_25 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_25 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_24 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_24 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_23 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_23 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_22 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_22 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_21 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_21 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_20 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_20 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_19 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_19 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_18 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_18 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_17 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_17 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_16 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_15 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_14 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_13 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_12 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_11 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_10 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_9 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_8 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_7 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_6 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_5 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_4 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_3 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_2 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Group_relation_1 As System.Windows.Forms.GroupBox
+    Friend WithEvents valu_relation_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Select_rela_gMii As System.Windows.Forms.ComboBox
+    Friend WithEvents Panel_hero_setall As System.Windows.Forms.Panel
+    Friend WithEvents Text_hero_setall As System.Windows.Forms.Label
+    Friend WithEvents valu_hero_setall As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox15 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox30 As System.Windows.Forms.PictureBox
 
 End Class

@@ -59,6 +59,32 @@ Public Class Miitopia_SE
     Dim Equipweaponap As String
     Dim Equiphatap As String
     Dim Equipclotheap As String
+    Dim Relationship As String
+    Dim relation1 As String
+    Dim relation2 As String
+    Dim relation3 As String
+    Dim relation4 As String
+    Dim relation5 As String
+    Dim relation6 As String
+    Dim relation7 As String
+    Dim relation8 As String
+    Dim relation9 As String
+    Dim relation10 As String
+    Dim relation11 As String
+    Dim relation12 As String
+    Dim relation13 As String
+    Dim relation14 As String
+    Dim relation15 As String
+    Dim relation16 As String
+    Dim relation17 As String
+    Dim relation18 As String
+    Dim relation19 As String
+    Dim relation20 As String
+    Dim relation21 As String
+    Dim relation22 As String
+    Dim relation23 As String
+    Dim relation24 As String
+    Dim relation25 As String
 
     Public Sub Hidemenu() ' MSE Functions
         If Menu_panel.Width = 34 Then
@@ -103,6 +129,393 @@ Public Class Miitopia_SE
         Icon_inn_room_topright_right.Image = Nothing
         Icon_inn_room_center_left.Image = Nothing
         Icon_inn_room_center_right.Image = Nothing
+    End Sub
+
+    Public Sub readrelationship()
+        Try
+            Dim Reader As New PackageIO.Reader(hero, PackageIO.Endian.Little)
+            If Select_rela_gMii.SelectedItem = Select_rela_gMii.Items.Item(0) Then
+                Reader.Position = Relationship
+                relation1 = Reader.Position
+                valu_relation_1.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H2
+                relation2 = Reader.Position
+                valu_relation_2.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H4
+                relation3 = Reader.Position
+                valu_relation_3.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H6
+                relation4 = Reader.Position
+                valu_relation_4.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H8
+                relation5 = Reader.Position
+                valu_relation_5.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HA
+                relation6 = Reader.Position
+                valu_relation_6.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HC
+                relation7 = Reader.Position
+                valu_relation_7.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HE
+                relation8 = Reader.Position
+                valu_relation_8.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H10
+                relation9 = Reader.Position
+                valu_relation_9.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H12
+                relation10 = Reader.Position
+                valu_relation_10.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H20
+                relation11 = Reader.Position
+                valu_relation_11.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H22
+                relation12 = Reader.Position
+                valu_relation_12.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H24
+                relation13 = Reader.Position
+                valu_relation_13.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H26
+                relation14 = Reader.Position
+                valu_relation_14.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H28
+                relation15 = Reader.Position
+                valu_relation_15.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H2A
+                relation16 = Reader.Position
+                valu_relation_16.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H2C
+                relation17 = Reader.Position
+                valu_relation_17.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H2E
+                relation18 = Reader.Position
+                valu_relation_18.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H30
+                relation19 = Reader.Position
+                valu_relation_19.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H32
+                relation20 = Reader.Position
+                valu_relation_20.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H34
+                relation21 = Reader.Position
+                valu_relation_21.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H36
+                relation22 = Reader.Position
+                valu_relation_22.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H38
+                relation23 = Reader.Position
+                valu_relation_23.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H3A
+                relation24 = Reader.Position
+                valu_relation_24.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H3C
+                relation25 = Reader.Position
+                valu_relation_25.Value = Reader.ReadUInt16
+            ElseIf Select_rela_gMii.SelectedItem = Select_rela_gMii.Items.Item(1) Then
+                Reader.Position = Relationship + &H3E
+                relation1 = Reader.Position
+                valu_relation_1.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H40
+                relation2 = Reader.Position
+                valu_relation_2.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H42
+                relation3 = Reader.Position
+                valu_relation_3.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H44
+                relation4 = Reader.Position
+                valu_relation_4.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H46
+                relation5 = Reader.Position
+                valu_relation_5.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H48
+                relation6 = Reader.Position
+                valu_relation_6.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H4A
+                relation7 = Reader.Position
+                valu_relation_7.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H4C
+                relation8 = Reader.Position
+                valu_relation_8.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H4E
+                relation9 = Reader.Position
+                valu_relation_9.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H50
+                relation10 = Reader.Position
+                valu_relation_10.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H52
+                relation11 = Reader.Position
+                valu_relation_11.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H54
+                relation12 = Reader.Position
+                valu_relation_12.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H56
+                relation13 = Reader.Position
+                valu_relation_13.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H58
+                relation14 = Reader.Position
+                valu_relation_14.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H5A
+                relation15 = Reader.Position
+                valu_relation_15.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H5C
+                relation16 = Reader.Position
+                valu_relation_16.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H5E
+                relation17 = Reader.Position
+                valu_relation_17.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H60
+                relation18 = Reader.Position
+                valu_relation_18.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H62
+                relation19 = Reader.Position
+                valu_relation_19.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H64
+                relation20 = Reader.Position
+                valu_relation_20.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H66
+                relation21 = Reader.Position
+                valu_relation_21.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H68
+                relation22 = Reader.Position
+                valu_relation_22.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H6A
+                relation23 = Reader.Position
+                valu_relation_23.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H6C
+                relation24 = Reader.Position
+                valu_relation_24.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H6E
+                relation25 = Reader.Position
+                valu_relation_25.Value = Reader.ReadUInt16
+            ElseIf Select_rela_gMii.SelectedItem = Select_rela_gMii.Items.Item(2) Then
+                Reader.Position = Relationship + &H70
+                relation1 = Reader.Position
+                valu_relation_1.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H72
+                relation2 = Reader.Position
+                valu_relation_2.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H74
+                relation3 = Reader.Position
+                valu_relation_3.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H76
+                relation4 = Reader.Position
+                valu_relation_4.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H78
+                relation5 = Reader.Position
+                valu_relation_5.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H7A
+                relation6 = Reader.Position
+                valu_relation_6.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H7C
+                relation7 = Reader.Position
+                valu_relation_7.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H7E
+                relation8 = Reader.Position
+                valu_relation_8.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H80
+                relation9 = Reader.Position
+                valu_relation_9.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H82
+                relation10 = Reader.Position
+                valu_relation_10.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H84
+                relation11 = Reader.Position
+                valu_relation_11.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H86
+                relation12 = Reader.Position
+                valu_relation_12.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H88
+                relation13 = Reader.Position
+                valu_relation_13.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H8A
+                relation14 = Reader.Position
+                valu_relation_14.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H8C
+                relation15 = Reader.Position
+                valu_relation_15.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H8E
+                relation16 = Reader.Position
+                valu_relation_16.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H90
+                relation17 = Reader.Position
+                valu_relation_17.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H92
+                relation18 = Reader.Position
+                valu_relation_18.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H94
+                relation19 = Reader.Position
+                valu_relation_19.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H96
+                relation20 = Reader.Position
+                valu_relation_20.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H98
+                relation21 = Reader.Position
+                valu_relation_21.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H9A
+                relation22 = Reader.Position
+                valu_relation_22.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H9C
+                relation23 = Reader.Position
+                valu_relation_23.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &H9E
+                relation24 = Reader.Position
+                valu_relation_24.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HA0
+                relation25 = Reader.Position
+                valu_relation_25.Value = Reader.ReadUInt16
+            ElseIf Select_rela_gMii.SelectedItem = Select_rela_gMii.Items.Item(3) Then
+                Reader.Position = Relationship + &HA2
+                relation1 = Reader.Position
+                valu_relation_1.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HA4
+                relation2 = Reader.Position
+                valu_relation_2.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HA6
+                relation3 = Reader.Position
+                valu_relation_3.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HA8
+                relation4 = Reader.Position
+                valu_relation_4.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HAA
+                relation5 = Reader.Position
+                valu_relation_5.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HAC
+                relation6 = Reader.Position
+                valu_relation_6.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HAE
+                relation7 = Reader.Position
+                valu_relation_7.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HB0
+                relation8 = Reader.Position
+                valu_relation_8.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HB2
+                relation9 = Reader.Position
+                valu_relation_9.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HB4
+                relation10 = Reader.Position
+                valu_relation_10.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HB6
+                relation11 = Reader.Position
+                valu_relation_11.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HB8
+                relation12 = Reader.Position
+                valu_relation_12.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HBA
+                relation13 = Reader.Position
+                valu_relation_13.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HBC
+                relation14 = Reader.Position
+                valu_relation_14.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HBE
+                relation15 = Reader.Position
+                valu_relation_15.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HC0
+                relation16 = Reader.Position
+                valu_relation_16.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HC2
+                relation17 = Reader.Position
+                valu_relation_17.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HC4
+                relation18 = Reader.Position
+                valu_relation_18.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HC6
+                relation19 = Reader.Position
+                valu_relation_19.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HC8
+                relation20 = Reader.Position
+                valu_relation_20.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HCA
+                relation21 = Reader.Position
+                valu_relation_21.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HCC
+                relation22 = Reader.Position
+                valu_relation_22.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HCE
+                relation23 = Reader.Position
+                valu_relation_23.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HD0
+                relation24 = Reader.Position
+                valu_relation_24.Value = Reader.ReadUInt16
+                Reader.Position = Relationship + &HD2
+                relation25 = Reader.Position
+                valu_relation_25.Value = Reader.ReadUInt16
+            End If
+        Catch ex As Exception
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Read relationship"
+                fdialog.Msg.Text = "An error has occured"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Lecture relations"
+                fdialog.Msg.Text = "Une erreur est survenue"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Public Sub writerelationship()
+        Try
+            Dim writer As New PackageIO.Writer(hero, PackageIO.Endian.Little)
+            writer.Position = relation1
+            writer.WriteUInt16(valu_relation_1.Value)
+            writer.Position = relation2
+            writer.WriteUInt16(valu_relation_2.Value)
+            writer.Position = relation3
+            writer.WriteUInt16(valu_relation_3.Value)
+            writer.Position = relation4
+            writer.WriteUInt16(valu_relation_4.Value)
+            writer.Position = relation5
+            writer.WriteUInt16(valu_relation_5.Value)
+            writer.Position = relation6
+            writer.WriteUInt16(valu_relation_6.Value)
+            writer.Position = relation7
+            writer.WriteUInt16(valu_relation_7.Value)
+            writer.Position = relation8
+            writer.WriteUInt16(valu_relation_8.Value)
+            writer.Position = relation9
+            writer.WriteUInt16(valu_relation_9.Value)
+            writer.Position = relation10
+            writer.WriteUInt16(valu_relation_10.Value)
+            writer.Position = relation11
+            writer.WriteUInt16(valu_relation_11.Value)
+            writer.Position = relation12
+            writer.WriteUInt16(valu_relation_12.Value)
+            writer.Position = relation13
+            writer.WriteUInt16(valu_relation_13.Value)
+            writer.Position = relation14
+            writer.WriteUInt16(valu_relation_14.Value)
+            writer.Position = relation15
+            writer.WriteUInt16(valu_relation_15.Value)
+            writer.Position = relation16
+            writer.WriteUInt16(valu_relation_16.Value)
+            writer.Position = relation17
+            writer.WriteUInt16(valu_relation_17.Value)
+            writer.Position = relation18
+            writer.WriteUInt16(valu_relation_18.Value)
+            writer.Position = relation19
+            writer.WriteUInt16(valu_relation_19.Value)
+            writer.Position = relation20
+            writer.WriteUInt16(valu_relation_20.Value)
+            writer.Position = relation21
+            writer.WriteUInt16(valu_relation_21.Value)
+            writer.Position = relation22
+            writer.WriteUInt16(valu_relation_22.Value)
+            writer.Position = relation23
+            writer.WriteUInt16(valu_relation_23.Value)
+            writer.Position = relation24
+            writer.WriteUInt16(valu_relation_24.Value)
+            writer.Position = relation25
+            writer.WriteUInt16(valu_relation_25.Value)
+        Catch ex As Exception
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Write relationship"
+                fdialog.Msg.Text = "An error has occured"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Écriture relations"
+                fdialog.Msg.Text = "Une erreur est survenue"
+                fdialog.ShowDialog()
+            End If
+        End Try
     End Sub
 
     Public Sub selectlanguage()
@@ -225,6 +638,8 @@ Public Class Miitopia_SE
             Text_notification.Text = "Done"
             Check_medal_unlock.Text = "Unlock"
             Check_medal_reset.Text = "Reset"
+            Check_music_unlock.Text = "Unlock"
+            Check_music_reset.Text = "Reset"
         ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
             text_open.Text = "Ouvrir"
             text_save.Text = "Enregistrer"
@@ -344,6 +759,8 @@ Public Class Miitopia_SE
             Text_notification.Text = "Terminé"
             Check_medal_unlock.Text = "Débloquer"
             Check_medal_reset.Text = "Réinitialiser"
+            Check_music_unlock.Text = "Débloquer"
+            Check_music_reset.Text = "Réinitialiser"
         End If
     End Sub
 
@@ -7564,6 +7981,20 @@ Public Class Miitopia_SE
         End If
     End Sub
 
+    Private Sub Filever_text_MouseMove(sender As Object, e As EventArgs) Handles Filever_text.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to change save file version"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour changer la version de la sauvegarde"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Filever_text_MouseLeave(sender As Object, e As EventArgs) Handles Filever_text.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
     Private Sub Fea_bananas_Click(sender As Object, e As EventArgs) Handles Fea_bananas.Click
         valu_bananas.Value = 999
     End Sub
@@ -9270,6 +9701,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H390
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H130
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(1) Then
@@ -9396,6 +9829,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H390 + &H398
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H130 + &H398
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
@@ -9522,6 +9957,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H390 + (&H398 * 2)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H130 + (&H398 * 2)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(3) Then
@@ -9648,6 +10085,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H390 + (&H398 * 3)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H130 + (&H398 * 3)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(4) Then
@@ -9774,6 +10213,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H390 + (&H398 * 4)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H130 + (&H398 * 4)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(5) Then
@@ -9900,6 +10341,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H390 + (&H398 * 5)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H130 + (&H398 * 5)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(6) Then
@@ -10026,6 +10469,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H390 + (&H398 * 6)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H130 + (&H398 * 6)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(7) Then
@@ -10152,6 +10597,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H390 + (&H398 * 7)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H130 + (&H398 * 7)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(8) Then
@@ -10278,6 +10725,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H390 + (&H398 * 8)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H130 + (&H398 * 8)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(9) Then
@@ -10404,6 +10853,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H390 + (&H398 * 9)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H130 + (&H398 * 9)
+                    Relationship = Reader.Position
                 End If
             End If
             If Filever_text.Text = "JP" Then
@@ -10533,6 +10984,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H370
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H110
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(1) Then
@@ -10659,6 +11112,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H370 + &H378
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H110 + &H378
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
@@ -10785,6 +11240,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H370 + (&H378 * 2)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H110 + (&H378 * 2)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
@@ -10911,6 +11368,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H370 + (&H378 * 3)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H110 + (&H378 * 3)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
@@ -11037,6 +11496,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H370 + (&H378 * 4)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H110 + (&H378 * 4)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
@@ -11163,6 +11624,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H370 + (&H378 * 5)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H110 + (&H378 * 5)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
@@ -11289,6 +11752,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H370 + (&H378 * 6)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H110 + (&H378 * 6)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
@@ -11415,6 +11880,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H370 + (&H378 * 7)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H110 + (&H378 * 7)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
@@ -11541,6 +12008,8 @@ Public Class Miitopia_SE
                     Reader.Position = &H370 + (&H378 * 8)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H110 + (&H378 * 8)
+                    Relationship = Reader.Position
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
@@ -11667,10 +12136,13 @@ Public Class Miitopia_SE
                     Reader.Position = &H370 + (&H378 * 9)
                     Ggrabbed = Reader.Position
                     valu_ggrabbed.Value = Reader.ReadUInt32
+                    Reader.Position = &H110 + (&H378 * 9)
+                    Relationship = Reader.Position
                 End If
             End If
             readequipements()
             readequipappearance()
+            readrelationship()
         Catch ex As Exception
             Select_Mii.SelectedItem = Nothing
             If Select_language.SelectedItem = Select_language.Items.Item(0) Then
@@ -14995,5 +15467,145 @@ Public Class Miitopia_SE
 
     Private Sub Fea_ency_music_MouseLeave(sender As Object, e As EventArgs) Handles Fea_ency_music.MouseLeave
         Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Select_rela_gMii_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Select_rela_gMii.SelectedIndexChanged
+        If Select_rela_gMii.SelectedItem = Select_rela_gMii.Items.Item(0) Then
+            Group_relation_1.Text = "Mii 1"
+            Group_relation_2.Text = "Mii 2"
+            Group_relation_3.Text = "Mii 3"
+            Group_relation_4.Text = "Mii 4"
+            Group_relation_5.Text = "Mii 5"
+            Group_relation_6.Text = "Mii 6"
+            Group_relation_7.Text = "Mii 7"
+            Group_relation_8.Text = "Mii 8"
+            Group_relation_9.Text = "Mii 9"
+            Group_relation_10.Text = "Mii 10"
+            Group_relation_11.Text = "Mii 11"
+            Group_relation_12.Text = "Mii 12"
+            Group_relation_13.Text = "Mii 13"
+            Group_relation_14.Text = "Mii 14"
+            Group_relation_15.Text = "Mii 15"
+            Group_relation_16.Text = "Mii 16"
+            Group_relation_17.Text = "Mii 17"
+            Group_relation_18.Text = "Mii 18"
+            Group_relation_19.Text = "Mii 19"
+            Group_relation_20.Text = "Mii 20"
+            Group_relation_21.Text = "Mii 21"
+            Group_relation_22.Text = "Mii 22"
+            Group_relation_23.Text = "Mii 23"
+            Group_relation_24.Text = "Mii 24"
+            Group_relation_25.Text = "Mii 25"
+        End If
+        If Select_rela_gMii.SelectedItem = Select_rela_gMii.Items.Item(1) Then
+            Group_relation_1.Text = "Mii 26"
+            Group_relation_2.Text = "Mii 27"
+            Group_relation_3.Text = "Mii 28"
+            Group_relation_4.Text = "Mii 29"
+            Group_relation_5.Text = "Mii 30"
+            Group_relation_6.Text = "Mii 31"
+            Group_relation_7.Text = "Mii 32"
+            Group_relation_8.Text = "Mii 33"
+            Group_relation_9.Text = "Mii 34"
+            Group_relation_10.Text = "Mii 35"
+            Group_relation_11.Text = "Mii 36"
+            Group_relation_12.Text = "Mii 37"
+            Group_relation_13.Text = "Mii 38"
+            Group_relation_14.Text = "Mii 39"
+            Group_relation_15.Text = "Mii 40"
+            Group_relation_16.Text = "Mii 41"
+            Group_relation_17.Text = "Mii 42"
+            Group_relation_18.Text = "Mii 43"
+            Group_relation_19.Text = "Mii 44"
+            Group_relation_20.Text = "Mii 45"
+            Group_relation_21.Text = "Mii 46"
+            Group_relation_22.Text = "Mii 47"
+            Group_relation_23.Text = "Mii 48"
+            Group_relation_24.Text = "Mii 49"
+            Group_relation_25.Text = "Mii 50"
+        End If
+        If Select_rela_gMii.SelectedItem = Select_rela_gMii.Items.Item(2) Then
+            Group_relation_1.Text = "Mii 51"
+            Group_relation_2.Text = "Mii 52"
+            Group_relation_3.Text = "Mii 53"
+            Group_relation_4.Text = "Mii 54"
+            Group_relation_5.Text = "Mii 55"
+            Group_relation_6.Text = "Mii 56"
+            Group_relation_7.Text = "Mii 57"
+            Group_relation_8.Text = "Mii 58"
+            Group_relation_9.Text = "Mii 59"
+            Group_relation_10.Text = "Mii 60"
+            Group_relation_11.Text = "Mii 61"
+            Group_relation_12.Text = "Mii 62"
+            Group_relation_13.Text = "Mii 63"
+            Group_relation_14.Text = "Mii 64"
+            Group_relation_15.Text = "Mii 65"
+            Group_relation_16.Text = "Mii 66"
+            Group_relation_17.Text = "Mii 67"
+            Group_relation_18.Text = "Mii 68"
+            Group_relation_19.Text = "Mii 69"
+            Group_relation_20.Text = "Mii 70"
+            Group_relation_21.Text = "Mii 71"
+            Group_relation_22.Text = "Mii 72"
+            Group_relation_23.Text = "Mii 73"
+            Group_relation_24.Text = "Mii 74"
+            Group_relation_25.Text = "Mii 75"
+        End If
+        If Select_rela_gMii.SelectedItem = Select_rela_gMii.Items.Item(3) Then
+            Group_relation_1.Text = "Mii 76"
+            Group_relation_2.Text = "Mii 77"
+            Group_relation_3.Text = "Mii 78"
+            Group_relation_4.Text = "Mii 79"
+            Group_relation_5.Text = "Mii 80"
+            Group_relation_6.Text = "Mii 81"
+            Group_relation_7.Text = "Mii 82"
+            Group_relation_8.Text = "Mii 83"
+            Group_relation_9.Text = "Mii 84"
+            Group_relation_10.Text = "Mii 85"
+            Group_relation_11.Text = "Mii 86"
+            Group_relation_12.Text = "Mii 87"
+            Group_relation_13.Text = "Mii 88"
+            Group_relation_14.Text = "Mii 89"
+            Group_relation_15.Text = "Mii 90"
+            Group_relation_16.Text = "Mii 91"
+            Group_relation_17.Text = "Mii 92"
+            Group_relation_18.Text = "Mii 93"
+            Group_relation_19.Text = "Mii 94"
+            Group_relation_20.Text = "Mii 95"
+            Group_relation_21.Text = "Mii 96"
+            Group_relation_22.Text = "Mii 97"
+            Group_relation_23.Text = "Mii 98"
+            Group_relation_24.Text = "Mii 99"
+            Group_relation_25.Text = "Mii 100"
+        End If
+        readrelationship()
+    End Sub
+
+    Private Sub Panel_hero_setall_Click(sender As Object, e As EventArgs) Handles Panel_hero_setall.Click, Text_hero_setall.Click
+        valu_relation_1.Value = valu_hero_setall.Value
+        valu_relation_2.Value = valu_hero_setall.Value
+        valu_relation_3.Value = valu_hero_setall.Value
+        valu_relation_4.Value = valu_hero_setall.Value
+        valu_relation_5.Value = valu_hero_setall.Value
+        valu_relation_6.Value = valu_hero_setall.Value
+        valu_relation_7.Value = valu_hero_setall.Value
+        valu_relation_8.Value = valu_hero_setall.Value
+        valu_relation_9.Value = valu_hero_setall.Value
+        valu_relation_10.Value = valu_hero_setall.Value
+        valu_relation_11.Value = valu_hero_setall.Value
+        valu_relation_12.Value = valu_hero_setall.Value
+        valu_relation_13.Value = valu_hero_setall.Value
+        valu_relation_14.Value = valu_hero_setall.Value
+        valu_relation_15.Value = valu_hero_setall.Value
+        valu_relation_16.Value = valu_hero_setall.Value
+        valu_relation_17.Value = valu_hero_setall.Value
+        valu_relation_18.Value = valu_hero_setall.Value
+        valu_relation_19.Value = valu_hero_setall.Value
+        valu_relation_20.Value = valu_hero_setall.Value
+        valu_relation_21.Value = valu_hero_setall.Value
+        valu_relation_22.Value = valu_hero_setall.Value
+        valu_relation_23.Value = valu_hero_setall.Value
+        valu_relation_24.Value = valu_hero_setall.Value
+        valu_relation_25.Value = valu_hero_setall.Value
     End Sub
 End Class
