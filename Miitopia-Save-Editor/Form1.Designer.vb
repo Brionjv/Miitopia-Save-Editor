@@ -266,11 +266,17 @@ Partial Class Miitopia_SE
         Me.Bar_ct_warrior = New System.Windows.Forms.Panel()
         Me.valu_ct_warrior = New System.Windows.Forms.NumericUpDown()
         Me.Tab_ency_extras = New System.Windows.Forms.TabPage()
+        Me.Fea_ency_foods = New System.Windows.Forms.Panel()
+        Me.Check_foods_reset = New System.Windows.Forms.RadioButton()
+        Me.Check_foods_unlock = New System.Windows.Forms.RadioButton()
+        Me.Icon_ency_foods = New System.Windows.Forms.PictureBox()
         Me.Fea_ency_music = New System.Windows.Forms.Panel()
         Me.Check_music_reset = New System.Windows.Forms.RadioButton()
         Me.Check_music_unlock = New System.Windows.Forms.RadioButton()
         Me.Icon_ency_music = New System.Windows.Forms.PictureBox()
         Me.Tab_common_extras = New System.Windows.Forms.TabPage()
+        Me.Fea_dailyquest = New System.Windows.Forms.Panel()
+        Me.Icon_dailyquest = New System.Windows.Forms.PictureBox()
         Me.Fea_medal = New System.Windows.Forms.Panel()
         Me.Check_medal_reset = New System.Windows.Forms.RadioButton()
         Me.Check_medal_unlock = New System.Windows.Forms.RadioButton()
@@ -299,6 +305,10 @@ Partial Class Miitopia_SE
         Me.Panel_quest = New System.Windows.Forms.Panel()
         Me.TabControl3 = New System.Windows.Forms.TabControl()
         Me.Tab_quest_main = New System.Windows.Forms.TabPage()
+        Me.Fea_catalog = New System.Windows.Forms.Panel()
+        Me.Icon_catalog = New System.Windows.Forms.PictureBox()
+        Me.Bar_catalog = New System.Windows.Forms.Panel()
+        Me.valu_catalog = New System.Windows.Forms.NumericUpDown()
         Me.Fea_dragonclass = New System.Windows.Forms.Panel()
         Me.Icon_dragonclass = New System.Windows.Forms.PictureBox()
         Me.Bar_dragonclass = New System.Windows.Forms.Panel()
@@ -511,6 +521,7 @@ Partial Class Miitopia_SE
         Me.valu_exp_vampire = New System.Windows.Forms.NumericUpDown()
         Me.PictureBox20 = New System.Windows.Forms.PictureBox()
         Me.Tab_hero_relationship = New System.Windows.Forms.TabPage()
+        Me.PictureBox30 = New System.Windows.Forms.PictureBox()
         Me.PictureBox15 = New System.Windows.Forms.PictureBox()
         Me.Panel_hero_setall = New System.Windows.Forms.Panel()
         Me.Text_hero_setall = New System.Windows.Forms.Label()
@@ -575,7 +586,6 @@ Partial Class Miitopia_SE
         Me.Timer_notification = New System.Windows.Forms.Timer(Me.components)
         Me.Panel_notification = New System.Windows.Forms.Panel()
         Me.Text_notification = New System.Windows.Forms.Label()
-        Me.PictureBox30 = New System.Windows.Forms.PictureBox()
         Me.MSE_header.SuspendLayout()
         CType(Me.MSE_icon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -787,9 +797,13 @@ Partial Class Miitopia_SE
         Me.Bar_ct_warrior.SuspendLayout()
         CType(Me.valu_ct_warrior, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Tab_ency_extras.SuspendLayout()
+        Me.Fea_ency_foods.SuspendLayout()
+        CType(Me.Icon_ency_foods, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Fea_ency_music.SuspendLayout()
         CType(Me.Icon_ency_music, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Tab_common_extras.SuspendLayout()
+        Me.Fea_dailyquest.SuspendLayout()
+        CType(Me.Icon_dailyquest, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Fea_medal.SuspendLayout()
         CType(Me.Icon_medal, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Fea_questsucc.SuspendLayout()
@@ -813,6 +827,10 @@ Partial Class Miitopia_SE
         Me.Panel_quest.SuspendLayout()
         Me.TabControl3.SuspendLayout()
         Me.Tab_quest_main.SuspendLayout()
+        Me.Fea_catalog.SuspendLayout()
+        CType(Me.Icon_catalog, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Bar_catalog.SuspendLayout()
+        CType(Me.valu_catalog, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Fea_dragonclass.SuspendLayout()
         CType(Me.Icon_dragonclass, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Bar_dragonclass.SuspendLayout()
@@ -972,6 +990,7 @@ Partial Class Miitopia_SE
         CType(Me.valu_exp_vampire, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Tab_hero_relationship.SuspendLayout()
+        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_hero_setall.SuspendLayout()
         CType(Me.valu_hero_setall, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1029,7 +1048,6 @@ Partial Class Miitopia_SE
         Me.Button_save_hero.SuspendLayout()
         Me.File_path_hero.SuspendLayout()
         Me.Panel_notification.SuspendLayout()
-        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MSE_header
@@ -1737,7 +1755,8 @@ Partial Class Miitopia_SE
         Me.Changelog.Name = "Changelog"
         Me.Changelog.Size = New System.Drawing.Size(468, 342)
         Me.Changelog.TabIndex = 1
-        Me.Changelog.Text = "Restore and update Miis relationship from previous versions"
+        Me.Changelog.Text = "Restore and update Miis relationship from previous versions" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Add unlock catalog" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & _
+    "Add active daily questions" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Add unlock all foods in encyclopedia"
         Me.Changelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label7
@@ -3791,6 +3810,7 @@ Partial Class Miitopia_SE
         'Tab_ency_extras
         '
         Me.Tab_ency_extras.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_ency_extra
+        Me.Tab_ency_extras.Controls.Add(Me.Fea_ency_foods)
         Me.Tab_ency_extras.Controls.Add(Me.Fea_ency_music)
         Me.Tab_ency_extras.Location = New System.Drawing.Point(4, 22)
         Me.Tab_ency_extras.Name = "Tab_ency_extras"
@@ -3798,6 +3818,53 @@ Partial Class Miitopia_SE
         Me.Tab_ency_extras.TabIndex = 2
         Me.Tab_ency_extras.Text = "Extras"
         Me.Tab_ency_extras.UseVisualStyleBackColor = True
+        '
+        'Fea_ency_foods
+        '
+        Me.Fea_ency_foods.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_ency_foods.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Fea_ency_foods.Controls.Add(Me.Check_foods_reset)
+        Me.Fea_ency_foods.Controls.Add(Me.Check_foods_unlock)
+        Me.Fea_ency_foods.Controls.Add(Me.Icon_ency_foods)
+        Me.Fea_ency_foods.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_ency_foods.Location = New System.Drawing.Point(264, 109)
+        Me.Fea_ency_foods.Name = "Fea_ency_foods"
+        Me.Fea_ency_foods.Size = New System.Drawing.Size(100, 100)
+        Me.Fea_ency_foods.TabIndex = 30
+        '
+        'Check_foods_reset
+        '
+        Me.Check_foods_reset.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.Check_foods_reset.Location = New System.Drawing.Point(3, 79)
+        Me.Check_foods_reset.Name = "Check_foods_reset"
+        Me.Check_foods_reset.Size = New System.Drawing.Size(95, 17)
+        Me.Check_foods_reset.TabIndex = 3
+        Me.Check_foods_reset.Text = "Reset"
+        Me.Check_foods_reset.UseVisualStyleBackColor = True
+        '
+        'Check_foods_unlock
+        '
+        Me.Check_foods_unlock.Checked = True
+        Me.Check_foods_unlock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Check_foods_unlock.Location = New System.Drawing.Point(3, 61)
+        Me.Check_foods_unlock.Name = "Check_foods_unlock"
+        Me.Check_foods_unlock.Size = New System.Drawing.Size(95, 17)
+        Me.Check_foods_unlock.TabIndex = 2
+        Me.Check_foods_unlock.TabStop = True
+        Me.Check_foods_unlock.Text = "Unlock"
+        Me.Check_foods_unlock.UseVisualStyleBackColor = True
+        '
+        'Icon_ency_foods
+        '
+        Me.Icon_ency_foods.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Icon_ency_foods.Enabled = False
+        Me.Icon_ency_foods.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_ency_foods
+        Me.Icon_ency_foods.Location = New System.Drawing.Point(24, 3)
+        Me.Icon_ency_foods.Name = "Icon_ency_foods"
+        Me.Icon_ency_foods.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_ency_foods.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_ency_foods.TabIndex = 1
+        Me.Icon_ency_foods.TabStop = False
         '
         'Fea_ency_music
         '
@@ -3807,7 +3874,7 @@ Partial Class Miitopia_SE
         Me.Fea_ency_music.Controls.Add(Me.Check_music_unlock)
         Me.Fea_ency_music.Controls.Add(Me.Icon_ency_music)
         Me.Fea_ency_music.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_ency_music.Location = New System.Drawing.Point(205, 109)
+        Me.Fea_ency_music.Location = New System.Drawing.Point(147, 109)
         Me.Fea_ency_music.Name = "Fea_ency_music"
         Me.Fea_ency_music.Size = New System.Drawing.Size(100, 100)
         Me.Fea_ency_music.TabIndex = 29
@@ -3849,6 +3916,7 @@ Partial Class Miitopia_SE
         'Tab_common_extras
         '
         Me.Tab_common_extras.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
+        Me.Tab_common_extras.Controls.Add(Me.Fea_dailyquest)
         Me.Tab_common_extras.Controls.Add(Me.Fea_medal)
         Me.Tab_common_extras.Controls.Add(Me.Fea_questsucc)
         Me.Tab_common_extras.Controls.Add(Me.Fea_chestsopen)
@@ -3861,6 +3929,28 @@ Partial Class Miitopia_SE
         Me.Tab_common_extras.Text = "Extras"
         Me.Tab_common_extras.UseVisualStyleBackColor = True
         '
+        'Fea_dailyquest
+        '
+        Me.Fea_dailyquest.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_dailyquest.Controls.Add(Me.Icon_dailyquest)
+        Me.Fea_dailyquest.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_dailyquest.Location = New System.Drawing.Point(66, 168)
+        Me.Fea_dailyquest.Name = "Fea_dailyquest"
+        Me.Fea_dailyquest.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_dailyquest.TabIndex = 29
+        '
+        'Icon_dailyquest
+        '
+        Me.Icon_dailyquest.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Icon_dailyquest.Enabled = False
+        Me.Icon_dailyquest.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_dailyquestions
+        Me.Icon_dailyquest.Location = New System.Drawing.Point(21, 12)
+        Me.Icon_dailyquest.Name = "Icon_dailyquest"
+        Me.Icon_dailyquest.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_dailyquest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_dailyquest.TabIndex = 1
+        Me.Icon_dailyquest.TabStop = False
+        '
         'Fea_medal
         '
         Me.Fea_medal.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
@@ -3869,7 +3959,7 @@ Partial Class Miitopia_SE
         Me.Fea_medal.Controls.Add(Me.Check_medal_unlock)
         Me.Fea_medal.Controls.Add(Me.Icon_medal)
         Me.Fea_medal.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_medal.Location = New System.Drawing.Point(212, 168)
+        Me.Fea_medal.Location = New System.Drawing.Point(166, 168)
         Me.Fea_medal.Name = "Fea_medal"
         Me.Fea_medal.Size = New System.Drawing.Size(100, 100)
         Me.Fea_medal.TabIndex = 28
@@ -4158,6 +4248,7 @@ Partial Class Miitopia_SE
         'Tab_quest_main
         '
         Me.Tab_quest_main.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
+        Me.Tab_quest_main.Controls.Add(Me.Fea_catalog)
         Me.Tab_quest_main.Controls.Add(Me.Fea_dragonclass)
         Me.Tab_quest_main.Controls.Add(Me.Fea_villa)
         Me.Tab_quest_main.Location = New System.Drawing.Point(4, 22)
@@ -4168,6 +4259,51 @@ Partial Class Miitopia_SE
         Me.Tab_quest_main.Text = "Main"
         Me.Tab_quest_main.UseVisualStyleBackColor = True
         '
+        'Fea_catalog
+        '
+        Me.Fea_catalog.BackColor = System.Drawing.Color.Transparent
+        Me.Fea_catalog.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_fea
+        Me.Fea_catalog.Controls.Add(Me.Icon_catalog)
+        Me.Fea_catalog.Controls.Add(Me.Bar_catalog)
+        Me.Fea_catalog.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_catalog.Location = New System.Drawing.Point(335, 123)
+        Me.Fea_catalog.Name = "Fea_catalog"
+        Me.Fea_catalog.Size = New System.Drawing.Size(94, 76)
+        Me.Fea_catalog.TabIndex = 30
+        '
+        'Icon_catalog
+        '
+        Me.Icon_catalog.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_catalog
+        Me.Icon_catalog.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Icon_catalog.Enabled = False
+        Me.Icon_catalog.Location = New System.Drawing.Point(21, 12)
+        Me.Icon_catalog.Name = "Icon_catalog"
+        Me.Icon_catalog.Size = New System.Drawing.Size(52, 52)
+        Me.Icon_catalog.TabIndex = 1
+        Me.Icon_catalog.TabStop = False
+        '
+        'Bar_catalog
+        '
+        Me.Bar_catalog.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_feature2
+        Me.Bar_catalog.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Bar_catalog.Controls.Add(Me.valu_catalog)
+        Me.Bar_catalog.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Bar_catalog.Location = New System.Drawing.Point(0, 1)
+        Me.Bar_catalog.Name = "Bar_catalog"
+        Me.Bar_catalog.Size = New System.Drawing.Size(94, 18)
+        Me.Bar_catalog.TabIndex = 0
+        Me.Bar_catalog.Visible = False
+        '
+        'valu_catalog
+        '
+        Me.valu_catalog.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_catalog.Location = New System.Drawing.Point(8, 1)
+        Me.valu_catalog.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_catalog.Name = "valu_catalog"
+        Me.valu_catalog.Size = New System.Drawing.Size(79, 16)
+        Me.valu_catalog.TabIndex = 5
+        Me.valu_catalog.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'Fea_dragonclass
         '
         Me.Fea_dragonclass.BackColor = System.Drawing.Color.Transparent
@@ -4175,7 +4311,7 @@ Partial Class Miitopia_SE
         Me.Fea_dragonclass.Controls.Add(Me.Icon_dragonclass)
         Me.Fea_dragonclass.Controls.Add(Me.Bar_dragonclass)
         Me.Fea_dragonclass.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_dragonclass.Location = New System.Drawing.Point(153, 123)
+        Me.Fea_dragonclass.Location = New System.Drawing.Point(95, 123)
         Me.Fea_dragonclass.Name = "Fea_dragonclass"
         Me.Fea_dragonclass.Size = New System.Drawing.Size(94, 76)
         Me.Fea_dragonclass.TabIndex = 28
@@ -4220,7 +4356,7 @@ Partial Class Miitopia_SE
         Me.Fea_villa.Controls.Add(Me.Icon_villa)
         Me.Fea_villa.Controls.Add(Me.Bar_villa)
         Me.Fea_villa.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_villa.Location = New System.Drawing.Point(273, 123)
+        Me.Fea_villa.Location = New System.Drawing.Point(215, 123)
         Me.Fea_villa.Name = "Fea_villa"
         Me.Fea_villa.Size = New System.Drawing.Size(94, 76)
         Me.Fea_villa.TabIndex = 29
@@ -6586,6 +6722,15 @@ Partial Class Miitopia_SE
         Me.Tab_hero_relationship.Text = "Relationship"
         Me.Tab_hero_relationship.UseVisualStyleBackColor = True
         '
+        'PictureBox30
+        '
+        Me.PictureBox30.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_mii_love2
+        Me.PictureBox30.Location = New System.Drawing.Point(346, 309)
+        Me.PictureBox30.Name = "PictureBox30"
+        Me.PictureBox30.Size = New System.Drawing.Size(91, 30)
+        Me.PictureBox30.TabIndex = 32
+        Me.PictureBox30.TabStop = False
+        '
         'PictureBox15
         '
         Me.PictureBox15.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_mii_love
@@ -7285,15 +7430,6 @@ Partial Class Miitopia_SE
         Me.Text_notification.Text = "Done"
         Me.Text_notification.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'PictureBox30
-        '
-        Me.PictureBox30.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_mii_love2
-        Me.PictureBox30.Location = New System.Drawing.Point(346, 309)
-        Me.PictureBox30.Name = "PictureBox30"
-        Me.PictureBox30.Size = New System.Drawing.Size(91, 30)
-        Me.PictureBox30.TabIndex = 32
-        Me.PictureBox30.TabStop = False
-        '
         'Miitopia_SE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -7313,10 +7449,10 @@ Partial Class Miitopia_SE
         Me.Controls.Add(Me.Menu_buttonS)
         Me.Controls.Add(Me.Menu_panel)
         Me.Controls.Add(Me.MSE_header)
-        Me.Controls.Add(Me.Panel_common)
         Me.Controls.Add(Me.Panel_hero)
         Me.Controls.Add(Me.Panel_quest)
         Me.Controls.Add(Me.Panel_settings)
+        Me.Controls.Add(Me.Panel_common)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -7553,9 +7689,13 @@ Partial Class Miitopia_SE
         Me.Bar_ct_warrior.ResumeLayout(False)
         CType(Me.valu_ct_warrior, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Tab_ency_extras.ResumeLayout(False)
+        Me.Fea_ency_foods.ResumeLayout(False)
+        CType(Me.Icon_ency_foods, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Fea_ency_music.ResumeLayout(False)
         CType(Me.Icon_ency_music, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Tab_common_extras.ResumeLayout(False)
+        Me.Fea_dailyquest.ResumeLayout(False)
+        CType(Me.Icon_dailyquest, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Fea_medal.ResumeLayout(False)
         CType(Me.Icon_medal, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Fea_questsucc.ResumeLayout(False)
@@ -7579,6 +7719,10 @@ Partial Class Miitopia_SE
         Me.Panel_quest.ResumeLayout(False)
         Me.TabControl3.ResumeLayout(False)
         Me.Tab_quest_main.ResumeLayout(False)
+        Me.Fea_catalog.ResumeLayout(False)
+        CType(Me.Icon_catalog, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_catalog.ResumeLayout(False)
+        CType(Me.valu_catalog, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Fea_dragonclass.ResumeLayout(False)
         CType(Me.Icon_dragonclass, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Bar_dragonclass.ResumeLayout(False)
@@ -7743,6 +7887,7 @@ Partial Class Miitopia_SE
         CType(Me.valu_exp_vampire, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Tab_hero_relationship.ResumeLayout(False)
+        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_hero_setall.ResumeLayout(False)
         Me.Panel_hero_setall.PerformLayout()
@@ -7802,7 +7947,6 @@ Partial Class Miitopia_SE
         Me.File_path_hero.ResumeLayout(False)
         Me.File_path_hero.PerformLayout()
         Me.Panel_notification.ResumeLayout(False)
-        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -8358,5 +8502,15 @@ Partial Class Miitopia_SE
     Friend WithEvents valu_hero_setall As System.Windows.Forms.NumericUpDown
     Friend WithEvents PictureBox15 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox30 As System.Windows.Forms.PictureBox
+    Friend WithEvents Fea_catalog As System.Windows.Forms.Panel
+    Friend WithEvents Icon_catalog As System.Windows.Forms.PictureBox
+    Friend WithEvents Bar_catalog As System.Windows.Forms.Panel
+    Friend WithEvents valu_catalog As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_dailyquest As System.Windows.Forms.Panel
+    Friend WithEvents Icon_dailyquest As System.Windows.Forms.PictureBox
+    Friend WithEvents Fea_ency_foods As System.Windows.Forms.Panel
+    Friend WithEvents Check_foods_reset As System.Windows.Forms.RadioButton
+    Friend WithEvents Check_foods_unlock As System.Windows.Forms.RadioButton
+    Friend WithEvents Icon_ency_foods As System.Windows.Forms.PictureBox
 
 End Class

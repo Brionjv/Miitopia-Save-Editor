@@ -2633,9 +2633,49 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property icon_catalog() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("icon_catalog", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property icon_clothes() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("icon_clothes", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property icon_dailyquestions() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("icon_dailyquestions", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property icon_ency_foods() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("icon_ency_foods", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property icon_ency_monsters() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("icon_ency_monsters", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

@@ -169,6 +169,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\icon_ency_monsters.png" />
+    <None Include="Resources\icon_ency_foods.png" />
+    <None Include="Resources\icon_dailyquestions.png" />
+    <None Include="Resources\icon_catalog.png" />
     <None Include="Resources\icon_mii_love2.png" />
     <None Include="Resources\icon_mii_love.png" />
     <None Include="Resources\icon_ency_musique.png" />

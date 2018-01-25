@@ -640,6 +640,8 @@ Public Class Miitopia_SE
             Check_medal_reset.Text = "Reset"
             Check_music_unlock.Text = "Unlock"
             Check_music_reset.Text = "Reset"
+            Check_foods_unlock.Text = "Unlock"
+            Check_foods_reset.Text = "Reset"
         ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
             text_open.Text = "Ouvrir"
             text_save.Text = "Enregistrer"
@@ -761,6 +763,8 @@ Public Class Miitopia_SE
             Check_medal_reset.Text = "Réinitialiser"
             Check_music_unlock.Text = "Débloquer"
             Check_music_reset.Text = "Réinitialiser"
+            Check_foods_unlock.Text = "Débloquer"
+            Check_foods_reset.Text = "Réinitialiser"
         End If
     End Sub
 
@@ -7275,6 +7279,8 @@ Public Class Miitopia_SE
             valu_dragonclass.Value = Reader.ReadUInt32
             Reader.Position = &H4BA4
             valu_villa.Value = Reader.ReadUInt32
+            Reader.Position = &H4B7C
+            valu_catalog.Value = Reader.ReadUInt32
             Button_open_quest.Visible = False
             Button_save_quest.Visible = True
         Catch ex As Exception
@@ -7298,6 +7304,8 @@ Public Class Miitopia_SE
             writer.WriteUInt32(valu_dragonclass.Value)
             writer.Position = &H4BA4
             writer.WriteUInt32(valu_villa.Value)
+            writer.Position = &H4B7C
+            writer.WriteUInt32(valu_catalog.Value)
             If Select_language.SelectedItem = Select_language.Items.Item(0) Then
                 fdialog.Title.Text = "Miitopia Save Editor : write quest.sav"
                 fdialog.Msg.Text = "quest.sav has been saved"
@@ -7750,6 +7758,8 @@ Public Class Miitopia_SE
             Icon_dragonclass.Location = New Point(21, 21)
             Bar_villa.Visible = True
             Icon_villa.Location = New Point(21, 21)
+            Bar_catalog.Visible = True
+            Icon_catalog.Location = New Point(21, 21)
             valu_personnality.Visible = True
             valu_pose.Visible = True
             valu_job.Visible = True
@@ -7818,6 +7828,8 @@ Public Class Miitopia_SE
             Icon_dragonclass.Location = New Point(21, 12)
             Bar_villa.Visible = False
             Icon_villa.Location = New Point(21, 12)
+            Bar_catalog.Visible = False
+            Icon_catalog.Location = New Point(21, 12)
             valu_personnality.Visible = False
             valu_pose.Visible = False
             valu_job.Visible = False
@@ -9121,6 +9133,24 @@ Public Class Miitopia_SE
     End Sub
 
     Private Sub Fea_villa_MouseLeave(sender As Object, e As EventArgs) Handles Fea_villa.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_catalog_Click(sender As Object, e As EventArgs) Handles Fea_catalog.Click, Icon_catalog.Click
+        valu_catalog.Value = 1646149627
+        notification()
+    End Sub
+
+    Private Sub Fea_catalog_MouseMove(sender As Object, e As EventArgs) Handles Fea_catalog.MouseMove, Icon_catalog.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to unlock the catalog"
+        ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour débloquer le catalogue"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_catalog_MouseLeave(sender As Object, e As EventArgs) Handles Fea_catalog.MouseLeave
         Descrip_panel.Visible = False
     End Sub
 
@@ -15607,5 +15637,91 @@ Public Class Miitopia_SE
         valu_relation_23.Value = valu_hero_setall.Value
         valu_relation_24.Value = valu_hero_setall.Value
         valu_relation_25.Value = valu_hero_setall.Value
+    End Sub
+
+    Private Sub Fea_dailyquest_Click(sender As Object, e As EventArgs) Handles Fea_dailyquest.Click
+        Try
+            Dim writer As New PackageIO.Writer(common, PackageIO.Endian.Little)
+            writer.Position = &H7D8
+            writer.WriteInt64(0)
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Daily questions"
+                fdialog.Msg.Text = "Daily questions is available"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Questions du jour"
+                fdialog.Msg.Text = "Les questions du jour sont disponibles"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Daily questions"
+                fdialog.Msg.Text = "An error has occured"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Questions du jour"
+                fdialog.Msg.Text = "Une erreur est survenue"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub Fea_dailyquest_MouseMove(sender As Object, e As EventArgs) Handles Fea_dailyquest.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to active daily questions"
+        ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour activer les questions du jour"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_dailyquest_MouseLeave(sender As Object, e As EventArgs) Handles Fea_dailyquest.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_ency_foods_Click(sender As Object, e As EventArgs) Handles Fea_ency_foods.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, Endian.Little)
+            If Check_foods_unlock.Checked = True Then
+                Writer.Position = &H218
+                Writer.WriteHexString("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F")
+            ElseIf Check_foods_reset.Checked = True Then
+                Writer.Position = &H218
+                Writer.WriteHexString("00000000000000000000000000000000000000000000000000")
+            End If
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : unlock / reset foods"
+                fdialog.Msg.Text = "All foods in encyclopedia has been unlocked / reset"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : débloquer / réinitialiser vivres"
+                fdialog.Msg.Text = "Tous les vivres dans l'encyclopédie ont été débloqué / réinitialisé"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : unlock / reset foods"
+                fdialog.Msg.Text = "An error has occured" & vbNewLine & "please report this issue"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : débloquer / réinitialiser vivres"
+                fdialog.Msg.Text = "Une erreur est survenue" & vbNewLine & "veuillez signaler cet erreur s'il vous plait"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub Fea_ency_foods_MouseMove(sender As Object, e As EventArgs) Handles Fea_ency_foods.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to unlock or reset all foods in encyclopedia"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour débloquer ou réinitialiser les vivres dans l'encyclopédie"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_ency_foods_MouseLeave(sender As Object, e As EventArgs) Handles Fea_ency_foods.MouseLeave
+        Descrip_panel.Visible = False
     End Sub
 End Class
