@@ -169,6 +169,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\Chanteur2.png" />
     <None Include="Resources\icon_ency_monsters.png" />
     <None Include="Resources\icon_ency_foods.png" />
     <None Include="Resources\icon_dailyquestions.png" />

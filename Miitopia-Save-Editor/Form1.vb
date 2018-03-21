@@ -85,6 +85,35 @@ Public Class Miitopia_SE
     Dim relation23 As String
     Dim relation24 As String
     Dim relation25 As String
+    Dim Epuipwpwarrior As String
+    Dim Epuipctwarrior As String
+    Dim Epuipwpmage As String
+    Dim Epuipctmage As String
+    Dim Epuipwpcleric As String
+    Dim Epuipctcleric As String
+    Dim Epuipwpthief As String
+    Dim Epuipctthief As String
+    Dim Epuipwppopstar As String
+    Dim Epuipctpopstar As String
+    Dim Epuipctpopstar2 As String
+    Dim Epuipwpvampire As String
+    Dim Epuipctvampire As String
+    Dim Epuipwpchef As String
+    Dim Epuipctchef As String
+    Dim Epuipwptank As String
+    Dim Epuipcttank As String
+    Dim Epuipwpimp As String
+    Dim Epuipctimp As String
+    Dim Epuipwpprincess As String
+    Dim Epuipctprincess As String
+    Dim Epuipwpflower As String
+    Dim Epuipctflower As String
+    Dim Epuipwpscientist As String
+    Dim Epuipctscientist As String
+    Dim Epuipwpcat As String
+    Dim Epuipctcat As String
+    Dim Epuipwpelf As String
+    Dim Epuipctelf As String
 
     Public Sub Hidemenu() ' MSE Functions
         If Menu_panel.Width = 34 Then
@@ -7784,6 +7813,34 @@ Public Class Miitopia_SE
             valu_interaction.Visible = True
             valu_interac_Mii.Visible = True
             valu_interac_activity.Visible = True
+            Bar_epuipwp_warrior.Visible = True
+            Bar_epuipwp_mage.Visible = True
+            Bar_epuipwp_cleric.Visible = True
+            Bar_epuipwp_thief.Visible = True
+            Bar_epuipwp_popstar.Visible = True
+            Bar_epuipwp_vampire.Visible = True
+            Bar_epuipwp_chef.Visible = True
+            Bar_epuipwp_tank.Visible = True
+            Bar_epuipwp_imp.Visible = True
+            Bar_epuipwp_princess.Visible = True
+            Bar_epuipwp_flower.Visible = True
+            Bar_epuipwp_scientist.Visible = True
+            Bar_epuipwp_cat.Visible = True
+            Bar_epuipwp_elf.Visible = True
+            Bar_epuipct_warrior.Visible = True
+            Bar_epuipct_mage.Visible = True
+            Bar_epuipct_cleric.Visible = True
+            Bar_epuipct_thief.Visible = True
+            Bar_epuipct_popstar.Visible = True
+            Bar_epuipct_vampire.Visible = True
+            Bar_epuipct_chef.Visible = True
+            Bar_epuipct_tank.Visible = True
+            Bar_epuipct_imp.Visible = True
+            Bar_epuipct_princess.Visible = True
+            Bar_epuipct_flower.Visible = True
+            Bar_epuipct_scientist.Visible = True
+            Bar_epuipct_cat.Visible = True
+            Bar_epuipct_elf.Visible = True
         Else
             Hidden_things.Visible = False
             Bar_allweapons.Visible = False
@@ -7854,6 +7911,34 @@ Public Class Miitopia_SE
             valu_interaction.Visible = False
             valu_interac_Mii.Visible = False
             valu_interac_activity.Visible = False
+            Bar_epuipwp_warrior.Visible = False
+            Bar_epuipwp_mage.Visible = False
+            Bar_epuipwp_cleric.Visible = False
+            Bar_epuipwp_thief.Visible = False
+            Bar_epuipwp_popstar.Visible = False
+            Bar_epuipwp_vampire.Visible = False
+            Bar_epuipwp_chef.Visible = False
+            Bar_epuipwp_tank.Visible = False
+            Bar_epuipwp_imp.Visible = False
+            Bar_epuipwp_princess.Visible = False
+            Bar_epuipwp_flower.Visible = False
+            Bar_epuipwp_scientist.Visible = False
+            Bar_epuipwp_cat.Visible = False
+            Bar_epuipwp_elf.Visible = False
+            Bar_epuipct_warrior.Visible = False
+            Bar_epuipct_mage.Visible = False
+            Bar_epuipct_cleric.Visible = False
+            Bar_epuipct_thief.Visible = False
+            Bar_epuipct_popstar.Visible = False
+            Bar_epuipct_vampire.Visible = False
+            Bar_epuipct_chef.Visible = False
+            Bar_epuipct_tank.Visible = False
+            Bar_epuipct_imp.Visible = False
+            Bar_epuipct_princess.Visible = False
+            Bar_epuipct_flower.Visible = False
+            Bar_epuipct_scientist.Visible = False
+            Bar_epuipct_cat.Visible = False
+            Bar_epuipct_elf.Visible = False
         End If
     End Sub
 
@@ -9733,6 +9818,93 @@ Public Class Miitopia_SE
                     valu_ggrabbed.Value = Reader.ReadUInt32
                     Reader.Position = &H130
                     Relationship = Reader.Position
+                    Reader.Position = &H2F8
+                    Epuipwpwarrior = Reader.Position
+                    valu_epuipwp_warrior.Value = Reader.ReadUInt32
+                    Reader.Position = &H2FC
+                    Epuipctwarrior = Reader.Position
+                    valu_epuipct_warrior.Value = Reader.ReadUInt32
+                    Reader.Position = &H300
+                    Epuipwpmage = Reader.Position
+                    valu_epuipwp_mage.Value = Reader.ReadUInt32
+                    Reader.Position = &H304
+                    Epuipctmage = Reader.Position
+                    valu_epuipct_mage.Value = Reader.ReadUInt32
+                    Reader.Position = &H308
+                    Epuipwpcleric = Reader.Position
+                    valu_epuipwp_cleric.Value = Reader.ReadUInt32
+                    Reader.Position = &H30C
+                    Epuipctcleric = Reader.Position
+                    valu_epuipct_cleric.Value = Reader.ReadUInt32
+                    Reader.Position = &H310
+                    Epuipwpthief = Reader.Position
+                    valu_epuipwp_thief.Value = Reader.ReadUInt32
+                    Reader.Position = &H314
+                    Epuipctthief = Reader.Position
+                    valu_epuipct_thief.Value = Reader.ReadUInt32
+                    Reader.Position = &H318
+                    Epuipwppopstar = Reader.Position
+                    valu_epuipwp_popstar.Value = Reader.ReadUInt32
+                    Reader.Position = &H31C
+                    Epuipctpopstar = Reader.Position
+                    valu_epuipct_popstar.Value = Reader.ReadUInt16
+                    Reader.Position = &H31E
+                    Epuipctpopstar2 = Reader.Position
+                    valu_epuipct_popstar2.Value = Reader.ReadUInt16
+                    Reader.Position = &H320
+                    Epuipwpvampire = Reader.Position
+                    valu_epuipwp_vampire.Value = Reader.ReadUInt32
+                    Reader.Position = &H324
+                    Epuipctvampire = Reader.Position
+                    valu_epuipct_vampire.Value = Reader.ReadUInt32
+                    Reader.Position = &H328
+                    Epuipwpchef = Reader.Position
+                    valu_epuipwp_chef.Value = Reader.ReadUInt32
+                    Reader.Position = &H32C
+                    Epuipctchef = Reader.Position
+                    valu_epuipct_chef.Value = Reader.ReadUInt32
+                    Reader.Position = &H330
+                    Epuipwptank = Reader.Position
+                    valu_epuipwp_tank.Value = Reader.ReadUInt32
+                    Reader.Position = &H334
+                    Epuipcttank = Reader.Position
+                    valu_epuipct_tank.Value = Reader.ReadUInt32
+                    Reader.Position = &H338
+                    Epuipwpimp = Reader.Position
+                    valu_epuipwp_imp.Value = Reader.ReadUInt32
+                    Reader.Position = &H33C
+                    Epuipctimp = Reader.Position
+                    valu_epuipct_imp.Value = Reader.ReadUInt32
+                    Reader.Position = &H340
+                    Epuipwpprincess = Reader.Position
+                    valu_epuipwp_princess.Value = Reader.ReadUInt32
+                    Reader.Position = &H344
+                    Epuipctprincess = Reader.Position
+                    valu_epuipct_princess.Value = Reader.ReadUInt32
+                    Reader.Position = &H348
+                    Epuipwpflower = Reader.Position
+                    valu_epuipwp_flower.Value = Reader.ReadUInt32
+                    Reader.Position = &H34C
+                    Epuipctflower = Reader.Position
+                    valu_epuipct_flower.Value = Reader.ReadUInt32
+                    Reader.Position = &H350
+                    Epuipwpscientist = Reader.Position
+                    valu_epuipwp_scientist.Value = Reader.ReadUInt32
+                    Reader.Position = &H354
+                    Epuipctscientist = Reader.Position
+                    valu_epuipct_scientist.Value = Reader.ReadUInt32
+                    Reader.Position = &H358
+                    Epuipwpcat = Reader.Position
+                    valu_epuipwp_cat.Value = Reader.ReadUInt32
+                    Reader.Position = &H35C
+                    Epuipctcat = Reader.Position
+                    valu_epuipct_cat.Value = Reader.ReadUInt32
+                    Reader.Position = &H360
+                    Epuipwpelf = Reader.Position
+                    valu_epuipwp_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H364
+                    Epuipctelf = Reader.Position
+                    valu_epuipct_elf.Value = Reader.ReadUInt32
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(1) Then
@@ -15499,6 +15671,52 @@ Public Class Miitopia_SE
         Descrip_panel.Visible = False
     End Sub
 
+    Private Sub Fea_ency_monsters_Click(sender As Object, e As EventArgs) Handles Fea_ency_monsters.Click
+        Try
+            Dim Writer As New PackageIO.Writer(common, Endian.Little)
+            If Check_monsters_unlock.Checked = True Then
+                Writer.Position = &H7E0
+                Writer.WriteHexString("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF")
+            ElseIf Check_medal_reset.Checked = True Then
+                Writer.Position = &H7E0
+                Writer.WriteHexString("0000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+            End If
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : unlock / reset monsters"
+                fdialog.Msg.Text = "All monsters in encyclopedia has been unlocked / reset"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : débloquer / réinitialiser monstres"
+                fdialog.Msg.Text = "Toutes les monstres dans l'encyclopédie ont été débloqué / réinitialisé"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : unlock / reset monsters"
+                fdialog.Msg.Text = "An error has occured" & vbNewLine & "please report this issue"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : débloquer / réinitialiser monstres"
+                fdialog.Msg.Text = "Une erreur est survenue" & vbNewLine & "veuillez signaler cet erreur s'il vous plait"
+                fdialog.ShowDialog()
+            End If
+        End Try
+    End Sub
+
+    Private Sub Fea_ency_monsters_MouseMove(sender As Object, e As EventArgs) Handles Fea_ency_monsters.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to unlock or reset all monsters in encyclopedia"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour débloquer ou réinitialiser les monstres dans l'encyclopédie"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_ency_monsters_MouseLeave(sender As Object, e As EventArgs) Handles Fea_ency_monsters.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
     Private Sub Select_rela_gMii_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Select_rela_gMii.SelectedIndexChanged
         If Select_rela_gMii.SelectedItem = Select_rela_gMii.Items.Item(0) Then
             Group_relation_1.Text = "Mii 1"
@@ -15722,6 +15940,539 @@ Public Class Miitopia_SE
     End Sub
 
     Private Sub Fea_ency_foods_MouseLeave(sender As Object, e As EventArgs) Handles Fea_ency_foods.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_warrior_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_warrior.Click, Icon_wp_warrior.Click
+        valu_epuipwp_warrior.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_warrior_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_warrior.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all warrior weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes de guerrier"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_warrior_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_warrior.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_mage_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_mage.Click, Icon_wp_mage.Click
+        valu_epuipwp_mage.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_mage_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_mage.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all mage weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes de mage"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_mage_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_mage.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_cleric_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_cleric.Click, Icon_wp_cleric.Click
+        valu_epuipwp_cleric.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_cleric_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_cleric.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all cleric weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes de prêtre"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_cleric_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_cleric.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_thief_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_thief.Click, Icon_wp_thief.Click
+        valu_epuipwp_thief.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_thief_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_thief.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all thief weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes de voleur"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_thief_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_thief.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_popstar_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_popstar.Click, Icon_wp_popstar.Click
+        valu_epuipwp_popstar.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_popstar_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_popstar.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all pop star weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes de chanteur(se)"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_popstar_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_popstar.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_vampire_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_vampire.Click, Icon_wp_vampire.Click
+        valu_epuipwp_vampire.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_vampire_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_vampire.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all vampire weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes de vampire"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_vampire_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_vampire.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_chef_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_chef.Click, Icon_wp_chef.Click
+        valu_epuipwp_chef.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_chef_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_chef.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all chef weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes de cuisinier"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_chef_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_chef.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_tank_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_tank.Click, Icon_wp_tank.Click
+        valu_epuipwp_tank.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_tank_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_tank.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all tank weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes de tank"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_tank_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_tank.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_imp_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_imp.Click, Icon_wp_imp.Click
+        valu_epuipwp_imp.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_imp_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_imp.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all imp weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes de diablotin"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_imp_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_imp.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_princess_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_princess.Click, Icon_wp_princess.Click
+        valu_epuipwp_princess.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_princess_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_princess.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all princess weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes de princesse"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_princess_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_princess.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_flower_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_flower.Click, Icon_wp_flower.Click
+        valu_epuipwp_flower.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_flower_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_flower.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all flower weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes de fleur"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_flower_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_flower.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_scientist_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_scientist.Click, Icon_wp_scientist.Click
+        valu_epuipwp_scientist.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_scientist_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_scientist.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all scientist weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes de scientifique"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_scientist_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_scientist.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_cat_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_cat.Click, Icon_wp_cat.Click
+        valu_epuipwp_cat.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_cat_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_cat.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all cat weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes de chat"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_cat_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_cat.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipwp_elf_Click(sender As Object, e As EventArgs) Handles Fea_epuipwp_elf.Click, Icon_wp_elf.Click
+        valu_epuipwp_elf.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipwp_elf_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipwp_elf.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all elf weapons"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait toutes les armes d'elfe"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipwp_elf_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipwp_elf.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_warrior_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_warrior.Click, Icon_ct_warrior.Click
+        valu_epuipct_warrior.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_warrior_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_warrior.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all warrior costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de guerrier"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_warrior_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_warrior.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_mage_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_mage.Click, Icon_ct_mage.Click
+        valu_epuipct_mage.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_mage_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_mage.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all mage costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de mage"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_mage_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_mage.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_cleric_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_cleric.Click, Icon_ct_cleric.Click
+        valu_epuipct_cleric.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_cleric_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_cleric.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all cleric costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de prêtre"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_cleric_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_cleric.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_thief_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_thief.Click, Icon_ct_thief.Click
+        valu_epuipct_thief.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_thief_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_thief.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all thief costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de voleur"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_thief_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_thief.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_popstar_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_popstar.Click, Icon_ct_popstar.Click
+        valu_epuipct_popstar.Value = 65535
+        valu_epuipct_popstar2.Value = 65535
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_popstar_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_popstar.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all popstar costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de chanteur(se)"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_popstar_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_popstar.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_vampire_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_vampire.Click, Icon_ct_vampire.Click
+        valu_epuipct_vampire.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_vampire_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_vampire.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all vampire costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de vampire"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_vampire_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_vampire.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_chef_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_chef.Click, Icon_ct_chef.Click
+        valu_epuipct_chef.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_chef_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_chef.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all chef costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de cuisinier"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_chef_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_chef.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_tank_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_tank.Click, Icon_ct_tank.Click
+        valu_epuipct_tank.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_tank_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_tank.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all tank costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de tank"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_tank_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_tank.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_imp_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_imp.Click, Icon_ct_imp.Click
+        valu_epuipct_imp.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_imp_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_imp.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all imp costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de diablotin"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_imp_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_imp.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_princess_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_princess.Click, Icon_ct_princess.Click
+        valu_epuipct_princess.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_princess_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_princess.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all princess costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de princesse"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_princess_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_princess.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_flower_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_flower.Click, Icon_ct_flower.Click
+        valu_epuipct_flower.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_flower_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_flower.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all flower costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de fleur"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_flower_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_flower.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_scientist_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_scientist.Click, Icon_ct_scientist.Click
+        valu_epuipct_scientist.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_scientist_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_scientist.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all scientist costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de scientifique"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_scientist_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_scientist.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_cat_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_cat.Click, Icon_ct_cat.Click
+        valu_epuipct_cat.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_cat_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_cat.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all cat costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de chat"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_cat_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_cat.MouseLeave
+        Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Fea_epuipct_elf_Click(sender As Object, e As EventArgs) Handles Fea_epuipct_elf.Click, Icon_ct_elf.Click
+        valu_epuipct_elf.Value = 4294967295
+        notification()
+    End Sub
+
+    Private Sub Fea_epuipct_elf_MouseMove(sender As Object, e As EventArgs) Handles Fea_epuipct_elf.MouseMove
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Descrip_text.Text = "Click to selected Mii have all elf costumes"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Descrip_text.Text = "Cliquez pour que le Mii sélectionné ait tous les costumes de elfe"
+        End If
+        Descrip_panel.Visible = True
+    End Sub
+
+    Private Sub Fea_epuipct_elf_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_elf.MouseLeave
         Descrip_panel.Visible = False
     End Sub
 End Class
