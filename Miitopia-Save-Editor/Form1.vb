@@ -7576,6 +7576,7 @@ Public Class Miitopia_SE
                 fdialog.Msg.Text = "hero.sav a été enregistré"
                 fdialog.ShowDialog()
             End If
+            writerelationship()
         Catch ex As Exception
             If Select_language.SelectedItem = Select_language.Items.Item(0) Then
                 fdialog.Title.Text = "Miitopia Save Editor : write hero.sav"
@@ -18185,5 +18186,105 @@ Public Class Miitopia_SE
 
     Private Sub Fea_epuipct_elf_MouseLeave(sender As Object, e As EventArgs) Handles Fea_epuipct_elf.MouseLeave
         Descrip_panel.Visible = False
+    End Sub
+
+    Private Sub Group_relation_1_Click(sender As Object, e As EventArgs) Handles Group_relation_1.Click
+        valu_relation_1.Value = 490
+    End Sub
+
+    Private Sub Group_relation_2_Click(sender As Object, e As EventArgs) Handles Group_relation_2.Click
+        valu_relation_2.Value = 490
+    End Sub
+
+    Private Sub Group_relation_3_Click(sender As Object, e As EventArgs) Handles Group_relation_3.Click
+        valu_relation_3.Value = 490
+    End Sub
+
+    Private Sub Group_relation_4_Click(sender As Object, e As EventArgs) Handles Group_relation_4.Click
+        valu_relation_4.Value = 490
+    End Sub
+
+    Private Sub Group_relation_5_Click(sender As Object, e As EventArgs) Handles Group_relation_5.Click
+        valu_relation_5.Value = 490
+    End Sub
+
+    Private Sub Group_relation_6_Click(sender As Object, e As EventArgs) Handles Group_relation_6.Click
+        valu_relation_6.Value = 490
+    End Sub
+
+    Private Sub Group_relation_7_Click(sender As Object, e As EventArgs) Handles Group_relation_7.Click
+        valu_relation_7.Value = 490
+    End Sub
+
+    Private Sub Group_relation_8_Click(sender As Object, e As EventArgs) Handles Group_relation_8.Click
+        valu_relation_8.Value = 490
+    End Sub
+
+    Private Sub Group_relation_9_Click(sender As Object, e As EventArgs) Handles Group_relation_9.Click
+        valu_relation_9.Value = 490
+    End Sub
+
+    Private Sub Group_relation_10_Click(sender As Object, e As EventArgs) Handles Group_relation_10.Click
+        valu_relation_10.Value = 490
+    End Sub
+
+    Private Sub Group_relation_11_Click(sender As Object, e As EventArgs) Handles Group_relation_11.Click
+        valu_relation_11.Value = 490
+    End Sub
+
+    Private Sub Group_relation_12_Click(sender As Object, e As EventArgs) Handles Group_relation_12.Click
+        valu_relation_12.Value = 490
+    End Sub
+
+    Private Sub Group_relation_13_Click(sender As Object, e As EventArgs) Handles Group_relation_13.Click
+        valu_relation_13.Value = 490
+    End Sub
+
+    Private Sub Group_relation_14_Click(sender As Object, e As EventArgs) Handles Group_relation_14.Click
+        valu_relation_14.Value = 490
+    End Sub
+
+    Private Sub Group_relation_15_Click(sender As Object, e As EventArgs) Handles Group_relation_15.Click
+        valu_relation_15.Value = 490
+    End Sub
+
+    Private Sub Group_relation_16_Click(sender As Object, e As EventArgs) Handles Group_relation_16.Click
+        valu_relation_16.Value = 490
+    End Sub
+
+    Private Sub Group_relation_17_Click(sender As Object, e As EventArgs) Handles Group_relation_17.Click
+        valu_relation_17.Value = 490
+    End Sub
+
+    Private Sub Group_relation_18_Click(sender As Object, e As EventArgs) Handles Group_relation_18.Click
+        valu_relation_18.Value = 490
+    End Sub
+
+    Private Sub Group_relation_19_Click(sender As Object, e As EventArgs) Handles Group_relation_19.Click
+        valu_relation_19.Value = 490
+    End Sub
+
+    Private Sub Group_relation_20_Click(sender As Object, e As EventArgs) Handles Group_relation_20.Click
+        valu_relation_20.Value = 490
+    End Sub
+
+    Private Sub Group_relation_21_Click(sender As Object, e As EventArgs) Handles Group_relation_21.Click
+        valu_relation_21.Value = 490
+    End Sub
+
+    Private Sub Group_relation_22_Click(sender As Object, e As EventArgs) Handles Group_relation_22.Click
+        valu_relation_22.Value = 490
+    End Sub
+
+    Private Sub Group_relation_23_Click(sender As Object, e As EventArgs) Handles Group_relation_23.Click
+        valu_relation_23.Value = 490
+    End Sub
+
+    Private Sub Group_relation_24_Click(sender As Object, e As EventArgs) Handles Group_relation_24.Click
+        valu_relation_24.Value = 490
+    End Sub
+
+    Private Sub Group_relation_25_Click(sender As Object, e As EventArgs) Handles Group_relation_25.Click
+        valu_relation_25.Value = 490
     End Sub
 End Class
