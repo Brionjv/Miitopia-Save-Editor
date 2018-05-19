@@ -9747,6 +9747,7 @@ Public Class Miitopia_SE
             Select_exp_scientist.SelectedItem = Select_exp_scientist.Items.Item(0)
             Select_exp_cat.SelectedItem = Select_exp_cat.Items.Item(0)
             Select_exp_elf.SelectedItem = Select_exp_elf.Items.Item(0)
+            Select_rela_gMii.SelectedItem = Select_rela_gMii.Items.Item(0)
             Dim Reader As New PackageIO.Reader(hero, PackageIO.Endian.Little)
             If Filever_text.Text = "US" Or Filever_text.Text = "EU" Then
                 Text_Mii_name.MaxLength = 10
