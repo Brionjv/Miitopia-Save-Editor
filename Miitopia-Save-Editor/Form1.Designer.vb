@@ -29,8 +29,8 @@ Partial Class Miitopia_SE
         Me.MSE_logo = New System.Windows.Forms.PictureBox()
         Me.Closebutton = New System.Windows.Forms.PictureBox()
         Me.MSE_iconupdate = New System.Windows.Forms.PictureBox()
-        Me.Descrip_text = New System.Windows.Forms.Label()
-        Me.Descrip_panel = New System.Windows.Forms.Panel()
+        Me.Text_description = New System.Windows.Forms.Label()
+        Me.Panel_description = New System.Windows.Forms.Panel()
         Me.Menu_panel = New System.Windows.Forms.Panel()
         Me.Menu_Repair = New System.Windows.Forms.Panel()
         Me.Menu_text_repair = New System.Windows.Forms.Label()
@@ -86,6 +86,15 @@ Partial Class Miitopia_SE
         Me.Changelog = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Tab_credits = New System.Windows.Forms.TabPage()
+        Me.Panel28 = New System.Windows.Forms.Panel()
+        Me.Icon_MarioPartyITSE = New System.Windows.Forms.PictureBox()
+        Me.Icon_PaparMarioSSSE = New System.Windows.Forms.PictureBox()
+        Me.Icon_nintendogscatSE = New System.Windows.Forms.PictureBox()
+        Me.Icon_IronfallISE = New System.Windows.Forms.PictureBox()
+        Me.Icon_TLSE = New System.Windows.Forms.PictureBox()
+        Me.Icon_ChibiRoboZLSE = New System.Windows.Forms.PictureBox()
+        Me.Icon_3dsSEL = New System.Windows.Forms.PictureBox()
+        Me.Icon_MiitopiaSE = New System.Windows.Forms.PictureBox()
         Me.Group_credits = New System.Windows.Forms.GroupBox()
         Me.Button_dona = New System.Windows.Forms.Button()
         Me.Credits = New System.Windows.Forms.TextBox()
@@ -301,6 +310,55 @@ Partial Class Miitopia_SE
         Me.Icon_bananaeat = New System.Windows.Forms.PictureBox()
         Me.Bar_bananaeat = New System.Windows.Forms.Panel()
         Me.valu_bananaeat = New System.Windows.Forms.NumericUpDown()
+        Me.Tab_common_roulette = New System.Windows.Forms.TabPage()
+        Me.Panel_fea_roulette_oy = New System.Windows.Forms.Panel()
+        Me.valu_roulette_yellow_unknow2 = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_yellow_unknow2 = New System.Windows.Forms.Label()
+        Me.valu_roulette_yellow_unknow1 = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_yellow_unknow1 = New System.Windows.Forms.Label()
+        Me.valu_roulette_yellow_space = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_yellow_space = New System.Windows.Forms.Label()
+        Me.valu_roulette_yellow_order = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_yellow_order = New System.Windows.Forms.Label()
+        Me.valu_roulette_yellow_item = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_yellow_item = New System.Windows.Forms.Label()
+        Me.Text_roulette_yellow = New System.Windows.Forms.Label()
+        Me.valu_roulette_orange_unknow2 = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_orange_unknow2 = New System.Windows.Forms.Label()
+        Me.valu_roulette_orange_unknow1 = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_orange_unknow1 = New System.Windows.Forms.Label()
+        Me.valu_roulette_orange_space = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_orange_space = New System.Windows.Forms.Label()
+        Me.valu_roulette_orange_order = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_orange_order = New System.Windows.Forms.Label()
+        Me.valu_roulette_orange_item = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_orange_item = New System.Windows.Forms.Label()
+        Me.Text_roulette_orange = New System.Windows.Forms.Label()
+        Me.Panel_fea_roulette_bg = New System.Windows.Forms.Panel()
+        Me.valu_roulette_gray_unknow2 = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_gray_unknow2 = New System.Windows.Forms.Label()
+        Me.valu_roulette_gray_unknow1 = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_gray_unknow1 = New System.Windows.Forms.Label()
+        Me.valu_roulette_gray_space = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_gray_space = New System.Windows.Forms.Label()
+        Me.valu_roulette_gray_order = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_gray_order = New System.Windows.Forms.Label()
+        Me.valu_roulette_gray_item = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_gray_item = New System.Windows.Forms.Label()
+        Me.Text_roulette_gray = New System.Windows.Forms.Label()
+        Me.valu_roulette_blue_unknow2 = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_blue_unknow2 = New System.Windows.Forms.Label()
+        Me.valu_roulette_blue_unknow1 = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_blue_unknow1 = New System.Windows.Forms.Label()
+        Me.valu_roulette_blue_space = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_blue_space = New System.Windows.Forms.Label()
+        Me.valu_roulette_blue_order = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_blue_order = New System.Windows.Forms.Label()
+        Me.valu_roulette_blue_item = New System.Windows.Forms.NumericUpDown()
+        Me.Text_roulette_blue_item = New System.Windows.Forms.Label()
+        Me.Text_roulette_blue = New System.Windows.Forms.Label()
+        Me.Select_fea_roulette = New System.Windows.Forms.ComboBox()
+        Me.Text_fea_roulette = New System.Windows.Forms.Label()
         Me.Button_Open = New System.Windows.Forms.Panel()
         Me.text_open = New System.Windows.Forms.Label()
         Me.Button_Save = New System.Windows.Forms.Panel()
@@ -712,7 +770,7 @@ Partial Class Miitopia_SE
         CType(Me.MSE_logo,System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.Closebutton,System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.MSE_iconupdate,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Descrip_panel.SuspendLayout
+        Me.Panel_description.SuspendLayout
         Me.Menu_panel.SuspendLayout
         Me.Menu_Repair.SuspendLayout
         CType(Me.Menu_icon_repair,System.ComponentModel.ISupportInitialize).BeginInit
@@ -748,6 +806,15 @@ Partial Class Miitopia_SE
         Me.Group_changelog.SuspendLayout
         CType(Me.PictureBox27,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Tab_credits.SuspendLayout
+        Me.Panel28.SuspendLayout
+        CType(Me.Icon_MarioPartyITSE,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_PaparMarioSSSE,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_nintendogscatSE,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_IronfallISE,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_TLSE,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ChibiRoboZLSE,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_3dsSEL,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_MiitopiaSE,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_credits.SuspendLayout
         CType(Me.PictureBox28,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_common.SuspendLayout
@@ -945,6 +1012,29 @@ Partial Class Miitopia_SE
         CType(Me.Icon_bananaeat,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_bananaeat.SuspendLayout
         CType(Me.valu_bananaeat,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Tab_common_roulette.SuspendLayout
+        Me.Panel_fea_roulette_oy.SuspendLayout
+        CType(Me.valu_roulette_yellow_unknow2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_yellow_unknow1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_yellow_space,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_yellow_order,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_yellow_item,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_orange_unknow2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_orange_unknow1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_orange_space,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_orange_order,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_orange_item,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel_fea_roulette_bg.SuspendLayout
+        CType(Me.valu_roulette_gray_unknow2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_gray_unknow1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_gray_space,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_gray_order,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_gray_item,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_blue_unknow2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_blue_unknow1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_blue_space,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_blue_order,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_blue_item,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Button_Open.SuspendLayout
         Me.Button_Save.SuspendLayout
         Me.Panel_quest.SuspendLayout
@@ -1357,28 +1447,28 @@ Partial Class Miitopia_SE
         Me.MSE_iconupdate.TabStop = false
         Me.MSE_iconupdate.Visible = false
         '
-        'Descrip_text
+        'Text_description
         '
-        Me.Descrip_text.BackColor = System.Drawing.Color.Transparent
-        Me.Descrip_text.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.Descrip_text.Location = New System.Drawing.Point(6, 0)
-        Me.Descrip_text.Name = "Descrip_text"
-        Me.Descrip_text.Size = New System.Drawing.Size(538, 31)
-        Me.Descrip_text.TabIndex = 1
-        Me.Descrip_text.Text = "Description here"
-        Me.Descrip_text.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Text_description.BackColor = System.Drawing.Color.Transparent
+        Me.Text_description.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Text_description.Location = New System.Drawing.Point(6, 0)
+        Me.Text_description.Name = "Text_description"
+        Me.Text_description.Size = New System.Drawing.Size(538, 31)
+        Me.Text_description.TabIndex = 1
+        Me.Text_description.Text = "Description here"
+        Me.Text_description.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Descrip_panel
+        'Panel_description
         '
-        Me.Descrip_panel.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_descrip
-        Me.Descrip_panel.Controls.Add(Me.Descrip_text)
-        Me.Descrip_panel.ForeColor = System.Drawing.Color.White
-        Me.Descrip_panel.Location = New System.Drawing.Point(0, 469)
-        Me.Descrip_panel.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Descrip_panel.Name = "Descrip_panel"
-        Me.Descrip_panel.Size = New System.Drawing.Size(550, 31)
-        Me.Descrip_panel.TabIndex = 3
-        Me.Descrip_panel.Visible = false
+        Me.Panel_description.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_descrip
+        Me.Panel_description.Controls.Add(Me.Text_description)
+        Me.Panel_description.ForeColor = System.Drawing.Color.White
+        Me.Panel_description.Location = New System.Drawing.Point(0, 469)
+        Me.Panel_description.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel_description.Name = "Panel_description"
+        Me.Panel_description.Size = New System.Drawing.Size(550, 31)
+        Me.Panel_description.TabIndex = 3
+        Me.Panel_description.Visible = false
         '
         'Menu_panel
         '
@@ -1995,7 +2085,7 @@ Partial Class Miitopia_SE
         Me.Changelog.Name = "Changelog"
         Me.Changelog.Size = New System.Drawing.Size(468, 342)
         Me.Changelog.TabIndex = 1
-        Me.Changelog.Text = "More stabilities"
+        Me.Changelog.Text = "Update minor things" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Add link to other save editors" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Add roulette editor"
         Me.Changelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label7
@@ -2005,12 +2095,13 @@ Partial Class Miitopia_SE
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(471, 13)
         Me.Label7.TabIndex = 0
-        Me.Label7.Text = "Version 2.0.4"
+        Me.Label7.Text = "Version 2.0.5"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Tab_credits
         '
         Me.Tab_credits.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_settings
+        Me.Tab_credits.Controls.Add(Me.Panel28)
         Me.Tab_credits.Controls.Add(Me.Group_credits)
         Me.Tab_credits.Location = New System.Drawing.Point(4, 4)
         Me.Tab_credits.Name = "Tab_credits"
@@ -2018,6 +2109,108 @@ Partial Class Miitopia_SE
         Me.Tab_credits.TabIndex = 2
         Me.Tab_credits.Text = "Credits"
         Me.Tab_credits.UseVisualStyleBackColor = True
+        '
+        'Panel28
+        '
+        Me.Panel28.Controls.Add(Me.Icon_MarioPartyITSE)
+        Me.Panel28.Controls.Add(Me.Icon_PaparMarioSSSE)
+        Me.Panel28.Controls.Add(Me.Icon_nintendogscatSE)
+        Me.Panel28.Controls.Add(Me.Icon_IronfallISE)
+        Me.Panel28.Controls.Add(Me.Icon_TLSE)
+        Me.Panel28.Controls.Add(Me.Icon_ChibiRoboZLSE)
+        Me.Panel28.Controls.Add(Me.Icon_3dsSEL)
+        Me.Panel28.Controls.Add(Me.Icon_MiitopiaSE)
+        Me.Panel28.Location = New System.Drawing.Point(480, 1)
+        Me.Panel28.Name = "Panel28"
+        Me.Panel28.Size = New System.Drawing.Size(60, 415)
+        Me.Panel28.TabIndex = 6
+        '
+        'Icon_MarioPartyITSE
+        '
+        Me.Icon_MarioPartyITSE.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_MarioPartyITSE.Image = CType(resources.GetObject("Icon_MarioPartyITSE.Image"), System.Drawing.Image)
+        Me.Icon_MarioPartyITSE.Location = New System.Drawing.Point(6, 308)
+        Me.Icon_MarioPartyITSE.Name = "Icon_MarioPartyITSE"
+        Me.Icon_MarioPartyITSE.Size = New System.Drawing.Size(48, 48)
+        Me.Icon_MarioPartyITSE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Icon_MarioPartyITSE.TabIndex = 7
+        Me.Icon_MarioPartyITSE.TabStop = False
+        '
+        'Icon_PaparMarioSSSE
+        '
+        Me.Icon_PaparMarioSSSE.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_PaparMarioSSSE.Image = CType(resources.GetObject("Icon_PaparMarioSSSE.Image"), System.Drawing.Image)
+        Me.Icon_PaparMarioSSSE.Location = New System.Drawing.Point(6, 158)
+        Me.Icon_PaparMarioSSSE.Name = "Icon_PaparMarioSSSE"
+        Me.Icon_PaparMarioSSSE.Size = New System.Drawing.Size(48, 48)
+        Me.Icon_PaparMarioSSSE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Icon_PaparMarioSSSE.TabIndex = 6
+        Me.Icon_PaparMarioSSSE.TabStop = False
+        '
+        'Icon_nintendogscatSE
+        '
+        Me.Icon_nintendogscatSE.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_nintendogscatSE.Image = CType(resources.GetObject("Icon_nintendogscatSE.Image"), System.Drawing.Image)
+        Me.Icon_nintendogscatSE.Location = New System.Drawing.Point(6, 258)
+        Me.Icon_nintendogscatSE.Name = "Icon_nintendogscatSE"
+        Me.Icon_nintendogscatSE.Size = New System.Drawing.Size(48, 48)
+        Me.Icon_nintendogscatSE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Icon_nintendogscatSE.TabIndex = 5
+        Me.Icon_nintendogscatSE.TabStop = False
+        '
+        'Icon_IronfallISE
+        '
+        Me.Icon_IronfallISE.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_IronfallISE.Image = CType(resources.GetObject("Icon_IronfallISE.Image"), System.Drawing.Image)
+        Me.Icon_IronfallISE.Location = New System.Drawing.Point(6, 208)
+        Me.Icon_IronfallISE.Name = "Icon_IronfallISE"
+        Me.Icon_IronfallISE.Size = New System.Drawing.Size(48, 48)
+        Me.Icon_IronfallISE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Icon_IronfallISE.TabIndex = 4
+        Me.Icon_IronfallISE.TabStop = False
+        '
+        'Icon_TLSE
+        '
+        Me.Icon_TLSE.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_TLSE.Image = CType(resources.GetObject("Icon_TLSE.Image"), System.Drawing.Image)
+        Me.Icon_TLSE.Location = New System.Drawing.Point(6, 58)
+        Me.Icon_TLSE.Name = "Icon_TLSE"
+        Me.Icon_TLSE.Size = New System.Drawing.Size(48, 48)
+        Me.Icon_TLSE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Icon_TLSE.TabIndex = 3
+        Me.Icon_TLSE.TabStop = False
+        '
+        'Icon_ChibiRoboZLSE
+        '
+        Me.Icon_ChibiRoboZLSE.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_ChibiRoboZLSE.Image = CType(resources.GetObject("Icon_ChibiRoboZLSE.Image"), System.Drawing.Image)
+        Me.Icon_ChibiRoboZLSE.Location = New System.Drawing.Point(6, 108)
+        Me.Icon_ChibiRoboZLSE.Name = "Icon_ChibiRoboZLSE"
+        Me.Icon_ChibiRoboZLSE.Size = New System.Drawing.Size(48, 48)
+        Me.Icon_ChibiRoboZLSE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Icon_ChibiRoboZLSE.TabIndex = 2
+        Me.Icon_ChibiRoboZLSE.TabStop = False
+        '
+        'Icon_3dsSEL
+        '
+        Me.Icon_3dsSEL.Image = CType(resources.GetObject("Icon_3dsSEL.Image"), System.Drawing.Image)
+        Me.Icon_3dsSEL.Location = New System.Drawing.Point(6, 358)
+        Me.Icon_3dsSEL.Name = "Icon_3dsSEL"
+        Me.Icon_3dsSEL.Size = New System.Drawing.Size(48, 48)
+        Me.Icon_3dsSEL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Icon_3dsSEL.TabIndex = 1
+        Me.Icon_3dsSEL.TabStop = False
+        '
+        'Icon_MiitopiaSE
+        '
+        Me.Icon_MiitopiaSE.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_MiitopiaSE.Image = CType(resources.GetObject("Icon_MiitopiaSE.Image"), System.Drawing.Image)
+        Me.Icon_MiitopiaSE.Location = New System.Drawing.Point(6, 8)
+        Me.Icon_MiitopiaSE.Name = "Icon_MiitopiaSE"
+        Me.Icon_MiitopiaSE.Size = New System.Drawing.Size(48, 48)
+        Me.Icon_MiitopiaSE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Icon_MiitopiaSE.TabIndex = 0
+        Me.Icon_MiitopiaSE.TabStop = False
         '
         'Group_credits
         '
@@ -2027,9 +2220,9 @@ Partial Class Miitopia_SE
         Me.Group_credits.Controls.Add(Me.LinkLabel2)
         Me.Group_credits.Controls.Add(Me.LinkLabel1)
         Me.Group_credits.Controls.Add(Me.PictureBox28)
-        Me.Group_credits.Location = New System.Drawing.Point(30, 12)
+        Me.Group_credits.Location = New System.Drawing.Point(8, 12)
         Me.Group_credits.Name = "Group_credits"
-        Me.Group_credits.Size = New System.Drawing.Size(483, 393)
+        Me.Group_credits.Size = New System.Drawing.Size(527, 393)
         Me.Group_credits.TabIndex = 2
         Me.Group_credits.TabStop = False
         Me.Group_credits.Text = "Credits"
@@ -2040,7 +2233,7 @@ Partial Class Miitopia_SE
         Me.Button_dona.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button_dona.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button_dona.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button_dona.Location = New System.Drawing.Point(204, 27)
+        Me.Button_dona.Location = New System.Drawing.Point(202, 27)
         Me.Button_dona.Name = "Button_dona"
         Me.Button_dona.Size = New System.Drawing.Size(75, 23)
         Me.Button_dona.TabIndex = 5
@@ -2051,7 +2244,7 @@ Partial Class Miitopia_SE
         '
         Me.Credits.BackColor = System.Drawing.Color.White
         Me.Credits.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.Credits.Location = New System.Drawing.Point(14, 64)
+        Me.Credits.Location = New System.Drawing.Point(12, 64)
         Me.Credits.Multiline = True
         Me.Credits.Name = "Credits"
         Me.Credits.ReadOnly = True
@@ -2065,7 +2258,7 @@ Partial Class Miitopia_SE
         '
         Me.LinkLabel2.AutoSize = True
         Me.LinkLabel2.BackColor = System.Drawing.Color.Transparent
-        Me.LinkLabel2.Location = New System.Drawing.Point(372, 32)
+        Me.LinkLabel2.Location = New System.Drawing.Point(370, 32)
         Me.LinkLabel2.Name = "LinkLabel2"
         Me.LinkLabel2.Size = New System.Drawing.Size(96, 13)
         Me.LinkLabel2.TabIndex = 2
@@ -2076,7 +2269,7 @@ Partial Class Miitopia_SE
         '
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.LinkLabel1.Location = New System.Drawing.Point(31, 32)
+        Me.LinkLabel1.Location = New System.Drawing.Point(29, 32)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(66, 13)
         Me.LinkLabel1.TabIndex = 1
@@ -2086,7 +2279,7 @@ Partial Class Miitopia_SE
         'PictureBox28
         '
         Me.PictureBox28.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.village
-        Me.PictureBox28.Location = New System.Drawing.Point(5, 331)
+        Me.PictureBox28.Location = New System.Drawing.Point(3, 331)
         Me.PictureBox28.Name = "PictureBox28"
         Me.PictureBox28.Size = New System.Drawing.Size(100, 60)
         Me.PictureBox28.TabIndex = 4
@@ -2136,6 +2329,7 @@ Partial Class Miitopia_SE
         Me.TabControl1.Controls.Add(Me.Tab_common_main)
         Me.TabControl1.Controls.Add(Me.Tab_common_ency)
         Me.TabControl1.Controls.Add(Me.Tab_common_extras)
+        Me.TabControl1.Controls.Add(Me.Tab_common_roulette)
         Me.TabControl1.HotTrack = True
         Me.TabControl1.Location = New System.Drawing.Point(9, 55)
         Me.TabControl1.Name = "TabControl1"
@@ -4460,6 +4654,516 @@ Partial Class Miitopia_SE
         Me.valu_bananaeat.Size = New System.Drawing.Size(79, 16)
         Me.valu_bananaeat.TabIndex = 5
         Me.valu_bananaeat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Tab_common_roulette
+        '
+        Me.Tab_common_roulette.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
+        Me.Tab_common_roulette.Controls.Add(Me.Panel_fea_roulette_oy)
+        Me.Tab_common_roulette.Controls.Add(Me.Panel_fea_roulette_bg)
+        Me.Tab_common_roulette.Controls.Add(Me.Select_fea_roulette)
+        Me.Tab_common_roulette.Controls.Add(Me.Text_fea_roulette)
+        Me.Tab_common_roulette.Location = New System.Drawing.Point(4, 22)
+        Me.Tab_common_roulette.Name = "Tab_common_roulette"
+        Me.Tab_common_roulette.Size = New System.Drawing.Size(524, 351)
+        Me.Tab_common_roulette.TabIndex = 3
+        Me.Tab_common_roulette.Text = "Roulette"
+        Me.Tab_common_roulette.UseVisualStyleBackColor = True
+        '
+        'Panel_fea_roulette_oy
+        '
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.valu_roulette_yellow_unknow2)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.Text_roulette_yellow_unknow2)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.valu_roulette_yellow_unknow1)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.Text_roulette_yellow_unknow1)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.valu_roulette_yellow_space)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.Text_roulette_yellow_space)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.valu_roulette_yellow_order)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.Text_roulette_yellow_order)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.valu_roulette_yellow_item)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.Text_roulette_yellow_item)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.Text_roulette_yellow)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.valu_roulette_orange_unknow2)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.Text_roulette_orange_unknow2)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.valu_roulette_orange_unknow1)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.Text_roulette_orange_unknow1)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.valu_roulette_orange_space)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.Text_roulette_orange_space)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.valu_roulette_orange_order)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.Text_roulette_orange_order)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.valu_roulette_orange_item)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.Text_roulette_orange_item)
+        Me.Panel_fea_roulette_oy.Controls.Add(Me.Text_roulette_orange)
+        Me.Panel_fea_roulette_oy.Location = New System.Drawing.Point(8, 188)
+        Me.Panel_fea_roulette_oy.Name = "Panel_fea_roulette_oy"
+        Me.Panel_fea_roulette_oy.Size = New System.Drawing.Size(502, 155)
+        Me.Panel_fea_roulette_oy.TabIndex = 47
+        '
+        'valu_roulette_yellow_unknow2
+        '
+        Me.valu_roulette_yellow_unknow2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_yellow_unknow2.Location = New System.Drawing.Point(422, 126)
+        Me.valu_roulette_yellow_unknow2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_yellow_unknow2.Name = "valu_roulette_yellow_unknow2"
+        Me.valu_roulette_yellow_unknow2.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_yellow_unknow2.TabIndex = 45
+        Me.valu_roulette_yellow_unknow2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_yellow_unknow2
+        '
+        Me.Text_roulette_yellow_unknow2.Location = New System.Drawing.Point(422, 110)
+        Me.Text_roulette_yellow_unknow2.Name = "Text_roulette_yellow_unknow2"
+        Me.Text_roulette_yellow_unknow2.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_yellow_unknow2.TabIndex = 44
+        Me.Text_roulette_yellow_unknow2.Text = "Unknow 2"
+        Me.Text_roulette_yellow_unknow2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_yellow_unknow1
+        '
+        Me.valu_roulette_yellow_unknow1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_yellow_unknow1.Location = New System.Drawing.Point(323, 126)
+        Me.valu_roulette_yellow_unknow1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_yellow_unknow1.Name = "valu_roulette_yellow_unknow1"
+        Me.valu_roulette_yellow_unknow1.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_yellow_unknow1.TabIndex = 43
+        Me.valu_roulette_yellow_unknow1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_yellow_unknow1
+        '
+        Me.Text_roulette_yellow_unknow1.Location = New System.Drawing.Point(323, 110)
+        Me.Text_roulette_yellow_unknow1.Name = "Text_roulette_yellow_unknow1"
+        Me.Text_roulette_yellow_unknow1.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_yellow_unknow1.TabIndex = 42
+        Me.Text_roulette_yellow_unknow1.Text = "Unknow 1"
+        Me.Text_roulette_yellow_unknow1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_yellow_space
+        '
+        Me.valu_roulette_yellow_space.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_yellow_space.Location = New System.Drawing.Point(224, 126)
+        Me.valu_roulette_yellow_space.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_yellow_space.Name = "valu_roulette_yellow_space"
+        Me.valu_roulette_yellow_space.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_yellow_space.TabIndex = 41
+        Me.valu_roulette_yellow_space.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_yellow_space
+        '
+        Me.Text_roulette_yellow_space.Location = New System.Drawing.Point(224, 110)
+        Me.Text_roulette_yellow_space.Name = "Text_roulette_yellow_space"
+        Me.Text_roulette_yellow_space.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_yellow_space.TabIndex = 40
+        Me.Text_roulette_yellow_space.Text = "Space"
+        Me.Text_roulette_yellow_space.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_yellow_order
+        '
+        Me.valu_roulette_yellow_order.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_yellow_order.Location = New System.Drawing.Point(125, 126)
+        Me.valu_roulette_yellow_order.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_yellow_order.Name = "valu_roulette_yellow_order"
+        Me.valu_roulette_yellow_order.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_yellow_order.TabIndex = 39
+        Me.valu_roulette_yellow_order.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_yellow_order
+        '
+        Me.Text_roulette_yellow_order.Location = New System.Drawing.Point(125, 110)
+        Me.Text_roulette_yellow_order.Name = "Text_roulette_yellow_order"
+        Me.Text_roulette_yellow_order.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_yellow_order.TabIndex = 38
+        Me.Text_roulette_yellow_order.Text = "Order"
+        Me.Text_roulette_yellow_order.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_yellow_item
+        '
+        Me.valu_roulette_yellow_item.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_yellow_item.Location = New System.Drawing.Point(26, 126)
+        Me.valu_roulette_yellow_item.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_yellow_item.Name = "valu_roulette_yellow_item"
+        Me.valu_roulette_yellow_item.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_yellow_item.TabIndex = 37
+        Me.valu_roulette_yellow_item.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_yellow_item
+        '
+        Me.Text_roulette_yellow_item.Location = New System.Drawing.Point(26, 110)
+        Me.Text_roulette_yellow_item.Name = "Text_roulette_yellow_item"
+        Me.Text_roulette_yellow_item.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_yellow_item.TabIndex = 36
+        Me.Text_roulette_yellow_item.Text = "Item"
+        Me.Text_roulette_yellow_item.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Text_roulette_yellow
+        '
+        Me.Text_roulette_yellow.AutoSize = True
+        Me.Text_roulette_yellow.Location = New System.Drawing.Point(10, 83)
+        Me.Text_roulette_yellow.Name = "Text_roulette_yellow"
+        Me.Text_roulette_yellow.Size = New System.Drawing.Size(69, 13)
+        Me.Text_roulette_yellow.TabIndex = 35
+        Me.Text_roulette_yellow.Text = "Part Yellow : "
+        '
+        'valu_roulette_orange_unknow2
+        '
+        Me.valu_roulette_orange_unknow2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_orange_unknow2.Location = New System.Drawing.Point(422, 52)
+        Me.valu_roulette_orange_unknow2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_orange_unknow2.Name = "valu_roulette_orange_unknow2"
+        Me.valu_roulette_orange_unknow2.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_orange_unknow2.TabIndex = 34
+        Me.valu_roulette_orange_unknow2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_orange_unknow2
+        '
+        Me.Text_roulette_orange_unknow2.Location = New System.Drawing.Point(422, 36)
+        Me.Text_roulette_orange_unknow2.Name = "Text_roulette_orange_unknow2"
+        Me.Text_roulette_orange_unknow2.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_orange_unknow2.TabIndex = 33
+        Me.Text_roulette_orange_unknow2.Text = "Unknow 2"
+        Me.Text_roulette_orange_unknow2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_orange_unknow1
+        '
+        Me.valu_roulette_orange_unknow1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_orange_unknow1.Location = New System.Drawing.Point(323, 52)
+        Me.valu_roulette_orange_unknow1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_orange_unknow1.Name = "valu_roulette_orange_unknow1"
+        Me.valu_roulette_orange_unknow1.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_orange_unknow1.TabIndex = 32
+        Me.valu_roulette_orange_unknow1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_orange_unknow1
+        '
+        Me.Text_roulette_orange_unknow1.Location = New System.Drawing.Point(323, 36)
+        Me.Text_roulette_orange_unknow1.Name = "Text_roulette_orange_unknow1"
+        Me.Text_roulette_orange_unknow1.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_orange_unknow1.TabIndex = 31
+        Me.Text_roulette_orange_unknow1.Text = "Unknow 1"
+        Me.Text_roulette_orange_unknow1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_orange_space
+        '
+        Me.valu_roulette_orange_space.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_orange_space.Location = New System.Drawing.Point(224, 52)
+        Me.valu_roulette_orange_space.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_orange_space.Name = "valu_roulette_orange_space"
+        Me.valu_roulette_orange_space.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_orange_space.TabIndex = 30
+        Me.valu_roulette_orange_space.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_orange_space
+        '
+        Me.Text_roulette_orange_space.Location = New System.Drawing.Point(224, 36)
+        Me.Text_roulette_orange_space.Name = "Text_roulette_orange_space"
+        Me.Text_roulette_orange_space.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_orange_space.TabIndex = 29
+        Me.Text_roulette_orange_space.Text = "Space"
+        Me.Text_roulette_orange_space.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_orange_order
+        '
+        Me.valu_roulette_orange_order.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_orange_order.Location = New System.Drawing.Point(125, 52)
+        Me.valu_roulette_orange_order.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_orange_order.Name = "valu_roulette_orange_order"
+        Me.valu_roulette_orange_order.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_orange_order.TabIndex = 28
+        Me.valu_roulette_orange_order.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_orange_order
+        '
+        Me.Text_roulette_orange_order.Location = New System.Drawing.Point(125, 36)
+        Me.Text_roulette_orange_order.Name = "Text_roulette_orange_order"
+        Me.Text_roulette_orange_order.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_orange_order.TabIndex = 27
+        Me.Text_roulette_orange_order.Text = "Order"
+        Me.Text_roulette_orange_order.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_orange_item
+        '
+        Me.valu_roulette_orange_item.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_orange_item.Location = New System.Drawing.Point(26, 52)
+        Me.valu_roulette_orange_item.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_orange_item.Name = "valu_roulette_orange_item"
+        Me.valu_roulette_orange_item.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_orange_item.TabIndex = 26
+        Me.valu_roulette_orange_item.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_orange_item
+        '
+        Me.Text_roulette_orange_item.Location = New System.Drawing.Point(26, 36)
+        Me.Text_roulette_orange_item.Name = "Text_roulette_orange_item"
+        Me.Text_roulette_orange_item.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_orange_item.TabIndex = 25
+        Me.Text_roulette_orange_item.Text = "Item"
+        Me.Text_roulette_orange_item.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Text_roulette_orange
+        '
+        Me.Text_roulette_orange.AutoSize = True
+        Me.Text_roulette_orange.Location = New System.Drawing.Point(10, 9)
+        Me.Text_roulette_orange.Name = "Text_roulette_orange"
+        Me.Text_roulette_orange.Size = New System.Drawing.Size(73, 13)
+        Me.Text_roulette_orange.TabIndex = 24
+        Me.Text_roulette_orange.Text = "Part Orange : "
+        '
+        'Panel_fea_roulette_bg
+        '
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.valu_roulette_gray_unknow2)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.Text_roulette_gray_unknow2)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.valu_roulette_gray_unknow1)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.Text_roulette_gray_unknow1)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.valu_roulette_gray_space)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.Text_roulette_gray_space)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.valu_roulette_gray_order)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.Text_roulette_gray_order)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.valu_roulette_gray_item)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.Text_roulette_gray_item)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.Text_roulette_gray)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.valu_roulette_blue_unknow2)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.Text_roulette_blue_unknow2)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.valu_roulette_blue_unknow1)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.Text_roulette_blue_unknow1)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.valu_roulette_blue_space)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.Text_roulette_blue_space)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.valu_roulette_blue_order)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.Text_roulette_blue_order)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.valu_roulette_blue_item)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.Text_roulette_blue_item)
+        Me.Panel_fea_roulette_bg.Controls.Add(Me.Text_roulette_blue)
+        Me.Panel_fea_roulette_bg.Location = New System.Drawing.Point(8, 9)
+        Me.Panel_fea_roulette_bg.Name = "Panel_fea_roulette_bg"
+        Me.Panel_fea_roulette_bg.Size = New System.Drawing.Size(502, 152)
+        Me.Panel_fea_roulette_bg.TabIndex = 46
+        '
+        'valu_roulette_gray_unknow2
+        '
+        Me.valu_roulette_gray_unknow2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_gray_unknow2.Location = New System.Drawing.Point(422, 121)
+        Me.valu_roulette_gray_unknow2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_gray_unknow2.Name = "valu_roulette_gray_unknow2"
+        Me.valu_roulette_gray_unknow2.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_gray_unknow2.TabIndex = 23
+        Me.valu_roulette_gray_unknow2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_gray_unknow2
+        '
+        Me.Text_roulette_gray_unknow2.Location = New System.Drawing.Point(422, 105)
+        Me.Text_roulette_gray_unknow2.Name = "Text_roulette_gray_unknow2"
+        Me.Text_roulette_gray_unknow2.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_gray_unknow2.TabIndex = 22
+        Me.Text_roulette_gray_unknow2.Text = "Unknow 2"
+        Me.Text_roulette_gray_unknow2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_gray_unknow1
+        '
+        Me.valu_roulette_gray_unknow1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_gray_unknow1.Location = New System.Drawing.Point(323, 121)
+        Me.valu_roulette_gray_unknow1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_gray_unknow1.Name = "valu_roulette_gray_unknow1"
+        Me.valu_roulette_gray_unknow1.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_gray_unknow1.TabIndex = 21
+        Me.valu_roulette_gray_unknow1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_gray_unknow1
+        '
+        Me.Text_roulette_gray_unknow1.Location = New System.Drawing.Point(323, 105)
+        Me.Text_roulette_gray_unknow1.Name = "Text_roulette_gray_unknow1"
+        Me.Text_roulette_gray_unknow1.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_gray_unknow1.TabIndex = 20
+        Me.Text_roulette_gray_unknow1.Text = "Unknow 1"
+        Me.Text_roulette_gray_unknow1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_gray_space
+        '
+        Me.valu_roulette_gray_space.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_gray_space.Location = New System.Drawing.Point(224, 121)
+        Me.valu_roulette_gray_space.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_gray_space.Name = "valu_roulette_gray_space"
+        Me.valu_roulette_gray_space.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_gray_space.TabIndex = 19
+        Me.valu_roulette_gray_space.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_gray_space
+        '
+        Me.Text_roulette_gray_space.Location = New System.Drawing.Point(224, 105)
+        Me.Text_roulette_gray_space.Name = "Text_roulette_gray_space"
+        Me.Text_roulette_gray_space.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_gray_space.TabIndex = 18
+        Me.Text_roulette_gray_space.Text = "Space"
+        Me.Text_roulette_gray_space.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_gray_order
+        '
+        Me.valu_roulette_gray_order.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_gray_order.Location = New System.Drawing.Point(125, 121)
+        Me.valu_roulette_gray_order.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_gray_order.Name = "valu_roulette_gray_order"
+        Me.valu_roulette_gray_order.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_gray_order.TabIndex = 17
+        Me.valu_roulette_gray_order.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_gray_order
+        '
+        Me.Text_roulette_gray_order.Location = New System.Drawing.Point(125, 105)
+        Me.Text_roulette_gray_order.Name = "Text_roulette_gray_order"
+        Me.Text_roulette_gray_order.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_gray_order.TabIndex = 16
+        Me.Text_roulette_gray_order.Text = "Order"
+        Me.Text_roulette_gray_order.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_gray_item
+        '
+        Me.valu_roulette_gray_item.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_gray_item.Location = New System.Drawing.Point(26, 121)
+        Me.valu_roulette_gray_item.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_gray_item.Name = "valu_roulette_gray_item"
+        Me.valu_roulette_gray_item.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_gray_item.TabIndex = 15
+        Me.valu_roulette_gray_item.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_gray_item
+        '
+        Me.Text_roulette_gray_item.Location = New System.Drawing.Point(26, 105)
+        Me.Text_roulette_gray_item.Name = "Text_roulette_gray_item"
+        Me.Text_roulette_gray_item.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_gray_item.TabIndex = 14
+        Me.Text_roulette_gray_item.Text = "Item"
+        Me.Text_roulette_gray_item.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Text_roulette_gray
+        '
+        Me.Text_roulette_gray.AutoSize = True
+        Me.Text_roulette_gray.Location = New System.Drawing.Point(10, 78)
+        Me.Text_roulette_gray.Name = "Text_roulette_gray"
+        Me.Text_roulette_gray.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_gray.TabIndex = 13
+        Me.Text_roulette_gray.Text = "Part Gray : "
+        '
+        'valu_roulette_blue_unknow2
+        '
+        Me.valu_roulette_blue_unknow2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_blue_unknow2.Location = New System.Drawing.Point(422, 47)
+        Me.valu_roulette_blue_unknow2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_blue_unknow2.Name = "valu_roulette_blue_unknow2"
+        Me.valu_roulette_blue_unknow2.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_blue_unknow2.TabIndex = 12
+        Me.valu_roulette_blue_unknow2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_blue_unknow2
+        '
+        Me.Text_roulette_blue_unknow2.Location = New System.Drawing.Point(422, 31)
+        Me.Text_roulette_blue_unknow2.Name = "Text_roulette_blue_unknow2"
+        Me.Text_roulette_blue_unknow2.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_blue_unknow2.TabIndex = 11
+        Me.Text_roulette_blue_unknow2.Text = "Unknow 2"
+        Me.Text_roulette_blue_unknow2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_blue_unknow1
+        '
+        Me.valu_roulette_blue_unknow1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_blue_unknow1.Location = New System.Drawing.Point(323, 47)
+        Me.valu_roulette_blue_unknow1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_blue_unknow1.Name = "valu_roulette_blue_unknow1"
+        Me.valu_roulette_blue_unknow1.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_blue_unknow1.TabIndex = 10
+        Me.valu_roulette_blue_unknow1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_blue_unknow1
+        '
+        Me.Text_roulette_blue_unknow1.Location = New System.Drawing.Point(323, 31)
+        Me.Text_roulette_blue_unknow1.Name = "Text_roulette_blue_unknow1"
+        Me.Text_roulette_blue_unknow1.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_blue_unknow1.TabIndex = 9
+        Me.Text_roulette_blue_unknow1.Text = "Unknow 1"
+        Me.Text_roulette_blue_unknow1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_blue_space
+        '
+        Me.valu_roulette_blue_space.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_blue_space.Location = New System.Drawing.Point(224, 47)
+        Me.valu_roulette_blue_space.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_blue_space.Name = "valu_roulette_blue_space"
+        Me.valu_roulette_blue_space.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_blue_space.TabIndex = 8
+        Me.valu_roulette_blue_space.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_blue_space
+        '
+        Me.Text_roulette_blue_space.Location = New System.Drawing.Point(224, 31)
+        Me.Text_roulette_blue_space.Name = "Text_roulette_blue_space"
+        Me.Text_roulette_blue_space.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_blue_space.TabIndex = 7
+        Me.Text_roulette_blue_space.Text = "Space"
+        Me.Text_roulette_blue_space.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_blue_order
+        '
+        Me.valu_roulette_blue_order.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_blue_order.Location = New System.Drawing.Point(125, 47)
+        Me.valu_roulette_blue_order.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_blue_order.Name = "valu_roulette_blue_order"
+        Me.valu_roulette_blue_order.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_blue_order.TabIndex = 6
+        Me.valu_roulette_blue_order.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_blue_order
+        '
+        Me.Text_roulette_blue_order.Location = New System.Drawing.Point(125, 31)
+        Me.Text_roulette_blue_order.Name = "Text_roulette_blue_order"
+        Me.Text_roulette_blue_order.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_blue_order.TabIndex = 5
+        Me.Text_roulette_blue_order.Text = "Order"
+        Me.Text_roulette_blue_order.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_roulette_blue_item
+        '
+        Me.valu_roulette_blue_item.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_roulette_blue_item.Location = New System.Drawing.Point(26, 47)
+        Me.valu_roulette_blue_item.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_roulette_blue_item.Name = "valu_roulette_blue_item"
+        Me.valu_roulette_blue_item.Size = New System.Drawing.Size(60, 16)
+        Me.valu_roulette_blue_item.TabIndex = 4
+        Me.valu_roulette_blue_item.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_roulette_blue_item
+        '
+        Me.Text_roulette_blue_item.Location = New System.Drawing.Point(26, 31)
+        Me.Text_roulette_blue_item.Name = "Text_roulette_blue_item"
+        Me.Text_roulette_blue_item.Size = New System.Drawing.Size(60, 13)
+        Me.Text_roulette_blue_item.TabIndex = 3
+        Me.Text_roulette_blue_item.Text = "Item"
+        Me.Text_roulette_blue_item.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Text_roulette_blue
+        '
+        Me.Text_roulette_blue.AutoSize = True
+        Me.Text_roulette_blue.Location = New System.Drawing.Point(10, 4)
+        Me.Text_roulette_blue.Name = "Text_roulette_blue"
+        Me.Text_roulette_blue.Size = New System.Drawing.Size(59, 13)
+        Me.Text_roulette_blue.TabIndex = 2
+        Me.Text_roulette_blue.Text = "Part Blue : "
+        '
+        'Select_fea_roulette
+        '
+        Me.Select_fea_roulette.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Select_fea_roulette.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_fea_roulette.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_fea_roulette.FormattingEnabled = True
+        Me.Select_fea_roulette.Items.AddRange(New Object() {"Do nothing", "EXP x A giant helping", "EXP x A generous portion", "EXP x A morsel", "Jolly Jaunt Tickets x Luxury", "Jolly Jaunt Tickets x Fancy", "Jolly Jaunt Tickets x Budget"})
+        Me.Select_fea_roulette.Location = New System.Drawing.Point(235, 164)
+        Me.Select_fea_roulette.Name = "Select_fea_roulette"
+        Me.Select_fea_roulette.Size = New System.Drawing.Size(203, 21)
+        Me.Select_fea_roulette.TabIndex = 1
+        '
+        'Text_fea_roulette
+        '
+        Me.Text_fea_roulette.ForeColor = System.Drawing.Color.OrangeRed
+        Me.Text_fea_roulette.Location = New System.Drawing.Point(-4, 167)
+        Me.Text_fea_roulette.Name = "Text_fea_roulette"
+        Me.Text_fea_roulette.Size = New System.Drawing.Size(235, 13)
+        Me.Text_fea_roulette.TabIndex = 0
+        Me.Text_fea_roulette.Text = "Set all roulette parts with : "
+        Me.Text_fea_roulette.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Button_Open
         '
@@ -9074,7 +9778,7 @@ Partial Class Miitopia_SE
         Me.Controls.Add(Me.Panel_notification)
         Me.Controls.Add(Me.File_path_hero)
         Me.Controls.Add(Me.File_path_quest)
-        Me.Controls.Add(Me.Descrip_panel)
+        Me.Controls.Add(Me.Panel_description)
         Me.Controls.Add(Me.File_path_common)
         Me.Controls.Add(Me.Panel_slt_save)
         Me.Controls.Add(Me.Hidden_things)
@@ -9083,273 +9787,307 @@ Partial Class Miitopia_SE
         Me.Controls.Add(Me.Menu_buttonS)
         Me.Controls.Add(Me.Menu_panel)
         Me.Controls.Add(Me.MSE_header)
+        Me.Controls.Add(Me.Panel_common)
         Me.Controls.Add(Me.Panel_hero)
         Me.Controls.Add(Me.Panel_quest)
-        Me.Controls.Add(Me.Panel_common)
         Me.Controls.Add(Me.Panel_settings)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Icon = CType(resources.GetObject("$this.Icon"),System.Drawing.Icon)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Miitopia_SE"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Miitopia Save Editor"
-        Me.MSE_header.ResumeLayout(false)
-        CType(Me.MSE_icon,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.MSE_logo,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Closebutton,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.MSE_iconupdate,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Descrip_panel.ResumeLayout(false)
-        Me.Menu_panel.ResumeLayout(false)
-        Me.Menu_Repair.ResumeLayout(false)
-        Me.Menu_Repair.PerformLayout
-        CType(Me.Menu_icon_repair,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel26.ResumeLayout(false)
-        Me.Panel26.PerformLayout
-        CType(Me.PictureBox10,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Menu_quest.ResumeLayout(false)
-        Me.Menu_quest.PerformLayout
-        CType(Me.Menu_icon_quest,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Menu_hero.ResumeLayout(false)
-        Me.Menu_hero.PerformLayout
-        CType(Me.Menu_icon_hero,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Menu_common.ResumeLayout(false)
-        Me.Menu_common.PerformLayout
-        CType(Me.Menu_icon_common,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Menu_settings.ResumeLayout(false)
-        Me.Menu_settings.PerformLayout
-        CType(Me.Menu_icon_settings,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Menu_width,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Menu_buttonS.ResumeLayout(false)
-        Me.Menu_buttonH.ResumeLayout(false)
-        Me.Hidden_things.ResumeLayout(false)
-        Me.Panel_music.ResumeLayout(false)
-        CType(Me.PictureBox4,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel_slt_save.ResumeLayout(false)
-        Me.File_path_common.ResumeLayout(false)
-        Me.File_path_common.PerformLayout
-        Me.Panel_settings.ResumeLayout(false)
-        Me.TabControl5.ResumeLayout(false)
-        Me.Tab_settings.ResumeLayout(false)
-        Me.Group_settings.ResumeLayout(false)
-        CType(Me.PictureBox26,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel30.ResumeLayout(false)
-        Me.Panel30.PerformLayout
-        Me.Panel9.ResumeLayout(false)
-        Me.Panel9.PerformLayout
-        Me.Panel8.ResumeLayout(false)
-        Me.Panel8.PerformLayout
-        Me.Panel5.ResumeLayout(false)
-        Me.Panel5.PerformLayout
-        Me.Panel3.ResumeLayout(false)
-        Me.Panel3.PerformLayout
-        Me.Tab_changelog.ResumeLayout(false)
-        Me.Group_changelog.ResumeLayout(false)
-        CType(Me.PictureBox27,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_credits.ResumeLayout(false)
-        Me.Group_credits.ResumeLayout(false)
-        Me.Group_credits.PerformLayout
-        CType(Me.PictureBox28,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel_common.ResumeLayout(false)
-        Me.Panel_common.PerformLayout
-        CType(Me.Dragon_map2,System.ComponentModel.ISupportInitialize).EndInit
-        Me.TabControl1.ResumeLayout(false)
-        Me.Tab_common_main.ResumeLayout(false)
-        Me.Tab_common_main.PerformLayout
-        Me.Panel_partylevel.ResumeLayout(false)
-        Me.Panel_partylevel.PerformLayout
-        CType(Me.PictureBox6,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_level,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel_partyworld.ResumeLayout(false)
-        CType(Me.valu_world,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_safespot.ResumeLayout(false)
-        CType(Me.valu_safespot,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.icon_safespot,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Dragon_map,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_party.ResumeLayout(false)
-        Me.Group_party.PerformLayout
-        CType(Me.valu_party,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox5,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.icon_party,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel1.ResumeLayout(false)
-        Me.Panel1.PerformLayout
-        CType(Me.valu_rescued,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_sprinkles.ResumeLayout(false)
-        CType(Me.icon_sprinkles,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_sprinkles.ResumeLayout(false)
-        CType(Me.valu_sprinkles,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ticket.ResumeLayout(false)
-        CType(Me.icon_ticket,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ticket.ResumeLayout(false)
-        CType(Me.valu_ticket,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_costamiibo.ResumeLayout(false)
-        CType(Me.icon_costamiibo,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_costamiibo.ResumeLayout(false)
-        CType(Me.valu_costamiibo,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_allweapons.ResumeLayout(false)
-        CType(Me.icon_allweapons,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_allweapons.ResumeLayout(false)
-        CType(Me.valu_allweapons,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_foods.ResumeLayout(false)
-        CType(Me.icon_foods,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_candies.ResumeLayout(false)
-        CType(Me.icon_candies,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_candies.ResumeLayout(false)
-        CType(Me.PictureBox9,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_candies,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_bananas.ResumeLayout(false)
-        CType(Me.icon_bananas,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_bananas.ResumeLayout(false)
-        CType(Me.PictureBox7,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_bananas,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_gold.ResumeLayout(false)
-        CType(Me.icon_gold,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_gold.ResumeLayout(false)
-        CType(Me.valu_gold,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_common_ency.ResumeLayout(false)
-        Me.TabControl2.ResumeLayout(false)
-        Me.Tab_ency_weap.ResumeLayout(false)
-        Me.Fea_wp_elf.ResumeLayout(false)
-        CType(Me.Icon_wp_elf,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_elf.ResumeLayout(false)
-        CType(Me.valu_wp_elf,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_cat.ResumeLayout(false)
-        CType(Me.Icon_wp_cat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_cat.ResumeLayout(false)
-        CType(Me.valu_wp_cat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_scientist.ResumeLayout(false)
-        CType(Me.Icon_wp_scientist,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_scientist.ResumeLayout(false)
-        CType(Me.valu_wp_scientist,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_flower.ResumeLayout(false)
-        CType(Me.Icon_wp_flower,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_flower.ResumeLayout(false)
-        CType(Me.valu_wp_flower,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_princess.ResumeLayout(false)
-        CType(Me.Icon_wp_princess,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_princess.ResumeLayout(false)
-        CType(Me.valu_wp_princess,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_imp.ResumeLayout(false)
-        CType(Me.Icon_wp_imp,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_imp.ResumeLayout(false)
-        CType(Me.valu_wp_imp,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_tank.ResumeLayout(false)
-        CType(Me.Icon_wp_tank,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_tank.ResumeLayout(false)
-        CType(Me.valu_wp_tank,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_chef.ResumeLayout(false)
-        CType(Me.Icon_wp_chef,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_chef.ResumeLayout(false)
-        CType(Me.valu_wp_chef,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_vampire.ResumeLayout(false)
-        CType(Me.Icon_wp_vampire,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_vampire.ResumeLayout(false)
-        CType(Me.valu_wp_vampire,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_popstar.ResumeLayout(false)
-        CType(Me.Icon_wp_popstar,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_popstar.ResumeLayout(false)
-        CType(Me.valu_wp_popstar,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_thief.ResumeLayout(false)
-        CType(Me.Icon_wp_thief,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_thief.ResumeLayout(false)
-        CType(Me.valu_wp_thief,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_cleric.ResumeLayout(false)
-        CType(Me.Icon_wp_cleric,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_cleric.ResumeLayout(false)
-        CType(Me.valu_wp_cleric,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_mage.ResumeLayout(false)
-        CType(Me.Icon_wp_mage,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_mage.ResumeLayout(false)
-        CType(Me.valu_wp_mage,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_warrior.ResumeLayout(false)
-        CType(Me.Icon_wp_warrior,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_warrior.ResumeLayout(false)
-        CType(Me.valu_wp_warrior,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_ency_cost.ResumeLayout(false)
-        Me.Fea_ct_elf.ResumeLayout(false)
-        CType(Me.Icon_ct_elf,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_elf.ResumeLayout(false)
-        CType(Me.valu_ct_elf,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_cat.ResumeLayout(false)
-        CType(Me.Icon_ct_cat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_cat.ResumeLayout(false)
-        CType(Me.valu_ct_cat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_scientist.ResumeLayout(false)
-        CType(Me.Icon_ct_scientist,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_scientist.ResumeLayout(false)
-        CType(Me.valu_ct_scientist,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_flower.ResumeLayout(false)
-        CType(Me.Icon_ct_flower,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_flower.ResumeLayout(false)
-        CType(Me.valu_ct_flower,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_princess.ResumeLayout(false)
-        CType(Me.Icon_ct_princess,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_princess.ResumeLayout(false)
-        CType(Me.valu_ct_princess,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_imp.ResumeLayout(false)
-        CType(Me.Icon_ct_imp,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_imp.ResumeLayout(false)
-        CType(Me.valu_ct_imp,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_tank.ResumeLayout(false)
-        CType(Me.Icon_ct_tank,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_tank.ResumeLayout(false)
-        CType(Me.valu_ct_tank,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_chef.ResumeLayout(false)
-        CType(Me.Icon_ct_chef,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_chef.ResumeLayout(false)
-        CType(Me.valu_ct_chef,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_vampire.ResumeLayout(false)
-        CType(Me.Icon_ct_vampire,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_vampire.ResumeLayout(false)
-        CType(Me.valu_ct_vampire,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_popstar.ResumeLayout(false)
-        CType(Me.Icon_ct_popstar,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_popstar.ResumeLayout(false)
-        CType(Me.valu_ct_popstar,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_thief.ResumeLayout(false)
-        CType(Me.Icon_ct_thief,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_thief.ResumeLayout(false)
-        CType(Me.valu_ct_thief,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_cleric.ResumeLayout(false)
-        CType(Me.Icon_ct_cleric,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_cleric.ResumeLayout(false)
-        CType(Me.valu_ct_cleric,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_mage.ResumeLayout(false)
-        CType(Me.Icon_ct_mage,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_mage.ResumeLayout(false)
-        CType(Me.valu_ct_mage,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_warrior.ResumeLayout(false)
-        CType(Me.Icon_ct_warrior,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_warrior.ResumeLayout(false)
-        CType(Me.valu_ct_warrior,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_ency_extras.ResumeLayout(false)
-        Me.Fea_ency_monsters.ResumeLayout(false)
-        CType(Me.Icon_ency_monsters,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ency_foods.ResumeLayout(false)
-        CType(Me.Icon_ency_foods,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ency_music.ResumeLayout(false)
-        CType(Me.Icon_ency_music,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_common_extras.ResumeLayout(false)
-        Me.Fea_dailyquest.ResumeLayout(false)
-        CType(Me.Icon_dailyquest,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_medal.ResumeLayout(false)
-        CType(Me.Icon_medal,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_questsucc.ResumeLayout(false)
-        CType(Me.Icon_questsucc,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_questsucc.ResumeLayout(false)
-        CType(Me.valu_questsucc,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_chestsopen.ResumeLayout(false)
-        CType(Me.Icon_chestsopen,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_chestsopen.ResumeLayout(false)
-        CType(Me.valu_chestsopen,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_candyeat.ResumeLayout(false)
-        CType(Me.Icon_candyeat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_candyeat.ResumeLayout(false)
-        CType(Me.valu_candyeat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_bananaeat.ResumeLayout(false)
-        CType(Me.Icon_bananaeat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_bananaeat.ResumeLayout(false)
-        CType(Me.valu_bananaeat,System.ComponentModel.ISupportInitialize).EndInit
+        Me.MSE_header.ResumeLayout(False)
+        CType(Me.MSE_icon, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MSE_iconupdate, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_description.ResumeLayout(False)
+        Me.Menu_panel.ResumeLayout(False)
+        Me.Menu_Repair.ResumeLayout(False)
+        Me.Menu_Repair.PerformLayout()
+        CType(Me.Menu_icon_repair, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel26.ResumeLayout(False)
+        Me.Panel26.PerformLayout()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Menu_quest.ResumeLayout(False)
+        Me.Menu_quest.PerformLayout()
+        CType(Me.Menu_icon_quest, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Menu_hero.ResumeLayout(False)
+        Me.Menu_hero.PerformLayout()
+        CType(Me.Menu_icon_hero, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Menu_common.ResumeLayout(False)
+        Me.Menu_common.PerformLayout()
+        CType(Me.Menu_icon_common, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Menu_settings.ResumeLayout(False)
+        Me.Menu_settings.PerformLayout()
+        CType(Me.Menu_icon_settings, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Menu_width, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Menu_buttonS.ResumeLayout(False)
+        Me.Menu_buttonH.ResumeLayout(False)
+        Me.Hidden_things.ResumeLayout(False)
+        Me.Panel_music.ResumeLayout(False)
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_slt_save.ResumeLayout(False)
+        Me.File_path_common.ResumeLayout(False)
+        Me.File_path_common.PerformLayout()
+        Me.Panel_settings.ResumeLayout(False)
+        Me.TabControl5.ResumeLayout(False)
+        Me.Tab_settings.ResumeLayout(False)
+        Me.Group_settings.ResumeLayout(False)
+        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel30.ResumeLayout(False)
+        Me.Panel30.PerformLayout()
+        Me.Panel9.ResumeLayout(False)
+        Me.Panel9.PerformLayout()
+        Me.Panel8.ResumeLayout(False)
+        Me.Panel8.PerformLayout()
+        Me.Panel5.ResumeLayout(False)
+        Me.Panel5.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
+        Me.Tab_changelog.ResumeLayout(False)
+        Me.Group_changelog.ResumeLayout(False)
+        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Tab_credits.ResumeLayout(False)
+        Me.Panel28.ResumeLayout(False)
+        CType(Me.Icon_MarioPartyITSE, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_PaparMarioSSSE, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_nintendogscatSE, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_IronfallISE, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_TLSE, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_ChibiRoboZLSE, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_3dsSEL, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_MiitopiaSE, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_credits.ResumeLayout(False)
+        Me.Group_credits.PerformLayout()
+        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_common.ResumeLayout(False)
+        Me.Panel_common.PerformLayout()
+        CType(Me.Dragon_map2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabControl1.ResumeLayout(False)
+        Me.Tab_common_main.ResumeLayout(False)
+        Me.Tab_common_main.PerformLayout()
+        Me.Panel_partylevel.ResumeLayout(False)
+        Me.Panel_partylevel.PerformLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_level, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_partyworld.ResumeLayout(False)
+        CType(Me.valu_world, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_safespot.ResumeLayout(False)
+        CType(Me.valu_safespot, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.icon_safespot, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Dragon_map, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Group_party.ResumeLayout(False)
+        Me.Group_party.PerformLayout()
+        CType(Me.valu_party, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.icon_party, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        CType(Me.valu_rescued, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_sprinkles.ResumeLayout(False)
+        CType(Me.icon_sprinkles, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_sprinkles.ResumeLayout(False)
+        CType(Me.valu_sprinkles, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ticket.ResumeLayout(False)
+        CType(Me.icon_ticket, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ticket.ResumeLayout(False)
+        CType(Me.valu_ticket, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_costamiibo.ResumeLayout(False)
+        CType(Me.icon_costamiibo, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_costamiibo.ResumeLayout(False)
+        CType(Me.valu_costamiibo, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_allweapons.ResumeLayout(False)
+        CType(Me.icon_allweapons, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_allweapons.ResumeLayout(False)
+        CType(Me.valu_allweapons, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_foods.ResumeLayout(False)
+        CType(Me.icon_foods, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_candies.ResumeLayout(False)
+        CType(Me.icon_candies, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_candies.ResumeLayout(False)
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_candies, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_bananas.ResumeLayout(False)
+        CType(Me.icon_bananas, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_bananas.ResumeLayout(False)
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_bananas, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_gold.ResumeLayout(False)
+        CType(Me.icon_gold, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_gold.ResumeLayout(False)
+        CType(Me.valu_gold, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Tab_common_ency.ResumeLayout(False)
+        Me.TabControl2.ResumeLayout(False)
+        Me.Tab_ency_weap.ResumeLayout(False)
+        Me.Fea_wp_elf.ResumeLayout(False)
+        CType(Me.Icon_wp_elf, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_elf.ResumeLayout(False)
+        CType(Me.valu_wp_elf, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_cat.ResumeLayout(False)
+        CType(Me.Icon_wp_cat, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_cat.ResumeLayout(False)
+        CType(Me.valu_wp_cat, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_scientist.ResumeLayout(False)
+        CType(Me.Icon_wp_scientist, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_scientist.ResumeLayout(False)
+        CType(Me.valu_wp_scientist, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_flower.ResumeLayout(False)
+        CType(Me.Icon_wp_flower, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_flower.ResumeLayout(False)
+        CType(Me.valu_wp_flower, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_princess.ResumeLayout(False)
+        CType(Me.Icon_wp_princess, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_princess.ResumeLayout(False)
+        CType(Me.valu_wp_princess, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_imp.ResumeLayout(False)
+        CType(Me.Icon_wp_imp, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_imp.ResumeLayout(False)
+        CType(Me.valu_wp_imp, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_tank.ResumeLayout(False)
+        CType(Me.Icon_wp_tank, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_tank.ResumeLayout(False)
+        CType(Me.valu_wp_tank, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_chef.ResumeLayout(False)
+        CType(Me.Icon_wp_chef, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_chef.ResumeLayout(False)
+        CType(Me.valu_wp_chef, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_vampire.ResumeLayout(False)
+        CType(Me.Icon_wp_vampire, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_vampire.ResumeLayout(False)
+        CType(Me.valu_wp_vampire, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_popstar.ResumeLayout(False)
+        CType(Me.Icon_wp_popstar, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_popstar.ResumeLayout(False)
+        CType(Me.valu_wp_popstar, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_thief.ResumeLayout(False)
+        CType(Me.Icon_wp_thief, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_thief.ResumeLayout(False)
+        CType(Me.valu_wp_thief, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_cleric.ResumeLayout(False)
+        CType(Me.Icon_wp_cleric, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_cleric.ResumeLayout(False)
+        CType(Me.valu_wp_cleric, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_mage.ResumeLayout(False)
+        CType(Me.Icon_wp_mage, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_mage.ResumeLayout(False)
+        CType(Me.valu_wp_mage, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_wp_warrior.ResumeLayout(False)
+        CType(Me.Icon_wp_warrior, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_wp_warrior.ResumeLayout(False)
+        CType(Me.valu_wp_warrior, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Tab_ency_cost.ResumeLayout(False)
+        Me.Fea_ct_elf.ResumeLayout(False)
+        CType(Me.Icon_ct_elf, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_elf.ResumeLayout(False)
+        CType(Me.valu_ct_elf, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_cat.ResumeLayout(False)
+        CType(Me.Icon_ct_cat, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_cat.ResumeLayout(False)
+        CType(Me.valu_ct_cat, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_scientist.ResumeLayout(False)
+        CType(Me.Icon_ct_scientist, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_scientist.ResumeLayout(False)
+        CType(Me.valu_ct_scientist, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_flower.ResumeLayout(False)
+        CType(Me.Icon_ct_flower, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_flower.ResumeLayout(False)
+        CType(Me.valu_ct_flower, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_princess.ResumeLayout(False)
+        CType(Me.Icon_ct_princess, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_princess.ResumeLayout(False)
+        CType(Me.valu_ct_princess, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_imp.ResumeLayout(False)
+        CType(Me.Icon_ct_imp, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_imp.ResumeLayout(False)
+        CType(Me.valu_ct_imp, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_tank.ResumeLayout(False)
+        CType(Me.Icon_ct_tank, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_tank.ResumeLayout(False)
+        CType(Me.valu_ct_tank, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_chef.ResumeLayout(False)
+        CType(Me.Icon_ct_chef, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_chef.ResumeLayout(False)
+        CType(Me.valu_ct_chef, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_vampire.ResumeLayout(False)
+        CType(Me.Icon_ct_vampire, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_vampire.ResumeLayout(False)
+        CType(Me.valu_ct_vampire, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_popstar.ResumeLayout(False)
+        CType(Me.Icon_ct_popstar, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_popstar.ResumeLayout(False)
+        CType(Me.valu_ct_popstar, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_thief.ResumeLayout(False)
+        CType(Me.Icon_ct_thief, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_thief.ResumeLayout(False)
+        CType(Me.valu_ct_thief, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_cleric.ResumeLayout(False)
+        CType(Me.Icon_ct_cleric, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_cleric.ResumeLayout(False)
+        CType(Me.valu_ct_cleric, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_mage.ResumeLayout(False)
+        CType(Me.Icon_ct_mage, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_mage.ResumeLayout(False)
+        CType(Me.valu_ct_mage, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ct_warrior.ResumeLayout(False)
+        CType(Me.Icon_ct_warrior, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_ct_warrior.ResumeLayout(False)
+        CType(Me.valu_ct_warrior, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Tab_ency_extras.ResumeLayout(False)
+        Me.Fea_ency_monsters.ResumeLayout(False)
+        CType(Me.Icon_ency_monsters, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ency_foods.ResumeLayout(False)
+        CType(Me.Icon_ency_foods, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_ency_music.ResumeLayout(False)
+        CType(Me.Icon_ency_music, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Tab_common_extras.ResumeLayout(False)
+        Me.Fea_dailyquest.ResumeLayout(False)
+        CType(Me.Icon_dailyquest, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_medal.ResumeLayout(False)
+        CType(Me.Icon_medal, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_questsucc.ResumeLayout(False)
+        CType(Me.Icon_questsucc, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_questsucc.ResumeLayout(False)
+        CType(Me.valu_questsucc, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_chestsopen.ResumeLayout(False)
+        CType(Me.Icon_chestsopen, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_chestsopen.ResumeLayout(False)
+        CType(Me.valu_chestsopen, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_candyeat.ResumeLayout(False)
+        CType(Me.Icon_candyeat, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_candyeat.ResumeLayout(False)
+        CType(Me.valu_candyeat, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_bananaeat.ResumeLayout(False)
+        CType(Me.Icon_bananaeat, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Bar_bananaeat.ResumeLayout(False)
+        CType(Me.valu_bananaeat, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Tab_common_roulette.ResumeLayout(False)
+        Me.Panel_fea_roulette_oy.ResumeLayout(False)
+        Me.Panel_fea_roulette_oy.PerformLayout
+        CType(Me.valu_roulette_yellow_unknow2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_yellow_unknow1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_yellow_space,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_yellow_order,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_yellow_item,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_orange_unknow2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_orange_unknow1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_orange_space,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_orange_order,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_orange_item,System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel_fea_roulette_bg.ResumeLayout(false)
+        Me.Panel_fea_roulette_bg.PerformLayout
+        CType(Me.valu_roulette_gray_unknow2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_gray_unknow1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_gray_space,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_gray_order,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_gray_item,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_blue_unknow2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_blue_unknow1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_blue_space,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_blue_order,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_blue_item,System.ComponentModel.ISupportInitialize).EndInit
         Me.Button_Open.ResumeLayout(false)
         Me.Button_Save.ResumeLayout(false)
         Me.Panel_quest.ResumeLayout(false)
@@ -9705,13 +10443,13 @@ Partial Class Miitopia_SE
 End Sub
     Friend WithEvents Closebutton As System.Windows.Forms.PictureBox
     Friend WithEvents MSE_icon As System.Windows.Forms.PictureBox
-    Friend WithEvents Descrip_text As System.Windows.Forms.Label
+    Friend WithEvents Text_description As System.Windows.Forms.Label
     Friend WithEvents MSE_logo As System.Windows.Forms.PictureBox
     Friend WithEvents Menu_icon_settings As System.Windows.Forms.PictureBox
     Friend WithEvents Menu_panel As System.Windows.Forms.Panel
     Friend WithEvents Menu_width As System.Windows.Forms.PictureBox
     Friend WithEvents MSE_header As System.Windows.Forms.Panel
-    Friend WithEvents Descrip_panel As System.Windows.Forms.Panel
+    Friend WithEvents Panel_description As System.Windows.Forms.Panel
     Friend WithEvents Menu_settings As System.Windows.Forms.Panel
     Friend WithEvents Menu_text_settings As System.Windows.Forms.Label
     Friend WithEvents Menu_quest As System.Windows.Forms.Panel
@@ -10386,5 +11124,63 @@ End Sub
     Friend WithEvents Bar_epuipwp_warrior As System.Windows.Forms.Panel
     Friend WithEvents valu_epuipwp_warrior As System.Windows.Forms.NumericUpDown
     Friend WithEvents valu_epuipct_popstar2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel28 As System.Windows.Forms.Panel
+    Friend WithEvents Icon_MarioPartyITSE As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_PaparMarioSSSE As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_nintendogscatSE As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_IronfallISE As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_TLSE As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_ChibiRoboZLSE As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_3dsSEL As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_MiitopiaSE As System.Windows.Forms.PictureBox
+    Friend WithEvents Tab_common_roulette As System.Windows.Forms.TabPage
+    Friend WithEvents Select_fea_roulette As System.Windows.Forms.ComboBox
+    Friend WithEvents Text_fea_roulette As System.Windows.Forms.Label
+    Friend WithEvents Text_roulette_blue_item As System.Windows.Forms.Label
+    Friend WithEvents Text_roulette_blue As System.Windows.Forms.Label
+    Friend WithEvents Panel_fea_roulette_oy As System.Windows.Forms.Panel
+    Friend WithEvents valu_roulette_yellow_unknow2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_yellow_unknow2 As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_yellow_unknow1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_yellow_unknow1 As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_yellow_space As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_yellow_space As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_yellow_order As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_yellow_order As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_yellow_item As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_yellow_item As System.Windows.Forms.Label
+    Friend WithEvents Text_roulette_yellow As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_orange_unknow2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_orange_unknow2 As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_orange_unknow1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_orange_unknow1 As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_orange_space As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_orange_space As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_orange_order As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_orange_order As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_orange_item As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_orange_item As System.Windows.Forms.Label
+    Friend WithEvents Text_roulette_orange As System.Windows.Forms.Label
+    Friend WithEvents Panel_fea_roulette_bg As System.Windows.Forms.Panel
+    Friend WithEvents valu_roulette_gray_unknow2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_gray_unknow2 As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_gray_unknow1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_gray_unknow1 As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_gray_space As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_gray_space As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_gray_order As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_gray_order As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_gray_item As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_gray_item As System.Windows.Forms.Label
+    Friend WithEvents Text_roulette_gray As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_blue_unknow2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_blue_unknow2 As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_blue_unknow1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_blue_unknow1 As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_blue_space As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_blue_space As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_blue_order As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_roulette_blue_order As System.Windows.Forms.Label
+    Friend WithEvents valu_roulette_blue_item As System.Windows.Forms.NumericUpDown
 
 End Class
