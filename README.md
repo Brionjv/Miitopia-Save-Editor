@@ -20,3 +20,6 @@ and some other things
 
 # Releases :
 https://github.com/Brionjv/Miitopia-Save-Editor/releases
+
+# Page :
+https://gbatemp.net/threads/release-miitopia-save-editor.476376/
