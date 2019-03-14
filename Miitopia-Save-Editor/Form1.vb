@@ -131,6 +131,7 @@ Public Class Miitopia_SE
         Panel_settings.Visible = False
         Panel_quest.Visible = False
         Panel_hero.Visible = False
+        Panel_cottage.Visible = False
     End Sub
 
     Public Sub Hidefilepath()
@@ -8173,6 +8174,32 @@ Public Class Miitopia_SE
 
     Private Sub Menu_common_MouseLeave(sender As Object, e As EventArgs) Handles Menu_common.MouseLeave
         Menu_common.BorderStyle = BorderStyle.None
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Menu_cottage_Click(sender As Object, e As EventArgs) Handles Menu_cottage.Click, Menu_text_cottage.Click
+        Hidepanels()
+        If Setting_filepath.Checked = True Then
+            Hidefilepath()
+            File_path_cottage.Visible = True
+        End If
+        Panel_cottage.Visible = True
+        Hidemenu()
+    End Sub
+
+    Private Sub Menu_cottage_MouseMove(sender As Object, e As EventArgs) Handles Menu_cottage.MouseMove, Menu_text_cottage.MouseMove
+        Menu_cottage.BorderStyle = BorderStyle.FixedSingle
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            Text_description.Text = "Click to edit cottage.sav"
+        End If
+        If Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            Text_description.Text = "Cliquez pour éditer cottage.sav"
+        End If
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Menu_cottage_MouseLeave(sender As Object, e As EventArgs) Handles Menu_cottage.MouseLeave
+        Menu_cottage.BorderStyle = BorderStyle.None
         Panel_description.Visible = False
     End Sub
 
@@ -18714,5 +18741,133 @@ Public Class Miitopia_SE
             valu_roulette_yellow_unknow1.Value = 255
             valu_roulette_yellow_unknow2.Value = 0
         End If
+    End Sub
+
+    Private Sub text_save_hero_MouseMove(sender As Object, e As MouseEventArgs) Handles Text_save_hero.MouseMove
+
+    End Sub
+
+    Private Sub text_open_hero_MouseMove(sender As Object, e As MouseEventArgs) Handles Text_open_hero.MouseMove, Button_save_hero.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_warrior_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_warrior.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_mage_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_mage.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_cleric_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_cleric.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_thief_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_thief.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_popstar_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_popstar.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_vampire_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_vampire.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_chef_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_chef.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_tank_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_tank.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_imp_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_imp.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_princess_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_princess.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_flower_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_flower.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_scientist_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_scientist.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_cat_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_cat.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipwp_elf_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_elf.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_warrior_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_warrior.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_mage_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_mage.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_cleric_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_cleric.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_thief_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_thief.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_popstar_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_popstar.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_vampire_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_vampire.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_chef_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_chef.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_tank_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_tank.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_imp_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_imp.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_princess_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_princess.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_flower_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_flower.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_scientist_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_scientist.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_cat_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_cat.MouseMove
+
+    End Sub
+
+    Private Sub Fea_epuipct_elf_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_elf.MouseMove
+
+    End Sub
+
+    Private Sub Icon_job_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_job.MouseMove
+
+    End Sub
+
+    Private Sub Icon_tummy_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_tummy.MouseMove
+
     End Sub
 End Class

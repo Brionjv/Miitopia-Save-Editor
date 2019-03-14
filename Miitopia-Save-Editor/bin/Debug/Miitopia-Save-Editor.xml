@@ -115,6 +115,10 @@ Miitopia-Save-Editor
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bg_panel_cottage">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Miitopia_Save_Editor.My.Resources.Resources.bg_panel_hero">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
