@@ -28,3 +28,19 @@ D:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitop
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia_Save_Editor.Resources.resources
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia_Save_Editor.Repair_save.resources
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.vbproj.GenerateResource.Cache
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Release\Miitopia-Save-Editor.exe.config
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Release\Miitopia-Save-Editor.exe
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Release\Miitopia-Save-Editor.pdb
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Release\Miitopia-Save-Editor.xml
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Release\PackageIO.dll
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia_Save_Editor.Miitopia_SE.resources
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia_Save_Editor.Form2.resources
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia_Save_Editor.Grub_editor.resources
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia_Save_Editor.Resources.resources
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia_Save_Editor.Repair_save.resources
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.vbproj.GenerateResource.cache
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.vbproj.CoreCompileInputs.cache
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.vbproj.CopyComplete
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.exe
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.xml
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.pdb

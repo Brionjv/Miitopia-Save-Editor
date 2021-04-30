@@ -865,6 +865,7 @@ Public Class Miitopia_SE
     Public Sub Checkupdates()
         If Setting_ckupdate.Checked = False Then
             Try
+                System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12
                 Dim MAJ As New WebClient
                 Dim lastupdate As String = MAJ.DownloadString("https://raw.githubusercontent.com/Brionjv/Miitopia-Save-Editor/master/Version.txt")
                 If Label7.Text = lastupdate Then

@@ -761,6 +761,7 @@ Partial Class Miitopia_SE
         Me.Button_save_hero = New System.Windows.Forms.Panel()
         Me.Text_save_hero = New System.Windows.Forms.Label()
         Me.File_path_hero = New System.Windows.Forms.Panel()
+        Me.File_path_cottage = New System.Windows.Forms.TextBox()
         Me.TextBox_fpath_hero = New System.Windows.Forms.TextBox()
         Me.Timer_notification = New System.Windows.Forms.Timer(Me.components)
         Me.Panel_notification = New System.Windows.Forms.Panel()
@@ -1140,39 +1141,38 @@ Partial Class Miitopia_SE
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Panel157 = New System.Windows.Forms.Panel()
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.File_path_cottage = New System.Windows.Forms.TextBox()
         Me.MSE_header.SuspendLayout
-        CType(Me.MSE_icon,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.MSE_logo,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Closebutton,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.MSE_iconupdate,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.MSE_icon, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.MSE_iconupdate, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_description.SuspendLayout
         Me.Menu_panel.SuspendLayout
         Me.Menu_Repair.SuspendLayout
-        CType(Me.Menu_icon_repair,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Menu_icon_repair, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Menu_cottage.SuspendLayout
-        CType(Me.Menu_icon_cottage,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Menu_icon_cottage, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Menu_quest.SuspendLayout
-        CType(Me.Menu_icon_quest,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Menu_icon_quest, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Menu_hero.SuspendLayout
-        CType(Me.Menu_icon_hero,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Menu_icon_hero, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Menu_common.SuspendLayout
-        CType(Me.Menu_icon_common,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Menu_icon_common, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Menu_settings.SuspendLayout
-        CType(Me.Menu_icon_settings,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Menu_width,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Menu_icon_settings, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Menu_width, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Menu_buttonS.SuspendLayout
         Me.Menu_buttonH.SuspendLayout
         Me.Hidden_things.SuspendLayout
         Me.Panel_music.SuspendLayout
-        CType(Me.PictureBox4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_slt_save.SuspendLayout
         Me.File_path_common.SuspendLayout
         Me.Panel_settings.SuspendLayout
         Me.TabControl5.SuspendLayout
         Me.Tab_settings.SuspendLayout
         Me.Group_settings.SuspendLayout
-        CType(Me.PictureBox26,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel30.SuspendLayout
         Me.Panel9.SuspendLayout
         Me.Panel8.SuspendLayout
@@ -1180,899 +1180,899 @@ Partial Class Miitopia_SE
         Me.Panel3.SuspendLayout
         Me.Tab_changelog.SuspendLayout
         Me.Group_changelog.SuspendLayout
-        CType(Me.PictureBox27,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Tab_credits.SuspendLayout
         Me.Panel28.SuspendLayout
-        CType(Me.Icon_MarioPartyITSE,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_PaparMarioSSSE,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_nintendogscatSE,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_IronfallISE,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_TLSE,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_ChibiRoboZLSE,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_3dsSEL,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_MiitopiaSE,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_MarioPartyITSE, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_PaparMarioSSSE, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_nintendogscatSE, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_IronfallISE, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_TLSE, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ChibiRoboZLSE, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_3dsSEL, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_MiitopiaSE, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_credits.SuspendLayout
-        CType(Me.PictureBox28,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_common.SuspendLayout
-        CType(Me.Dragon_map2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Dragon_map2, System.ComponentModel.ISupportInitialize).BeginInit
         Me.TabControl1.SuspendLayout
         Me.Tab_common_main.SuspendLayout
         Me.Panel_partylevel.SuspendLayout
-        CType(Me.PictureBox6,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_level,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_level, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_partyworld.SuspendLayout
-        CType(Me.valu_world,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_world, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_safespot.SuspendLayout
-        CType(Me.valu_safespot,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.icon_safespot,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Dragon_map,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_safespot, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.icon_safespot, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Dragon_map, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_party.SuspendLayout
-        CType(Me.valu_party,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox5,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.icon_party,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_party, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.icon_party, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel1.SuspendLayout
-        CType(Me.valu_rescued,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_rescued, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_sprinkles.SuspendLayout
-        CType(Me.icon_sprinkles,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.icon_sprinkles, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_sprinkles.SuspendLayout
-        CType(Me.valu_sprinkles,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_sprinkles, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ticket.SuspendLayout
-        CType(Me.icon_ticket,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.icon_ticket, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ticket.SuspendLayout
-        CType(Me.valu_ticket,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ticket, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_costamiibo.SuspendLayout
-        CType(Me.icon_costamiibo,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.icon_costamiibo, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_costamiibo.SuspendLayout
-        CType(Me.valu_costamiibo,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_costamiibo, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_allweapons.SuspendLayout
-        CType(Me.icon_allweapons,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.icon_allweapons, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_allweapons.SuspendLayout
-        CType(Me.valu_allweapons,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_allweapons, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_foods.SuspendLayout
-        CType(Me.icon_foods,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.icon_foods, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_candies.SuspendLayout
-        CType(Me.icon_candies,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.icon_candies, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_candies.SuspendLayout
-        CType(Me.PictureBox9,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_candies,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_candies, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_bananas.SuspendLayout
-        CType(Me.icon_bananas,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.icon_bananas, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_bananas.SuspendLayout
-        CType(Me.PictureBox7,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_bananas,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_bananas, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_gold.SuspendLayout
-        CType(Me.icon_gold,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.icon_gold, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_gold.SuspendLayout
-        CType(Me.valu_gold,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_gold, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Tab_common_ency.SuspendLayout
         Me.TabControl2.SuspendLayout
         Me.Tab_ency_weap.SuspendLayout
         Me.Fea_wp_elf.SuspendLayout
-        CType(Me.Icon_wp_elf,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_elf, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_elf.SuspendLayout
-        CType(Me.valu_wp_elf,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_elf, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_wp_cat.SuspendLayout
-        CType(Me.Icon_wp_cat,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_cat, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_cat.SuspendLayout
-        CType(Me.valu_wp_cat,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_cat, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_wp_scientist.SuspendLayout
-        CType(Me.Icon_wp_scientist,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_scientist, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_scientist.SuspendLayout
-        CType(Me.valu_wp_scientist,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_scientist, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_wp_flower.SuspendLayout
-        CType(Me.Icon_wp_flower,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_flower, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_flower.SuspendLayout
-        CType(Me.valu_wp_flower,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_flower, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_wp_princess.SuspendLayout
-        CType(Me.Icon_wp_princess,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_princess, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_princess.SuspendLayout
-        CType(Me.valu_wp_princess,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_princess, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_wp_imp.SuspendLayout
-        CType(Me.Icon_wp_imp,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_imp, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_imp.SuspendLayout
-        CType(Me.valu_wp_imp,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_imp, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_wp_tank.SuspendLayout
-        CType(Me.Icon_wp_tank,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_tank, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_tank.SuspendLayout
-        CType(Me.valu_wp_tank,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_tank, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_wp_chef.SuspendLayout
-        CType(Me.Icon_wp_chef,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_chef, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_chef.SuspendLayout
-        CType(Me.valu_wp_chef,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_chef, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_wp_vampire.SuspendLayout
-        CType(Me.Icon_wp_vampire,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_vampire, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_vampire.SuspendLayout
-        CType(Me.valu_wp_vampire,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_vampire, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_wp_popstar.SuspendLayout
-        CType(Me.Icon_wp_popstar,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_popstar, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_popstar.SuspendLayout
-        CType(Me.valu_wp_popstar,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_popstar, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_wp_thief.SuspendLayout
-        CType(Me.Icon_wp_thief,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_thief, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_thief.SuspendLayout
-        CType(Me.valu_wp_thief,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_thief, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_wp_cleric.SuspendLayout
-        CType(Me.Icon_wp_cleric,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_cleric, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_cleric.SuspendLayout
-        CType(Me.valu_wp_cleric,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_cleric, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_wp_mage.SuspendLayout
-        CType(Me.Icon_wp_mage,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_mage, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_mage.SuspendLayout
-        CType(Me.valu_wp_mage,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_mage, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_wp_warrior.SuspendLayout
-        CType(Me.Icon_wp_warrior,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_wp_warrior, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_wp_warrior.SuspendLayout
-        CType(Me.valu_wp_warrior,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_wp_warrior, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Tab_ency_cost.SuspendLayout
         Me.Fea_ct_elf.SuspendLayout
-        CType(Me.Icon_ct_elf,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_elf, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_elf.SuspendLayout
-        CType(Me.valu_ct_elf,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_elf, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ct_cat.SuspendLayout
-        CType(Me.Icon_ct_cat,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_cat, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_cat.SuspendLayout
-        CType(Me.valu_ct_cat,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_cat, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ct_scientist.SuspendLayout
-        CType(Me.Icon_ct_scientist,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_scientist, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_scientist.SuspendLayout
-        CType(Me.valu_ct_scientist,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_scientist, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ct_flower.SuspendLayout
-        CType(Me.Icon_ct_flower,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_flower, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_flower.SuspendLayout
-        CType(Me.valu_ct_flower,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_flower, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ct_princess.SuspendLayout
-        CType(Me.Icon_ct_princess,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_princess, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_princess.SuspendLayout
-        CType(Me.valu_ct_princess,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_princess, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ct_imp.SuspendLayout
-        CType(Me.Icon_ct_imp,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_imp, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_imp.SuspendLayout
-        CType(Me.valu_ct_imp,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_imp, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ct_tank.SuspendLayout
-        CType(Me.Icon_ct_tank,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_tank, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_tank.SuspendLayout
-        CType(Me.valu_ct_tank,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_tank, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ct_chef.SuspendLayout
-        CType(Me.Icon_ct_chef,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_chef, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_chef.SuspendLayout
-        CType(Me.valu_ct_chef,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_chef, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ct_vampire.SuspendLayout
-        CType(Me.Icon_ct_vampire,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_vampire, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_vampire.SuspendLayout
-        CType(Me.valu_ct_vampire,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_vampire, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ct_popstar.SuspendLayout
-        CType(Me.Icon_ct_popstar,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_popstar, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_popstar.SuspendLayout
-        CType(Me.valu_ct_popstar,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_popstar, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ct_thief.SuspendLayout
-        CType(Me.Icon_ct_thief,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_thief, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_thief.SuspendLayout
-        CType(Me.valu_ct_thief,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_thief, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ct_cleric.SuspendLayout
-        CType(Me.Icon_ct_cleric,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_cleric, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_cleric.SuspendLayout
-        CType(Me.valu_ct_cleric,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_cleric, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ct_mage.SuspendLayout
-        CType(Me.Icon_ct_mage,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_mage, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_mage.SuspendLayout
-        CType(Me.valu_ct_mage,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_mage, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ct_warrior.SuspendLayout
-        CType(Me.Icon_ct_warrior,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ct_warrior, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_ct_warrior.SuspendLayout
-        CType(Me.valu_ct_warrior,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ct_warrior, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Tab_ency_extras.SuspendLayout
         Me.Fea_ency_monsters.SuspendLayout
-        CType(Me.Icon_ency_monsters,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ency_monsters, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ency_foods.SuspendLayout
-        CType(Me.Icon_ency_foods,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ency_foods, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_ency_music.SuspendLayout
-        CType(Me.Icon_ency_music,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_ency_music, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Tab_common_extras.SuspendLayout
         Me.Fea_dailyquest.SuspendLayout
-        CType(Me.Icon_dailyquest,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_dailyquest, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_medal.SuspendLayout
-        CType(Me.Icon_medal,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_medal, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_questsucc.SuspendLayout
-        CType(Me.Icon_questsucc,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_questsucc, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_questsucc.SuspendLayout
-        CType(Me.valu_questsucc,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_questsucc, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_chestsopen.SuspendLayout
-        CType(Me.Icon_chestsopen,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_chestsopen, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_chestsopen.SuspendLayout
-        CType(Me.valu_chestsopen,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_chestsopen, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_candyeat.SuspendLayout
-        CType(Me.Icon_candyeat,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_candyeat, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_candyeat.SuspendLayout
-        CType(Me.valu_candyeat,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_candyeat, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_bananaeat.SuspendLayout
-        CType(Me.Icon_bananaeat,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_bananaeat, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_bananaeat.SuspendLayout
-        CType(Me.valu_bananaeat,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_bananaeat, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Tab_common_roulette.SuspendLayout
         Me.Panel_fea_roulette_oy.SuspendLayout
-        CType(Me.valu_roulette_yellow_unknow2,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_yellow_unknow1,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_yellow_space,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_yellow_order,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_yellow_item,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_orange_unknow2,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_orange_unknow1,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_orange_space,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_orange_order,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_orange_item,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_yellow_unknow2, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_yellow_unknow1, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_yellow_space, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_yellow_order, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_yellow_item, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_orange_unknow2, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_orange_unknow1, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_orange_space, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_orange_order, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_orange_item, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_fea_roulette_bg.SuspendLayout
-        CType(Me.valu_roulette_gray_unknow2,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_gray_unknow1,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_gray_space,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_gray_order,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_gray_item,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_blue_unknow2,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_blue_unknow1,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_blue_space,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_blue_order,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_roulette_blue_item,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_gray_unknow2, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_gray_unknow1, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_gray_space, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_gray_order, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_gray_item, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_blue_unknow2, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_blue_unknow1, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_blue_space, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_blue_order, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_roulette_blue_item, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Button_Open.SuspendLayout
         Me.Button_Save.SuspendLayout
         Me.Panel_quest.SuspendLayout
         Me.TabControl3.SuspendLayout
         Me.Tab_quest_main.SuspendLayout
         Me.Fea_catalog.SuspendLayout
-        CType(Me.Icon_catalog,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_catalog, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_catalog.SuspendLayout
-        CType(Me.valu_catalog,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_catalog, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_dragonclass.SuspendLayout
-        CType(Me.Icon_dragonclass,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_dragonclass, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_dragonclass.SuspendLayout
-        CType(Me.valu_dragonclass,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_dragonclass, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_villa.SuspendLayout
-        CType(Me.Icon_villa,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_villa, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_villa.SuspendLayout
-        CType(Me.valu_villa,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_villa, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Button_open_quest.SuspendLayout
         Me.Button_save_quest.SuspendLayout
         Me.File_path_quest.SuspendLayout
         Me.Panel_hero.SuspendLayout
-        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit
         Me.TabControl4.SuspendLayout
         Me.Tab_hero_Miiedit.SuspendLayout
         Me.Panel_hero_equipments.SuspendLayout
         Me.Group_hero_equipapp.SuspendLayout
         Me.Panel15.SuspendLayout
         Me.Panel17.SuspendLayout
-        CType(Me.valu_appea_weapon,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_appea_weapon, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel18.SuspendLayout
         Me.Panel19.SuspendLayout
-        CType(Me.valu_appea_hat,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_appea_hat, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel20.SuspendLayout
         Me.Panel21.SuspendLayout
-        CType(Me.valu_appea_clothe,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_appea_clothe, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_hero_equip.SuspendLayout
         Me.Fea_equip_weapon.SuspendLayout
         Me.Bar_equip_weapon.SuspendLayout
-        CType(Me.valu_equip_weapon,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_equip_weapon,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_equip_weapon, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_equip_weapon, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_equip_hat.SuspendLayout
         Me.Bar_equip_hat.SuspendLayout
-        CType(Me.valu_equip_hat,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_equip_hat,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_equip_hat, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_equip_hat, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_equip_clothe.SuspendLayout
         Me.Bar_equip_clothe.SuspendLayout
-        CType(Me.valu_equip_clothe,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_equip_clothe,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_equip_clothe, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_equip_clothe, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel22.SuspendLayout
         Me.Panel14.SuspendLayout
         Me.Panel_hero_sw1.SuspendLayout
         Me.Group_warcry.SuspendLayout
-        CType(Me.valu_tummy,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tummy, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel11.SuspendLayout
-        CType(Me.valu_pose,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_personnality,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_tummy,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_pose, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_personnality, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tummy, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel2.SuspendLayout
-        CType(Me.valu_job,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_job,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_job, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_job, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_hero_sw2.SuspendLayout
-        CType(Me.valu_hbgobbled,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_mcgulped,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_ggrubbed,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_ggrabbed,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_battles,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_fblows,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_defeats,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_tlooparty,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_hbgobbled, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_mcgulped, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ggrubbed, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_ggrabbed, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_battles, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_fblows, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_defeats, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tlooparty, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Tab_hero_Inn.SuspendLayout
         Me.Panel_inn.SuspendLayout
-        CType(Me.PictureBox29,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_inn_room_no,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_inn_roomposition,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_inn_room,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_inn_room_no, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_inn_roomposition, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_inn_room, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_inn.SuspendLayout
-        CType(Me.Icon_inn_room_topright_right,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_inn_room_topright_left,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_inn_room_botright_right,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_inn_room_botright_left,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_inn_room_botleft_right,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_inn_room_botleft_left,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_inn_room_center_right,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_inn_room_center_left,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_inn_room_topleft_right,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_inn_room_topleft_left,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_inn_room_topright_right, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_inn_room_topright_left, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_inn_room_botright_right, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_inn_room_botright_left, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_inn_room_botleft_right, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_inn_room_botleft_left, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_inn_room_center_right, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_inn_room_center_left, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_inn_room_topleft_right, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_inn_room_topleft_left, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel16.SuspendLayout
         Me.Group_interaction.SuspendLayout
-        CType(Me.valu_interac_activity,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_interaction,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_interac_Mii,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_interaction,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_interac_activity, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_interaction, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_interac_Mii, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_interaction, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_health.SuspendLayout
-        CType(Me.valu_daysick,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_sick,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_daysick, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_sick, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Tab_hero_Levboost.SuspendLayout
         Me.Group_hero_bspd.SuspendLayout
-        CType(Me.valu_foodexp_speed,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_foodexp_speed, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_hero_bmgc.SuspendLayout
-        CType(Me.valu_foodexp_magic,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_foodexp_magic, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_hero_bdef.SuspendLayout
-        CType(Me.valu_foodexp_defense,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_foodexp_defense, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_hero_batk.SuspendLayout
-        CType(Me.valu_foodexp_attack,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_foodexp_attack, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_hero_bMP.SuspendLayout
-        CType(Me.valu_foodexp_MP,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_foodexp_MP, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_hero_bHP.SuspendLayout
-        CType(Me.valu_foodexp_HP,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_foodexp_HP, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel23.SuspendLayout
         Me.Bar_exp_elf.SuspendLayout
-        CType(Me.valu_exp_elf,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_elf, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel25.SuspendLayout
         Me.Bar_exp_cat.SuspendLayout
-        CType(Me.valu_exp_cat,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_cat, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel27.SuspendLayout
         Me.Bar_exp_scientist.SuspendLayout
-        CType(Me.valu_exp_scientist,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_scientist, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel29.SuspendLayout
         Me.Bar_exp_flower.SuspendLayout
-        CType(Me.valu_exp_flower,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_flower, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel33.SuspendLayout
         Me.Bar_exp_popstar.SuspendLayout
-        CType(Me.valu_exp_popstar,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_popstar, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel35.SuspendLayout
         Me.Bar_exp_thief.SuspendLayout
-        CType(Me.valu_exp_thief,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_thief, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel37.SuspendLayout
         Me.Bar_exp_cleric.SuspendLayout
-        CType(Me.valu_exp_cleric,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_cleric, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel49.SuspendLayout
         Me.Bar_exp_mage.SuspendLayout
-        CType(Me.valu_exp_mage,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox24,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_mage, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel51.SuspendLayout
         Me.Bar_exp_warrior.SuspendLayout
-        CType(Me.valu_exp_warrior,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox25,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_warrior, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel47.SuspendLayout
         Me.Bar_exp_princess.SuspendLayout
-        CType(Me.valu_exp_princess,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox23,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_princess, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel45.SuspendLayout
         Me.Bar_exp_imp.SuspendLayout
-        CType(Me.valu_exp_imp,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_imp, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel43.SuspendLayout
         Me.Bar_exp_tank.SuspendLayout
-        CType(Me.valu_exp_tank,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_tank, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel39.SuspendLayout
         Me.Bar_exp_chef.SuspendLayout
-        CType(Me.valu_exp_chef,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_chef, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel41.SuspendLayout
         Me.Bar_exp_vampire.SuspendLayout
-        CType(Me.valu_exp_vampire,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_exp_vampire, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Tab_hero_relationship.SuspendLayout
-        CType(Me.PictureBox30,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_hero_setall.SuspendLayout
-        CType(Me.valu_hero_setall,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_hero_setall, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_25.SuspendLayout
-        CType(Me.valu_relation_25,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_25, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_24.SuspendLayout
-        CType(Me.valu_relation_24,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_24, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_23.SuspendLayout
-        CType(Me.valu_relation_23,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_23, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_22.SuspendLayout
-        CType(Me.valu_relation_22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_22, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_21.SuspendLayout
-        CType(Me.valu_relation_21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_21, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_20.SuspendLayout
-        CType(Me.valu_relation_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_20, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_19.SuspendLayout
-        CType(Me.valu_relation_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_19, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_18.SuspendLayout
-        CType(Me.valu_relation_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_18, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_17.SuspendLayout
-        CType(Me.valu_relation_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_17, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_16.SuspendLayout
-        CType(Me.valu_relation_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_16, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_15.SuspendLayout
-        CType(Me.valu_relation_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_15, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_14.SuspendLayout
-        CType(Me.valu_relation_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_14, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_13.SuspendLayout
-        CType(Me.valu_relation_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_13, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_12.SuspendLayout
-        CType(Me.valu_relation_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_12, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_11.SuspendLayout
-        CType(Me.valu_relation_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_11, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_10.SuspendLayout
-        CType(Me.valu_relation_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_10, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_9.SuspendLayout
-        CType(Me.valu_relation_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_9, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_8.SuspendLayout
-        CType(Me.valu_relation_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_8, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_7.SuspendLayout
-        CType(Me.valu_relation_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_7, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_6.SuspendLayout
-        CType(Me.valu_relation_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_6, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_5.SuspendLayout
-        CType(Me.valu_relation_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_5, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_4.SuspendLayout
-        CType(Me.valu_relation_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_4, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_3.SuspendLayout
-        CType(Me.valu_relation_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_3, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_2.SuspendLayout
-        CType(Me.valu_relation_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_2, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Group_relation_1.SuspendLayout
-        CType(Me.valu_relation_1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_relation_1, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Tab_hero_equipments.SuspendLayout
         Me.TabControl6.SuspendLayout
         Me.TabPage1.SuspendLayout
         Me.Fea_epuipct_elf.SuspendLayout
-        CType(Me.Icon_epuipct_elf,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_elf, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_elf.SuspendLayout
-        CType(Me.valu_epuipct_elf,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_elf, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipct_cat.SuspendLayout
-        CType(Me.Icon_epuipct_cat,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_cat, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_cat.SuspendLayout
-        CType(Me.valu_epuipct_cat,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_cat, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipct_scientist.SuspendLayout
-        CType(Me.Icon_epuipct_scientist,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_scientist, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_scientist.SuspendLayout
-        CType(Me.valu_epuipct_scientist,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_scientist, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipct_flower.SuspendLayout
-        CType(Me.Icon_epuipct_flower,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_flower, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_flower.SuspendLayout
-        CType(Me.valu_epuipct_flower,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_flower, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipct_princess.SuspendLayout
-        CType(Me.Icon_epuipct_princess,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_princess, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_princess.SuspendLayout
-        CType(Me.valu_epuipct_princess,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_princess, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipct_imp.SuspendLayout
-        CType(Me.Icon_epuipct_imp,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_imp, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_imp.SuspendLayout
-        CType(Me.valu_epuipct_imp,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_imp, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipct_tank.SuspendLayout
-        CType(Me.Icon_epuipct_tank,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_tank, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_tank.SuspendLayout
-        CType(Me.valu_epuipct_tank,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_tank, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipct_chef.SuspendLayout
-        CType(Me.Icon_epuipct_chef,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_chef, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_chef.SuspendLayout
-        CType(Me.valu_epuipct_chef,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_chef, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipct_vampire.SuspendLayout
-        CType(Me.Icon_epuipct_vampire,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_vampire, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_vampire.SuspendLayout
-        CType(Me.valu_epuipct_vampire,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_vampire, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipct_popstar.SuspendLayout
-        CType(Me.Icon_epuipct_popstar,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_popstar, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_popstar.SuspendLayout
-        CType(Me.valu_epuipct_popstar2,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_epuipct_popstar,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_popstar2, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_popstar, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipct_thief.SuspendLayout
-        CType(Me.Icon_epuipct_thief,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_thief, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_thief.SuspendLayout
-        CType(Me.valu_epuipct_thief,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_thief, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipct_cleric.SuspendLayout
-        CType(Me.Icon_epuipct_cleric,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_cleric, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_cleric.SuspendLayout
-        CType(Me.valu_epuipct_cleric,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_cleric, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipct_mage.SuspendLayout
-        CType(Me.Icon_epuipct_mage,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_mage, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_mage.SuspendLayout
-        CType(Me.valu_epuipct_mage,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_mage, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipct_warrior.SuspendLayout
-        CType(Me.Icon_epuipct_warrior,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipct_warrior, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipct_warrior.SuspendLayout
-        CType(Me.valu_epuipct_warrior,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipct_warrior, System.ComponentModel.ISupportInitialize).BeginInit
         Me.TabPage2.SuspendLayout
         Me.Fea_epuipwp_elf.SuspendLayout
-        CType(Me.Icon_epuipwp_elf,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_elf, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_elf.SuspendLayout
-        CType(Me.valu_epuipwp_elf,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_elf, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipwp_cat.SuspendLayout
-        CType(Me.Icon_epuipwp_cat,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_cat, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_cat.SuspendLayout
-        CType(Me.valu_epuipwp_cat,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_cat, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipwp_scientist.SuspendLayout
-        CType(Me.Icon_epuipwp_scientist,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_scientist, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_scientist.SuspendLayout
-        CType(Me.valu_epuipwp_scientist,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_scientist, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipwp_flower.SuspendLayout
-        CType(Me.Icon_epuipwp_flower,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_flower, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_flower.SuspendLayout
-        CType(Me.valu_epuipwp_flower,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_flower, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipwp_princess.SuspendLayout
-        CType(Me.Icon_epuipwp_princess,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_princess, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_princess.SuspendLayout
-        CType(Me.valu_epuipwp_princess,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_princess, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipwp_imp.SuspendLayout
-        CType(Me.Icon_epuipwp_imp,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_imp, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_imp.SuspendLayout
-        CType(Me.valu_epuipwp_imp,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_imp, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipwp_tank.SuspendLayout
-        CType(Me.Icon_epuipwp_tank,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_tank, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_tank.SuspendLayout
-        CType(Me.valu_epuipwp_tank,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_tank, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipwp_chef.SuspendLayout
-        CType(Me.Icon_epuipwp_chef,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_chef, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_chef.SuspendLayout
-        CType(Me.valu_epuipwp_chef,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_chef, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipwp_vampire.SuspendLayout
-        CType(Me.Icon_epuipwp_vampire,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_vampire, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_vampire.SuspendLayout
-        CType(Me.valu_epuipwp_vampire,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_vampire, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipwp_popstar.SuspendLayout
-        CType(Me.Icon_epuipwp_popstar,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_popstar, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_popstar.SuspendLayout
-        CType(Me.valu_epuipwp_popstar,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_popstar, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipwp_thief.SuspendLayout
-        CType(Me.Icon_epuipwp_thief,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_thief, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_thief.SuspendLayout
-        CType(Me.valu_epuipwp_thief,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_thief, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipwp_cleric.SuspendLayout
-        CType(Me.Icon_epuipwp_cleric,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_cleric, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_cleric.SuspendLayout
-        CType(Me.valu_epuipwp_cleric,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_cleric, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipwp_mage.SuspendLayout
-        CType(Me.Icon_epuipwp_mage,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_mage, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_mage.SuspendLayout
-        CType(Me.valu_epuipwp_mage,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_mage, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Fea_epuipwp_warrior.SuspendLayout
-        CType(Me.Icon_epuipwp_warrior,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_epuipwp_warrior, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_warrior.SuspendLayout
-        CType(Me.valu_epuipwp_warrior,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_epuipwp_warrior, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Button_open_hero.SuspendLayout
         Me.Button_save_hero.SuspendLayout
         Me.File_path_hero.SuspendLayout
         Me.Panel_notification.SuspendLayout
         Me.Panel_cottage.SuspendLayout
-        CType(Me.PictureBox31,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).BeginInit
         Me.TabControl7.SuspendLayout
         Me.TabPage3.SuspendLayout
         Me.Panel32.SuspendLayout
         Me.GroupBox1.SuspendLayout
         Me.Panel34.SuspendLayout
         Me.Panel36.SuspendLayout
-        CType(Me.NumericUpDown1,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox32,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel38.SuspendLayout
         Me.Panel40.SuspendLayout
-        CType(Me.NumericUpDown2,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox33,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel42.SuspendLayout
         Me.Panel44.SuspendLayout
-        CType(Me.NumericUpDown3,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox34,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox2.SuspendLayout
         Me.Panel46.SuspendLayout
         Me.Panel48.SuspendLayout
-        CType(Me.NumericUpDown4,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox35,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown4, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox35, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel50.SuspendLayout
         Me.Panel52.SuspendLayout
-        CType(Me.NumericUpDown5,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox36,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown5, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox36, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel53.SuspendLayout
         Me.Panel54.SuspendLayout
-        CType(Me.NumericUpDown6,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox37,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown6, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox37, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel55.SuspendLayout
         Me.Panel58.SuspendLayout
         Me.Panel60.SuspendLayout
         Me.GroupBox3.SuspendLayout
-        CType(Me.NumericUpDown7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown7, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel61.SuspendLayout
-        CType(Me.NumericUpDown8,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown9,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox38,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown8, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown9, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox38, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel66.SuspendLayout
-        CType(Me.NumericUpDown10,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox39,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown10, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox39, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel67.SuspendLayout
-        CType(Me.NumericUpDown11,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown12,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown13,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown14,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown15,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown16,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown17,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown11, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown12, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown13, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown14, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown15, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown16, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown17, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown18, System.ComponentModel.ISupportInitialize).BeginInit
         Me.TabPage4.SuspendLayout
         Me.Panel68.SuspendLayout
-        CType(Me.PictureBox40,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox41,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown19,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox40, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox41, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown19, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown20, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel69.SuspendLayout
-        CType(Me.PictureBox42,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox43,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox44,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox45,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox46,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox47,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox48,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox49,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox50,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox51,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox42, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox43, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox44, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox45, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox46, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox47, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox48, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox49, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox50, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel70.SuspendLayout
         Me.GroupBox4.SuspendLayout
-        CType(Me.NumericUpDown21,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown22,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown23,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox52,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown21, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown22, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown23, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox52, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox5.SuspendLayout
-        CType(Me.NumericUpDown24,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown25,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown24, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown25, System.ComponentModel.ISupportInitialize).BeginInit
         Me.TabPage5.SuspendLayout
         Me.GroupBox6.SuspendLayout
-        CType(Me.NumericUpDown26,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown26, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox7.SuspendLayout
-        CType(Me.NumericUpDown27,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown27, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox8.SuspendLayout
-        CType(Me.NumericUpDown28,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown28, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox9.SuspendLayout
-        CType(Me.NumericUpDown29,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown29, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox10.SuspendLayout
-        CType(Me.NumericUpDown30,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown30, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox11.SuspendLayout
-        CType(Me.NumericUpDown31,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown31, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel71.SuspendLayout
         Me.Panel72.SuspendLayout
-        CType(Me.NumericUpDown32,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox53,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown32, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox53, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel73.SuspendLayout
         Me.Panel74.SuspendLayout
-        CType(Me.NumericUpDown33,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox54,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown33, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox54, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel75.SuspendLayout
         Me.Panel76.SuspendLayout
-        CType(Me.NumericUpDown34,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox55,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown34, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox55, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel77.SuspendLayout
         Me.Panel78.SuspendLayout
-        CType(Me.NumericUpDown35,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox56,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown35, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox56, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel79.SuspendLayout
         Me.Panel80.SuspendLayout
-        CType(Me.NumericUpDown36,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox57,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown36, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel81.SuspendLayout
         Me.Panel82.SuspendLayout
-        CType(Me.NumericUpDown37,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox58,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown37, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel83.SuspendLayout
         Me.Panel84.SuspendLayout
-        CType(Me.NumericUpDown38,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox59,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown38, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel85.SuspendLayout
         Me.Panel86.SuspendLayout
-        CType(Me.NumericUpDown39,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox60,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown39, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel87.SuspendLayout
         Me.Panel88.SuspendLayout
-        CType(Me.NumericUpDown40,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox61,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown40, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel89.SuspendLayout
         Me.Panel90.SuspendLayout
-        CType(Me.NumericUpDown41,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox62,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown41, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel91.SuspendLayout
         Me.Panel92.SuspendLayout
-        CType(Me.NumericUpDown42,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox63,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown42, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel93.SuspendLayout
         Me.Panel94.SuspendLayout
-        CType(Me.NumericUpDown43,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox64,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown43, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel95.SuspendLayout
         Me.Panel96.SuspendLayout
-        CType(Me.NumericUpDown44,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox65,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown44, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox65, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel97.SuspendLayout
         Me.Panel98.SuspendLayout
-        CType(Me.NumericUpDown45,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox66,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown45, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).BeginInit
         Me.TabPage6.SuspendLayout
-        CType(Me.PictureBox67,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox68,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox67, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox68, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel99.SuspendLayout
-        CType(Me.NumericUpDown46,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown46, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox12.SuspendLayout
-        CType(Me.NumericUpDown47,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown47, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox13.SuspendLayout
-        CType(Me.NumericUpDown48,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown48, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox14.SuspendLayout
-        CType(Me.NumericUpDown49,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown49, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox15.SuspendLayout
-        CType(Me.NumericUpDown50,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown50, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox16.SuspendLayout
-        CType(Me.NumericUpDown51,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown51, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox17.SuspendLayout
-        CType(Me.NumericUpDown52,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown52, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox18.SuspendLayout
-        CType(Me.NumericUpDown53,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown53, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox19.SuspendLayout
-        CType(Me.NumericUpDown54,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown54, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox20.SuspendLayout
-        CType(Me.NumericUpDown55,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown55, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox21.SuspendLayout
-        CType(Me.NumericUpDown56,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown56, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox22.SuspendLayout
-        CType(Me.NumericUpDown57,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown57, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox23.SuspendLayout
-        CType(Me.NumericUpDown58,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown58, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox24.SuspendLayout
-        CType(Me.NumericUpDown59,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown59, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox25.SuspendLayout
-        CType(Me.NumericUpDown60,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown60, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox26.SuspendLayout
-        CType(Me.NumericUpDown61,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown61, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox27.SuspendLayout
-        CType(Me.NumericUpDown62,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown62, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox28.SuspendLayout
-        CType(Me.NumericUpDown63,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown63, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox29.SuspendLayout
-        CType(Me.NumericUpDown64,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown64, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox30.SuspendLayout
-        CType(Me.NumericUpDown65,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown65, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox31.SuspendLayout
-        CType(Me.NumericUpDown66,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown66, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox32.SuspendLayout
-        CType(Me.NumericUpDown67,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown67, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox33.SuspendLayout
-        CType(Me.NumericUpDown68,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown68, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox34.SuspendLayout
-        CType(Me.NumericUpDown69,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown69, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox35.SuspendLayout
-        CType(Me.NumericUpDown70,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown70, System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox36.SuspendLayout
-        CType(Me.NumericUpDown71,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown71, System.ComponentModel.ISupportInitialize).BeginInit
         Me.TabPage7.SuspendLayout
         Me.TabControl8.SuspendLayout
         Me.TabPage8.SuspendLayout
         Me.Panel100.SuspendLayout
-        CType(Me.PictureBox69,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox69, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel101.SuspendLayout
-        CType(Me.NumericUpDown72,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown72, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel102.SuspendLayout
-        CType(Me.PictureBox70,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox70, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel103.SuspendLayout
-        CType(Me.NumericUpDown73,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown73, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel104.SuspendLayout
-        CType(Me.PictureBox71,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel105.SuspendLayout
-        CType(Me.NumericUpDown74,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown74, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel106.SuspendLayout
-        CType(Me.PictureBox72,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel107.SuspendLayout
-        CType(Me.NumericUpDown75,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown75, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel108.SuspendLayout
-        CType(Me.PictureBox73,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox73, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel109.SuspendLayout
-        CType(Me.NumericUpDown76,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown76, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel110.SuspendLayout
-        CType(Me.PictureBox74,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox74, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel111.SuspendLayout
-        CType(Me.NumericUpDown77,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown77, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel112.SuspendLayout
-        CType(Me.PictureBox75,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel113.SuspendLayout
-        CType(Me.NumericUpDown78,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown78, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel114.SuspendLayout
-        CType(Me.PictureBox76,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox76, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel115.SuspendLayout
-        CType(Me.NumericUpDown79,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown79, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel116.SuspendLayout
-        CType(Me.PictureBox77,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox77, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel117.SuspendLayout
-        CType(Me.NumericUpDown80,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown80, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel118.SuspendLayout
-        CType(Me.PictureBox78,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox78, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel119.SuspendLayout
-        CType(Me.NumericUpDown81,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown82,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown81, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown82, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel120.SuspendLayout
-        CType(Me.PictureBox79,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox79, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel121.SuspendLayout
-        CType(Me.NumericUpDown83,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown83, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel122.SuspendLayout
-        CType(Me.PictureBox80,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox80, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel123.SuspendLayout
-        CType(Me.NumericUpDown84,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown84, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel124.SuspendLayout
-        CType(Me.PictureBox81,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox81, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel125.SuspendLayout
-        CType(Me.NumericUpDown85,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown85, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel126.SuspendLayout
-        CType(Me.PictureBox82,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox82, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel127.SuspendLayout
-        CType(Me.NumericUpDown86,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown86, System.ComponentModel.ISupportInitialize).BeginInit
         Me.TabPage9.SuspendLayout
         Me.Panel128.SuspendLayout
-        CType(Me.PictureBox83,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox83, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel129.SuspendLayout
-        CType(Me.NumericUpDown87,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown87, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel130.SuspendLayout
-        CType(Me.PictureBox84,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox84, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel131.SuspendLayout
-        CType(Me.NumericUpDown88,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown88, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel132.SuspendLayout
-        CType(Me.PictureBox85,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox85, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel133.SuspendLayout
-        CType(Me.NumericUpDown89,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown89, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel134.SuspendLayout
-        CType(Me.PictureBox86,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox86, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel135.SuspendLayout
-        CType(Me.NumericUpDown90,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown90, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel136.SuspendLayout
-        CType(Me.PictureBox87,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox87, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel137.SuspendLayout
-        CType(Me.NumericUpDown91,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown91, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel138.SuspendLayout
-        CType(Me.PictureBox88,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox88, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel139.SuspendLayout
-        CType(Me.NumericUpDown92,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown92, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel140.SuspendLayout
-        CType(Me.PictureBox89,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox89, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel141.SuspendLayout
-        CType(Me.NumericUpDown93,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown93, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel142.SuspendLayout
-        CType(Me.PictureBox90,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox90, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel143.SuspendLayout
-        CType(Me.NumericUpDown94,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown94, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel144.SuspendLayout
-        CType(Me.PictureBox91,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox91, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel145.SuspendLayout
-        CType(Me.NumericUpDown95,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown95, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel146.SuspendLayout
-        CType(Me.PictureBox92,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox92, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel147.SuspendLayout
-        CType(Me.NumericUpDown96,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown96, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel148.SuspendLayout
-        CType(Me.PictureBox93,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox93, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel149.SuspendLayout
-        CType(Me.NumericUpDown97,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown97, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel150.SuspendLayout
-        CType(Me.PictureBox94,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox94, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel151.SuspendLayout
-        CType(Me.NumericUpDown98,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown98, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel152.SuspendLayout
-        CType(Me.PictureBox95,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox95, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel153.SuspendLayout
-        CType(Me.NumericUpDown99,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown99, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel154.SuspendLayout
-        CType(Me.PictureBox96,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox96, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel155.SuspendLayout
-        CType(Me.NumericUpDown100,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.NumericUpDown100, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel156.SuspendLayout
         Me.Panel157.SuspendLayout
         Me.SuspendLayout
@@ -2102,7 +2102,7 @@ Partial Class Miitopia_SE
         Me.MSE_icon.Name = "MSE_icon"
         Me.MSE_icon.Size = New System.Drawing.Size(30, 30)
         Me.MSE_icon.TabIndex = 3
-        Me.MSE_icon.TabStop = false
+        Me.MSE_icon.TabStop = False
         '
         'MSE_logo
         '
@@ -2115,19 +2115,19 @@ Partial Class Miitopia_SE
         Me.MSE_logo.Size = New System.Drawing.Size(98, 30)
         Me.MSE_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.MSE_logo.TabIndex = 2
-        Me.MSE_logo.TabStop = false
+        Me.MSE_logo.TabStop = False
         '
         'Closebutton
         '
         Me.Closebutton.BackColor = System.Drawing.Color.Transparent
         Me.Closebutton.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.Closebutton.Image = CType(resources.GetObject("Closebutton.Image"),System.Drawing.Image)
+        Me.Closebutton.Image = CType(resources.GetObject("Closebutton.Image"), System.Drawing.Image)
         Me.Closebutton.Location = New System.Drawing.Point(505, 0)
         Me.Closebutton.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Closebutton.Name = "Closebutton"
         Me.Closebutton.Size = New System.Drawing.Size(45, 30)
         Me.Closebutton.TabIndex = 2
-        Me.Closebutton.TabStop = false
+        Me.Closebutton.TabStop = False
         '
         'MSE_iconupdate
         '
@@ -2141,13 +2141,13 @@ Partial Class Miitopia_SE
         Me.MSE_iconupdate.Size = New System.Drawing.Size(38, 30)
         Me.MSE_iconupdate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.MSE_iconupdate.TabIndex = 5
-        Me.MSE_iconupdate.TabStop = false
-        Me.MSE_iconupdate.Visible = false
+        Me.MSE_iconupdate.TabStop = False
+        Me.MSE_iconupdate.Visible = False
         '
         'Text_description
         '
         Me.Text_description.BackColor = System.Drawing.Color.Transparent
-        Me.Text_description.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Text_description.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Text_description.Location = New System.Drawing.Point(6, 0)
         Me.Text_description.Name = "Text_description"
         Me.Text_description.Size = New System.Drawing.Size(538, 31)
@@ -2165,12 +2165,12 @@ Partial Class Miitopia_SE
         Me.Panel_description.Name = "Panel_description"
         Me.Panel_description.Size = New System.Drawing.Size(550, 31)
         Me.Panel_description.TabIndex = 3
-        Me.Panel_description.Visible = false
+        Me.Panel_description.Visible = False
         '
         'Menu_panel
         '
         Me.Menu_panel.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_menu
-        Me.Menu_panel.CausesValidation = false
+        Me.Menu_panel.CausesValidation = False
         Me.Menu_panel.Controls.Add(Me.Menu_Repair)
         Me.Menu_panel.Controls.Add(Me.Menu_cottage)
         Me.Menu_panel.Controls.Add(Me.Menu_quest)
@@ -2197,8 +2197,8 @@ Partial Class Miitopia_SE
         '
         'Menu_text_repair
         '
-        Me.Menu_text_repair.AutoSize = true
-        Me.Menu_text_repair.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Menu_text_repair.AutoSize = True
+        Me.Menu_text_repair.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Menu_text_repair.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Menu_text_repair.Location = New System.Drawing.Point(40, 11)
         Me.Menu_text_repair.Name = "Menu_text_repair"
@@ -2211,12 +2211,12 @@ Partial Class Miitopia_SE
         Me.Menu_icon_repair.BackColor = System.Drawing.Color.Transparent
         Me.Menu_icon_repair.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.file_repair
         Me.Menu_icon_repair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Menu_icon_repair.Enabled = false
+        Me.Menu_icon_repair.Enabled = False
         Me.Menu_icon_repair.Location = New System.Drawing.Point(0, 0)
         Me.Menu_icon_repair.Name = "Menu_icon_repair"
         Me.Menu_icon_repair.Size = New System.Drawing.Size(34, 34)
         Me.Menu_icon_repair.TabIndex = 1
-        Me.Menu_icon_repair.TabStop = false
+        Me.Menu_icon_repair.TabStop = False
         '
         'Menu_cottage
         '
@@ -2228,11 +2228,12 @@ Partial Class Miitopia_SE
         Me.Menu_cottage.Name = "Menu_cottage"
         Me.Menu_cottage.Size = New System.Drawing.Size(150, 34)
         Me.Menu_cottage.TabIndex = 6
+        Me.Menu_cottage.Visible = False
         '
         'Menu_text_cottage
         '
-        Me.Menu_text_cottage.AutoSize = true
-        Me.Menu_text_cottage.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Menu_text_cottage.AutoSize = True
+        Me.Menu_text_cottage.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Menu_text_cottage.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Menu_text_cottage.Location = New System.Drawing.Point(40, 11)
         Me.Menu_text_cottage.Name = "Menu_text_cottage"
@@ -2245,12 +2246,12 @@ Partial Class Miitopia_SE
         Me.Menu_icon_cottage.BackColor = System.Drawing.Color.Transparent
         Me.Menu_icon_cottage.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.file_cottage
         Me.Menu_icon_cottage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Menu_icon_cottage.Enabled = false
+        Me.Menu_icon_cottage.Enabled = False
         Me.Menu_icon_cottage.Location = New System.Drawing.Point(0, 0)
         Me.Menu_icon_cottage.Name = "Menu_icon_cottage"
         Me.Menu_icon_cottage.Size = New System.Drawing.Size(34, 34)
         Me.Menu_icon_cottage.TabIndex = 1
-        Me.Menu_icon_cottage.TabStop = false
+        Me.Menu_icon_cottage.TabStop = False
         '
         'Menu_quest
         '
@@ -2265,8 +2266,8 @@ Partial Class Miitopia_SE
         '
         'Menu_text_quest
         '
-        Me.Menu_text_quest.AutoSize = true
-        Me.Menu_text_quest.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Menu_text_quest.AutoSize = True
+        Me.Menu_text_quest.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Menu_text_quest.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Menu_text_quest.Location = New System.Drawing.Point(40, 11)
         Me.Menu_text_quest.Name = "Menu_text_quest"
@@ -2279,12 +2280,12 @@ Partial Class Miitopia_SE
         Me.Menu_icon_quest.BackColor = System.Drawing.Color.Transparent
         Me.Menu_icon_quest.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.file_quest
         Me.Menu_icon_quest.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Menu_icon_quest.Enabled = false
+        Me.Menu_icon_quest.Enabled = False
         Me.Menu_icon_quest.Location = New System.Drawing.Point(0, 0)
         Me.Menu_icon_quest.Name = "Menu_icon_quest"
         Me.Menu_icon_quest.Size = New System.Drawing.Size(34, 34)
         Me.Menu_icon_quest.TabIndex = 1
-        Me.Menu_icon_quest.TabStop = false
+        Me.Menu_icon_quest.TabStop = False
         '
         'Menu_hero
         '
@@ -2298,28 +2299,28 @@ Partial Class Miitopia_SE
         '
         'Menu_text_hero
         '
-        Me.Menu_text_hero.AutoSize = true
+        Me.Menu_text_hero.AutoSize = True
         Me.Menu_text_hero.BackColor = System.Drawing.Color.Transparent
-        Me.Menu_text_hero.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Menu_text_hero.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Menu_text_hero.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Menu_text_hero.Location = New System.Drawing.Point(40, 11)
         Me.Menu_text_hero.Name = "Menu_text_hero"
         Me.Menu_text_hero.Size = New System.Drawing.Size(49, 17)
         Me.Menu_text_hero.TabIndex = 2
         Me.Menu_text_hero.Text = "hero.sav"
-        Me.Menu_text_hero.UseCompatibleTextRendering = true
+        Me.Menu_text_hero.UseCompatibleTextRendering = True
         '
         'Menu_icon_hero
         '
         Me.Menu_icon_hero.BackColor = System.Drawing.Color.Transparent
         Me.Menu_icon_hero.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.file_hero
         Me.Menu_icon_hero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Menu_icon_hero.Enabled = false
+        Me.Menu_icon_hero.Enabled = False
         Me.Menu_icon_hero.Location = New System.Drawing.Point(0, 0)
         Me.Menu_icon_hero.Name = "Menu_icon_hero"
         Me.Menu_icon_hero.Size = New System.Drawing.Size(34, 34)
         Me.Menu_icon_hero.TabIndex = 1
-        Me.Menu_icon_hero.TabStop = false
+        Me.Menu_icon_hero.TabStop = False
         '
         'Menu_common
         '
@@ -2334,27 +2335,27 @@ Partial Class Miitopia_SE
         '
         'Menu_text_common
         '
-        Me.Menu_text_common.AutoSize = true
-        Me.Menu_text_common.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Menu_text_common.AutoSize = True
+        Me.Menu_text_common.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Menu_text_common.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Menu_text_common.Location = New System.Drawing.Point(40, 11)
         Me.Menu_text_common.Name = "Menu_text_common"
         Me.Menu_text_common.Size = New System.Drawing.Size(71, 17)
         Me.Menu_text_common.TabIndex = 2
         Me.Menu_text_common.Text = "common.sav"
-        Me.Menu_text_common.UseCompatibleTextRendering = true
+        Me.Menu_text_common.UseCompatibleTextRendering = True
         '
         'Menu_icon_common
         '
         Me.Menu_icon_common.BackColor = System.Drawing.Color.Transparent
         Me.Menu_icon_common.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.file_common
         Me.Menu_icon_common.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Menu_icon_common.Enabled = false
+        Me.Menu_icon_common.Enabled = False
         Me.Menu_icon_common.Location = New System.Drawing.Point(0, 0)
         Me.Menu_icon_common.Name = "Menu_icon_common"
         Me.Menu_icon_common.Size = New System.Drawing.Size(34, 34)
         Me.Menu_icon_common.TabIndex = 1
-        Me.Menu_icon_common.TabStop = false
+        Me.Menu_icon_common.TabStop = False
         '
         'Menu_settings
         '
@@ -2368,8 +2369,8 @@ Partial Class Miitopia_SE
         '
         'Menu_text_settings
         '
-        Me.Menu_text_settings.AutoSize = true
-        Me.Menu_text_settings.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Menu_text_settings.AutoSize = True
+        Me.Menu_text_settings.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Menu_text_settings.ForeColor = System.Drawing.Color.White
         Me.Menu_text_settings.Location = New System.Drawing.Point(40, 11)
         Me.Menu_text_settings.Name = "Menu_text_settings"
@@ -2380,25 +2381,25 @@ Partial Class Miitopia_SE
         'Menu_icon_settings
         '
         Me.Menu_icon_settings.BackColor = System.Drawing.Color.Transparent
-        Me.Menu_icon_settings.BackgroundImage = CType(resources.GetObject("Menu_icon_settings.BackgroundImage"),System.Drawing.Image)
+        Me.Menu_icon_settings.BackgroundImage = CType(resources.GetObject("Menu_icon_settings.BackgroundImage"), System.Drawing.Image)
         Me.Menu_icon_settings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Menu_icon_settings.Enabled = false
+        Me.Menu_icon_settings.Enabled = False
         Me.Menu_icon_settings.Location = New System.Drawing.Point(0, 0)
         Me.Menu_icon_settings.Name = "Menu_icon_settings"
         Me.Menu_icon_settings.Size = New System.Drawing.Size(34, 34)
         Me.Menu_icon_settings.TabIndex = 1
-        Me.Menu_icon_settings.TabStop = false
+        Me.Menu_icon_settings.TabStop = False
         '
         'Menu_width
         '
         Me.Menu_width.BackColor = System.Drawing.Color.Transparent
-        Me.Menu_width.BackgroundImage = CType(resources.GetObject("Menu_width.BackgroundImage"),System.Drawing.Image)
+        Me.Menu_width.BackgroundImage = CType(resources.GetObject("Menu_width.BackgroundImage"), System.Drawing.Image)
         Me.Menu_width.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Menu_width.Location = New System.Drawing.Point(0, 0)
         Me.Menu_width.Name = "Menu_width"
         Me.Menu_width.Size = New System.Drawing.Size(34, 34)
         Me.Menu_width.TabIndex = 0
-        Me.Menu_width.TabStop = false
+        Me.Menu_width.TabStop = False
         '
         'Menu_buttonS
         '
@@ -2409,14 +2410,14 @@ Partial Class Miitopia_SE
         Me.Menu_buttonS.Name = "Menu_buttonS"
         Me.Menu_buttonS.Size = New System.Drawing.Size(68, 25)
         Me.Menu_buttonS.TabIndex = 6
-        Me.Menu_buttonS.Visible = false
+        Me.Menu_buttonS.Visible = False
         '
         'Text_menu_buttonS
         '
         Me.Text_menu_buttonS.BackColor = System.Drawing.Color.Transparent
         Me.Text_menu_buttonS.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Text_menu_buttonS.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Text_menu_buttonS.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Text_menu_buttonS.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Text_menu_buttonS.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Text_menu_buttonS.Location = New System.Drawing.Point(0, 0)
         Me.Text_menu_buttonS.Name = "Text_menu_buttonS"
@@ -2440,7 +2441,7 @@ Partial Class Miitopia_SE
         Me.Text_menu_buttonH.BackColor = System.Drawing.Color.Transparent
         Me.Text_menu_buttonH.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Text_menu_buttonH.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Text_menu_buttonH.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Text_menu_buttonH.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Text_menu_buttonH.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Text_menu_buttonH.Location = New System.Drawing.Point(0, 0)
         Me.Text_menu_buttonH.Name = "Text_menu_buttonH"
@@ -2458,14 +2459,14 @@ Partial Class Miitopia_SE
         Me.Hidden_things.Name = "Hidden_things"
         Me.Hidden_things.Size = New System.Drawing.Size(31, 25)
         Me.Hidden_things.TabIndex = 9
-        Me.Hidden_things.Visible = false
+        Me.Hidden_things.Visible = False
         '
         'Hidden_text
         '
         Me.Hidden_text.BackColor = System.Drawing.Color.Transparent
         Me.Hidden_text.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.Hidden_text.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Hidden_text.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Hidden_text.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Hidden_text.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Hidden_text.Location = New System.Drawing.Point(0, 0)
         Me.Hidden_text.Name = "Hidden_text"
@@ -2483,7 +2484,7 @@ Partial Class Miitopia_SE
         Me.Panel_music.Name = "Panel_music"
         Me.Panel_music.Size = New System.Drawing.Size(37, 25)
         Me.Panel_music.TabIndex = 8
-        Me.Panel_music.Visible = false
+        Me.Panel_music.Visible = False
         '
         'PictureBox4
         '
@@ -2494,7 +2495,7 @@ Partial Class Miitopia_SE
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(37, 25)
         Me.PictureBox4.TabIndex = 0
-        Me.PictureBox4.TabStop = false
+        Me.PictureBox4.TabStop = False
         '
         'Panel_slt_save
         '
@@ -2511,7 +2512,7 @@ Partial Class Miitopia_SE
         Me.Filever_text.BackColor = System.Drawing.Color.Transparent
         Me.Filever_text.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Filever_text.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Filever_text.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Filever_text.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Filever_text.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Filever_text.Location = New System.Drawing.Point(0, 0)
         Me.Filever_text.Name = "Filever_text"
@@ -2529,7 +2530,7 @@ Partial Class Miitopia_SE
         Me.File_path_common.Name = "File_path_common"
         Me.File_path_common.Size = New System.Drawing.Size(370, 25)
         Me.File_path_common.TabIndex = 11
-        Me.File_path_common.Visible = false
+        Me.File_path_common.Visible = False
         '
         'TextBox_fpath_common
         '
@@ -2537,7 +2538,7 @@ Partial Class Miitopia_SE
         Me.TextBox_fpath_common.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox_fpath_common.Location = New System.Drawing.Point(3, 6)
         Me.TextBox_fpath_common.Name = "TextBox_fpath_common"
-        Me.TextBox_fpath_common.ReadOnly = true
+        Me.TextBox_fpath_common.ReadOnly = True
         Me.TextBox_fpath_common.Size = New System.Drawing.Size(364, 13)
         Me.TextBox_fpath_common.TabIndex = 0
         '
@@ -2549,7 +2550,7 @@ Partial Class Miitopia_SE
         Me.Panel_settings.Name = "Panel_settings"
         Me.Panel_settings.Size = New System.Drawing.Size(550, 443)
         Me.Panel_settings.TabIndex = 12
-        Me.Panel_settings.Visible = false
+        Me.Panel_settings.Visible = False
         '
         'TabControl5
         '
@@ -2559,7 +2560,7 @@ Partial Class Miitopia_SE
         Me.TabControl5.Controls.Add(Me.Tab_credits)
         Me.TabControl5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControl5.Location = New System.Drawing.Point(0, 0)
-        Me.TabControl5.Multiline = true
+        Me.TabControl5.Multiline = True
         Me.TabControl5.Name = "TabControl5"
         Me.TabControl5.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.TabControl5.SelectedIndex = 0
@@ -2576,7 +2577,7 @@ Partial Class Miitopia_SE
         Me.Tab_settings.Size = New System.Drawing.Size(542, 417)
         Me.Tab_settings.TabIndex = 0
         Me.Tab_settings.Text = "Settings"
-        Me.Tab_settings.UseVisualStyleBackColor = true
+        Me.Tab_settings.UseVisualStyleBackColor = True
         '
         'Group_settings
         '
@@ -2592,7 +2593,7 @@ Partial Class Miitopia_SE
         Me.Group_settings.Name = "Group_settings"
         Me.Group_settings.Size = New System.Drawing.Size(483, 393)
         Me.Group_settings.TabIndex = 0
-        Me.Group_settings.TabStop = false
+        Me.Group_settings.TabStop = False
         Me.Group_settings.Text = "Settings"
         '
         'PictureBox26
@@ -2602,7 +2603,7 @@ Partial Class Miitopia_SE
         Me.PictureBox26.Name = "PictureBox26"
         Me.PictureBox26.Size = New System.Drawing.Size(80, 88)
         Me.PictureBox26.TabIndex = 1
-        Me.PictureBox26.TabStop = false
+        Me.PictureBox26.TabStop = False
         '
         'Panel30
         '
@@ -2617,14 +2618,14 @@ Partial Class Miitopia_SE
         '
         'Setting_ckupdate
         '
-        Me.Setting_ckupdate.AutoSize = true
+        Me.Setting_ckupdate.AutoSize = True
         Me.Setting_ckupdate.BackColor = System.Drawing.Color.Transparent
         Me.Setting_ckupdate.Location = New System.Drawing.Point(4, 4)
         Me.Setting_ckupdate.Name = "Setting_ckupdate"
         Me.Setting_ckupdate.Size = New System.Drawing.Size(143, 17)
         Me.Setting_ckupdate.TabIndex = 2
         Me.Setting_ckupdate.Text = "Unactive check updates"
-        Me.Setting_ckupdate.UseVisualStyleBackColor = false
+        Me.Setting_ckupdate.UseVisualStyleBackColor = False
         '
         'Panel9
         '
@@ -2640,7 +2641,7 @@ Partial Class Miitopia_SE
         '
         'Text_language
         '
-        Me.Text_language.AutoSize = true
+        Me.Text_language.AutoSize = True
         Me.Text_language.BackColor = System.Drawing.Color.Transparent
         Me.Text_language.Location = New System.Drawing.Point(10, 5)
         Me.Text_language.Name = "Text_language"
@@ -2653,7 +2654,7 @@ Partial Class Miitopia_SE
         Me.Select_language.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Select_language.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_language.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_language.FormattingEnabled = true
+        Me.Select_language.FormattingEnabled = True
         Me.Select_language.Items.AddRange(New Object() {"ENG", "FRA"})
         Me.Select_language.Location = New System.Drawing.Point(97, 2)
         Me.Select_language.Name = "Select_language"
@@ -2673,14 +2674,14 @@ Partial Class Miitopia_SE
         '
         'Setting_filepath
         '
-        Me.Setting_filepath.AutoSize = true
+        Me.Setting_filepath.AutoSize = True
         Me.Setting_filepath.BackColor = System.Drawing.Color.Transparent
         Me.Setting_filepath.Location = New System.Drawing.Point(4, 4)
         Me.Setting_filepath.Name = "Setting_filepath"
         Me.Setting_filepath.Size = New System.Drawing.Size(93, 17)
         Me.Setting_filepath.TabIndex = 2
         Me.Setting_filepath.Text = "Show file path"
-        Me.Setting_filepath.UseVisualStyleBackColor = false
+        Me.Setting_filepath.UseVisualStyleBackColor = False
         '
         'Panel5
         '
@@ -2695,14 +2696,14 @@ Partial Class Miitopia_SE
         '
         'Setting_hidden
         '
-        Me.Setting_hidden.AutoSize = true
+        Me.Setting_hidden.AutoSize = True
         Me.Setting_hidden.BackColor = System.Drawing.Color.Transparent
         Me.Setting_hidden.Location = New System.Drawing.Point(5, 4)
         Me.Setting_hidden.Name = "Setting_hidden"
         Me.Setting_hidden.Size = New System.Drawing.Size(119, 17)
         Me.Setting_hidden.TabIndex = 1
         Me.Setting_hidden.Text = "Show hidden things"
-        Me.Setting_hidden.UseVisualStyleBackColor = false
+        Me.Setting_hidden.UseVisualStyleBackColor = False
         '
         'Panel3
         '
@@ -2721,7 +2722,7 @@ Partial Class Miitopia_SE
         Me.Select_music.BackColor = System.Drawing.Color.White
         Me.Select_music.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_music.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_music.FormattingEnabled = true
+        Me.Select_music.FormattingEnabled = True
         Me.Select_music.Items.AddRange(New Object() {"1", "2", "3"})
         Me.Select_music.Location = New System.Drawing.Point(211, 2)
         Me.Select_music.Name = "Select_music"
@@ -2730,14 +2731,14 @@ Partial Class Miitopia_SE
         '
         'Setting_music
         '
-        Me.Setting_music.AutoSize = true
+        Me.Setting_music.AutoSize = True
         Me.Setting_music.BackColor = System.Drawing.Color.Transparent
         Me.Setting_music.Location = New System.Drawing.Point(5, 4)
         Me.Setting_music.Name = "Setting_music"
         Me.Setting_music.Size = New System.Drawing.Size(146, 17)
         Me.Setting_music.TabIndex = 0
         Me.Setting_music.Text = "Active background music"
-        Me.Setting_music.UseVisualStyleBackColor = false
+        Me.Setting_music.UseVisualStyleBackColor = False
         '
         'Tab_changelog
         '
@@ -2749,7 +2750,7 @@ Partial Class Miitopia_SE
         Me.Tab_changelog.Size = New System.Drawing.Size(542, 417)
         Me.Tab_changelog.TabIndex = 1
         Me.Tab_changelog.Text = "Changelog"
-        Me.Tab_changelog.UseVisualStyleBackColor = true
+        Me.Tab_changelog.UseVisualStyleBackColor = True
         '
         'Group_changelog
         '
@@ -2761,7 +2762,7 @@ Partial Class Miitopia_SE
         Me.Group_changelog.Name = "Group_changelog"
         Me.Group_changelog.Size = New System.Drawing.Size(483, 393)
         Me.Group_changelog.TabIndex = 1
-        Me.Group_changelog.TabStop = false
+        Me.Group_changelog.TabStop = False
         Me.Group_changelog.Text = "Changelog"
         '
         'PictureBox27
@@ -2771,17 +2772,17 @@ Partial Class Miitopia_SE
         Me.PictureBox27.Name = "PictureBox27"
         Me.PictureBox27.Size = New System.Drawing.Size(96, 59)
         Me.PictureBox27.TabIndex = 2
-        Me.PictureBox27.TabStop = false
+        Me.PictureBox27.TabStop = False
         '
         'Changelog
         '
         Me.Changelog.BackColor = System.Drawing.Color.Transparent
-        Me.Changelog.Font = New System.Drawing.Font("Microsoft Sans Serif", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Changelog.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Changelog.Location = New System.Drawing.Point(9, 44)
         Me.Changelog.Name = "Changelog"
         Me.Changelog.Size = New System.Drawing.Size(468, 342)
         Me.Changelog.TabIndex = 1
-        Me.Changelog.Text = "Update minor things"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"Add link to other save editors"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"Add roulette editor"
+        Me.Changelog.Text = "Update minor things" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Add link to other save editors" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Add roulette editor"
         Me.Changelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label7
@@ -2791,7 +2792,7 @@ Partial Class Miitopia_SE
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(471, 13)
         Me.Label7.TabIndex = 0
-        Me.Label7.Text = "Version 2.0.5"
+        Me.Label7.Text = "Version 2.0.6"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Tab_credits
@@ -2804,7 +2805,7 @@ Partial Class Miitopia_SE
         Me.Tab_credits.Size = New System.Drawing.Size(542, 417)
         Me.Tab_credits.TabIndex = 2
         Me.Tab_credits.Text = "Credits"
-        Me.Tab_credits.UseVisualStyleBackColor = true
+        Me.Tab_credits.UseVisualStyleBackColor = True
         '
         'Panel28
         '
@@ -2824,89 +2825,89 @@ Partial Class Miitopia_SE
         'Icon_MarioPartyITSE
         '
         Me.Icon_MarioPartyITSE.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_MarioPartyITSE.Image = CType(resources.GetObject("Icon_MarioPartyITSE.Image"),System.Drawing.Image)
+        Me.Icon_MarioPartyITSE.Image = CType(resources.GetObject("Icon_MarioPartyITSE.Image"), System.Drawing.Image)
         Me.Icon_MarioPartyITSE.Location = New System.Drawing.Point(6, 308)
         Me.Icon_MarioPartyITSE.Name = "Icon_MarioPartyITSE"
         Me.Icon_MarioPartyITSE.Size = New System.Drawing.Size(48, 48)
         Me.Icon_MarioPartyITSE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Icon_MarioPartyITSE.TabIndex = 7
-        Me.Icon_MarioPartyITSE.TabStop = false
+        Me.Icon_MarioPartyITSE.TabStop = False
         '
         'Icon_PaparMarioSSSE
         '
         Me.Icon_PaparMarioSSSE.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_PaparMarioSSSE.Image = CType(resources.GetObject("Icon_PaparMarioSSSE.Image"),System.Drawing.Image)
+        Me.Icon_PaparMarioSSSE.Image = CType(resources.GetObject("Icon_PaparMarioSSSE.Image"), System.Drawing.Image)
         Me.Icon_PaparMarioSSSE.Location = New System.Drawing.Point(6, 158)
         Me.Icon_PaparMarioSSSE.Name = "Icon_PaparMarioSSSE"
         Me.Icon_PaparMarioSSSE.Size = New System.Drawing.Size(48, 48)
         Me.Icon_PaparMarioSSSE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Icon_PaparMarioSSSE.TabIndex = 6
-        Me.Icon_PaparMarioSSSE.TabStop = false
+        Me.Icon_PaparMarioSSSE.TabStop = False
         '
         'Icon_nintendogscatSE
         '
         Me.Icon_nintendogscatSE.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_nintendogscatSE.Image = CType(resources.GetObject("Icon_nintendogscatSE.Image"),System.Drawing.Image)
+        Me.Icon_nintendogscatSE.Image = CType(resources.GetObject("Icon_nintendogscatSE.Image"), System.Drawing.Image)
         Me.Icon_nintendogscatSE.Location = New System.Drawing.Point(6, 258)
         Me.Icon_nintendogscatSE.Name = "Icon_nintendogscatSE"
         Me.Icon_nintendogscatSE.Size = New System.Drawing.Size(48, 48)
         Me.Icon_nintendogscatSE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Icon_nintendogscatSE.TabIndex = 5
-        Me.Icon_nintendogscatSE.TabStop = false
+        Me.Icon_nintendogscatSE.TabStop = False
         '
         'Icon_IronfallISE
         '
         Me.Icon_IronfallISE.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_IronfallISE.Image = CType(resources.GetObject("Icon_IronfallISE.Image"),System.Drawing.Image)
+        Me.Icon_IronfallISE.Image = CType(resources.GetObject("Icon_IronfallISE.Image"), System.Drawing.Image)
         Me.Icon_IronfallISE.Location = New System.Drawing.Point(6, 208)
         Me.Icon_IronfallISE.Name = "Icon_IronfallISE"
         Me.Icon_IronfallISE.Size = New System.Drawing.Size(48, 48)
         Me.Icon_IronfallISE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Icon_IronfallISE.TabIndex = 4
-        Me.Icon_IronfallISE.TabStop = false
+        Me.Icon_IronfallISE.TabStop = False
         '
         'Icon_TLSE
         '
         Me.Icon_TLSE.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_TLSE.Image = CType(resources.GetObject("Icon_TLSE.Image"),System.Drawing.Image)
+        Me.Icon_TLSE.Image = CType(resources.GetObject("Icon_TLSE.Image"), System.Drawing.Image)
         Me.Icon_TLSE.Location = New System.Drawing.Point(6, 58)
         Me.Icon_TLSE.Name = "Icon_TLSE"
         Me.Icon_TLSE.Size = New System.Drawing.Size(48, 48)
         Me.Icon_TLSE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Icon_TLSE.TabIndex = 3
-        Me.Icon_TLSE.TabStop = false
+        Me.Icon_TLSE.TabStop = False
         '
         'Icon_ChibiRoboZLSE
         '
         Me.Icon_ChibiRoboZLSE.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_ChibiRoboZLSE.Image = CType(resources.GetObject("Icon_ChibiRoboZLSE.Image"),System.Drawing.Image)
+        Me.Icon_ChibiRoboZLSE.Image = CType(resources.GetObject("Icon_ChibiRoboZLSE.Image"), System.Drawing.Image)
         Me.Icon_ChibiRoboZLSE.Location = New System.Drawing.Point(6, 108)
         Me.Icon_ChibiRoboZLSE.Name = "Icon_ChibiRoboZLSE"
         Me.Icon_ChibiRoboZLSE.Size = New System.Drawing.Size(48, 48)
         Me.Icon_ChibiRoboZLSE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Icon_ChibiRoboZLSE.TabIndex = 2
-        Me.Icon_ChibiRoboZLSE.TabStop = false
+        Me.Icon_ChibiRoboZLSE.TabStop = False
         '
         'Icon_3dsSEL
         '
-        Me.Icon_3dsSEL.Image = CType(resources.GetObject("Icon_3dsSEL.Image"),System.Drawing.Image)
+        Me.Icon_3dsSEL.Image = CType(resources.GetObject("Icon_3dsSEL.Image"), System.Drawing.Image)
         Me.Icon_3dsSEL.Location = New System.Drawing.Point(6, 358)
         Me.Icon_3dsSEL.Name = "Icon_3dsSEL"
         Me.Icon_3dsSEL.Size = New System.Drawing.Size(48, 48)
         Me.Icon_3dsSEL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Icon_3dsSEL.TabIndex = 1
-        Me.Icon_3dsSEL.TabStop = false
+        Me.Icon_3dsSEL.TabStop = False
         '
         'Icon_MiitopiaSE
         '
         Me.Icon_MiitopiaSE.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_MiitopiaSE.Image = CType(resources.GetObject("Icon_MiitopiaSE.Image"),System.Drawing.Image)
+        Me.Icon_MiitopiaSE.Image = CType(resources.GetObject("Icon_MiitopiaSE.Image"), System.Drawing.Image)
         Me.Icon_MiitopiaSE.Location = New System.Drawing.Point(6, 8)
         Me.Icon_MiitopiaSE.Name = "Icon_MiitopiaSE"
         Me.Icon_MiitopiaSE.Size = New System.Drawing.Size(48, 48)
         Me.Icon_MiitopiaSE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Icon_MiitopiaSE.TabIndex = 0
-        Me.Icon_MiitopiaSE.TabStop = false
+        Me.Icon_MiitopiaSE.TabStop = False
         '
         'Group_credits
         '
@@ -2920,7 +2921,7 @@ Partial Class Miitopia_SE
         Me.Group_credits.Name = "Group_credits"
         Me.Group_credits.Size = New System.Drawing.Size(527, 393)
         Me.Group_credits.TabIndex = 2
-        Me.Group_credits.TabStop = false
+        Me.Group_credits.TabStop = False
         Me.Group_credits.Text = "Credits"
         '
         'Button_dona
@@ -2928,22 +2929,22 @@ Partial Class Miitopia_SE
         Me.Button_dona.BackColor = System.Drawing.Color.White
         Me.Button_dona.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button_dona.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button_dona.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Button_dona.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button_dona.Location = New System.Drawing.Point(202, 27)
         Me.Button_dona.Name = "Button_dona"
         Me.Button_dona.Size = New System.Drawing.Size(75, 23)
         Me.Button_dona.TabIndex = 5
         Me.Button_dona.Text = "Donate"
-        Me.Button_dona.UseVisualStyleBackColor = false
+        Me.Button_dona.UseVisualStyleBackColor = False
         '
         'Credits
         '
         Me.Credits.BackColor = System.Drawing.Color.White
         Me.Credits.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.Credits.Location = New System.Drawing.Point(12, 64)
-        Me.Credits.Multiline = true
+        Me.Credits.Multiline = True
         Me.Credits.Name = "Credits"
-        Me.Credits.ReadOnly = true
+        Me.Credits.ReadOnly = True
         Me.Credits.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.Credits.Size = New System.Drawing.Size(455, 269)
         Me.Credits.TabIndex = 3
@@ -2952,24 +2953,24 @@ Partial Class Miitopia_SE
         '
         'LinkLabel2
         '
-        Me.LinkLabel2.AutoSize = true
+        Me.LinkLabel2.AutoSize = True
         Me.LinkLabel2.BackColor = System.Drawing.Color.Transparent
         Me.LinkLabel2.Location = New System.Drawing.Point(370, 32)
         Me.LinkLabel2.Name = "LinkLabel2"
         Me.LinkLabel2.Size = New System.Drawing.Size(96, 13)
         Me.LinkLabel2.TabIndex = 2
-        Me.LinkLabel2.TabStop = true
+        Me.LinkLabel2.TabStop = True
         Me.LinkLabel2.Text = "Gbatemp.net Page"
         '
         'LinkLabel1
         '
-        Me.LinkLabel1.AutoSize = true
+        Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
         Me.LinkLabel1.Location = New System.Drawing.Point(29, 32)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(66, 13)
         Me.LinkLabel1.TabIndex = 1
-        Me.LinkLabel1.TabStop = true
+        Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Github Page"
         '
         'PictureBox28
@@ -2979,7 +2980,7 @@ Partial Class Miitopia_SE
         Me.PictureBox28.Name = "PictureBox28"
         Me.PictureBox28.Size = New System.Drawing.Size(100, 60)
         Me.PictureBox28.TabIndex = 4
-        Me.PictureBox28.TabStop = false
+        Me.PictureBox28.TabStop = False
         '
         'Panel_common
         '
@@ -2993,21 +2994,21 @@ Partial Class Miitopia_SE
         Me.Panel_common.Name = "Panel_common"
         Me.Panel_common.Size = New System.Drawing.Size(550, 443)
         Me.Panel_common.TabIndex = 13
-        Me.Panel_common.Visible = false
+        Me.Panel_common.Visible = False
         '
         'Info_dragon_map2
         '
-        Me.Info_dragon_map2.AutoSize = true
+        Me.Info_dragon_map2.AutoSize = True
         Me.Info_dragon_map2.BackColor = System.Drawing.Color.Transparent
         Me.Info_dragon_map2.Cursor = System.Windows.Forms.Cursors.Help
-        Me.Info_dragon_map2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Info_dragon_map2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Info_dragon_map2.ForeColor = System.Drawing.Color.Blue
         Me.Info_dragon_map2.Location = New System.Drawing.Point(305, 37)
         Me.Info_dragon_map2.Name = "Info_dragon_map2"
         Me.Info_dragon_map2.Size = New System.Drawing.Size(12, 16)
         Me.Info_dragon_map2.TabIndex = 18
         Me.Info_dragon_map2.Text = "i"
-        Me.Info_dragon_map2.Visible = false
+        Me.Info_dragon_map2.Visible = False
         '
         'Dragon_map2
         '
@@ -3017,8 +3018,8 @@ Partial Class Miitopia_SE
         Me.Dragon_map2.Name = "Dragon_map2"
         Me.Dragon_map2.Size = New System.Drawing.Size(60, 50)
         Me.Dragon_map2.TabIndex = 17
-        Me.Dragon_map2.TabStop = false
-        Me.Dragon_map2.Visible = false
+        Me.Dragon_map2.TabStop = False
+        Me.Dragon_map2.Visible = False
         '
         'TabControl1
         '
@@ -3026,7 +3027,7 @@ Partial Class Miitopia_SE
         Me.TabControl1.Controls.Add(Me.Tab_common_ency)
         Me.TabControl1.Controls.Add(Me.Tab_common_extras)
         Me.TabControl1.Controls.Add(Me.Tab_common_roulette)
-        Me.TabControl1.HotTrack = true
+        Me.TabControl1.HotTrack = True
         Me.TabControl1.Location = New System.Drawing.Point(9, 55)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -3057,7 +3058,7 @@ Partial Class Miitopia_SE
         Me.Tab_common_main.Size = New System.Drawing.Size(524, 351)
         Me.Tab_common_main.TabIndex = 0
         Me.Tab_common_main.Text = "Main"
-        Me.Tab_common_main.UseVisualStyleBackColor = true
+        Me.Tab_common_main.UseVisualStyleBackColor = True
         '
         'Panel_partylevel
         '
@@ -3070,7 +3071,7 @@ Partial Class Miitopia_SE
         Me.Panel_partylevel.Name = "Panel_partylevel"
         Me.Panel_partylevel.Size = New System.Drawing.Size(207, 40)
         Me.Panel_partylevel.TabIndex = 20
-        Me.Panel_partylevel.TabStop = false
+        Me.Panel_partylevel.TabStop = False
         Me.Panel_partylevel.Text = "Party is in level"
         '
         'PictureBox6
@@ -3081,13 +3082,13 @@ Partial Class Miitopia_SE
         Me.PictureBox6.Size = New System.Drawing.Size(26, 24)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox6.TabIndex = 18
-        Me.PictureBox6.TabStop = false
+        Me.PictureBox6.TabStop = False
         '
         'Info_level
         '
-        Me.Info_level.AutoSize = true
+        Me.Info_level.AutoSize = True
         Me.Info_level.Cursor = System.Windows.Forms.Cursors.Help
-        Me.Info_level.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Info_level.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Info_level.ForeColor = System.Drawing.Color.Blue
         Me.Info_level.Location = New System.Drawing.Point(189, 16)
         Me.Info_level.Name = "Info_level"
@@ -3114,7 +3115,7 @@ Partial Class Miitopia_SE
         Me.Panel_partyworld.Name = "Panel_partyworld"
         Me.Panel_partyworld.Size = New System.Drawing.Size(207, 40)
         Me.Panel_partyworld.TabIndex = 19
-        Me.Panel_partyworld.TabStop = false
+        Me.Panel_partyworld.TabStop = False
         Me.Panel_partyworld.Text = "Party is in world"
         '
         'valu_world
@@ -3125,14 +3126,14 @@ Partial Class Miitopia_SE
         Me.valu_world.Size = New System.Drawing.Size(36, 16)
         Me.valu_world.TabIndex = 1
         Me.valu_world.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_world.Visible = false
+        Me.valu_world.Visible = False
         '
         'Select_world
         '
         Me.Select_world.BackColor = System.Drawing.Color.White
         Me.Select_world.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_world.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_world.FormattingEnabled = true
+        Me.Select_world.FormattingEnabled = True
         Me.Select_world.Items.AddRange(New Object() {"Greenhorne", "Riverdeep Cavern", "Nightmare Tower", "Neksdor", "Underground Maze", "Great Pyramid", "Realm of the Fey", "Citrus Cave", "Lotus Lake", "Karkaton Ascent", "Karkaton", "Dark Lord's Castle", "Armory", "Inner Passage", "Dark Lord's Throne", "Powdered Peaks", "Peculia", "Peculia Warp (Forest)", "Peculia Warp (Desert)", "Peculia Warp (Castle)", "Nimbus", "Sterile Plant", "The Sky Scraper", "Otherworld", "The Sky Scraper (Entrance)", "Travelers' Hub (Overworld Only)", "Galados Isle (Overworld Only)", "New Lumos", "New Lumos (1st District)", "New Lumos (2nd District)", "New Lumos (3rd District)", "New Lumos (4th District)", "New Lumos (5th District)", "New Lumos (6th District)", "New Lumos (7th District)", "New Lumos (8th District)", "Random Quest (Lotus Lake)", "Random Quest (Pyramid)", "Random Quest (No BG)", "Random Quest (Quizmaster)", "Random Quest (No BG) (2)", "Random Quest (No BG, Split Party)", "Random Quest (No BG) (3)", "Random Quest (No BG) (4)"})
         Me.Select_world.Location = New System.Drawing.Point(18, 14)
         Me.Select_world.Name = "Select_world"
@@ -3149,7 +3150,7 @@ Partial Class Miitopia_SE
         Me.Group_safespot.Name = "Group_safespot"
         Me.Group_safespot.Size = New System.Drawing.Size(72, 60)
         Me.Group_safespot.TabIndex = 18
-        Me.Group_safespot.TabStop = false
+        Me.Group_safespot.TabStop = False
         Me.Group_safespot.Text = "Safe spot"
         '
         'valu_safespot
@@ -3161,7 +3162,7 @@ Partial Class Miitopia_SE
         Me.valu_safespot.Size = New System.Drawing.Size(39, 16)
         Me.valu_safespot.TabIndex = 4
         Me.valu_safespot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_safespot.Visible = false
+        Me.valu_safespot.Visible = False
         '
         'icon_safespot
         '
@@ -3172,13 +3173,13 @@ Partial Class Miitopia_SE
         Me.icon_safespot.Size = New System.Drawing.Size(39, 39)
         Me.icon_safespot.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.icon_safespot.TabIndex = 5
-        Me.icon_safespot.TabStop = false
+        Me.icon_safespot.TabStop = False
         '
         'Info_dragon_map
         '
-        Me.Info_dragon_map.AutoSize = true
+        Me.Info_dragon_map.AutoSize = True
         Me.Info_dragon_map.Cursor = System.Windows.Forms.Cursors.Help
-        Me.Info_dragon_map.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Info_dragon_map.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Info_dragon_map.ForeColor = System.Drawing.Color.Blue
         Me.Info_dragon_map.Location = New System.Drawing.Point(355, 301)
         Me.Info_dragon_map.Name = "Info_dragon_map"
@@ -3194,7 +3195,7 @@ Partial Class Miitopia_SE
         Me.Dragon_map.Name = "Dragon_map"
         Me.Dragon_map.Size = New System.Drawing.Size(60, 50)
         Me.Dragon_map.TabIndex = 15
-        Me.Dragon_map.TabStop = false
+        Me.Dragon_map.TabStop = False
         '
         'Group_party
         '
@@ -3208,14 +3209,14 @@ Partial Class Miitopia_SE
         Me.Group_party.Name = "Group_party"
         Me.Group_party.Size = New System.Drawing.Size(142, 60)
         Me.Group_party.TabIndex = 14
-        Me.Group_party.TabStop = false
+        Me.Group_party.TabStop = False
         Me.Group_party.Text = "The party is in"
         '
         'Info_party
         '
-        Me.Info_party.AutoSize = true
+        Me.Info_party.AutoSize = True
         Me.Info_party.Cursor = System.Windows.Forms.Cursors.Help
-        Me.Info_party.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Info_party.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Info_party.ForeColor = System.Drawing.Color.Blue
         Me.Info_party.Location = New System.Drawing.Point(124, 38)
         Me.Info_party.Name = "Info_party"
@@ -3232,7 +3233,7 @@ Partial Class Miitopia_SE
         Me.valu_party.Size = New System.Drawing.Size(39, 16)
         Me.valu_party.TabIndex = 3
         Me.valu_party.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_party.Visible = false
+        Me.valu_party.Visible = False
         '
         'PictureBox5
         '
@@ -3241,7 +3242,7 @@ Partial Class Miitopia_SE
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(50, 31)
         Me.PictureBox5.TabIndex = 0
-        Me.PictureBox5.TabStop = false
+        Me.PictureBox5.TabStop = False
         '
         'icon_party
         '
@@ -3252,7 +3253,7 @@ Partial Class Miitopia_SE
         Me.icon_party.Size = New System.Drawing.Size(39, 39)
         Me.icon_party.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.icon_party.TabIndex = 1
-        Me.icon_party.TabStop = false
+        Me.icon_party.TabStop = False
         '
         'Panel1
         '
@@ -3276,7 +3277,7 @@ Partial Class Miitopia_SE
         '
         'Text_rescued
         '
-        Me.Text_rescued.AutoSize = true
+        Me.Text_rescued.AutoSize = True
         Me.Text_rescued.Cursor = System.Windows.Forms.Cursors.Default
         Me.Text_rescued.ForeColor = System.Drawing.Color.White
         Me.Text_rescued.Location = New System.Drawing.Point(15, 4)
@@ -3300,12 +3301,12 @@ Partial Class Miitopia_SE
         '
         Me.icon_sprinkles.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.saltshakers
         Me.icon_sprinkles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.icon_sprinkles.Enabled = false
+        Me.icon_sprinkles.Enabled = False
         Me.icon_sprinkles.Location = New System.Drawing.Point(23, 14)
         Me.icon_sprinkles.Name = "icon_sprinkles"
         Me.icon_sprinkles.Size = New System.Drawing.Size(48, 48)
         Me.icon_sprinkles.TabIndex = 1
-        Me.icon_sprinkles.TabStop = false
+        Me.icon_sprinkles.TabStop = False
         '
         'Bar_sprinkles
         '
@@ -3317,7 +3318,7 @@ Partial Class Miitopia_SE
         Me.Bar_sprinkles.Name = "Bar_sprinkles"
         Me.Bar_sprinkles.Size = New System.Drawing.Size(94, 18)
         Me.Bar_sprinkles.TabIndex = 0
-        Me.Bar_sprinkles.Visible = false
+        Me.Bar_sprinkles.Visible = False
         '
         'valu_sprinkles
         '
@@ -3344,12 +3345,12 @@ Partial Class Miitopia_SE
         '
         Me.icon_ticket.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.ticket
         Me.icon_ticket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.icon_ticket.Enabled = false
+        Me.icon_ticket.Enabled = False
         Me.icon_ticket.Location = New System.Drawing.Point(23, 23)
         Me.icon_ticket.Name = "icon_ticket"
         Me.icon_ticket.Size = New System.Drawing.Size(48, 48)
         Me.icon_ticket.TabIndex = 1
-        Me.icon_ticket.TabStop = false
+        Me.icon_ticket.TabStop = False
         '
         'Bar_ticket
         '
@@ -3387,12 +3388,12 @@ Partial Class Miitopia_SE
         '
         Me.icon_costamiibo.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.amiibo_icon
         Me.icon_costamiibo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.icon_costamiibo.Enabled = false
+        Me.icon_costamiibo.Enabled = False
         Me.icon_costamiibo.Location = New System.Drawing.Point(23, 14)
         Me.icon_costamiibo.Name = "icon_costamiibo"
         Me.icon_costamiibo.Size = New System.Drawing.Size(48, 48)
         Me.icon_costamiibo.TabIndex = 1
-        Me.icon_costamiibo.TabStop = false
+        Me.icon_costamiibo.TabStop = False
         '
         'Bar_costamiibo
         '
@@ -3404,7 +3405,7 @@ Partial Class Miitopia_SE
         Me.Bar_costamiibo.Name = "Bar_costamiibo"
         Me.Bar_costamiibo.Size = New System.Drawing.Size(94, 18)
         Me.Bar_costamiibo.TabIndex = 0
-        Me.Bar_costamiibo.Visible = false
+        Me.Bar_costamiibo.Visible = False
         '
         'valu_costamiibo
         '
@@ -3431,12 +3432,12 @@ Partial Class Miitopia_SE
         '
         Me.icon_allweapons.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.allweapons
         Me.icon_allweapons.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.icon_allweapons.Enabled = false
+        Me.icon_allweapons.Enabled = False
         Me.icon_allweapons.Location = New System.Drawing.Point(23, 14)
         Me.icon_allweapons.Name = "icon_allweapons"
         Me.icon_allweapons.Size = New System.Drawing.Size(48, 48)
         Me.icon_allweapons.TabIndex = 1
-        Me.icon_allweapons.TabStop = false
+        Me.icon_allweapons.TabStop = False
         '
         'Bar_allweapons
         '
@@ -3448,7 +3449,7 @@ Partial Class Miitopia_SE
         Me.Bar_allweapons.Name = "Bar_allweapons"
         Me.Bar_allweapons.Size = New System.Drawing.Size(94, 18)
         Me.Bar_allweapons.TabIndex = 0
-        Me.Bar_allweapons.Visible = false
+        Me.Bar_allweapons.Visible = False
         '
         'valu_allweapons
         '
@@ -3474,12 +3475,12 @@ Partial Class Miitopia_SE
         '
         Me.icon_foods.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.foods_icon
         Me.icon_foods.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.icon_foods.Enabled = false
+        Me.icon_foods.Enabled = False
         Me.icon_foods.Location = New System.Drawing.Point(23, 14)
         Me.icon_foods.Name = "icon_foods"
         Me.icon_foods.Size = New System.Drawing.Size(48, 48)
         Me.icon_foods.TabIndex = 1
-        Me.icon_foods.TabStop = false
+        Me.icon_foods.TabStop = False
         '
         'Fea_candies
         '
@@ -3496,12 +3497,12 @@ Partial Class Miitopia_SE
         '
         Me.icon_candies.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Mpcandy
         Me.icon_candies.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.icon_candies.Enabled = false
+        Me.icon_candies.Enabled = False
         Me.icon_candies.Location = New System.Drawing.Point(23, 23)
         Me.icon_candies.Name = "icon_candies"
         Me.icon_candies.Size = New System.Drawing.Size(48, 48)
         Me.icon_candies.TabIndex = 1
-        Me.icon_candies.TabStop = false
+        Me.icon_candies.TabStop = False
         '
         'Bar_candies
         '
@@ -3522,7 +3523,7 @@ Partial Class Miitopia_SE
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(14, 17)
         Me.PictureBox9.TabIndex = 3
-        Me.PictureBox9.TabStop = false
+        Me.PictureBox9.TabStop = False
         '
         'valu_candies
         '
@@ -3549,12 +3550,12 @@ Partial Class Miitopia_SE
         '
         Me.icon_bananas.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Hpbanana
         Me.icon_bananas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.icon_bananas.Enabled = false
+        Me.icon_bananas.Enabled = False
         Me.icon_bananas.Location = New System.Drawing.Point(23, 23)
         Me.icon_bananas.Name = "icon_bananas"
         Me.icon_bananas.Size = New System.Drawing.Size(48, 48)
         Me.icon_bananas.TabIndex = 1
-        Me.icon_bananas.TabStop = false
+        Me.icon_bananas.TabStop = False
         '
         'Bar_bananas
         '
@@ -3575,7 +3576,7 @@ Partial Class Miitopia_SE
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(14, 17)
         Me.PictureBox7.TabIndex = 3
-        Me.PictureBox7.TabStop = false
+        Me.PictureBox7.TabStop = False
         '
         'valu_bananas
         '
@@ -3602,12 +3603,12 @@ Partial Class Miitopia_SE
         '
         Me.icon_gold.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.gold
         Me.icon_gold.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.icon_gold.Enabled = false
+        Me.icon_gold.Enabled = False
         Me.icon_gold.Location = New System.Drawing.Point(23, 23)
         Me.icon_gold.Name = "icon_gold"
         Me.icon_gold.Size = New System.Drawing.Size(48, 48)
         Me.icon_gold.TabIndex = 1
-        Me.icon_gold.TabStop = false
+        Me.icon_gold.TabStop = False
         '
         'Bar_gold
         '
@@ -3640,7 +3641,7 @@ Partial Class Miitopia_SE
         Me.Tab_common_ency.Size = New System.Drawing.Size(524, 351)
         Me.Tab_common_ency.TabIndex = 1
         Me.Tab_common_ency.Text = "Encyclopedia"
-        Me.Tab_common_ency.UseVisualStyleBackColor = true
+        Me.Tab_common_ency.UseVisualStyleBackColor = True
         '
         'TabControl2
         '
@@ -3677,7 +3678,7 @@ Partial Class Miitopia_SE
         Me.Tab_ency_weap.Size = New System.Drawing.Size(510, 319)
         Me.Tab_ency_weap.TabIndex = 0
         Me.Tab_ency_weap.Text = "Weapons"
-        Me.Tab_ency_weap.UseVisualStyleBackColor = true
+        Me.Tab_ency_weap.UseVisualStyleBackColor = True
         '
         'Fea_wp_elf
         '
@@ -3694,12 +3695,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_elf.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.elfe
         Me.Icon_wp_elf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_elf.Enabled = false
+        Me.Icon_wp_elf.Enabled = False
         Me.Icon_wp_elf.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_elf.Name = "Icon_wp_elf"
         Me.Icon_wp_elf.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_elf.TabIndex = 1
-        Me.Icon_wp_elf.TabStop = false
+        Me.Icon_wp_elf.TabStop = False
         '
         'Bar_wp_elf
         '
@@ -3711,7 +3712,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_elf.Name = "Bar_wp_elf"
         Me.Bar_wp_elf.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_elf.TabIndex = 0
-        Me.Bar_wp_elf.Visible = false
+        Me.Bar_wp_elf.Visible = False
         '
         'valu_wp_elf
         '
@@ -3738,12 +3739,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_cat.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Felin
         Me.Icon_wp_cat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_cat.Enabled = false
+        Me.Icon_wp_cat.Enabled = False
         Me.Icon_wp_cat.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_cat.Name = "Icon_wp_cat"
         Me.Icon_wp_cat.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_cat.TabIndex = 1
-        Me.Icon_wp_cat.TabStop = false
+        Me.Icon_wp_cat.TabStop = False
         '
         'Bar_wp_cat
         '
@@ -3755,7 +3756,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_cat.Name = "Bar_wp_cat"
         Me.Bar_wp_cat.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_cat.TabIndex = 0
-        Me.Bar_wp_cat.Visible = false
+        Me.Bar_wp_cat.Visible = False
         '
         'valu_wp_cat
         '
@@ -3782,12 +3783,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_scientist.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Scientifique
         Me.Icon_wp_scientist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_scientist.Enabled = false
+        Me.Icon_wp_scientist.Enabled = False
         Me.Icon_wp_scientist.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_scientist.Name = "Icon_wp_scientist"
         Me.Icon_wp_scientist.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_scientist.TabIndex = 1
-        Me.Icon_wp_scientist.TabStop = false
+        Me.Icon_wp_scientist.TabStop = False
         '
         'Bar_wp_scientist
         '
@@ -3799,7 +3800,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_scientist.Name = "Bar_wp_scientist"
         Me.Bar_wp_scientist.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_scientist.TabIndex = 0
-        Me.Bar_wp_scientist.Visible = false
+        Me.Bar_wp_scientist.Visible = False
         '
         'valu_wp_scientist
         '
@@ -3826,12 +3827,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_flower.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Fleur
         Me.Icon_wp_flower.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_flower.Enabled = false
+        Me.Icon_wp_flower.Enabled = False
         Me.Icon_wp_flower.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_flower.Name = "Icon_wp_flower"
         Me.Icon_wp_flower.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_flower.TabIndex = 1
-        Me.Icon_wp_flower.TabStop = false
+        Me.Icon_wp_flower.TabStop = False
         '
         'Bar_wp_flower
         '
@@ -3843,7 +3844,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_flower.Name = "Bar_wp_flower"
         Me.Bar_wp_flower.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_flower.TabIndex = 0
-        Me.Bar_wp_flower.Visible = false
+        Me.Bar_wp_flower.Visible = False
         '
         'valu_wp_flower
         '
@@ -3870,12 +3871,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_princess.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Princesse
         Me.Icon_wp_princess.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_princess.Enabled = false
+        Me.Icon_wp_princess.Enabled = False
         Me.Icon_wp_princess.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_princess.Name = "Icon_wp_princess"
         Me.Icon_wp_princess.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_princess.TabIndex = 1
-        Me.Icon_wp_princess.TabStop = false
+        Me.Icon_wp_princess.TabStop = False
         '
         'Bar_wp_princess
         '
@@ -3887,7 +3888,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_princess.Name = "Bar_wp_princess"
         Me.Bar_wp_princess.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_princess.TabIndex = 0
-        Me.Bar_wp_princess.Visible = false
+        Me.Bar_wp_princess.Visible = False
         '
         'valu_wp_princess
         '
@@ -3914,12 +3915,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_imp.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Diablotin
         Me.Icon_wp_imp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_imp.Enabled = false
+        Me.Icon_wp_imp.Enabled = False
         Me.Icon_wp_imp.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_imp.Name = "Icon_wp_imp"
         Me.Icon_wp_imp.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_imp.TabIndex = 1
-        Me.Icon_wp_imp.TabStop = false
+        Me.Icon_wp_imp.TabStop = False
         '
         'Bar_wp_imp
         '
@@ -3931,7 +3932,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_imp.Name = "Bar_wp_imp"
         Me.Bar_wp_imp.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_imp.TabIndex = 0
-        Me.Bar_wp_imp.Visible = false
+        Me.Bar_wp_imp.Visible = False
         '
         'valu_wp_imp
         '
@@ -3958,12 +3959,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_tank.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Tank
         Me.Icon_wp_tank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_tank.Enabled = false
+        Me.Icon_wp_tank.Enabled = False
         Me.Icon_wp_tank.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_tank.Name = "Icon_wp_tank"
         Me.Icon_wp_tank.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_tank.TabIndex = 1
-        Me.Icon_wp_tank.TabStop = false
+        Me.Icon_wp_tank.TabStop = False
         '
         'Bar_wp_tank
         '
@@ -3975,7 +3976,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_tank.Name = "Bar_wp_tank"
         Me.Bar_wp_tank.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_tank.TabIndex = 0
-        Me.Bar_wp_tank.Visible = false
+        Me.Bar_wp_tank.Visible = False
         '
         'valu_wp_tank
         '
@@ -4002,12 +4003,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_chef.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Cuisinier
         Me.Icon_wp_chef.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_chef.Enabled = false
+        Me.Icon_wp_chef.Enabled = False
         Me.Icon_wp_chef.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_chef.Name = "Icon_wp_chef"
         Me.Icon_wp_chef.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_chef.TabIndex = 1
-        Me.Icon_wp_chef.TabStop = false
+        Me.Icon_wp_chef.TabStop = False
         '
         'Bar_wp_chef
         '
@@ -4019,7 +4020,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_chef.Name = "Bar_wp_chef"
         Me.Bar_wp_chef.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_chef.TabIndex = 0
-        Me.Bar_wp_chef.Visible = false
+        Me.Bar_wp_chef.Visible = False
         '
         'valu_wp_chef
         '
@@ -4046,12 +4047,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_vampire.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Vampire
         Me.Icon_wp_vampire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_vampire.Enabled = false
+        Me.Icon_wp_vampire.Enabled = False
         Me.Icon_wp_vampire.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_vampire.Name = "Icon_wp_vampire"
         Me.Icon_wp_vampire.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_vampire.TabIndex = 1
-        Me.Icon_wp_vampire.TabStop = false
+        Me.Icon_wp_vampire.TabStop = False
         '
         'Bar_wp_vampire
         '
@@ -4063,7 +4064,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_vampire.Name = "Bar_wp_vampire"
         Me.Bar_wp_vampire.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_vampire.TabIndex = 0
-        Me.Bar_wp_vampire.Visible = false
+        Me.Bar_wp_vampire.Visible = False
         '
         'valu_wp_vampire
         '
@@ -4090,12 +4091,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_popstar.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Chanteur
         Me.Icon_wp_popstar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_popstar.Enabled = false
+        Me.Icon_wp_popstar.Enabled = False
         Me.Icon_wp_popstar.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_popstar.Name = "Icon_wp_popstar"
         Me.Icon_wp_popstar.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_popstar.TabIndex = 1
-        Me.Icon_wp_popstar.TabStop = false
+        Me.Icon_wp_popstar.TabStop = False
         '
         'Bar_wp_popstar
         '
@@ -4107,7 +4108,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_popstar.Name = "Bar_wp_popstar"
         Me.Bar_wp_popstar.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_popstar.TabIndex = 0
-        Me.Bar_wp_popstar.Visible = false
+        Me.Bar_wp_popstar.Visible = False
         '
         'valu_wp_popstar
         '
@@ -4134,12 +4135,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_thief.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Voleur
         Me.Icon_wp_thief.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_thief.Enabled = false
+        Me.Icon_wp_thief.Enabled = False
         Me.Icon_wp_thief.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_thief.Name = "Icon_wp_thief"
         Me.Icon_wp_thief.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_thief.TabIndex = 1
-        Me.Icon_wp_thief.TabStop = false
+        Me.Icon_wp_thief.TabStop = False
         '
         'Bar_wp_thief
         '
@@ -4151,7 +4152,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_thief.Name = "Bar_wp_thief"
         Me.Bar_wp_thief.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_thief.TabIndex = 0
-        Me.Bar_wp_thief.Visible = false
+        Me.Bar_wp_thief.Visible = False
         '
         'valu_wp_thief
         '
@@ -4178,12 +4179,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_cleric.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Pretre
         Me.Icon_wp_cleric.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_cleric.Enabled = false
+        Me.Icon_wp_cleric.Enabled = False
         Me.Icon_wp_cleric.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_cleric.Name = "Icon_wp_cleric"
         Me.Icon_wp_cleric.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_cleric.TabIndex = 1
-        Me.Icon_wp_cleric.TabStop = false
+        Me.Icon_wp_cleric.TabStop = False
         '
         'Bar_wp_cleric
         '
@@ -4195,7 +4196,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_cleric.Name = "Bar_wp_cleric"
         Me.Bar_wp_cleric.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_cleric.TabIndex = 0
-        Me.Bar_wp_cleric.Visible = false
+        Me.Bar_wp_cleric.Visible = False
         '
         'valu_wp_cleric
         '
@@ -4222,12 +4223,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_mage.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Mage
         Me.Icon_wp_mage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_mage.Enabled = false
+        Me.Icon_wp_mage.Enabled = False
         Me.Icon_wp_mage.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_mage.Name = "Icon_wp_mage"
         Me.Icon_wp_mage.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_mage.TabIndex = 1
-        Me.Icon_wp_mage.TabStop = false
+        Me.Icon_wp_mage.TabStop = False
         '
         'Bar_wp_mage
         '
@@ -4239,7 +4240,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_mage.Name = "Bar_wp_mage"
         Me.Bar_wp_mage.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_mage.TabIndex = 0
-        Me.Bar_wp_mage.Visible = false
+        Me.Bar_wp_mage.Visible = False
         '
         'valu_wp_mage
         '
@@ -4266,12 +4267,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_wp_warrior.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Guerrier
         Me.Icon_wp_warrior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_wp_warrior.Enabled = false
+        Me.Icon_wp_warrior.Enabled = False
         Me.Icon_wp_warrior.Location = New System.Drawing.Point(21, 21)
         Me.Icon_wp_warrior.Name = "Icon_wp_warrior"
         Me.Icon_wp_warrior.Size = New System.Drawing.Size(52, 52)
         Me.Icon_wp_warrior.TabIndex = 1
-        Me.Icon_wp_warrior.TabStop = false
+        Me.Icon_wp_warrior.TabStop = False
         '
         'Bar_wp_warrior
         '
@@ -4283,7 +4284,7 @@ Partial Class Miitopia_SE
         Me.Bar_wp_warrior.Name = "Bar_wp_warrior"
         Me.Bar_wp_warrior.Size = New System.Drawing.Size(94, 18)
         Me.Bar_wp_warrior.TabIndex = 0
-        Me.Bar_wp_warrior.Visible = false
+        Me.Bar_wp_warrior.Visible = False
         '
         'valu_wp_warrior
         '
@@ -4318,7 +4319,7 @@ Partial Class Miitopia_SE
         Me.Tab_ency_cost.Size = New System.Drawing.Size(510, 319)
         Me.Tab_ency_cost.TabIndex = 1
         Me.Tab_ency_cost.Text = "Costumes"
-        Me.Tab_ency_cost.UseVisualStyleBackColor = true
+        Me.Tab_ency_cost.UseVisualStyleBackColor = True
         '
         'Fea_ct_elf
         '
@@ -4335,12 +4336,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_elf.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.elfe
         Me.Icon_ct_elf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_elf.Enabled = false
+        Me.Icon_ct_elf.Enabled = False
         Me.Icon_ct_elf.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_elf.Name = "Icon_ct_elf"
         Me.Icon_ct_elf.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_elf.TabIndex = 1
-        Me.Icon_ct_elf.TabStop = false
+        Me.Icon_ct_elf.TabStop = False
         '
         'Bar_ct_elf
         '
@@ -4352,7 +4353,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_elf.Name = "Bar_ct_elf"
         Me.Bar_ct_elf.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_elf.TabIndex = 0
-        Me.Bar_ct_elf.Visible = false
+        Me.Bar_ct_elf.Visible = False
         '
         'valu_ct_elf
         '
@@ -4379,12 +4380,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_cat.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Felin
         Me.Icon_ct_cat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_cat.Enabled = false
+        Me.Icon_ct_cat.Enabled = False
         Me.Icon_ct_cat.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_cat.Name = "Icon_ct_cat"
         Me.Icon_ct_cat.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_cat.TabIndex = 1
-        Me.Icon_ct_cat.TabStop = false
+        Me.Icon_ct_cat.TabStop = False
         '
         'Bar_ct_cat
         '
@@ -4396,7 +4397,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_cat.Name = "Bar_ct_cat"
         Me.Bar_ct_cat.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_cat.TabIndex = 0
-        Me.Bar_ct_cat.Visible = false
+        Me.Bar_ct_cat.Visible = False
         '
         'valu_ct_cat
         '
@@ -4423,12 +4424,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_scientist.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Scientifique
         Me.Icon_ct_scientist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_scientist.Enabled = false
+        Me.Icon_ct_scientist.Enabled = False
         Me.Icon_ct_scientist.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_scientist.Name = "Icon_ct_scientist"
         Me.Icon_ct_scientist.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_scientist.TabIndex = 1
-        Me.Icon_ct_scientist.TabStop = false
+        Me.Icon_ct_scientist.TabStop = False
         '
         'Bar_ct_scientist
         '
@@ -4440,7 +4441,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_scientist.Name = "Bar_ct_scientist"
         Me.Bar_ct_scientist.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_scientist.TabIndex = 0
-        Me.Bar_ct_scientist.Visible = false
+        Me.Bar_ct_scientist.Visible = False
         '
         'valu_ct_scientist
         '
@@ -4467,12 +4468,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_flower.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Fleur
         Me.Icon_ct_flower.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_flower.Enabled = false
+        Me.Icon_ct_flower.Enabled = False
         Me.Icon_ct_flower.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_flower.Name = "Icon_ct_flower"
         Me.Icon_ct_flower.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_flower.TabIndex = 1
-        Me.Icon_ct_flower.TabStop = false
+        Me.Icon_ct_flower.TabStop = False
         '
         'Bar_ct_flower
         '
@@ -4484,7 +4485,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_flower.Name = "Bar_ct_flower"
         Me.Bar_ct_flower.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_flower.TabIndex = 0
-        Me.Bar_ct_flower.Visible = false
+        Me.Bar_ct_flower.Visible = False
         '
         'valu_ct_flower
         '
@@ -4511,12 +4512,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_princess.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Princesse
         Me.Icon_ct_princess.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_princess.Enabled = false
+        Me.Icon_ct_princess.Enabled = False
         Me.Icon_ct_princess.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_princess.Name = "Icon_ct_princess"
         Me.Icon_ct_princess.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_princess.TabIndex = 1
-        Me.Icon_ct_princess.TabStop = false
+        Me.Icon_ct_princess.TabStop = False
         '
         'Bar_ct_princess
         '
@@ -4528,7 +4529,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_princess.Name = "Bar_ct_princess"
         Me.Bar_ct_princess.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_princess.TabIndex = 0
-        Me.Bar_ct_princess.Visible = false
+        Me.Bar_ct_princess.Visible = False
         '
         'valu_ct_princess
         '
@@ -4555,12 +4556,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_imp.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Diablotin
         Me.Icon_ct_imp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_imp.Enabled = false
+        Me.Icon_ct_imp.Enabled = False
         Me.Icon_ct_imp.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_imp.Name = "Icon_ct_imp"
         Me.Icon_ct_imp.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_imp.TabIndex = 1
-        Me.Icon_ct_imp.TabStop = false
+        Me.Icon_ct_imp.TabStop = False
         '
         'Bar_ct_imp
         '
@@ -4572,7 +4573,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_imp.Name = "Bar_ct_imp"
         Me.Bar_ct_imp.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_imp.TabIndex = 0
-        Me.Bar_ct_imp.Visible = false
+        Me.Bar_ct_imp.Visible = False
         '
         'valu_ct_imp
         '
@@ -4599,12 +4600,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_tank.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Tank
         Me.Icon_ct_tank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_tank.Enabled = false
+        Me.Icon_ct_tank.Enabled = False
         Me.Icon_ct_tank.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_tank.Name = "Icon_ct_tank"
         Me.Icon_ct_tank.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_tank.TabIndex = 1
-        Me.Icon_ct_tank.TabStop = false
+        Me.Icon_ct_tank.TabStop = False
         '
         'Bar_ct_tank
         '
@@ -4616,7 +4617,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_tank.Name = "Bar_ct_tank"
         Me.Bar_ct_tank.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_tank.TabIndex = 0
-        Me.Bar_ct_tank.Visible = false
+        Me.Bar_ct_tank.Visible = False
         '
         'valu_ct_tank
         '
@@ -4643,12 +4644,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_chef.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Cuisinier
         Me.Icon_ct_chef.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_chef.Enabled = false
+        Me.Icon_ct_chef.Enabled = False
         Me.Icon_ct_chef.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_chef.Name = "Icon_ct_chef"
         Me.Icon_ct_chef.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_chef.TabIndex = 1
-        Me.Icon_ct_chef.TabStop = false
+        Me.Icon_ct_chef.TabStop = False
         '
         'Bar_ct_chef
         '
@@ -4660,7 +4661,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_chef.Name = "Bar_ct_chef"
         Me.Bar_ct_chef.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_chef.TabIndex = 0
-        Me.Bar_ct_chef.Visible = false
+        Me.Bar_ct_chef.Visible = False
         '
         'valu_ct_chef
         '
@@ -4687,12 +4688,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_vampire.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Vampire
         Me.Icon_ct_vampire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_vampire.Enabled = false
+        Me.Icon_ct_vampire.Enabled = False
         Me.Icon_ct_vampire.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_vampire.Name = "Icon_ct_vampire"
         Me.Icon_ct_vampire.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_vampire.TabIndex = 1
-        Me.Icon_ct_vampire.TabStop = false
+        Me.Icon_ct_vampire.TabStop = False
         '
         'Bar_ct_vampire
         '
@@ -4704,7 +4705,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_vampire.Name = "Bar_ct_vampire"
         Me.Bar_ct_vampire.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_vampire.TabIndex = 0
-        Me.Bar_ct_vampire.Visible = false
+        Me.Bar_ct_vampire.Visible = False
         '
         'valu_ct_vampire
         '
@@ -4731,12 +4732,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_popstar.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Chanteur
         Me.Icon_ct_popstar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_popstar.Enabled = false
+        Me.Icon_ct_popstar.Enabled = False
         Me.Icon_ct_popstar.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_popstar.Name = "Icon_ct_popstar"
         Me.Icon_ct_popstar.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_popstar.TabIndex = 1
-        Me.Icon_ct_popstar.TabStop = false
+        Me.Icon_ct_popstar.TabStop = False
         '
         'Bar_ct_popstar
         '
@@ -4748,7 +4749,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_popstar.Name = "Bar_ct_popstar"
         Me.Bar_ct_popstar.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_popstar.TabIndex = 0
-        Me.Bar_ct_popstar.Visible = false
+        Me.Bar_ct_popstar.Visible = False
         '
         'valu_ct_popstar
         '
@@ -4775,12 +4776,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_thief.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Voleur
         Me.Icon_ct_thief.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_thief.Enabled = false
+        Me.Icon_ct_thief.Enabled = False
         Me.Icon_ct_thief.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_thief.Name = "Icon_ct_thief"
         Me.Icon_ct_thief.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_thief.TabIndex = 1
-        Me.Icon_ct_thief.TabStop = false
+        Me.Icon_ct_thief.TabStop = False
         '
         'Bar_ct_thief
         '
@@ -4792,7 +4793,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_thief.Name = "Bar_ct_thief"
         Me.Bar_ct_thief.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_thief.TabIndex = 0
-        Me.Bar_ct_thief.Visible = false
+        Me.Bar_ct_thief.Visible = False
         '
         'valu_ct_thief
         '
@@ -4819,12 +4820,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_cleric.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Pretre
         Me.Icon_ct_cleric.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_cleric.Enabled = false
+        Me.Icon_ct_cleric.Enabled = False
         Me.Icon_ct_cleric.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_cleric.Name = "Icon_ct_cleric"
         Me.Icon_ct_cleric.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_cleric.TabIndex = 1
-        Me.Icon_ct_cleric.TabStop = false
+        Me.Icon_ct_cleric.TabStop = False
         '
         'Bar_ct_cleric
         '
@@ -4836,7 +4837,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_cleric.Name = "Bar_ct_cleric"
         Me.Bar_ct_cleric.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_cleric.TabIndex = 0
-        Me.Bar_ct_cleric.Visible = false
+        Me.Bar_ct_cleric.Visible = False
         '
         'valu_ct_cleric
         '
@@ -4863,12 +4864,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_mage.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Mage
         Me.Icon_ct_mage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_mage.Enabled = false
+        Me.Icon_ct_mage.Enabled = False
         Me.Icon_ct_mage.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_mage.Name = "Icon_ct_mage"
         Me.Icon_ct_mage.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_mage.TabIndex = 1
-        Me.Icon_ct_mage.TabStop = false
+        Me.Icon_ct_mage.TabStop = False
         '
         'Bar_ct_mage
         '
@@ -4880,7 +4881,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_mage.Name = "Bar_ct_mage"
         Me.Bar_ct_mage.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_mage.TabIndex = 0
-        Me.Bar_ct_mage.Visible = false
+        Me.Bar_ct_mage.Visible = False
         '
         'valu_ct_mage
         '
@@ -4907,12 +4908,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_ct_warrior.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Guerrier
         Me.Icon_ct_warrior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_ct_warrior.Enabled = false
+        Me.Icon_ct_warrior.Enabled = False
         Me.Icon_ct_warrior.Location = New System.Drawing.Point(21, 21)
         Me.Icon_ct_warrior.Name = "Icon_ct_warrior"
         Me.Icon_ct_warrior.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ct_warrior.TabIndex = 1
-        Me.Icon_ct_warrior.TabStop = false
+        Me.Icon_ct_warrior.TabStop = False
         '
         'Bar_ct_warrior
         '
@@ -4924,7 +4925,7 @@ Partial Class Miitopia_SE
         Me.Bar_ct_warrior.Name = "Bar_ct_warrior"
         Me.Bar_ct_warrior.Size = New System.Drawing.Size(94, 18)
         Me.Bar_ct_warrior.TabIndex = 0
-        Me.Bar_ct_warrior.Visible = false
+        Me.Bar_ct_warrior.Visible = False
         '
         'valu_ct_warrior
         '
@@ -4947,7 +4948,7 @@ Partial Class Miitopia_SE
         Me.Tab_ency_extras.Size = New System.Drawing.Size(510, 319)
         Me.Tab_ency_extras.TabIndex = 2
         Me.Tab_ency_extras.Text = "Extras"
-        Me.Tab_ency_extras.UseVisualStyleBackColor = true
+        Me.Tab_ency_extras.UseVisualStyleBackColor = True
         '
         'Fea_ency_monsters
         '
@@ -4970,31 +4971,31 @@ Partial Class Miitopia_SE
         Me.Check_monsters_reset.Size = New System.Drawing.Size(95, 17)
         Me.Check_monsters_reset.TabIndex = 3
         Me.Check_monsters_reset.Text = "Reset"
-        Me.Check_monsters_reset.UseVisualStyleBackColor = true
+        Me.Check_monsters_reset.UseVisualStyleBackColor = True
         '
         'Check_monsters_unlock
         '
-        Me.Check_monsters_unlock.Checked = true
+        Me.Check_monsters_unlock.Checked = True
         Me.Check_monsters_unlock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Check_monsters_unlock.Location = New System.Drawing.Point(3, 61)
         Me.Check_monsters_unlock.Name = "Check_monsters_unlock"
         Me.Check_monsters_unlock.Size = New System.Drawing.Size(95, 17)
         Me.Check_monsters_unlock.TabIndex = 2
-        Me.Check_monsters_unlock.TabStop = true
+        Me.Check_monsters_unlock.TabStop = True
         Me.Check_monsters_unlock.Text = "Unlock"
-        Me.Check_monsters_unlock.UseVisualStyleBackColor = true
+        Me.Check_monsters_unlock.UseVisualStyleBackColor = True
         '
         'Icon_ency_monsters
         '
         Me.Icon_ency_monsters.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Icon_ency_monsters.Enabled = false
+        Me.Icon_ency_monsters.Enabled = False
         Me.Icon_ency_monsters.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_ency_monsters
         Me.Icon_ency_monsters.Location = New System.Drawing.Point(24, 3)
         Me.Icon_ency_monsters.Name = "Icon_ency_monsters"
         Me.Icon_ency_monsters.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ency_monsters.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.Icon_ency_monsters.TabIndex = 1
-        Me.Icon_ency_monsters.TabStop = false
+        Me.Icon_ency_monsters.TabStop = False
         '
         'Fea_ency_foods
         '
@@ -5017,31 +5018,31 @@ Partial Class Miitopia_SE
         Me.Check_foods_reset.Size = New System.Drawing.Size(95, 17)
         Me.Check_foods_reset.TabIndex = 3
         Me.Check_foods_reset.Text = "Reset"
-        Me.Check_foods_reset.UseVisualStyleBackColor = true
+        Me.Check_foods_reset.UseVisualStyleBackColor = True
         '
         'Check_foods_unlock
         '
-        Me.Check_foods_unlock.Checked = true
+        Me.Check_foods_unlock.Checked = True
         Me.Check_foods_unlock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Check_foods_unlock.Location = New System.Drawing.Point(3, 61)
         Me.Check_foods_unlock.Name = "Check_foods_unlock"
         Me.Check_foods_unlock.Size = New System.Drawing.Size(95, 17)
         Me.Check_foods_unlock.TabIndex = 2
-        Me.Check_foods_unlock.TabStop = true
+        Me.Check_foods_unlock.TabStop = True
         Me.Check_foods_unlock.Text = "Unlock"
-        Me.Check_foods_unlock.UseVisualStyleBackColor = true
+        Me.Check_foods_unlock.UseVisualStyleBackColor = True
         '
         'Icon_ency_foods
         '
         Me.Icon_ency_foods.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Icon_ency_foods.Enabled = false
+        Me.Icon_ency_foods.Enabled = False
         Me.Icon_ency_foods.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_ency_foods
         Me.Icon_ency_foods.Location = New System.Drawing.Point(24, 3)
         Me.Icon_ency_foods.Name = "Icon_ency_foods"
         Me.Icon_ency_foods.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ency_foods.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.Icon_ency_foods.TabIndex = 1
-        Me.Icon_ency_foods.TabStop = false
+        Me.Icon_ency_foods.TabStop = False
         '
         'Fea_ency_music
         '
@@ -5064,31 +5065,31 @@ Partial Class Miitopia_SE
         Me.Check_music_reset.Size = New System.Drawing.Size(95, 17)
         Me.Check_music_reset.TabIndex = 3
         Me.Check_music_reset.Text = "Reset"
-        Me.Check_music_reset.UseVisualStyleBackColor = true
+        Me.Check_music_reset.UseVisualStyleBackColor = True
         '
         'Check_music_unlock
         '
-        Me.Check_music_unlock.Checked = true
+        Me.Check_music_unlock.Checked = True
         Me.Check_music_unlock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Check_music_unlock.Location = New System.Drawing.Point(3, 61)
         Me.Check_music_unlock.Name = "Check_music_unlock"
         Me.Check_music_unlock.Size = New System.Drawing.Size(95, 17)
         Me.Check_music_unlock.TabIndex = 2
-        Me.Check_music_unlock.TabStop = true
+        Me.Check_music_unlock.TabStop = True
         Me.Check_music_unlock.Text = "Unlock"
-        Me.Check_music_unlock.UseVisualStyleBackColor = true
+        Me.Check_music_unlock.UseVisualStyleBackColor = True
         '
         'Icon_ency_music
         '
         Me.Icon_ency_music.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Icon_ency_music.Enabled = false
+        Me.Icon_ency_music.Enabled = False
         Me.Icon_ency_music.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_ency_musique
         Me.Icon_ency_music.Location = New System.Drawing.Point(24, 3)
         Me.Icon_ency_music.Name = "Icon_ency_music"
         Me.Icon_ency_music.Size = New System.Drawing.Size(52, 52)
         Me.Icon_ency_music.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.Icon_ency_music.TabIndex = 1
-        Me.Icon_ency_music.TabStop = false
+        Me.Icon_ency_music.TabStop = False
         '
         'Tab_common_extras
         '
@@ -5104,7 +5105,7 @@ Partial Class Miitopia_SE
         Me.Tab_common_extras.Size = New System.Drawing.Size(524, 351)
         Me.Tab_common_extras.TabIndex = 2
         Me.Tab_common_extras.Text = "Extras"
-        Me.Tab_common_extras.UseVisualStyleBackColor = true
+        Me.Tab_common_extras.UseVisualStyleBackColor = True
         '
         'Fea_dailyquest
         '
@@ -5119,14 +5120,14 @@ Partial Class Miitopia_SE
         'Icon_dailyquest
         '
         Me.Icon_dailyquest.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_dailyquest.Enabled = false
+        Me.Icon_dailyquest.Enabled = False
         Me.Icon_dailyquest.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_dailyquestions
         Me.Icon_dailyquest.Location = New System.Drawing.Point(21, 12)
         Me.Icon_dailyquest.Name = "Icon_dailyquest"
         Me.Icon_dailyquest.Size = New System.Drawing.Size(52, 52)
         Me.Icon_dailyquest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_dailyquest.TabIndex = 1
-        Me.Icon_dailyquest.TabStop = false
+        Me.Icon_dailyquest.TabStop = False
         '
         'Fea_medal
         '
@@ -5149,31 +5150,31 @@ Partial Class Miitopia_SE
         Me.Check_medal_reset.Size = New System.Drawing.Size(95, 17)
         Me.Check_medal_reset.TabIndex = 3
         Me.Check_medal_reset.Text = "Reset"
-        Me.Check_medal_reset.UseVisualStyleBackColor = true
+        Me.Check_medal_reset.UseVisualStyleBackColor = True
         '
         'Check_medal_unlock
         '
-        Me.Check_medal_unlock.Checked = true
+        Me.Check_medal_unlock.Checked = True
         Me.Check_medal_unlock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Check_medal_unlock.Location = New System.Drawing.Point(3, 61)
         Me.Check_medal_unlock.Name = "Check_medal_unlock"
         Me.Check_medal_unlock.Size = New System.Drawing.Size(95, 17)
         Me.Check_medal_unlock.TabIndex = 2
-        Me.Check_medal_unlock.TabStop = true
+        Me.Check_medal_unlock.TabStop = True
         Me.Check_medal_unlock.Text = "Unlock"
-        Me.Check_medal_unlock.UseVisualStyleBackColor = true
+        Me.Check_medal_unlock.UseVisualStyleBackColor = True
         '
         'Icon_medal
         '
         Me.Icon_medal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Icon_medal.Enabled = false
+        Me.Icon_medal.Enabled = False
         Me.Icon_medal.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_medals
         Me.Icon_medal.Location = New System.Drawing.Point(24, 3)
         Me.Icon_medal.Name = "Icon_medal"
         Me.Icon_medal.Size = New System.Drawing.Size(52, 52)
         Me.Icon_medal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.Icon_medal.TabIndex = 1
-        Me.Icon_medal.TabStop = false
+        Me.Icon_medal.TabStop = False
         '
         'Fea_questsucc
         '
@@ -5189,14 +5190,14 @@ Partial Class Miitopia_SE
         'Icon_questsucc
         '
         Me.Icon_questsucc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_questsucc.Enabled = false
+        Me.Icon_questsucc.Enabled = False
         Me.Icon_questsucc.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.questsicon
         Me.Icon_questsucc.Location = New System.Drawing.Point(21, 21)
         Me.Icon_questsucc.Name = "Icon_questsucc"
         Me.Icon_questsucc.Size = New System.Drawing.Size(52, 52)
         Me.Icon_questsucc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.Icon_questsucc.TabIndex = 1
-        Me.Icon_questsucc.TabStop = false
+        Me.Icon_questsucc.TabStop = False
         '
         'Bar_questsucc
         '
@@ -5233,14 +5234,14 @@ Partial Class Miitopia_SE
         'Icon_chestsopen
         '
         Me.Icon_chestsopen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_chestsopen.Enabled = false
+        Me.Icon_chestsopen.Enabled = False
         Me.Icon_chestsopen.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.chestsopen
         Me.Icon_chestsopen.Location = New System.Drawing.Point(21, 21)
         Me.Icon_chestsopen.Name = "Icon_chestsopen"
         Me.Icon_chestsopen.Size = New System.Drawing.Size(52, 52)
         Me.Icon_chestsopen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.Icon_chestsopen.TabIndex = 1
-        Me.Icon_chestsopen.TabStop = false
+        Me.Icon_chestsopen.TabStop = False
         '
         'Bar_chestsopen
         '
@@ -5277,14 +5278,14 @@ Partial Class Miitopia_SE
         'Icon_candyeat
         '
         Me.Icon_candyeat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_candyeat.Enabled = false
+        Me.Icon_candyeat.Enabled = False
         Me.Icon_candyeat.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.candyeat
         Me.Icon_candyeat.Location = New System.Drawing.Point(21, 21)
         Me.Icon_candyeat.Name = "Icon_candyeat"
         Me.Icon_candyeat.Size = New System.Drawing.Size(52, 52)
         Me.Icon_candyeat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_candyeat.TabIndex = 1
-        Me.Icon_candyeat.TabStop = false
+        Me.Icon_candyeat.TabStop = False
         '
         'Bar_candyeat
         '
@@ -5321,14 +5322,14 @@ Partial Class Miitopia_SE
         'Icon_bananaeat
         '
         Me.Icon_bananaeat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_bananaeat.Enabled = false
+        Me.Icon_bananaeat.Enabled = False
         Me.Icon_bananaeat.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.bananaeat
         Me.Icon_bananaeat.Location = New System.Drawing.Point(21, 21)
         Me.Icon_bananaeat.Name = "Icon_bananaeat"
         Me.Icon_bananaeat.Size = New System.Drawing.Size(52, 52)
         Me.Icon_bananaeat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_bananaeat.TabIndex = 1
-        Me.Icon_bananaeat.TabStop = false
+        Me.Icon_bananaeat.TabStop = False
         '
         'Bar_bananaeat
         '
@@ -5363,7 +5364,7 @@ Partial Class Miitopia_SE
         Me.Tab_common_roulette.Size = New System.Drawing.Size(524, 351)
         Me.Tab_common_roulette.TabIndex = 3
         Me.Tab_common_roulette.Text = "Roulette"
-        Me.Tab_common_roulette.UseVisualStyleBackColor = true
+        Me.Tab_common_roulette.UseVisualStyleBackColor = True
         '
         'Panel_fea_roulette_oy
         '
@@ -5491,7 +5492,7 @@ Partial Class Miitopia_SE
         '
         'Text_roulette_yellow
         '
-        Me.Text_roulette_yellow.AutoSize = true
+        Me.Text_roulette_yellow.AutoSize = True
         Me.Text_roulette_yellow.Location = New System.Drawing.Point(10, 83)
         Me.Text_roulette_yellow.Name = "Text_roulette_yellow"
         Me.Text_roulette_yellow.Size = New System.Drawing.Size(69, 13)
@@ -5595,7 +5596,7 @@ Partial Class Miitopia_SE
         '
         'Text_roulette_orange
         '
-        Me.Text_roulette_orange.AutoSize = true
+        Me.Text_roulette_orange.AutoSize = True
         Me.Text_roulette_orange.Location = New System.Drawing.Point(10, 9)
         Me.Text_roulette_orange.Name = "Text_roulette_orange"
         Me.Text_roulette_orange.Size = New System.Drawing.Size(73, 13)
@@ -5728,7 +5729,7 @@ Partial Class Miitopia_SE
         '
         'Text_roulette_gray
         '
-        Me.Text_roulette_gray.AutoSize = true
+        Me.Text_roulette_gray.AutoSize = True
         Me.Text_roulette_gray.Location = New System.Drawing.Point(10, 78)
         Me.Text_roulette_gray.Name = "Text_roulette_gray"
         Me.Text_roulette_gray.Size = New System.Drawing.Size(60, 13)
@@ -5832,7 +5833,7 @@ Partial Class Miitopia_SE
         '
         'Text_roulette_blue
         '
-        Me.Text_roulette_blue.AutoSize = true
+        Me.Text_roulette_blue.AutoSize = True
         Me.Text_roulette_blue.Location = New System.Drawing.Point(10, 4)
         Me.Text_roulette_blue.Name = "Text_roulette_blue"
         Me.Text_roulette_blue.Size = New System.Drawing.Size(59, 13)
@@ -5844,7 +5845,7 @@ Partial Class Miitopia_SE
         Me.Select_fea_roulette.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Select_fea_roulette.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_fea_roulette.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_fea_roulette.FormattingEnabled = true
+        Me.Select_fea_roulette.FormattingEnabled = True
         Me.Select_fea_roulette.Items.AddRange(New Object() {"Do nothing", "EXP x A giant helping", "EXP x A generous portion", "EXP x A morsel", "Jolly Jaunt Tickets x Luxury", "Jolly Jaunt Tickets x Fancy", "Jolly Jaunt Tickets x Budget"})
         Me.Select_fea_roulette.Location = New System.Drawing.Point(235, 164)
         Me.Select_fea_roulette.Name = "Select_fea_roulette"
@@ -5875,7 +5876,7 @@ Partial Class Miitopia_SE
         'text_open
         '
         Me.text_open.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.text_open.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.text_open.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.text_open.ForeColor = System.Drawing.SystemColors.Info
         Me.text_open.Location = New System.Drawing.Point(0, 0)
         Me.text_open.Name = "text_open"
@@ -5898,7 +5899,7 @@ Partial Class Miitopia_SE
         'text_save
         '
         Me.text_save.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.text_save.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.text_save.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.text_save.ForeColor = System.Drawing.SystemColors.Info
         Me.text_save.Location = New System.Drawing.Point(0, 0)
         Me.text_save.Name = "text_save"
@@ -5921,7 +5922,7 @@ Partial Class Miitopia_SE
         Me.Panel_quest.Name = "Panel_quest"
         Me.Panel_quest.Size = New System.Drawing.Size(550, 443)
         Me.Panel_quest.TabIndex = 14
-        Me.Panel_quest.Visible = false
+        Me.Panel_quest.Visible = False
         '
         'TabControl3
         '
@@ -5944,7 +5945,7 @@ Partial Class Miitopia_SE
         Me.Tab_quest_main.Size = New System.Drawing.Size(524, 351)
         Me.Tab_quest_main.TabIndex = 0
         Me.Tab_quest_main.Text = "Main"
-        Me.Tab_quest_main.UseVisualStyleBackColor = true
+        Me.Tab_quest_main.UseVisualStyleBackColor = True
         '
         'Fea_catalog
         '
@@ -5962,12 +5963,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_catalog.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_catalog
         Me.Icon_catalog.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Icon_catalog.Enabled = false
+        Me.Icon_catalog.Enabled = False
         Me.Icon_catalog.Location = New System.Drawing.Point(21, 12)
         Me.Icon_catalog.Name = "Icon_catalog"
         Me.Icon_catalog.Size = New System.Drawing.Size(52, 52)
         Me.Icon_catalog.TabIndex = 1
-        Me.Icon_catalog.TabStop = false
+        Me.Icon_catalog.TabStop = False
         '
         'Bar_catalog
         '
@@ -5979,7 +5980,7 @@ Partial Class Miitopia_SE
         Me.Bar_catalog.Name = "Bar_catalog"
         Me.Bar_catalog.Size = New System.Drawing.Size(94, 18)
         Me.Bar_catalog.TabIndex = 0
-        Me.Bar_catalog.Visible = false
+        Me.Bar_catalog.Visible = False
         '
         'valu_catalog
         '
@@ -6007,12 +6008,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_dragonclass.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.dragonclass
         Me.Icon_dragonclass.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_dragonclass.Enabled = false
+        Me.Icon_dragonclass.Enabled = False
         Me.Icon_dragonclass.Location = New System.Drawing.Point(21, 12)
         Me.Icon_dragonclass.Name = "Icon_dragonclass"
         Me.Icon_dragonclass.Size = New System.Drawing.Size(52, 52)
         Me.Icon_dragonclass.TabIndex = 1
-        Me.Icon_dragonclass.TabStop = false
+        Me.Icon_dragonclass.TabStop = False
         '
         'Bar_dragonclass
         '
@@ -6024,7 +6025,7 @@ Partial Class Miitopia_SE
         Me.Bar_dragonclass.Name = "Bar_dragonclass"
         Me.Bar_dragonclass.Size = New System.Drawing.Size(94, 18)
         Me.Bar_dragonclass.TabIndex = 0
-        Me.Bar_dragonclass.Visible = false
+        Me.Bar_dragonclass.Visible = False
         '
         'valu_dragonclass
         '
@@ -6052,12 +6053,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_villa.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.villa
         Me.Icon_villa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_villa.Enabled = false
+        Me.Icon_villa.Enabled = False
         Me.Icon_villa.Location = New System.Drawing.Point(21, 12)
         Me.Icon_villa.Name = "Icon_villa"
         Me.Icon_villa.Size = New System.Drawing.Size(52, 52)
         Me.Icon_villa.TabIndex = 1
-        Me.Icon_villa.TabStop = false
+        Me.Icon_villa.TabStop = False
         '
         'Bar_villa
         '
@@ -6069,7 +6070,7 @@ Partial Class Miitopia_SE
         Me.Bar_villa.Name = "Bar_villa"
         Me.Bar_villa.Size = New System.Drawing.Size(94, 18)
         Me.Bar_villa.TabIndex = 0
-        Me.Bar_villa.Visible = false
+        Me.Bar_villa.Visible = False
         '
         'valu_villa
         '
@@ -6095,7 +6096,7 @@ Partial Class Miitopia_SE
         'Text_open_quest
         '
         Me.Text_open_quest.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Text_open_quest.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Text_open_quest.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Text_open_quest.ForeColor = System.Drawing.SystemColors.Info
         Me.Text_open_quest.Location = New System.Drawing.Point(0, 0)
         Me.Text_open_quest.Name = "Text_open_quest"
@@ -6118,7 +6119,7 @@ Partial Class Miitopia_SE
         'Text_save_quest
         '
         Me.Text_save_quest.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Text_save_quest.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Text_save_quest.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Text_save_quest.ForeColor = System.Drawing.SystemColors.Info
         Me.Text_save_quest.Location = New System.Drawing.Point(0, 0)
         Me.Text_save_quest.Name = "Text_save_quest"
@@ -6136,7 +6137,7 @@ Partial Class Miitopia_SE
         Me.File_path_quest.Name = "File_path_quest"
         Me.File_path_quest.Size = New System.Drawing.Size(370, 25)
         Me.File_path_quest.TabIndex = 15
-        Me.File_path_quest.Visible = false
+        Me.File_path_quest.Visible = False
         '
         'TextBox_fpath_quest
         '
@@ -6144,7 +6145,7 @@ Partial Class Miitopia_SE
         Me.TextBox_fpath_quest.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox_fpath_quest.Location = New System.Drawing.Point(3, 6)
         Me.TextBox_fpath_quest.Name = "TextBox_fpath_quest"
-        Me.TextBox_fpath_quest.ReadOnly = true
+        Me.TextBox_fpath_quest.ReadOnly = True
         Me.TextBox_fpath_quest.Size = New System.Drawing.Size(364, 13)
         Me.TextBox_fpath_quest.TabIndex = 0
         '
@@ -6160,14 +6161,14 @@ Partial Class Miitopia_SE
         Me.Panel_hero.Name = "Panel_hero"
         Me.Panel_hero.Size = New System.Drawing.Size(550, 443)
         Me.Panel_hero.TabIndex = 16
-        Me.Panel_hero.Visible = false
+        Me.Panel_hero.Visible = False
         '
         'Select_Mii
         '
         Me.Select_Mii.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Select_Mii.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_Mii.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_Mii.FormattingEnabled = true
+        Me.Select_Mii.FormattingEnabled = True
         Me.Select_Mii.Items.AddRange(New Object() {"Mii 1", "Mii 2", "Mii 3", "Mii 4", "Mii 5", "Mii 6", "Mii 7", "Mii 8", "Mii 9", "Mii 10"})
         Me.Select_Mii.Location = New System.Drawing.Point(62, 24)
         Me.Select_Mii.Name = "Select_Mii"
@@ -6177,13 +6178,13 @@ Partial Class Miitopia_SE
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"),System.Drawing.Image)
+        Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox1.Location = New System.Drawing.Point(27, 10)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox1.TabIndex = 34
-        Me.PictureBox1.TabStop = false
+        Me.PictureBox1.TabStop = False
         '
         'TabControl4
         '
@@ -6225,7 +6226,7 @@ Partial Class Miitopia_SE
         Me.Tab_hero_Miiedit.Size = New System.Drawing.Size(524, 351)
         Me.Tab_hero_Miiedit.TabIndex = 0
         Me.Tab_hero_Miiedit.Text = "Mii edition"
-        Me.Tab_hero_Miiedit.UseVisualStyleBackColor = true
+        Me.Tab_hero_Miiedit.UseVisualStyleBackColor = True
         '
         'Panel_hero_equipments
         '
@@ -6237,7 +6238,7 @@ Partial Class Miitopia_SE
         Me.Panel_hero_equipments.Name = "Panel_hero_equipments"
         Me.Panel_hero_equipments.Size = New System.Drawing.Size(423, 254)
         Me.Panel_hero_equipments.TabIndex = 62
-        Me.Panel_hero_equipments.Visible = false
+        Me.Panel_hero_equipments.Visible = False
         '
         'Group_hero_equipapp
         '
@@ -6248,7 +6249,7 @@ Partial Class Miitopia_SE
         Me.Group_hero_equipapp.Name = "Group_hero_equipapp"
         Me.Group_hero_equipapp.Size = New System.Drawing.Size(361, 95)
         Me.Group_hero_equipapp.TabIndex = 63
-        Me.Group_hero_equipapp.TabStop = false
+        Me.Group_hero_equipapp.TabStop = False
         Me.Group_hero_equipapp.Text = "Appearance equipments"
         '
         'Panel15
@@ -6267,14 +6268,14 @@ Partial Class Miitopia_SE
         'ComboBox1
         '
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox1.Enabled = false
+        Me.ComboBox1.Enabled = False
         Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox1.FormattingEnabled = true
+        Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(86, 21)
         Me.ComboBox1.TabIndex = 2
-        Me.ComboBox1.Visible = false
+        Me.ComboBox1.Visible = False
         '
         'Panel17
         '
@@ -6300,14 +6301,14 @@ Partial Class Miitopia_SE
         'PictureBox2
         '
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox2.Enabled = false
+        Me.PictureBox2.Enabled = False
         Me.PictureBox2.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_weapons
         Me.PictureBox2.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(35, 25)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox2.TabIndex = 1
-        Me.PictureBox2.TabStop = false
+        Me.PictureBox2.TabStop = False
         '
         'Panel18
         '
@@ -6325,14 +6326,14 @@ Partial Class Miitopia_SE
         'ComboBox2
         '
         Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox2.Enabled = false
+        Me.ComboBox2.Enabled = False
         Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox2.FormattingEnabled = true
+        Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(86, 21)
         Me.ComboBox2.TabIndex = 2
-        Me.ComboBox2.Visible = false
+        Me.ComboBox2.Visible = False
         '
         'Panel19
         '
@@ -6358,14 +6359,14 @@ Partial Class Miitopia_SE
         'PictureBox3
         '
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox3.Enabled = false
+        Me.PictureBox3.Enabled = False
         Me.PictureBox3.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_hats
         Me.PictureBox3.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(32, 22)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox3.TabIndex = 1
-        Me.PictureBox3.TabStop = false
+        Me.PictureBox3.TabStop = False
         '
         'Panel20
         '
@@ -6383,14 +6384,14 @@ Partial Class Miitopia_SE
         'ComboBox3
         '
         Me.ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox3.Enabled = false
+        Me.ComboBox3.Enabled = False
         Me.ComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox3.FormattingEnabled = true
+        Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(86, 21)
         Me.ComboBox3.TabIndex = 2
-        Me.ComboBox3.Visible = false
+        Me.ComboBox3.Visible = False
         '
         'Panel21
         '
@@ -6416,14 +6417,14 @@ Partial Class Miitopia_SE
         'PictureBox8
         '
         Me.PictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox8.Enabled = false
+        Me.PictureBox8.Enabled = False
         Me.PictureBox8.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_clothes
         Me.PictureBox8.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(35, 25)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox8.TabIndex = 1
-        Me.PictureBox8.TabStop = false
+        Me.PictureBox8.TabStop = False
         '
         'Group_hero_equip
         '
@@ -6434,7 +6435,7 @@ Partial Class Miitopia_SE
         Me.Group_hero_equip.Name = "Group_hero_equip"
         Me.Group_hero_equip.Size = New System.Drawing.Size(361, 95)
         Me.Group_hero_equip.TabIndex = 62
-        Me.Group_hero_equip.TabStop = false
+        Me.Group_hero_equip.TabStop = False
         Me.Group_hero_equip.Text = "Equiped equipments"
         '
         'Fea_equip_weapon
@@ -6453,14 +6454,14 @@ Partial Class Miitopia_SE
         'Select_equip_weapon
         '
         Me.Select_equip_weapon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.Select_equip_weapon.Enabled = false
+        Me.Select_equip_weapon.Enabled = False
         Me.Select_equip_weapon.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_equip_weapon.FormattingEnabled = true
+        Me.Select_equip_weapon.FormattingEnabled = True
         Me.Select_equip_weapon.Location = New System.Drawing.Point(4, 41)
         Me.Select_equip_weapon.Name = "Select_equip_weapon"
         Me.Select_equip_weapon.Size = New System.Drawing.Size(86, 21)
         Me.Select_equip_weapon.TabIndex = 2
-        Me.Select_equip_weapon.Visible = false
+        Me.Select_equip_weapon.Visible = False
         '
         'Bar_equip_weapon
         '
@@ -6486,14 +6487,14 @@ Partial Class Miitopia_SE
         'Icon_equip_weapon
         '
         Me.Icon_equip_weapon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_equip_weapon.Enabled = false
+        Me.Icon_equip_weapon.Enabled = False
         Me.Icon_equip_weapon.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_weapons
         Me.Icon_equip_weapon.Location = New System.Drawing.Point(0, 18)
         Me.Icon_equip_weapon.Name = "Icon_equip_weapon"
         Me.Icon_equip_weapon.Size = New System.Drawing.Size(35, 25)
         Me.Icon_equip_weapon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.Icon_equip_weapon.TabIndex = 1
-        Me.Icon_equip_weapon.TabStop = false
+        Me.Icon_equip_weapon.TabStop = False
         '
         'Fea_equip_hat
         '
@@ -6511,14 +6512,14 @@ Partial Class Miitopia_SE
         'Select_equip_hat
         '
         Me.Select_equip_hat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.Select_equip_hat.Enabled = false
+        Me.Select_equip_hat.Enabled = False
         Me.Select_equip_hat.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_equip_hat.FormattingEnabled = true
+        Me.Select_equip_hat.FormattingEnabled = True
         Me.Select_equip_hat.Location = New System.Drawing.Point(4, 41)
         Me.Select_equip_hat.Name = "Select_equip_hat"
         Me.Select_equip_hat.Size = New System.Drawing.Size(86, 21)
         Me.Select_equip_hat.TabIndex = 2
-        Me.Select_equip_hat.Visible = false
+        Me.Select_equip_hat.Visible = False
         '
         'Bar_equip_hat
         '
@@ -6544,14 +6545,14 @@ Partial Class Miitopia_SE
         'Icon_equip_hat
         '
         Me.Icon_equip_hat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_equip_hat.Enabled = false
+        Me.Icon_equip_hat.Enabled = False
         Me.Icon_equip_hat.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_hats
         Me.Icon_equip_hat.Location = New System.Drawing.Point(0, 18)
         Me.Icon_equip_hat.Name = "Icon_equip_hat"
         Me.Icon_equip_hat.Size = New System.Drawing.Size(32, 22)
         Me.Icon_equip_hat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.Icon_equip_hat.TabIndex = 1
-        Me.Icon_equip_hat.TabStop = false
+        Me.Icon_equip_hat.TabStop = False
         '
         'Fea_equip_clothe
         '
@@ -6569,14 +6570,14 @@ Partial Class Miitopia_SE
         'Select_equip_clothe
         '
         Me.Select_equip_clothe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.Select_equip_clothe.Enabled = false
+        Me.Select_equip_clothe.Enabled = False
         Me.Select_equip_clothe.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_equip_clothe.FormattingEnabled = true
+        Me.Select_equip_clothe.FormattingEnabled = True
         Me.Select_equip_clothe.Location = New System.Drawing.Point(4, 41)
         Me.Select_equip_clothe.Name = "Select_equip_clothe"
         Me.Select_equip_clothe.Size = New System.Drawing.Size(86, 21)
         Me.Select_equip_clothe.TabIndex = 2
-        Me.Select_equip_clothe.Visible = false
+        Me.Select_equip_clothe.Visible = False
         '
         'Bar_equip_clothe
         '
@@ -6602,14 +6603,14 @@ Partial Class Miitopia_SE
         'Icon_equip_clothe
         '
         Me.Icon_equip_clothe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_equip_clothe.Enabled = false
+        Me.Icon_equip_clothe.Enabled = False
         Me.Icon_equip_clothe.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_clothes
         Me.Icon_equip_clothe.Location = New System.Drawing.Point(0, 18)
         Me.Icon_equip_clothe.Name = "Icon_equip_clothe"
         Me.Icon_equip_clothe.Size = New System.Drawing.Size(35, 25)
         Me.Icon_equip_clothe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.Icon_equip_clothe.TabIndex = 1
-        Me.Icon_equip_clothe.TabStop = false
+        Me.Icon_equip_clothe.TabStop = False
         '
         'Panel22
         '
@@ -6643,7 +6644,7 @@ Partial Class Miitopia_SE
         'Panel12
         '
         Me.Panel12.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_left
-        Me.Panel12.Enabled = false
+        Me.Panel12.Enabled = False
         Me.Panel12.Location = New System.Drawing.Point(98, 318)
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(13, 30)
@@ -6697,7 +6698,7 @@ Partial Class Miitopia_SE
         Me.Group_warcry.Name = "Group_warcry"
         Me.Group_warcry.Size = New System.Drawing.Size(250, 37)
         Me.Group_warcry.TabIndex = 2
-        Me.Group_warcry.TabStop = false
+        Me.Group_warcry.TabStop = False
         Me.Group_warcry.Text = "War cry"
         '
         'Text_warcry
@@ -6718,7 +6719,7 @@ Partial Class Miitopia_SE
         Me.valu_tummy.Size = New System.Drawing.Size(43, 16)
         Me.valu_tummy.TabIndex = 23
         Me.valu_tummy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_tummy.Visible = false
+        Me.valu_tummy.Visible = False
         '
         'Panel11
         '
@@ -6736,7 +6737,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_pose.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_pose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_pose.FormattingEnabled = true
+        Me.Select_pose.FormattingEnabled = True
         Me.Select_pose.Items.AddRange(New Object() {"Pose 1", "Pose 2", "Pose 3", "Pose 4", "Pose 5", "Pose 6", "Pose 7", "Pose 8", "Pose 9", "Pose 10", "Pose 11", "Pose 12", "???"})
         Me.Select_pose.Location = New System.Drawing.Point(166, 5)
         Me.Select_pose.Name = "Select_pose"
@@ -6752,7 +6753,7 @@ Partial Class Miitopia_SE
         Me.valu_pose.Size = New System.Drawing.Size(34, 16)
         Me.valu_pose.TabIndex = 36
         Me.valu_pose.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_pose.Visible = false
+        Me.valu_pose.Visible = False
         '
         'valu_personnality
         '
@@ -6763,13 +6764,13 @@ Partial Class Miitopia_SE
         Me.valu_personnality.Size = New System.Drawing.Size(30, 16)
         Me.valu_personnality.TabIndex = 35
         Me.valu_personnality.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_personnality.Visible = false
+        Me.valu_personnality.Visible = False
         '
         'Select_personnality
         '
         Me.Select_personnality.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_personnality.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_personnality.FormattingEnabled = true
+        Me.Select_personnality.FormattingEnabled = True
         Me.Select_personnality.Items.AddRange(New Object() {"Kind", "Energetic", "Laid-back", "Cool", "Stubborn", "Airheaded", "Cautious"})
         Me.Select_personnality.Location = New System.Drawing.Point(32, 5)
         Me.Select_personnality.Name = "Select_personnality"
@@ -6784,7 +6785,7 @@ Partial Class Miitopia_SE
         Me.Icon_tummy.Name = "Icon_tummy"
         Me.Icon_tummy.Size = New System.Drawing.Size(82, 74)
         Me.Icon_tummy.TabIndex = 22
-        Me.Icon_tummy.TabStop = false
+        Me.Icon_tummy.TabStop = False
         '
         'Panel10
         '
@@ -6805,7 +6806,7 @@ Partial Class Miitopia_SE
         'Panel6
         '
         Me.Panel6.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_right
-        Me.Panel6.Enabled = false
+        Me.Panel6.Enabled = False
         Me.Panel6.Location = New System.Drawing.Point(166, 22)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(12, 30)
@@ -6814,7 +6815,7 @@ Partial Class Miitopia_SE
         'Panel4
         '
         Me.Panel4.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_left
-        Me.Panel4.Enabled = false
+        Me.Panel4.Enabled = False
         Me.Panel4.Location = New System.Drawing.Point(29, 22)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(13, 30)
@@ -6847,7 +6848,7 @@ Partial Class Miitopia_SE
         Me.valu_job.Size = New System.Drawing.Size(34, 16)
         Me.valu_job.TabIndex = 25
         Me.valu_job.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_job.Visible = false
+        Me.valu_job.Visible = False
         '
         'Icon_job
         '
@@ -6857,7 +6858,7 @@ Partial Class Miitopia_SE
         Me.Icon_job.Name = "Icon_job"
         Me.Icon_job.Size = New System.Drawing.Size(78, 91)
         Me.Icon_job.TabIndex = 27
-        Me.Icon_job.TabStop = false
+        Me.Icon_job.TabStop = False
         '
         'Panel_hero_sw2
         '
@@ -6883,7 +6884,7 @@ Partial Class Miitopia_SE
         Me.Panel_hero_sw2.Name = "Panel_hero_sw2"
         Me.Panel_hero_sw2.Size = New System.Drawing.Size(405, 183)
         Me.Panel_hero_sw2.TabIndex = 37
-        Me.Panel_hero_sw2.Visible = false
+        Me.Panel_hero_sw2.Visible = False
         '
         'valu_hbgobbled
         '
@@ -6927,7 +6928,7 @@ Partial Class Miitopia_SE
         '
         'Text_battles
         '
-        Me.Text_battles.AutoSize = true
+        Me.Text_battles.AutoSize = True
         Me.Text_battles.Location = New System.Drawing.Point(6, 24)
         Me.Text_battles.Name = "Text_battles"
         Me.Text_battles.Size = New System.Drawing.Size(39, 13)
@@ -6936,7 +6937,7 @@ Partial Class Miitopia_SE
         '
         'Text_ggrabbed
         '
-        Me.Text_ggrabbed.AutoSize = true
+        Me.Text_ggrabbed.AutoSize = True
         Me.Text_ggrabbed.Location = New System.Drawing.Point(204, 139)
         Me.Text_ggrabbed.Name = "Text_ggrabbed"
         Me.Text_ggrabbed.Size = New System.Drawing.Size(71, 13)
@@ -6945,7 +6946,7 @@ Partial Class Miitopia_SE
         '
         'Text__fblows
         '
-        Me.Text__fblows.AutoSize = true
+        Me.Text__fblows.AutoSize = True
         Me.Text__fblows.Location = New System.Drawing.Point(6, 61)
         Me.Text__fblows.Name = "Text__fblows"
         Me.Text__fblows.Size = New System.Drawing.Size(59, 13)
@@ -6954,7 +6955,7 @@ Partial Class Miitopia_SE
         '
         'Text_defeats
         '
-        Me.Text_defeats.AutoSize = true
+        Me.Text_defeats.AutoSize = True
         Me.Text_defeats.Location = New System.Drawing.Point(6, 100)
         Me.Text_defeats.Name = "Text_defeats"
         Me.Text_defeats.Size = New System.Drawing.Size(44, 13)
@@ -6963,7 +6964,7 @@ Partial Class Miitopia_SE
         '
         'Text_ggrubbed
         '
-        Me.Text_ggrubbed.AutoSize = true
+        Me.Text_ggrubbed.AutoSize = True
         Me.Text_ggrubbed.Location = New System.Drawing.Point(204, 100)
         Me.Text_ggrubbed.Name = "Text_ggrubbed"
         Me.Text_ggrubbed.Size = New System.Drawing.Size(72, 13)
@@ -6972,7 +6973,7 @@ Partial Class Miitopia_SE
         '
         'Text_tlooparty
         '
-        Me.Text_tlooparty.AutoSize = true
+        Me.Text_tlooparty.AutoSize = True
         Me.Text_tlooparty.Location = New System.Drawing.Point(6, 141)
         Me.Text_tlooparty.Name = "Text_tlooparty"
         Me.Text_tlooparty.Size = New System.Drawing.Size(108, 13)
@@ -6991,7 +6992,7 @@ Partial Class Miitopia_SE
         '
         'Text_mcgulped
         '
-        Me.Text_mcgulped.AutoSize = true
+        Me.Text_mcgulped.AutoSize = True
         Me.Text_mcgulped.Location = New System.Drawing.Point(204, 61)
         Me.Text_mcgulped.Name = "Text_mcgulped"
         Me.Text_mcgulped.Size = New System.Drawing.Size(99, 13)
@@ -7020,7 +7021,7 @@ Partial Class Miitopia_SE
         '
         'Text_hbgobbled
         '
-        Me.Text_hbgobbled.AutoSize = true
+        Me.Text_hbgobbled.AutoSize = True
         Me.Text_hbgobbled.Location = New System.Drawing.Point(204, 24)
         Me.Text_hbgobbled.Name = "Text_hbgobbled"
         Me.Text_hbgobbled.Size = New System.Drawing.Size(108, 13)
@@ -7047,7 +7048,7 @@ Partial Class Miitopia_SE
         Me.Tab_hero_Inn.Size = New System.Drawing.Size(524, 351)
         Me.Tab_hero_Inn.TabIndex = 1
         Me.Tab_hero_Inn.Text = "Inn"
-        Me.Tab_hero_Inn.UseVisualStyleBackColor = true
+        Me.Tab_hero_Inn.UseVisualStyleBackColor = True
         '
         'Panel_inn
         '
@@ -7071,13 +7072,13 @@ Partial Class Miitopia_SE
         Me.PictureBox29.Size = New System.Drawing.Size(52, 65)
         Me.PictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox29.TabIndex = 19
-        Me.PictureBox29.TabStop = false
+        Me.PictureBox29.TabStop = False
         '
         'Info_inn
         '
-        Me.Info_inn.AutoSize = true
+        Me.Info_inn.AutoSize = True
         Me.Info_inn.Cursor = System.Windows.Forms.Cursors.Help
-        Me.Info_inn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Info_inn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Info_inn.ForeColor = System.Drawing.Color.Blue
         Me.Info_inn.Location = New System.Drawing.Point(428, 263)
         Me.Info_inn.Name = "Info_inn"
@@ -7094,7 +7095,7 @@ Partial Class Miitopia_SE
         Me.Icon_inn_room_no.Size = New System.Drawing.Size(40, 50)
         Me.Icon_inn_room_no.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_inn_room_no.TabIndex = 3
-        Me.Icon_inn_room_no.TabStop = false
+        Me.Icon_inn_room_no.TabStop = False
         '
         'valu_inn_roomposition
         '
@@ -7105,7 +7106,7 @@ Partial Class Miitopia_SE
         Me.valu_inn_roomposition.Size = New System.Drawing.Size(52, 16)
         Me.valu_inn_roomposition.TabIndex = 2
         Me.valu_inn_roomposition.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_inn_roomposition.Visible = false
+        Me.valu_inn_roomposition.Visible = False
         '
         'valu_inn_room
         '
@@ -7116,7 +7117,7 @@ Partial Class Miitopia_SE
         Me.valu_inn_room.Size = New System.Drawing.Size(52, 16)
         Me.valu_inn_room.TabIndex = 1
         Me.valu_inn_room.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_inn_room.Visible = false
+        Me.valu_inn_room.Visible = False
         '
         'Fea_inn
         '
@@ -7145,7 +7146,7 @@ Partial Class Miitopia_SE
         Me.Icon_inn_room_topright_right.Size = New System.Drawing.Size(40, 50)
         Me.Icon_inn_room_topright_right.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_inn_room_topright_right.TabIndex = 9
-        Me.Icon_inn_room_topright_right.TabStop = false
+        Me.Icon_inn_room_topright_right.TabStop = False
         '
         'Icon_inn_room_topright_left
         '
@@ -7156,7 +7157,7 @@ Partial Class Miitopia_SE
         Me.Icon_inn_room_topright_left.Size = New System.Drawing.Size(40, 50)
         Me.Icon_inn_room_topright_left.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_inn_room_topright_left.TabIndex = 8
-        Me.Icon_inn_room_topright_left.TabStop = false
+        Me.Icon_inn_room_topright_left.TabStop = False
         '
         'Icon_inn_room_botright_right
         '
@@ -7167,7 +7168,7 @@ Partial Class Miitopia_SE
         Me.Icon_inn_room_botright_right.Size = New System.Drawing.Size(40, 50)
         Me.Icon_inn_room_botright_right.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_inn_room_botright_right.TabIndex = 7
-        Me.Icon_inn_room_botright_right.TabStop = false
+        Me.Icon_inn_room_botright_right.TabStop = False
         '
         'Icon_inn_room_botright_left
         '
@@ -7178,7 +7179,7 @@ Partial Class Miitopia_SE
         Me.Icon_inn_room_botright_left.Size = New System.Drawing.Size(40, 50)
         Me.Icon_inn_room_botright_left.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_inn_room_botright_left.TabIndex = 6
-        Me.Icon_inn_room_botright_left.TabStop = false
+        Me.Icon_inn_room_botright_left.TabStop = False
         '
         'Icon_inn_room_botleft_right
         '
@@ -7189,7 +7190,7 @@ Partial Class Miitopia_SE
         Me.Icon_inn_room_botleft_right.Size = New System.Drawing.Size(40, 50)
         Me.Icon_inn_room_botleft_right.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_inn_room_botleft_right.TabIndex = 5
-        Me.Icon_inn_room_botleft_right.TabStop = false
+        Me.Icon_inn_room_botleft_right.TabStop = False
         '
         'Icon_inn_room_botleft_left
         '
@@ -7200,7 +7201,7 @@ Partial Class Miitopia_SE
         Me.Icon_inn_room_botleft_left.Size = New System.Drawing.Size(40, 50)
         Me.Icon_inn_room_botleft_left.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_inn_room_botleft_left.TabIndex = 4
-        Me.Icon_inn_room_botleft_left.TabStop = false
+        Me.Icon_inn_room_botleft_left.TabStop = False
         '
         'Icon_inn_room_center_right
         '
@@ -7211,7 +7212,7 @@ Partial Class Miitopia_SE
         Me.Icon_inn_room_center_right.Size = New System.Drawing.Size(40, 50)
         Me.Icon_inn_room_center_right.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_inn_room_center_right.TabIndex = 3
-        Me.Icon_inn_room_center_right.TabStop = false
+        Me.Icon_inn_room_center_right.TabStop = False
         '
         'Icon_inn_room_center_left
         '
@@ -7222,7 +7223,7 @@ Partial Class Miitopia_SE
         Me.Icon_inn_room_center_left.Size = New System.Drawing.Size(40, 50)
         Me.Icon_inn_room_center_left.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_inn_room_center_left.TabIndex = 2
-        Me.Icon_inn_room_center_left.TabStop = false
+        Me.Icon_inn_room_center_left.TabStop = False
         '
         'Icon_inn_room_topleft_right
         '
@@ -7233,7 +7234,7 @@ Partial Class Miitopia_SE
         Me.Icon_inn_room_topleft_right.Size = New System.Drawing.Size(40, 50)
         Me.Icon_inn_room_topleft_right.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_inn_room_topleft_right.TabIndex = 1
-        Me.Icon_inn_room_topleft_right.TabStop = false
+        Me.Icon_inn_room_topleft_right.TabStop = False
         '
         'Icon_inn_room_topleft_left
         '
@@ -7244,7 +7245,7 @@ Partial Class Miitopia_SE
         Me.Icon_inn_room_topleft_left.Size = New System.Drawing.Size(40, 50)
         Me.Icon_inn_room_topleft_left.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_inn_room_topleft_left.TabIndex = 0
-        Me.Icon_inn_room_topleft_left.TabStop = false
+        Me.Icon_inn_room_topleft_left.TabStop = False
         '
         'Panel16
         '
@@ -7260,7 +7261,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_interac_activity.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_interac_activity.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_interac_activity.FormattingEnabled = true
+        Me.Select_interac_activity.FormattingEnabled = True
         Me.Select_interac_activity.Items.AddRange(New Object() {"You talk in your sleep!", "There was a bug on your face!", "Sit-ups", "Push-ups", "Sidestepping", "Who do you like?", "So do you like anyone?", "You should tell me who you like.", "Who do you like? Tell me!", "Tell me the name of the person you like.", "Rules: Keep the world clean", "Rules: No painting", "Rules: Ignore the whispers", "Get well soon!", "Rest as long as you need.", "How are you feeling?", "Dual Quarrel: I'm sorry.", "Dual Quarrel: I think we should be friends again.", "Quarrel: I'm sorry for being so mean.", "??? (Change00)", "??? (ChangeCold)", "??? (ChangeRepair)", "Rumor", "??? (GameEnd00)", "??? (GameEnd01)", "Fond memory", "Singing (Greenhorne)", "Singing (???)", "Cleaning (Thank you!)", "Cleaning (I can help!)", "Cleaning (Cheering)", "Time for a new look!", "Impressions"})
         Me.Select_interac_activity.Location = New System.Drawing.Point(3, 308)
         Me.Select_interac_activity.Name = "Select_interac_activity"
@@ -7280,7 +7281,7 @@ Partial Class Miitopia_SE
         Me.Group_interaction.Name = "Group_interaction"
         Me.Group_interaction.Size = New System.Drawing.Size(97, 205)
         Me.Group_interaction.TabIndex = 1
-        Me.Group_interaction.TabStop = false
+        Me.Group_interaction.TabStop = False
         Me.Group_interaction.Text = "Interaction"
         '
         'valu_interac_activity
@@ -7292,7 +7293,7 @@ Partial Class Miitopia_SE
         Me.valu_interac_activity.Size = New System.Drawing.Size(35, 16)
         Me.valu_interac_activity.TabIndex = 10
         Me.valu_interac_activity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_interac_activity.Visible = false
+        Me.valu_interac_activity.Visible = False
         '
         'Text_hero_for_2
         '
@@ -7312,7 +7313,7 @@ Partial Class Miitopia_SE
         Me.valu_interaction.Size = New System.Drawing.Size(52, 16)
         Me.valu_interaction.TabIndex = 7
         Me.valu_interaction.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_interaction.Visible = false
+        Me.valu_interaction.Visible = False
         '
         'valu_interac_Mii
         '
@@ -7323,13 +7324,13 @@ Partial Class Miitopia_SE
         Me.valu_interac_Mii.Size = New System.Drawing.Size(35, 16)
         Me.valu_interac_Mii.TabIndex = 6
         Me.valu_interac_Mii.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_interac_Mii.Visible = false
+        Me.valu_interac_Mii.Visible = False
         '
         'Select_interac_Mii
         '
         Me.Select_interac_Mii.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_interac_Mii.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_interac_Mii.FormattingEnabled = true
+        Me.Select_interac_Mii.FormattingEnabled = True
         Me.Select_interac_Mii.Items.AddRange(New Object() {"(None)", "Mii 1", "Mii 2", "Mii 3", "Mii 4", "Mii 5", "Mii 6", "Mii 7", "Mii 8", "Mii 9", "Mii 10"})
         Me.Select_interac_Mii.Location = New System.Drawing.Point(14, 94)
         Me.Select_interac_Mii.Name = "Select_interac_Mii"
@@ -7353,7 +7354,7 @@ Partial Class Miitopia_SE
         Me.Icon_interaction.Name = "Icon_interaction"
         Me.Icon_interaction.Size = New System.Drawing.Size(51, 41)
         Me.Icon_interaction.TabIndex = 0
-        Me.Icon_interaction.TabStop = false
+        Me.Icon_interaction.TabStop = False
         '
         'Group_health
         '
@@ -7366,7 +7367,7 @@ Partial Class Miitopia_SE
         Me.Group_health.Name = "Group_health"
         Me.Group_health.Size = New System.Drawing.Size(97, 139)
         Me.Group_health.TabIndex = 0
-        Me.Group_health.TabStop = false
+        Me.Group_health.TabStop = False
         Me.Group_health.Text = "Health"
         '
         'Text_hero_days
@@ -7404,13 +7405,13 @@ Partial Class Miitopia_SE
         Me.valu_sick.Size = New System.Drawing.Size(35, 16)
         Me.valu_sick.TabIndex = 1
         Me.valu_sick.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_sick.Visible = false
+        Me.valu_sick.Visible = False
         '
         'Select_sick
         '
         Me.Select_sick.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_sick.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_sick.FormattingEnabled = true
+        Me.Select_sick.FormattingEnabled = True
         Me.Select_sick.Items.AddRange(New Object() {"Not sick", "Sick"})
         Me.Select_sick.Location = New System.Drawing.Point(7, 20)
         Me.Select_sick.Name = "Select_sick"
@@ -7445,7 +7446,7 @@ Partial Class Miitopia_SE
         Me.Tab_hero_Levboost.Size = New System.Drawing.Size(524, 351)
         Me.Tab_hero_Levboost.TabIndex = 2
         Me.Tab_hero_Levboost.Text = "Levels / Boosts"
-        Me.Tab_hero_Levboost.UseVisualStyleBackColor = true
+        Me.Tab_hero_Levboost.UseVisualStyleBackColor = True
         '
         'Group_hero_bspd
         '
@@ -7456,7 +7457,7 @@ Partial Class Miitopia_SE
         Me.Group_hero_bspd.Name = "Group_hero_bspd"
         Me.Group_hero_bspd.Size = New System.Drawing.Size(127, 48)
         Me.Group_hero_bspd.TabIndex = 70
-        Me.Group_hero_bspd.TabStop = false
+        Me.Group_hero_bspd.TabStop = False
         Me.Group_hero_bspd.Text = "Boost Speed"
         '
         'valu_foodexp_speed
@@ -7478,7 +7479,7 @@ Partial Class Miitopia_SE
         Me.Group_hero_bmgc.Name = "Group_hero_bmgc"
         Me.Group_hero_bmgc.Size = New System.Drawing.Size(127, 48)
         Me.Group_hero_bmgc.TabIndex = 69
-        Me.Group_hero_bmgc.TabStop = false
+        Me.Group_hero_bmgc.TabStop = False
         Me.Group_hero_bmgc.Text = "Boost Magic"
         '
         'valu_foodexp_magic
@@ -7500,7 +7501,7 @@ Partial Class Miitopia_SE
         Me.Group_hero_bdef.Name = "Group_hero_bdef"
         Me.Group_hero_bdef.Size = New System.Drawing.Size(127, 48)
         Me.Group_hero_bdef.TabIndex = 68
-        Me.Group_hero_bdef.TabStop = false
+        Me.Group_hero_bdef.TabStop = False
         Me.Group_hero_bdef.Text = "Boost Defense"
         '
         'valu_foodexp_defense
@@ -7522,7 +7523,7 @@ Partial Class Miitopia_SE
         Me.Group_hero_batk.Name = "Group_hero_batk"
         Me.Group_hero_batk.Size = New System.Drawing.Size(127, 48)
         Me.Group_hero_batk.TabIndex = 67
-        Me.Group_hero_batk.TabStop = false
+        Me.Group_hero_batk.TabStop = False
         Me.Group_hero_batk.Text = "Boost Attack"
         '
         'valu_foodexp_attack
@@ -7544,7 +7545,7 @@ Partial Class Miitopia_SE
         Me.Group_hero_bMP.Name = "Group_hero_bMP"
         Me.Group_hero_bMP.Size = New System.Drawing.Size(127, 48)
         Me.Group_hero_bMP.TabIndex = 66
-        Me.Group_hero_bMP.TabStop = false
+        Me.Group_hero_bMP.TabStop = False
         Me.Group_hero_bMP.Text = "Boost MP"
         '
         'valu_foodexp_MP
@@ -7566,7 +7567,7 @@ Partial Class Miitopia_SE
         Me.Group_hero_bHP.Name = "Group_hero_bHP"
         Me.Group_hero_bHP.Size = New System.Drawing.Size(127, 48)
         Me.Group_hero_bHP.TabIndex = 65
-        Me.Group_hero_bHP.TabStop = false
+        Me.Group_hero_bHP.TabStop = False
         Me.Group_hero_bHP.Text = "Boost HP"
         '
         'valu_foodexp_HP
@@ -7596,7 +7597,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_elf.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_elf.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_elf.FormattingEnabled = true
+        Me.Select_exp_elf.FormattingEnabled = True
         Me.Select_exp_elf.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_elf.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_elf.Name = "Select_exp_elf"
@@ -7613,7 +7614,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_elf.Name = "Bar_exp_elf"
         Me.Bar_exp_elf.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_elf.TabIndex = 0
-        Me.Bar_exp_elf.Visible = false
+        Me.Bar_exp_elf.Visible = False
         '
         'valu_exp_elf
         '
@@ -7629,12 +7630,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox11.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.elfe
         Me.PictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox11.Enabled = false
+        Me.PictureBox11.Enabled = False
         Me.PictureBox11.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox11.TabIndex = 1
-        Me.PictureBox11.TabStop = false
+        Me.PictureBox11.TabStop = False
         '
         'Panel25
         '
@@ -7653,7 +7654,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_cat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_cat.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_cat.FormattingEnabled = true
+        Me.Select_exp_cat.FormattingEnabled = True
         Me.Select_exp_cat.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_cat.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_cat.Name = "Select_exp_cat"
@@ -7670,7 +7671,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_cat.Name = "Bar_exp_cat"
         Me.Bar_exp_cat.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_cat.TabIndex = 0
-        Me.Bar_exp_cat.Visible = false
+        Me.Bar_exp_cat.Visible = False
         '
         'valu_exp_cat
         '
@@ -7686,12 +7687,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox12.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Felin
         Me.PictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox12.Enabled = false
+        Me.PictureBox12.Enabled = False
         Me.PictureBox12.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox12.TabIndex = 1
-        Me.PictureBox12.TabStop = false
+        Me.PictureBox12.TabStop = False
         '
         'Panel27
         '
@@ -7710,7 +7711,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_scientist.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_scientist.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_scientist.FormattingEnabled = true
+        Me.Select_exp_scientist.FormattingEnabled = True
         Me.Select_exp_scientist.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_scientist.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_scientist.Name = "Select_exp_scientist"
@@ -7727,7 +7728,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_scientist.Name = "Bar_exp_scientist"
         Me.Bar_exp_scientist.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_scientist.TabIndex = 0
-        Me.Bar_exp_scientist.Visible = false
+        Me.Bar_exp_scientist.Visible = False
         '
         'valu_exp_scientist
         '
@@ -7743,12 +7744,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox13.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Scientifique
         Me.PictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox13.Enabled = false
+        Me.PictureBox13.Enabled = False
         Me.PictureBox13.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox13.Name = "PictureBox13"
         Me.PictureBox13.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox13.TabIndex = 1
-        Me.PictureBox13.TabStop = false
+        Me.PictureBox13.TabStop = False
         '
         'Panel29
         '
@@ -7767,7 +7768,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_flower.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_flower.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_flower.FormattingEnabled = true
+        Me.Select_exp_flower.FormattingEnabled = True
         Me.Select_exp_flower.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_flower.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_flower.Name = "Select_exp_flower"
@@ -7784,7 +7785,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_flower.Name = "Bar_exp_flower"
         Me.Bar_exp_flower.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_flower.TabIndex = 0
-        Me.Bar_exp_flower.Visible = false
+        Me.Bar_exp_flower.Visible = False
         '
         'valu_exp_flower
         '
@@ -7800,12 +7801,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox14.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Fleur
         Me.PictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox14.Enabled = false
+        Me.PictureBox14.Enabled = False
         Me.PictureBox14.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox14.TabIndex = 1
-        Me.PictureBox14.TabStop = false
+        Me.PictureBox14.TabStop = False
         '
         'Panel33
         '
@@ -7824,7 +7825,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_popstar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_popstar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_popstar.FormattingEnabled = true
+        Me.Select_exp_popstar.FormattingEnabled = True
         Me.Select_exp_popstar.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_popstar.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_popstar.Name = "Select_exp_popstar"
@@ -7841,7 +7842,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_popstar.Name = "Bar_exp_popstar"
         Me.Bar_exp_popstar.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_popstar.TabIndex = 0
-        Me.Bar_exp_popstar.Visible = false
+        Me.Bar_exp_popstar.Visible = False
         '
         'valu_exp_popstar
         '
@@ -7857,12 +7858,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox16.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Chanteur
         Me.PictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox16.Enabled = false
+        Me.PictureBox16.Enabled = False
         Me.PictureBox16.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox16.Name = "PictureBox16"
         Me.PictureBox16.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox16.TabIndex = 1
-        Me.PictureBox16.TabStop = false
+        Me.PictureBox16.TabStop = False
         '
         'Panel35
         '
@@ -7881,7 +7882,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_thief.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_thief.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_thief.FormattingEnabled = true
+        Me.Select_exp_thief.FormattingEnabled = True
         Me.Select_exp_thief.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_thief.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_thief.Name = "Select_exp_thief"
@@ -7898,7 +7899,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_thief.Name = "Bar_exp_thief"
         Me.Bar_exp_thief.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_thief.TabIndex = 0
-        Me.Bar_exp_thief.Visible = false
+        Me.Bar_exp_thief.Visible = False
         '
         'valu_exp_thief
         '
@@ -7914,12 +7915,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox17.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Voleur
         Me.PictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox17.Enabled = false
+        Me.PictureBox17.Enabled = False
         Me.PictureBox17.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox17.Name = "PictureBox17"
         Me.PictureBox17.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox17.TabIndex = 1
-        Me.PictureBox17.TabStop = false
+        Me.PictureBox17.TabStop = False
         '
         'Panel37
         '
@@ -7938,7 +7939,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_cleric.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_cleric.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_cleric.FormattingEnabled = true
+        Me.Select_exp_cleric.FormattingEnabled = True
         Me.Select_exp_cleric.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_cleric.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_cleric.Name = "Select_exp_cleric"
@@ -7955,7 +7956,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_cleric.Name = "Bar_exp_cleric"
         Me.Bar_exp_cleric.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_cleric.TabIndex = 0
-        Me.Bar_exp_cleric.Visible = false
+        Me.Bar_exp_cleric.Visible = False
         '
         'valu_exp_cleric
         '
@@ -7971,12 +7972,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox18.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Pretre
         Me.PictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox18.Enabled = false
+        Me.PictureBox18.Enabled = False
         Me.PictureBox18.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox18.Name = "PictureBox18"
         Me.PictureBox18.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox18.TabIndex = 1
-        Me.PictureBox18.TabStop = false
+        Me.PictureBox18.TabStop = False
         '
         'Panel49
         '
@@ -7995,7 +7996,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_mage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_mage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_mage.FormattingEnabled = true
+        Me.Select_exp_mage.FormattingEnabled = True
         Me.Select_exp_mage.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_mage.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_mage.Name = "Select_exp_mage"
@@ -8012,7 +8013,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_mage.Name = "Bar_exp_mage"
         Me.Bar_exp_mage.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_mage.TabIndex = 0
-        Me.Bar_exp_mage.Visible = false
+        Me.Bar_exp_mage.Visible = False
         '
         'valu_exp_mage
         '
@@ -8028,12 +8029,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox24.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Mage
         Me.PictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox24.Enabled = false
+        Me.PictureBox24.Enabled = False
         Me.PictureBox24.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox24.Name = "PictureBox24"
         Me.PictureBox24.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox24.TabIndex = 1
-        Me.PictureBox24.TabStop = false
+        Me.PictureBox24.TabStop = False
         '
         'Panel51
         '
@@ -8052,7 +8053,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_warrior.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_warrior.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_warrior.FormattingEnabled = true
+        Me.Select_exp_warrior.FormattingEnabled = True
         Me.Select_exp_warrior.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_warrior.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_warrior.Name = "Select_exp_warrior"
@@ -8069,7 +8070,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_warrior.Name = "Bar_exp_warrior"
         Me.Bar_exp_warrior.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_warrior.TabIndex = 0
-        Me.Bar_exp_warrior.Visible = false
+        Me.Bar_exp_warrior.Visible = False
         '
         'valu_exp_warrior
         '
@@ -8085,12 +8086,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox25.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Guerrier
         Me.PictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox25.Enabled = false
+        Me.PictureBox25.Enabled = False
         Me.PictureBox25.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox25.Name = "PictureBox25"
         Me.PictureBox25.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox25.TabIndex = 1
-        Me.PictureBox25.TabStop = false
+        Me.PictureBox25.TabStop = False
         '
         'Panel47
         '
@@ -8109,7 +8110,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_princess.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_princess.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_princess.FormattingEnabled = true
+        Me.Select_exp_princess.FormattingEnabled = True
         Me.Select_exp_princess.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_princess.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_princess.Name = "Select_exp_princess"
@@ -8126,7 +8127,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_princess.Name = "Bar_exp_princess"
         Me.Bar_exp_princess.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_princess.TabIndex = 0
-        Me.Bar_exp_princess.Visible = false
+        Me.Bar_exp_princess.Visible = False
         '
         'valu_exp_princess
         '
@@ -8142,12 +8143,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox23.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Princesse
         Me.PictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox23.Enabled = false
+        Me.PictureBox23.Enabled = False
         Me.PictureBox23.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox23.Name = "PictureBox23"
         Me.PictureBox23.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox23.TabIndex = 1
-        Me.PictureBox23.TabStop = false
+        Me.PictureBox23.TabStop = False
         '
         'Panel45
         '
@@ -8166,7 +8167,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_imp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_imp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_imp.FormattingEnabled = true
+        Me.Select_exp_imp.FormattingEnabled = True
         Me.Select_exp_imp.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_imp.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_imp.Name = "Select_exp_imp"
@@ -8183,7 +8184,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_imp.Name = "Bar_exp_imp"
         Me.Bar_exp_imp.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_imp.TabIndex = 0
-        Me.Bar_exp_imp.Visible = false
+        Me.Bar_exp_imp.Visible = False
         '
         'valu_exp_imp
         '
@@ -8199,12 +8200,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox22.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Diablotin
         Me.PictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox22.Enabled = false
+        Me.PictureBox22.Enabled = False
         Me.PictureBox22.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox22.Name = "PictureBox22"
         Me.PictureBox22.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox22.TabIndex = 1
-        Me.PictureBox22.TabStop = false
+        Me.PictureBox22.TabStop = False
         '
         'Panel43
         '
@@ -8223,7 +8224,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_tank.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_tank.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_tank.FormattingEnabled = true
+        Me.Select_exp_tank.FormattingEnabled = True
         Me.Select_exp_tank.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_tank.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_tank.Name = "Select_exp_tank"
@@ -8240,7 +8241,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_tank.Name = "Bar_exp_tank"
         Me.Bar_exp_tank.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_tank.TabIndex = 0
-        Me.Bar_exp_tank.Visible = false
+        Me.Bar_exp_tank.Visible = False
         '
         'valu_exp_tank
         '
@@ -8256,12 +8257,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox21.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Tank
         Me.PictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox21.Enabled = false
+        Me.PictureBox21.Enabled = False
         Me.PictureBox21.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox21.Name = "PictureBox21"
         Me.PictureBox21.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox21.TabIndex = 1
-        Me.PictureBox21.TabStop = false
+        Me.PictureBox21.TabStop = False
         '
         'Panel39
         '
@@ -8280,7 +8281,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_chef.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_chef.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_chef.FormattingEnabled = true
+        Me.Select_exp_chef.FormattingEnabled = True
         Me.Select_exp_chef.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_chef.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_chef.Name = "Select_exp_chef"
@@ -8297,7 +8298,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_chef.Name = "Bar_exp_chef"
         Me.Bar_exp_chef.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_chef.TabIndex = 0
-        Me.Bar_exp_chef.Visible = false
+        Me.Bar_exp_chef.Visible = False
         '
         'valu_exp_chef
         '
@@ -8313,12 +8314,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox19.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Cuisinier
         Me.PictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox19.Enabled = false
+        Me.PictureBox19.Enabled = False
         Me.PictureBox19.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox19.Name = "PictureBox19"
         Me.PictureBox19.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox19.TabIndex = 1
-        Me.PictureBox19.TabStop = false
+        Me.PictureBox19.TabStop = False
         '
         'Panel41
         '
@@ -8337,7 +8338,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_exp_vampire.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_exp_vampire.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_exp_vampire.FormattingEnabled = true
+        Me.Select_exp_vampire.FormattingEnabled = True
         Me.Select_exp_vampire.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.Select_exp_vampire.Location = New System.Drawing.Point(4, 41)
         Me.Select_exp_vampire.Name = "Select_exp_vampire"
@@ -8354,7 +8355,7 @@ Partial Class Miitopia_SE
         Me.Bar_exp_vampire.Name = "Bar_exp_vampire"
         Me.Bar_exp_vampire.Size = New System.Drawing.Size(94, 18)
         Me.Bar_exp_vampire.TabIndex = 0
-        Me.Bar_exp_vampire.Visible = false
+        Me.Bar_exp_vampire.Visible = False
         '
         'valu_exp_vampire
         '
@@ -8370,12 +8371,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox20.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Vampire
         Me.PictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox20.Enabled = false
+        Me.PictureBox20.Enabled = False
         Me.PictureBox20.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox20.Name = "PictureBox20"
         Me.PictureBox20.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox20.TabIndex = 1
-        Me.PictureBox20.TabStop = false
+        Me.PictureBox20.TabStop = False
         '
         'Tab_hero_relationship
         '
@@ -8414,7 +8415,7 @@ Partial Class Miitopia_SE
         Me.Tab_hero_relationship.Size = New System.Drawing.Size(524, 351)
         Me.Tab_hero_relationship.TabIndex = 3
         Me.Tab_hero_relationship.Text = "Relationship"
-        Me.Tab_hero_relationship.UseVisualStyleBackColor = true
+        Me.Tab_hero_relationship.UseVisualStyleBackColor = True
         '
         'PictureBox30
         '
@@ -8423,7 +8424,7 @@ Partial Class Miitopia_SE
         Me.PictureBox30.Name = "PictureBox30"
         Me.PictureBox30.Size = New System.Drawing.Size(91, 30)
         Me.PictureBox30.TabIndex = 32
-        Me.PictureBox30.TabStop = false
+        Me.PictureBox30.TabStop = False
         '
         'PictureBox15
         '
@@ -8432,7 +8433,7 @@ Partial Class Miitopia_SE
         Me.PictureBox15.Name = "PictureBox15"
         Me.PictureBox15.Size = New System.Drawing.Size(41, 30)
         Me.PictureBox15.TabIndex = 31
-        Me.PictureBox15.TabStop = false
+        Me.PictureBox15.TabStop = False
         '
         'Panel_hero_setall
         '
@@ -8449,7 +8450,7 @@ Partial Class Miitopia_SE
         '
         'Text_hero_setall
         '
-        Me.Text_hero_setall.AutoSize = true
+        Me.Text_hero_setall.AutoSize = True
         Me.Text_hero_setall.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Text_hero_setall.Location = New System.Drawing.Point(20, 13)
         Me.Text_hero_setall.Name = "Text_hero_setall"
@@ -8478,7 +8479,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_25.Name = "Group_relation_25"
         Me.Group_relation_25.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_25.TabIndex = 29
-        Me.Group_relation_25.TabStop = false
+        Me.Group_relation_25.TabStop = False
         Me.Group_relation_25.Text = "Mii"
         '
         'valu_relation_25
@@ -8501,7 +8502,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_24.Name = "Group_relation_24"
         Me.Group_relation_24.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_24.TabIndex = 28
-        Me.Group_relation_24.TabStop = false
+        Me.Group_relation_24.TabStop = False
         Me.Group_relation_24.Text = "Mii"
         '
         'valu_relation_24
@@ -8524,7 +8525,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_23.Name = "Group_relation_23"
         Me.Group_relation_23.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_23.TabIndex = 27
-        Me.Group_relation_23.TabStop = false
+        Me.Group_relation_23.TabStop = False
         Me.Group_relation_23.Text = "Mii"
         '
         'valu_relation_23
@@ -8547,7 +8548,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_22.Name = "Group_relation_22"
         Me.Group_relation_22.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_22.TabIndex = 26
-        Me.Group_relation_22.TabStop = false
+        Me.Group_relation_22.TabStop = False
         Me.Group_relation_22.Text = "Mii"
         '
         'valu_relation_22
@@ -8570,7 +8571,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_21.Name = "Group_relation_21"
         Me.Group_relation_21.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_21.TabIndex = 25
-        Me.Group_relation_21.TabStop = false
+        Me.Group_relation_21.TabStop = False
         Me.Group_relation_21.Text = "Mii"
         '
         'valu_relation_21
@@ -8593,7 +8594,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_20.Name = "Group_relation_20"
         Me.Group_relation_20.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_20.TabIndex = 24
-        Me.Group_relation_20.TabStop = false
+        Me.Group_relation_20.TabStop = False
         Me.Group_relation_20.Text = "Mii"
         '
         'valu_relation_20
@@ -8616,7 +8617,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_19.Name = "Group_relation_19"
         Me.Group_relation_19.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_19.TabIndex = 23
-        Me.Group_relation_19.TabStop = false
+        Me.Group_relation_19.TabStop = False
         Me.Group_relation_19.Text = "Mii"
         '
         'valu_relation_19
@@ -8639,7 +8640,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_18.Name = "Group_relation_18"
         Me.Group_relation_18.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_18.TabIndex = 22
-        Me.Group_relation_18.TabStop = false
+        Me.Group_relation_18.TabStop = False
         Me.Group_relation_18.Text = "Mii"
         '
         'valu_relation_18
@@ -8662,7 +8663,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_17.Name = "Group_relation_17"
         Me.Group_relation_17.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_17.TabIndex = 21
-        Me.Group_relation_17.TabStop = false
+        Me.Group_relation_17.TabStop = False
         Me.Group_relation_17.Text = "Mii"
         '
         'valu_relation_17
@@ -8685,7 +8686,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_16.Name = "Group_relation_16"
         Me.Group_relation_16.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_16.TabIndex = 20
-        Me.Group_relation_16.TabStop = false
+        Me.Group_relation_16.TabStop = False
         Me.Group_relation_16.Text = "Mii"
         '
         'valu_relation_16
@@ -8708,7 +8709,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_15.Name = "Group_relation_15"
         Me.Group_relation_15.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_15.TabIndex = 18
-        Me.Group_relation_15.TabStop = false
+        Me.Group_relation_15.TabStop = False
         Me.Group_relation_15.Text = "Mii"
         '
         'valu_relation_15
@@ -8731,7 +8732,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_14.Name = "Group_relation_14"
         Me.Group_relation_14.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_14.TabIndex = 17
-        Me.Group_relation_14.TabStop = false
+        Me.Group_relation_14.TabStop = False
         Me.Group_relation_14.Text = "Mii"
         '
         'valu_relation_14
@@ -8754,7 +8755,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_13.Name = "Group_relation_13"
         Me.Group_relation_13.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_13.TabIndex = 16
-        Me.Group_relation_13.TabStop = false
+        Me.Group_relation_13.TabStop = False
         Me.Group_relation_13.Text = "Mii"
         '
         'valu_relation_13
@@ -8777,7 +8778,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_12.Name = "Group_relation_12"
         Me.Group_relation_12.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_12.TabIndex = 15
-        Me.Group_relation_12.TabStop = false
+        Me.Group_relation_12.TabStop = False
         Me.Group_relation_12.Text = "Mii"
         '
         'valu_relation_12
@@ -8800,7 +8801,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_11.Name = "Group_relation_11"
         Me.Group_relation_11.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_11.TabIndex = 14
-        Me.Group_relation_11.TabStop = false
+        Me.Group_relation_11.TabStop = False
         Me.Group_relation_11.Text = "Mii"
         '
         'valu_relation_11
@@ -8823,7 +8824,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_10.Name = "Group_relation_10"
         Me.Group_relation_10.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_10.TabIndex = 12
-        Me.Group_relation_10.TabStop = false
+        Me.Group_relation_10.TabStop = False
         Me.Group_relation_10.Text = "Mii"
         '
         'valu_relation_10
@@ -8846,7 +8847,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_9.Name = "Group_relation_9"
         Me.Group_relation_9.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_9.TabIndex = 11
-        Me.Group_relation_9.TabStop = false
+        Me.Group_relation_9.TabStop = False
         Me.Group_relation_9.Text = "Mii"
         '
         'valu_relation_9
@@ -8869,7 +8870,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_8.Name = "Group_relation_8"
         Me.Group_relation_8.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_8.TabIndex = 10
-        Me.Group_relation_8.TabStop = false
+        Me.Group_relation_8.TabStop = False
         Me.Group_relation_8.Text = "Mii"
         '
         'valu_relation_8
@@ -8892,7 +8893,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_7.Name = "Group_relation_7"
         Me.Group_relation_7.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_7.TabIndex = 9
-        Me.Group_relation_7.TabStop = false
+        Me.Group_relation_7.TabStop = False
         Me.Group_relation_7.Text = "Mii"
         '
         'valu_relation_7
@@ -8915,7 +8916,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_6.Name = "Group_relation_6"
         Me.Group_relation_6.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_6.TabIndex = 8
-        Me.Group_relation_6.TabStop = false
+        Me.Group_relation_6.TabStop = False
         Me.Group_relation_6.Text = "Mii"
         '
         'valu_relation_6
@@ -8938,7 +8939,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_5.Name = "Group_relation_5"
         Me.Group_relation_5.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_5.TabIndex = 6
-        Me.Group_relation_5.TabStop = false
+        Me.Group_relation_5.TabStop = False
         Me.Group_relation_5.Text = "Mii"
         '
         'valu_relation_5
@@ -8961,7 +8962,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_4.Name = "Group_relation_4"
         Me.Group_relation_4.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_4.TabIndex = 5
-        Me.Group_relation_4.TabStop = false
+        Me.Group_relation_4.TabStop = False
         Me.Group_relation_4.Text = "Mii"
         '
         'valu_relation_4
@@ -8984,7 +8985,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_3.Name = "Group_relation_3"
         Me.Group_relation_3.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_3.TabIndex = 4
-        Me.Group_relation_3.TabStop = false
+        Me.Group_relation_3.TabStop = False
         Me.Group_relation_3.Text = "Mii"
         '
         'valu_relation_3
@@ -9007,7 +9008,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_2.Name = "Group_relation_2"
         Me.Group_relation_2.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_2.TabIndex = 3
-        Me.Group_relation_2.TabStop = false
+        Me.Group_relation_2.TabStop = False
         Me.Group_relation_2.Text = "Mii"
         '
         'valu_relation_2
@@ -9030,7 +9031,7 @@ Partial Class Miitopia_SE
         Me.Group_relation_1.Name = "Group_relation_1"
         Me.Group_relation_1.Size = New System.Drawing.Size(80, 48)
         Me.Group_relation_1.TabIndex = 2
-        Me.Group_relation_1.TabStop = false
+        Me.Group_relation_1.TabStop = False
         Me.Group_relation_1.Text = "Mii"
         '
         'valu_relation_1
@@ -9047,7 +9048,7 @@ Partial Class Miitopia_SE
         '
         Me.Select_rela_gMii.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Select_rela_gMii.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_rela_gMii.FormattingEnabled = true
+        Me.Select_rela_gMii.FormattingEnabled = True
         Me.Select_rela_gMii.Items.AddRange(New Object() {"Mii 1 to 25", "Mii 26 to 50", "Mii 51 to 75", "Mii 76 to 100"})
         Me.Select_rela_gMii.Location = New System.Drawing.Point(6, 6)
         Me.Select_rela_gMii.Name = "Select_rela_gMii"
@@ -9063,7 +9064,7 @@ Partial Class Miitopia_SE
         Me.Tab_hero_equipments.Size = New System.Drawing.Size(524, 351)
         Me.Tab_hero_equipments.TabIndex = 4
         Me.Tab_hero_equipments.Text = "Equipments"
-        Me.Tab_hero_equipments.UseVisualStyleBackColor = true
+        Me.Tab_hero_equipments.UseVisualStyleBackColor = True
         '
         'TabControl6
         '
@@ -9099,7 +9100,7 @@ Partial Class Miitopia_SE
         Me.TabPage1.Size = New System.Drawing.Size(516, 325)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Costumes"
-        Me.TabPage1.UseVisualStyleBackColor = true
+        Me.TabPage1.UseVisualStyleBackColor = True
         '
         'Fea_epuipct_elf
         '
@@ -9116,12 +9117,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_elf.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.elfe
         Me.Icon_epuipct_elf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_elf.Enabled = false
+        Me.Icon_epuipct_elf.Enabled = False
         Me.Icon_epuipct_elf.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_elf.Name = "Icon_epuipct_elf"
         Me.Icon_epuipct_elf.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_elf.TabIndex = 1
-        Me.Icon_epuipct_elf.TabStop = false
+        Me.Icon_epuipct_elf.TabStop = False
         '
         'Bar_epuipct_elf
         '
@@ -9133,7 +9134,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_elf.Name = "Bar_epuipct_elf"
         Me.Bar_epuipct_elf.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_elf.TabIndex = 0
-        Me.Bar_epuipct_elf.Visible = false
+        Me.Bar_epuipct_elf.Visible = False
         '
         'valu_epuipct_elf
         '
@@ -9160,12 +9161,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_cat.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Felin
         Me.Icon_epuipct_cat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_cat.Enabled = false
+        Me.Icon_epuipct_cat.Enabled = False
         Me.Icon_epuipct_cat.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_cat.Name = "Icon_epuipct_cat"
         Me.Icon_epuipct_cat.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_cat.TabIndex = 1
-        Me.Icon_epuipct_cat.TabStop = false
+        Me.Icon_epuipct_cat.TabStop = False
         '
         'Bar_epuipct_cat
         '
@@ -9177,7 +9178,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_cat.Name = "Bar_epuipct_cat"
         Me.Bar_epuipct_cat.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_cat.TabIndex = 0
-        Me.Bar_epuipct_cat.Visible = false
+        Me.Bar_epuipct_cat.Visible = False
         '
         'valu_epuipct_cat
         '
@@ -9204,12 +9205,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_scientist.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Scientifique
         Me.Icon_epuipct_scientist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_scientist.Enabled = false
+        Me.Icon_epuipct_scientist.Enabled = False
         Me.Icon_epuipct_scientist.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_scientist.Name = "Icon_epuipct_scientist"
         Me.Icon_epuipct_scientist.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_scientist.TabIndex = 1
-        Me.Icon_epuipct_scientist.TabStop = false
+        Me.Icon_epuipct_scientist.TabStop = False
         '
         'Bar_epuipct_scientist
         '
@@ -9221,7 +9222,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_scientist.Name = "Bar_epuipct_scientist"
         Me.Bar_epuipct_scientist.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_scientist.TabIndex = 0
-        Me.Bar_epuipct_scientist.Visible = false
+        Me.Bar_epuipct_scientist.Visible = False
         '
         'valu_epuipct_scientist
         '
@@ -9248,12 +9249,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_flower.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Fleur
         Me.Icon_epuipct_flower.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_flower.Enabled = false
+        Me.Icon_epuipct_flower.Enabled = False
         Me.Icon_epuipct_flower.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_flower.Name = "Icon_epuipct_flower"
         Me.Icon_epuipct_flower.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_flower.TabIndex = 1
-        Me.Icon_epuipct_flower.TabStop = false
+        Me.Icon_epuipct_flower.TabStop = False
         '
         'Bar_epuipct_flower
         '
@@ -9265,7 +9266,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_flower.Name = "Bar_epuipct_flower"
         Me.Bar_epuipct_flower.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_flower.TabIndex = 0
-        Me.Bar_epuipct_flower.Visible = false
+        Me.Bar_epuipct_flower.Visible = False
         '
         'valu_epuipct_flower
         '
@@ -9292,12 +9293,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_princess.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Princesse
         Me.Icon_epuipct_princess.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_princess.Enabled = false
+        Me.Icon_epuipct_princess.Enabled = False
         Me.Icon_epuipct_princess.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_princess.Name = "Icon_epuipct_princess"
         Me.Icon_epuipct_princess.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_princess.TabIndex = 1
-        Me.Icon_epuipct_princess.TabStop = false
+        Me.Icon_epuipct_princess.TabStop = False
         '
         'Bar_epuipct_princess
         '
@@ -9309,7 +9310,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_princess.Name = "Bar_epuipct_princess"
         Me.Bar_epuipct_princess.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_princess.TabIndex = 0
-        Me.Bar_epuipct_princess.Visible = false
+        Me.Bar_epuipct_princess.Visible = False
         '
         'valu_epuipct_princess
         '
@@ -9336,12 +9337,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_imp.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Diablotin
         Me.Icon_epuipct_imp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_imp.Enabled = false
+        Me.Icon_epuipct_imp.Enabled = False
         Me.Icon_epuipct_imp.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_imp.Name = "Icon_epuipct_imp"
         Me.Icon_epuipct_imp.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_imp.TabIndex = 1
-        Me.Icon_epuipct_imp.TabStop = false
+        Me.Icon_epuipct_imp.TabStop = False
         '
         'Bar_epuipct_imp
         '
@@ -9353,7 +9354,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_imp.Name = "Bar_epuipct_imp"
         Me.Bar_epuipct_imp.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_imp.TabIndex = 0
-        Me.Bar_epuipct_imp.Visible = false
+        Me.Bar_epuipct_imp.Visible = False
         '
         'valu_epuipct_imp
         '
@@ -9380,12 +9381,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_tank.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Tank
         Me.Icon_epuipct_tank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_tank.Enabled = false
+        Me.Icon_epuipct_tank.Enabled = False
         Me.Icon_epuipct_tank.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_tank.Name = "Icon_epuipct_tank"
         Me.Icon_epuipct_tank.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_tank.TabIndex = 1
-        Me.Icon_epuipct_tank.TabStop = false
+        Me.Icon_epuipct_tank.TabStop = False
         '
         'Bar_epuipct_tank
         '
@@ -9397,7 +9398,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_tank.Name = "Bar_epuipct_tank"
         Me.Bar_epuipct_tank.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_tank.TabIndex = 0
-        Me.Bar_epuipct_tank.Visible = false
+        Me.Bar_epuipct_tank.Visible = False
         '
         'valu_epuipct_tank
         '
@@ -9424,12 +9425,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_chef.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Cuisinier
         Me.Icon_epuipct_chef.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_chef.Enabled = false
+        Me.Icon_epuipct_chef.Enabled = False
         Me.Icon_epuipct_chef.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_chef.Name = "Icon_epuipct_chef"
         Me.Icon_epuipct_chef.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_chef.TabIndex = 1
-        Me.Icon_epuipct_chef.TabStop = false
+        Me.Icon_epuipct_chef.TabStop = False
         '
         'Bar_epuipct_chef
         '
@@ -9441,7 +9442,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_chef.Name = "Bar_epuipct_chef"
         Me.Bar_epuipct_chef.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_chef.TabIndex = 0
-        Me.Bar_epuipct_chef.Visible = false
+        Me.Bar_epuipct_chef.Visible = False
         '
         'valu_epuipct_chef
         '
@@ -9468,12 +9469,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_vampire.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Vampire
         Me.Icon_epuipct_vampire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_vampire.Enabled = false
+        Me.Icon_epuipct_vampire.Enabled = False
         Me.Icon_epuipct_vampire.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_vampire.Name = "Icon_epuipct_vampire"
         Me.Icon_epuipct_vampire.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_vampire.TabIndex = 1
-        Me.Icon_epuipct_vampire.TabStop = false
+        Me.Icon_epuipct_vampire.TabStop = False
         '
         'Bar_epuipct_vampire
         '
@@ -9485,7 +9486,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_vampire.Name = "Bar_epuipct_vampire"
         Me.Bar_epuipct_vampire.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_vampire.TabIndex = 0
-        Me.Bar_epuipct_vampire.Visible = false
+        Me.Bar_epuipct_vampire.Visible = False
         '
         'valu_epuipct_vampire
         '
@@ -9512,12 +9513,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_popstar.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Chanteur2
         Me.Icon_epuipct_popstar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_popstar.Enabled = false
+        Me.Icon_epuipct_popstar.Enabled = False
         Me.Icon_epuipct_popstar.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_popstar.Name = "Icon_epuipct_popstar"
         Me.Icon_epuipct_popstar.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_popstar.TabIndex = 1
-        Me.Icon_epuipct_popstar.TabStop = false
+        Me.Icon_epuipct_popstar.TabStop = False
         '
         'Bar_epuipct_popstar
         '
@@ -9530,7 +9531,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_popstar.Name = "Bar_epuipct_popstar"
         Me.Bar_epuipct_popstar.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_popstar.TabIndex = 0
-        Me.Bar_epuipct_popstar.Visible = false
+        Me.Bar_epuipct_popstar.Visible = False
         '
         'valu_epuipct_popstar2
         '
@@ -9567,12 +9568,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_thief.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Voleur
         Me.Icon_epuipct_thief.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_thief.Enabled = false
+        Me.Icon_epuipct_thief.Enabled = False
         Me.Icon_epuipct_thief.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_thief.Name = "Icon_epuipct_thief"
         Me.Icon_epuipct_thief.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_thief.TabIndex = 1
-        Me.Icon_epuipct_thief.TabStop = false
+        Me.Icon_epuipct_thief.TabStop = False
         '
         'Bar_epuipct_thief
         '
@@ -9584,7 +9585,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_thief.Name = "Bar_epuipct_thief"
         Me.Bar_epuipct_thief.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_thief.TabIndex = 0
-        Me.Bar_epuipct_thief.Visible = false
+        Me.Bar_epuipct_thief.Visible = False
         '
         'valu_epuipct_thief
         '
@@ -9611,12 +9612,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_cleric.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Pretre
         Me.Icon_epuipct_cleric.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_cleric.Enabled = false
+        Me.Icon_epuipct_cleric.Enabled = False
         Me.Icon_epuipct_cleric.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_cleric.Name = "Icon_epuipct_cleric"
         Me.Icon_epuipct_cleric.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_cleric.TabIndex = 1
-        Me.Icon_epuipct_cleric.TabStop = false
+        Me.Icon_epuipct_cleric.TabStop = False
         '
         'Bar_epuipct_cleric
         '
@@ -9628,7 +9629,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_cleric.Name = "Bar_epuipct_cleric"
         Me.Bar_epuipct_cleric.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_cleric.TabIndex = 0
-        Me.Bar_epuipct_cleric.Visible = false
+        Me.Bar_epuipct_cleric.Visible = False
         '
         'valu_epuipct_cleric
         '
@@ -9655,12 +9656,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_mage.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Mage
         Me.Icon_epuipct_mage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_mage.Enabled = false
+        Me.Icon_epuipct_mage.Enabled = False
         Me.Icon_epuipct_mage.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_mage.Name = "Icon_epuipct_mage"
         Me.Icon_epuipct_mage.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_mage.TabIndex = 1
-        Me.Icon_epuipct_mage.TabStop = false
+        Me.Icon_epuipct_mage.TabStop = False
         '
         'Bar_epuipct_mage
         '
@@ -9672,7 +9673,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_mage.Name = "Bar_epuipct_mage"
         Me.Bar_epuipct_mage.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_mage.TabIndex = 0
-        Me.Bar_epuipct_mage.Visible = false
+        Me.Bar_epuipct_mage.Visible = False
         '
         'valu_epuipct_mage
         '
@@ -9699,12 +9700,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipct_warrior.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Guerrier
         Me.Icon_epuipct_warrior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipct_warrior.Enabled = false
+        Me.Icon_epuipct_warrior.Enabled = False
         Me.Icon_epuipct_warrior.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipct_warrior.Name = "Icon_epuipct_warrior"
         Me.Icon_epuipct_warrior.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipct_warrior.TabIndex = 1
-        Me.Icon_epuipct_warrior.TabStop = false
+        Me.Icon_epuipct_warrior.TabStop = False
         '
         'Bar_epuipct_warrior
         '
@@ -9716,7 +9717,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipct_warrior.Name = "Bar_epuipct_warrior"
         Me.Bar_epuipct_warrior.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipct_warrior.TabIndex = 0
-        Me.Bar_epuipct_warrior.Visible = false
+        Me.Bar_epuipct_warrior.Visible = False
         '
         'valu_epuipct_warrior
         '
@@ -9751,7 +9752,7 @@ Partial Class Miitopia_SE
         Me.TabPage2.Size = New System.Drawing.Size(516, 325)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Weapons"
-        Me.TabPage2.UseVisualStyleBackColor = true
+        Me.TabPage2.UseVisualStyleBackColor = True
         '
         'Fea_epuipwp_elf
         '
@@ -9768,12 +9769,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_elf.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.elfe
         Me.Icon_epuipwp_elf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_elf.Enabled = false
+        Me.Icon_epuipwp_elf.Enabled = False
         Me.Icon_epuipwp_elf.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_elf.Name = "Icon_epuipwp_elf"
         Me.Icon_epuipwp_elf.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_elf.TabIndex = 1
-        Me.Icon_epuipwp_elf.TabStop = false
+        Me.Icon_epuipwp_elf.TabStop = False
         '
         'Bar_epuipwp_elf
         '
@@ -9785,7 +9786,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_elf.Name = "Bar_epuipwp_elf"
         Me.Bar_epuipwp_elf.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_elf.TabIndex = 0
-        Me.Bar_epuipwp_elf.Visible = false
+        Me.Bar_epuipwp_elf.Visible = False
         '
         'valu_epuipwp_elf
         '
@@ -9812,12 +9813,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_cat.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Felin
         Me.Icon_epuipwp_cat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_cat.Enabled = false
+        Me.Icon_epuipwp_cat.Enabled = False
         Me.Icon_epuipwp_cat.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_cat.Name = "Icon_epuipwp_cat"
         Me.Icon_epuipwp_cat.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_cat.TabIndex = 1
-        Me.Icon_epuipwp_cat.TabStop = false
+        Me.Icon_epuipwp_cat.TabStop = False
         '
         'Bar_epuipwp_cat
         '
@@ -9829,7 +9830,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_cat.Name = "Bar_epuipwp_cat"
         Me.Bar_epuipwp_cat.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_cat.TabIndex = 0
-        Me.Bar_epuipwp_cat.Visible = false
+        Me.Bar_epuipwp_cat.Visible = False
         '
         'valu_epuipwp_cat
         '
@@ -9856,12 +9857,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_scientist.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Scientifique
         Me.Icon_epuipwp_scientist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_scientist.Enabled = false
+        Me.Icon_epuipwp_scientist.Enabled = False
         Me.Icon_epuipwp_scientist.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_scientist.Name = "Icon_epuipwp_scientist"
         Me.Icon_epuipwp_scientist.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_scientist.TabIndex = 1
-        Me.Icon_epuipwp_scientist.TabStop = false
+        Me.Icon_epuipwp_scientist.TabStop = False
         '
         'Bar_epuipwp_scientist
         '
@@ -9873,7 +9874,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_scientist.Name = "Bar_epuipwp_scientist"
         Me.Bar_epuipwp_scientist.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_scientist.TabIndex = 0
-        Me.Bar_epuipwp_scientist.Visible = false
+        Me.Bar_epuipwp_scientist.Visible = False
         '
         'valu_epuipwp_scientist
         '
@@ -9900,12 +9901,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_flower.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Fleur
         Me.Icon_epuipwp_flower.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_flower.Enabled = false
+        Me.Icon_epuipwp_flower.Enabled = False
         Me.Icon_epuipwp_flower.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_flower.Name = "Icon_epuipwp_flower"
         Me.Icon_epuipwp_flower.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_flower.TabIndex = 1
-        Me.Icon_epuipwp_flower.TabStop = false
+        Me.Icon_epuipwp_flower.TabStop = False
         '
         'Bar_epuipwp_flower
         '
@@ -9917,7 +9918,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_flower.Name = "Bar_epuipwp_flower"
         Me.Bar_epuipwp_flower.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_flower.TabIndex = 0
-        Me.Bar_epuipwp_flower.Visible = false
+        Me.Bar_epuipwp_flower.Visible = False
         '
         'valu_epuipwp_flower
         '
@@ -9944,12 +9945,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_princess.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Princesse
         Me.Icon_epuipwp_princess.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_princess.Enabled = false
+        Me.Icon_epuipwp_princess.Enabled = False
         Me.Icon_epuipwp_princess.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_princess.Name = "Icon_epuipwp_princess"
         Me.Icon_epuipwp_princess.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_princess.TabIndex = 1
-        Me.Icon_epuipwp_princess.TabStop = false
+        Me.Icon_epuipwp_princess.TabStop = False
         '
         'Bar_epuipwp_princess
         '
@@ -9961,7 +9962,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_princess.Name = "Bar_epuipwp_princess"
         Me.Bar_epuipwp_princess.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_princess.TabIndex = 0
-        Me.Bar_epuipwp_princess.Visible = false
+        Me.Bar_epuipwp_princess.Visible = False
         '
         'valu_epuipwp_princess
         '
@@ -9988,12 +9989,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_imp.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Diablotin
         Me.Icon_epuipwp_imp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_imp.Enabled = false
+        Me.Icon_epuipwp_imp.Enabled = False
         Me.Icon_epuipwp_imp.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_imp.Name = "Icon_epuipwp_imp"
         Me.Icon_epuipwp_imp.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_imp.TabIndex = 1
-        Me.Icon_epuipwp_imp.TabStop = false
+        Me.Icon_epuipwp_imp.TabStop = False
         '
         'Bar_epuipwp_imp
         '
@@ -10005,7 +10006,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_imp.Name = "Bar_epuipwp_imp"
         Me.Bar_epuipwp_imp.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_imp.TabIndex = 0
-        Me.Bar_epuipwp_imp.Visible = false
+        Me.Bar_epuipwp_imp.Visible = False
         '
         'valu_epuipwp_imp
         '
@@ -10032,12 +10033,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_tank.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Tank
         Me.Icon_epuipwp_tank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_tank.Enabled = false
+        Me.Icon_epuipwp_tank.Enabled = False
         Me.Icon_epuipwp_tank.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_tank.Name = "Icon_epuipwp_tank"
         Me.Icon_epuipwp_tank.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_tank.TabIndex = 1
-        Me.Icon_epuipwp_tank.TabStop = false
+        Me.Icon_epuipwp_tank.TabStop = False
         '
         'Bar_epuipwp_tank
         '
@@ -10049,7 +10050,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_tank.Name = "Bar_epuipwp_tank"
         Me.Bar_epuipwp_tank.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_tank.TabIndex = 0
-        Me.Bar_epuipwp_tank.Visible = false
+        Me.Bar_epuipwp_tank.Visible = False
         '
         'valu_epuipwp_tank
         '
@@ -10076,12 +10077,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_chef.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Cuisinier
         Me.Icon_epuipwp_chef.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_chef.Enabled = false
+        Me.Icon_epuipwp_chef.Enabled = False
         Me.Icon_epuipwp_chef.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_chef.Name = "Icon_epuipwp_chef"
         Me.Icon_epuipwp_chef.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_chef.TabIndex = 1
-        Me.Icon_epuipwp_chef.TabStop = false
+        Me.Icon_epuipwp_chef.TabStop = False
         '
         'Bar_epuipwp_chef
         '
@@ -10093,7 +10094,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_chef.Name = "Bar_epuipwp_chef"
         Me.Bar_epuipwp_chef.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_chef.TabIndex = 0
-        Me.Bar_epuipwp_chef.Visible = false
+        Me.Bar_epuipwp_chef.Visible = False
         '
         'valu_epuipwp_chef
         '
@@ -10120,12 +10121,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_vampire.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Vampire
         Me.Icon_epuipwp_vampire.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_vampire.Enabled = false
+        Me.Icon_epuipwp_vampire.Enabled = False
         Me.Icon_epuipwp_vampire.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_vampire.Name = "Icon_epuipwp_vampire"
         Me.Icon_epuipwp_vampire.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_vampire.TabIndex = 1
-        Me.Icon_epuipwp_vampire.TabStop = false
+        Me.Icon_epuipwp_vampire.TabStop = False
         '
         'Bar_epuipwp_vampire
         '
@@ -10137,7 +10138,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_vampire.Name = "Bar_epuipwp_vampire"
         Me.Bar_epuipwp_vampire.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_vampire.TabIndex = 0
-        Me.Bar_epuipwp_vampire.Visible = false
+        Me.Bar_epuipwp_vampire.Visible = False
         '
         'valu_epuipwp_vampire
         '
@@ -10164,12 +10165,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_popstar.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Chanteur
         Me.Icon_epuipwp_popstar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_popstar.Enabled = false
+        Me.Icon_epuipwp_popstar.Enabled = False
         Me.Icon_epuipwp_popstar.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_popstar.Name = "Icon_epuipwp_popstar"
         Me.Icon_epuipwp_popstar.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_popstar.TabIndex = 1
-        Me.Icon_epuipwp_popstar.TabStop = false
+        Me.Icon_epuipwp_popstar.TabStop = False
         '
         'Bar_epuipwp_popstar
         '
@@ -10181,7 +10182,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_popstar.Name = "Bar_epuipwp_popstar"
         Me.Bar_epuipwp_popstar.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_popstar.TabIndex = 0
-        Me.Bar_epuipwp_popstar.Visible = false
+        Me.Bar_epuipwp_popstar.Visible = False
         '
         'valu_epuipwp_popstar
         '
@@ -10208,12 +10209,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_thief.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Voleur
         Me.Icon_epuipwp_thief.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_thief.Enabled = false
+        Me.Icon_epuipwp_thief.Enabled = False
         Me.Icon_epuipwp_thief.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_thief.Name = "Icon_epuipwp_thief"
         Me.Icon_epuipwp_thief.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_thief.TabIndex = 1
-        Me.Icon_epuipwp_thief.TabStop = false
+        Me.Icon_epuipwp_thief.TabStop = False
         '
         'Bar_epuipwp_thief
         '
@@ -10225,7 +10226,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_thief.Name = "Bar_epuipwp_thief"
         Me.Bar_epuipwp_thief.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_thief.TabIndex = 0
-        Me.Bar_epuipwp_thief.Visible = false
+        Me.Bar_epuipwp_thief.Visible = False
         '
         'valu_epuipwp_thief
         '
@@ -10252,12 +10253,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_cleric.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Pretre
         Me.Icon_epuipwp_cleric.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_cleric.Enabled = false
+        Me.Icon_epuipwp_cleric.Enabled = False
         Me.Icon_epuipwp_cleric.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_cleric.Name = "Icon_epuipwp_cleric"
         Me.Icon_epuipwp_cleric.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_cleric.TabIndex = 1
-        Me.Icon_epuipwp_cleric.TabStop = false
+        Me.Icon_epuipwp_cleric.TabStop = False
         '
         'Bar_epuipwp_cleric
         '
@@ -10269,7 +10270,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_cleric.Name = "Bar_epuipwp_cleric"
         Me.Bar_epuipwp_cleric.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_cleric.TabIndex = 0
-        Me.Bar_epuipwp_cleric.Visible = false
+        Me.Bar_epuipwp_cleric.Visible = False
         '
         'valu_epuipwp_cleric
         '
@@ -10296,12 +10297,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_mage.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Mage
         Me.Icon_epuipwp_mage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_mage.Enabled = false
+        Me.Icon_epuipwp_mage.Enabled = False
         Me.Icon_epuipwp_mage.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_mage.Name = "Icon_epuipwp_mage"
         Me.Icon_epuipwp_mage.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_mage.TabIndex = 1
-        Me.Icon_epuipwp_mage.TabStop = false
+        Me.Icon_epuipwp_mage.TabStop = False
         '
         'Bar_epuipwp_mage
         '
@@ -10313,7 +10314,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_mage.Name = "Bar_epuipwp_mage"
         Me.Bar_epuipwp_mage.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_mage.TabIndex = 0
-        Me.Bar_epuipwp_mage.Visible = false
+        Me.Bar_epuipwp_mage.Visible = False
         '
         'valu_epuipwp_mage
         '
@@ -10340,12 +10341,12 @@ Partial Class Miitopia_SE
         '
         Me.Icon_epuipwp_warrior.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Guerrier
         Me.Icon_epuipwp_warrior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Icon_epuipwp_warrior.Enabled = false
+        Me.Icon_epuipwp_warrior.Enabled = False
         Me.Icon_epuipwp_warrior.Location = New System.Drawing.Point(21, 21)
         Me.Icon_epuipwp_warrior.Name = "Icon_epuipwp_warrior"
         Me.Icon_epuipwp_warrior.Size = New System.Drawing.Size(52, 52)
         Me.Icon_epuipwp_warrior.TabIndex = 1
-        Me.Icon_epuipwp_warrior.TabStop = false
+        Me.Icon_epuipwp_warrior.TabStop = False
         '
         'Bar_epuipwp_warrior
         '
@@ -10357,7 +10358,7 @@ Partial Class Miitopia_SE
         Me.Bar_epuipwp_warrior.Name = "Bar_epuipwp_warrior"
         Me.Bar_epuipwp_warrior.Size = New System.Drawing.Size(94, 18)
         Me.Bar_epuipwp_warrior.TabIndex = 0
-        Me.Bar_epuipwp_warrior.Visible = false
+        Me.Bar_epuipwp_warrior.Visible = False
         '
         'valu_epuipwp_warrior
         '
@@ -10383,7 +10384,7 @@ Partial Class Miitopia_SE
         'Text_open_hero
         '
         Me.Text_open_hero.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Text_open_hero.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Text_open_hero.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Text_open_hero.ForeColor = System.Drawing.SystemColors.Info
         Me.Text_open_hero.Location = New System.Drawing.Point(0, 0)
         Me.Text_open_hero.Name = "Text_open_hero"
@@ -10406,7 +10407,7 @@ Partial Class Miitopia_SE
         'Text_save_hero
         '
         Me.Text_save_hero.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Text_save_hero.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Text_save_hero.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Text_save_hero.ForeColor = System.Drawing.SystemColors.Info
         Me.Text_save_hero.Location = New System.Drawing.Point(0, 0)
         Me.Text_save_hero.Name = "Text_save_hero"
@@ -10425,7 +10426,18 @@ Partial Class Miitopia_SE
         Me.File_path_hero.Name = "File_path_hero"
         Me.File_path_hero.Size = New System.Drawing.Size(370, 25)
         Me.File_path_hero.TabIndex = 17
-        Me.File_path_hero.Visible = false
+        Me.File_path_hero.Visible = False
+        '
+        'File_path_cottage
+        '
+        Me.File_path_cottage.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.File_path_cottage.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.File_path_cottage.Location = New System.Drawing.Point(3, 6)
+        Me.File_path_cottage.Name = "File_path_cottage"
+        Me.File_path_cottage.ReadOnly = True
+        Me.File_path_cottage.Size = New System.Drawing.Size(364, 13)
+        Me.File_path_cottage.TabIndex = 1
+        Me.File_path_cottage.Visible = False
         '
         'TextBox_fpath_hero
         '
@@ -10433,7 +10445,7 @@ Partial Class Miitopia_SE
         Me.TextBox_fpath_hero.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox_fpath_hero.Location = New System.Drawing.Point(3, 6)
         Me.TextBox_fpath_hero.Name = "TextBox_fpath_hero"
-        Me.TextBox_fpath_hero.ReadOnly = true
+        Me.TextBox_fpath_hero.ReadOnly = True
         Me.TextBox_fpath_hero.Size = New System.Drawing.Size(364, 13)
         Me.TextBox_fpath_hero.TabIndex = 0
         '
@@ -10450,13 +10462,13 @@ Partial Class Miitopia_SE
         Me.Panel_notification.Name = "Panel_notification"
         Me.Panel_notification.Size = New System.Drawing.Size(100, 37)
         Me.Panel_notification.TabIndex = 21
-        Me.Panel_notification.Visible = false
+        Me.Panel_notification.Visible = False
         '
         'Text_notification
         '
         Me.Text_notification.BackColor = System.Drawing.Color.Transparent
         Me.Text_notification.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Text_notification.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Text_notification.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Text_notification.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Text_notification.Location = New System.Drawing.Point(0, 0)
         Me.Text_notification.Name = "Text_notification"
@@ -10477,14 +10489,14 @@ Partial Class Miitopia_SE
         Me.Panel_cottage.Name = "Panel_cottage"
         Me.Panel_cottage.Size = New System.Drawing.Size(550, 443)
         Me.Panel_cottage.TabIndex = 22
-        Me.Panel_cottage.Visible = false
+        Me.Panel_cottage.Visible = False
         '
         'ComboBox4
         '
         Me.ComboBox4.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox4.FormattingEnabled = true
+        Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Items.AddRange(New Object() {"Mii 1", "Mii 2", "Mii 3", "Mii 4", "Mii 5", "Mii 6", "Mii 7", "Mii 8", "Mii 9", "Mii 10"})
         Me.ComboBox4.Location = New System.Drawing.Point(62, 24)
         Me.ComboBox4.Name = "ComboBox4"
@@ -10494,13 +10506,13 @@ Partial Class Miitopia_SE
         'PictureBox31
         '
         Me.PictureBox31.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox31.BackgroundImage = CType(resources.GetObject("PictureBox31.BackgroundImage"),System.Drawing.Image)
+        Me.PictureBox31.BackgroundImage = CType(resources.GetObject("PictureBox31.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox31.Location = New System.Drawing.Point(27, 10)
         Me.PictureBox31.Name = "PictureBox31"
         Me.PictureBox31.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox31.TabIndex = 34
-        Me.PictureBox31.TabStop = false
+        Me.PictureBox31.TabStop = False
         '
         'TabControl7
         '
@@ -10542,7 +10554,7 @@ Partial Class Miitopia_SE
         Me.TabPage3.Size = New System.Drawing.Size(524, 351)
         Me.TabPage3.TabIndex = 0
         Me.TabPage3.Text = "Mii edition"
-        Me.TabPage3.UseVisualStyleBackColor = true
+        Me.TabPage3.UseVisualStyleBackColor = True
         '
         'Panel32
         '
@@ -10554,7 +10566,7 @@ Partial Class Miitopia_SE
         Me.Panel32.Name = "Panel32"
         Me.Panel32.Size = New System.Drawing.Size(423, 254)
         Me.Panel32.TabIndex = 62
-        Me.Panel32.Visible = false
+        Me.Panel32.Visible = False
         '
         'GroupBox1
         '
@@ -10565,7 +10577,7 @@ Partial Class Miitopia_SE
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(361, 95)
         Me.GroupBox1.TabIndex = 63
-        Me.GroupBox1.TabStop = false
+        Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Appearance equipments"
         '
         'Panel34
@@ -10584,14 +10596,14 @@ Partial Class Miitopia_SE
         'ComboBox5
         '
         Me.ComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox5.Enabled = false
+        Me.ComboBox5.Enabled = False
         Me.ComboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox5.FormattingEnabled = true
+        Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(86, 21)
         Me.ComboBox5.TabIndex = 2
-        Me.ComboBox5.Visible = false
+        Me.ComboBox5.Visible = False
         '
         'Panel36
         '
@@ -10617,14 +10629,14 @@ Partial Class Miitopia_SE
         'PictureBox32
         '
         Me.PictureBox32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox32.Enabled = false
+        Me.PictureBox32.Enabled = False
         Me.PictureBox32.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_weapons
         Me.PictureBox32.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox32.Name = "PictureBox32"
         Me.PictureBox32.Size = New System.Drawing.Size(35, 25)
         Me.PictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox32.TabIndex = 1
-        Me.PictureBox32.TabStop = false
+        Me.PictureBox32.TabStop = False
         '
         'Panel38
         '
@@ -10642,14 +10654,14 @@ Partial Class Miitopia_SE
         'ComboBox6
         '
         Me.ComboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox6.Enabled = false
+        Me.ComboBox6.Enabled = False
         Me.ComboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox6.FormattingEnabled = true
+        Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox6.Name = "ComboBox6"
         Me.ComboBox6.Size = New System.Drawing.Size(86, 21)
         Me.ComboBox6.TabIndex = 2
-        Me.ComboBox6.Visible = false
+        Me.ComboBox6.Visible = False
         '
         'Panel40
         '
@@ -10675,14 +10687,14 @@ Partial Class Miitopia_SE
         'PictureBox33
         '
         Me.PictureBox33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox33.Enabled = false
+        Me.PictureBox33.Enabled = False
         Me.PictureBox33.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_hats
         Me.PictureBox33.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox33.Name = "PictureBox33"
         Me.PictureBox33.Size = New System.Drawing.Size(32, 22)
         Me.PictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox33.TabIndex = 1
-        Me.PictureBox33.TabStop = false
+        Me.PictureBox33.TabStop = False
         '
         'Panel42
         '
@@ -10700,14 +10712,14 @@ Partial Class Miitopia_SE
         'ComboBox7
         '
         Me.ComboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox7.Enabled = false
+        Me.ComboBox7.Enabled = False
         Me.ComboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox7.FormattingEnabled = true
+        Me.ComboBox7.FormattingEnabled = True
         Me.ComboBox7.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox7.Name = "ComboBox7"
         Me.ComboBox7.Size = New System.Drawing.Size(86, 21)
         Me.ComboBox7.TabIndex = 2
-        Me.ComboBox7.Visible = false
+        Me.ComboBox7.Visible = False
         '
         'Panel44
         '
@@ -10733,14 +10745,14 @@ Partial Class Miitopia_SE
         'PictureBox34
         '
         Me.PictureBox34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox34.Enabled = false
+        Me.PictureBox34.Enabled = False
         Me.PictureBox34.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_clothes
         Me.PictureBox34.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox34.Name = "PictureBox34"
         Me.PictureBox34.Size = New System.Drawing.Size(35, 25)
         Me.PictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox34.TabIndex = 1
-        Me.PictureBox34.TabStop = false
+        Me.PictureBox34.TabStop = False
         '
         'GroupBox2
         '
@@ -10751,7 +10763,7 @@ Partial Class Miitopia_SE
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(361, 95)
         Me.GroupBox2.TabIndex = 62
-        Me.GroupBox2.TabStop = false
+        Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Equiped equipments"
         '
         'Panel46
@@ -10770,14 +10782,14 @@ Partial Class Miitopia_SE
         'ComboBox8
         '
         Me.ComboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox8.Enabled = false
+        Me.ComboBox8.Enabled = False
         Me.ComboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox8.FormattingEnabled = true
+        Me.ComboBox8.FormattingEnabled = True
         Me.ComboBox8.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox8.Name = "ComboBox8"
         Me.ComboBox8.Size = New System.Drawing.Size(86, 21)
         Me.ComboBox8.TabIndex = 2
-        Me.ComboBox8.Visible = false
+        Me.ComboBox8.Visible = False
         '
         'Panel48
         '
@@ -10803,14 +10815,14 @@ Partial Class Miitopia_SE
         'PictureBox35
         '
         Me.PictureBox35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox35.Enabled = false
+        Me.PictureBox35.Enabled = False
         Me.PictureBox35.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_weapons
         Me.PictureBox35.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox35.Name = "PictureBox35"
         Me.PictureBox35.Size = New System.Drawing.Size(35, 25)
         Me.PictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox35.TabIndex = 1
-        Me.PictureBox35.TabStop = false
+        Me.PictureBox35.TabStop = False
         '
         'Panel50
         '
@@ -10828,14 +10840,14 @@ Partial Class Miitopia_SE
         'ComboBox9
         '
         Me.ComboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox9.Enabled = false
+        Me.ComboBox9.Enabled = False
         Me.ComboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox9.FormattingEnabled = true
+        Me.ComboBox9.FormattingEnabled = True
         Me.ComboBox9.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox9.Name = "ComboBox9"
         Me.ComboBox9.Size = New System.Drawing.Size(86, 21)
         Me.ComboBox9.TabIndex = 2
-        Me.ComboBox9.Visible = false
+        Me.ComboBox9.Visible = False
         '
         'Panel52
         '
@@ -10861,14 +10873,14 @@ Partial Class Miitopia_SE
         'PictureBox36
         '
         Me.PictureBox36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox36.Enabled = false
+        Me.PictureBox36.Enabled = False
         Me.PictureBox36.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_hats
         Me.PictureBox36.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox36.Name = "PictureBox36"
         Me.PictureBox36.Size = New System.Drawing.Size(32, 22)
         Me.PictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox36.TabIndex = 1
-        Me.PictureBox36.TabStop = false
+        Me.PictureBox36.TabStop = False
         '
         'Panel53
         '
@@ -10886,14 +10898,14 @@ Partial Class Miitopia_SE
         'ComboBox10
         '
         Me.ComboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox10.Enabled = false
+        Me.ComboBox10.Enabled = False
         Me.ComboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox10.FormattingEnabled = true
+        Me.ComboBox10.FormattingEnabled = True
         Me.ComboBox10.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox10.Name = "ComboBox10"
         Me.ComboBox10.Size = New System.Drawing.Size(86, 21)
         Me.ComboBox10.TabIndex = 2
-        Me.ComboBox10.Visible = false
+        Me.ComboBox10.Visible = False
         '
         'Panel54
         '
@@ -10919,14 +10931,14 @@ Partial Class Miitopia_SE
         'PictureBox37
         '
         Me.PictureBox37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox37.Enabled = false
+        Me.PictureBox37.Enabled = False
         Me.PictureBox37.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.icon_clothes
         Me.PictureBox37.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox37.Name = "PictureBox37"
         Me.PictureBox37.Size = New System.Drawing.Size(35, 25)
         Me.PictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox37.TabIndex = 1
-        Me.PictureBox37.TabStop = false
+        Me.PictureBox37.TabStop = False
         '
         'Panel55
         '
@@ -10960,7 +10972,7 @@ Partial Class Miitopia_SE
         'Panel57
         '
         Me.Panel57.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_left
-        Me.Panel57.Enabled = false
+        Me.Panel57.Enabled = False
         Me.Panel57.Location = New System.Drawing.Point(98, 318)
         Me.Panel57.Name = "Panel57"
         Me.Panel57.Size = New System.Drawing.Size(13, 30)
@@ -11014,7 +11026,7 @@ Partial Class Miitopia_SE
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(250, 37)
         Me.GroupBox3.TabIndex = 2
-        Me.GroupBox3.TabStop = false
+        Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "War cry"
         '
         'TextBox1
@@ -11035,7 +11047,7 @@ Partial Class Miitopia_SE
         Me.NumericUpDown7.Size = New System.Drawing.Size(43, 16)
         Me.NumericUpDown7.TabIndex = 23
         Me.NumericUpDown7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown7.Visible = false
+        Me.NumericUpDown7.Visible = False
         '
         'Panel61
         '
@@ -11053,7 +11065,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox11.FormattingEnabled = true
+        Me.ComboBox11.FormattingEnabled = True
         Me.ComboBox11.Items.AddRange(New Object() {"Pose 1", "Pose 2", "Pose 3", "Pose 4", "Pose 5", "Pose 6", "Pose 7", "Pose 8", "Pose 9", "Pose 10", "Pose 11", "Pose 12", "???"})
         Me.ComboBox11.Location = New System.Drawing.Point(166, 5)
         Me.ComboBox11.Name = "ComboBox11"
@@ -11069,7 +11081,7 @@ Partial Class Miitopia_SE
         Me.NumericUpDown8.Size = New System.Drawing.Size(34, 16)
         Me.NumericUpDown8.TabIndex = 36
         Me.NumericUpDown8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown8.Visible = false
+        Me.NumericUpDown8.Visible = False
         '
         'NumericUpDown9
         '
@@ -11080,13 +11092,13 @@ Partial Class Miitopia_SE
         Me.NumericUpDown9.Size = New System.Drawing.Size(30, 16)
         Me.NumericUpDown9.TabIndex = 35
         Me.NumericUpDown9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown9.Visible = false
+        Me.NumericUpDown9.Visible = False
         '
         'ComboBox12
         '
         Me.ComboBox12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox12.FormattingEnabled = true
+        Me.ComboBox12.FormattingEnabled = True
         Me.ComboBox12.Items.AddRange(New Object() {"Kind", "Energetic", "Laid-back", "Cool", "Stubborn", "Airheaded", "Cautious"})
         Me.ComboBox12.Location = New System.Drawing.Point(32, 5)
         Me.ComboBox12.Name = "ComboBox12"
@@ -11101,7 +11113,7 @@ Partial Class Miitopia_SE
         Me.PictureBox38.Name = "PictureBox38"
         Me.PictureBox38.Size = New System.Drawing.Size(82, 74)
         Me.PictureBox38.TabIndex = 22
-        Me.PictureBox38.TabStop = false
+        Me.PictureBox38.TabStop = False
         '
         'Panel62
         '
@@ -11122,7 +11134,7 @@ Partial Class Miitopia_SE
         'Panel64
         '
         Me.Panel64.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_right
-        Me.Panel64.Enabled = false
+        Me.Panel64.Enabled = False
         Me.Panel64.Location = New System.Drawing.Point(166, 22)
         Me.Panel64.Name = "Panel64"
         Me.Panel64.Size = New System.Drawing.Size(12, 30)
@@ -11131,7 +11143,7 @@ Partial Class Miitopia_SE
         'Panel65
         '
         Me.Panel65.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_left
-        Me.Panel65.Enabled = false
+        Me.Panel65.Enabled = False
         Me.Panel65.Location = New System.Drawing.Point(29, 22)
         Me.Panel65.Name = "Panel65"
         Me.Panel65.Size = New System.Drawing.Size(13, 30)
@@ -11164,7 +11176,7 @@ Partial Class Miitopia_SE
         Me.NumericUpDown10.Size = New System.Drawing.Size(34, 16)
         Me.NumericUpDown10.TabIndex = 25
         Me.NumericUpDown10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown10.Visible = false
+        Me.NumericUpDown10.Visible = False
         '
         'PictureBox39
         '
@@ -11174,7 +11186,7 @@ Partial Class Miitopia_SE
         Me.PictureBox39.Name = "PictureBox39"
         Me.PictureBox39.Size = New System.Drawing.Size(78, 91)
         Me.PictureBox39.TabIndex = 27
-        Me.PictureBox39.TabStop = false
+        Me.PictureBox39.TabStop = False
         '
         'Panel67
         '
@@ -11200,7 +11212,7 @@ Partial Class Miitopia_SE
         Me.Panel67.Name = "Panel67"
         Me.Panel67.Size = New System.Drawing.Size(405, 183)
         Me.Panel67.TabIndex = 37
-        Me.Panel67.Visible = false
+        Me.Panel67.Visible = False
         '
         'NumericUpDown11
         '
@@ -11244,7 +11256,7 @@ Partial Class Miitopia_SE
         '
         'Label3
         '
-        Me.Label3.AutoSize = true
+        Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(6, 24)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(39, 13)
@@ -11253,7 +11265,7 @@ Partial Class Miitopia_SE
         '
         'Label4
         '
-        Me.Label4.AutoSize = true
+        Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(204, 139)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(71, 13)
@@ -11262,7 +11274,7 @@ Partial Class Miitopia_SE
         '
         'Label5
         '
-        Me.Label5.AutoSize = true
+        Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(6, 61)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(59, 13)
@@ -11271,7 +11283,7 @@ Partial Class Miitopia_SE
         '
         'Label6
         '
-        Me.Label6.AutoSize = true
+        Me.Label6.AutoSize = True
         Me.Label6.Location = New System.Drawing.Point(6, 100)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(44, 13)
@@ -11280,7 +11292,7 @@ Partial Class Miitopia_SE
         '
         'Label8
         '
-        Me.Label8.AutoSize = true
+        Me.Label8.AutoSize = True
         Me.Label8.Location = New System.Drawing.Point(204, 100)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(72, 13)
@@ -11289,7 +11301,7 @@ Partial Class Miitopia_SE
         '
         'Label9
         '
-        Me.Label9.AutoSize = true
+        Me.Label9.AutoSize = True
         Me.Label9.Location = New System.Drawing.Point(6, 141)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(108, 13)
@@ -11308,7 +11320,7 @@ Partial Class Miitopia_SE
         '
         'Label10
         '
-        Me.Label10.AutoSize = true
+        Me.Label10.AutoSize = True
         Me.Label10.Location = New System.Drawing.Point(204, 61)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(99, 13)
@@ -11337,7 +11349,7 @@ Partial Class Miitopia_SE
         '
         'Label11
         '
-        Me.Label11.AutoSize = true
+        Me.Label11.AutoSize = True
         Me.Label11.Location = New System.Drawing.Point(204, 24)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(108, 13)
@@ -11364,7 +11376,7 @@ Partial Class Miitopia_SE
         Me.TabPage4.Size = New System.Drawing.Size(524, 351)
         Me.TabPage4.TabIndex = 1
         Me.TabPage4.Text = "Inn"
-        Me.TabPage4.UseVisualStyleBackColor = true
+        Me.TabPage4.UseVisualStyleBackColor = True
         '
         'Panel68
         '
@@ -11388,13 +11400,13 @@ Partial Class Miitopia_SE
         Me.PictureBox40.Size = New System.Drawing.Size(52, 65)
         Me.PictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox40.TabIndex = 19
-        Me.PictureBox40.TabStop = false
+        Me.PictureBox40.TabStop = False
         '
         'Label12
         '
-        Me.Label12.AutoSize = true
+        Me.Label12.AutoSize = True
         Me.Label12.Cursor = System.Windows.Forms.Cursors.Help
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Blue
         Me.Label12.Location = New System.Drawing.Point(428, 263)
         Me.Label12.Name = "Label12"
@@ -11411,7 +11423,7 @@ Partial Class Miitopia_SE
         Me.PictureBox41.Size = New System.Drawing.Size(40, 50)
         Me.PictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox41.TabIndex = 3
-        Me.PictureBox41.TabStop = false
+        Me.PictureBox41.TabStop = False
         '
         'NumericUpDown19
         '
@@ -11422,7 +11434,7 @@ Partial Class Miitopia_SE
         Me.NumericUpDown19.Size = New System.Drawing.Size(52, 16)
         Me.NumericUpDown19.TabIndex = 2
         Me.NumericUpDown19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown19.Visible = false
+        Me.NumericUpDown19.Visible = False
         '
         'NumericUpDown20
         '
@@ -11433,7 +11445,7 @@ Partial Class Miitopia_SE
         Me.NumericUpDown20.Size = New System.Drawing.Size(52, 16)
         Me.NumericUpDown20.TabIndex = 1
         Me.NumericUpDown20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown20.Visible = false
+        Me.NumericUpDown20.Visible = False
         '
         'Panel69
         '
@@ -11462,7 +11474,7 @@ Partial Class Miitopia_SE
         Me.PictureBox42.Size = New System.Drawing.Size(40, 50)
         Me.PictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox42.TabIndex = 9
-        Me.PictureBox42.TabStop = false
+        Me.PictureBox42.TabStop = False
         '
         'PictureBox43
         '
@@ -11473,7 +11485,7 @@ Partial Class Miitopia_SE
         Me.PictureBox43.Size = New System.Drawing.Size(40, 50)
         Me.PictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox43.TabIndex = 8
-        Me.PictureBox43.TabStop = false
+        Me.PictureBox43.TabStop = False
         '
         'PictureBox44
         '
@@ -11484,7 +11496,7 @@ Partial Class Miitopia_SE
         Me.PictureBox44.Size = New System.Drawing.Size(40, 50)
         Me.PictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox44.TabIndex = 7
-        Me.PictureBox44.TabStop = false
+        Me.PictureBox44.TabStop = False
         '
         'PictureBox45
         '
@@ -11495,7 +11507,7 @@ Partial Class Miitopia_SE
         Me.PictureBox45.Size = New System.Drawing.Size(40, 50)
         Me.PictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox45.TabIndex = 6
-        Me.PictureBox45.TabStop = false
+        Me.PictureBox45.TabStop = False
         '
         'PictureBox46
         '
@@ -11506,7 +11518,7 @@ Partial Class Miitopia_SE
         Me.PictureBox46.Size = New System.Drawing.Size(40, 50)
         Me.PictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox46.TabIndex = 5
-        Me.PictureBox46.TabStop = false
+        Me.PictureBox46.TabStop = False
         '
         'PictureBox47
         '
@@ -11517,7 +11529,7 @@ Partial Class Miitopia_SE
         Me.PictureBox47.Size = New System.Drawing.Size(40, 50)
         Me.PictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox47.TabIndex = 4
-        Me.PictureBox47.TabStop = false
+        Me.PictureBox47.TabStop = False
         '
         'PictureBox48
         '
@@ -11528,7 +11540,7 @@ Partial Class Miitopia_SE
         Me.PictureBox48.Size = New System.Drawing.Size(40, 50)
         Me.PictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox48.TabIndex = 3
-        Me.PictureBox48.TabStop = false
+        Me.PictureBox48.TabStop = False
         '
         'PictureBox49
         '
@@ -11539,7 +11551,7 @@ Partial Class Miitopia_SE
         Me.PictureBox49.Size = New System.Drawing.Size(40, 50)
         Me.PictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox49.TabIndex = 2
-        Me.PictureBox49.TabStop = false
+        Me.PictureBox49.TabStop = False
         '
         'PictureBox50
         '
@@ -11550,7 +11562,7 @@ Partial Class Miitopia_SE
         Me.PictureBox50.Size = New System.Drawing.Size(40, 50)
         Me.PictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox50.TabIndex = 1
-        Me.PictureBox50.TabStop = false
+        Me.PictureBox50.TabStop = False
         '
         'PictureBox51
         '
@@ -11561,7 +11573,7 @@ Partial Class Miitopia_SE
         Me.PictureBox51.Size = New System.Drawing.Size(40, 50)
         Me.PictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox51.TabIndex = 0
-        Me.PictureBox51.TabStop = false
+        Me.PictureBox51.TabStop = False
         '
         'Panel70
         '
@@ -11577,7 +11589,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox13.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox13.FormattingEnabled = true
+        Me.ComboBox13.FormattingEnabled = True
         Me.ComboBox13.Items.AddRange(New Object() {"You talk in your sleep!", "There was a bug on your face!", "Sit-ups", "Push-ups", "Sidestepping", "Who do you like?", "So do you like anyone?", "You should tell me who you like.", "Who do you like? Tell me!", "Tell me the name of the person you like.", "Rules: Keep the world clean", "Rules: No painting", "Rules: Ignore the whispers", "Get well soon!", "Rest as long as you need.", "How are you feeling?", "Dual Quarrel: I'm sorry.", "Dual Quarrel: I think we should be friends again.", "Quarrel: I'm sorry for being so mean.", "??? (Change00)", "??? (ChangeCold)", "??? (ChangeRepair)", "Rumor", "??? (GameEnd00)", "??? (GameEnd01)", "Fond memory", "Singing (Greenhorne)", "Singing (???)", "Cleaning (Thank you!)", "Cleaning (I can help!)", "Cleaning (Cheering)", "Time for a new look!", "Impressions"})
         Me.ComboBox13.Location = New System.Drawing.Point(3, 308)
         Me.ComboBox13.Name = "ComboBox13"
@@ -11597,7 +11609,7 @@ Partial Class Miitopia_SE
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(97, 205)
         Me.GroupBox4.TabIndex = 1
-        Me.GroupBox4.TabStop = false
+        Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Interaction"
         '
         'NumericUpDown21
@@ -11609,7 +11621,7 @@ Partial Class Miitopia_SE
         Me.NumericUpDown21.Size = New System.Drawing.Size(35, 16)
         Me.NumericUpDown21.TabIndex = 10
         Me.NumericUpDown21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown21.Visible = false
+        Me.NumericUpDown21.Visible = False
         '
         'Label13
         '
@@ -11629,7 +11641,7 @@ Partial Class Miitopia_SE
         Me.NumericUpDown22.Size = New System.Drawing.Size(52, 16)
         Me.NumericUpDown22.TabIndex = 7
         Me.NumericUpDown22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown22.Visible = false
+        Me.NumericUpDown22.Visible = False
         '
         'NumericUpDown23
         '
@@ -11640,13 +11652,13 @@ Partial Class Miitopia_SE
         Me.NumericUpDown23.Size = New System.Drawing.Size(35, 16)
         Me.NumericUpDown23.TabIndex = 6
         Me.NumericUpDown23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown23.Visible = false
+        Me.NumericUpDown23.Visible = False
         '
         'ComboBox14
         '
         Me.ComboBox14.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox14.FormattingEnabled = true
+        Me.ComboBox14.FormattingEnabled = True
         Me.ComboBox14.Items.AddRange(New Object() {"(None)", "Mii 1", "Mii 2", "Mii 3", "Mii 4", "Mii 5", "Mii 6", "Mii 7", "Mii 8", "Mii 9", "Mii 10"})
         Me.ComboBox14.Location = New System.Drawing.Point(14, 94)
         Me.ComboBox14.Name = "ComboBox14"
@@ -11670,7 +11682,7 @@ Partial Class Miitopia_SE
         Me.PictureBox52.Name = "PictureBox52"
         Me.PictureBox52.Size = New System.Drawing.Size(51, 41)
         Me.PictureBox52.TabIndex = 0
-        Me.PictureBox52.TabStop = false
+        Me.PictureBox52.TabStop = False
         '
         'GroupBox5
         '
@@ -11683,7 +11695,7 @@ Partial Class Miitopia_SE
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Size = New System.Drawing.Size(97, 139)
         Me.GroupBox5.TabIndex = 0
-        Me.GroupBox5.TabStop = false
+        Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Health"
         '
         'Label15
@@ -11721,13 +11733,13 @@ Partial Class Miitopia_SE
         Me.NumericUpDown25.Size = New System.Drawing.Size(35, 16)
         Me.NumericUpDown25.TabIndex = 1
         Me.NumericUpDown25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown25.Visible = false
+        Me.NumericUpDown25.Visible = False
         '
         'ComboBox15
         '
         Me.ComboBox15.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox15.FormattingEnabled = true
+        Me.ComboBox15.FormattingEnabled = True
         Me.ComboBox15.Items.AddRange(New Object() {"Not sick", "Sick"})
         Me.ComboBox15.Location = New System.Drawing.Point(7, 20)
         Me.ComboBox15.Name = "ComboBox15"
@@ -11762,7 +11774,7 @@ Partial Class Miitopia_SE
         Me.TabPage5.Size = New System.Drawing.Size(524, 351)
         Me.TabPage5.TabIndex = 2
         Me.TabPage5.Text = "Levels / Boosts"
-        Me.TabPage5.UseVisualStyleBackColor = true
+        Me.TabPage5.UseVisualStyleBackColor = True
         '
         'GroupBox6
         '
@@ -11773,7 +11785,7 @@ Partial Class Miitopia_SE
         Me.GroupBox6.Name = "GroupBox6"
         Me.GroupBox6.Size = New System.Drawing.Size(127, 48)
         Me.GroupBox6.TabIndex = 70
-        Me.GroupBox6.TabStop = false
+        Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "Boost Speed"
         '
         'NumericUpDown26
@@ -11795,7 +11807,7 @@ Partial Class Miitopia_SE
         Me.GroupBox7.Name = "GroupBox7"
         Me.GroupBox7.Size = New System.Drawing.Size(127, 48)
         Me.GroupBox7.TabIndex = 69
-        Me.GroupBox7.TabStop = false
+        Me.GroupBox7.TabStop = False
         Me.GroupBox7.Text = "Boost Magic"
         '
         'NumericUpDown27
@@ -11817,7 +11829,7 @@ Partial Class Miitopia_SE
         Me.GroupBox8.Name = "GroupBox8"
         Me.GroupBox8.Size = New System.Drawing.Size(127, 48)
         Me.GroupBox8.TabIndex = 68
-        Me.GroupBox8.TabStop = false
+        Me.GroupBox8.TabStop = False
         Me.GroupBox8.Text = "Boost Defense"
         '
         'NumericUpDown28
@@ -11839,7 +11851,7 @@ Partial Class Miitopia_SE
         Me.GroupBox9.Name = "GroupBox9"
         Me.GroupBox9.Size = New System.Drawing.Size(127, 48)
         Me.GroupBox9.TabIndex = 67
-        Me.GroupBox9.TabStop = false
+        Me.GroupBox9.TabStop = False
         Me.GroupBox9.Text = "Boost Attack"
         '
         'NumericUpDown29
@@ -11861,7 +11873,7 @@ Partial Class Miitopia_SE
         Me.GroupBox10.Name = "GroupBox10"
         Me.GroupBox10.Size = New System.Drawing.Size(127, 48)
         Me.GroupBox10.TabIndex = 66
-        Me.GroupBox10.TabStop = false
+        Me.GroupBox10.TabStop = False
         Me.GroupBox10.Text = "Boost MP"
         '
         'NumericUpDown30
@@ -11883,7 +11895,7 @@ Partial Class Miitopia_SE
         Me.GroupBox11.Name = "GroupBox11"
         Me.GroupBox11.Size = New System.Drawing.Size(127, 48)
         Me.GroupBox11.TabIndex = 65
-        Me.GroupBox11.TabStop = false
+        Me.GroupBox11.TabStop = False
         Me.GroupBox11.Text = "Boost HP"
         '
         'NumericUpDown31
@@ -11913,7 +11925,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox16.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox16.FormattingEnabled = true
+        Me.ComboBox16.FormattingEnabled = True
         Me.ComboBox16.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox16.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox16.Name = "ComboBox16"
@@ -11930,7 +11942,7 @@ Partial Class Miitopia_SE
         Me.Panel72.Name = "Panel72"
         Me.Panel72.Size = New System.Drawing.Size(94, 18)
         Me.Panel72.TabIndex = 0
-        Me.Panel72.Visible = false
+        Me.Panel72.Visible = False
         '
         'NumericUpDown32
         '
@@ -11946,12 +11958,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox53.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.elfe
         Me.PictureBox53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox53.Enabled = false
+        Me.PictureBox53.Enabled = False
         Me.PictureBox53.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox53.Name = "PictureBox53"
         Me.PictureBox53.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox53.TabIndex = 1
-        Me.PictureBox53.TabStop = false
+        Me.PictureBox53.TabStop = False
         '
         'Panel73
         '
@@ -11970,7 +11982,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox17.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox17.FormattingEnabled = true
+        Me.ComboBox17.FormattingEnabled = True
         Me.ComboBox17.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox17.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox17.Name = "ComboBox17"
@@ -11987,7 +11999,7 @@ Partial Class Miitopia_SE
         Me.Panel74.Name = "Panel74"
         Me.Panel74.Size = New System.Drawing.Size(94, 18)
         Me.Panel74.TabIndex = 0
-        Me.Panel74.Visible = false
+        Me.Panel74.Visible = False
         '
         'NumericUpDown33
         '
@@ -12003,12 +12015,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox54.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Felin
         Me.PictureBox54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox54.Enabled = false
+        Me.PictureBox54.Enabled = False
         Me.PictureBox54.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox54.Name = "PictureBox54"
         Me.PictureBox54.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox54.TabIndex = 1
-        Me.PictureBox54.TabStop = false
+        Me.PictureBox54.TabStop = False
         '
         'Panel75
         '
@@ -12027,7 +12039,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox18.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox18.FormattingEnabled = true
+        Me.ComboBox18.FormattingEnabled = True
         Me.ComboBox18.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox18.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox18.Name = "ComboBox18"
@@ -12044,7 +12056,7 @@ Partial Class Miitopia_SE
         Me.Panel76.Name = "Panel76"
         Me.Panel76.Size = New System.Drawing.Size(94, 18)
         Me.Panel76.TabIndex = 0
-        Me.Panel76.Visible = false
+        Me.Panel76.Visible = False
         '
         'NumericUpDown34
         '
@@ -12060,12 +12072,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox55.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Scientifique
         Me.PictureBox55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox55.Enabled = false
+        Me.PictureBox55.Enabled = False
         Me.PictureBox55.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox55.Name = "PictureBox55"
         Me.PictureBox55.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox55.TabIndex = 1
-        Me.PictureBox55.TabStop = false
+        Me.PictureBox55.TabStop = False
         '
         'Panel77
         '
@@ -12084,7 +12096,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox19.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox19.FormattingEnabled = true
+        Me.ComboBox19.FormattingEnabled = True
         Me.ComboBox19.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox19.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox19.Name = "ComboBox19"
@@ -12101,7 +12113,7 @@ Partial Class Miitopia_SE
         Me.Panel78.Name = "Panel78"
         Me.Panel78.Size = New System.Drawing.Size(94, 18)
         Me.Panel78.TabIndex = 0
-        Me.Panel78.Visible = false
+        Me.Panel78.Visible = False
         '
         'NumericUpDown35
         '
@@ -12117,12 +12129,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox56.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Fleur
         Me.PictureBox56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox56.Enabled = false
+        Me.PictureBox56.Enabled = False
         Me.PictureBox56.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox56.Name = "PictureBox56"
         Me.PictureBox56.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox56.TabIndex = 1
-        Me.PictureBox56.TabStop = false
+        Me.PictureBox56.TabStop = False
         '
         'Panel79
         '
@@ -12141,7 +12153,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox20.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox20.FormattingEnabled = true
+        Me.ComboBox20.FormattingEnabled = True
         Me.ComboBox20.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox20.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox20.Name = "ComboBox20"
@@ -12158,7 +12170,7 @@ Partial Class Miitopia_SE
         Me.Panel80.Name = "Panel80"
         Me.Panel80.Size = New System.Drawing.Size(94, 18)
         Me.Panel80.TabIndex = 0
-        Me.Panel80.Visible = false
+        Me.Panel80.Visible = False
         '
         'NumericUpDown36
         '
@@ -12174,12 +12186,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox57.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Chanteur
         Me.PictureBox57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox57.Enabled = false
+        Me.PictureBox57.Enabled = False
         Me.PictureBox57.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox57.Name = "PictureBox57"
         Me.PictureBox57.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox57.TabIndex = 1
-        Me.PictureBox57.TabStop = false
+        Me.PictureBox57.TabStop = False
         '
         'Panel81
         '
@@ -12198,7 +12210,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox21.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox21.FormattingEnabled = true
+        Me.ComboBox21.FormattingEnabled = True
         Me.ComboBox21.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox21.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox21.Name = "ComboBox21"
@@ -12215,7 +12227,7 @@ Partial Class Miitopia_SE
         Me.Panel82.Name = "Panel82"
         Me.Panel82.Size = New System.Drawing.Size(94, 18)
         Me.Panel82.TabIndex = 0
-        Me.Panel82.Visible = false
+        Me.Panel82.Visible = False
         '
         'NumericUpDown37
         '
@@ -12231,12 +12243,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox58.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Voleur
         Me.PictureBox58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox58.Enabled = false
+        Me.PictureBox58.Enabled = False
         Me.PictureBox58.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox58.Name = "PictureBox58"
         Me.PictureBox58.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox58.TabIndex = 1
-        Me.PictureBox58.TabStop = false
+        Me.PictureBox58.TabStop = False
         '
         'Panel83
         '
@@ -12255,7 +12267,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox22.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox22.FormattingEnabled = true
+        Me.ComboBox22.FormattingEnabled = True
         Me.ComboBox22.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox22.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox22.Name = "ComboBox22"
@@ -12272,7 +12284,7 @@ Partial Class Miitopia_SE
         Me.Panel84.Name = "Panel84"
         Me.Panel84.Size = New System.Drawing.Size(94, 18)
         Me.Panel84.TabIndex = 0
-        Me.Panel84.Visible = false
+        Me.Panel84.Visible = False
         '
         'NumericUpDown38
         '
@@ -12288,12 +12300,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox59.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Pretre
         Me.PictureBox59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox59.Enabled = false
+        Me.PictureBox59.Enabled = False
         Me.PictureBox59.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox59.Name = "PictureBox59"
         Me.PictureBox59.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox59.TabIndex = 1
-        Me.PictureBox59.TabStop = false
+        Me.PictureBox59.TabStop = False
         '
         'Panel85
         '
@@ -12312,7 +12324,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox23.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox23.FormattingEnabled = true
+        Me.ComboBox23.FormattingEnabled = True
         Me.ComboBox23.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox23.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox23.Name = "ComboBox23"
@@ -12329,7 +12341,7 @@ Partial Class Miitopia_SE
         Me.Panel86.Name = "Panel86"
         Me.Panel86.Size = New System.Drawing.Size(94, 18)
         Me.Panel86.TabIndex = 0
-        Me.Panel86.Visible = false
+        Me.Panel86.Visible = False
         '
         'NumericUpDown39
         '
@@ -12345,12 +12357,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox60.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Mage
         Me.PictureBox60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox60.Enabled = false
+        Me.PictureBox60.Enabled = False
         Me.PictureBox60.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox60.Name = "PictureBox60"
         Me.PictureBox60.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox60.TabIndex = 1
-        Me.PictureBox60.TabStop = false
+        Me.PictureBox60.TabStop = False
         '
         'Panel87
         '
@@ -12369,7 +12381,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox24.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox24.FormattingEnabled = true
+        Me.ComboBox24.FormattingEnabled = True
         Me.ComboBox24.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox24.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox24.Name = "ComboBox24"
@@ -12386,7 +12398,7 @@ Partial Class Miitopia_SE
         Me.Panel88.Name = "Panel88"
         Me.Panel88.Size = New System.Drawing.Size(94, 18)
         Me.Panel88.TabIndex = 0
-        Me.Panel88.Visible = false
+        Me.Panel88.Visible = False
         '
         'NumericUpDown40
         '
@@ -12402,12 +12414,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox61.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Guerrier
         Me.PictureBox61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox61.Enabled = false
+        Me.PictureBox61.Enabled = False
         Me.PictureBox61.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox61.Name = "PictureBox61"
         Me.PictureBox61.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox61.TabIndex = 1
-        Me.PictureBox61.TabStop = false
+        Me.PictureBox61.TabStop = False
         '
         'Panel89
         '
@@ -12426,7 +12438,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox25.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox25.FormattingEnabled = true
+        Me.ComboBox25.FormattingEnabled = True
         Me.ComboBox25.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox25.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox25.Name = "ComboBox25"
@@ -12443,7 +12455,7 @@ Partial Class Miitopia_SE
         Me.Panel90.Name = "Panel90"
         Me.Panel90.Size = New System.Drawing.Size(94, 18)
         Me.Panel90.TabIndex = 0
-        Me.Panel90.Visible = false
+        Me.Panel90.Visible = False
         '
         'NumericUpDown41
         '
@@ -12459,12 +12471,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox62.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Princesse
         Me.PictureBox62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox62.Enabled = false
+        Me.PictureBox62.Enabled = False
         Me.PictureBox62.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox62.Name = "PictureBox62"
         Me.PictureBox62.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox62.TabIndex = 1
-        Me.PictureBox62.TabStop = false
+        Me.PictureBox62.TabStop = False
         '
         'Panel91
         '
@@ -12483,7 +12495,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox26.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox26.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox26.FormattingEnabled = true
+        Me.ComboBox26.FormattingEnabled = True
         Me.ComboBox26.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox26.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox26.Name = "ComboBox26"
@@ -12500,7 +12512,7 @@ Partial Class Miitopia_SE
         Me.Panel92.Name = "Panel92"
         Me.Panel92.Size = New System.Drawing.Size(94, 18)
         Me.Panel92.TabIndex = 0
-        Me.Panel92.Visible = false
+        Me.Panel92.Visible = False
         '
         'NumericUpDown42
         '
@@ -12516,12 +12528,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox63.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Diablotin
         Me.PictureBox63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox63.Enabled = false
+        Me.PictureBox63.Enabled = False
         Me.PictureBox63.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox63.Name = "PictureBox63"
         Me.PictureBox63.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox63.TabIndex = 1
-        Me.PictureBox63.TabStop = false
+        Me.PictureBox63.TabStop = False
         '
         'Panel93
         '
@@ -12540,7 +12552,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox27.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox27.FormattingEnabled = true
+        Me.ComboBox27.FormattingEnabled = True
         Me.ComboBox27.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox27.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox27.Name = "ComboBox27"
@@ -12557,7 +12569,7 @@ Partial Class Miitopia_SE
         Me.Panel94.Name = "Panel94"
         Me.Panel94.Size = New System.Drawing.Size(94, 18)
         Me.Panel94.TabIndex = 0
-        Me.Panel94.Visible = false
+        Me.Panel94.Visible = False
         '
         'NumericUpDown43
         '
@@ -12573,12 +12585,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox64.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Tank
         Me.PictureBox64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox64.Enabled = false
+        Me.PictureBox64.Enabled = False
         Me.PictureBox64.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox64.Name = "PictureBox64"
         Me.PictureBox64.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox64.TabIndex = 1
-        Me.PictureBox64.TabStop = false
+        Me.PictureBox64.TabStop = False
         '
         'Panel95
         '
@@ -12597,7 +12609,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox28.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox28.FormattingEnabled = true
+        Me.ComboBox28.FormattingEnabled = True
         Me.ComboBox28.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox28.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox28.Name = "ComboBox28"
@@ -12614,7 +12626,7 @@ Partial Class Miitopia_SE
         Me.Panel96.Name = "Panel96"
         Me.Panel96.Size = New System.Drawing.Size(94, 18)
         Me.Panel96.TabIndex = 0
-        Me.Panel96.Visible = false
+        Me.Panel96.Visible = False
         '
         'NumericUpDown44
         '
@@ -12630,12 +12642,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox65.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Cuisinier
         Me.PictureBox65.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox65.Enabled = false
+        Me.PictureBox65.Enabled = False
         Me.PictureBox65.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox65.Name = "PictureBox65"
         Me.PictureBox65.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox65.TabIndex = 1
-        Me.PictureBox65.TabStop = false
+        Me.PictureBox65.TabStop = False
         '
         'Panel97
         '
@@ -12654,7 +12666,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox29.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox29.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox29.FormattingEnabled = true
+        Me.ComboBox29.FormattingEnabled = True
         Me.ComboBox29.Items.AddRange(New Object() {"Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6", "Level 7", "Level 8", "Level 9", "Level 10", "Level 11", "Level 12", "Level 13", "Level 14", "Level 15", "Level 16", "Level 17", "Level 18", "Level 19", "Level 20", "Level 21", "Level 22", "Level 23", "Level 24", "Level 25", "Level 26", "Level 27", "Level 28", "Level 29", "Level 30", "Level 31", "Level 32", "Level 33", "Level 34", "Level 35", "Level 36", "Level 37", "Level 38", "Level 39", "Level 40", "Level 41", "Level 42", "Level 43", "Level 44", "Level 45", "Level 46", "Level 47", "Level 48", "Level 49", "Level 50"})
         Me.ComboBox29.Location = New System.Drawing.Point(4, 41)
         Me.ComboBox29.Name = "ComboBox29"
@@ -12671,7 +12683,7 @@ Partial Class Miitopia_SE
         Me.Panel98.Name = "Panel98"
         Me.Panel98.Size = New System.Drawing.Size(94, 18)
         Me.Panel98.TabIndex = 0
-        Me.Panel98.Visible = false
+        Me.Panel98.Visible = False
         '
         'NumericUpDown45
         '
@@ -12687,12 +12699,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox66.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Vampire
         Me.PictureBox66.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox66.Enabled = false
+        Me.PictureBox66.Enabled = False
         Me.PictureBox66.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox66.Name = "PictureBox66"
         Me.PictureBox66.Size = New System.Drawing.Size(40, 40)
         Me.PictureBox66.TabIndex = 1
-        Me.PictureBox66.TabStop = false
+        Me.PictureBox66.TabStop = False
         '
         'TabPage6
         '
@@ -12731,7 +12743,7 @@ Partial Class Miitopia_SE
         Me.TabPage6.Size = New System.Drawing.Size(524, 351)
         Me.TabPage6.TabIndex = 3
         Me.TabPage6.Text = "Relationship"
-        Me.TabPage6.UseVisualStyleBackColor = true
+        Me.TabPage6.UseVisualStyleBackColor = True
         '
         'PictureBox67
         '
@@ -12740,7 +12752,7 @@ Partial Class Miitopia_SE
         Me.PictureBox67.Name = "PictureBox67"
         Me.PictureBox67.Size = New System.Drawing.Size(91, 30)
         Me.PictureBox67.TabIndex = 32
-        Me.PictureBox67.TabStop = false
+        Me.PictureBox67.TabStop = False
         '
         'PictureBox68
         '
@@ -12749,7 +12761,7 @@ Partial Class Miitopia_SE
         Me.PictureBox68.Name = "PictureBox68"
         Me.PictureBox68.Size = New System.Drawing.Size(41, 30)
         Me.PictureBox68.TabIndex = 31
-        Me.PictureBox68.TabStop = false
+        Me.PictureBox68.TabStop = False
         '
         'Panel99
         '
@@ -12766,7 +12778,7 @@ Partial Class Miitopia_SE
         '
         'Label17
         '
-        Me.Label17.AutoSize = true
+        Me.Label17.AutoSize = True
         Me.Label17.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label17.Location = New System.Drawing.Point(20, 13)
         Me.Label17.Name = "Label17"
@@ -12795,7 +12807,7 @@ Partial Class Miitopia_SE
         Me.GroupBox12.Name = "GroupBox12"
         Me.GroupBox12.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox12.TabIndex = 29
-        Me.GroupBox12.TabStop = false
+        Me.GroupBox12.TabStop = False
         Me.GroupBox12.Text = "Mii"
         '
         'NumericUpDown47
@@ -12818,7 +12830,7 @@ Partial Class Miitopia_SE
         Me.GroupBox13.Name = "GroupBox13"
         Me.GroupBox13.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox13.TabIndex = 28
-        Me.GroupBox13.TabStop = false
+        Me.GroupBox13.TabStop = False
         Me.GroupBox13.Text = "Mii"
         '
         'NumericUpDown48
@@ -12841,7 +12853,7 @@ Partial Class Miitopia_SE
         Me.GroupBox14.Name = "GroupBox14"
         Me.GroupBox14.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox14.TabIndex = 27
-        Me.GroupBox14.TabStop = false
+        Me.GroupBox14.TabStop = False
         Me.GroupBox14.Text = "Mii"
         '
         'NumericUpDown49
@@ -12864,7 +12876,7 @@ Partial Class Miitopia_SE
         Me.GroupBox15.Name = "GroupBox15"
         Me.GroupBox15.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox15.TabIndex = 26
-        Me.GroupBox15.TabStop = false
+        Me.GroupBox15.TabStop = False
         Me.GroupBox15.Text = "Mii"
         '
         'NumericUpDown50
@@ -12887,7 +12899,7 @@ Partial Class Miitopia_SE
         Me.GroupBox16.Name = "GroupBox16"
         Me.GroupBox16.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox16.TabIndex = 25
-        Me.GroupBox16.TabStop = false
+        Me.GroupBox16.TabStop = False
         Me.GroupBox16.Text = "Mii"
         '
         'NumericUpDown51
@@ -12910,7 +12922,7 @@ Partial Class Miitopia_SE
         Me.GroupBox17.Name = "GroupBox17"
         Me.GroupBox17.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox17.TabIndex = 24
-        Me.GroupBox17.TabStop = false
+        Me.GroupBox17.TabStop = False
         Me.GroupBox17.Text = "Mii"
         '
         'NumericUpDown52
@@ -12933,7 +12945,7 @@ Partial Class Miitopia_SE
         Me.GroupBox18.Name = "GroupBox18"
         Me.GroupBox18.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox18.TabIndex = 23
-        Me.GroupBox18.TabStop = false
+        Me.GroupBox18.TabStop = False
         Me.GroupBox18.Text = "Mii"
         '
         'NumericUpDown53
@@ -12956,7 +12968,7 @@ Partial Class Miitopia_SE
         Me.GroupBox19.Name = "GroupBox19"
         Me.GroupBox19.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox19.TabIndex = 22
-        Me.GroupBox19.TabStop = false
+        Me.GroupBox19.TabStop = False
         Me.GroupBox19.Text = "Mii"
         '
         'NumericUpDown54
@@ -12979,7 +12991,7 @@ Partial Class Miitopia_SE
         Me.GroupBox20.Name = "GroupBox20"
         Me.GroupBox20.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox20.TabIndex = 21
-        Me.GroupBox20.TabStop = false
+        Me.GroupBox20.TabStop = False
         Me.GroupBox20.Text = "Mii"
         '
         'NumericUpDown55
@@ -13002,7 +13014,7 @@ Partial Class Miitopia_SE
         Me.GroupBox21.Name = "GroupBox21"
         Me.GroupBox21.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox21.TabIndex = 20
-        Me.GroupBox21.TabStop = false
+        Me.GroupBox21.TabStop = False
         Me.GroupBox21.Text = "Mii"
         '
         'NumericUpDown56
@@ -13025,7 +13037,7 @@ Partial Class Miitopia_SE
         Me.GroupBox22.Name = "GroupBox22"
         Me.GroupBox22.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox22.TabIndex = 18
-        Me.GroupBox22.TabStop = false
+        Me.GroupBox22.TabStop = False
         Me.GroupBox22.Text = "Mii"
         '
         'NumericUpDown57
@@ -13048,7 +13060,7 @@ Partial Class Miitopia_SE
         Me.GroupBox23.Name = "GroupBox23"
         Me.GroupBox23.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox23.TabIndex = 17
-        Me.GroupBox23.TabStop = false
+        Me.GroupBox23.TabStop = False
         Me.GroupBox23.Text = "Mii"
         '
         'NumericUpDown58
@@ -13071,7 +13083,7 @@ Partial Class Miitopia_SE
         Me.GroupBox24.Name = "GroupBox24"
         Me.GroupBox24.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox24.TabIndex = 16
-        Me.GroupBox24.TabStop = false
+        Me.GroupBox24.TabStop = False
         Me.GroupBox24.Text = "Mii"
         '
         'NumericUpDown59
@@ -13094,7 +13106,7 @@ Partial Class Miitopia_SE
         Me.GroupBox25.Name = "GroupBox25"
         Me.GroupBox25.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox25.TabIndex = 15
-        Me.GroupBox25.TabStop = false
+        Me.GroupBox25.TabStop = False
         Me.GroupBox25.Text = "Mii"
         '
         'NumericUpDown60
@@ -13117,7 +13129,7 @@ Partial Class Miitopia_SE
         Me.GroupBox26.Name = "GroupBox26"
         Me.GroupBox26.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox26.TabIndex = 14
-        Me.GroupBox26.TabStop = false
+        Me.GroupBox26.TabStop = False
         Me.GroupBox26.Text = "Mii"
         '
         'NumericUpDown61
@@ -13140,7 +13152,7 @@ Partial Class Miitopia_SE
         Me.GroupBox27.Name = "GroupBox27"
         Me.GroupBox27.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox27.TabIndex = 12
-        Me.GroupBox27.TabStop = false
+        Me.GroupBox27.TabStop = False
         Me.GroupBox27.Text = "Mii"
         '
         'NumericUpDown62
@@ -13163,7 +13175,7 @@ Partial Class Miitopia_SE
         Me.GroupBox28.Name = "GroupBox28"
         Me.GroupBox28.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox28.TabIndex = 11
-        Me.GroupBox28.TabStop = false
+        Me.GroupBox28.TabStop = False
         Me.GroupBox28.Text = "Mii"
         '
         'NumericUpDown63
@@ -13186,7 +13198,7 @@ Partial Class Miitopia_SE
         Me.GroupBox29.Name = "GroupBox29"
         Me.GroupBox29.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox29.TabIndex = 10
-        Me.GroupBox29.TabStop = false
+        Me.GroupBox29.TabStop = False
         Me.GroupBox29.Text = "Mii"
         '
         'NumericUpDown64
@@ -13209,7 +13221,7 @@ Partial Class Miitopia_SE
         Me.GroupBox30.Name = "GroupBox30"
         Me.GroupBox30.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox30.TabIndex = 9
-        Me.GroupBox30.TabStop = false
+        Me.GroupBox30.TabStop = False
         Me.GroupBox30.Text = "Mii"
         '
         'NumericUpDown65
@@ -13232,7 +13244,7 @@ Partial Class Miitopia_SE
         Me.GroupBox31.Name = "GroupBox31"
         Me.GroupBox31.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox31.TabIndex = 8
-        Me.GroupBox31.TabStop = false
+        Me.GroupBox31.TabStop = False
         Me.GroupBox31.Text = "Mii"
         '
         'NumericUpDown66
@@ -13255,7 +13267,7 @@ Partial Class Miitopia_SE
         Me.GroupBox32.Name = "GroupBox32"
         Me.GroupBox32.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox32.TabIndex = 6
-        Me.GroupBox32.TabStop = false
+        Me.GroupBox32.TabStop = False
         Me.GroupBox32.Text = "Mii"
         '
         'NumericUpDown67
@@ -13278,7 +13290,7 @@ Partial Class Miitopia_SE
         Me.GroupBox33.Name = "GroupBox33"
         Me.GroupBox33.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox33.TabIndex = 5
-        Me.GroupBox33.TabStop = false
+        Me.GroupBox33.TabStop = False
         Me.GroupBox33.Text = "Mii"
         '
         'NumericUpDown68
@@ -13301,7 +13313,7 @@ Partial Class Miitopia_SE
         Me.GroupBox34.Name = "GroupBox34"
         Me.GroupBox34.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox34.TabIndex = 4
-        Me.GroupBox34.TabStop = false
+        Me.GroupBox34.TabStop = False
         Me.GroupBox34.Text = "Mii"
         '
         'NumericUpDown69
@@ -13324,7 +13336,7 @@ Partial Class Miitopia_SE
         Me.GroupBox35.Name = "GroupBox35"
         Me.GroupBox35.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox35.TabIndex = 3
-        Me.GroupBox35.TabStop = false
+        Me.GroupBox35.TabStop = False
         Me.GroupBox35.Text = "Mii"
         '
         'NumericUpDown70
@@ -13347,7 +13359,7 @@ Partial Class Miitopia_SE
         Me.GroupBox36.Name = "GroupBox36"
         Me.GroupBox36.Size = New System.Drawing.Size(80, 48)
         Me.GroupBox36.TabIndex = 2
-        Me.GroupBox36.TabStop = false
+        Me.GroupBox36.TabStop = False
         Me.GroupBox36.Text = "Mii"
         '
         'NumericUpDown71
@@ -13364,7 +13376,7 @@ Partial Class Miitopia_SE
         '
         Me.ComboBox30.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox30.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox30.FormattingEnabled = true
+        Me.ComboBox30.FormattingEnabled = True
         Me.ComboBox30.Items.AddRange(New Object() {"Mii 1 to 25", "Mii 26 to 50", "Mii 51 to 75", "Mii 76 to 100"})
         Me.ComboBox30.Location = New System.Drawing.Point(6, 6)
         Me.ComboBox30.Name = "ComboBox30"
@@ -13380,7 +13392,7 @@ Partial Class Miitopia_SE
         Me.TabPage7.Size = New System.Drawing.Size(524, 351)
         Me.TabPage7.TabIndex = 4
         Me.TabPage7.Text = "Equipments"
-        Me.TabPage7.UseVisualStyleBackColor = true
+        Me.TabPage7.UseVisualStyleBackColor = True
         '
         'TabControl8
         '
@@ -13416,7 +13428,7 @@ Partial Class Miitopia_SE
         Me.TabPage8.Size = New System.Drawing.Size(516, 325)
         Me.TabPage8.TabIndex = 0
         Me.TabPage8.Text = "Costumes"
-        Me.TabPage8.UseVisualStyleBackColor = true
+        Me.TabPage8.UseVisualStyleBackColor = True
         '
         'Panel100
         '
@@ -13433,12 +13445,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox69.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.elfe
         Me.PictureBox69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox69.Enabled = false
+        Me.PictureBox69.Enabled = False
         Me.PictureBox69.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox69.Name = "PictureBox69"
         Me.PictureBox69.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox69.TabIndex = 1
-        Me.PictureBox69.TabStop = false
+        Me.PictureBox69.TabStop = False
         '
         'Panel101
         '
@@ -13450,7 +13462,7 @@ Partial Class Miitopia_SE
         Me.Panel101.Name = "Panel101"
         Me.Panel101.Size = New System.Drawing.Size(94, 18)
         Me.Panel101.TabIndex = 0
-        Me.Panel101.Visible = false
+        Me.Panel101.Visible = False
         '
         'NumericUpDown72
         '
@@ -13477,12 +13489,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox70.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Felin
         Me.PictureBox70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox70.Enabled = false
+        Me.PictureBox70.Enabled = False
         Me.PictureBox70.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox70.Name = "PictureBox70"
         Me.PictureBox70.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox70.TabIndex = 1
-        Me.PictureBox70.TabStop = false
+        Me.PictureBox70.TabStop = False
         '
         'Panel103
         '
@@ -13494,7 +13506,7 @@ Partial Class Miitopia_SE
         Me.Panel103.Name = "Panel103"
         Me.Panel103.Size = New System.Drawing.Size(94, 18)
         Me.Panel103.TabIndex = 0
-        Me.Panel103.Visible = false
+        Me.Panel103.Visible = False
         '
         'NumericUpDown73
         '
@@ -13521,12 +13533,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox71.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Scientifique
         Me.PictureBox71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox71.Enabled = false
+        Me.PictureBox71.Enabled = False
         Me.PictureBox71.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox71.Name = "PictureBox71"
         Me.PictureBox71.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox71.TabIndex = 1
-        Me.PictureBox71.TabStop = false
+        Me.PictureBox71.TabStop = False
         '
         'Panel105
         '
@@ -13538,7 +13550,7 @@ Partial Class Miitopia_SE
         Me.Panel105.Name = "Panel105"
         Me.Panel105.Size = New System.Drawing.Size(94, 18)
         Me.Panel105.TabIndex = 0
-        Me.Panel105.Visible = false
+        Me.Panel105.Visible = False
         '
         'NumericUpDown74
         '
@@ -13565,12 +13577,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox72.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Fleur
         Me.PictureBox72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox72.Enabled = false
+        Me.PictureBox72.Enabled = False
         Me.PictureBox72.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox72.Name = "PictureBox72"
         Me.PictureBox72.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox72.TabIndex = 1
-        Me.PictureBox72.TabStop = false
+        Me.PictureBox72.TabStop = False
         '
         'Panel107
         '
@@ -13582,7 +13594,7 @@ Partial Class Miitopia_SE
         Me.Panel107.Name = "Panel107"
         Me.Panel107.Size = New System.Drawing.Size(94, 18)
         Me.Panel107.TabIndex = 0
-        Me.Panel107.Visible = false
+        Me.Panel107.Visible = False
         '
         'NumericUpDown75
         '
@@ -13609,12 +13621,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox73.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Princesse
         Me.PictureBox73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox73.Enabled = false
+        Me.PictureBox73.Enabled = False
         Me.PictureBox73.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox73.Name = "PictureBox73"
         Me.PictureBox73.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox73.TabIndex = 1
-        Me.PictureBox73.TabStop = false
+        Me.PictureBox73.TabStop = False
         '
         'Panel109
         '
@@ -13626,7 +13638,7 @@ Partial Class Miitopia_SE
         Me.Panel109.Name = "Panel109"
         Me.Panel109.Size = New System.Drawing.Size(94, 18)
         Me.Panel109.TabIndex = 0
-        Me.Panel109.Visible = false
+        Me.Panel109.Visible = False
         '
         'NumericUpDown76
         '
@@ -13653,12 +13665,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox74.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Diablotin
         Me.PictureBox74.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox74.Enabled = false
+        Me.PictureBox74.Enabled = False
         Me.PictureBox74.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox74.Name = "PictureBox74"
         Me.PictureBox74.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox74.TabIndex = 1
-        Me.PictureBox74.TabStop = false
+        Me.PictureBox74.TabStop = False
         '
         'Panel111
         '
@@ -13670,7 +13682,7 @@ Partial Class Miitopia_SE
         Me.Panel111.Name = "Panel111"
         Me.Panel111.Size = New System.Drawing.Size(94, 18)
         Me.Panel111.TabIndex = 0
-        Me.Panel111.Visible = false
+        Me.Panel111.Visible = False
         '
         'NumericUpDown77
         '
@@ -13697,12 +13709,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox75.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Tank
         Me.PictureBox75.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox75.Enabled = false
+        Me.PictureBox75.Enabled = False
         Me.PictureBox75.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox75.Name = "PictureBox75"
         Me.PictureBox75.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox75.TabIndex = 1
-        Me.PictureBox75.TabStop = false
+        Me.PictureBox75.TabStop = False
         '
         'Panel113
         '
@@ -13714,7 +13726,7 @@ Partial Class Miitopia_SE
         Me.Panel113.Name = "Panel113"
         Me.Panel113.Size = New System.Drawing.Size(94, 18)
         Me.Panel113.TabIndex = 0
-        Me.Panel113.Visible = false
+        Me.Panel113.Visible = False
         '
         'NumericUpDown78
         '
@@ -13741,12 +13753,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox76.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Cuisinier
         Me.PictureBox76.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox76.Enabled = false
+        Me.PictureBox76.Enabled = False
         Me.PictureBox76.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox76.Name = "PictureBox76"
         Me.PictureBox76.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox76.TabIndex = 1
-        Me.PictureBox76.TabStop = false
+        Me.PictureBox76.TabStop = False
         '
         'Panel115
         '
@@ -13758,7 +13770,7 @@ Partial Class Miitopia_SE
         Me.Panel115.Name = "Panel115"
         Me.Panel115.Size = New System.Drawing.Size(94, 18)
         Me.Panel115.TabIndex = 0
-        Me.Panel115.Visible = false
+        Me.Panel115.Visible = False
         '
         'NumericUpDown79
         '
@@ -13785,12 +13797,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox77.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Vampire
         Me.PictureBox77.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox77.Enabled = false
+        Me.PictureBox77.Enabled = False
         Me.PictureBox77.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox77.Name = "PictureBox77"
         Me.PictureBox77.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox77.TabIndex = 1
-        Me.PictureBox77.TabStop = false
+        Me.PictureBox77.TabStop = False
         '
         'Panel117
         '
@@ -13802,7 +13814,7 @@ Partial Class Miitopia_SE
         Me.Panel117.Name = "Panel117"
         Me.Panel117.Size = New System.Drawing.Size(94, 18)
         Me.Panel117.TabIndex = 0
-        Me.Panel117.Visible = false
+        Me.Panel117.Visible = False
         '
         'NumericUpDown80
         '
@@ -13829,12 +13841,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox78.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Chanteur2
         Me.PictureBox78.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox78.Enabled = false
+        Me.PictureBox78.Enabled = False
         Me.PictureBox78.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox78.Name = "PictureBox78"
         Me.PictureBox78.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox78.TabIndex = 1
-        Me.PictureBox78.TabStop = false
+        Me.PictureBox78.TabStop = False
         '
         'Panel119
         '
@@ -13847,7 +13859,7 @@ Partial Class Miitopia_SE
         Me.Panel119.Name = "Panel119"
         Me.Panel119.Size = New System.Drawing.Size(94, 18)
         Me.Panel119.TabIndex = 0
-        Me.Panel119.Visible = false
+        Me.Panel119.Visible = False
         '
         'NumericUpDown81
         '
@@ -13884,12 +13896,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox79.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Voleur
         Me.PictureBox79.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox79.Enabled = false
+        Me.PictureBox79.Enabled = False
         Me.PictureBox79.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox79.Name = "PictureBox79"
         Me.PictureBox79.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox79.TabIndex = 1
-        Me.PictureBox79.TabStop = false
+        Me.PictureBox79.TabStop = False
         '
         'Panel121
         '
@@ -13901,7 +13913,7 @@ Partial Class Miitopia_SE
         Me.Panel121.Name = "Panel121"
         Me.Panel121.Size = New System.Drawing.Size(94, 18)
         Me.Panel121.TabIndex = 0
-        Me.Panel121.Visible = false
+        Me.Panel121.Visible = False
         '
         'NumericUpDown83
         '
@@ -13928,12 +13940,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox80.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Pretre
         Me.PictureBox80.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox80.Enabled = false
+        Me.PictureBox80.Enabled = False
         Me.PictureBox80.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox80.Name = "PictureBox80"
         Me.PictureBox80.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox80.TabIndex = 1
-        Me.PictureBox80.TabStop = false
+        Me.PictureBox80.TabStop = False
         '
         'Panel123
         '
@@ -13945,7 +13957,7 @@ Partial Class Miitopia_SE
         Me.Panel123.Name = "Panel123"
         Me.Panel123.Size = New System.Drawing.Size(94, 18)
         Me.Panel123.TabIndex = 0
-        Me.Panel123.Visible = false
+        Me.Panel123.Visible = False
         '
         'NumericUpDown84
         '
@@ -13972,12 +13984,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox81.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Mage
         Me.PictureBox81.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox81.Enabled = false
+        Me.PictureBox81.Enabled = False
         Me.PictureBox81.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox81.Name = "PictureBox81"
         Me.PictureBox81.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox81.TabIndex = 1
-        Me.PictureBox81.TabStop = false
+        Me.PictureBox81.TabStop = False
         '
         'Panel125
         '
@@ -13989,7 +14001,7 @@ Partial Class Miitopia_SE
         Me.Panel125.Name = "Panel125"
         Me.Panel125.Size = New System.Drawing.Size(94, 18)
         Me.Panel125.TabIndex = 0
-        Me.Panel125.Visible = false
+        Me.Panel125.Visible = False
         '
         'NumericUpDown85
         '
@@ -14016,12 +14028,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox82.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Guerrier
         Me.PictureBox82.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox82.Enabled = false
+        Me.PictureBox82.Enabled = False
         Me.PictureBox82.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox82.Name = "PictureBox82"
         Me.PictureBox82.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox82.TabIndex = 1
-        Me.PictureBox82.TabStop = false
+        Me.PictureBox82.TabStop = False
         '
         'Panel127
         '
@@ -14033,7 +14045,7 @@ Partial Class Miitopia_SE
         Me.Panel127.Name = "Panel127"
         Me.Panel127.Size = New System.Drawing.Size(94, 18)
         Me.Panel127.TabIndex = 0
-        Me.Panel127.Visible = false
+        Me.Panel127.Visible = False
         '
         'NumericUpDown86
         '
@@ -14068,7 +14080,7 @@ Partial Class Miitopia_SE
         Me.TabPage9.Size = New System.Drawing.Size(516, 325)
         Me.TabPage9.TabIndex = 1
         Me.TabPage9.Text = "Weapons"
-        Me.TabPage9.UseVisualStyleBackColor = true
+        Me.TabPage9.UseVisualStyleBackColor = True
         '
         'Panel128
         '
@@ -14085,12 +14097,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox83.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.elfe
         Me.PictureBox83.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox83.Enabled = false
+        Me.PictureBox83.Enabled = False
         Me.PictureBox83.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox83.Name = "PictureBox83"
         Me.PictureBox83.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox83.TabIndex = 1
-        Me.PictureBox83.TabStop = false
+        Me.PictureBox83.TabStop = False
         '
         'Panel129
         '
@@ -14102,7 +14114,7 @@ Partial Class Miitopia_SE
         Me.Panel129.Name = "Panel129"
         Me.Panel129.Size = New System.Drawing.Size(94, 18)
         Me.Panel129.TabIndex = 0
-        Me.Panel129.Visible = false
+        Me.Panel129.Visible = False
         '
         'NumericUpDown87
         '
@@ -14129,12 +14141,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox84.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Felin
         Me.PictureBox84.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox84.Enabled = false
+        Me.PictureBox84.Enabled = False
         Me.PictureBox84.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox84.Name = "PictureBox84"
         Me.PictureBox84.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox84.TabIndex = 1
-        Me.PictureBox84.TabStop = false
+        Me.PictureBox84.TabStop = False
         '
         'Panel131
         '
@@ -14146,7 +14158,7 @@ Partial Class Miitopia_SE
         Me.Panel131.Name = "Panel131"
         Me.Panel131.Size = New System.Drawing.Size(94, 18)
         Me.Panel131.TabIndex = 0
-        Me.Panel131.Visible = false
+        Me.Panel131.Visible = False
         '
         'NumericUpDown88
         '
@@ -14173,12 +14185,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox85.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Scientifique
         Me.PictureBox85.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox85.Enabled = false
+        Me.PictureBox85.Enabled = False
         Me.PictureBox85.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox85.Name = "PictureBox85"
         Me.PictureBox85.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox85.TabIndex = 1
-        Me.PictureBox85.TabStop = false
+        Me.PictureBox85.TabStop = False
         '
         'Panel133
         '
@@ -14190,7 +14202,7 @@ Partial Class Miitopia_SE
         Me.Panel133.Name = "Panel133"
         Me.Panel133.Size = New System.Drawing.Size(94, 18)
         Me.Panel133.TabIndex = 0
-        Me.Panel133.Visible = false
+        Me.Panel133.Visible = False
         '
         'NumericUpDown89
         '
@@ -14217,12 +14229,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox86.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Fleur
         Me.PictureBox86.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox86.Enabled = false
+        Me.PictureBox86.Enabled = False
         Me.PictureBox86.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox86.Name = "PictureBox86"
         Me.PictureBox86.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox86.TabIndex = 1
-        Me.PictureBox86.TabStop = false
+        Me.PictureBox86.TabStop = False
         '
         'Panel135
         '
@@ -14234,7 +14246,7 @@ Partial Class Miitopia_SE
         Me.Panel135.Name = "Panel135"
         Me.Panel135.Size = New System.Drawing.Size(94, 18)
         Me.Panel135.TabIndex = 0
-        Me.Panel135.Visible = false
+        Me.Panel135.Visible = False
         '
         'NumericUpDown90
         '
@@ -14261,12 +14273,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox87.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Princesse
         Me.PictureBox87.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox87.Enabled = false
+        Me.PictureBox87.Enabled = False
         Me.PictureBox87.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox87.Name = "PictureBox87"
         Me.PictureBox87.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox87.TabIndex = 1
-        Me.PictureBox87.TabStop = false
+        Me.PictureBox87.TabStop = False
         '
         'Panel137
         '
@@ -14278,7 +14290,7 @@ Partial Class Miitopia_SE
         Me.Panel137.Name = "Panel137"
         Me.Panel137.Size = New System.Drawing.Size(94, 18)
         Me.Panel137.TabIndex = 0
-        Me.Panel137.Visible = false
+        Me.Panel137.Visible = False
         '
         'NumericUpDown91
         '
@@ -14305,12 +14317,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox88.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Diablotin
         Me.PictureBox88.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox88.Enabled = false
+        Me.PictureBox88.Enabled = False
         Me.PictureBox88.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox88.Name = "PictureBox88"
         Me.PictureBox88.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox88.TabIndex = 1
-        Me.PictureBox88.TabStop = false
+        Me.PictureBox88.TabStop = False
         '
         'Panel139
         '
@@ -14322,7 +14334,7 @@ Partial Class Miitopia_SE
         Me.Panel139.Name = "Panel139"
         Me.Panel139.Size = New System.Drawing.Size(94, 18)
         Me.Panel139.TabIndex = 0
-        Me.Panel139.Visible = false
+        Me.Panel139.Visible = False
         '
         'NumericUpDown92
         '
@@ -14349,12 +14361,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox89.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Tank
         Me.PictureBox89.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox89.Enabled = false
+        Me.PictureBox89.Enabled = False
         Me.PictureBox89.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox89.Name = "PictureBox89"
         Me.PictureBox89.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox89.TabIndex = 1
-        Me.PictureBox89.TabStop = false
+        Me.PictureBox89.TabStop = False
         '
         'Panel141
         '
@@ -14366,7 +14378,7 @@ Partial Class Miitopia_SE
         Me.Panel141.Name = "Panel141"
         Me.Panel141.Size = New System.Drawing.Size(94, 18)
         Me.Panel141.TabIndex = 0
-        Me.Panel141.Visible = false
+        Me.Panel141.Visible = False
         '
         'NumericUpDown93
         '
@@ -14393,12 +14405,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox90.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Cuisinier
         Me.PictureBox90.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox90.Enabled = false
+        Me.PictureBox90.Enabled = False
         Me.PictureBox90.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox90.Name = "PictureBox90"
         Me.PictureBox90.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox90.TabIndex = 1
-        Me.PictureBox90.TabStop = false
+        Me.PictureBox90.TabStop = False
         '
         'Panel143
         '
@@ -14410,7 +14422,7 @@ Partial Class Miitopia_SE
         Me.Panel143.Name = "Panel143"
         Me.Panel143.Size = New System.Drawing.Size(94, 18)
         Me.Panel143.TabIndex = 0
-        Me.Panel143.Visible = false
+        Me.Panel143.Visible = False
         '
         'NumericUpDown94
         '
@@ -14437,12 +14449,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox91.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Vampire
         Me.PictureBox91.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox91.Enabled = false
+        Me.PictureBox91.Enabled = False
         Me.PictureBox91.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox91.Name = "PictureBox91"
         Me.PictureBox91.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox91.TabIndex = 1
-        Me.PictureBox91.TabStop = false
+        Me.PictureBox91.TabStop = False
         '
         'Panel145
         '
@@ -14454,7 +14466,7 @@ Partial Class Miitopia_SE
         Me.Panel145.Name = "Panel145"
         Me.Panel145.Size = New System.Drawing.Size(94, 18)
         Me.Panel145.TabIndex = 0
-        Me.Panel145.Visible = false
+        Me.Panel145.Visible = False
         '
         'NumericUpDown95
         '
@@ -14481,12 +14493,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox92.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Chanteur
         Me.PictureBox92.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox92.Enabled = false
+        Me.PictureBox92.Enabled = False
         Me.PictureBox92.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox92.Name = "PictureBox92"
         Me.PictureBox92.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox92.TabIndex = 1
-        Me.PictureBox92.TabStop = false
+        Me.PictureBox92.TabStop = False
         '
         'Panel147
         '
@@ -14498,7 +14510,7 @@ Partial Class Miitopia_SE
         Me.Panel147.Name = "Panel147"
         Me.Panel147.Size = New System.Drawing.Size(94, 18)
         Me.Panel147.TabIndex = 0
-        Me.Panel147.Visible = false
+        Me.Panel147.Visible = False
         '
         'NumericUpDown96
         '
@@ -14525,12 +14537,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox93.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Voleur
         Me.PictureBox93.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox93.Enabled = false
+        Me.PictureBox93.Enabled = False
         Me.PictureBox93.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox93.Name = "PictureBox93"
         Me.PictureBox93.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox93.TabIndex = 1
-        Me.PictureBox93.TabStop = false
+        Me.PictureBox93.TabStop = False
         '
         'Panel149
         '
@@ -14542,7 +14554,7 @@ Partial Class Miitopia_SE
         Me.Panel149.Name = "Panel149"
         Me.Panel149.Size = New System.Drawing.Size(94, 18)
         Me.Panel149.TabIndex = 0
-        Me.Panel149.Visible = false
+        Me.Panel149.Visible = False
         '
         'NumericUpDown97
         '
@@ -14569,12 +14581,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox94.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Pretre
         Me.PictureBox94.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox94.Enabled = false
+        Me.PictureBox94.Enabled = False
         Me.PictureBox94.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox94.Name = "PictureBox94"
         Me.PictureBox94.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox94.TabIndex = 1
-        Me.PictureBox94.TabStop = false
+        Me.PictureBox94.TabStop = False
         '
         'Panel151
         '
@@ -14586,7 +14598,7 @@ Partial Class Miitopia_SE
         Me.Panel151.Name = "Panel151"
         Me.Panel151.Size = New System.Drawing.Size(94, 18)
         Me.Panel151.TabIndex = 0
-        Me.Panel151.Visible = false
+        Me.Panel151.Visible = False
         '
         'NumericUpDown98
         '
@@ -14613,12 +14625,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox95.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Mage
         Me.PictureBox95.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox95.Enabled = false
+        Me.PictureBox95.Enabled = False
         Me.PictureBox95.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox95.Name = "PictureBox95"
         Me.PictureBox95.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox95.TabIndex = 1
-        Me.PictureBox95.TabStop = false
+        Me.PictureBox95.TabStop = False
         '
         'Panel153
         '
@@ -14630,7 +14642,7 @@ Partial Class Miitopia_SE
         Me.Panel153.Name = "Panel153"
         Me.Panel153.Size = New System.Drawing.Size(94, 18)
         Me.Panel153.TabIndex = 0
-        Me.Panel153.Visible = false
+        Me.Panel153.Visible = False
         '
         'NumericUpDown99
         '
@@ -14657,12 +14669,12 @@ Partial Class Miitopia_SE
         '
         Me.PictureBox96.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.Guerrier
         Me.PictureBox96.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox96.Enabled = false
+        Me.PictureBox96.Enabled = False
         Me.PictureBox96.Location = New System.Drawing.Point(21, 21)
         Me.PictureBox96.Name = "PictureBox96"
         Me.PictureBox96.Size = New System.Drawing.Size(52, 52)
         Me.PictureBox96.TabIndex = 1
-        Me.PictureBox96.TabStop = false
+        Me.PictureBox96.TabStop = False
         '
         'Panel155
         '
@@ -14674,7 +14686,7 @@ Partial Class Miitopia_SE
         Me.Panel155.Name = "Panel155"
         Me.Panel155.Size = New System.Drawing.Size(94, 18)
         Me.Panel155.TabIndex = 0
-        Me.Panel155.Visible = false
+        Me.Panel155.Visible = False
         '
         'NumericUpDown100
         '
@@ -14700,7 +14712,7 @@ Partial Class Miitopia_SE
         'Label19
         '
         Me.Label19.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.SystemColors.Info
         Me.Label19.Location = New System.Drawing.Point(0, 0)
         Me.Label19.Name = "Label19"
@@ -14723,7 +14735,7 @@ Partial Class Miitopia_SE
         'Label20
         '
         Me.Label20.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.SystemColors.Info
         Me.Label20.Location = New System.Drawing.Point(0, 0)
         Me.Label20.Name = "Label20"
@@ -14731,17 +14743,6 @@ Partial Class Miitopia_SE
         Me.Label20.TabIndex = 3
         Me.Label20.Text = "Save"
         Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'File_path_cottage
-        '
-        Me.File_path_cottage.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.File_path_cottage.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.File_path_cottage.Location = New System.Drawing.Point(3, 6)
-        Me.File_path_cottage.Name = "File_path_cottage"
-        Me.File_path_cottage.ReadOnly = true
-        Me.File_path_cottage.Size = New System.Drawing.Size(364, 13)
-        Me.File_path_cottage.TabIndex = 1
-        Me.File_path_cottage.Visible = false
         '
         'Miitopia_SE
         '
