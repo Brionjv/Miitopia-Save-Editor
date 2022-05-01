@@ -44,3 +44,4 @@ D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Re
 D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.exe
 D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.xml
 D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.pdb
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Release\Miitopia-Save-Editor.vbproj.AssemblyReference.cache

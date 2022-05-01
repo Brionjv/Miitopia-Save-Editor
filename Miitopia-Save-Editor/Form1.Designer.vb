@@ -390,6 +390,28 @@ Partial Class Miitopia_SE
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TabControl4 = New System.Windows.Forms.TabControl()
         Me.Tab_hero_Miiedit = New System.Windows.Forms.TabPage()
+        Me.Panel22 = New System.Windows.Forms.Panel()
+        Me.Text_showequipments = New System.Windows.Forms.Label()
+        Me.Panel24 = New System.Windows.Forms.Panel()
+        Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.Text_showstats = New System.Windows.Forms.Label()
+        Me.Panel13 = New System.Windows.Forms.Panel()
+        Me.valu_tummy = New System.Windows.Forms.NumericUpDown()
+        Me.Panel11 = New System.Windows.Forms.Panel()
+        Me.Select_pose = New System.Windows.Forms.ComboBox()
+        Me.valu_pose = New System.Windows.Forms.NumericUpDown()
+        Me.valu_personnality = New System.Windows.Forms.NumericUpDown()
+        Me.Select_personnality = New System.Windows.Forms.ComboBox()
+        Me.Icon_tummy = New System.Windows.Forms.PictureBox()
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Text_Mii_name = New System.Windows.Forms.TextBox()
+        Me.valu_job = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_job = New System.Windows.Forms.PictureBox()
         Me.Panel_hero_equipments = New System.Windows.Forms.Panel()
         Me.Group_hero_equipapp = New System.Windows.Forms.GroupBox()
         Me.Panel15 = New System.Windows.Forms.Panel()
@@ -423,31 +445,9 @@ Partial Class Miitopia_SE
         Me.Bar_equip_clothe = New System.Windows.Forms.Panel()
         Me.valu_equip_clothe = New System.Windows.Forms.NumericUpDown()
         Me.Icon_equip_clothe = New System.Windows.Forms.PictureBox()
-        Me.Panel22 = New System.Windows.Forms.Panel()
-        Me.Text_showequipments = New System.Windows.Forms.Label()
-        Me.Panel24 = New System.Windows.Forms.Panel()
-        Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.Panel14 = New System.Windows.Forms.Panel()
-        Me.Text_showstats = New System.Windows.Forms.Label()
-        Me.Panel13 = New System.Windows.Forms.Panel()
         Me.Panel_hero_sw1 = New System.Windows.Forms.Panel()
         Me.Group_warcry = New System.Windows.Forms.GroupBox()
         Me.Text_warcry = New System.Windows.Forms.TextBox()
-        Me.valu_tummy = New System.Windows.Forms.NumericUpDown()
-        Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.Select_pose = New System.Windows.Forms.ComboBox()
-        Me.valu_pose = New System.Windows.Forms.NumericUpDown()
-        Me.valu_personnality = New System.Windows.Forms.NumericUpDown()
-        Me.Select_personnality = New System.Windows.Forms.ComboBox()
-        Me.Icon_tummy = New System.Windows.Forms.PictureBox()
-        Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Text_Mii_name = New System.Windows.Forms.TextBox()
-        Me.valu_job = New System.Windows.Forms.NumericUpDown()
-        Me.Icon_job = New System.Windows.Forms.PictureBox()
         Me.Panel_hero_sw2 = New System.Windows.Forms.Panel()
         Me.valu_hbgobbled = New System.Windows.Forms.NumericUpDown()
         Me.valu_mcgulped = New System.Windows.Forms.NumericUpDown()
@@ -756,6 +756,13 @@ Partial Class Miitopia_SE
         Me.Icon_epuipwp_warrior = New System.Windows.Forms.PictureBox()
         Me.Bar_epuipwp_warrior = New System.Windows.Forms.Panel()
         Me.valu_epuipwp_warrior = New System.Windows.Forms.NumericUpDown()
+        Me.Tab_hero_management = New System.Windows.Forms.TabPage()
+        Me.Panel26 = New System.Windows.Forms.Panel()
+        Me.Text_restoremii = New System.Windows.Forms.Label()
+        Me.Text_restore_Mii = New System.Windows.Forms.TextBox()
+        Me.Panel31 = New System.Windows.Forms.Panel()
+        Me.Text_extractmii = New System.Windows.Forms.Label()
+        Me.Text_extract_Mii = New System.Windows.Forms.TextBox()
         Me.Button_open_hero = New System.Windows.Forms.Panel()
         Me.Text_open_hero = New System.Windows.Forms.Label()
         Me.Button_save_hero = New System.Windows.Forms.Panel()
@@ -1141,6 +1148,7 @@ Partial Class Miitopia_SE
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Panel157 = New System.Windows.Forms.Panel()
         Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
         Me.MSE_header.SuspendLayout
         CType(Me.MSE_icon, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).BeginInit
@@ -1435,6 +1443,16 @@ Partial Class Miitopia_SE
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit
         Me.TabControl4.SuspendLayout
         Me.Tab_hero_Miiedit.SuspendLayout
+        Me.Panel22.SuspendLayout
+        Me.Panel14.SuspendLayout
+        CType(Me.valu_tummy, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel11.SuspendLayout
+        CType(Me.valu_pose, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_personnality, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tummy, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel2.SuspendLayout
+        CType(Me.valu_job, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_job, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_hero_equipments.SuspendLayout
         Me.Group_hero_equipapp.SuspendLayout
         Me.Panel15.SuspendLayout
@@ -1462,18 +1480,8 @@ Partial Class Miitopia_SE
         Me.Bar_equip_clothe.SuspendLayout
         CType(Me.valu_equip_clothe, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.Icon_equip_clothe, System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Panel22.SuspendLayout
-        Me.Panel14.SuspendLayout
         Me.Panel_hero_sw1.SuspendLayout
         Me.Group_warcry.SuspendLayout
-        CType(Me.valu_tummy, System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Panel11.SuspendLayout
-        CType(Me.valu_pose, System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.valu_personnality, System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_tummy, System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Panel2.SuspendLayout
-        CType(Me.valu_job, System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.Icon_job, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_hero_sw2.SuspendLayout
         CType(Me.valu_hbgobbled, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.valu_mcgulped, System.ComponentModel.ISupportInitialize).BeginInit
@@ -1750,6 +1758,9 @@ Partial Class Miitopia_SE
         CType(Me.Icon_epuipwp_warrior, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Bar_epuipwp_warrior.SuspendLayout
         CType(Me.valu_epuipwp_warrior, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Tab_hero_management.SuspendLayout
+        Me.Panel26.SuspendLayout
+        Me.Panel31.SuspendLayout
         Me.Button_open_hero.SuspendLayout
         Me.Button_save_hero.SuspendLayout
         Me.File_path_hero.SuspendLayout
@@ -2782,7 +2793,9 @@ Partial Class Miitopia_SE
         Me.Changelog.Name = "Changelog"
         Me.Changelog.Size = New System.Drawing.Size(468, 342)
         Me.Changelog.TabIndex = 1
-        Me.Changelog.Text = "Update minor things" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Add link to other save editors" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Add roulette editor"
+        Me.Changelog.Text = "Errors in read hero.sav in JPN version fixed" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Extract Mii in team added" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Restore " &
+    "Mii in team from files added (files from Tomodachi Life Save Editor can be used)" &
+    ""
         Me.Changelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label7
@@ -2792,7 +2805,7 @@ Partial Class Miitopia_SE
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(471, 13)
         Me.Label7.TabIndex = 0
-        Me.Label7.Text = "Version 2.0.6"
+        Me.Label7.Text = "Version 2.0.7"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Tab_credits
@@ -6193,6 +6206,7 @@ Partial Class Miitopia_SE
         Me.TabControl4.Controls.Add(Me.Tab_hero_Levboost)
         Me.TabControl4.Controls.Add(Me.Tab_hero_relationship)
         Me.TabControl4.Controls.Add(Me.Tab_hero_equipments)
+        Me.TabControl4.Controls.Add(Me.Tab_hero_management)
         Me.TabControl4.Location = New System.Drawing.Point(9, 55)
         Me.TabControl4.Name = "TabControl4"
         Me.TabControl4.SelectedIndex = 0
@@ -6202,13 +6216,11 @@ Partial Class Miitopia_SE
         'Tab_hero_Miiedit
         '
         Me.Tab_hero_Miiedit.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
-        Me.Tab_hero_Miiedit.Controls.Add(Me.Panel_hero_equipments)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel22)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel24)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel12)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel14)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel13)
-        Me.Tab_hero_Miiedit.Controls.Add(Me.Panel_hero_sw1)
         Me.Tab_hero_Miiedit.Controls.Add(Me.valu_tummy)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel11)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Icon_tummy)
@@ -6219,6 +6231,8 @@ Partial Class Miitopia_SE
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel2)
         Me.Tab_hero_Miiedit.Controls.Add(Me.valu_job)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Icon_job)
+        Me.Tab_hero_Miiedit.Controls.Add(Me.Panel_hero_equipments)
+        Me.Tab_hero_Miiedit.Controls.Add(Me.Panel_hero_sw1)
         Me.Tab_hero_Miiedit.Controls.Add(Me.Panel_hero_sw2)
         Me.Tab_hero_Miiedit.Location = New System.Drawing.Point(4, 22)
         Me.Tab_hero_Miiedit.Name = "Tab_hero_Miiedit"
@@ -6227,6 +6241,222 @@ Partial Class Miitopia_SE
         Me.Tab_hero_Miiedit.TabIndex = 0
         Me.Tab_hero_Miiedit.Text = "Mii edition"
         Me.Tab_hero_Miiedit.UseVisualStyleBackColor = True
+        '
+        'Panel22
+        '
+        Me.Panel22.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_mid
+        Me.Panel22.Controls.Add(Me.Text_showequipments)
+        Me.Panel22.Location = New System.Drawing.Point(111, 318)
+        Me.Panel22.Name = "Panel22"
+        Me.Panel22.Size = New System.Drawing.Size(79, 30)
+        Me.Panel22.TabIndex = 65
+        '
+        'Text_showequipments
+        '
+        Me.Text_showequipments.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_showequipments.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_showequipments.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Text_showequipments.Location = New System.Drawing.Point(0, 0)
+        Me.Text_showequipments.Name = "Text_showequipments"
+        Me.Text_showequipments.Size = New System.Drawing.Size(79, 30)
+        Me.Text_showequipments.TabIndex = 0
+        Me.Text_showequipments.Text = "Show equipments"
+        Me.Text_showequipments.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel24
+        '
+        Me.Panel24.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_rightarrow
+        Me.Panel24.Location = New System.Drawing.Point(180, 318)
+        Me.Panel24.Name = "Panel24"
+        Me.Panel24.Size = New System.Drawing.Size(29, 30)
+        Me.Panel24.TabIndex = 64
+        '
+        'Panel12
+        '
+        Me.Panel12.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_left
+        Me.Panel12.Enabled = False
+        Me.Panel12.Location = New System.Drawing.Point(98, 318)
+        Me.Panel12.Name = "Panel12"
+        Me.Panel12.Size = New System.Drawing.Size(13, 30)
+        Me.Panel12.TabIndex = 63
+        '
+        'Panel14
+        '
+        Me.Panel14.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_mid
+        Me.Panel14.Controls.Add(Me.Text_showstats)
+        Me.Panel14.Location = New System.Drawing.Point(0, 318)
+        Me.Panel14.Name = "Panel14"
+        Me.Panel14.Size = New System.Drawing.Size(79, 30)
+        Me.Panel14.TabIndex = 36
+        '
+        'Text_showstats
+        '
+        Me.Text_showstats.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_showstats.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_showstats.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Text_showstats.Location = New System.Drawing.Point(0, 0)
+        Me.Text_showstats.Name = "Text_showstats"
+        Me.Text_showstats.Size = New System.Drawing.Size(79, 30)
+        Me.Text_showstats.TabIndex = 0
+        Me.Text_showstats.Text = "Show stats"
+        Me.Text_showstats.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel13
+        '
+        Me.Panel13.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_rightarrow
+        Me.Panel13.Location = New System.Drawing.Point(69, 318)
+        Me.Panel13.Name = "Panel13"
+        Me.Panel13.Size = New System.Drawing.Size(29, 30)
+        Me.Panel13.TabIndex = 35
+        '
+        'valu_tummy
+        '
+        Me.valu_tummy.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tummy.Location = New System.Drawing.Point(14, 255)
+        Me.valu_tummy.Name = "valu_tummy"
+        Me.valu_tummy.Size = New System.Drawing.Size(43, 16)
+        Me.valu_tummy.TabIndex = 23
+        Me.valu_tummy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tummy.Visible = False
+        '
+        'Panel11
+        '
+        Me.Panel11.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_mid
+        Me.Panel11.Controls.Add(Me.Select_pose)
+        Me.Panel11.Controls.Add(Me.valu_pose)
+        Me.Panel11.Controls.Add(Me.valu_personnality)
+        Me.Panel11.Controls.Add(Me.Select_personnality)
+        Me.Panel11.Location = New System.Drawing.Point(200, 22)
+        Me.Panel11.Name = "Panel11"
+        Me.Panel11.Size = New System.Drawing.Size(323, 30)
+        Me.Panel11.TabIndex = 33
+        '
+        'Select_pose
+        '
+        Me.Select_pose.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_pose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_pose.FormattingEnabled = True
+        Me.Select_pose.Items.AddRange(New Object() {"Pose 1", "Pose 2", "Pose 3", "Pose 4", "Pose 5", "Pose 6", "Pose 7", "Pose 8", "Pose 9", "Pose 10", "Pose 11", "Pose 12", "???"})
+        Me.Select_pose.Location = New System.Drawing.Point(166, 5)
+        Me.Select_pose.Name = "Select_pose"
+        Me.Select_pose.Size = New System.Drawing.Size(123, 21)
+        Me.Select_pose.TabIndex = 37
+        '
+        'valu_pose
+        '
+        Me.valu_pose.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_pose.Location = New System.Drawing.Point(290, 7)
+        Me.valu_pose.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_pose.Name = "valu_pose"
+        Me.valu_pose.Size = New System.Drawing.Size(34, 16)
+        Me.valu_pose.TabIndex = 36
+        Me.valu_pose.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_pose.Visible = False
+        '
+        'valu_personnality
+        '
+        Me.valu_personnality.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_personnality.Location = New System.Drawing.Point(1, 7)
+        Me.valu_personnality.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
+        Me.valu_personnality.Name = "valu_personnality"
+        Me.valu_personnality.Size = New System.Drawing.Size(30, 16)
+        Me.valu_personnality.TabIndex = 35
+        Me.valu_personnality.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_personnality.Visible = False
+        '
+        'Select_personnality
+        '
+        Me.Select_personnality.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_personnality.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_personnality.FormattingEnabled = True
+        Me.Select_personnality.Items.AddRange(New Object() {"Kind", "Energetic", "Laid-back", "Cool", "Stubborn", "Airheaded", "Cautious"})
+        Me.Select_personnality.Location = New System.Drawing.Point(32, 5)
+        Me.Select_personnality.Name = "Select_personnality"
+        Me.Select_personnality.Size = New System.Drawing.Size(123, 21)
+        Me.Select_personnality.TabIndex = 34
+        '
+        'Icon_tummy
+        '
+        Me.Icon_tummy.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tummy.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.Tumempty
+        Me.Icon_tummy.Location = New System.Drawing.Point(13, 198)
+        Me.Icon_tummy.Name = "Icon_tummy"
+        Me.Icon_tummy.Size = New System.Drawing.Size(82, 74)
+        Me.Icon_tummy.TabIndex = 22
+        Me.Icon_tummy.TabStop = False
+        '
+        'Panel10
+        '
+        Me.Panel10.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_leftarrow
+        Me.Panel10.Location = New System.Drawing.Point(178, 22)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(29, 30)
+        Me.Panel10.TabIndex = 32
+        '
+        'Panel7
+        '
+        Me.Panel7.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_rightarrow
+        Me.Panel7.Location = New System.Drawing.Point(0, 22)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(29, 30)
+        Me.Panel7.TabIndex = 31
+        '
+        'Panel6
+        '
+        Me.Panel6.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_right
+        Me.Panel6.Enabled = False
+        Me.Panel6.Location = New System.Drawing.Point(166, 22)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(12, 30)
+        Me.Panel6.TabIndex = 30
+        '
+        'Panel4
+        '
+        Me.Panel4.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_left
+        Me.Panel4.Enabled = False
+        Me.Panel4.Location = New System.Drawing.Point(29, 22)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(13, 30)
+        Me.Panel4.TabIndex = 29
+        '
+        'Panel2
+        '
+        Me.Panel2.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_mid
+        Me.Panel2.Controls.Add(Me.Text_Mii_name)
+        Me.Panel2.Location = New System.Drawing.Point(30, 22)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(148, 30)
+        Me.Panel2.TabIndex = 28
+        '
+        'Text_Mii_name
+        '
+        Me.Text_Mii_name.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Text_Mii_name.Location = New System.Drawing.Point(25, 9)
+        Me.Text_Mii_name.MaxLength = 10
+        Me.Text_Mii_name.Name = "Text_Mii_name"
+        Me.Text_Mii_name.Size = New System.Drawing.Size(99, 13)
+        Me.Text_Mii_name.TabIndex = 0
+        '
+        'valu_job
+        '
+        Me.valu_job.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_job.Location = New System.Drawing.Point(14, 144)
+        Me.valu_job.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_job.Name = "valu_job"
+        Me.valu_job.Size = New System.Drawing.Size(34, 16)
+        Me.valu_job.TabIndex = 25
+        Me.valu_job.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_job.Visible = False
+        '
+        'Icon_job
+        '
+        Me.Icon_job.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_job.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.job_warrior
+        Me.Icon_job.Location = New System.Drawing.Point(14, 69)
+        Me.Icon_job.Name = "Icon_job"
+        Me.Icon_job.Size = New System.Drawing.Size(78, 91)
+        Me.Icon_job.TabIndex = 27
+        Me.Icon_job.TabStop = False
         '
         'Panel_hero_equipments
         '
@@ -6612,73 +6842,6 @@ Partial Class Miitopia_SE
         Me.Icon_equip_clothe.TabIndex = 1
         Me.Icon_equip_clothe.TabStop = False
         '
-        'Panel22
-        '
-        Me.Panel22.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_mid
-        Me.Panel22.Controls.Add(Me.Text_showequipments)
-        Me.Panel22.Location = New System.Drawing.Point(111, 318)
-        Me.Panel22.Name = "Panel22"
-        Me.Panel22.Size = New System.Drawing.Size(79, 30)
-        Me.Panel22.TabIndex = 65
-        '
-        'Text_showequipments
-        '
-        Me.Text_showequipments.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Text_showequipments.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Text_showequipments.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Text_showequipments.Location = New System.Drawing.Point(0, 0)
-        Me.Text_showequipments.Name = "Text_showequipments"
-        Me.Text_showequipments.Size = New System.Drawing.Size(79, 30)
-        Me.Text_showequipments.TabIndex = 0
-        Me.Text_showequipments.Text = "Show equipments"
-        Me.Text_showequipments.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Panel24
-        '
-        Me.Panel24.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_rightarrow
-        Me.Panel24.Location = New System.Drawing.Point(180, 318)
-        Me.Panel24.Name = "Panel24"
-        Me.Panel24.Size = New System.Drawing.Size(29, 30)
-        Me.Panel24.TabIndex = 64
-        '
-        'Panel12
-        '
-        Me.Panel12.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_left
-        Me.Panel12.Enabled = False
-        Me.Panel12.Location = New System.Drawing.Point(98, 318)
-        Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(13, 30)
-        Me.Panel12.TabIndex = 63
-        '
-        'Panel14
-        '
-        Me.Panel14.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_mid
-        Me.Panel14.Controls.Add(Me.Text_showstats)
-        Me.Panel14.Location = New System.Drawing.Point(0, 318)
-        Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(79, 30)
-        Me.Panel14.TabIndex = 36
-        '
-        'Text_showstats
-        '
-        Me.Text_showstats.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Text_showstats.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Text_showstats.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Text_showstats.Location = New System.Drawing.Point(0, 0)
-        Me.Text_showstats.Name = "Text_showstats"
-        Me.Text_showstats.Size = New System.Drawing.Size(79, 30)
-        Me.Text_showstats.TabIndex = 0
-        Me.Text_showstats.Text = "Show stats"
-        Me.Text_showstats.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Panel13
-        '
-        Me.Panel13.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_rightarrow
-        Me.Panel13.Location = New System.Drawing.Point(69, 318)
-        Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(29, 30)
-        Me.Panel13.TabIndex = 35
-        '
         'Panel_hero_sw1
         '
         Me.Panel_hero_sw1.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_white
@@ -6710,155 +6873,6 @@ Partial Class Miitopia_SE
         Me.Text_warcry.Size = New System.Drawing.Size(234, 13)
         Me.Text_warcry.TabIndex = 0
         Me.Text_warcry.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'valu_tummy
-        '
-        Me.valu_tummy.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_tummy.Location = New System.Drawing.Point(14, 255)
-        Me.valu_tummy.Name = "valu_tummy"
-        Me.valu_tummy.Size = New System.Drawing.Size(43, 16)
-        Me.valu_tummy.TabIndex = 23
-        Me.valu_tummy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_tummy.Visible = False
-        '
-        'Panel11
-        '
-        Me.Panel11.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_mid
-        Me.Panel11.Controls.Add(Me.Select_pose)
-        Me.Panel11.Controls.Add(Me.valu_pose)
-        Me.Panel11.Controls.Add(Me.valu_personnality)
-        Me.Panel11.Controls.Add(Me.Select_personnality)
-        Me.Panel11.Location = New System.Drawing.Point(200, 22)
-        Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(323, 30)
-        Me.Panel11.TabIndex = 33
-        '
-        'Select_pose
-        '
-        Me.Select_pose.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.Select_pose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_pose.FormattingEnabled = True
-        Me.Select_pose.Items.AddRange(New Object() {"Pose 1", "Pose 2", "Pose 3", "Pose 4", "Pose 5", "Pose 6", "Pose 7", "Pose 8", "Pose 9", "Pose 10", "Pose 11", "Pose 12", "???"})
-        Me.Select_pose.Location = New System.Drawing.Point(166, 5)
-        Me.Select_pose.Name = "Select_pose"
-        Me.Select_pose.Size = New System.Drawing.Size(123, 21)
-        Me.Select_pose.TabIndex = 37
-        '
-        'valu_pose
-        '
-        Me.valu_pose.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_pose.Location = New System.Drawing.Point(290, 7)
-        Me.valu_pose.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.valu_pose.Name = "valu_pose"
-        Me.valu_pose.Size = New System.Drawing.Size(34, 16)
-        Me.valu_pose.TabIndex = 36
-        Me.valu_pose.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_pose.Visible = False
-        '
-        'valu_personnality
-        '
-        Me.valu_personnality.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_personnality.Location = New System.Drawing.Point(1, 7)
-        Me.valu_personnality.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
-        Me.valu_personnality.Name = "valu_personnality"
-        Me.valu_personnality.Size = New System.Drawing.Size(30, 16)
-        Me.valu_personnality.TabIndex = 35
-        Me.valu_personnality.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_personnality.Visible = False
-        '
-        'Select_personnality
-        '
-        Me.Select_personnality.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.Select_personnality.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Select_personnality.FormattingEnabled = True
-        Me.Select_personnality.Items.AddRange(New Object() {"Kind", "Energetic", "Laid-back", "Cool", "Stubborn", "Airheaded", "Cautious"})
-        Me.Select_personnality.Location = New System.Drawing.Point(32, 5)
-        Me.Select_personnality.Name = "Select_personnality"
-        Me.Select_personnality.Size = New System.Drawing.Size(123, 21)
-        Me.Select_personnality.TabIndex = 34
-        '
-        'Icon_tummy
-        '
-        Me.Icon_tummy.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_tummy.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.Tumempty
-        Me.Icon_tummy.Location = New System.Drawing.Point(13, 198)
-        Me.Icon_tummy.Name = "Icon_tummy"
-        Me.Icon_tummy.Size = New System.Drawing.Size(82, 74)
-        Me.Icon_tummy.TabIndex = 22
-        Me.Icon_tummy.TabStop = False
-        '
-        'Panel10
-        '
-        Me.Panel10.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_leftarrow
-        Me.Panel10.Location = New System.Drawing.Point(178, 22)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(29, 30)
-        Me.Panel10.TabIndex = 32
-        '
-        'Panel7
-        '
-        Me.Panel7.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_rightarrow
-        Me.Panel7.Location = New System.Drawing.Point(0, 22)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(29, 30)
-        Me.Panel7.TabIndex = 31
-        '
-        'Panel6
-        '
-        Me.Panel6.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_right
-        Me.Panel6.Enabled = False
-        Me.Panel6.Location = New System.Drawing.Point(166, 22)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(12, 30)
-        Me.Panel6.TabIndex = 30
-        '
-        'Panel4
-        '
-        Me.Panel4.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_left
-        Me.Panel4.Enabled = False
-        Me.Panel4.Location = New System.Drawing.Point(29, 22)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(13, 30)
-        Me.Panel4.TabIndex = 29
-        '
-        'Panel2
-        '
-        Me.Panel2.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bar_mid
-        Me.Panel2.Controls.Add(Me.Text_Mii_name)
-        Me.Panel2.Location = New System.Drawing.Point(30, 22)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(148, 30)
-        Me.Panel2.TabIndex = 28
-        '
-        'Text_Mii_name
-        '
-        Me.Text_Mii_name.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.Text_Mii_name.Location = New System.Drawing.Point(25, 9)
-        Me.Text_Mii_name.MaxLength = 10
-        Me.Text_Mii_name.Name = "Text_Mii_name"
-        Me.Text_Mii_name.Size = New System.Drawing.Size(99, 13)
-        Me.Text_Mii_name.TabIndex = 0
-        '
-        'valu_job
-        '
-        Me.valu_job.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_job.Location = New System.Drawing.Point(14, 144)
-        Me.valu_job.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.valu_job.Name = "valu_job"
-        Me.valu_job.Size = New System.Drawing.Size(34, 16)
-        Me.valu_job.TabIndex = 25
-        Me.valu_job.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_job.Visible = False
-        '
-        'Icon_job
-        '
-        Me.Icon_job.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_job.Image = Global.Miitopia_Save_Editor.My.Resources.Resources.job_warrior
-        Me.Icon_job.Location = New System.Drawing.Point(14, 69)
-        Me.Icon_job.Name = "Icon_job"
-        Me.Icon_job.Size = New System.Drawing.Size(78, 91)
-        Me.Icon_job.TabIndex = 27
-        Me.Icon_job.TabStop = False
         '
         'Panel_hero_sw2
         '
@@ -10369,6 +10383,85 @@ Partial Class Miitopia_SE
         Me.valu_epuipwp_warrior.Size = New System.Drawing.Size(79, 16)
         Me.valu_epuipwp_warrior.TabIndex = 5
         Me.valu_epuipwp_warrior.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Tab_hero_management
+        '
+        Me.Tab_hero_management.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_tabpage
+        Me.Tab_hero_management.Controls.Add(Me.Label18)
+        Me.Tab_hero_management.Controls.Add(Me.Panel26)
+        Me.Tab_hero_management.Controls.Add(Me.Text_restore_Mii)
+        Me.Tab_hero_management.Controls.Add(Me.Panel31)
+        Me.Tab_hero_management.Controls.Add(Me.Text_extract_Mii)
+        Me.Tab_hero_management.Location = New System.Drawing.Point(4, 22)
+        Me.Tab_hero_management.Name = "Tab_hero_management"
+        Me.Tab_hero_management.Size = New System.Drawing.Size(524, 351)
+        Me.Tab_hero_management.TabIndex = 5
+        Me.Tab_hero_management.Text = "Mii management"
+        Me.Tab_hero_management.UseVisualStyleBackColor = True
+        '
+        'Panel26
+        '
+        Me.Panel26.BackgroundImage = CType(resources.GetObject("Panel26.BackgroundImage"), System.Drawing.Image)
+        Me.Panel26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel26.Controls.Add(Me.Text_restoremii)
+        Me.Panel26.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel26.Location = New System.Drawing.Point(317, 245)
+        Me.Panel26.Name = "Panel26"
+        Me.Panel26.Size = New System.Drawing.Size(150, 32)
+        Me.Panel26.TabIndex = 318
+        '
+        'Text_restoremii
+        '
+        Me.Text_restoremii.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Text_restoremii.Location = New System.Drawing.Point(0, 0)
+        Me.Text_restoremii.Name = "Text_restoremii"
+        Me.Text_restoremii.Size = New System.Drawing.Size(150, 32)
+        Me.Text_restoremii.TabIndex = 1
+        Me.Text_restoremii.Text = "Restore"
+        Me.Text_restoremii.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Text_restore_Mii
+        '
+        Me.Text_restore_Mii.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Text_restore_Mii.Location = New System.Drawing.Point(292, 73)
+        Me.Text_restore_Mii.MaxLength = 99999999
+        Me.Text_restore_Mii.Multiline = True
+        Me.Text_restore_Mii.Name = "Text_restore_Mii"
+        Me.Text_restore_Mii.ReadOnly = True
+        Me.Text_restore_Mii.Size = New System.Drawing.Size(200, 150)
+        Me.Text_restore_Mii.TabIndex = 317
+        '
+        'Panel31
+        '
+        Me.Panel31.BackgroundImage = CType(resources.GetObject("Panel31.BackgroundImage"), System.Drawing.Image)
+        Me.Panel31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel31.Controls.Add(Me.Text_extractmii)
+        Me.Panel31.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel31.Location = New System.Drawing.Point(57, 245)
+        Me.Panel31.Name = "Panel31"
+        Me.Panel31.Size = New System.Drawing.Size(150, 32)
+        Me.Panel31.TabIndex = 316
+        '
+        'Text_extractmii
+        '
+        Me.Text_extractmii.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Text_extractmii.Location = New System.Drawing.Point(0, 0)
+        Me.Text_extractmii.Name = "Text_extractmii"
+        Me.Text_extractmii.Size = New System.Drawing.Size(150, 32)
+        Me.Text_extractmii.TabIndex = 1
+        Me.Text_extractmii.Text = "Extract"
+        Me.Text_extractmii.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Text_extract_Mii
+        '
+        Me.Text_extract_Mii.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Text_extract_Mii.Location = New System.Drawing.Point(32, 73)
+        Me.Text_extract_Mii.MaxLength = 99999999
+        Me.Text_extract_Mii.Multiline = True
+        Me.Text_extract_Mii.Name = "Text_extract_Mii"
+        Me.Text_extract_Mii.ReadOnly = True
+        Me.Text_extract_Mii.Size = New System.Drawing.Size(200, 150)
+        Me.Text_extract_Mii.TabIndex = 315
         '
         'Button_open_hero
         '
@@ -14744,13 +14837,23 @@ Partial Class Miitopia_SE
         Me.Label20.Text = "Save"
         Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Label18
+        '
+        Me.Label18.ForeColor = System.Drawing.Color.Red
+        Me.Label18.Location = New System.Drawing.Point(53, 18)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(418, 16)
+        Me.Label18.TabIndex = 319
+        Me.Label18.Text = "Warning : replace only an existing Mii"
+        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Miitopia_SE
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Miitopia_Save_Editor.My.Resources.Resources.bg_footer01
         Me.ClientSize = New System.Drawing.Size(550, 500)
-        Me.ControlBox = false
+        Me.ControlBox = False
         Me.Controls.Add(Me.Panel_notification)
         Me.Controls.Add(Me.File_path_hero)
         Me.Controls.Add(Me.File_path_quest)
@@ -14764,986 +14867,990 @@ Partial Class Miitopia_SE
         Me.Controls.Add(Me.Menu_panel)
         Me.Controls.Add(Me.MSE_header)
         Me.Controls.Add(Me.Panel_common)
-        Me.Controls.Add(Me.Panel_hero)
         Me.Controls.Add(Me.Panel_quest)
-        Me.Controls.Add(Me.Panel_settings)
         Me.Controls.Add(Me.Panel_cottage)
-        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Controls.Add(Me.Panel_hero)
+        Me.Controls.Add(Me.Panel_settings)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Icon = CType(resources.GetObject("$this.Icon"),System.Drawing.Icon)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Miitopia_SE"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Miitopia Save Editor"
-        Me.MSE_header.ResumeLayout(false)
-        CType(Me.MSE_icon,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.MSE_logo,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Closebutton,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.MSE_iconupdate,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel_description.ResumeLayout(false)
-        Me.Menu_panel.ResumeLayout(false)
-        Me.Menu_Repair.ResumeLayout(false)
+        Me.MSE_header.ResumeLayout(False)
+        CType(Me.MSE_icon, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.MSE_iconupdate, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel_description.ResumeLayout(False)
+        Me.Menu_panel.ResumeLayout(False)
+        Me.Menu_Repair.ResumeLayout(False)
         Me.Menu_Repair.PerformLayout
-        CType(Me.Menu_icon_repair,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Menu_cottage.ResumeLayout(false)
+        CType(Me.Menu_icon_repair, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Menu_cottage.ResumeLayout(False)
         Me.Menu_cottage.PerformLayout
-        CType(Me.Menu_icon_cottage,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Menu_quest.ResumeLayout(false)
+        CType(Me.Menu_icon_cottage, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Menu_quest.ResumeLayout(False)
         Me.Menu_quest.PerformLayout
-        CType(Me.Menu_icon_quest,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Menu_hero.ResumeLayout(false)
+        CType(Me.Menu_icon_quest, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Menu_hero.ResumeLayout(False)
         Me.Menu_hero.PerformLayout
-        CType(Me.Menu_icon_hero,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Menu_common.ResumeLayout(false)
+        CType(Me.Menu_icon_hero, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Menu_common.ResumeLayout(False)
         Me.Menu_common.PerformLayout
-        CType(Me.Menu_icon_common,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Menu_settings.ResumeLayout(false)
+        CType(Me.Menu_icon_common, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Menu_settings.ResumeLayout(False)
         Me.Menu_settings.PerformLayout
-        CType(Me.Menu_icon_settings,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Menu_width,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Menu_buttonS.ResumeLayout(false)
-        Me.Menu_buttonH.ResumeLayout(false)
-        Me.Hidden_things.ResumeLayout(false)
-        Me.Panel_music.ResumeLayout(false)
-        CType(Me.PictureBox4,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel_slt_save.ResumeLayout(false)
-        Me.File_path_common.ResumeLayout(false)
+        CType(Me.Menu_icon_settings, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Menu_width, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Menu_buttonS.ResumeLayout(False)
+        Me.Menu_buttonH.ResumeLayout(False)
+        Me.Hidden_things.ResumeLayout(False)
+        Me.Panel_music.ResumeLayout(False)
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel_slt_save.ResumeLayout(False)
+        Me.File_path_common.ResumeLayout(False)
         Me.File_path_common.PerformLayout
-        Me.Panel_settings.ResumeLayout(false)
-        Me.TabControl5.ResumeLayout(false)
-        Me.Tab_settings.ResumeLayout(false)
-        Me.Group_settings.ResumeLayout(false)
-        CType(Me.PictureBox26,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel30.ResumeLayout(false)
+        Me.Panel_settings.ResumeLayout(False)
+        Me.TabControl5.ResumeLayout(False)
+        Me.Tab_settings.ResumeLayout(False)
+        Me.Group_settings.ResumeLayout(False)
+        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel30.ResumeLayout(False)
         Me.Panel30.PerformLayout
-        Me.Panel9.ResumeLayout(false)
+        Me.Panel9.ResumeLayout(False)
         Me.Panel9.PerformLayout
-        Me.Panel8.ResumeLayout(false)
+        Me.Panel8.ResumeLayout(False)
         Me.Panel8.PerformLayout
-        Me.Panel5.ResumeLayout(false)
+        Me.Panel5.ResumeLayout(False)
         Me.Panel5.PerformLayout
-        Me.Panel3.ResumeLayout(false)
+        Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout
-        Me.Tab_changelog.ResumeLayout(false)
-        Me.Group_changelog.ResumeLayout(false)
-        CType(Me.PictureBox27,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_credits.ResumeLayout(false)
-        Me.Panel28.ResumeLayout(false)
-        CType(Me.Icon_MarioPartyITSE,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_PaparMarioSSSE,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_nintendogscatSE,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_IronfallISE,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_TLSE,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_ChibiRoboZLSE,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_3dsSEL,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_MiitopiaSE,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_credits.ResumeLayout(false)
+        Me.Tab_changelog.ResumeLayout(False)
+        Me.Group_changelog.ResumeLayout(False)
+        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Tab_credits.ResumeLayout(False)
+        Me.Panel28.ResumeLayout(False)
+        CType(Me.Icon_MarioPartyITSE, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_PaparMarioSSSE, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_nintendogscatSE, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_IronfallISE, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_TLSE, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_ChibiRoboZLSE, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_3dsSEL, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_MiitopiaSE, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_credits.ResumeLayout(False)
         Me.Group_credits.PerformLayout
-        CType(Me.PictureBox28,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel_common.ResumeLayout(false)
+        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel_common.ResumeLayout(False)
         Me.Panel_common.PerformLayout
-        CType(Me.Dragon_map2,System.ComponentModel.ISupportInitialize).EndInit
-        Me.TabControl1.ResumeLayout(false)
-        Me.Tab_common_main.ResumeLayout(false)
+        CType(Me.Dragon_map2, System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabControl1.ResumeLayout(False)
+        Me.Tab_common_main.ResumeLayout(False)
         Me.Tab_common_main.PerformLayout
-        Me.Panel_partylevel.ResumeLayout(false)
+        Me.Panel_partylevel.ResumeLayout(False)
         Me.Panel_partylevel.PerformLayout
-        CType(Me.PictureBox6,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_level,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel_partyworld.ResumeLayout(false)
-        CType(Me.valu_world,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_safespot.ResumeLayout(false)
-        CType(Me.valu_safespot,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.icon_safespot,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Dragon_map,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_party.ResumeLayout(false)
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_level, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel_partyworld.ResumeLayout(False)
+        CType(Me.valu_world, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_safespot.ResumeLayout(False)
+        CType(Me.valu_safespot, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.icon_safespot, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Dragon_map, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_party.ResumeLayout(False)
         Me.Group_party.PerformLayout
-        CType(Me.valu_party,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox5,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.icon_party,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel1.ResumeLayout(false)
+        CType(Me.valu_party, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.icon_party, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout
-        CType(Me.valu_rescued,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_sprinkles.ResumeLayout(false)
-        CType(Me.icon_sprinkles,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_sprinkles.ResumeLayout(false)
-        CType(Me.valu_sprinkles,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ticket.ResumeLayout(false)
-        CType(Me.icon_ticket,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ticket.ResumeLayout(false)
-        CType(Me.valu_ticket,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_costamiibo.ResumeLayout(false)
-        CType(Me.icon_costamiibo,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_costamiibo.ResumeLayout(false)
-        CType(Me.valu_costamiibo,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_allweapons.ResumeLayout(false)
-        CType(Me.icon_allweapons,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_allweapons.ResumeLayout(false)
-        CType(Me.valu_allweapons,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_foods.ResumeLayout(false)
-        CType(Me.icon_foods,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_candies.ResumeLayout(false)
-        CType(Me.icon_candies,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_candies.ResumeLayout(false)
-        CType(Me.PictureBox9,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_candies,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_bananas.ResumeLayout(false)
-        CType(Me.icon_bananas,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_bananas.ResumeLayout(false)
-        CType(Me.PictureBox7,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_bananas,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_gold.ResumeLayout(false)
-        CType(Me.icon_gold,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_gold.ResumeLayout(false)
-        CType(Me.valu_gold,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_common_ency.ResumeLayout(false)
-        Me.TabControl2.ResumeLayout(false)
-        Me.Tab_ency_weap.ResumeLayout(false)
-        Me.Fea_wp_elf.ResumeLayout(false)
-        CType(Me.Icon_wp_elf,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_elf.ResumeLayout(false)
-        CType(Me.valu_wp_elf,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_cat.ResumeLayout(false)
-        CType(Me.Icon_wp_cat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_cat.ResumeLayout(false)
-        CType(Me.valu_wp_cat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_scientist.ResumeLayout(false)
-        CType(Me.Icon_wp_scientist,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_scientist.ResumeLayout(false)
-        CType(Me.valu_wp_scientist,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_flower.ResumeLayout(false)
-        CType(Me.Icon_wp_flower,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_flower.ResumeLayout(false)
-        CType(Me.valu_wp_flower,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_princess.ResumeLayout(false)
-        CType(Me.Icon_wp_princess,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_princess.ResumeLayout(false)
-        CType(Me.valu_wp_princess,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_imp.ResumeLayout(false)
-        CType(Me.Icon_wp_imp,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_imp.ResumeLayout(false)
-        CType(Me.valu_wp_imp,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_tank.ResumeLayout(false)
-        CType(Me.Icon_wp_tank,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_tank.ResumeLayout(false)
-        CType(Me.valu_wp_tank,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_chef.ResumeLayout(false)
-        CType(Me.Icon_wp_chef,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_chef.ResumeLayout(false)
-        CType(Me.valu_wp_chef,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_vampire.ResumeLayout(false)
-        CType(Me.Icon_wp_vampire,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_vampire.ResumeLayout(false)
-        CType(Me.valu_wp_vampire,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_popstar.ResumeLayout(false)
-        CType(Me.Icon_wp_popstar,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_popstar.ResumeLayout(false)
-        CType(Me.valu_wp_popstar,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_thief.ResumeLayout(false)
-        CType(Me.Icon_wp_thief,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_thief.ResumeLayout(false)
-        CType(Me.valu_wp_thief,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_cleric.ResumeLayout(false)
-        CType(Me.Icon_wp_cleric,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_cleric.ResumeLayout(false)
-        CType(Me.valu_wp_cleric,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_mage.ResumeLayout(false)
-        CType(Me.Icon_wp_mage,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_mage.ResumeLayout(false)
-        CType(Me.valu_wp_mage,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_wp_warrior.ResumeLayout(false)
-        CType(Me.Icon_wp_warrior,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_wp_warrior.ResumeLayout(false)
-        CType(Me.valu_wp_warrior,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_ency_cost.ResumeLayout(false)
-        Me.Fea_ct_elf.ResumeLayout(false)
-        CType(Me.Icon_ct_elf,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_elf.ResumeLayout(false)
-        CType(Me.valu_ct_elf,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_cat.ResumeLayout(false)
-        CType(Me.Icon_ct_cat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_cat.ResumeLayout(false)
-        CType(Me.valu_ct_cat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_scientist.ResumeLayout(false)
-        CType(Me.Icon_ct_scientist,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_scientist.ResumeLayout(false)
-        CType(Me.valu_ct_scientist,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_flower.ResumeLayout(false)
-        CType(Me.Icon_ct_flower,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_flower.ResumeLayout(false)
-        CType(Me.valu_ct_flower,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_princess.ResumeLayout(false)
-        CType(Me.Icon_ct_princess,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_princess.ResumeLayout(false)
-        CType(Me.valu_ct_princess,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_imp.ResumeLayout(false)
-        CType(Me.Icon_ct_imp,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_imp.ResumeLayout(false)
-        CType(Me.valu_ct_imp,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_tank.ResumeLayout(false)
-        CType(Me.Icon_ct_tank,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_tank.ResumeLayout(false)
-        CType(Me.valu_ct_tank,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_chef.ResumeLayout(false)
-        CType(Me.Icon_ct_chef,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_chef.ResumeLayout(false)
-        CType(Me.valu_ct_chef,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_vampire.ResumeLayout(false)
-        CType(Me.Icon_ct_vampire,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_vampire.ResumeLayout(false)
-        CType(Me.valu_ct_vampire,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_popstar.ResumeLayout(false)
-        CType(Me.Icon_ct_popstar,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_popstar.ResumeLayout(false)
-        CType(Me.valu_ct_popstar,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_thief.ResumeLayout(false)
-        CType(Me.Icon_ct_thief,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_thief.ResumeLayout(false)
-        CType(Me.valu_ct_thief,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_cleric.ResumeLayout(false)
-        CType(Me.Icon_ct_cleric,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_cleric.ResumeLayout(false)
-        CType(Me.valu_ct_cleric,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_mage.ResumeLayout(false)
-        CType(Me.Icon_ct_mage,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_mage.ResumeLayout(false)
-        CType(Me.valu_ct_mage,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ct_warrior.ResumeLayout(false)
-        CType(Me.Icon_ct_warrior,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_ct_warrior.ResumeLayout(false)
-        CType(Me.valu_ct_warrior,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_ency_extras.ResumeLayout(false)
-        Me.Fea_ency_monsters.ResumeLayout(false)
-        CType(Me.Icon_ency_monsters,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ency_foods.ResumeLayout(false)
-        CType(Me.Icon_ency_foods,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_ency_music.ResumeLayout(false)
-        CType(Me.Icon_ency_music,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_common_extras.ResumeLayout(false)
-        Me.Fea_dailyquest.ResumeLayout(false)
-        CType(Me.Icon_dailyquest,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_medal.ResumeLayout(false)
-        CType(Me.Icon_medal,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_questsucc.ResumeLayout(false)
-        CType(Me.Icon_questsucc,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_questsucc.ResumeLayout(false)
-        CType(Me.valu_questsucc,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_chestsopen.ResumeLayout(false)
-        CType(Me.Icon_chestsopen,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_chestsopen.ResumeLayout(false)
-        CType(Me.valu_chestsopen,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_candyeat.ResumeLayout(false)
-        CType(Me.Icon_candyeat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_candyeat.ResumeLayout(false)
-        CType(Me.valu_candyeat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_bananaeat.ResumeLayout(false)
-        CType(Me.Icon_bananaeat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_bananaeat.ResumeLayout(false)
-        CType(Me.valu_bananaeat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_common_roulette.ResumeLayout(false)
-        Me.Panel_fea_roulette_oy.ResumeLayout(false)
+        CType(Me.valu_rescued, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_sprinkles.ResumeLayout(False)
+        CType(Me.icon_sprinkles, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_sprinkles.ResumeLayout(False)
+        CType(Me.valu_sprinkles, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ticket.ResumeLayout(False)
+        CType(Me.icon_ticket, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ticket.ResumeLayout(False)
+        CType(Me.valu_ticket, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_costamiibo.ResumeLayout(False)
+        CType(Me.icon_costamiibo, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_costamiibo.ResumeLayout(False)
+        CType(Me.valu_costamiibo, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_allweapons.ResumeLayout(False)
+        CType(Me.icon_allweapons, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_allweapons.ResumeLayout(False)
+        CType(Me.valu_allweapons, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_foods.ResumeLayout(False)
+        CType(Me.icon_foods, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_candies.ResumeLayout(False)
+        CType(Me.icon_candies, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_candies.ResumeLayout(False)
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_candies, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_bananas.ResumeLayout(False)
+        CType(Me.icon_bananas, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_bananas.ResumeLayout(False)
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_bananas, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_gold.ResumeLayout(False)
+        CType(Me.icon_gold, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_gold.ResumeLayout(False)
+        CType(Me.valu_gold, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Tab_common_ency.ResumeLayout(False)
+        Me.TabControl2.ResumeLayout(False)
+        Me.Tab_ency_weap.ResumeLayout(False)
+        Me.Fea_wp_elf.ResumeLayout(False)
+        CType(Me.Icon_wp_elf, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_elf.ResumeLayout(False)
+        CType(Me.valu_wp_elf, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_wp_cat.ResumeLayout(False)
+        CType(Me.Icon_wp_cat, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_cat.ResumeLayout(False)
+        CType(Me.valu_wp_cat, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_wp_scientist.ResumeLayout(False)
+        CType(Me.Icon_wp_scientist, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_scientist.ResumeLayout(False)
+        CType(Me.valu_wp_scientist, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_wp_flower.ResumeLayout(False)
+        CType(Me.Icon_wp_flower, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_flower.ResumeLayout(False)
+        CType(Me.valu_wp_flower, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_wp_princess.ResumeLayout(False)
+        CType(Me.Icon_wp_princess, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_princess.ResumeLayout(False)
+        CType(Me.valu_wp_princess, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_wp_imp.ResumeLayout(False)
+        CType(Me.Icon_wp_imp, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_imp.ResumeLayout(False)
+        CType(Me.valu_wp_imp, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_wp_tank.ResumeLayout(False)
+        CType(Me.Icon_wp_tank, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_tank.ResumeLayout(False)
+        CType(Me.valu_wp_tank, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_wp_chef.ResumeLayout(False)
+        CType(Me.Icon_wp_chef, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_chef.ResumeLayout(False)
+        CType(Me.valu_wp_chef, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_wp_vampire.ResumeLayout(False)
+        CType(Me.Icon_wp_vampire, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_vampire.ResumeLayout(False)
+        CType(Me.valu_wp_vampire, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_wp_popstar.ResumeLayout(False)
+        CType(Me.Icon_wp_popstar, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_popstar.ResumeLayout(False)
+        CType(Me.valu_wp_popstar, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_wp_thief.ResumeLayout(False)
+        CType(Me.Icon_wp_thief, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_thief.ResumeLayout(False)
+        CType(Me.valu_wp_thief, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_wp_cleric.ResumeLayout(False)
+        CType(Me.Icon_wp_cleric, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_cleric.ResumeLayout(False)
+        CType(Me.valu_wp_cleric, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_wp_mage.ResumeLayout(False)
+        CType(Me.Icon_wp_mage, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_mage.ResumeLayout(False)
+        CType(Me.valu_wp_mage, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_wp_warrior.ResumeLayout(False)
+        CType(Me.Icon_wp_warrior, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_wp_warrior.ResumeLayout(False)
+        CType(Me.valu_wp_warrior, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Tab_ency_cost.ResumeLayout(False)
+        Me.Fea_ct_elf.ResumeLayout(False)
+        CType(Me.Icon_ct_elf, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_elf.ResumeLayout(False)
+        CType(Me.valu_ct_elf, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ct_cat.ResumeLayout(False)
+        CType(Me.Icon_ct_cat, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_cat.ResumeLayout(False)
+        CType(Me.valu_ct_cat, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ct_scientist.ResumeLayout(False)
+        CType(Me.Icon_ct_scientist, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_scientist.ResumeLayout(False)
+        CType(Me.valu_ct_scientist, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ct_flower.ResumeLayout(False)
+        CType(Me.Icon_ct_flower, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_flower.ResumeLayout(False)
+        CType(Me.valu_ct_flower, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ct_princess.ResumeLayout(False)
+        CType(Me.Icon_ct_princess, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_princess.ResumeLayout(False)
+        CType(Me.valu_ct_princess, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ct_imp.ResumeLayout(False)
+        CType(Me.Icon_ct_imp, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_imp.ResumeLayout(False)
+        CType(Me.valu_ct_imp, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ct_tank.ResumeLayout(False)
+        CType(Me.Icon_ct_tank, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_tank.ResumeLayout(False)
+        CType(Me.valu_ct_tank, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ct_chef.ResumeLayout(False)
+        CType(Me.Icon_ct_chef, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_chef.ResumeLayout(False)
+        CType(Me.valu_ct_chef, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ct_vampire.ResumeLayout(False)
+        CType(Me.Icon_ct_vampire, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_vampire.ResumeLayout(False)
+        CType(Me.valu_ct_vampire, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ct_popstar.ResumeLayout(False)
+        CType(Me.Icon_ct_popstar, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_popstar.ResumeLayout(False)
+        CType(Me.valu_ct_popstar, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ct_thief.ResumeLayout(False)
+        CType(Me.Icon_ct_thief, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_thief.ResumeLayout(False)
+        CType(Me.valu_ct_thief, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ct_cleric.ResumeLayout(False)
+        CType(Me.Icon_ct_cleric, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_cleric.ResumeLayout(False)
+        CType(Me.valu_ct_cleric, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ct_mage.ResumeLayout(False)
+        CType(Me.Icon_ct_mage, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_mage.ResumeLayout(False)
+        CType(Me.valu_ct_mage, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ct_warrior.ResumeLayout(False)
+        CType(Me.Icon_ct_warrior, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_ct_warrior.ResumeLayout(False)
+        CType(Me.valu_ct_warrior, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Tab_ency_extras.ResumeLayout(False)
+        Me.Fea_ency_monsters.ResumeLayout(False)
+        CType(Me.Icon_ency_monsters, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ency_foods.ResumeLayout(False)
+        CType(Me.Icon_ency_foods, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_ency_music.ResumeLayout(False)
+        CType(Me.Icon_ency_music, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Tab_common_extras.ResumeLayout(False)
+        Me.Fea_dailyquest.ResumeLayout(False)
+        CType(Me.Icon_dailyquest, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_medal.ResumeLayout(False)
+        CType(Me.Icon_medal, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_questsucc.ResumeLayout(False)
+        CType(Me.Icon_questsucc, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_questsucc.ResumeLayout(False)
+        CType(Me.valu_questsucc, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_chestsopen.ResumeLayout(False)
+        CType(Me.Icon_chestsopen, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_chestsopen.ResumeLayout(False)
+        CType(Me.valu_chestsopen, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_candyeat.ResumeLayout(False)
+        CType(Me.Icon_candyeat, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_candyeat.ResumeLayout(False)
+        CType(Me.valu_candyeat, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_bananaeat.ResumeLayout(False)
+        CType(Me.Icon_bananaeat, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_bananaeat.ResumeLayout(False)
+        CType(Me.valu_bananaeat, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Tab_common_roulette.ResumeLayout(False)
+        Me.Panel_fea_roulette_oy.ResumeLayout(False)
         Me.Panel_fea_roulette_oy.PerformLayout
-        CType(Me.valu_roulette_yellow_unknow2,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_yellow_unknow1,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_yellow_space,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_yellow_order,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_yellow_item,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_orange_unknow2,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_orange_unknow1,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_orange_space,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_orange_order,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_orange_item,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel_fea_roulette_bg.ResumeLayout(false)
+        CType(Me.valu_roulette_yellow_unknow2, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_yellow_unknow1, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_yellow_space, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_yellow_order, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_yellow_item, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_orange_unknow2, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_orange_unknow1, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_orange_space, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_orange_order, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_orange_item, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel_fea_roulette_bg.ResumeLayout(False)
         Me.Panel_fea_roulette_bg.PerformLayout
-        CType(Me.valu_roulette_gray_unknow2,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_gray_unknow1,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_gray_space,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_gray_order,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_gray_item,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_blue_unknow2,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_blue_unknow1,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_blue_space,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_blue_order,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_roulette_blue_item,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Button_Open.ResumeLayout(false)
-        Me.Button_Save.ResumeLayout(false)
-        Me.Panel_quest.ResumeLayout(false)
-        Me.TabControl3.ResumeLayout(false)
-        Me.Tab_quest_main.ResumeLayout(false)
-        Me.Fea_catalog.ResumeLayout(false)
-        CType(Me.Icon_catalog,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_catalog.ResumeLayout(false)
-        CType(Me.valu_catalog,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_dragonclass.ResumeLayout(false)
-        CType(Me.Icon_dragonclass,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_dragonclass.ResumeLayout(false)
-        CType(Me.valu_dragonclass,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_villa.ResumeLayout(false)
-        CType(Me.Icon_villa,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_villa.ResumeLayout(false)
-        CType(Me.valu_villa,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Button_open_quest.ResumeLayout(false)
-        Me.Button_save_quest.ResumeLayout(false)
-        Me.File_path_quest.ResumeLayout(false)
+        CType(Me.valu_roulette_gray_unknow2, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_gray_unknow1, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_gray_space, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_gray_order, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_gray_item, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_blue_unknow2, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_blue_unknow1, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_blue_space, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_blue_order, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_roulette_blue_item, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Button_Open.ResumeLayout(False)
+        Me.Button_Save.ResumeLayout(False)
+        Me.Panel_quest.ResumeLayout(False)
+        Me.TabControl3.ResumeLayout(False)
+        Me.Tab_quest_main.ResumeLayout(False)
+        Me.Fea_catalog.ResumeLayout(False)
+        CType(Me.Icon_catalog, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_catalog.ResumeLayout(False)
+        CType(Me.valu_catalog, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_dragonclass.ResumeLayout(False)
+        CType(Me.Icon_dragonclass, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_dragonclass.ResumeLayout(False)
+        CType(Me.valu_dragonclass, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_villa.ResumeLayout(False)
+        CType(Me.Icon_villa, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_villa.ResumeLayout(False)
+        CType(Me.valu_villa, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Button_open_quest.ResumeLayout(False)
+        Me.Button_save_quest.ResumeLayout(False)
+        Me.File_path_quest.ResumeLayout(False)
         Me.File_path_quest.PerformLayout
-        Me.Panel_hero.ResumeLayout(false)
-        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).EndInit
-        Me.TabControl4.ResumeLayout(false)
-        Me.Tab_hero_Miiedit.ResumeLayout(false)
-        Me.Panel_hero_equipments.ResumeLayout(false)
-        Me.Group_hero_equipapp.ResumeLayout(false)
-        Me.Panel15.ResumeLayout(false)
-        Me.Panel17.ResumeLayout(false)
-        CType(Me.valu_appea_weapon,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox2,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel18.ResumeLayout(false)
-        Me.Panel19.ResumeLayout(false)
-        CType(Me.valu_appea_hat,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox3,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel20.ResumeLayout(false)
-        Me.Panel21.ResumeLayout(false)
-        CType(Me.valu_appea_clothe,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox8,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_hero_equip.ResumeLayout(false)
-        Me.Fea_equip_weapon.ResumeLayout(false)
-        Me.Bar_equip_weapon.ResumeLayout(false)
-        CType(Me.valu_equip_weapon,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_equip_weapon,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_equip_hat.ResumeLayout(false)
-        Me.Bar_equip_hat.ResumeLayout(false)
-        CType(Me.valu_equip_hat,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_equip_hat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_equip_clothe.ResumeLayout(false)
-        Me.Bar_equip_clothe.ResumeLayout(false)
-        CType(Me.valu_equip_clothe,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_equip_clothe,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel22.ResumeLayout(false)
-        Me.Panel14.ResumeLayout(false)
-        Me.Panel_hero_sw1.ResumeLayout(false)
-        Me.Group_warcry.ResumeLayout(false)
-        Me.Group_warcry.PerformLayout
-        CType(Me.valu_tummy,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel11.ResumeLayout(false)
-        CType(Me.valu_pose,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_personnality,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_tummy,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel2.ResumeLayout(false)
+        Me.Panel_hero.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabControl4.ResumeLayout(False)
+        Me.Tab_hero_Miiedit.ResumeLayout(False)
+        Me.Panel22.ResumeLayout(False)
+        Me.Panel14.ResumeLayout(False)
+        CType(Me.valu_tummy, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel11.ResumeLayout(False)
+        CType(Me.valu_pose, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_personnality, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tummy, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout
-        CType(Me.valu_job,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_job,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel_hero_sw2.ResumeLayout(false)
+        CType(Me.valu_job, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_job, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel_hero_equipments.ResumeLayout(False)
+        Me.Group_hero_equipapp.ResumeLayout(False)
+        Me.Panel15.ResumeLayout(False)
+        Me.Panel17.ResumeLayout(False)
+        CType(Me.valu_appea_weapon, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel18.ResumeLayout(False)
+        Me.Panel19.ResumeLayout(False)
+        CType(Me.valu_appea_hat, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel20.ResumeLayout(False)
+        Me.Panel21.ResumeLayout(False)
+        CType(Me.valu_appea_clothe, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_hero_equip.ResumeLayout(False)
+        Me.Fea_equip_weapon.ResumeLayout(False)
+        Me.Bar_equip_weapon.ResumeLayout(False)
+        CType(Me.valu_equip_weapon, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_equip_weapon, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_equip_hat.ResumeLayout(False)
+        Me.Bar_equip_hat.ResumeLayout(False)
+        CType(Me.valu_equip_hat, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_equip_hat, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_equip_clothe.ResumeLayout(False)
+        Me.Bar_equip_clothe.ResumeLayout(False)
+        CType(Me.valu_equip_clothe, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_equip_clothe, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel_hero_sw1.ResumeLayout(False)
+        Me.Group_warcry.ResumeLayout(False)
+        Me.Group_warcry.PerformLayout
+        Me.Panel_hero_sw2.ResumeLayout(False)
         Me.Panel_hero_sw2.PerformLayout
-        CType(Me.valu_hbgobbled,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_mcgulped,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_ggrubbed,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_ggrabbed,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_battles,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_fblows,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_defeats,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_tlooparty,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_hero_Inn.ResumeLayout(false)
-        Me.Panel_inn.ResumeLayout(false)
+        CType(Me.valu_hbgobbled, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_mcgulped, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_ggrubbed, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_ggrabbed, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_battles, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_fblows, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_defeats, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tlooparty, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Tab_hero_Inn.ResumeLayout(False)
+        Me.Panel_inn.ResumeLayout(False)
         Me.Panel_inn.PerformLayout
-        CType(Me.PictureBox29,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_inn_room_no,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_inn_roomposition,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_inn_room,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_inn.ResumeLayout(false)
-        CType(Me.Icon_inn_room_topright_right,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_inn_room_topright_left,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_inn_room_botright_right,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_inn_room_botright_left,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_inn_room_botleft_right,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_inn_room_botleft_left,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_inn_room_center_right,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_inn_room_center_left,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_inn_room_topleft_right,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_inn_room_topleft_left,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel16.ResumeLayout(false)
-        Me.Group_interaction.ResumeLayout(false)
-        CType(Me.valu_interac_activity,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_interaction,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_interac_Mii,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.Icon_interaction,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_health.ResumeLayout(false)
-        CType(Me.valu_daysick,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_sick,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_hero_Levboost.ResumeLayout(false)
-        Me.Group_hero_bspd.ResumeLayout(false)
-        CType(Me.valu_foodexp_speed,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_hero_bmgc.ResumeLayout(false)
-        CType(Me.valu_foodexp_magic,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_hero_bdef.ResumeLayout(false)
-        CType(Me.valu_foodexp_defense,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_hero_batk.ResumeLayout(false)
-        CType(Me.valu_foodexp_attack,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_hero_bMP.ResumeLayout(false)
-        CType(Me.valu_foodexp_MP,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_hero_bHP.ResumeLayout(false)
-        CType(Me.valu_foodexp_HP,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel23.ResumeLayout(false)
-        Me.Bar_exp_elf.ResumeLayout(false)
-        CType(Me.valu_exp_elf,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox11,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel25.ResumeLayout(false)
-        Me.Bar_exp_cat.ResumeLayout(false)
-        CType(Me.valu_exp_cat,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox12,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel27.ResumeLayout(false)
-        Me.Bar_exp_scientist.ResumeLayout(false)
-        CType(Me.valu_exp_scientist,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox13,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel29.ResumeLayout(false)
-        Me.Bar_exp_flower.ResumeLayout(false)
-        CType(Me.valu_exp_flower,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox14,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel33.ResumeLayout(false)
-        Me.Bar_exp_popstar.ResumeLayout(false)
-        CType(Me.valu_exp_popstar,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox16,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel35.ResumeLayout(false)
-        Me.Bar_exp_thief.ResumeLayout(false)
-        CType(Me.valu_exp_thief,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox17,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel37.ResumeLayout(false)
-        Me.Bar_exp_cleric.ResumeLayout(false)
-        CType(Me.valu_exp_cleric,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox18,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel49.ResumeLayout(false)
-        Me.Bar_exp_mage.ResumeLayout(false)
-        CType(Me.valu_exp_mage,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox24,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel51.ResumeLayout(false)
-        Me.Bar_exp_warrior.ResumeLayout(false)
-        CType(Me.valu_exp_warrior,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox25,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel47.ResumeLayout(false)
-        Me.Bar_exp_princess.ResumeLayout(false)
-        CType(Me.valu_exp_princess,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox23,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel45.ResumeLayout(false)
-        Me.Bar_exp_imp.ResumeLayout(false)
-        CType(Me.valu_exp_imp,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox22,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel43.ResumeLayout(false)
-        Me.Bar_exp_tank.ResumeLayout(false)
-        CType(Me.valu_exp_tank,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox21,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel39.ResumeLayout(false)
-        Me.Bar_exp_chef.ResumeLayout(false)
-        CType(Me.valu_exp_chef,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox19,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel41.ResumeLayout(false)
-        Me.Bar_exp_vampire.ResumeLayout(false)
-        CType(Me.valu_exp_vampire,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox20,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_hero_relationship.ResumeLayout(false)
-        CType(Me.PictureBox30,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox15,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel_hero_setall.ResumeLayout(false)
+        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_inn_room_no, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_inn_roomposition, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_inn_room, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_inn.ResumeLayout(False)
+        CType(Me.Icon_inn_room_topright_right, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_inn_room_topright_left, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_inn_room_botright_right, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_inn_room_botright_left, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_inn_room_botleft_right, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_inn_room_botleft_left, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_inn_room_center_right, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_inn_room_center_left, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_inn_room_topleft_right, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_inn_room_topleft_left, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel16.ResumeLayout(False)
+        Me.Group_interaction.ResumeLayout(False)
+        CType(Me.valu_interac_activity, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_interaction, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_interac_Mii, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_interaction, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_health.ResumeLayout(False)
+        CType(Me.valu_daysick, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_sick, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Tab_hero_Levboost.ResumeLayout(False)
+        Me.Group_hero_bspd.ResumeLayout(False)
+        CType(Me.valu_foodexp_speed, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_hero_bmgc.ResumeLayout(False)
+        CType(Me.valu_foodexp_magic, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_hero_bdef.ResumeLayout(False)
+        CType(Me.valu_foodexp_defense, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_hero_batk.ResumeLayout(False)
+        CType(Me.valu_foodexp_attack, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_hero_bMP.ResumeLayout(False)
+        CType(Me.valu_foodexp_MP, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_hero_bHP.ResumeLayout(False)
+        CType(Me.valu_foodexp_HP, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel23.ResumeLayout(False)
+        Me.Bar_exp_elf.ResumeLayout(False)
+        CType(Me.valu_exp_elf, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel25.ResumeLayout(False)
+        Me.Bar_exp_cat.ResumeLayout(False)
+        CType(Me.valu_exp_cat, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel27.ResumeLayout(False)
+        Me.Bar_exp_scientist.ResumeLayout(False)
+        CType(Me.valu_exp_scientist, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel29.ResumeLayout(False)
+        Me.Bar_exp_flower.ResumeLayout(False)
+        CType(Me.valu_exp_flower, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel33.ResumeLayout(False)
+        Me.Bar_exp_popstar.ResumeLayout(False)
+        CType(Me.valu_exp_popstar, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel35.ResumeLayout(False)
+        Me.Bar_exp_thief.ResumeLayout(False)
+        CType(Me.valu_exp_thief, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel37.ResumeLayout(False)
+        Me.Bar_exp_cleric.ResumeLayout(False)
+        CType(Me.valu_exp_cleric, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel49.ResumeLayout(False)
+        Me.Bar_exp_mage.ResumeLayout(False)
+        CType(Me.valu_exp_mage, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel51.ResumeLayout(False)
+        Me.Bar_exp_warrior.ResumeLayout(False)
+        CType(Me.valu_exp_warrior, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel47.ResumeLayout(False)
+        Me.Bar_exp_princess.ResumeLayout(False)
+        CType(Me.valu_exp_princess, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel45.ResumeLayout(False)
+        Me.Bar_exp_imp.ResumeLayout(False)
+        CType(Me.valu_exp_imp, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel43.ResumeLayout(False)
+        Me.Bar_exp_tank.ResumeLayout(False)
+        CType(Me.valu_exp_tank, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel39.ResumeLayout(False)
+        Me.Bar_exp_chef.ResumeLayout(False)
+        CType(Me.valu_exp_chef, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel41.ResumeLayout(False)
+        Me.Bar_exp_vampire.ResumeLayout(False)
+        CType(Me.valu_exp_vampire, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Tab_hero_relationship.ResumeLayout(False)
+        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel_hero_setall.ResumeLayout(False)
         Me.Panel_hero_setall.PerformLayout
-        CType(Me.valu_hero_setall,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_25.ResumeLayout(false)
-        CType(Me.valu_relation_25,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_24.ResumeLayout(false)
-        CType(Me.valu_relation_24,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_23.ResumeLayout(false)
-        CType(Me.valu_relation_23,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_22.ResumeLayout(false)
-        CType(Me.valu_relation_22,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_21.ResumeLayout(false)
-        CType(Me.valu_relation_21,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_20.ResumeLayout(false)
-        CType(Me.valu_relation_20,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_19.ResumeLayout(false)
-        CType(Me.valu_relation_19,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_18.ResumeLayout(false)
-        CType(Me.valu_relation_18,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_17.ResumeLayout(false)
-        CType(Me.valu_relation_17,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_16.ResumeLayout(false)
-        CType(Me.valu_relation_16,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_15.ResumeLayout(false)
-        CType(Me.valu_relation_15,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_14.ResumeLayout(false)
-        CType(Me.valu_relation_14,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_13.ResumeLayout(false)
-        CType(Me.valu_relation_13,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_12.ResumeLayout(false)
-        CType(Me.valu_relation_12,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_11.ResumeLayout(false)
-        CType(Me.valu_relation_11,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_10.ResumeLayout(false)
-        CType(Me.valu_relation_10,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_9.ResumeLayout(false)
-        CType(Me.valu_relation_9,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_8.ResumeLayout(false)
-        CType(Me.valu_relation_8,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_7.ResumeLayout(false)
-        CType(Me.valu_relation_7,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_6.ResumeLayout(false)
-        CType(Me.valu_relation_6,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_5.ResumeLayout(false)
-        CType(Me.valu_relation_5,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_4.ResumeLayout(false)
-        CType(Me.valu_relation_4,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_3.ResumeLayout(false)
-        CType(Me.valu_relation_3,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_2.ResumeLayout(false)
-        CType(Me.valu_relation_2,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Group_relation_1.ResumeLayout(false)
-        CType(Me.valu_relation_1,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Tab_hero_equipments.ResumeLayout(false)
-        Me.TabControl6.ResumeLayout(false)
-        Me.TabPage1.ResumeLayout(false)
-        Me.Fea_epuipct_elf.ResumeLayout(false)
-        CType(Me.Icon_epuipct_elf,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_elf.ResumeLayout(false)
-        CType(Me.valu_epuipct_elf,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipct_cat.ResumeLayout(false)
-        CType(Me.Icon_epuipct_cat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_cat.ResumeLayout(false)
-        CType(Me.valu_epuipct_cat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipct_scientist.ResumeLayout(false)
-        CType(Me.Icon_epuipct_scientist,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_scientist.ResumeLayout(false)
-        CType(Me.valu_epuipct_scientist,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipct_flower.ResumeLayout(false)
-        CType(Me.Icon_epuipct_flower,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_flower.ResumeLayout(false)
-        CType(Me.valu_epuipct_flower,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipct_princess.ResumeLayout(false)
-        CType(Me.Icon_epuipct_princess,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_princess.ResumeLayout(false)
-        CType(Me.valu_epuipct_princess,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipct_imp.ResumeLayout(false)
-        CType(Me.Icon_epuipct_imp,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_imp.ResumeLayout(false)
-        CType(Me.valu_epuipct_imp,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipct_tank.ResumeLayout(false)
-        CType(Me.Icon_epuipct_tank,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_tank.ResumeLayout(false)
-        CType(Me.valu_epuipct_tank,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipct_chef.ResumeLayout(false)
-        CType(Me.Icon_epuipct_chef,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_chef.ResumeLayout(false)
-        CType(Me.valu_epuipct_chef,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipct_vampire.ResumeLayout(false)
-        CType(Me.Icon_epuipct_vampire,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_vampire.ResumeLayout(false)
-        CType(Me.valu_epuipct_vampire,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipct_popstar.ResumeLayout(false)
-        CType(Me.Icon_epuipct_popstar,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_popstar.ResumeLayout(false)
-        CType(Me.valu_epuipct_popstar2,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.valu_epuipct_popstar,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipct_thief.ResumeLayout(false)
-        CType(Me.Icon_epuipct_thief,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_thief.ResumeLayout(false)
-        CType(Me.valu_epuipct_thief,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipct_cleric.ResumeLayout(false)
-        CType(Me.Icon_epuipct_cleric,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_cleric.ResumeLayout(false)
-        CType(Me.valu_epuipct_cleric,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipct_mage.ResumeLayout(false)
-        CType(Me.Icon_epuipct_mage,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_mage.ResumeLayout(false)
-        CType(Me.valu_epuipct_mage,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipct_warrior.ResumeLayout(false)
-        CType(Me.Icon_epuipct_warrior,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipct_warrior.ResumeLayout(false)
-        CType(Me.valu_epuipct_warrior,System.ComponentModel.ISupportInitialize).EndInit
-        Me.TabPage2.ResumeLayout(false)
-        Me.Fea_epuipwp_elf.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_elf,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_elf.ResumeLayout(false)
-        CType(Me.valu_epuipwp_elf,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipwp_cat.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_cat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_cat.ResumeLayout(false)
-        CType(Me.valu_epuipwp_cat,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipwp_scientist.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_scientist,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_scientist.ResumeLayout(false)
-        CType(Me.valu_epuipwp_scientist,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipwp_flower.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_flower,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_flower.ResumeLayout(false)
-        CType(Me.valu_epuipwp_flower,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipwp_princess.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_princess,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_princess.ResumeLayout(false)
-        CType(Me.valu_epuipwp_princess,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipwp_imp.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_imp,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_imp.ResumeLayout(false)
-        CType(Me.valu_epuipwp_imp,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipwp_tank.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_tank,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_tank.ResumeLayout(false)
-        CType(Me.valu_epuipwp_tank,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipwp_chef.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_chef,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_chef.ResumeLayout(false)
-        CType(Me.valu_epuipwp_chef,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipwp_vampire.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_vampire,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_vampire.ResumeLayout(false)
-        CType(Me.valu_epuipwp_vampire,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipwp_popstar.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_popstar,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_popstar.ResumeLayout(false)
-        CType(Me.valu_epuipwp_popstar,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipwp_thief.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_thief,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_thief.ResumeLayout(false)
-        CType(Me.valu_epuipwp_thief,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipwp_cleric.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_cleric,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_cleric.ResumeLayout(false)
-        CType(Me.valu_epuipwp_cleric,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipwp_mage.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_mage,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_mage.ResumeLayout(false)
-        CType(Me.valu_epuipwp_mage,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Fea_epuipwp_warrior.ResumeLayout(false)
-        CType(Me.Icon_epuipwp_warrior,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Bar_epuipwp_warrior.ResumeLayout(false)
-        CType(Me.valu_epuipwp_warrior,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Button_open_hero.ResumeLayout(false)
-        Me.Button_save_hero.ResumeLayout(false)
-        Me.File_path_hero.ResumeLayout(false)
+        CType(Me.valu_hero_setall, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_25.ResumeLayout(False)
+        CType(Me.valu_relation_25, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_24.ResumeLayout(False)
+        CType(Me.valu_relation_24, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_23.ResumeLayout(False)
+        CType(Me.valu_relation_23, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_22.ResumeLayout(False)
+        CType(Me.valu_relation_22, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_21.ResumeLayout(False)
+        CType(Me.valu_relation_21, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_20.ResumeLayout(False)
+        CType(Me.valu_relation_20, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_19.ResumeLayout(False)
+        CType(Me.valu_relation_19, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_18.ResumeLayout(False)
+        CType(Me.valu_relation_18, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_17.ResumeLayout(False)
+        CType(Me.valu_relation_17, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_16.ResumeLayout(False)
+        CType(Me.valu_relation_16, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_15.ResumeLayout(False)
+        CType(Me.valu_relation_15, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_14.ResumeLayout(False)
+        CType(Me.valu_relation_14, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_13.ResumeLayout(False)
+        CType(Me.valu_relation_13, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_12.ResumeLayout(False)
+        CType(Me.valu_relation_12, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_11.ResumeLayout(False)
+        CType(Me.valu_relation_11, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_10.ResumeLayout(False)
+        CType(Me.valu_relation_10, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_9.ResumeLayout(False)
+        CType(Me.valu_relation_9, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_8.ResumeLayout(False)
+        CType(Me.valu_relation_8, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_7.ResumeLayout(False)
+        CType(Me.valu_relation_7, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_6.ResumeLayout(False)
+        CType(Me.valu_relation_6, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_5.ResumeLayout(False)
+        CType(Me.valu_relation_5, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_4.ResumeLayout(False)
+        CType(Me.valu_relation_4, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_3.ResumeLayout(False)
+        CType(Me.valu_relation_3, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_2.ResumeLayout(False)
+        CType(Me.valu_relation_2, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Group_relation_1.ResumeLayout(False)
+        CType(Me.valu_relation_1, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Tab_hero_equipments.ResumeLayout(False)
+        Me.TabControl6.ResumeLayout(False)
+        Me.TabPage1.ResumeLayout(False)
+        Me.Fea_epuipct_elf.ResumeLayout(False)
+        CType(Me.Icon_epuipct_elf, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_elf.ResumeLayout(False)
+        CType(Me.valu_epuipct_elf, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipct_cat.ResumeLayout(False)
+        CType(Me.Icon_epuipct_cat, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_cat.ResumeLayout(False)
+        CType(Me.valu_epuipct_cat, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipct_scientist.ResumeLayout(False)
+        CType(Me.Icon_epuipct_scientist, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_scientist.ResumeLayout(False)
+        CType(Me.valu_epuipct_scientist, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipct_flower.ResumeLayout(False)
+        CType(Me.Icon_epuipct_flower, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_flower.ResumeLayout(False)
+        CType(Me.valu_epuipct_flower, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipct_princess.ResumeLayout(False)
+        CType(Me.Icon_epuipct_princess, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_princess.ResumeLayout(False)
+        CType(Me.valu_epuipct_princess, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipct_imp.ResumeLayout(False)
+        CType(Me.Icon_epuipct_imp, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_imp.ResumeLayout(False)
+        CType(Me.valu_epuipct_imp, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipct_tank.ResumeLayout(False)
+        CType(Me.Icon_epuipct_tank, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_tank.ResumeLayout(False)
+        CType(Me.valu_epuipct_tank, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipct_chef.ResumeLayout(False)
+        CType(Me.Icon_epuipct_chef, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_chef.ResumeLayout(False)
+        CType(Me.valu_epuipct_chef, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipct_vampire.ResumeLayout(False)
+        CType(Me.Icon_epuipct_vampire, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_vampire.ResumeLayout(False)
+        CType(Me.valu_epuipct_vampire, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipct_popstar.ResumeLayout(False)
+        CType(Me.Icon_epuipct_popstar, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_popstar.ResumeLayout(False)
+        CType(Me.valu_epuipct_popstar2, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_epuipct_popstar, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipct_thief.ResumeLayout(False)
+        CType(Me.Icon_epuipct_thief, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_thief.ResumeLayout(False)
+        CType(Me.valu_epuipct_thief, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipct_cleric.ResumeLayout(False)
+        CType(Me.Icon_epuipct_cleric, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_cleric.ResumeLayout(False)
+        CType(Me.valu_epuipct_cleric, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipct_mage.ResumeLayout(False)
+        CType(Me.Icon_epuipct_mage, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_mage.ResumeLayout(False)
+        CType(Me.valu_epuipct_mage, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipct_warrior.ResumeLayout(False)
+        CType(Me.Icon_epuipct_warrior, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipct_warrior.ResumeLayout(False)
+        CType(Me.valu_epuipct_warrior, System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabPage2.ResumeLayout(False)
+        Me.Fea_epuipwp_elf.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_elf, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_elf.ResumeLayout(False)
+        CType(Me.valu_epuipwp_elf, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipwp_cat.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_cat, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_cat.ResumeLayout(False)
+        CType(Me.valu_epuipwp_cat, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipwp_scientist.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_scientist, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_scientist.ResumeLayout(False)
+        CType(Me.valu_epuipwp_scientist, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipwp_flower.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_flower, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_flower.ResumeLayout(False)
+        CType(Me.valu_epuipwp_flower, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipwp_princess.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_princess, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_princess.ResumeLayout(False)
+        CType(Me.valu_epuipwp_princess, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipwp_imp.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_imp, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_imp.ResumeLayout(False)
+        CType(Me.valu_epuipwp_imp, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipwp_tank.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_tank, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_tank.ResumeLayout(False)
+        CType(Me.valu_epuipwp_tank, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipwp_chef.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_chef, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_chef.ResumeLayout(False)
+        CType(Me.valu_epuipwp_chef, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipwp_vampire.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_vampire, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_vampire.ResumeLayout(False)
+        CType(Me.valu_epuipwp_vampire, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipwp_popstar.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_popstar, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_popstar.ResumeLayout(False)
+        CType(Me.valu_epuipwp_popstar, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipwp_thief.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_thief, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_thief.ResumeLayout(False)
+        CType(Me.valu_epuipwp_thief, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipwp_cleric.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_cleric, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_cleric.ResumeLayout(False)
+        CType(Me.valu_epuipwp_cleric, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipwp_mage.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_mage, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_mage.ResumeLayout(False)
+        CType(Me.valu_epuipwp_mage, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Fea_epuipwp_warrior.ResumeLayout(False)
+        CType(Me.Icon_epuipwp_warrior, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Bar_epuipwp_warrior.ResumeLayout(False)
+        CType(Me.valu_epuipwp_warrior, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Tab_hero_management.ResumeLayout(False)
+        Me.Tab_hero_management.PerformLayout
+        Me.Panel26.ResumeLayout(False)
+        Me.Panel31.ResumeLayout(False)
+        Me.Button_open_hero.ResumeLayout(False)
+        Me.Button_save_hero.ResumeLayout(False)
+        Me.File_path_hero.ResumeLayout(False)
         Me.File_path_hero.PerformLayout
-        Me.Panel_notification.ResumeLayout(false)
-        Me.Panel_cottage.ResumeLayout(false)
-        CType(Me.PictureBox31,System.ComponentModel.ISupportInitialize).EndInit
-        Me.TabControl7.ResumeLayout(false)
-        Me.TabPage3.ResumeLayout(false)
-        Me.Panel32.ResumeLayout(false)
-        Me.GroupBox1.ResumeLayout(false)
-        Me.Panel34.ResumeLayout(false)
-        Me.Panel36.ResumeLayout(false)
-        CType(Me.NumericUpDown1,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox32,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel38.ResumeLayout(false)
-        Me.Panel40.ResumeLayout(false)
-        CType(Me.NumericUpDown2,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox33,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel42.ResumeLayout(false)
-        Me.Panel44.ResumeLayout(false)
-        CType(Me.NumericUpDown3,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox34,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox2.ResumeLayout(false)
-        Me.Panel46.ResumeLayout(false)
-        Me.Panel48.ResumeLayout(false)
-        CType(Me.NumericUpDown4,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox35,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel50.ResumeLayout(false)
-        Me.Panel52.ResumeLayout(false)
-        CType(Me.NumericUpDown5,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox36,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel53.ResumeLayout(false)
-        Me.Panel54.ResumeLayout(false)
-        CType(Me.NumericUpDown6,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox37,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel55.ResumeLayout(false)
-        Me.Panel58.ResumeLayout(false)
-        Me.Panel60.ResumeLayout(false)
-        Me.GroupBox3.ResumeLayout(false)
+        Me.Panel_notification.ResumeLayout(False)
+        Me.Panel_cottage.ResumeLayout(False)
+        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabControl7.ResumeLayout(False)
+        Me.TabPage3.ResumeLayout(False)
+        Me.Panel32.ResumeLayout(False)
+        Me.GroupBox1.ResumeLayout(False)
+        Me.Panel34.ResumeLayout(False)
+        Me.Panel36.ResumeLayout(False)
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel38.ResumeLayout(False)
+        Me.Panel40.ResumeLayout(False)
+        CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel42.ResumeLayout(False)
+        Me.Panel44.ResumeLayout(False)
+        CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox2.ResumeLayout(False)
+        Me.Panel46.ResumeLayout(False)
+        Me.Panel48.ResumeLayout(False)
+        CType(Me.NumericUpDown4, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox35, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel50.ResumeLayout(False)
+        Me.Panel52.ResumeLayout(False)
+        CType(Me.NumericUpDown5, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox36, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel53.ResumeLayout(False)
+        Me.Panel54.ResumeLayout(False)
+        CType(Me.NumericUpDown6, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox37, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel55.ResumeLayout(False)
+        Me.Panel58.ResumeLayout(False)
+        Me.Panel60.ResumeLayout(False)
+        Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout
-        CType(Me.NumericUpDown7,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel61.ResumeLayout(false)
-        CType(Me.NumericUpDown8,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown9,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox38,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel66.ResumeLayout(false)
+        CType(Me.NumericUpDown7, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel61.ResumeLayout(False)
+        CType(Me.NumericUpDown8, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown9, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox38, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel66.ResumeLayout(False)
         Me.Panel66.PerformLayout
-        CType(Me.NumericUpDown10,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox39,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel67.ResumeLayout(false)
+        CType(Me.NumericUpDown10, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox39, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel67.ResumeLayout(False)
         Me.Panel67.PerformLayout
-        CType(Me.NumericUpDown11,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown12,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown13,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown14,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown15,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown16,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown17,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown18,System.ComponentModel.ISupportInitialize).EndInit
-        Me.TabPage4.ResumeLayout(false)
-        Me.Panel68.ResumeLayout(false)
+        CType(Me.NumericUpDown11, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown12, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown13, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown14, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown15, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown16, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown17, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown18, System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabPage4.ResumeLayout(False)
+        Me.Panel68.ResumeLayout(False)
         Me.Panel68.PerformLayout
-        CType(Me.PictureBox40,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox41,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown19,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown20,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel69.ResumeLayout(false)
-        CType(Me.PictureBox42,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox43,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox44,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox45,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox46,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox47,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox48,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox49,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox50,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox51,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel70.ResumeLayout(false)
-        Me.GroupBox4.ResumeLayout(false)
-        CType(Me.NumericUpDown21,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown22,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown23,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox52,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox5.ResumeLayout(false)
-        CType(Me.NumericUpDown24,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown25,System.ComponentModel.ISupportInitialize).EndInit
-        Me.TabPage5.ResumeLayout(false)
-        Me.GroupBox6.ResumeLayout(false)
-        CType(Me.NumericUpDown26,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox7.ResumeLayout(false)
-        CType(Me.NumericUpDown27,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox8.ResumeLayout(false)
-        CType(Me.NumericUpDown28,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox9.ResumeLayout(false)
-        CType(Me.NumericUpDown29,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox10.ResumeLayout(false)
-        CType(Me.NumericUpDown30,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox11.ResumeLayout(false)
-        CType(Me.NumericUpDown31,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel71.ResumeLayout(false)
-        Me.Panel72.ResumeLayout(false)
-        CType(Me.NumericUpDown32,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox53,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel73.ResumeLayout(false)
-        Me.Panel74.ResumeLayout(false)
-        CType(Me.NumericUpDown33,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox54,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel75.ResumeLayout(false)
-        Me.Panel76.ResumeLayout(false)
-        CType(Me.NumericUpDown34,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox55,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel77.ResumeLayout(false)
-        Me.Panel78.ResumeLayout(false)
-        CType(Me.NumericUpDown35,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox56,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel79.ResumeLayout(false)
-        Me.Panel80.ResumeLayout(false)
-        CType(Me.NumericUpDown36,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox57,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel81.ResumeLayout(false)
-        Me.Panel82.ResumeLayout(false)
-        CType(Me.NumericUpDown37,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox58,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel83.ResumeLayout(false)
-        Me.Panel84.ResumeLayout(false)
-        CType(Me.NumericUpDown38,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox59,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel85.ResumeLayout(false)
-        Me.Panel86.ResumeLayout(false)
-        CType(Me.NumericUpDown39,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox60,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel87.ResumeLayout(false)
-        Me.Panel88.ResumeLayout(false)
-        CType(Me.NumericUpDown40,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox61,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel89.ResumeLayout(false)
-        Me.Panel90.ResumeLayout(false)
-        CType(Me.NumericUpDown41,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox62,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel91.ResumeLayout(false)
-        Me.Panel92.ResumeLayout(false)
-        CType(Me.NumericUpDown42,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox63,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel93.ResumeLayout(false)
-        Me.Panel94.ResumeLayout(false)
-        CType(Me.NumericUpDown43,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox64,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel95.ResumeLayout(false)
-        Me.Panel96.ResumeLayout(false)
-        CType(Me.NumericUpDown44,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox65,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel97.ResumeLayout(false)
-        Me.Panel98.ResumeLayout(false)
-        CType(Me.NumericUpDown45,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox66,System.ComponentModel.ISupportInitialize).EndInit
-        Me.TabPage6.ResumeLayout(false)
-        CType(Me.PictureBox67,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox68,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel99.ResumeLayout(false)
+        CType(Me.PictureBox40, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox41, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown19, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown20, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel69.ResumeLayout(False)
+        CType(Me.PictureBox42, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox43, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox44, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox45, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox46, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox47, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox48, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox49, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox50, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel70.ResumeLayout(False)
+        Me.GroupBox4.ResumeLayout(False)
+        CType(Me.NumericUpDown21, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown22, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown23, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox52, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox5.ResumeLayout(False)
+        CType(Me.NumericUpDown24, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown25, System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabPage5.ResumeLayout(False)
+        Me.GroupBox6.ResumeLayout(False)
+        CType(Me.NumericUpDown26, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox7.ResumeLayout(False)
+        CType(Me.NumericUpDown27, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox8.ResumeLayout(False)
+        CType(Me.NumericUpDown28, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox9.ResumeLayout(False)
+        CType(Me.NumericUpDown29, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox10.ResumeLayout(False)
+        CType(Me.NumericUpDown30, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox11.ResumeLayout(False)
+        CType(Me.NumericUpDown31, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel71.ResumeLayout(False)
+        Me.Panel72.ResumeLayout(False)
+        CType(Me.NumericUpDown32, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox53, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel73.ResumeLayout(False)
+        Me.Panel74.ResumeLayout(False)
+        CType(Me.NumericUpDown33, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox54, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel75.ResumeLayout(False)
+        Me.Panel76.ResumeLayout(False)
+        CType(Me.NumericUpDown34, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox55, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel77.ResumeLayout(False)
+        Me.Panel78.ResumeLayout(False)
+        CType(Me.NumericUpDown35, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox56, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel79.ResumeLayout(False)
+        Me.Panel80.ResumeLayout(False)
+        CType(Me.NumericUpDown36, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel81.ResumeLayout(False)
+        Me.Panel82.ResumeLayout(False)
+        CType(Me.NumericUpDown37, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel83.ResumeLayout(False)
+        Me.Panel84.ResumeLayout(False)
+        CType(Me.NumericUpDown38, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel85.ResumeLayout(False)
+        Me.Panel86.ResumeLayout(False)
+        CType(Me.NumericUpDown39, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel87.ResumeLayout(False)
+        Me.Panel88.ResumeLayout(False)
+        CType(Me.NumericUpDown40, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel89.ResumeLayout(False)
+        Me.Panel90.ResumeLayout(False)
+        CType(Me.NumericUpDown41, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel91.ResumeLayout(False)
+        Me.Panel92.ResumeLayout(False)
+        CType(Me.NumericUpDown42, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel93.ResumeLayout(False)
+        Me.Panel94.ResumeLayout(False)
+        CType(Me.NumericUpDown43, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel95.ResumeLayout(False)
+        Me.Panel96.ResumeLayout(False)
+        CType(Me.NumericUpDown44, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox65, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel97.ResumeLayout(False)
+        Me.Panel98.ResumeLayout(False)
+        CType(Me.NumericUpDown45, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabPage6.ResumeLayout(False)
+        CType(Me.PictureBox67, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox68, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel99.ResumeLayout(False)
         Me.Panel99.PerformLayout
-        CType(Me.NumericUpDown46,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox12.ResumeLayout(false)
-        CType(Me.NumericUpDown47,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox13.ResumeLayout(false)
-        CType(Me.NumericUpDown48,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox14.ResumeLayout(false)
-        CType(Me.NumericUpDown49,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox15.ResumeLayout(false)
-        CType(Me.NumericUpDown50,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox16.ResumeLayout(false)
-        CType(Me.NumericUpDown51,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox17.ResumeLayout(false)
-        CType(Me.NumericUpDown52,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox18.ResumeLayout(false)
-        CType(Me.NumericUpDown53,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox19.ResumeLayout(false)
-        CType(Me.NumericUpDown54,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox20.ResumeLayout(false)
-        CType(Me.NumericUpDown55,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox21.ResumeLayout(false)
-        CType(Me.NumericUpDown56,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox22.ResumeLayout(false)
-        CType(Me.NumericUpDown57,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox23.ResumeLayout(false)
-        CType(Me.NumericUpDown58,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox24.ResumeLayout(false)
-        CType(Me.NumericUpDown59,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox25.ResumeLayout(false)
-        CType(Me.NumericUpDown60,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox26.ResumeLayout(false)
-        CType(Me.NumericUpDown61,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox27.ResumeLayout(false)
-        CType(Me.NumericUpDown62,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox28.ResumeLayout(false)
-        CType(Me.NumericUpDown63,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox29.ResumeLayout(false)
-        CType(Me.NumericUpDown64,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox30.ResumeLayout(false)
-        CType(Me.NumericUpDown65,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox31.ResumeLayout(false)
-        CType(Me.NumericUpDown66,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox32.ResumeLayout(false)
-        CType(Me.NumericUpDown67,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox33.ResumeLayout(false)
-        CType(Me.NumericUpDown68,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox34.ResumeLayout(false)
-        CType(Me.NumericUpDown69,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox35.ResumeLayout(false)
-        CType(Me.NumericUpDown70,System.ComponentModel.ISupportInitialize).EndInit
-        Me.GroupBox36.ResumeLayout(false)
-        CType(Me.NumericUpDown71,System.ComponentModel.ISupportInitialize).EndInit
-        Me.TabPage7.ResumeLayout(false)
-        Me.TabControl8.ResumeLayout(false)
-        Me.TabPage8.ResumeLayout(false)
-        Me.Panel100.ResumeLayout(false)
-        CType(Me.PictureBox69,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel101.ResumeLayout(false)
-        CType(Me.NumericUpDown72,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel102.ResumeLayout(false)
-        CType(Me.PictureBox70,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel103.ResumeLayout(false)
-        CType(Me.NumericUpDown73,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel104.ResumeLayout(false)
-        CType(Me.PictureBox71,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel105.ResumeLayout(false)
-        CType(Me.NumericUpDown74,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel106.ResumeLayout(false)
-        CType(Me.PictureBox72,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel107.ResumeLayout(false)
-        CType(Me.NumericUpDown75,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel108.ResumeLayout(false)
-        CType(Me.PictureBox73,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel109.ResumeLayout(false)
-        CType(Me.NumericUpDown76,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel110.ResumeLayout(false)
-        CType(Me.PictureBox74,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel111.ResumeLayout(false)
-        CType(Me.NumericUpDown77,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel112.ResumeLayout(false)
-        CType(Me.PictureBox75,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel113.ResumeLayout(false)
-        CType(Me.NumericUpDown78,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel114.ResumeLayout(false)
-        CType(Me.PictureBox76,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel115.ResumeLayout(false)
-        CType(Me.NumericUpDown79,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel116.ResumeLayout(false)
-        CType(Me.PictureBox77,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel117.ResumeLayout(false)
-        CType(Me.NumericUpDown80,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel118.ResumeLayout(false)
-        CType(Me.PictureBox78,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel119.ResumeLayout(false)
-        CType(Me.NumericUpDown81,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown82,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel120.ResumeLayout(false)
-        CType(Me.PictureBox79,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel121.ResumeLayout(false)
-        CType(Me.NumericUpDown83,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel122.ResumeLayout(false)
-        CType(Me.PictureBox80,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel123.ResumeLayout(false)
-        CType(Me.NumericUpDown84,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel124.ResumeLayout(false)
-        CType(Me.PictureBox81,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel125.ResumeLayout(false)
-        CType(Me.NumericUpDown85,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel126.ResumeLayout(false)
-        CType(Me.PictureBox82,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel127.ResumeLayout(false)
-        CType(Me.NumericUpDown86,System.ComponentModel.ISupportInitialize).EndInit
-        Me.TabPage9.ResumeLayout(false)
-        Me.Panel128.ResumeLayout(false)
-        CType(Me.PictureBox83,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel129.ResumeLayout(false)
-        CType(Me.NumericUpDown87,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel130.ResumeLayout(false)
-        CType(Me.PictureBox84,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel131.ResumeLayout(false)
-        CType(Me.NumericUpDown88,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel132.ResumeLayout(false)
-        CType(Me.PictureBox85,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel133.ResumeLayout(false)
-        CType(Me.NumericUpDown89,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel134.ResumeLayout(false)
-        CType(Me.PictureBox86,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel135.ResumeLayout(false)
-        CType(Me.NumericUpDown90,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel136.ResumeLayout(false)
-        CType(Me.PictureBox87,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel137.ResumeLayout(false)
-        CType(Me.NumericUpDown91,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel138.ResumeLayout(false)
-        CType(Me.PictureBox88,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel139.ResumeLayout(false)
-        CType(Me.NumericUpDown92,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel140.ResumeLayout(false)
-        CType(Me.PictureBox89,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel141.ResumeLayout(false)
-        CType(Me.NumericUpDown93,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel142.ResumeLayout(false)
-        CType(Me.PictureBox90,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel143.ResumeLayout(false)
-        CType(Me.NumericUpDown94,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel144.ResumeLayout(false)
-        CType(Me.PictureBox91,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel145.ResumeLayout(false)
-        CType(Me.NumericUpDown95,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel146.ResumeLayout(false)
-        CType(Me.PictureBox92,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel147.ResumeLayout(false)
-        CType(Me.NumericUpDown96,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel148.ResumeLayout(false)
-        CType(Me.PictureBox93,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel149.ResumeLayout(false)
-        CType(Me.NumericUpDown97,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel150.ResumeLayout(false)
-        CType(Me.PictureBox94,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel151.ResumeLayout(false)
-        CType(Me.NumericUpDown98,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel152.ResumeLayout(false)
-        CType(Me.PictureBox95,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel153.ResumeLayout(false)
-        CType(Me.NumericUpDown99,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel154.ResumeLayout(false)
-        CType(Me.PictureBox96,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel155.ResumeLayout(false)
-        CType(Me.NumericUpDown100,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel156.ResumeLayout(false)
-        Me.Panel157.ResumeLayout(false)
-        Me.ResumeLayout(false)
+        CType(Me.NumericUpDown46, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox12.ResumeLayout(False)
+        CType(Me.NumericUpDown47, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox13.ResumeLayout(False)
+        CType(Me.NumericUpDown48, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox14.ResumeLayout(False)
+        CType(Me.NumericUpDown49, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox15.ResumeLayout(False)
+        CType(Me.NumericUpDown50, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox16.ResumeLayout(False)
+        CType(Me.NumericUpDown51, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox17.ResumeLayout(False)
+        CType(Me.NumericUpDown52, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox18.ResumeLayout(False)
+        CType(Me.NumericUpDown53, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox19.ResumeLayout(False)
+        CType(Me.NumericUpDown54, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox20.ResumeLayout(False)
+        CType(Me.NumericUpDown55, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox21.ResumeLayout(False)
+        CType(Me.NumericUpDown56, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox22.ResumeLayout(False)
+        CType(Me.NumericUpDown57, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox23.ResumeLayout(False)
+        CType(Me.NumericUpDown58, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox24.ResumeLayout(False)
+        CType(Me.NumericUpDown59, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox25.ResumeLayout(False)
+        CType(Me.NumericUpDown60, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox26.ResumeLayout(False)
+        CType(Me.NumericUpDown61, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox27.ResumeLayout(False)
+        CType(Me.NumericUpDown62, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox28.ResumeLayout(False)
+        CType(Me.NumericUpDown63, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox29.ResumeLayout(False)
+        CType(Me.NumericUpDown64, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox30.ResumeLayout(False)
+        CType(Me.NumericUpDown65, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox31.ResumeLayout(False)
+        CType(Me.NumericUpDown66, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox32.ResumeLayout(False)
+        CType(Me.NumericUpDown67, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox33.ResumeLayout(False)
+        CType(Me.NumericUpDown68, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox34.ResumeLayout(False)
+        CType(Me.NumericUpDown69, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox35.ResumeLayout(False)
+        CType(Me.NumericUpDown70, System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox36.ResumeLayout(False)
+        CType(Me.NumericUpDown71, System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabPage7.ResumeLayout(False)
+        Me.TabControl8.ResumeLayout(False)
+        Me.TabPage8.ResumeLayout(False)
+        Me.Panel100.ResumeLayout(False)
+        CType(Me.PictureBox69, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel101.ResumeLayout(False)
+        CType(Me.NumericUpDown72, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel102.ResumeLayout(False)
+        CType(Me.PictureBox70, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel103.ResumeLayout(False)
+        CType(Me.NumericUpDown73, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel104.ResumeLayout(False)
+        CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel105.ResumeLayout(False)
+        CType(Me.NumericUpDown74, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel106.ResumeLayout(False)
+        CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel107.ResumeLayout(False)
+        CType(Me.NumericUpDown75, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel108.ResumeLayout(False)
+        CType(Me.PictureBox73, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel109.ResumeLayout(False)
+        CType(Me.NumericUpDown76, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel110.ResumeLayout(False)
+        CType(Me.PictureBox74, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel111.ResumeLayout(False)
+        CType(Me.NumericUpDown77, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel112.ResumeLayout(False)
+        CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel113.ResumeLayout(False)
+        CType(Me.NumericUpDown78, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel114.ResumeLayout(False)
+        CType(Me.PictureBox76, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel115.ResumeLayout(False)
+        CType(Me.NumericUpDown79, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel116.ResumeLayout(False)
+        CType(Me.PictureBox77, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel117.ResumeLayout(False)
+        CType(Me.NumericUpDown80, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel118.ResumeLayout(False)
+        CType(Me.PictureBox78, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel119.ResumeLayout(False)
+        CType(Me.NumericUpDown81, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.NumericUpDown82, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel120.ResumeLayout(False)
+        CType(Me.PictureBox79, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel121.ResumeLayout(False)
+        CType(Me.NumericUpDown83, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel122.ResumeLayout(False)
+        CType(Me.PictureBox80, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel123.ResumeLayout(False)
+        CType(Me.NumericUpDown84, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel124.ResumeLayout(False)
+        CType(Me.PictureBox81, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel125.ResumeLayout(False)
+        CType(Me.NumericUpDown85, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel126.ResumeLayout(False)
+        CType(Me.PictureBox82, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel127.ResumeLayout(False)
+        CType(Me.NumericUpDown86, System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabPage9.ResumeLayout(False)
+        Me.Panel128.ResumeLayout(False)
+        CType(Me.PictureBox83, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel129.ResumeLayout(False)
+        CType(Me.NumericUpDown87, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel130.ResumeLayout(False)
+        CType(Me.PictureBox84, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel131.ResumeLayout(False)
+        CType(Me.NumericUpDown88, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel132.ResumeLayout(False)
+        CType(Me.PictureBox85, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel133.ResumeLayout(False)
+        CType(Me.NumericUpDown89, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel134.ResumeLayout(False)
+        CType(Me.PictureBox86, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel135.ResumeLayout(False)
+        CType(Me.NumericUpDown90, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel136.ResumeLayout(False)
+        CType(Me.PictureBox87, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel137.ResumeLayout(False)
+        CType(Me.NumericUpDown91, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel138.ResumeLayout(False)
+        CType(Me.PictureBox88, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel139.ResumeLayout(False)
+        CType(Me.NumericUpDown92, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel140.ResumeLayout(False)
+        CType(Me.PictureBox89, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel141.ResumeLayout(False)
+        CType(Me.NumericUpDown93, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel142.ResumeLayout(False)
+        CType(Me.PictureBox90, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel143.ResumeLayout(False)
+        CType(Me.NumericUpDown94, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel144.ResumeLayout(False)
+        CType(Me.PictureBox91, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel145.ResumeLayout(False)
+        CType(Me.NumericUpDown95, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel146.ResumeLayout(False)
+        CType(Me.PictureBox92, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel147.ResumeLayout(False)
+        CType(Me.NumericUpDown96, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel148.ResumeLayout(False)
+        CType(Me.PictureBox93, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel149.ResumeLayout(False)
+        CType(Me.NumericUpDown97, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel150.ResumeLayout(False)
+        CType(Me.PictureBox94, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel151.ResumeLayout(False)
+        CType(Me.NumericUpDown98, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel152.ResumeLayout(False)
+        CType(Me.PictureBox95, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel153.ResumeLayout(False)
+        CType(Me.NumericUpDown99, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel154.ResumeLayout(False)
+        CType(Me.PictureBox96, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel155.ResumeLayout(False)
+        CType(Me.NumericUpDown100, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel156.ResumeLayout(False)
+        Me.Panel157.ResumeLayout(False)
+        Me.ResumeLayout(False)
 
-End Sub
+    End Sub
     Friend WithEvents Closebutton As System.Windows.Forms.PictureBox
     Friend WithEvents MSE_icon As System.Windows.Forms.PictureBox
     Friend WithEvents Text_description As System.Windows.Forms.Label
@@ -16861,5 +16968,12 @@ End Sub
     Friend WithEvents Panel157 As System.Windows.Forms.Panel
     Friend WithEvents Label20 As System.Windows.Forms.Label
     Friend WithEvents File_path_cottage As System.Windows.Forms.TextBox
-
+    Friend WithEvents Tab_hero_management As TabPage
+    Friend WithEvents Panel26 As Panel
+    Friend WithEvents Text_restoremii As Label
+    Friend WithEvents Text_restore_Mii As TextBox
+    Friend WithEvents Panel31 As Panel
+    Friend WithEvents Text_extractmii As Label
+    Friend WithEvents Text_extract_Mii As TextBox
+    Friend WithEvents Label18 As Label
 End Class

@@ -114,7 +114,8 @@ Public Class Miitopia_SE
     Dim Epuipctcat As String
     Dim Epuipwpelf As String
     Dim Epuipctelf As String
-
+    Dim Miidata As String
+    Dim SVEMII As String
     Public Sub Hidemenu() ' MSE Functions
         If Menu_panel.Width = 34 Then
             Menu_panel.Location = New Point(-35, 57)
@@ -876,7 +877,7 @@ Public Class Miitopia_SE
                     MSE_iconupdate.Visible = True
                     If Select_language.SelectedItem = Select_language.Items.Item(0) Then
                         fdialog.Title.Text = "Miitopia Save Editor : Update"
-                        fdialog.Msg.Text = "An update is avalible, click on Miitopia Save Editor icon to download new version"
+                        fdialog.Msg.Text = "An update is available, click on Miitopia Save Editor icon to download new version"
                         fdialog.ShowDialog()
                     ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
                         fdialog.Title.Text = "Miitopia Save Editor : Mise à jour"
@@ -10138,6 +10139,9 @@ Public Class Miitopia_SE
                     Reader.Position = &H364
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(1) Then
@@ -10353,6 +10357,9 @@ Public Class Miitopia_SE
                     Reader.Position = &H364 + &H398
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + &H398
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
@@ -10568,6 +10575,9 @@ Public Class Miitopia_SE
                     Reader.Position = &H364 + (&H398 * 2)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H398 * 2)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(3) Then
@@ -10783,6 +10793,9 @@ Public Class Miitopia_SE
                     Reader.Position = &H364 + (&H398 * 3)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H398 * 3)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(4) Then
@@ -10998,6 +11011,9 @@ Public Class Miitopia_SE
                     Reader.Position = &H364 + (&H398 * 4)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H398 * 4)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(5) Then
@@ -11213,6 +11229,9 @@ Public Class Miitopia_SE
                     Reader.Position = &H364 + (&H398 * 5)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H398 * 5)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(6) Then
@@ -11428,6 +11447,9 @@ Public Class Miitopia_SE
                     Reader.Position = &H364 + (&H398 * 6)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H398 * 6)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(7) Then
@@ -11643,6 +11665,9 @@ Public Class Miitopia_SE
                     Reader.Position = &H364 + (&H398 * 7)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H398 * 7)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(8) Then
@@ -11858,6 +11883,9 @@ Public Class Miitopia_SE
                     Reader.Position = &H364 + (&H398 * 8)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H398 * 8)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(9) Then
@@ -12073,6 +12101,9 @@ Public Class Miitopia_SE
                     Reader.Position = &H364 + (&H398 * 9)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H398 * 9)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
             End If
             If Filever_text.Text = "JP" Then
@@ -12291,6 +12322,9 @@ Public Class Miitopia_SE
                     Reader.Position = &H344
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(1) Then
@@ -12506,6 +12540,9 @@ Public Class Miitopia_SE
                     Reader.Position = &H344 + &H378
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + &H378
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
                 If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
@@ -12721,9 +12758,12 @@ Public Class Miitopia_SE
                     Reader.Position = &H344 + (&H378 * 2)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H378 * 2)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
-                If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
+                If Select_Mii.SelectedItem = Select_Mii.Items.Item(3) Then
                     Reader.Position = &H70 + (&H378 * 3)
                     Miiname = Reader.Position
                     Text_Mii_name.Text = Reader.ReadUnicodeString(10)
@@ -12936,9 +12976,12 @@ Public Class Miitopia_SE
                     Reader.Position = &H344 + (&H378 * 3)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H378 * 3)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
-                If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
+                If Select_Mii.SelectedItem = Select_Mii.Items.Item(4) Then
                     Reader.Position = &H70 + (&H378 * 4)
                     Miiname = Reader.Position
                     Text_Mii_name.Text = Reader.ReadUnicodeString(10)
@@ -13151,9 +13194,12 @@ Public Class Miitopia_SE
                     Reader.Position = &H344 + (&H378 * 4)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H378 * 4)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
-                If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
+                If Select_Mii.SelectedItem = Select_Mii.Items.Item(5) Then
                     Reader.Position = &H70 + (&H378 * 5)
                     Miiname = Reader.Position
                     Text_Mii_name.Text = Reader.ReadUnicodeString(10)
@@ -13366,9 +13412,12 @@ Public Class Miitopia_SE
                     Reader.Position = &H344 + (&H378 * 5)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H378 * 5)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
-                If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
+                If Select_Mii.SelectedItem = Select_Mii.Items.Item(6) Then
                     Reader.Position = &H70 + (&H378 * 6)
                     Miiname = Reader.Position
                     Text_Mii_name.Text = Reader.ReadUnicodeString(10)
@@ -13581,9 +13630,12 @@ Public Class Miitopia_SE
                     Reader.Position = &H344 + (&H378 * 6)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H378 * 6)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
-                If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
+                If Select_Mii.SelectedItem = Select_Mii.Items.Item(7) Then
                     Reader.Position = &H70 + (&H378 * 7)
                     Miiname = Reader.Position
                     Text_Mii_name.Text = Reader.ReadUnicodeString(10)
@@ -13796,9 +13848,12 @@ Public Class Miitopia_SE
                     Reader.Position = &H344 + (&H378 * 7)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H378 * 7)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
-                If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
+                If Select_Mii.SelectedItem = Select_Mii.Items.Item(8) Then
                     Reader.Position = &H70 + (&H378 * 8)
                     Miiname = Reader.Position
                     Text_Mii_name.Text = Reader.ReadUnicodeString(10)
@@ -14011,9 +14066,12 @@ Public Class Miitopia_SE
                     Reader.Position = &H344 + (&H378 * 8)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H378 * 8)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
 
-                If Select_Mii.SelectedItem = Select_Mii.Items.Item(2) Then
+                If Select_Mii.SelectedItem = Select_Mii.Items.Item(9) Then
                     Reader.Position = &H70 + (&H378 * 9)
                     Miiname = Reader.Position
                     Text_Mii_name.Text = Reader.ReadUnicodeString(10)
@@ -14226,6 +14284,9 @@ Public Class Miitopia_SE
                     Reader.Position = &H344 + (&H378 * 9)
                     Epuipctelf = Reader.Position
                     valu_epuipct_elf.Value = Reader.ReadUInt32
+                    Reader.Position = &H8 + (&H378 * 9)
+                    Miidata = Reader.Position
+                    Text_extract_Mii.Text = Reader.ReadHexString(&H7C)
                 End If
             End If
             readequipements()
@@ -18744,131 +18805,99 @@ Public Class Miitopia_SE
         End If
     End Sub
 
-    Private Sub text_save_hero_MouseMove(sender As Object, e As MouseEventArgs) Handles Text_save_hero.MouseMove
-
+    Private Sub Text_extractmii_Click(sender As Object, e As EventArgs) Handles Text_extractmii.Click
+        Try
+            Dim SaveFileDialog1 As New SaveFileDialog
+            SaveFileDialog1.Filter = "Miitopia Mii Appareance|*.MIITOPIAMIIA"
+            SaveFileDialog1.FileName = Text_Mii_name.Text & "_" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute
+            If SaveFileDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
+                Dim Writer1 As New System.IO.StreamWriter(SaveFileDialog1.FileName)
+                Writer1.Close()
+                Dim Writer As New PackageIO.Writer(SaveFileDialog1.FileName, PackageIO.Endian.Little)
+                Writer.WriteHexString(Text_extract_Mii.Text)
+                If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                    fdialog.Title.Text = "Miitopia Save Editor : Extract Mii appareance"
+                    fdialog.Msg.Text = "This Mii has been successfully extracted"
+                    fdialog.ShowDialog()
+                ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                    fdialog.Title.Text = "Miitopia Save Editor : Extraire Mii"
+                    fdialog.Msg.Text = "Ce Mii a été extrait avec succès"
+                    fdialog.ShowDialog()
+                End If
+            End If
+        Catch ex As Exception
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Extract Mii appareance"
+                fdialog.Msg.Text = "Failed to extract this Mii"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Extraire Mii"
+                fdialog.Msg.Text = "Échec de l'extraction de ce Mii"
+                fdialog.ShowDialog()
+            End If
+        End Try
     End Sub
 
-    Private Sub text_open_hero_MouseMove(sender As Object, e As MouseEventArgs) Handles Text_open_hero.MouseMove, Button_save_hero.MouseMove
-
+    Private Sub Text_restoremii_Click(sender As Object, e As EventArgs) Handles Text_restoremii.Click
+        If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+            fdialog.Title.Text = "Miitopia Save Editor : Restore Mii appareance"
+            fdialog.Msg.Text = "This Mii will be replace (only appareance)" & vbNewLine & "You can use Mii files from Tomodachi Life Save Editor"
+            fdialog.ShowDialog()
+        ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+            fdialog.Title.Text = "Miitopia Save Editor : Restore Mii"
+            fdialog.Msg.Text = "Ce Mii va être remplacer (seulement l'apparence)" & vbNewLine & "Vous pouvez utiliser des fichiers Mii de Tomodachi Life Save Editor"
+            fdialog.ShowDialog()
+        End If
+        Dim open As New OpenFileDialog
+        open.Filter = "Mii files|*.MIITOPIAMIIA;*.TLMII"
+        open.Title = "Open compatible files"
+        open.ShowDialog()
+        SVEMII = open.FileName
+        ReadSVEMII()
+        RestoreMii()
     End Sub
 
-    Private Sub Fea_epuipwp_warrior_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_warrior.MouseMove
-
+    Public Sub ReadSVEMii()
+        Try
+            Dim ReadTLMii As New PackageIO.Reader(SVEMII, PackageIO.Endian.Little)
+            ReadTLMii.Position = &H0
+            Text_restore_Mii.Text = ReadTLMii.ReadHexString(&H7C)
+        Catch ex As Exception
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Restore Mii appareance"
+                fdialog.Msg.Text = "Failed to read Mii file"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Restore Mii"
+                fdialog.Msg.Text = "Échec de la lecture de ce Mii"
+                fdialog.ShowDialog()
+            End If
+        End Try
     End Sub
-
-    Private Sub Fea_epuipwp_mage_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_mage.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipwp_cleric_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_cleric.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipwp_thief_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_thief.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipwp_popstar_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_popstar.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipwp_vampire_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_vampire.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipwp_chef_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_chef.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipwp_tank_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_tank.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipwp_imp_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_imp.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipwp_princess_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_princess.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipwp_flower_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_flower.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipwp_scientist_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_scientist.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipwp_cat_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_cat.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipwp_elf_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipwp_elf.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_warrior_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_warrior.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_mage_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_mage.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_cleric_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_cleric.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_thief_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_thief.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_popstar_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_popstar.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_vampire_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_vampire.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_chef_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_chef.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_tank_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_tank.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_imp_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_imp.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_princess_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_princess.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_flower_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_flower.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_scientist_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_scientist.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_cat_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_cat.MouseMove
-
-    End Sub
-
-    Private Sub Fea_epuipct_elf_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_epuipct_elf.MouseMove
-
-    End Sub
-
-    Private Sub Icon_job_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_job.MouseMove
-
-    End Sub
-
-    Private Sub Icon_tummy_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_tummy.MouseMove
-
+    Public Sub RestoreMii()
+        Try
+            Dim writer As New PackageIO.Writer(hero, PackageIO.Endian.Little)
+            writer.Position = Miidata
+            writer.WriteHexString(Text_restore_Mii.Text)
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Restore Mii appareance"
+                fdialog.Msg.Text = "This Mii has been replace"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Restore Mii"
+                fdialog.Msg.Text = "Ce Mii a été remplacé"
+                fdialog.ShowDialog()
+            End If
+        Catch ex As Exception
+            If Select_language.SelectedItem = Select_language.Items.Item(0) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Restore Mii appareance"
+                fdialog.Msg.Text = "Failed to replace this Mii"
+                fdialog.ShowDialog()
+            ElseIf Select_language.SelectedItem = Select_language.Items.Item(1) Then
+                fdialog.Title.Text = "Miitopia Save Editor : Restore Mii"
+                fdialog.Msg.Text = "Le Mii n'a pas été remplacé"
+                fdialog.ShowDialog()
+            End If
+        End Try
     End Sub
 End Class

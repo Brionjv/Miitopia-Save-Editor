@@ -33,7 +33,6 @@ D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\De
 D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Debug\Miitopia-Save-Editor.pdb
 D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Debug\Miitopia-Save-Editor.xml
 D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\bin\Debug\PackageIO.dll
-D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Debug\Miitopia-Save-Editor.vbprojAssemblyReference.cache
 D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Debug\Miitopia_Save_Editor.Miitopia_SE.resources
 D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Debug\Miitopia_Save_Editor.Form2.resources
 D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Debug\Miitopia_Save_Editor.Grub_editor.resources
@@ -45,3 +44,4 @@ D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\De
 D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Debug\Miitopia-Save-Editor.exe
 D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Debug\Miitopia-Save-Editor.xml
 D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Debug\Miitopia-Save-Editor.pdb
+D:\Users\brice\Documents\Github\Miitopia-Save-Editor\Miitopia-Save-Editor\obj\Debug\Miitopia-Save-Editor.vbproj.AssemblyReference.cache
